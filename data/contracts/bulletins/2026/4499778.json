@@ -13,81 +13,666 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "VIASAT Inc., (FA880726FB004), and INTELSAT General Communications LLC, (FA880726FB005), have been awarded a combined $437,665,005 firm-fixed-price, indefinite‐delivery/indefinite‐quantity, delivery contract for the procurement of space vehicles in support of the Protected Tactical Satellite-Global program. Work will be performed at the listed contractors' locations and is expected to be completed by March 19, 2029. These awards are the result of a competitive Fair Opportunity acquisition solicitation, and five offers were received. Fiscal 2026 research, development, test and evaluation funds in the amount of $150,000,000 are being obligated at the time of award. The Space Systems Command, Los Angeles Air Force Base, Los Angeles, California, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA880726FB004",
+          "FA880726FB005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 437665005.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000000.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $150,000,000 are being obligated at the time of award",
+        "completion_date": "2029-03-19",
+        "contracting_activity": {
+          "name": "The Space Systems Command, Los Angeles Air Force Base, Los Angeles, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "VIASAT Inc.",
+            "location": null,
+            "contract_number": "FA880726FB004",
+            "markers": null
+          },
+          {
+            "name": "INTELSAT General Communications LLC",
+            "location": null,
+            "contract_number": "FA880726FB005",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity delivery contract",
+        "description": "Procurement of space vehicles for the Protected Tactical Satellite-Global program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 437665005,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000000,
+        "fms_countries": [],
+        "competition": "competitive Fair Opportunity acquisition, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Parsons Government Services Inc., Centreville, Virginia, was awarded a $28,835,351 cost and cost-plus-fixed-fee, term task order for field site support for global application research, development, engineering and maintenance operational capabilities. This task order provides functional onsite, training, demonstrations, enhancements, modifications, integration, testing, deployments and maintenance of technologies and concepts in support of global application research, development, engineering and maintenance software baselines. Work will be performed at Centreville, Virginia, and is expected to be completed by May 16, 2031. This task order was a competitive acquisition and one offer was received. Fiscal 2026 operations and maintenance funds in the amount of $478,261 are being obligated at time of award. The Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-26-F-B006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA875026FB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28835351.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 478261.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds in the amount of $478,261 are being obligated at time of award",
+        "completion_date": "2031-05-16",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-26-F-B006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Parsons Government Services Inc.",
+            "location": "Centreville, Virginia",
+            "contract_number": "FA8750-26-F-B006",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost and cost-plus-fixed-fee term task order",
+        "description": "Field site support for global application research, development, engineering and maintenance operational capabilities",
+        "base_contract_number": null,
+        "order_number": "FA8750-26-F-B006",
+        "modification_number": null,
+        "value_usd": 28835351,
+        "cumulative_value_usd": null,
+        "obligated_usd": 478261,
+        "fms_countries": [],
+        "competition": "competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Deloitte & Touche LLP, Arlington, Virginia, was awarded a $249,000,000 firm-fixed-price, time-and-materials contract to provide non-personal services for enterprise-level solutions development, integration, and innovation acceleration in support of the Army Organic Industrial Base modernization implementation plan. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 21, 2031. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9124P-26-D-A002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9124P26DA002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-05-21",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9124P-26-D-A002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Deloitte & Touche LLP",
+            "location": "Arlington, Virginia",
+            "contract_number": "W9124P-26-D-A002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, time-and-materials contract",
+        "description": "Non-personal services for enterprise-level solutions development, integration, and innovation acceleration supporting Army Organic Industrial Base modernization implementation plan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "KHOTOL Services Corp., Warrensburg, Missouri, was awarded a $15,000,000 firm-fixed-price contract for repair, maintenance, and minor construction requirements in the Frontier (Kansas and Nebraska) Region. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2031. Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-26-D-A019).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911SA26DA019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-05-31",
+        "contracting_activity": {
+          "name": "Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-26-D-A019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "KHOTOL Services Corp.",
+            "location": "Warrensburg, Missouri",
+            "contract_number": "W911SA-26-D-A019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Repair, maintenance, and minor construction requirements in the Frontier (Kansas and Nebraska) Region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "KHOTOL Services Corp., Warrensburg, Missouri, was awarded a $15,000,000 firm-fixed-price contract for a job order contract to fulfill repair, maintenance, and minor construction requirements in the Motor City Region, Michigan. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2031. Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-26-D-A018).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W911SA26DA018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-05-31",
+        "contracting_activity": {
+          "name": "Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-26-D-A018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "KHOTOL Services Corp.",
+            "location": "Warrensburg, Missouri",
+            "contract_number": "W911SA-26-D-A018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price job order contract",
+        "description": "Job order contract for repair, maintenance, and minor construction requirements in the Motor City Region, Michigan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Polaris Government & Defense, Medina, Minnesota, is awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a maximum contract ceiling, including all ordering years, of $98,245,654. This contract is for Ultra-Light Tactical Vehicle Production of Logistics and High-Power variants to provide to the operational forces capable of internal transport on MV-22 tilt rotor and HC-53 rotary wing aircraft for employment during littoral operations. This procurement will meet Force Design 2030 priority integration and fielding of systems in accordance with fielding schedules of III Marine Expeditionary Force (MEF), II MEF, supporting establishments, and integrated programs. Work will be performed in Medina, Minnesota, and shipped according to each individual delivery order based upon the fielding schedules and needs of the MEF's or supporting establishments and to the extent that funds are authorized and appropriated by Congress with an expected completion date of May 2031. No funds will be obligated at time of award of the indefinite-delivery/indefinite-quantity contract. Funds will be obligated on individual delivery orders as they are issued. This contract was a sole source acquisition pursuant to Federal Acquisition Regulation 6.302-1(a)(2)(iii). Program Acquisition Executive - Marine Corps, Quantico, Virginia, is the contracting activity (M67854-26-D-0053).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "M6785426D0053"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 98245654.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award of the indefinite-delivery/indefinite-quantity contract Funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2031-05",
+        "contracting_activity": {
+          "name": "Program Acquisition Executive - Marine Corps, Quantico, Virginia",
+          "code": "M67854-26-D-0053"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Polaris Government & Defense",
+            "location": "Medina, Minnesota",
+            "contract_number": "M67854-26-D-0053",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract with maximum ceiling",
+        "description": "Ultra-Light Tactical Vehicle production of Logistics and High-Power variants for Marine Corps operational forces",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 98245654,
+        "cumulative_value_usd": 98245654,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source, FAR 6.302-1(a)(2)(iii)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Norfolk Ship Repair Inc., Norfolk, Virginia, is awarded a $17,450,962 modification to exercise options on a previously awarded contract (N00024-26-C-4405) for the USS Iwo Jima FY 26 Selected Restricted Availability. Work will be performed in Norfolk, Virginia, and is expected to be completed by May 2028. Fiscal 2026 Other Procurement, Navy funds in the amount of $17,450,962 will be obligated at the time of award and are not scheduled to expire in the current fiscal year. Mid Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002426C4405"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17450962.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17450962.0,
+        "funding_text": "Fiscal 2026 Other Procurement, Navy funds in the amount of $17,450,962 will be obligated at the time of award and are not scheduled to expire in the current fiscal year",
+        "completion_date": "2028-05",
+        "contracting_activity": {
+          "name": "Mid Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "BAE Systems Norfolk Ship Repair Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00024-26-C-4405",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Option exercise for USS Iwo Jima FY 26 Selected Restricted Availability",
+        "base_contract_number": "N00024-26-C-4405",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17450962,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17450962,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Missiles and Fire Control, Orlando, Florida, is awarded a $16,006,069 modification (P00002) to a firm-fixed-price contract (N0001925C0009). This modification is for the procurement of 239 Acalis 3U VPX commercial off the shelf cards to address obsolescence and ensure continued support for the Infrared Search and Track Processor System. Work will be performed in Orlando, Florida, and is expected to be completed in December 2028. Fiscal 2025 aircraft procurement (Navy) funds in the amount of $6,295,274; fiscal 2024 aircraft procurement (Navy) funds in the amount of $9,375,940; and Foreign Military Sales funds in the amount of $334,855 will be obligated at the time of award, $9,375,940 of which will expire at the end of the current fiscal year. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001925C0009"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 16006069.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16006069.0,
+        "funding_text": "Fiscal 2025 aircraft procurement (Navy) funds in the amount of $6,295,274; fiscal 2024 aircraft procurement (Navy) funds in the amount of $9,375,940; and Foreign Military Sales funds in the amount of $334,855 will be obligated at the time of award, $9,375,940 of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Missiles and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": "N0001925C0009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of 239 Acalis 3U VPX commercial off the shelf cards for Infrared Search and Track Processor System obsolescence",
+        "base_contract_number": "N0001925C0009",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 16006069,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16006069,
+        "fms_countries": [
+          "Foreign Military Sales"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Reinhart Foodservice LLC, Valdosta, Georgia, has been awarded a maximum $75,108,333 firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for full-line food and beverage items. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 273-day contract with no option periods. The ordering period end date is Feb. 20, 2027. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-26-D-3015).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE30026D3015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 75108333.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-26-D-3015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Reinhart Foodservice LLC",
+            "location": "Valdosta, Georgia",
+            "contract_number": "SPE300-26-D-3015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Full-line food and beverage items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 75108333,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 3204(a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Data Monitor Systems Inc.,** Midwest City, Oklahoma, has been awarded a maximum $26,393,814 firm-fixed-price contract for government-owned, contractor-operated aircraft/ground fuels services and fuels storage and distribution at Naval Air Station Key West, Florida. This was a competitive acquisition with four responses received. This is a four-year base contract with one five-year option and six one-month extension period, not exceeding six months. The performance completion date is June 30, 2030. The type of appropriation is fiscal 2026 defense working capital funds. The contracting activity is Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE603-26-C-5014).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE60326C5014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26393814.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE603-26-C-5014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Service-disabled, veteran-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Data Monitor Systems Inc.",
+            "location": "Midwest City, Oklahoma",
+            "contract_number": "SPE603-26-C-5014",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Government-owned, contractor-operated aircraft/ground fuels services and fuel storage and distribution at Naval Air Station Key West, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26393814,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bernard Cap LLC,* Hialeah, Florida, has been awarded a maximum $9,183,620 modification (P00012) exercising the fourth one-year option period of a one-year base contract (SPE1C1-22-D-5043) with four one-year option periods for men's and women's blue jumpers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is May 23, 2027. Using military service is Navy. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania. (Awarded on May 20, 2026)",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D5043"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 9183620.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Bernard Cap LLC",
+            "location": "Hialeah, Florida",
+            "contract_number": "SPE1C1-22-D-5043",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Fourth one-year option exercise for men's and women's blue jumpers",
+        "base_contract_number": "SPE1C1-22-D-5043",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 9183620,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-05-20"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on May 15, 2026, for National Industries for the Blind,*** Alexandria, Virginia (SPE1C1-26-D-B005), for $44,846,175 was announced with an incorrect award date. The correct award date is May 20, 2026. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126DB005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 44846175.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "***",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "National Industries for the Blind",
+            "location": "Alexandria, Virginia",
+            "contract_number": "SPE1C1-26-D-B005",
+            "markers": "***"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to award date of contract announced May 15, 2026 for $44,846,175",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44846175,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-05-20"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Casual Performance Inc.,* Vernon, California (SPE1C1-26-D-0037, $763,082,470), has been added as an awardee to the multiple award contract for physical fitness gear, issued again solicitation SPE1C1-25-R-0130 and awarded April 22, 2026. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0037",
+          "SPE1C125R0130"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 763082470.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Casual Performance Inc.",
+            "location": "Vernon, California",
+            "contract_number": "SPE1C1-26-D-0037",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Adds Casual Performance Inc. as an awardee to the multiple award contract for physical fitness gear (solicitation SPE1C1-25-R-0130, awarded April 22, 2026)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 763082470,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-05-22.html"
+  "source": "file:2026-05-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:23:45Z"
+  }
 }

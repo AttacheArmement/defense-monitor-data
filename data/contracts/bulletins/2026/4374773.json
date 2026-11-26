@@ -9,15 +9,104 @@
       "agency": null,
       "kind": "announcement",
       "text": "L3 Harris Fuzing and Ordnance Systems Inc., Cincinnati, Ohio, has been awarded a maximum $18,463,883 firm-fixed-price, indefinite-delivery/indefinite-quality contract for safety and arming devices. This was a sole-source acquisition using justifications 10 U.S. Code 3204 (c)(1), as stated in Federal Acquisition Regulation 6.302-1 (a)(2). This is a five-year contract with no option periods. Location of performance is Pennsylvania, with a Jan. 31, 2031, performance completion date. Using customer is Army Aviation & Missile Command. Type of appropriations is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Redstone Arsenal, Alabama (SPRRA2-26-D-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA226D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18463883.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Redstone Arsenal, Alabama",
+          "code": "SPRRA2-26-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "L3 Harris Fuzing and Ordnance Systems Inc.",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "SPRRA2-26-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quality contract",
+        "description": "Safety and arming devices",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18463883,
+        "cumulative_value_usd": 18463883,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 3204(c)(1); FAR 6.302-1(a)(2))",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Abhe & Svoboda Inc., Jordan, Minnesota, was awarded a $12,945,925 firm-fixed-price contract to repair Tainter gates and associated items, including all related incidental work. Bids were solicited via the internet with three received. Work will be performed in Spiro, Oklahoma, with an estimated completion date of Sept. 4, 2029. Fiscal 2026 civil construction funds in the amount of $12,945,925 were obligated at the time of the award. U.S. Army Corps of Engineers, Tulsa District, is the contracting activity (W912BV-26-C-A002).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912BV26CA002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12945925.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12945925.0,
+        "funding_text": "Fiscal 2026 civil construction funds in the amount of $12,945,925 were obligated at the time of the award",
+        "completion_date": "2029-09-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa District",
+          "code": "W912BV-26-C-A002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Abhe & Svoboda Inc.",
+            "location": "Jordan, Minnesota",
+            "contract_number": "W912BV-26-C-A002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair of Tainter gates and associated items, including all related incidental work (Spiro, Oklahoma)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12945925,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12945925,
+        "fms_countries": [],
+        "competition": "internet solicitation, 3 offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-01-09.html"
+  "source": "file:2026-01-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:38:06Z"
+  }
 }

@@ -12,69 +12,565 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, has been awarded a maximum $196,636,862 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for various tactical airborne navigation systems spare parts. This was a sole-source acquisition using 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulations 6.302-1. This is a five-year base contract with one five-year option period. The performance completion date is May 19, 2029. Using military service is Army. Type of appropriation is fiscal 2024 through 2029 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-24-D-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL124D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 196636862.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-24-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "SPRBL1-24-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Tactical airborne navigation systems spare parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 196636862,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bernard Cap LLC,* Hialeah, Florida, has been awarded a maximum $8,960,500 modification (P00005) exercising the second one-year option period of a one-year base contract (SPE1C1-22-D-5043) with four one-year option periods for men's and women's blue jumpers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is May 23, 2025. Using military service is Navy. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D5043"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 8960500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Bernard Cap LLC",
+            "location": "Hialeah, Florida",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Men's and women's blue jumpers; exercise of second one-year option period",
+        "base_contract_number": "SPE1C1-22-D-5043",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 8960500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Goodwill Services Inc.,** Richmond, Virginia, has been awarded a maximum $8,863,398 firm-fixed-price for base supply store support services. This is a one-year base contract with four one-year option periods. The performance completion is June 30, 2025, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Contracting Services Office Richmond, Virginia (SP4703-24-C-0013).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SP470324C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8863398.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office Richmond, Virginia",
+          "code": "SP4703-24-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory Source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Goodwill Services Inc.",
+            "location": "Richmond, Virginia",
+            "contract_number": "SP4703-24-C-0013",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Base supply store support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8863398,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Pacific Rim Constructors Inc.,* Tamuning, Guam, is awarded a $176,929,610 firm-fixed-price contract for design and construction (design-build) for the replacement of Andersen Housing Phases VII and VIII, Naval Support Activity Andersen, Guam. Work will be performed in Yigo, Guam, and is expected to be completed by December 2028. Fiscal 2024 family housing (Navy) funds in the amount of $176,929,610 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the sam.gov website, with four proposals received. The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-24-C-1331).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6274224C1331"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 176929610.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 176929610.0,
+        "funding_text": "Fiscal 2024 family housing (Navy) funds in the amount of $176,929,610 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-24-C-1331"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Pacific Rim Constructors Inc.",
+            "location": "Tamuning, Guam",
+            "contract_number": "N62742-24-C-1331",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price design-build",
+        "description": "Replacement of Andersen Housing Phases VII and VIII, Naval Support Activity Andersen, Guam",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 176929610,
+        "cumulative_value_usd": null,
+        "obligated_usd": 176929610,
+        "fms_countries": [],
+        "competition": "competitive, sam.gov, four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Oceaneering International Inc., Hanover, Maryland, is awarded a $17,775,259 cost-plus-fixed-fee modification to a previously awarded contract (N00024-20-C-4315) for continued support of the Navy's domestic and international submarine rescue program, Submarine Rescue Operations Maintenance Contractor. Work will be performed in San Diego, California, and is expected to be completed by September 2024. Fiscal 2024 operations and maintenance (Navy) funds in the amount of $5,256,607 will be obligated at the time of award, and funds in the amount of $5,256,607 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C4315"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17775259.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10513214.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the amount of $5,256,607 will be obligated at the time of award, and funds in the amount of $5,256,607 will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Oceaneering International Inc.",
+            "location": "Hanover, Maryland",
+            "contract_number": "N00024-20-C-4315",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Submarine Rescue Operations Maintenance Contractor support for the Navy's submarine rescue program",
+        "base_contract_number": "N00024-20-C-4315",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17775259,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5256607,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded a $7,964,183 modification (P00003) to a firm-fixed-price order (N0001923F0267) against a previously issued basic ordering agreement (N0001921G0006). This modification exercises an option to reconstitute 29 All-Up-Round Encapsulated Harpoon Missiles for the Navy. Work will be performed in St. Charles, Missouri (100%), and is expected to be completed in September 2025. Fiscal 2024 operations and maintenance (Navy) funds in the amount of $7,964,183 will be obligated at the time of award, $7,964,183 of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001923F0267",
+          "N0001921G0006"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 7964183.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7964183.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the amount of $7,964,183 will be obligated at the time of award, $7,964,183 of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001923F0267",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Option to reconstitute 29 All-Up-Round Encapsulated Harpoon Missiles",
+        "base_contract_number": "N0001921G0006",
+        "order_number": "N0001923F0267",
+        "modification_number": "P00003",
+        "value_usd": 7964183,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7964183,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DZSP 21 LLC, Marlton, New Jersey, is awarded a $7,856,351 modification to previously awarded cost-plus-award-fee contract (N40192-23-C-5300) to provide additional work and funds for option period three for base operation support services, Joint Region Marianas, Guam. This award brings the cumulative value of the contract to $398,977,419. Work will be performed at various Navy, Marine Corps, and Air Force installations in Joint Region Marianas, Guam, and is expected to be completed by July 2024. Fiscal 2024 operation and maintenance (Navy); fiscal 2024 operation and maintenance (Marine Corps); and fiscal 2024 operation and maintenance (Department of Defense) funds in the amount of $7,856,351, will be obligated at time of award and will expire at the end of the current fiscal year. Naval Facilities Engineering Systems Command Marianas, Guam, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N4019223C5300"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7856351.0,
+        "cumulative_value_usd": 398977419.0,
+        "obligated_usd": 7856351.0,
+        "funding_text": "Fiscal 2024 operation and maintenance (Navy); fiscal 2024 operation and maintenance (Marine Corps); and fiscal 2024 operation and maintenance (Department of Defense) funds in the amount of $7,856,351, will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Marianas, Guam",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "DZSP 21 LLC",
+            "location": "Marlton, New Jersey",
+            "contract_number": "N40192-23-C-5300",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Additional work and funds for option period three, base operation support services, Joint Region Marianas, Guam",
+        "base_contract_number": "N40192-23-C-5300",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7856351,
+        "cumulative_value_usd": 398977419,
+        "obligated_usd": 7856351,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CACI NSS Inc., Colorado Springs, Colorado, has been awarded a $54,198,829 modification (P00317) to previously awarded FA8823-16-C-0004 for the Satellite Control Network. This contract modification provides a one-year extension, in quarterly intervals, to avoid a break in service while waiting for the Satellite Control Network Tracking Station Operations, Remote Site, and Mission Partner Support follow-on contract to be awarded. The extension will be exercised in quarterly increments to afford the government the flexibility to offramp to the follow-on contract upon award. The modification brings the total cumulative face value of the contract to $668,642,992. Work will be performed in Colorado Springs, Colorado, and is expected to be completed by May 20, 2025. Fiscal 2024 operation and maintenance funds in the amount of $13,570,353 are being obligated at time of award. Space Systems Command, Peterson Space Force Base, Colorado, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA882316C0004"
+        ],
+        "modification_numbers": [
+          "P00317"
+        ],
+        "is_modification": true,
+        "value_usd": 54198829.0,
+        "cumulative_value_usd": 668642992.0,
+        "obligated_usd": 13570353.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $13,570,353 are being obligated at time of award",
+        "completion_date": "2025-05-20",
+        "contracting_activity": {
+          "name": "Space Systems Command, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "CACI NSS Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8823-16-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "One-year extension in quarterly increments for the Satellite Control Network",
+        "base_contract_number": "FA8823-16-C-0004",
+        "order_number": null,
+        "modification_number": "P00317",
+        "value_usd": 54198829,
+        "cumulative_value_usd": 668642992,
+        "obligated_usd": 13570353,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dewatto Bay Services LLC, Lilliwaup, Washington, was awarded a $10,000,000 firm-fixed-price contract for repair and maintenance projects. Bids were solicited via the internet with nine received. Work locations and funding will be determined with each order, with an estimated completion date of May 19, 2029. 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-24-D-2010).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W911SA24D2010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-05-19",
+        "contracting_activity": {
+          "name": "Work locations and funding will be determined with each order, with an estimated completion date of May 19, 2029. 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-24-D-2010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Dewatto Bay Services LLC",
+            "location": "Lilliwaup, Washington",
+            "contract_number": "W911SA-24-D-2010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair and maintenance projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, nine bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "H&H Builders Inc., Tooele, Utah, was awarded a $10,000,000 firm-fixed-price contract for sustainment, restoration and modernization projects. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of May 19, 2029. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911SA-24-D-2013).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W911SA24D2013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-05-19",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911SA-24-D-2013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "H&H Builders Inc.",
+            "location": "Tooele, Utah",
+            "contract_number": "W911SA-24-D-2013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Sustainment, restoration and modernization projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Interactive Process Technology LLC,* Burlington, Massachusetts, was awarded a $9,341,000 modification (P00018) to contract W31P4Q-23-F-0020 to support information technology services. Work will be performed at Redstone Arsenal, Alabama, with an estimated completion date of Oct. 25, 2024. Fiscal 2024 research, development, test and evaluation, Army funds in the amount of $9,341,000 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23F0020"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": true,
+        "value_usd": 9341000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9341000.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation, Army funds in the amount of $9,341,000 were obligated at the time of the award",
+        "completion_date": "2024-10-25",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Interactive Process Technology LLC",
+            "location": "Burlington, Massachusetts",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology services at Redstone Arsenal",
+        "base_contract_number": "W31P4Q-23-F-0020",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 9341000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9341000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-05-20.html"
+  "source": "file:2024-05-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:49:16Z"
+  }
 }

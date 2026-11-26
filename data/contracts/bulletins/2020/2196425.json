@@ -9,69 +9,601 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Electric Aviation, Lynn, Massachusetts, has been awarded a maximum $394,149,546 firm-fixed price, requirements contract for supplies related to the J85 engine. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year, six-month base contract with one four-year, six-month option period. Location of performance is Massachusetts, with a Nov. 30, 2025, performance completion date. Using military services are Air Force and Navy. Type of appropriation is fiscal 2020 through 2025 defense appropriated funds and working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4AX-20-D-9445)..",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE4AX20D9445"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 394149546.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia (SPE4AX-20-D-9445).",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Electric Aviation",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "SPE4AX-20-D-9445",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Supplies related to the J85 engine (five-year, six-month base with one four-year, six-month option)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 394149546,
+        "cumulative_value_usd": 394149546,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1); FAR 6.302-1)",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AR6-Cram Roofing JV LLC,* New Braunfels, Texas (W912QR-20-D-0014); Brazos Roofing International of South Dakota Inc.,* Waco, Texas (W912QR-20-D-0015); Curtis-McKinley Roofing & Sheet Metal Inc.,* Longview, Texas (W912QR-20-D-0016); CYE Enterprises Inc.,* Jacksonville, Florida (W912QR-20-D-0017; Legacy Joint Venture Group LLC,* Warner Robins, Georgia (W912QR-20-D-0018); Pacific Federal-Pacific Tech JV 1 LLLP,* Longview, Washington (W912QR-20-D-0019); and Tabcon Inc.,* Queen Creek, Arizona (W912QR-20-D-0020), will compete for each order of the $95,000,000 firm-fixed-price contract for building envelope, roof repair and replacement construction. Bids were solicited via the internet with nine received. Work locations and funding will be determined with each order, with an estimated completion date of May 21, 2025. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912QR20D0014",
+          "W912QR20D0015",
+          "W912QR20D0016",
+          "W912QR20D0017",
+          "W912QR20D0018",
+          "W912QR20D0019",
+          "W912QR20D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-05-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "AR6-Cram Roofing JV LLC",
+            "location": "New Braunfels, Texas",
+            "contract_number": "W912QR-20-D-0014",
+            "markers": "*"
+          },
+          {
+            "name": "Brazos Roofing International of South Dakota Inc.",
+            "location": "Waco, Texas",
+            "contract_number": "W912QR-20-D-0015",
+            "markers": "*"
+          },
+          {
+            "name": "Curtis-McKinley Roofing & Sheet Metal Inc.",
+            "location": "Longview, Texas",
+            "contract_number": "W912QR-20-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "CYE Enterprises Inc.",
+            "location": "Jacksonville, Florida",
+            "contract_number": "W912QR-20-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "Legacy Joint Venture Group LLC",
+            "location": "Warner Robins, Georgia",
+            "contract_number": "W912QR-20-D-0018",
+            "markers": "*"
+          },
+          {
+            "name": "Pacific Federal-Pacific Tech JV 1 LLLP",
+            "location": "Longview, Washington",
+            "contract_number": "W912QR-20-D-0019",
+            "markers": "*"
+          },
+          {
+            "name": "Tabcon Inc.",
+            "location": "Queen Creek, Arizona",
+            "contract_number": "W912QR-20-D-0020",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Building envelope, roof repair and replacement construction",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AMTEC Corp.,* Janesville, Wisconsin, was awarded a $44,442,929 modification (P00022) to contract W52P1J-17-C-0051 for 40mm grenade systems and M385A1 and M918 projectiles. Work will be performed in Janesville, Wisconsin, with an estimated completion date of July 29, 2022. Fiscal 2020 procurement of ammunition, Army funds in the amount of $22,221,464 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J17C0051"
+        ],
+        "modification_numbers": [
+          "P00022"
+        ],
+        "is_modification": true,
+        "value_usd": 44442929.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22221464.0,
+        "funding_text": "Fiscal 2020 procurement of ammunition, Army funds in the amount of $22,221,464 were obligated at the time of the award",
+        "completion_date": "2022-07-29",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "AMTEC Corp.",
+            "location": "Janesville, Wisconsin",
+            "contract_number": "W52P1J-17-C-0051",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "40mm grenade systems and M385A1 and M918 projectiles",
+        "base_contract_number": "W52P1J-17-C-0051",
+        "order_number": null,
+        "modification_number": "P00022",
+        "value_usd": 44442929,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22221464,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Diversified Construction of Oklahoma Inc.,* Edmind, Oklahoma, was awarded a $22,500,000 firm-fixed-price contract for repair, maintenance and minor construction work. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of May 22, 2025. U.S. Army Corps of Engineers, Tulsa, Oklahoma, is the contracting activity (W912BV-20-D-0033).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912BV20D0033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-05-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa, Oklahoma",
+          "code": "W912BV-20-D-0033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Diversified Construction of Oklahoma Inc.",
+            "location": "Edmind, Oklahoma",
+            "contract_number": "W912BV-20-D-0033",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair, maintenance and minor construction work",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, six received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "USSC Acquisition Corp., Exton, Pennsylvania, was awarded an $11,643,980 firm-fixed-price contract to procure commander seats, driver seats and passenger seats for the Heavy Equipment Transporter Urban Survivability Kit. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 28, 2025. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W9098S-20-D-0011).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9098S20D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11643980.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-05-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W9098S-20-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "USSC Acquisition Corp.",
+            "location": "Exton, Pennsylvania",
+            "contract_number": "W9098S-20-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Commander, driver and passenger seats for the Heavy Equipment Transporter Urban Survivability Kit",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11643980,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Affigent LLC,* Herndon, Virginia, was awarded an $11,312,007 firm-fixed-price contract for Oracle Premier Support maintenance on previously acquired licenses. Bids were solicited via the internet with two received. Work will be performed in Herndon, Virginia, with an estimated completion date of May 24, 2022. Fiscal 2020 operations and maintenance, Army funds in the amount of $8,983,911 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-20-F-0356).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J20F0356"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11312007.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8983911.0,
+        "funding_text": "Fiscal 2020 operations and maintenance, Army funds in the amount of $8,983,911 were obligated at the time of the award",
+        "completion_date": "2022-05-24",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-20-F-0356"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Affigent LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "W52P1J-20-F-0356",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Oracle Premier Support maintenance on previously acquired licenses",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11312007,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8983911,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Carahsoft Technology Corp., Reston, Virginia, has been awarded an $81,000,000 firm-fixed-price contract to deliver a software development and information technology operations environment to support the Space Command and Control Division under the Cross Mission and Ground Communications Enterprise Corps. This contract provides support for the creation and implementation of the development operations goal of increasing the velocity of software delivery (agile software development). Work will be performed in El Segundo, California, and is expected to be completed by May 21, 2023. The total cumulative face value of the contract is $81,000,000. Fiscal 2020 research, development, test and evaluation funds in the amount of $10,311,555 are being obligated at the time of award. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity (FA8806-20-F-0003).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA880620F0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 81000000.0,
+        "cumulative_value_usd": 81000000.0,
+        "obligated_usd": 10311555.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation funds in the amount of $10,311,555 are being obligated at the time of award",
+        "completion_date": "2023-05-21",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": "FA8806-20-F-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Carahsoft Technology Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8806-20-F-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Software development and IT operations environment for the Space Command and Control Division under the Cross Mission and Ground Communications Enterprise Corps",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 81000000,
+        "cumulative_value_usd": 81000000,
+        "obligated_usd": 10311555,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Applied Research Associates Inc., Dayton, Ohio, has been awarded a $24,725,858 cost-plus-fixed-fee contract for the research and development of algorithms and tools to produce high-quality radio frequency modeling data. Work will be performed at Wright-Patterson Air Force Base, Ohio, and is expected to be completed by Sept. 30, 2025. Fiscal 2020 research development, test and evaluation funds in the amount of $100,000 are being obligated at the time of award. Air Force Research Laboratory, Wright-Patterson AFB, Ohio, is the contracting activity (FA8650-20-C-1132).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA865020C1132"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24725858.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2020 research development, test and evaluation funds in the amount of $100,000 are being obligated at the time of award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson AFB, Ohio",
+          "code": "FA8650-20-C-1132"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Applied Research Associates Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-20-C-1132",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Research and development of algorithms and tools to produce high-quality radio frequency modeling data",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24725858,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Leland Stanford Junior University, Stanford, California, was awarded a $30,114,182 cost reimbursement contract for a research project to study the securing of our national internet infrastructure using measurement, control, and verification for closed-loop control of networks, also known as the Pronto project. The Pronto project will research the creation and deployment of a network, to include 5G, under verifiable closed-loop control as an exemplar for others in government, industry, and education to replicate. Work will be performed in Stanford, California (17%); Menlo Park, California (68%); Ithaca, New York (8%); and Princeton, New Jersey (7%), with an expected completion date of May 2023. Fiscal 2020 research, development, test and evaluation funding in the amount of $5,076,000 is being obligated at time of award. This contract was a competitive acquisition under an open office broad agency announcement and 30 offers were received. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001120C0107).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "HR001120C0107"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30114182.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5076000.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation funding in the amount of $5,076,000 is being obligated at time of award",
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR001120C0107"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Leland Stanford Junior University",
+            "location": "Stanford, California",
+            "contract_number": "HR001120C0107",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost reimbursement contract",
+        "description": "Pronto project: securing national internet infrastructure using measurement, control and verification for closed-loop control of networks, including 5G",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30114182,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5076000,
+        "fms_countries": [],
+        "competition": "competitive, open office broad agency announcement, 30 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "SPACE DEVELOPMENT AGENCY",
       "kind": "announcement",
       "text": "Goodrich Corp., doing business as Collins Aerospace, Danbury, Connecticut, was awarded a $19,057,548 not-to-exceed, undefinitized contract action for the Multi-band Overhead Persistent Infrared Payload (MBOP) effort. MBOP is a flight ready satellite payload with a unique, advantageous modular sensor configuration. The proposal was received and evaluated under broad agency announcement HQ0850-20-S-0001. Work will be performed at the contractor's facility in Danbury, Connecticut, with an estimated completion date of May 22, 2022. Fiscal 2020 research and development funds in the amount of $6,500,000 were obligated at the time of award. Space Development Agency, Washington, D.C., is the contracting activity (HQ0850-20-C-0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HQ085020S0001",
+          "HQ085020C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19057548.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6500000.0,
+        "funding_text": "Fiscal 2020 research and development funds in the amount of $6,500,000 were obligated at the time of award",
+        "completion_date": "2022-05-22",
+        "contracting_activity": {
+          "name": "Space Development Agency, Washington, D.C.",
+          "code": "HQ0850-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Goodrich Corp., doing business as Collins Aerospace",
+            "location": "Danbury, Connecticut",
+            "contract_number": "HQ0850-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Multi-band Overhead Persistent Infrared Payload (MBOP) effort",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19057548,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6500000,
+        "fms_countries": [],
+        "competition": "broad agency announcement HQ0850-20-S-0001",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Marana Tactical Flight LLC, Marana, Arizona (H92240-20-D-0017), was awarded a $9,900,000 maximum single award, indefinite-delivery/indefinite-quantity contract with an ordering period of up to five years for military freefall services in support of Naval Special Warfare Command enterprise requirements. Fiscal 2020 operations and maintenance funds in the amount of $2,500 are being obligated at the time of award. The work will be performed in various locations in the U.S. and may continue through fiscal 2025. The contract was awarded competitively using Federal Acquisition Regulation, Part 15 procedures with five proposals received. Naval Special Warfare Command, Coronado, California, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "H9224020D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the amount of $2,500 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Special Warfare Command, Coronado, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Marana Tactical Flight LLC",
+            "location": "Marana, Arizona",
+            "contract_number": "H92240-20-D-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Military freefall services for Naval Special Warfare Command enterprise requirements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive, FAR Part 15, five proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:42Z",
-  "source": "file:2020-05-22.html"
+  "source": "file:2020-05-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:43:54Z"
+  }
 }

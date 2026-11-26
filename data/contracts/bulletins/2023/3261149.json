@@ -12,57 +12,481 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bechtel Plant Machinery Inc., Monroeville, Pennsylvania, is awarded a $140,225,056 cost-plus-fixed-fee modification to previously awarded contract N00024-19-C-2112 for Naval Nuclear Propulsion Components. Work will be performed in Monroeville, Pennsylvania (91%); and Schenectady, New York (9%). Fiscal 2023 other procurement (Navy) funds in the amount of $13,513,337 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2112"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 140225056.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13513337.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $13,513,337 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bechtel Plant Machinery Inc.",
+            "location": "Monroeville, Pennsylvania",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Naval Nuclear Propulsion Components modification",
+        "base_contract_number": "N00024-19-C-2112",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 140225056,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13513337,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Corp., Melbourne, Florida, is awarded a $15,509,880 firm-fixed-price delivery order (N00383-23-F-S50R) under previously awarded basic ordering agreement N00383-22-G-S501 for overhaul of power amplifier modules in support of the E-2D aircraft. All work will be completed by September 2025 with no option periods. Work will be performed in Woodland Hills, California (95%); and Liverpool, New York (5%). Annual working capital funds (Navy) in the full amount will be obligated at the time of award and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0038323FS50R",
+          "N0038322GS501"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15509880.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Annual working capital funds (Navy) in the full amount will be obligated at the time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Corp.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N00383-23-F-S50R",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Overhaul of power amplifier modules for E-2D aircraft",
+        "base_contract_number": "N00383-22-G-S501",
+        "order_number": "N00383-23-F-S50R",
+        "modification_number": null,
+        "value_usd": 15509880,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15509880,
+        "fms_countries": [],
+        "competition": "sole source; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Pascagoula, Mississippi, is awarded a $10,516,400 cost-plus-fixed-fee contract (N00024-23-C-2324) for the DDG 1000 and DDG 1001 modernization period planning. Work will be performed in Pascagoula, Mississippi, and is expected to be completed by December 2023. Fiscal 2023 other procurement (Navy) funds in the amount of $9,744,650 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procures in accordance with 10 U.S. Code 2304(c)(1) — only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-23-C-2324).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C2324"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10516400.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9744650.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $9,744,650 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-23-C-2324"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Pascagoula, Mississippi",
+            "contract_number": "N00024-23-C-2324",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "DDG 1000 and DDG 1001 modernization period planning",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10516400,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9744650,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S.C. 2304(c)(1), only one responsible source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "M1 Support Services, Denton, Texas, has been awarded an $83,365,717 firm-fixed-price contract modification (P00030) to contract FA489021C0002 for aircraft maintenance services at Nellis Air Force Base, Nevada. The contract modification is for the exercise of Option Two under the basic contract for an additional year of services. Work will be performed at Nellis AFB, and is expected to be completed Dec. 31, 2023. Fiscal 2023 operation and maintenance funds in the amount of $82,278,175 are being obligated at the time of award. Total cumulative face value of the contract is $234,364,932. Acquisition Management and Integration Center, Langley AFB, Virginia, is the contracting activity. (Awarded Dec. 31, 2022)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA489021C0002"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 83365717.0,
+        "cumulative_value_usd": 234364932.0,
+        "obligated_usd": 82278175.0,
+        "funding_text": "Fiscal 2023 operation and maintenance funds in the amount of $82,278,175 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Acquisition Management and Integration Center, Langley AFB, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "M1 Support Services",
+            "location": "Denton, Texas",
+            "contract_number": "FA489021C0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price contract modification",
+        "description": "Aircraft maintenance services at Nellis Air Force Base, Nevada (Option Two exercise)",
+        "base_contract_number": "FA489021C0002",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 83365717,
+        "cumulative_value_usd": 234364932,
+        "obligated_usd": 82278175,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-12-31"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Knowledge Based Systems Inc., College Station, Texas, was awarded a $49,950,000 single award, indefinite-delivery/indefinite-quantity contract with cost-plus-fixed-fee task orders for research and development. This contract provides for primary research of the Avionics Systems Susceptibility and Risk Analysis Toolkit ability to develop model-based cybersecurity and resiliency analysis capability, and the integration of cybersecurity models in a digital engineering ecosystem. Work will be performed in College Station, Texas, and is expected to be completed by Dec. 30, 2029. This contract is the result of a sole source acquisition. Fiscal 2022, research and development funds in the amount of $495,000; and fiscal 2023, research and development funds in the amount of $150,000 are being obligated at time of award for the first task order. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-23-D-1061 and FA8650-23-F-1062, Task Order 1).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA865023D1061",
+          "FA865023F1062"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 645000.0,
+        "funding_text": "Fiscal 2022, research and development funds in the amount of $495,000; and fiscal 2023, research and development funds in the amount of $150,000 are being obligated at time of award for the first task order",
+        "completion_date": "2029-12-30",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Knowledge Based Systems Inc.",
+            "location": "College Station, Texas",
+            "contract_number": "FA8650-23-D-1061",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "single award IDIQ with cost-plus-fixed-fee task orders",
+        "description": "Research and development on Avionics Systems Susceptibility and Risk Analysis Toolkit cybersecurity and resiliency analysis",
+        "base_contract_number": null,
+        "order_number": "FA8650-23-F-1062, Task Order 1",
+        "modification_number": null,
+        "value_usd": 49950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 645000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The $84,786,547 contract announced Dec. 27, 2022, to Aero Turbine Inc., Stockton, California, for technical, logistics management, and repair requirements for the return of unserviceable J85 components to serviceable condition, was actually awarded Dec. 30, 2022 (FA8122-23-D-0004).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA812223D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 84786547.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Aero Turbine Inc.",
+            "location": "Stockton, California",
+            "contract_number": "FA8122-23-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: technical, logistics management, and repair for return of unserviceable J85 components to serviceable condition; actual award date Dec. 30, 2022",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 84786547,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-12-30"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Jacobs Engineering Group Inc., Arlington, Virginia (W9128F-23-D-0015); HDR Engineering Inc., Omaha, Nebraska (W9128F-23-D-0016); Atkins - Black & Veatch - FSB JV,* Denver, Colorado (W9128F-23-D-0017); AECOM Technical Services Inc., Los Angeles, California (W9128F-23-D-0018); and Pond-Baker JV, Norcross, Georgia (W9128F-23-D-0019), will compete for each order of the $30,000,000 firm-fixed-price contract for architect-engineer services. Bids were solicited via the internet with 11 received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 5, 2028. U.S. Army Corps of Engineers, Omaha, Nebraska, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9128F23D0015",
+          "W9128F23D0016",
+          "W9128F23D0017",
+          "W9128F23D0018",
+          "W9128F23D0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-01-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Omaha, Nebraska",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Jacobs Engineering Group Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W9128F-23-D-0015",
+            "markers": null
+          },
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Omaha, Nebraska",
+            "contract_number": "W9128F-23-D-0016",
+            "markers": null
+          },
+          {
+            "name": "Atkins - Black & Veatch - FSB JV",
+            "location": "Denver, Colorado",
+            "contract_number": "W9128F-23-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W9128F-23-D-0018",
+            "markers": null
+          },
+          {
+            "name": "Pond-Baker JV",
+            "location": "Norcross, Georgia",
+            "contract_number": "W9128F-23-D-0019",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract for architect-engineer services",
+        "description": "Architect-engineer services multiple award pool",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 11 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: On Nov. 22, 2022, a contract (W519TC-23-F-0022) was announced for $8,729,277 to Accord Federal Services,* Knoxville, Tennessee, for logistics support services at Fort Rucker, Alabama. However, that contract was not awarded.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W519TC23F0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8729277.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Accord Federal Services",
+            "location": "Knoxville, Tennessee",
+            "contract_number": "W519TC-23-F-0022",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: Nov. 22, 2022 announcement of logistics support services at Fort Rucker, Alabama was not awarded",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8729277,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Kandor Manufacturing Inc.,** Arecibo, Puerto Rico, has been awarded a maximum $23,095,200 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for coats and trousers. This was a competitive acquisition with six responses received. This is a one-year base contract with four one-year option periods. The ordering period end date is Jan. 5, 2024. Using military service is the Navy. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-23-D-0008).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23095200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-23-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small-disadvantaged business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Kandor Manufacturing Inc.",
+            "location": "Arecibo, Puerto Rico",
+            "contract_number": "SPE1C1-23-D-0008",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Coats and trousers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23095200,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, six responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2023-01-06.html"
+  "source": "file:2023-01-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:45:02Z"
+  }
 }

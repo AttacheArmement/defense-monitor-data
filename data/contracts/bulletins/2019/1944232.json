@@ -11,69 +11,621 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AECOM International Inc., Neu-Isenburg, Germany (W912GB-19-D-0028); Atkins-UC JV,* Alexandria, Virginia (W912GB-19-D-0029); Exp-Onyx JV LLP, Chicago, Illinois (W912GB-19-D-0030); HDR Engineering Inc., Colorado Springs, Colorado (W912GB-19-D-0031); Jacobs Government Services Co., Arlington, Virginia (W912GB-19-D-0032); Louis Berger U.S. Inc., Washington, District of Columbia (W912GB-19-D-0033); Michael Baker-Cardno JV, Moon Township, Pennsylvania (W912GB-19-D-0034); Parsons Government Services Inc., San Antonio, Texas (W912GB-19-D-0035); and Woolpert-Black & Veatch JV, Beavercreek, Ohio (W912GB-19-D-0036), will compete for each order of the $94,500,000 firm-fixed-price contract for architect, engineering, master planning and design services. Bids were solicited via the internet with 11 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 25, 2024. U.S. Army Corps of Engineers, Wiesbaden, Germany, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912GB19D0028",
+          "W912GB19D0029",
+          "W912GB19D0030",
+          "W912GB19D0031",
+          "W912GB19D0032",
+          "W912GB19D0033",
+          "W912GB19D0034",
+          "W912GB19D0035",
+          "W912GB19D0036"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 94500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-08-25",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Wiesbaden, Germany",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "AECOM International Inc.",
+            "location": "Neu-Isenburg, Germany",
+            "contract_number": "W912GB-19-D-0028",
+            "markers": null
+          },
+          {
+            "name": "Atkins-UC JV",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W912GB-19-D-0029",
+            "markers": "*"
+          },
+          {
+            "name": "Exp-Onyx JV LLP",
+            "location": "Chicago, Illinois",
+            "contract_number": "W912GB-19-D-0030",
+            "markers": null
+          },
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W912GB-19-D-0031",
+            "markers": null
+          },
+          {
+            "name": "Jacobs Government Services Co.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912GB-19-D-0032",
+            "markers": null
+          },
+          {
+            "name": "Louis Berger U.S. Inc.",
+            "location": "Washington, District of Columbia",
+            "contract_number": "W912GB-19-D-0033",
+            "markers": null
+          },
+          {
+            "name": "Michael Baker-Cardno JV",
+            "location": "Moon Township, Pennsylvania",
+            "contract_number": "W912GB-19-D-0034",
+            "markers": null
+          },
+          {
+            "name": "Parsons Government Services Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "W912GB-19-D-0035",
+            "markers": null
+          },
+          {
+            "name": "Woolpert-Black & Veatch JV",
+            "location": "Beavercreek, Ohio",
+            "contract_number": "W912GB-19-D-0036",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect, engineering, master planning and design services orders (competing for each order)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 94500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation; 11 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "QED Systems LLC, Aberdeen Proving Ground, Maryland, was awarded a $9,616,948 modification (P00041) to contract W15P7T-14-C-C012 for program management, engineering, logistics, business, administrative, operations and security services. Work will be performed in Aberdeen Proving Ground, Maryland, with an estimated completion date of Feb. 26, 2020. Fiscal 2019 Foreign Military Sales; and operations and maintenance, Army funds in the amount of $9,616,948 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W15P7T14CC012"
+        ],
+        "modification_numbers": [
+          "P00041"
+        ],
+        "is_modification": true,
+        "value_usd": 9616948.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9616948.0,
+        "funding_text": "Fiscal 2019 Foreign Military Sales; and operations and maintenance, Army funds in the amount of $9,616,948 were obligated at the time of the award",
+        "completion_date": "2020-02-26",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "QED Systems LLC",
+            "location": "Aberdeen Proving Ground, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Program management, engineering, logistics, business, administrative, operations and security services",
+        "base_contract_number": "W15P7T-14-C-C012",
+        "order_number": null,
+        "modification_number": "P00041",
+        "value_usd": 9616948,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9616948,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "UES Inc., Dayton, Ohio, has been awarded a $90,300,000 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for molecular assessment sensing technologies. This contract provides for basic, applied and advanced technology development research, as well as development and demonstration of discovery of molecular signatures of Airman performance and the operational environment and sensing of these signatures in Air Force relevant scenarios. Work will be performed at Wright-Patterson Air Force Base, Ohio, and is expected to be complete by Aug. 31, 2027. This award is the result of a competitive acquisition and two offers were received. Fiscal 2018 and 2019 research, development, test and evaluation funds in the amount of $2,222,857 on three task orders are being obligated at the time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-19-D-6109).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA865019D6109"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2222857.0,
+        "funding_text": "Fiscal 2018 and 2019 research, development, test and evaluation funds in the amount of $2,222,857 on three task orders are being obligated at the time of award",
+        "completion_date": "2027-08-31",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-19-D-6109"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "UES Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-19-D-6109",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract",
+        "description": "Molecular assessment sensing technologies research and development",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90300000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2222857,
+        "fms_countries": [],
+        "competition": "Competitive; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "PAE Aviation and Technical Services LLC, Marlton, New Jersey, has been awarded a $19,156,738 modification to previously awarded contract FA4890-15-C0018 for the Aerial Targets Program. The contract modification provides for the exercise of an option for an additional year of service under the multiple year contract, which directly supports live-fire weapons system testing and enables the 53rd Weapons Evaluation Group to perform developmental and operational weapons testing for all air-to-air missiles for the F-15, F-16, F-22, and F-35 aircraft. Work will be performed at Tyndall Air Force Base, Florida; and Holloman AFB, New Mexico, and is expected to be completed by Sept. 30, 2020. Fiscal 2020 operations and maintenance funds are being used and no funds were obligated at the time of award. The Air Combat Command, Acquisition Management and Integration Center, Langley Air Force Base, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA489015C0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 19156738.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds are being used and no funds were obligated at the time of award",
+        "completion_date": "2020-09-30",
+        "contracting_activity": {
+          "name": "The Air Combat Command, Acquisition Management and Integration Center, Langley Air Force Base, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "PAE Aviation and Technical Services LLC",
+            "location": "Marlton, New Jersey",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aerial Targets Program option exercise for additional year of service",
+        "base_contract_number": "FA4890-15-C0018",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19156738,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sonalysts Inc., Waterford, Connecticut, is being awarded a $14,516,477 cost-plus-fixed-fee contract modification (P00008) to the previously awarded contract FA8806-19-C-0002 for Standard Space Trainer Mission-Specific Vendor Plug-in (MSVPs) for the Upward Early Warning Radar. The contract modification provides for future development of MSVPs. Work will be performed at Waterford, Connecticut, and is expected to be completed by July 31, 2022. Fiscal 2019 research, development, test and evaluation funds in the amount of $7,300,000 are being obligate at time of award. Total cumulative face value of the contract is $35,209,586.00. The Space and Missile Systems Center, Los Angeles Air Force Base, El Segundo, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA880619C0002"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 14516477.0,
+        "cumulative_value_usd": 35209586.0,
+        "obligated_usd": 7300000.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation funds in the amount of $7,300,000 are being obligate at time of award",
+        "completion_date": "2022-07-31",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Los Angeles Air Force Base, El Segundo, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sonalysts Inc.",
+            "location": "Waterford, Connecticut",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Standard Space Trainer Mission-Specific Vendor Plug-in (MSVPs) for the Upward Early Warning Radar",
+        "base_contract_number": "FA8806-19-C-0002",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 14516477,
+        "cumulative_value_usd": 35209586,
+        "obligated_usd": 7300000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., El Segundo, California, is awarded $74,091,217 for cost-plus-incentive-fee, cost-plus-fixed-fee modification P00055 to a previously awarded contract (N00019-16-C-0002). This modification procures pre-operational support for the Next Generation Jammer-Mid Band pod through the completion of the engineering, manufacturing and development (EMD) phase as well as development, test and evaluation (DT&E) activities. Procured support includes organizational-level maintenance, repair, supply chain management, and material support for equipment delivered under the EMD contract, and associated peculiar support equipment/test, measurement, and diagnostic equipment to support DT&E. Work will be performed in Forest, Mississippi (39%); Dallas, Texas (35%); El Segundo, California (16%); Andover, Massachusetts (8%); and Fort Wayne, Indiana (2%), and is expected to be completed in December 2021. Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $3,228,948 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001916C0002"
+        ],
+        "modification_numbers": [
+          "P00055"
+        ],
+        "is_modification": true,
+        "value_usd": 74091217.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3228948.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $3,228,948 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "El Segundo, California",
+            "contract_number": "N00019-16-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee, cost-plus-fixed-fee",
+        "description": "Next Generation Jammer-Mid Band pre-operational support through EMD and DT&E",
+        "base_contract_number": "N00019-16-C-0002",
+        "order_number": null,
+        "modification_number": "P00055",
+        "value_usd": 74091217,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3228948,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Missions Systems Inc., McLeansville, North Carolina, is awarded a $44,595,146 cost-plus-incentive-fee modification to previously-awarded contract N61331-11-C-0017 for low-rate initial production of the Surface Mine Countermeasure Unmanned Undersea Vehicle (SMCM UUV), also known as Knifefish. The Knifefish program is an ongoing effort to provide a UUV that detects and classifies undersea volume, bottom and buried mines in high-clutter environments. The Knifefish system is part of the Littoral Combat Ship Mine Countermeasures Mission Package and can also be deployed from vessels of opportunity. The low-rate initial production effort will provide the initial systems for the Navy to test and operate. Work will be performed in Quincy, Massachusetts (35%); Taunton, Massachusetts (23%); Braintree, Massachusetts (19%); a location to be determined (15%); McLeansville, North Carolina (6%); Reston, Virginia (1%); and Ann Arbor, Michigan (1%), and is expected to be completed by August 2021. Fiscal 2018 and 2019 other procurement (Navy) funding in the amount of $44,595,146 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6133111C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 44595146.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 44595146.0,
+        "funding_text": "Fiscal 2018 and 2019 other procurement (Navy) funding in the amount of $44,595,146 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "General Dynamics Missions Systems Inc.",
+            "location": "McLeansville, North Carolina",
+            "contract_number": "N61331-11-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Low-rate initial production of the Surface Mine Countermeasure Unmanned Undersea Vehicle (SMCM UUV, Knifefish)",
+        "base_contract_number": "N61331-11-C-0017",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44595146,
+        "cumulative_value_usd": null,
+        "obligated_usd": 44595146,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Physical Optics Corp.,* Torrance, California, is awarded $27,230,891 for modification P00012 to previously awarded firm-fixed-price, cost-plus-fixed-fee contract (N00019-17-C-0078) in support of F/A-18E/F and EA-18G aircraft for the Navy and the government of Kuwait. This modification exercises an option for data transfer unit production support, 160 data transfer units, 160 ground data transfer units, 14 maintenance access cables, 600 mission data transfer devices, and 459 maintenance data transfer devices in support of the Navy's F/A-18 E/F and EA-18G program. In addition, this option exercise procures 37 data transfer units, 35 ground data transfer units, 11 maintenance access cables, 122 mission data transfer devices, and 90 maintenance data transfer devices in support of the Kuwait Super Hornet program. Work will be performed in Torrance, California, and is expected to be completed in August 2021. Fiscal 2018 and 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds will be obligated at time of award, none of which will expire at the end of the current fiscal year. This modification combines purchases for the Navy ($22,334,109; 82%); and the government of Kuwait ($4,896,782; 18%) under the FMS Program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0078"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 27230891.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2018 and 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Physical Optics Corp.",
+            "location": "Torrance, California",
+            "contract_number": "N00019-17-C-0078",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "F/A-18E/F and EA-18G data transfer unit production support option exercise, including Kuwait FMS",
+        "base_contract_number": "N00019-17-C-0078",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 27230891,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Airborne Tactical Advantage Co. LLC, Newport News, Virginia, is awarded $13,495,999 for modification P00020 to previously awarded firm-fixed-price, cost-reimbursable indefinite-delivery/indefinite-quantity contract N00019-15-D-0026. This modification provides for contractor-owned and operated Type IV supersonic aircraft for airborne threat simulation capabilities in support of the Contracted Air Services Program. Work will be performed in Newport News, Virginia (44%); Point Mugu, California (37%); and various locations outside the continental U.S. (19%), and is expected to be completed in May 2020. No funds will be obligated at time of award, funds will be obligated on individual delivery orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D0026"
+        ],
+        "modification_numbers": [
+          "P00020"
+        ],
+        "is_modification": true,
+        "value_usd": 13495999.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award, funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2020-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Airborne Tactical Advantage Co. LLC",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00019-15-D-0026",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-reimbursable indefinite-delivery/indefinite-quantity",
+        "description": "Contractor-owned and operated Type IV supersonic aircraft for airborne threat simulation under Contracted Air Services Program",
+        "base_contract_number": "N00019-15-D-0026",
+        "order_number": null,
+        "modification_number": "P00020",
+        "value_usd": 13495999,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Melbourne, Florida, is awarded $9,938,480 for modification 004502 to a previously issued delivery order 0045 placed against a basic ordering agreement (N00019-15-G-0026). This modification procures eight E-2C compatible AN/APX-122A Mode 5/S interrogators for the government of Japan. Work will be performed in Greenlawn, New York (82%); and Melbourne, Florida (18%), and is expected to be completed in September 2023. Foreign military sales funds in the amount of $9,938,480 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001915G0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9938480.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9938480.0,
+        "funding_text": "Foreign military sales funds in the amount of $9,938,480 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N00019-15-G-0026",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Procurement of eight E-2C compatible AN/APX-122A Mode 5/S interrogators for the government of Japan",
+        "base_contract_number": "N00019-15-G-0026",
+        "order_number": "0045",
+        "modification_number": "004502",
+        "value_usd": 9938480,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9938480,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "C.E. Niehoff & Co.,* Evanston, Illinois, has been awarded a maximum $11,806,163 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for engine air conditioner generators. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year contract with no option periods. Location of performance is Illinois, with an Aug. 25, 2024, performance completion date. Using military service is Army. Type of appropriation is fiscal 2019 through 2024 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-19-D-0152).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL119D0152"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11806163.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-19-D-0152"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "C.E. Niehoff & Co.",
+            "location": "Evanston, Illinois",
+            "contract_number": "SPRDL1-19-D-0152",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Engine air conditioner generators (sole-source, five-year contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11806163,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-08-26.html"
+  "source": "file:2019-08-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T23:19:54Z"
+  }
 }

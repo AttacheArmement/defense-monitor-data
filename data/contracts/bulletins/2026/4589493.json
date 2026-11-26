@@ -11,69 +11,561 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Clark Construction Group LLC, Bethesda, Maryland, was awarded a $121,787,000 firm-fixed-price contract for construction of a cybersecurity operations facility. Bids were solicited via the internet with three received. Work will be performed in Fort Meade, Maryland, with an estimated completion date of Sept. 2, 2029. Fiscal 2024 military construction, defense-wide funds in the amount of $121,787,000 are being obligated at the time of award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity (W912DR-26-C-A019).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DR26CA019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 121787000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 121787000.0,
+        "funding_text": "Fiscal 2024 military construction, defense-wide funds in the amount of $121,787,000 are being obligated at the time of award",
+        "completion_date": "2029-09-02",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore, Maryland",
+          "code": "W912DR-26-C-A019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Clark Construction Group LLC",
+            "location": "Bethesda, Maryland",
+            "contract_number": "W912DR-26-C-A019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a cybersecurity operations facility at Fort Meade, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 121787000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 121787000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SupplyCore Inc.,* Rockford, Illinois, has been awarded a maximum $90,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for facilities maintenance, repair and operations supplies. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 396-day bridge contract with no option periods. Locations of performance are Louisiana and Texas. with an Oct. 2, 2027, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-26-D-0013).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E326D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-26-D-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "SupplyCore Inc.",
+            "location": "Rockford, Illinois",
+            "contract_number": "SPE8E3-26-D-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Facilities maintenance, repair and operations supplies; 396-day bridge contract, Louisiana and Texas performance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 3204(a)(1); FAR 6.302-1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Update: Revision Military Ltd., Essex Junction, Vermont (SPE2DF-26-D-0014, $37,500,000), has been added as an awardee to the multiple award contract for optical frames for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-24-R-0001 and awarded Sept. 11, 2024. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DF26D0014",
+          "SPE2DE24R0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 37500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Revision Military Ltd.",
+            "location": "Essex Junction, Vermont",
+            "contract_number": "SPE2DF-26-D-0014",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "multiple award contract",
+        "description": "Added as awardee to multiple award contract for optical frames for the DLA Electronic Catalog (solicitation SPE2DE-24-R-0001)",
+        "base_contract_number": "SPE2DE-24-R-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-09-11"
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "The Boeing Co., Ridley Park, Pennsylvania, is being awarded a $55,387,192 firm-fixed-price order (W91215-16-G-0001) for basic ordering agreement H9224126FE046 for the procurement of the Active Parallel Actuator System, and associated parts, in support of the MH-47G Program. The majority of the work will be performed in Ridley Park, Pennsylvania, and is expected to be completed by August 2033. U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9121516G0001",
+          "H9224126FE046"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55387192.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2033-08",
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Ridley Park, Pennsylvania",
+            "contract_number": "W91215-16-G-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price order",
+        "description": "Active Parallel Actuator System and associated parts for MH-47G Program",
+        "base_contract_number": "H9224126FE046",
+        "order_number": "W91215-16-G-0001",
+        "modification_number": null,
+        "value_usd": 55387192,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "NAG LLC, Virginia Beach, Virginia, is awarded a $39,441,631 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the procurement of shipboard Radar Tank Level Indicator computer hardware. Under this contract, NAG LLC will provide materials required for the design, development, fabrication, testing, repair, and fleet implementation of TLI systems. Work will be performed in Virginia Beach, Virginia, and is expected to be completed by Sept. 1, 2031. Fiscal 2024 other procurement (Navy) funds in the amount of $2,152,562 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the System for Award Management website, with one responsible offer received. The Naval Surface Warfare Center Philadelphia Division Philadelphia, Pennsylvania, is the contracting activity (N64498-26-D-1001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6449826D1001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39441631.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2152562.0,
+        "funding_text": "Fiscal 2024 other procurement (Navy) funds in the amount of $2,152,562 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2031-09-01",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Philadelphia Division Philadelphia, Pennsylvania",
+          "code": "N64498-26-D-1001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "NAG LLC",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N64498-26-D-1001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of shipboard Radar Tank Level Indicator computer hardware",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39441631,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2152562,
+        "fms_countries": [],
+        "competition": "competitive via SAM; one responsible offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Mission Systems, Quincy, Massachusetts, is awarded a $15,147,625 cost-plus-incentive-fee and firm-fixed-price modification to previously awarded contract (N00024-24-C-6315) to exercise options for the Mining Expendable Delivery Unmanned Submarine Asset. Work will be performed in Quincy, Massachusetts, and is expected to be completed by February 2028. Fiscal year 2025 research, development, test and evaluation (Navy) funds in the amount of $15,147,625 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington Navy Yard, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C6315"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15147625.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15147625.0,
+        "funding_text": "Fiscal year 2025 research, development, test and evaluation (Navy) funds in the amount of $15,147,625 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics Mission Systems",
+            "location": "Quincy, Massachusetts",
+            "contract_number": "N00024-24-C-6315",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-incentive-fee and firm-fixed-price modification",
+        "description": "Exercise of options for the Mining Expendable Delivery Unmanned Submarine Asset",
+        "base_contract_number": "N00024-24-C-6315",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15147625,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15147625,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Integer Technologies LLC,* Columbia, South Carolina, is awarded a $10,220,910 modification (CLIN 0002) to contract (N0001426C1129) for research and development for cyber-physical systems in Navy infrastructure. This contract provides for the exercise of Option One. The Louisiana State University and Integer Technologies partnership is advancing a cyber-physical resilience framework designed to safeguard the Navy’s maritime platforms. This proposal for Navy Embedded Systems outlines a structured, phased approach that begins with a comprehensive assessment of emerging cyber-physical vulnerabilities and culminates in the operational deployment of defense solutions across naval vessels and shore facilities. By integrating advanced simulation models, real-time dashboards and edge-hardening techniques, the program aims to deliver actionable insights that enhance mission effectiveness and protect critical systems from sophisticated adversaries. Work will be performed in Baton Rouge, Louisiana, and is expected to be completed in March 2030. The amount of this action is $10,220,910, increasing the total cumulative contract value to $10,468,515. Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $10,220,910 are obligated at time of award and will not expire at the end of the current fiscal year. The Office of Naval Research, Arlington, Virginia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001426C1129"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10220910.0,
+        "cumulative_value_usd": 10468515.0,
+        "obligated_usd": 10220910.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $10,220,910 are obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2030-03",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Integer Technologies LLC",
+            "location": "Columbia, South Carolina",
+            "contract_number": "N0001426C1129",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "CLIN 0002 research and development for cyber-physical systems in Navy infrastructure; exercise of Option One",
+        "base_contract_number": "N0001426C1129",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10220910,
+        "cumulative_value_usd": 10468515,
+        "obligated_usd": 10220910,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sierra Nevada Corp., Englewood, Colorado, has been awarded a $31,789,335 cost-reimbursement-fixed-fee, cost-reimbursement-no-fee, and firm-fixed-price contract for non-recurring engineering. This contract provides for design, development, and analysis of a post-production modification kit to convert a standard production XC-130J aircraft into a ski-equipped LC-130J. Work will be performed at Colorado Springs, Colorado, and is expected to be completed March 27, 2028. This contract was a sole source acquisition. Fiscal 2025 research, development, test and evaluation funds in the amount of $31,789,335 are being obligated at time of award. The Air Force Lifecycle Management Center, Warner Robins, Georgia, is the contracting activity (FA8509-26-C-B001). (Awarded Sept. 1, 2026).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA850926CB001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 31789335.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31789335.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $31,789,335 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Warner Robins, Georgia",
+          "code": "FA8509-26-C-B001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Sierra Nevada Corp.",
+            "location": "Englewood, Colorado",
+            "contract_number": "FA8509-26-C-B001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-reimbursement-fixed-fee, cost-reimbursement-no-fee, and firm-fixed-price",
+        "description": "Non-recurring engineering for ski-equipped LC-130J conversion kit from XC-130J",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31789335,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31789335,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2026-09-01"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Aptima Inc., Woburn, Massachusetts, (FA2384-26-D-B004); and BAE Systems Space & Mission Systems Inc., Broomfield, Colorado (FA2384-26-D-B009), were awarded a ceiling $26,200,000 indefinite-delivery/indefinite-quantity contract for holistic models for decision-making. This contract provides for research to develop computational and mathematical models that simulate the effects of operational environment on warfighter performance. Work will be performed in Woburn, Massachusetts; Broomfield, Colorado; and Dayton, Ohio; and is expected to be completed by Aug. 24, 2034. These contracts were competitive acquisitions, and nine offers were received. Fiscal 2026 research, development, test and evaluation funds in the amount of $9,836 are being obligated at time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity. (Awarded Sept. 1, 2026).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA238426DB004",
+          "FA238426DB009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26200000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9836.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $9,836 are being obligated at time of award",
+        "completion_date": "2034-08-24",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Aptima Inc.",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "FA2384-26-D-B004",
+            "markers": null
+          },
+          {
+            "name": "BAE Systems Space & Mission Systems Inc.",
+            "location": "Broomfield, Colorado",
+            "contract_number": "FA2384-26-D-B009",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Holistic models for decision-making research on warfighter performance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26200000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9836,
+        "fms_countries": [],
+        "competition": "competitive; nine offers received",
+        "award_date": "2026-09-01"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems Space & Mission Systems Inc., Boulder, Colorado, was awarded a $18,890,685 cost-plus-fixed-fee contract for Infrared Radiation Effects Laboratory operation and improvements. This contract provides for radiometric and radiation characterizations of focal plane arrays (FPA) and associated devices. Work will be performed in Boulder, Colorado, and is expected to be completed by Dec. 2, 2031. This contract was a competitive acquisition, and one offer was received. Fiscal 2026 research, development, test and evaluation funds in the amount of $420,737 are being obligated at time of award. The Air Force Research Laboratory, Kirtland Air Force Base, New Mexico, is the contracting activity (FA9453-26-C-X008).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA945326CX008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18890685.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 420737.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $420,737 are being obligated at time of award",
+        "completion_date": "2031-12-02",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Kirtland Air Force Base, New Mexico",
+          "code": "FA9453-26-C-X008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "BAE Systems Space & Mission Systems Inc.",
+            "location": "Boulder, Colorado",
+            "contract_number": "FA9453-26-C-X008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Infrared Radiation Effects Laboratory operation and improvements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18890685,
+        "cumulative_value_usd": null,
+        "obligated_usd": 420737,
+        "fms_countries": [],
+        "competition": "competitive; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a $14,638,949 cost-plus-fixed-fee and firm-fixed-price modification (P00004) to a previously awarded contract (FA8689-26-C-B002) for Spain MQ-9A unmanned aircraft systems contractor logistics support. Work will be performed at Badajoz, Spain, and is expected to be completed by Aug. 31, 2027. This contract involves Foreign Military Sales (FMS) to Spain. This contract was a sole-source acquisition. FMS funds in the amount of $14,638,949 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity. (Awarded Sept. 1, 2026).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA868926CB002"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 14638949.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14638949.0,
+        "funding_text": "FMS funds in the amount of $14,638,949 are being obligated at the time of award",
+        "completion_date": "2027-08-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Spain"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8689-26-C-B002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and firm-fixed-price modification",
+        "description": "Spain MQ-9A unmanned aircraft systems contractor logistics support (P00004)",
+        "base_contract_number": "FA8689-26-C-B002",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 14638949,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14638949,
+        "fms_countries": [
+          "Spain"
+        ],
+        "competition": "sole source",
+        "award_date": "2026-09-01"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:59Z",
-  "source": "file:2026-09-02.html"
+  "source": "file:2026-09-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:10:07Z"
+  }
 }

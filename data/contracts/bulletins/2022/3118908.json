@@ -11,57 +11,461 @@
       "agency": "DEFENSE THREAT REDUCTION AGENCY",
       "kind": "announcement",
       "text": "Applied Research Associates Inc. (ARA), Albuquerque, New Mexico, is being awarded a $281,300,000 indefinite-delivery/indefinite-quantity contract, with a potential of $582,000,000, for research and development enabling capabilities operational support for the Defense Threat Reduction Agency in support of the Research and Development Directorate. Offers were solicited and two received. Work will be performed primarily at White Sands Missile Range, New Mexico; and Kirtland Air Force Base, New Mexico, and is expected to be completed by August 2027. The contract may be extended to August 2032 if all options are exercised. The contracting activity is the Defense Threat Reduction Agency, Kirtland AFB, New Mexico (HDTRA2 -22-D-0002). (Awarded Aug. 4, 2022)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 281300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-08",
+        "contracting_activity": {
+          "name": "Defense Threat Reduction Agency, Kirtland AFB, New Mexico (HDTRA2 -22-D-0002)",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Applied Research Associates Inc. (ARA)",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "HDTRA2-22-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Research and development enabling capabilities operational support for the Defense Threat Reduction Agency Research and Development Directorate",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 281300000,
+        "cumulative_value_usd": 582000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Offers solicited, two received",
+        "award_date": "2022-08-04"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Utah State University, Space Dynamic Laboratory, Logan, Utah, has been awarded a ceiling $200,000,000 indefinite-delivery/indefinite-quantity, cost-type contract for research and development services in support of the nuclear enterprise. They have also been awarded the first task order for research and development services for $7,733,757 to support the Sentinel-Ground Based Strategic Deterrent weapon system. Work will be performed in Logan, Utah, and is expected to be completed by Aug. 7, 2032. This award is the result of a sole-source acquisition. Fiscal 2022 research, development, test and evaluation funds in the amount of $1,522,835 will be obligated to fund the first task order. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity (FA8204-22D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA820422D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1522835.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation funds in the amount of $1,522,835 will be obligated to fund the first task order",
+        "completion_date": "2032-08-07",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": "FA8204-22D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Utah State University, Space Dynamic Laboratory",
+            "location": "Logan, Utah",
+            "contract_number": "FA8204-22D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-type indefinite-delivery/indefinite-quantity contract",
+        "description": "Research and development services in support of the nuclear enterprise; first task order for Sentinel-Ground Based Strategic Deterrent weapon system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1522835,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, has been awarded a $10,445,923 modification (P00029) to contract FA8682-20-C-0001 to convert six AGM-158B missiles to test assets and nine weapon systems simulators. Work will be performed in Orlando, and is expected to be completed Oct. 31, 2024. The award is the result of sole-source acquisition, and fiscal 2022 research, development, test and evaluation funds in the full amount will be obligated at the time of award. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity. (Awarded Aug. 4, 2022)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA868220C0001"
+        ],
+        "modification_numbers": [
+          "P00029"
+        ],
+        "is_modification": true,
+        "value_usd": 10445923.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "The award is the result of sole-source acquisition, and fiscal 2022 research, development, test and evaluation funds in the full amount will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "FA8682-20-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Convert six AGM-158B missiles to test assets and nine weapon systems simulators",
+        "base_contract_number": "FA8682-20-C-0001",
+        "order_number": null,
+        "modification_number": "P00029",
+        "value_usd": 10445923,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10445923,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2022-08-04"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Assured Information Security Inc., Rome, New York, has been awarded an $8,973,675 cost-plus-fixed-fee completion contract for Lotus software. This contract provides for performing research and development for the evaluation, integration and demonstration of secure processors, in addition to performing research and development for the hardware and software development environments of secure processors. Work will be performed in Rome, New York, and is expected to be completed Aug. 4, 2025. This award is the result of a competitive acquisition, and two offers were received. Fiscal 2022 research, development, test and evaluation funds in the amount of $500,000 are being obligated at the time of award. Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-22-C-1519).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA875022C1519"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8973675.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500000.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation funds in the amount of $500,000 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-22-C-1519"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Assured Information Security Inc.",
+            "location": "Rome, New York",
+            "contract_number": "FA8750-22-C-1519",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion contract",
+        "description": "Research and development for evaluation, integration and demonstration of secure processors (Lotus software)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8973675,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500000,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GE Renewables US LLC, Greenwood Village, Colorado, was awarded a $70,748,065 fixed-price with economic price adjustment contract for generator rewind services at the Chief Joseph Dam. Bids were solicited via the internet with three received. Work will be performed in Bridgeport, Washington, with an estimated completion date of Aug. 10, 2031. Fiscal 2010 Bonneville Power Authority funds in the amount of $4,216,898 were obligated at the time of the award. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity (W912DW-22-C-0009).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912DW22C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70748065.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4216898.0,
+        "funding_text": "Fiscal 2010 Bonneville Power Authority funds in the amount of $4,216,898 were obligated at the time of the award",
+        "completion_date": "2031-08-10",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": "W912DW-22-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "GE Renewables US LLC",
+            "location": "Greenwood Village, Colorado",
+            "contract_number": "W912DW-22-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic price adjustment contract",
+        "description": "Generator rewind services at Chief Joseph Dam",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70748065,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4216898,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aecom Technical Services, Los Angeles, California (W9128A-22-D-0005); Hdr Engineering Inc., Honolulu, Hawaii (W9128A-22-D-0006); and R.M. Towill Corp., Honolulu, Hawaii (W9128A-22-D-0007), will compete for each order of the $18,000,000 firm-fixed-price contract for architecture and engineering services in the U.S. Army Corps of Engineers Honolulu District area of responsibility. Bids were solicited via the internet with nine received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 4, 2027. U.S. Army Corps of Engineers, Honolulu, Hawaii, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9128A22D0005",
+          "W9128A22D0006",
+          "W9128A22D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-08-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Honolulu, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Aecom Technical Services",
+            "location": "Los Angeles, California",
+            "contract_number": "W9128A-22-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Hdr Engineering Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-22-D-0006",
+            "markers": null
+          },
+          {
+            "name": "R.M. Towill Corp.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-22-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Architecture and engineering services in the USACE Honolulu District area of responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, nine bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ACME General Corp.,* Morgantown, West Virginia, was awarded a $7,692,240 modification (P00006) to contract W15QKN-20-C-0014 to develop precision fires for future small-unit and soldier operations through user-centric design and co-development practices. Work will be performed in Morgantown, West Virginia, with an estimated completion date of Sept. 8, 2024. Fiscal 2019, 2020 and 2021 research, development, test and evaluation, Army funds in the amount of $7,692,240 were obligated at the time of the award. Army Contracting Command, Newark, New Jersey, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN20C0014"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 7692240.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7692240.0,
+        "funding_text": "Fiscal 2019, 2020 and 2021 research, development, test and evaluation, Army funds in the amount of $7,692,240 were obligated at the time of the award",
+        "completion_date": "2024-09-08",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Newark, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "ACME General Corp.",
+            "location": "Morgantown, West Virginia",
+            "contract_number": "W15QKN-20-C-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Precision fires development for future small-unit and soldier operations through user-centric design and co-development",
+        "base_contract_number": "W15QKN-20-C-0014",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 7692240,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7692240,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Missiles & Defense, Tucson, Arizona, is awarded a $57,089,967 firm-fixed-price modification to previously awarded contract N00024-18-C-5432 to exercise options for the Over-the-Horizon (OTH) Weapon System Encanistered Missiles. Work will be performed in Kongsberg, Norway (73%); Tucson, Arizona (10%); Schrobenhausen, Germany (5%); Raufoss, Norway (4%); Louisville, Kentucky (4%); De Soto, Texas (2%); Huntsville, Arkansas (1%); and various other locations each less than 1% (1%), and is expected to be completed by September 2025. Fiscal 2022 procurement (Marine Corps) funds in the amount of $57,089,967 will be obligated at the time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C., is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C5432"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 57089967.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57089967.0,
+        "funding_text": "Fiscal 2022 procurement (Marine Corps) funds in the amount of $57,089,967 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles & Defense",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00024-18-C-5432",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price modification",
+        "description": "Exercise of options for Over-the-Horizon (OTH) Weapon System Encapsulated Missiles",
+        "base_contract_number": "N00024-18-C-5432",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57089967,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57089967,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Burlington Industries LLC, Greensboro, North Carolina, has been awarded a maximum $10,183,500 firm-fixed-price, indefinite-delivery/indefinite-quantity letter contract for poly/wool tropical blue cloth. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a two-year contract with no option periods. Location of performance is Mexico, with an Aug. 4, 2024, ordering period end date. Using military service is Navy. Type of appropriation is fiscal 2022 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support Philadelphia, Pennsylvania (SPE1C1-22-D-1568).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1568"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10183500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support Philadelphia, Pennsylvania",
+          "code": "SPE1C1-22-D-1568"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Burlington Industries LLC",
+            "location": "Greensboro, North Carolina",
+            "contract_number": "SPE1C1-22-D-1568",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity letter contract",
+        "description": "Poly/wool tropical blue cloth",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10183500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-08-05.html"
+  "source": "file:2022-08-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:05:09Z"
+  }
 }

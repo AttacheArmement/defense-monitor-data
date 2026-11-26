@@ -9,15 +9,104 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "System High Corp., Chantilly, Virginia, is awarded a $104,877,823 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. This contract provides program security services for the F-35 Joint Program Office to include program management, general security, information security, industrial security, physical security, personnel security, counter-intelligence and foreign disclosure support. Additionally, this contract provides special security studies, program protection cybersecurity and security control assessments as well as and engineering services support. Work will be performed in Arlington, Virginia (90%); Wright-Patterson Air Force Base, Ohio (4%); Stuttgart, Germany (2%); Fort Worth, Texas (2%); Patuxent River, Maryland (1%); and Eglin AFB, Florida (1%), and is expected to be completed in February 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; one offer was received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001922D0008).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001922D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 104877823.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001922D0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "System High Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N0001922D0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract",
+        "description": "Program security services for the F-35 Joint Program Office, including program management, security disciplines, special security studies, program protection cybersecurity and engineering support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 104877823,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Avon Protection Ceradyne LLC, Irvin, California, has been awarded a maximum $45,762,327 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for second generation advanced combat helmets. This was a competitive acquisition with two responses received. This is a one-year base contract with four one-year option periods. Locations of performance are California and New Hampshire, with a Feb. 1, 2023, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-22-D-1516).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1516"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45762327.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-22-D-1516"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Avon Protection Ceradyne LLC",
+            "location": "Irvin, California",
+            "contract_number": "SPE1C1-22-D-1516",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Second generation advanced combat helmets (one-year base with four one-year options; ordering period ends Feb. 1, 2023)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45762327,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition; two responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-02-07.html"
+  "source": "file:2022-02-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:24:58Z"
+  }
 }

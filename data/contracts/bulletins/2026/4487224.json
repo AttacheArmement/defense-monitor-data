@@ -12,111 +12,921 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land and Armaments L.P., York, Pennsylvania, was awarded a $535,623,041 fixed-price-incentive for production of self-propelled howitzer systems, vehicles and total package fielding kits. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2029. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-26-F-0056).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912CH26F0056"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 535623041.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-26-F-0056"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BAE Systems Land and Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W912CH-26-F-0056",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-incentive",
+        "description": "Production of self-propelled howitzer systems, vehicles and total package fielding kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 535623041,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "U.S. Marine Management LLC, Norfolk, Virginia, was awarded a $30,900,000 modification (00001 – E1) to contract W52P1J-14-G-0023 for Enhanced Army Logistics Global Enterprise Army Prepositioned Stock-4 watercraft to continue maintenance and repair of government vessels and other watercraft. The modification brings the total cumulative face value of the contract to $205,881,245. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of June 1, 2027. Army Contracting Command, Rock Island, Illinois, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J14G0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 30900000.0,
+        "cumulative_value_usd": 205881245.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-06-01",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "U.S. Marine Management LLC",
+            "location": "Norfolk, Virginia",
+            "contract_number": "W52P1J-14-G-0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enhanced Army Logistics Global Enterprise Army Prepositioned Stock-4 watercraft maintenance and repair of government vessels and other watercraft",
+        "base_contract_number": "W52P1J-14-G-0023",
+        "order_number": null,
+        "modification_number": "00001 – E1",
+        "value_usd": 30900000,
+        "cumulative_value_usd": 205881245,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CAS Severn,* Laurel, Maryland, was awarded a firm-fixed-price contract for the Department of Defense (DOD) High Performance Computing Modernization Program Technology Insertion 2026 contract for a base supercomputer system with an associated test and development system for the Army Research Laboratory DOD Supercomputing Resource Center. The amount of this action is $28,000,000, with a total cumulative face value of $71,820,719. Bids were solicited via the internet with 25 received. Work will be performed in Aberdeen, Maryland, with an estimated completion date of Oct. 31, 2031. Fiscal 2026 other procurement, Army funds in the amount of $28,000,000 were obligated at the time of the award. U.S. Army Corps of Engineers' Engineer Research and Development Center, Vicksburg, Mississippi, is the contracting activity (W912HZ-26-C-A022).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912HZ26CA022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28000000.0,
+        "cumulative_value_usd": 71820719.0,
+        "obligated_usd": 28000000.0,
+        "funding_text": "Fiscal 2026 other procurement, Army funds in the amount of $28,000,000 were obligated at the time of the award",
+        "completion_date": "2031-10-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Engineer Research and Development Center, Vicksburg, Mississippi",
+          "code": "W912HZ-26-C-A022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "CAS Severn",
+            "location": "Laurel, Maryland",
+            "contract_number": "W912HZ-26-C-A022",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "DOD High Performance Computing Modernization Program Technology Insertion 2026 base supercomputer system with test and development system for Army Research Laboratory DOD Supercomputing Resource Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28000000,
+        "cumulative_value_usd": 71820719,
+        "obligated_usd": 28000000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 25 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "WSP Solutions Inc., Tacoma, Washington, was awarded a $249,000,000 indefinite-delivery/indefinite-quantity contract for architect-engineer services. This contract provides for marine waterfront architect and engineering services. Work will be performed at locations under the Naval Facilities Engineering Systems Command Northwest area of responsibility. The contract was competitively procured via the SAM.gov website, with two offers received. The Naval Facilities Engineering Systems Command, Northwest, Silverdale, Washington, is the contracting activity (N44255-26-D-0001). (Awarded May 13, 2026).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N4425526D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Northwest, Silverdale, Washington",
+          "code": "N44255-26-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "WSP Solutions Inc.",
+            "location": "Tacoma, Washington",
+            "contract_number": "N44255-26-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Architect-engineer services for marine waterfront architect and engineering services, NAVFAC Northwest area",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive via SAM.gov, two offers received",
+        "award_date": "2026-05-13"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "InfraTech International LLC,* Harmon, Guam, is awarded a $100,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity construction contract. Work to be performed includes general construction and repair services. Work will be performed at locations within the Naval Facilities Engineering Systems Command (NAVFAC) Marianas area of responsibility, including but not limited to Guam (80%); the Commonwealth of the Northern Marianas Islands (10%); and the Federated States of Micronesia and Palau (10%), and is expected to be completed by May 2033. Fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated at time of award to satisfy the minimum guarantee and will expire at the end of the fiscal year. This contract was competitively procured via SAM.gov website, with three offers received. NAVFAC Marianas, Guam, is the contracting activity (N40192-26-D-9006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N4019226D9006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated at time of award to satisfy the minimum guarantee and will expire at the end of the fiscal year",
+        "completion_date": "2033-05",
+        "contracting_activity": {
+          "name": "NAVFAC Marianas, Guam",
+          "code": "N40192-26-D-9006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "InfraTech International LLC",
+            "location": "Harmon, Guam",
+            "contract_number": "N40192-26-D-9006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity construction",
+        "description": "General construction and repair services, NAVFAC Marianas area of responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "Competitive via SAM.gov, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "InfraTech International LLC,* Harmon, Guam, is awarded a $100,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity construction contract. Work to be performed includes general construction and repair services. Work will be performed at locations within the Naval Facilities Engineering Systems Command (NAVFAC) Marianas area of responsibility, including but not limited to Guam (80%); the Commonwealth of the Northern Marianas Islands (10%); and the Federated States of Micronesia and Palau (10%), and is expected to be completed by May 2033. Fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated at time of award to satisfy the minimum guarantee and will expire at the end of the fiscal year. This contract was competitively procured via SAM.gov website, with three offers received. NAVFAC Marianas, Guam, is the contracting activity (N40192-26-D-9026).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4019226D9026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated at time of award to satisfy the minimum guarantee and will expire at the end of the fiscal year",
+        "completion_date": "2033-05",
+        "contracting_activity": {
+          "name": "NAVFAC Marianas, Guam",
+          "code": "N40192-26-D-9026"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "InfraTech International LLC",
+            "location": "Harmon, Guam",
+            "contract_number": "N40192-26-D-9026",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity construction",
+        "description": "General construction and repair services, NAVFAC Marianas area of responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "Competitive via SAM.gov, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "W.S. Darley & Co., Itasca, Illinois is awarded a firm-fixed-price indefinite-delivery/indefinite-quantity $43,377,568 contract (N66001-26-D-0035) for Fueltrax portable measuring units in support of the Marine Corps Fuel Automated Reporting System program, providing the Marine Corps with a system to monitor fuel in near real-time, enabling better-informed decisions in contested and austere environments. This contract was not competitively procured because it is a sole source acquisition pursuant to the authority of 10 U.S. Code 2304(c)(1) - Only One Responsible Source (Federal Acquisition Regulation subpart 6.302-1). While Nautical Control Solutions (NCS) is the manufacturer of the Fueltrax product, NCS uses a sole distributor, W.S. Darley & Co., to sell its products to the government. Work will be performed in Spring, Texas and is expected to be completed by May 2031. No funding will be obligated under the basic contract. Funding will be provided for each individual delivery order. Funding anticipated to be obligated from multiple sources; funding will primarily consist of Marine Corps Systems Command research and development funds; and Marine Corps Systems Command procurement funds. Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6600126D0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 43377568.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated under the basic contract Funding anticipated to be obligated from multiple sources; funding will primarily consist of Marine Corps Systems Command research and development funds; and Marine Corps Systems Command procurement funds",
+        "completion_date": "2031-05",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Pacific, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "W.S. Darley & Co.",
+            "location": "Itasca, Illinois",
+            "contract_number": "N66001-26-D-0035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Fueltrax portable measuring units for Marine Corps Fuel Automated Reporting System program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43377568,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1) only one responsible source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Marine Polymer Inc., Stevensville, Maryland, is awarded $11,475,000 for a firm-fixed-price contract for spare tiles supporting the auxiliary system belonging to special hull treatment for both Seawolf and Virginia class submarines. The contract does not contain an option provision. All work will be performed in Stevensville, Maryland, and is expected to be completed by December 2028. Fiscal 2026 working capital funds (Navy) in the contract’s full amount of $11,475,000 will be obligated at the time of award and will not expire at the end of the current fiscal year. The requirement was procured in accordance with 10 U.S.C. 3204(a)(1) through the System for Award Management website (Sam.gov) as a limited-competitive procurement with two qualifying offers received. Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania, is the contracting activity (N00104-26-C-YA28).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0010426CYA28"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11475000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11475000.0,
+        "funding_text": "Fiscal 2026 working capital funds (Navy) in the contract’s full amount of $11,475,000 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania",
+          "code": "N00104-26-C-YA28"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Marine Polymer Inc.",
+            "location": "Stevensville, Maryland",
+            "contract_number": "N00104-26-C-YA28",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Spare tiles for auxiliary system of special hull treatment for Seawolf and Virginia class submarines",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11475000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11475000,
+        "fms_countries": [],
+        "competition": "Limited competition via SAM.gov, two qualifying offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sysco Raleigh LLC, doing business as Sysco Foods of Raleigh, Selma, North Carolina, has been awarded a maximum $85,521,443 firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for full-line food and beverage items. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 329-day bridge contract with no option periods. The ordering period end date is April 10, 2027. Using military services are Army, Air Force and Marine Corps. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-26-D-3016).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE30026D3016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 85521443.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-26-D-3016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Sysco Raleigh LLC, doing business as Sysco Foods of Raleigh",
+            "location": "Selma, North Carolina",
+            "contract_number": "SPE300-26-D-3016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment indefinite-delivery/indefinite-quantity bridge",
+        "description": "Full-line food and beverage items bridge contract, 329 days, no options, ordering period ends April 10, 2027",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 85521443,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Pacific Continental Clothing Inc.,* Carson, California, has been awarded a maximum $20,425,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for various types of physical fitness shirts. This was a competitive acquisition with 12 responses received. This is a four-year contract with no option periods. The ordering period end date is May 14, 2030. Using military services are Air Force and Space Force. Type of appropriation is fiscal 2026 through 2030 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-26-D-0051).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0051"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20425000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-26-D-0051"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Pacific Continental Clothing Inc.",
+            "location": "Carson, California",
+            "contract_number": "SPE1C1-26-D-0051",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Various types of physical fitness shirts; four-year contract, ordering period ends May 14, 2030",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20425000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, 12 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Reprographic Products Group Inc.,** Arlington, Virginia (SP7000-26-D-0007); Archive Supplies Inc.,* Irving, Texas (SP7000-26-D-0008); and Print-O-Stat Inc.,* York, Pennsylvania (SP7000-26-D-0009), are sharing a maximum of $12,782,500 firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SP7000-25-R-1001 for 40-inch-wide format printers with extended warranties and accessories. This was a competitive acquisition with three responses received. These are five-year contracts with no option periods. Locations of performance are inside and outside the continental U.S., with a May 13, 2031, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Contracting Services Office, New Cumberland, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SP700026D0007",
+          "SP700026D0008",
+          "SP700026D0009",
+          "SP700025R1001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12782500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office, New Cumberland, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          },
+          {
+            "marker": "**",
+            "meaning": "Woman-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Reprographic Products Group Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "SP7000-26-D-0007",
+            "markers": "**"
+          },
+          {
+            "name": "Archive Supplies Inc.",
+            "location": "Irving, Texas",
+            "contract_number": "SP7000-26-D-0008",
+            "markers": "*"
+          },
+          {
+            "name": "Print-O-Stat Inc.",
+            "location": "York, Pennsylvania",
+            "contract_number": "SP7000-26-D-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "40-inch-wide format printers with extended warranties and accessories, under solicitation SP7000-25-R-1001; five-year contracts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12782500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, has been awarded a maximum $9,644,160 firm-fixed-price delivery order (SPRDL1-26-F-0117) against a five-year long-term contract (SPRDL1-22-D-0050) for M1 Abrams Tank sight units with containers. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. The ordering period end date is Feb. 6, 2029. Using military service is Army. Type of appropriation is fiscal 2026 through 2027 Army working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Warren, Michigan.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL126F0117",
+          "SPRDL122D0050"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9644160.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "SPRDL1-26-F-0117",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "M1 Abrams Tank sight units with containers, against five-year long-term contract SPRDL1-22-D-0050; ordering period ends Feb. 6, 2029",
+        "base_contract_number": "SPRDL1-22-D-0050",
+        "order_number": "SPRDL1-26-F-0117",
+        "modification_number": null,
+        "value_usd": 9644160,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on May 12, 2026, for Point Blank Enterprises, Pompano Beach, Florida (SPE1C1-26-D-0003), for $46,399,554 was announced with an incorrect award date. The correct award date is May 13, 2026.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46399554.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Point Blank Enterprises",
+            "location": "Pompano Beach, Florida",
+            "contract_number": "SPE1C1-26-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to award date of DLA contract announced May 12, 2026 (value $46,399,554); correct award date is May 13, 2026",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46399554,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-05-13"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Becton Dickinson and Co., Sparks Glencoe, Maryland (SPE2DF-26-D-0013, $49,000,000) has been added as an awardee to the multiple award contract for laboratory equipment, accessories and consumables for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-22-R0006 and awarded Feb. 24, 2023. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DF26D0013",
+          "SPE2DE22R0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Becton Dickinson and Co.",
+            "location": "Sparks Glencoe, Maryland",
+            "contract_number": "SPE2DF-26-D-0013",
+            "markers": null
+          }
+        ],
+        "action": "other",
+        "contract_type": null,
+        "description": "Added as awardee to DLA Electronic Catalog multiple award contract for laboratory equipment, accessories and consumables (solicitation SPE2DE-22-R0006)",
+        "base_contract_number": "SPE2DE-22-R0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Branch Medical LLC,* Ridgefield, Washington (SPE2DF-26-D-0011, $15,000,000), has been added as an awardee to the multiple award contract for laboratory equipment, accessories and consumables for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-22-R0006 and awarded Feb. 24, 2023. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DF26D0011",
+          "SPE2DE22R0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Branch Medical LLC",
+            "location": "Ridgefield, Washington",
+            "contract_number": "SPE2DF-26-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "other",
+        "contract_type": null,
+        "description": "Added as awardee to DLA Electronic Catalog multiple award contract for laboratory equipment, accessories and consumables (solicitation SPE2DE-22-R0006)",
+        "base_contract_number": "SPE2DE-22-R0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Ansys Government Initiatives LLC, Exton, Pennsylvania, has been awarded a $82,146,108 firm-fixed price indefinite delivery/indefinite quantity contract for software licenses and ancillary engineering services. This contract provides advanced modeling, simulation, and analysis software, comprehensive maintenance, and engineering services. Work will be performed at Edwards Air Force Base, California, and is expected to be completed by May 10, 2031. This award is the result of a sole source acquisition. Fiscal 2026 research, development, test and evaluation funds in the amount of $166,308 are being obligated at the time of award. The Air Force Test Center Directorate of Contracting, Edwards AFB, California, is the contracting activity (FA9302-26-D-0003). (Awarded on May 11, 2026).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "FA930226D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 82146108.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166308.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $166,308 are being obligated at the time of award",
+        "completion_date": "2031-05-10",
+        "contracting_activity": {
+          "name": "The Air Force Test Center Directorate of Contracting, Edwards AFB, California",
+          "code": "FA9302-26-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Ansys Government Initiatives LLC",
+            "location": "Exton, Pennsylvania",
+            "contract_number": "FA9302-26-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite delivery/indefinite quantity",
+        "description": "Software licenses and ancillary engineering services (advanced modeling, simulation, and analysis software, maintenance, engineering services) at Edwards AFB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 82146108,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166308,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2026-05-11"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CMS COLAS Construction LLC, Maumee, Ohio, has been awarded a $66,513,217 task order for runway repairs. This contract provides replacement of the West Runway’s stormwater system, Mill and overlay of the runway’s asphalt center, repair and seal minor cracks, and the replacement of the runway lighting system. Work will be performed at Joint Base San Antonio- Randolph, Texas, and is expected to be completed Oct. 1, 2027. This contract was a competitive acquisition, and four offers were received. Fiscal 2026, operations and maintenance funds in the amount of $66,513,217 are being obligated at time of award. The 502d Contracting Squadron, Joint Base San Antonio-Randolph, Texas, is the contracting activity (FA301626F0123).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "FA301626F0123"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 66513217.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66513217.0,
+        "funding_text": "Fiscal 2026, operations and maintenance funds in the amount of $66,513,217 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 502d Contracting Squadron, Joint Base San Antonio-Randolph, Texas",
+          "code": "FA301626F0123"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "CMS COLAS Construction LLC",
+            "location": "Maumee, Ohio",
+            "contract_number": "FA301626F0123",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Runway repairs at West Runway, JBSA-Randolph: stormwater system replacement, mill and overlay, crack repair, runway lighting replacement",
+        "base_contract_number": null,
+        "order_number": "FA301626F0123",
+        "modification_number": null,
+        "value_usd": 66513217,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66513217,
+        "fms_countries": [],
+        "competition": "competitive, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin, Fort Worth, Texas, has been awarded a not-to-exceed $18,767,047 modification (PM0012) to a previously awarded contract (FA8232-24-C-0002) for provisioning spares. Work will be performed at Fort Worth, Texas, and is expected to be completed by May 14, 2027. This contract involves Foreign Military Sales (FMS) for an unnamed foreign partner. FMS funds in the amount of $18,767,047 are being obligated at time of award. The Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 18
+      "seq": 18,
+      "fields": {
+        "contract_numbers": [
+          "FA823224C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 18767047.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18767047.0,
+        "funding_text": "FMS funds in the amount of $18,767,047 are being obligated at time of award",
+        "completion_date": "2027-05-14",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 18,
+        "awardees": [
+          {
+            "name": "Lockheed Martin",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8232-24-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Not-to-exceed modification for provisioning spares, FMS",
+        "base_contract_number": "FA8232-24-C-0002",
+        "order_number": null,
+        "modification_number": "PM0012",
+        "value_usd": 18767047,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18767047,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-05-14.html"
+  "source": "file:2026-05-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:24:42Z"
+  }
 }

@@ -11,39 +11,306 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Deloitte Consulting LLP, Arlington, Virginia, was awarded a $450,000,000 cost-plus-fixed-fee contract for rapid research, development, testing, evaluation, prototyping, experimentation, analytics, and technology insertion and integration. Bids were solicited via the internet with 27 received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 20, 2033. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911NF-24-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W911NF24D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 450000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2033-11-20",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911NF-24-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Deloitte Consulting LLP",
+            "location": "Arlington, Virginia",
+            "contract_number": "W911NF-24-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Rapid research, development, testing, evaluation, prototyping, experimentation, analytics, and technology insertion and integration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 450000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 27 received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Motorola Solutions Inc., Chicago, Illinois, has been awarded a $37,017,055 modification (P00004) to contract FA8055-23-D-3001 for Enterprise Land Mobile Radio support. Work will be performed at Ramstein Air Base, Germany, and is expected to be completed by March 23, 2033. Fiscal 2024 operation and maintenance Army funds in the amount of $3,388,062 are being obligated at time of award. 771st Enterprise Sourcing Squadron, Montgomery, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA805523D3001"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 37017055.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3388062.0,
+        "funding_text": "Fiscal 2024 operation and maintenance Army funds in the amount of $3,388,062 are being obligated at time of award. 771st Enterprise Sourcing Squadron, Montgomery, Alabama, is the contracting activity.",
+        "completion_date": "2033-03-23",
+        "contracting_activity": {
+          "name": "Fiscal 2024 operation and maintenance Army funds in the amount of $3,388,062 are being obligated at time of award. 771st Enterprise Sourcing Squadron, Montgomery, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Motorola Solutions Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "FA8055-23-D-3001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enterprise Land Mobile Radio support at Ramstein Air Base, Germany",
+        "base_contract_number": "FA8055-23-D-3001",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 37017055,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3388062,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, was awarded a $33,004,252 firm-fixed-price contract for Small Diameter Bomb I (SDB-I) sustainment and titled contractor logistics support. This contract provides for the SDB-I program and requires continuous contractor logistics support throughout production, fielding, and sustainment. Work will be performed at St. Louis, Missouri, and is expected to be completed by March 31, 2028. This contract was a sole source acquisition. Fiscal 2024 operation and maintenance funds in the amount of $33,004,252 are being obligated at time of award. The Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity (FA8213-24-D-B001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA821324DB001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33004252.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33004252.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $33,004,252 are being obligated at time of award",
+        "completion_date": "2028-03-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": "FA8213-24-D-B001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "FA8213-24-D-B001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Small Diameter Bomb I (SDB-I) sustainment and titled contractor logistics support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33004252,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33004252,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Freestate Electric Cooperative Inc., Topeka, Kansas, has been awarded an estimated $34,792,828 modification (P00022) to a 50-year contract (SP0600-22-C-8242) with no option periods for privatized electric utility services at Fort Leavenworth, Kansas. This contract adjusts price changes to the utility system's inventory services as well as for inflation. The performance completion date is Sept. 29, 2055. Using military service is Army. Type of appropriation is fiscal 2005 through 2055 Army operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SP060022C8242"
+        ],
+        "modification_numbers": [
+          "P00022"
+        ],
+        "is_modification": true,
+        "value_usd": 34792828.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Freestate Electric Cooperative Inc.",
+            "location": "Topeka, Kansas",
+            "contract_number": "SP0600-22-C-8242",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Privatized electric utility services at Fort Leavenworth, Kansas (50-year contract, no option periods)",
+        "base_contract_number": "SP0600-22-C-8242",
+        "order_number": null,
+        "modification_number": "P00022",
+        "value_usd": 34792828,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Togiak Management Services LLC*, Anchorage Alaska, is awarded a $24,203,108 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide manufacturing and overhaul operations for the Prototype, Manufacturing and Test Department in support of various support equipment and aircraft launch and recovery equipment products for the Navy. Work will be performed in Lakehurst, New Jersey, and is expected to be completed in November 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 15 U.S. Code 637. Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey is the contracting activity (N6833524D0002).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6833524D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24203108.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2028-11",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833524D0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Togiak Management Services LLC",
+            "location": "Anchorage Alaska",
+            "contract_number": "N6833524D0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Manufacturing and overhaul operations for the Prototype, Manufacturing and Test Department supporting support equipment and aircraft launch and recovery equipment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24203108,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competitively procured pursuant to 15 U.S. Code 637",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Rotary and Mission Systems, Liverpool, New York, is awarded a $9,279,832 cost-plus-fixed-fee order (N0042124F0089) against a previously issued basic ordering agreement (N0042120G0003). This order provides for the development, building, test and delivery of seven Tactical Radar Processing Benches and two full Radar Processing Bench unit in support of the development and operation of the Integrated Battlespace Simulation and Test, E-2D Systems Test and Evaluation Labs for the Navy. Work will be performed in Liverpool, New York. and is expected to be completed in October 2025. Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $9,279,832 will be obligated at time of award, all of which will expire at the end of the fiscal year. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042124F0089",
+          "N0042120G0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9279832.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9279832.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $9,279,832 will be obligated at time of award, all of which will expire at the end of the fiscal year",
+        "completion_date": "2025-10",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Rotary and Mission Systems",
+            "location": "Liverpool, New York",
+            "contract_number": "N0042124F0089",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Development, building, test and delivery of seven Tactical Radar Processing Benches and two full Radar Processing Bench units for Integrated Battlespace Simulation and Test, E-2D Systems Test and Evaluation Labs",
+        "base_contract_number": "N0042120G0003",
+        "order_number": "N0042124F0089",
+        "modification_number": null,
+        "value_usd": 9279832,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9279832,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2023-11-21.html"
+  "source": "file:2023-11-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:07:28Z"
+  }
 }

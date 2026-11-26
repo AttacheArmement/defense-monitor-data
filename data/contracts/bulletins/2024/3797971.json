@@ -11,21 +11,159 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Prasco LLC,* Mason, Ohio, has been awarded a maximum $31,715,012 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for various pharmaceutical products. This was a competitive acquisition with 30 responses received. This is a one-year contract with nine one-year option periods. The ordering period end date is June 4, 2025. Using customers are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal 2024 through 2025 warstopper funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D0-24-D-0002).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D024D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31715012.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D0-24-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Prasco LLC",
+            "location": "Mason, Ohio",
+            "contract_number": "SPE2D0-24-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment IDIQ",
+        "description": "Various pharmaceutical products for Army, Navy, Air Force, Marine Corps and federal civilian agencies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31715012,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 30 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Tucson, Arizona, has been awarded a $12,559,475 modification (P00022) to previously awarded contract FA8650-20-C-9310 for the Advanced Battle Management System (ABMS). The objective of the ABMS program is to assess the military/operational utility and technical feasibility of a unique system-of-systems capability. The systems will be integrated through Raytheon software interfaces to allow for the cueing, tracking, and firing of effectors. This additional work modification is for the acquisition of the GhostEye MR additional development and experimentation and is focused on further development and test with the GhostEye radar system. The modification brings the total cumulative face value of the contract to $50,171,196. Work will be performed in Tucson, Arizona, and is expected to be completed by Dec. 31, 2025. Fiscal 2024 research, development, test, and evaluation funds in the amount of $8,000,000 are being obligated time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865020C9310"
+        ],
+        "modification_numbers": [
+          "P00022"
+        ],
+        "is_modification": true,
+        "value_usd": 12559475.0,
+        "cumulative_value_usd": 50171196.0,
+        "obligated_usd": 8000000.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation funds in the amount of $8,000,000 are being obligated time of award",
+        "completion_date": "2025-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8650-20-C-9310",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "GhostEye MR additional development and experimentation for the Advanced Battle Management System (ABMS)",
+        "base_contract_number": "FA8650-20-C-9310",
+        "order_number": null,
+        "modification_number": "P00022",
+        "value_usd": 12559475,
+        "cumulative_value_usd": 50171196,
+        "obligated_usd": 8000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "DRS Sustainment Systems Inc., Bridgeton, Missouri, was awarded a $9,034,015 fixed-price-incentive contract for contractor logistics support of the Halvorsen Aircraft Cargo Loader (ACL) on May 31, 2024. This contract provides for material management infrastructure, material management parts, and program engineering support for the Halvorsen ACL. Work will be performed in West Plains, Missouri, and is expected to be completed by May 31, 2025. This contract was a sole source acquisition. Fiscal 2024 operation and maintenance funds in the amount of $9,034,015 are being obligated at time of award. The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8534-24-D-0003). (Awarded May 31, 2024)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA853424D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9034015.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9034015.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $9,034,015 are being obligated at time of award",
+        "completion_date": "2025-05-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8534-24-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "DRS Sustainment Systems Inc.",
+            "location": "Bridgeton, Missouri",
+            "contract_number": "FA8534-24-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-incentive",
+        "description": "Contractor logistics support of the Halvorsen Aircraft Cargo Loader (ACL)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9034015,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9034015,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2024-05-31"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-06-05.html"
+  "source": "file:2024-06-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:47:25Z"
+  }
 }

@@ -13,99 +13,888 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Grand Prairie, Texas, was awarded a $430,930,711 fixed-price incentive contract for full-rate production of High Mobility Artillery Rocket Systems and support services to satisfy an urgent need to support the Army and various Foreign Military Sales partners. Bids were solicited via the internet with one received. Work will be performed in Brownsboro, Alabama; Camden, Arkansas; Boca Raton, Clearwater and Palm Bay, Florida; Whippany, New Jersey; Archbald and York, Pennsylvania; and Dallas and Grand Prairie, Texas, with an estimated completion date of Dec. 31, 2025. Fiscal 2023 missile procurement, Army funds in the amount of $209,348,720 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-23-C-0006).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 430930711.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 209348720.0,
+        "funding_text": "Fiscal 2023 missile procurement, Army funds in the amount of $209,348,720 were obligated at the time of the award",
+        "completion_date": "2025-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-23-C-0006"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Grand Prairie, Texas",
+            "contract_number": "W31P4Q-23-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price incentive",
+        "description": "Full-rate production of High Mobility Artillery Rocket Systems and support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 430930711,
+        "cumulative_value_usd": null,
+        "obligated_usd": 209348720,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Core Engineering & Construction Inc.,* Winter Park, Florida (W9127Q-23-D-0001); Flagstar Construction Co Inc.,* Brandon, Mississippi (W9127Q-23-D-0002); J & J Contractors Inc.,* Collinsville, Mississippi (W9127Q-23-D-0003); D&H Construction and Cabinetry Inc.,* Meridian, Mississippi (W9127Q-23-D-0004); Tony Watson Electric Inc.,* Brandon, Mississippi (W9127Q-23-D-0005); Orocon Construction LLC,* Biloxi, Mississippi (W9127Q-23-D-0006); Gottfried Contracting LLC,* Covington, Louisiana (W9127Q-23-D-0007); Drace Construction Corp., Ocean Springs, Mississippi (W9127Q-23-D-0008); Southeast Cherokee Construction Inc.,* Montgomery, Alabama (W9127Q-23-D-0009); and J.W. Puckett & Company Inc.,* Gulfport, Mississippi (W9127Q-23-D-0010), will compete for each order of the $40,000,000 firm-fixed-price contract for construction services. Bids were solicited via the internet with 30 received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 30, 2027. U.S. Property and Fiscal Office, Mississippi, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127Q23D0001",
+          "W9127Q23D0002",
+          "W9127Q23D0003",
+          "W9127Q23D0004",
+          "W9127Q23D0005",
+          "W9127Q23D0006",
+          "W9127Q23D0007",
+          "W9127Q23D0008",
+          "W9127Q23D0009",
+          "W9127Q23D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-11-30",
+        "contracting_activity": {
+          "name": "U.S. Property and Fiscal Office, Mississippi",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Core Engineering & Construction Inc.",
+            "location": "Winter Park, Florida",
+            "contract_number": "W9127Q-23-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Flagstar Construction Co Inc.",
+            "location": "Brandon, Mississippi",
+            "contract_number": "W9127Q-23-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "J & J Contractors Inc.",
+            "location": "Collinsville, Mississippi",
+            "contract_number": "W9127Q-23-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "D&H Construction and Cabinetry Inc.",
+            "location": "Meridian, Mississippi",
+            "contract_number": "W9127Q-23-D-0004",
+            "markers": "*"
+          },
+          {
+            "name": "Tony Watson Electric Inc.",
+            "location": "Brandon, Mississippi",
+            "contract_number": "W9127Q-23-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "Orocon Construction LLC",
+            "location": "Biloxi, Mississippi",
+            "contract_number": "W9127Q-23-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "Gottfried Contracting LLC",
+            "location": "Covington, Louisiana",
+            "contract_number": "W9127Q-23-D-0007",
+            "markers": "*"
+          },
+          {
+            "name": "Drace Construction Corp.",
+            "location": "Ocean Springs, Mississippi",
+            "contract_number": "W9127Q-23-D-0008",
+            "markers": null
+          },
+          {
+            "name": "Southeast Cherokee Construction Inc.",
+            "location": "Montgomery, Alabama",
+            "contract_number": "W9127Q-23-D-0009",
+            "markers": "*"
+          },
+          {
+            "name": "J.W. Puckett & Company Inc.",
+            "location": "Gulfport, Mississippi",
+            "contract_number": "W9127Q-23-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction services multiple-award pool; competition for each order",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; 30 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Ajanta Consulting LLC,* San Antonio, Texas, was awarded a $29,617,180 hybrid (cost-plus-fixed-fee and firm-fixed-price) contract for inspection, operation, maintenance, repair, reconstruction and rehabilitation of project facilities and features managed by the Army Corps of Engineers' Vicksburg District. Bids were solicited via the internet with three received. Work will be performed in Enid, Granada, Hernando and Sardis, Mississippi, with an estimated completion date of Nov. 30, 2027. Fiscal 2023 civil operation and maintenance funds in the amount of $342,217 were obligated at the time of the award. U.S. Army Corps of Engineers, Vicksburg, Mississippi, is the contracting activity (W912EE-23-C-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912EE23C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29617180.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 342217.0,
+        "funding_text": "Fiscal 2023 civil operation and maintenance funds in the amount of $342,217 were obligated at the time of the award",
+        "completion_date": "2027-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Vicksburg, Mississippi",
+          "code": "W912EE-23-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Ajanta Consulting LLC",
+            "location": "San Antonio, Texas",
+            "contract_number": "W912EE-23-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Inspection, operation, maintenance, repair, reconstruction and rehabilitation of project facilities managed by Vicksburg District",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29617180,
+        "cumulative_value_usd": null,
+        "obligated_usd": 342217,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments LP, San Jose, California, was awarded a $13,093,714 modification (P00006) to contract W56HZV-22-C-0072 for integration of the Upgraded Improved Bradley Acquisition Subsystem Block 2.8 Phase 3. Work will be performed in San Jose, California, with an estimated completion date of Dec. 2, 2022. Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $13,093,714 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0072"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 13093714.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13093714.0,
+        "funding_text": "Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $13,093,714 were obligated at the time of the award",
+        "completion_date": "2022-12-02",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments LP",
+            "location": "San Jose, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Integration of the Upgraded Improved Bradley Acquisition Subsystem Block 2.8 Phase 3",
+        "base_contract_number": "W56HZV-22-C-0072",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 13093714,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13093714,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The Nov. 30 announcement of a contract (W519TC-23-F-0017) awarded to BAE Systems Ordnance Systems Inc., Radford, Virginia, for a new chemical grind facility to support operations at Radford Army Ammunition Plant incorrectly stated that the estimated completion date was Nov. 30, 2022. The correct estimated date of completion is Nov. 28, 2025.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W519TC23F0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "BAE Systems Ordnance Systems Inc.",
+            "location": "Radford, Virginia",
+            "contract_number": "W519TC-23-F-0017",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Nov. 30 announcement: new chemical grind facility at Radford Army Ammunition Plant; estimated completion date corrected to Nov. 28, 2025",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Cabras Marine Corp., Piti, Guam (N4044623D0001); Guam Industrial Services Inc., doing business as Guam Shipyard, Tamuning, Guam (N4044623D0002); and Seafix Inc., Tamuning, Guam (N4044623D0003), are awarded a combined not to exceed $249,000,000 firm-fixed-price, indefinite-delivery/indefinite quantity contract for the general ship repair of Military Sealift Command vessels on Guam. Each awardee will be awarded $3,500 (minimum contract guarantee per awardee) at contract award. These contracts include options which, if exercised, would bring the cumulative value to $249,000,000 over a five-year period to the three vendors combined. Work will be performed in the island of Guam and is expected to be completed by November 2027. Fiscal 2023 operation and maintenance (Navy) funding in the amount of $10,500 will be obligated at the time of award and will expire at the end of the current fiscal year. All other funding will be made available at the delivery order level as contracting actions occur. This contract was HUBZone set side with proposals solicited via the Government Point of Entry website and three proposals received. The Navy's Military Sealift Command, Ship Support Unit Guam, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4044623D0001",
+          "N4044623D0002",
+          "N4044623D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249000000.0,
+        "cumulative_value_usd": 249000000.0,
+        "obligated_usd": 10500.0,
+        "funding_text": "Fiscal 2023 operation and maintenance (Navy) funding in the amount of $10,500 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2027-11",
+        "contracting_activity": {
+          "name": "The Navy's Military Sealift Command, Ship Support Unit Guam",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Cabras Marine Corp.",
+            "location": "Piti, Guam",
+            "contract_number": "N4044623D0001",
+            "markers": null
+          },
+          {
+            "name": "Guam Industrial Services Inc., doing business as Guam Shipyard",
+            "location": "Tamuning, Guam",
+            "contract_number": "N4044623D0002",
+            "markers": null
+          },
+          {
+            "name": "Seafix Inc.",
+            "location": "Tamuning, Guam",
+            "contract_number": "N4044623D0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "General ship repair of Military Sealift Command vessels on Guam; HUBZone set-aside",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249000000,
+        "cumulative_value_usd": 249000000,
+        "obligated_usd": 10500,
+        "fms_countries": [],
+        "competition": "HUBZone set-aside; proposals solicited via Government Point of Entry; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Charles Stark Draper Laboratory, Cambridge, Massachusetts, is awarded a $202,511,235 cost-plus-incentive-fee, cost-plus-fixed-fee, level-of-effort, and cost-plus-fixed-fee completion modification to a previously awarded contract (N0003022C6002). This modification exercises fiscal 2023 options to provide technical and engineering services necessary to maintain and sustain the Trident II Strategic Weapon System MK 6 Guidance subsystem. The effort also includes a requirement for strategic guidance, navigation, and control subject matter expertise to research and develop current and maturing concepts and technologies that will enable follow-on, full-scale development of the second life extension of the Navy's Trident II (D5) Strategic Weapons Systems. Additional scope includes research and development of new and alternate strategic guidance, navigation, and control technologies to support alternate and developing Strategic Systems Programs missions, integration support for Columbia/Dreadnought ship construction, reentry subsystem support and support for the Conventional Prompt Strike/Hypersonic development. Work will be performed in Cambridge, Massachusetts (81%); and El Segundo, California (19%). Work is expected to be completed Nov. 30, 2024. Fiscal 2022 research and development test and evaluation (Navy) funds in the amount of $50,000; fiscal 2023 research and development test and evaluation (Navy) funds in the amount of $8,963,521; fiscal 2023 weapons procurement (Navy) funds in the amount of $10,990,989; and fiscal 2023 operations and maintenance (Navy) funds in the amount of $18,546,768 will be obligated at the time of modification. Funds in the amount of $18,596,768 will expire at the end of the current fiscal year. This contract was awarded as a sole-source acquisition pursuant to 10 U.S. Code 2304(c)(1). Strategic Systems Programs, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0003022C6002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 202511235.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 38551278.0,
+        "funding_text": "Fiscal 2022 research and development test and evaluation (Navy) funds in the amount of $50,000; fiscal 2023 research and development test and evaluation (Navy) funds in the amount of $8,963,521; fiscal 2023 weapons procurement (Navy) funds in the amount of $10,990,989; and fiscal 2023 operations and maintenance (Navy) funds in the amount of $18,546,768 will be obligated at the time of modification",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Charles Stark Draper Laboratory",
+            "location": "Cambridge, Massachusetts",
+            "contract_number": "N0003022C6002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee, cost-plus-fixed-fee, level-of-effort, and cost-plus-fixed-fee completion",
+        "description": "Fiscal 2023 options for technical and engineering services to sustain Trident II MK 6 Guidance subsystem",
+        "base_contract_number": "N0003022C6002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 202511235,
+        "cumulative_value_usd": null,
+        "obligated_usd": 92101045,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Mnemonics Inc.,* Melbourne, Florida, is awarded a $49,953,129 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for the execution of specific radio frequency and infrared engineering, analytical, and technical efforts to support evolving timing technology. The contract does not include options. Work will be performed in the Washington, D.C. area, and is expected to be completed by Nov. 30, 2027. Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $100,000 will be obligated at time of award via the first task order and will not expire at the end of the current fiscal year. This contract was not competitively procured. The U.S. Naval Research Laboratory, Washington, D.C., is the contracting activity (N0017323D6000).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0017323D6000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49953129.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $100,000 will be obligated at time of award via the first task order and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-11-30",
+        "contracting_activity": {
+          "name": "The U.S. Naval Research Laboratory, Washington, D.C.",
+          "code": "N0017323D6000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Mnemonics Inc.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0017323D6000",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity",
+        "description": "Radio frequency and infrared engineering, analytical and technical efforts supporting evolving timing technology",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49953129,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Vigor Marine LLC, Portland, Oregon, is awarded a $23,564,259‬ firm-fixed-price contract (N3220523C4003) for a 90-calendar day shipyard availability for the regular overhaul and dry docking of Military Sealift Command's dry cargo and ammunition ship USNS Richard E. Byrd (T-AKE 4). This contract includes a base period and options, which if exercised, would bring the cumulative value to $23,943,689‬. Work will be performed in Portland, Oregon, beginning Jan. 4, 2023, and is expected to be completed by April 3, 2023. Working capital funds (Navy) in the amount of $23,564,259 are obligated for fiscal 2023 and will expire at the end of the current fiscal year. This contract was competitively procured with proposals solicited via the System for Award Management website and one offer was received. The Navy's Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220523C4003).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N3220523C4003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23564259.0,
+        "cumulative_value_usd": 23943689.0,
+        "obligated_usd": 23564259.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $23,564,259 are obligated for fiscal 2023 and will expire at the end of the current fiscal year",
+        "completion_date": "2023-04-03",
+        "contracting_activity": {
+          "name": "The Navy's Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220523C4003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Vigor Marine LLC",
+            "location": "Portland, Oregon",
+            "contract_number": "N3220523C4003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "90-day shipyard availability for regular overhaul and dry docking of USNS Richard E. Byrd (T-AKE 4)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23564259,
+        "cumulative_value_usd": 23943689,
+        "obligated_usd": 23564259,
+        "fms_countries": [],
+        "competition": "Competitive; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Liverpool, New York, is awarded a $14,823,612 cost-plus-fixed fee and cost-only modification to previously awarded contract N00024-17-C-5353 to exercise options for Advanced Off-Board Electronic Warfare (AOEW) System engineering services and travel in support of AOEW program. Work will be performed in Syracuse, New York, and is expected to be completed by November 2023. Fiscal 2023 other procurement (Navy) funding in the amount of $731,738 (59%); and fiscal 2022 other procurement (Navy) funding in the amount of $518,023 (41%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington Navy Yard, D.C., is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C5353"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14823612.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1249761.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funding in the amount of $731,738 (59%); and fiscal 2022 other procurement (Navy) funding in the amount of $518,023 (41%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Liverpool, New York",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed fee and cost-only modification",
+        "description": "Options for Advanced Off-Board Electronic Warfare (AOEW) System engineering services and travel",
+        "base_contract_number": "N00024-17-C-5353",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14823612,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1249761,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded an $8,719,447 modification (P00002) to a firm-fixed-price order (N0001922F1014) against a previously issued basic ordering agreement (N0001921G0006). This modification exercises options to provide continued integrated logistics support and engineering services in support of the Harpoon and Standoff Land-Attack Missile-Expanded Response Missile Systems and Harpoon Launch Systems for the Navy and various Foreign Military Sales (FMS) customers. Work will be performed in St. Charles, Missouri (91.89%); St. Louis, Missouri (5.47%); and Yorktown, Virginia (2.64%), and is expected to be completed in February 2024. Fiscal 2023 operations and maintenance (Navy) funds in the amount of $2,079,886; and FMS funds in the amount of $6,639,561 will be obligated at the time of award, $2,079,886 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F1014",
+          "N0001921G0006"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 8719447.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8719447.0,
+        "funding_text": "Fiscal 2023 operations and maintenance (Navy) funds in the amount of $2,079,886; and FMS funds in the amount of $6,639,561 will be obligated at the time of award, $2,079,886 of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001922F1014",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Integrated logistics support and engineering services for Harpoon and SLAM-ER missile systems and Harpoon Launch Systems",
+        "base_contract_number": "N0001921G0006",
+        "order_number": "N0001922F1014",
+        "modification_number": "P00002",
+        "value_usd": 8719447,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8719447,
+        "fms_countries": [
+          "various Foreign Military Sales customers"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, has been awarded a maximum $151,000,000 (to be obligated on individual task orders) indefinite-delivery/indefinite-quantity with firm-fixed-price and labor-hour line items contract (HTC711-23-F-D001). The Managed Information Technology Services contract provides strategic, technical, and program management guidance and support services to facilitate the operations and modernization of U.S. Transportation Command's infrastructure, systems, and applications. It supports both classified and unclassified programs on multiple networks and security domains. Work will be performed at Scott Air Force Base, Illinois. The period of performance is from Dec. 1, 2022, to Nov. 30, 2027. Operation and maintenance; and transportation working capital funds will be obligated at the individual task order level. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HTC71123FD001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 151000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 151000000.0,
+        "funding_text": "Science Applications International Corp., Reston, Virginia, has been awarded a maximum $151,000,000 (to be obligated on individual task orders) indefinite-delivery/indefinite-quantity with firm-fixed-price and labor-hour line items contract (HTC711-23-F-D001) Operation and maintenance; and transportation working capital funds will be obligated at the individual task order level",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "HTC711-23-F-D001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity with firm-fixed-price and labor-hour line items",
+        "description": "Managed Information Technology Services for U.S. Transportation Command infrastructure, systems and applications",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 151000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Pride Industries, Roseville, California, has been awarded a $20,997,437 firm-fixed-price contract for base operations and maintenance services. This contract provides for the operation and maintenance of facilities, roads and grounds, equipment and water distribution system in support of installation activities for Joint Base McGuire-Dix-Lakehurst (JB-MDL), New Jersey. Work will be performed at JB-MDL and is expected to be completed Nov. 30, 2023. Fiscal 2023 operations and maintenance funds will be obligated on individual task orders. The 87th Contracting Squadron JB-MDL, New Jersey, is the contracting activity (FA4484-23-D-0002).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA448423D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20997437.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds will be obligated on individual task orders",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 87th Contracting Squadron JB-MDL, New Jersey",
+          "code": "FA4484-23-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Pride Industries",
+            "location": "Roseville, California",
+            "contract_number": "FA4484-23-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Base operations and maintenance services at Joint Base McGuire-Dix-Lakehurst (JB-MDL), New Jersey",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20997437,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "National Industries for the Blind,** Alexandria, Virginia, has been awarded a maximum $15,897,000 modification (P00003) exercising the second one-year option period of a one-year base contract (SPE1C1-21-D-B102) with two one-year option periods for physical fitness uniform jackets. This is an indefinite-delivery contract. Locations of performance are Maryland, North Carolina and Arkansas, with a Dec. 14, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121DB102"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 15897000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "National Industries for the Blind",
+            "location": "Alexandria, Virginia",
+            "contract_number": "SPE1C1-21-D-B102",
+            "markers": "**"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery contract",
+        "description": "Physical fitness uniform jackets; exercise of second one-year option period",
+        "base_contract_number": "SPE1C1-21-D-B102",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 15897000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC,*** Lajas, Puerto Rico, has been awarded a maximum $9,969,600 modification (P00006) exercising the first one-year option period of a one-year base contract (SPE1C1-22-D-1517) with four one-year option periods for various types of coats and trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is Nov. 30, 2023. Using military services are Army and Air Force. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania. (Awarded Nov. 30, 2022)",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1517"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 9969600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "***",
+            "meaning": "Woman-owned small business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-22-D-1517",
+            "markers": "***"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Various types of coats and trousers; exercise of first one-year option period",
+        "base_contract_number": "SPE1C1-22-D-1517",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 9969600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-11-30"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "LVI, Pendergrass, Georgia, has been awarded a maximum $9,229,839 modification (P00006) exercising the first one-year option period of a two-year base contract (SPE1C1-21-D-1417) with five one-year option periods for warehousing, storage, logistics and distribution functions. This is a fixed-price with economic-price-adjustment contract. The performance completion date is Dec. 1, 2024. Using customers are Army and Defense Logistics Agency. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121D1417"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 9229839.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "LVI",
+            "location": "Pendergrass, Georgia",
+            "contract_number": "SPE1C1-21-D-1417",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Warehousing, storage, logistics and distribution functions; exercise of first one-year option period",
+        "base_contract_number": "SPE1C1-21-D-1417",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 9229839,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2022-12-01.html"
+  "source": "file:2022-12-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:49:06Z"
+  }
 }

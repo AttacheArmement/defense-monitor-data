@@ -11,75 +11,597 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Phoenix Logistics Inc.,* Gilbert, Arizona, was awarded a $516,000,000 cost-no-fee, cost-plus-fixed-fee, cost-plus-incentive-fee, firm-fixed-price contract to provide capabilities to the Joint Land Component Constructive Training Capability across the range of warfighting functions. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of March 16, 2030. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-20-D-0010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W900KK20D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 516000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-03-16",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-20-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Phoenix Logistics Inc.",
+            "location": "Gilbert, Arizona",
+            "contract_number": "W900KK-20-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-no-fee, cost-plus-fixed-fee, cost-plus-incentive-fee, firm-fixed-price contract",
+        "description": "Capabilities for the Joint Land Component Constructive Training Capability across the range of warfighting functions",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 516000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Rock Island Integrated Services, Rock Island, Illinois, was awarded a $7,463,098 modification (P00024) to contract W52P1-J-19-C-5003 for base operations support services. Bids were solicited via the internet with one received. Work will be performed in Rock Island, Illinois, with an estimated completion date of March 14, 2021. Army Contracting Command, Rock Island, Illinois, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00024"
+        ],
+        "is_modification": true,
+        "value_usd": 7463098.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-03-14",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Rock Island Integrated Services",
+            "location": "Rock Island, Illinois",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Base operations support services",
+        "base_contract_number": "W52P1-J-19-C-5003",
+        "order_number": null,
+        "modification_number": "P00024",
+        "value_usd": 7463098,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DynCorp International LLC, Fort Worth, Texas, is awarded a $104,085,696 modification (P00050) to a previously awarded firm-fixed-price, cost-plus-fixed-fee and cost reimbursable contract (N00421-17-C-0033). This modification exercises an option to provide maintenance and logistics support on all aircraft and support equipment for which the Naval Test Wing Atlantic has maintenance responsibility. Work will be performed in Patuxent River, Maryland, and is expected to be complete by March 2021. Fiscal 2020 working capital (Navy) funds in the amount of $47,233,324; fiscal 2020 operations and maintenance (Navy) funds in the amount of $13,038,915; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $921,844 will be obligated at the time of award, $13,038,915 of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0042117C0033"
+        ],
+        "modification_numbers": [
+          "P00050"
+        ],
+        "is_modification": true,
+        "value_usd": 104085696.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 61194083.0,
+        "funding_text": "Fiscal 2020 working capital (Navy) funds in the amount of $47,233,324; fiscal 2020 operations and maintenance (Navy) funds in the amount of $13,038,915; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $921,844 will be obligated at the time of award, $13,038,915 of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-03",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "DynCorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00421-17-C-0033",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee and cost reimbursable contract",
+        "description": "Maintenance and logistics support on all aircraft and support equipment for Naval Test Wing Atlantic (option exercise)",
+        "base_contract_number": "N00421-17-C-0033",
+        "order_number": null,
+        "modification_number": "P00050",
+        "value_usd": 104085696,
+        "cumulative_value_usd": null,
+        "obligated_usd": 60891077,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Honeywell International Inc., Defense & Space, Tempe, Arizona, is awarded $72,817,953 for an indefinite-delivery, performance-based logistics requirements contract for the repair, replacement and program support for auxiliary power units used on combat jets, maritime surveillance and cargo aircraft models (the F/A-18, A-G, P-3 and C-2). Work will be performed in Jacksonville, Florida (50%); Cherry Point, North Carolina (39%); and various contractor facilities (11%). Work is expected to be complete by March 2022. The work performed also provides coverage for the main fuel controls and electronic control unit used on the F/A-18 and the P-3 engine driven compressor. This contract includes a two-year base period with no options. Annual working capital funds (Navy) in the amount of $36,555,518 will be obligated for delivery order (N00383-20-F-0WP0) that will be awarded concurrently with the contract. Funds will not expire at the end of the current fiscal year. One company was solicited for this non-competitive requirement under authority 10 U.S. Code 2304 (c)(1) and Federal Acquisition Regulation 6.302-1, with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-20-D-WP01).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0038320F0WP0",
+          "N0038320DWP01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 72817953.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36555518.0,
+        "funding_text": "Annual working capital funds (Navy) in the amount of $36,555,518 will be obligated for delivery order (N00383-20-F-0WP0) that will be awarded concurrently with the contract",
+        "completion_date": "2022-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-20-D-WP01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc., Defense & Space",
+            "location": "Tempe, Arizona",
+            "contract_number": "N00383-20-D-WP01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery, performance-based logistics requirements contract",
+        "description": "Repair, replacement and program support for auxiliary power units on F/A-18, A-G, P-3 and C-2 aircraft",
+        "base_contract_number": null,
+        "order_number": "N00383-20-F-0WP0",
+        "modification_number": null,
+        "value_usd": 72817953,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36555518,
+        "fms_countries": [],
+        "competition": "Sole source (10 U.S.C. 2304(c)(1)), one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $65,815,333 cost-plus-incentive, fixed-price-incentive modification to previously awarded contract N00024-13-C-5225 for the production and engineering services of the Navy's Undersea Warfare Systems (model AN/SQQ-89A(V)15) for surface ships. Work will be performed in Lemont Furnace, Pennsylvania (54%); Clearwater, Florida (22%); Syracuse, New York (7%); Manassas, Virginia (6%); Hauppauge, New York (5%); Oswego, New York (5%); and Tewksbury, Massachusetts (1%), and is expected to be complete by May 2022. Fiscal 2020 other procurement (Navy); 2020 shipbuilding and conversion (Navy); 2020 research, development, test and evaluation (Navy); 2019 shipbuilding and conversion (Navy); 2020 operations and maintenance (Navy); and 2018 shipbuilding and conversion (Navy) funding in the amount $65,815,333 will be obligated at the time of award, and $50,000 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C5225"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 65815333.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65865333.0,
+        "funding_text": "Fiscal 2020 other procurement (Navy); 2020 shipbuilding and conversion (Navy); 2020 research, development, test and evaluation (Navy); 2019 shipbuilding and conversion (Navy); 2020 operations and maintenance (Navy); and 2018 shipbuilding and conversion (Navy) funding in the amount $65,815,333 will be obligated at the time of award, and $50,000 will expire at the end of the current fiscal year",
+        "completion_date": "2022-05",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-13-C-5225",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive, fixed-price-incentive",
+        "description": "Production and engineering services for Undersea Warfare Systems (AN/SQQ-89A(V)15) for surface ships",
+        "base_contract_number": "N00024-13-C-5225",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 65815333,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65815333,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Haskell Co., Jacksonville, Florida, is awarded a $9,498,353 firm-fixed-price contract for construction of the P680 CH-53K cargo loading tower at the Marine Corps Air Station in New River, North Carolina. Work will be performed in New River, North Carolina, and is expected to be complete by April 2022. The work to be performed will provide a high-bay facility that will house an operations trainer to support CH-53K helicopter pilot and crew chief training program. Construction includes a deep pile foundation, grade beams and reinforced concrete slabs to provide the building's base while reinforced concrete masonry unit exterior walls and a standing seam metal roof provide the building enclosure. This facility will provide a covered, all-weather training environment for the ground operations aircrew trainer, a fuselage trainer device, pallet storage, retrieval and build-out packages associated with troop deployment and mobility. The facility includes high-bay roll-up doors and concrete drive aprons to accommodate moving the aircraft frame in and out of the building. Fiscal 2020 military construction (Navy) contract funds in the amount of $9,498,353 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website with five proposals received. Naval Facilities Engineering Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity (N40085-20-C-0066).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008520C0066"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9498353.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9498353.0,
+        "funding_text": "Fiscal 2020 military construction (Navy) contract funds in the amount of $9,498,353 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-04",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Command Mid-Atlantic, Norfolk, Virginia",
+          "code": "N40085-20-C-0066"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "The Haskell Co.",
+            "location": "Jacksonville, Florida",
+            "contract_number": "N40085-20-C-0066",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of P680 CH-53K cargo loading tower at MCAS New River, North Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9498353,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9498353,
+        "fms_countries": [],
+        "competition": "Competitive, five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "InDyne Inc., Sterling, Virginia, has been awarded a $51,386,233 modification (P00042) to previously awarded contract FA2517-18-C-8000 for Solid State Phased Array Radar Systems (SSPARS). This modification provides for the exercise Option Year Two for the management, operation, maintenance, and logistical support of SSPARS. Work will be performed at Beale Air Force Base, California; Cape Cod Air Force Station, Massachusetts; Clear Air Force Station, Alaska; Thule Air Base, Greenland; and Royal Air Force Fylingdales, United Kingdom, and is expected to be complete by April 30, 2021. Fiscal 2020 operations and maintenance funds in the full amount were obligated at the time of award. The total cumulative face value of the contract is $143,875,078. The 21st Contracting Squadron, Peterson AFB, Colorado, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA251718C8000"
+        ],
+        "modification_numbers": [
+          "P00042"
+        ],
+        "is_modification": true,
+        "value_usd": 51386233.0,
+        "cumulative_value_usd": 143875078.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the full amount were obligated at the time of award",
+        "completion_date": "2021-04-30",
+        "contracting_activity": {
+          "name": "The 21st Contracting Squadron, Peterson AFB, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "InDyne Inc.",
+            "location": "Sterling, Virginia",
+            "contract_number": "FA2517-18-C-8000",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option Year Two for management, operation, maintenance and logistical support of Solid State Phased Array Radar Systems (SSPARS)",
+        "base_contract_number": "FA2517-18-C-8000",
+        "order_number": null,
+        "modification_number": "P00042",
+        "value_usd": 51386233,
+        "cumulative_value_usd": 143875078,
+        "obligated_usd": 51386233,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Charles Stark Draper Laboratory Inc., Cambridge, Massachusetts, has been awarded a $45,000,000 indefinite-delivery, indefinite-quantity contract for the Quicksilver Device prototype. This contract provides for the design, build, and test of an operational Quicksilver Device prototype. Work will be performed in Cambridge, Massachusetts; and Reston, Virginia, and is expected to be completed March 18, 2027. This award is the result of a sole source acquisition, and fiscal 2020 research and development funds in the amount of $7,491,567 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8684-20-D-4000). (Awarded March 16, 2020)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA868420D4000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7491567.0,
+        "funding_text": "This award is the result of a sole source acquisition, and fiscal 2020 research and development funds in the amount of $7,491,567 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8684-20-D-4000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "The Charles Stark Draper Laboratory Inc.",
+            "location": "Cambridge, Massachusetts",
+            "contract_number": "FA8684-20-D-4000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery, indefinite-quantity contract",
+        "description": "Design, build and test of an operational Quicksilver Device prototype",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7491567,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": "2020-03-16"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Data Computer Corp. of America, Ellicott City, Maryland, has been awarded a $7,201,113 fixed-price incentive-firm target modification (P00025) to contract FA880-6-16-F-0002 for the Western Range Modernization Network operations, maintenance and sustainment. This modification supports an increase in operational requirements. Work will be performed at Vandenberg Air Force Base, California, and is expected to be completed by Aug. 31, 2023. Fiscal 2019 and space procurement funds are being obligated at the time of award. Space and Missile Systems Center, Peterson AFB, Colorado, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 7201113.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2019 and space procurement funds are being obligated at the time of award",
+        "completion_date": "2023-08-31",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Peterson AFB, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Data Computer Corp. of America",
+            "location": "Ellicott City, Maryland",
+            "contract_number": "FA880-6-16-F-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive-firm target",
+        "description": "Western Range Modernization Network operations, maintenance and sustainment",
+        "base_contract_number": "FA880-6-16-F-0002",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 7201113,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Capps Shoe Co.,* Lynchburg, Virginia, has been awarded a maximum $15,396,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for men's poromeric shoes. This was a competitive acquisition with two responses received. This is a one-year base year contract with two one-year option periods. Location of performance is Virginia, with a March 17, 2021, performance completion date. Using military services are Army, Air Force and Marine Corps. Type of appropriation is fiscal 2020 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-20-D-1246).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C120D1246"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15396000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-20-D-1246"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Capps Shoe Co.",
+            "location": "Lynchburg, Virginia",
+            "contract_number": "SPE1C1-20-D-1246",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Men's poromeric shoes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15396000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The Raytheon Co., McKinney, Texas, has been awarded a maximum $9,312,000 undefinitized, firm-fixed-price delivery order (SPRPA1-20-F-CB04) against a five-year basic ordering agreement (SPRPA1-19-G-CB01) for electronic modules for the H-53 aircraft. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a two-year contract with no option periods. Location of performance is Texas, with a March 7, 2022, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2020 Navy working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA120FCB04",
+          "SPRPA119GCB01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9312000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "SPRPA1-20-F-CB04",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "undefinitized, firm-fixed-price delivery order",
+        "description": "Electronic modules for H-53 aircraft",
+        "base_contract_number": "SPRPA1-19-G-CB01",
+        "order_number": "SPRPA1-20-F-CB04",
+        "modification_number": null,
+        "value_usd": 9312000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1) / FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on March 12, 2020, for American Autoclave Co., Jasper, Georgia (SPE4A8-20-C-0001), was announced with an incorrect award date. The correct award date is March 17, 2020.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A820C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "American Autoclave Co.",
+            "location": "Jasper, Georgia",
+            "contract_number": "SPE4A8-20-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction of award date for contract announced March 12, 2020; correct award date is March 17, 2020",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2020-03-17"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:42Z",
-  "source": "file:2020-03-17.html"
+  "source": "file:2020-03-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:53:26Z"
+  }
 }

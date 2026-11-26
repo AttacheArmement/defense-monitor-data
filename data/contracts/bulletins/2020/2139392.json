@@ -11,117 +11,1024 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "URS Federal Services International Inc., Cleveland, Ohio (FA8051-20-D-0001); DynCorp International LLC, Fort Worth, Texas (FA8051-20-D-0002); ECC International LLC, Virginia Beach, Virginia (FA8051-20-D-0003); Fluor Intercontinental Inc., Greenville, South Carolina (FA8051-20-D-0004); Kellogg Brown & Root Services Inc., Houston, Texas (FA8051-20-D-0005); PAE-Perini LLC, Arlington, Virginia (FA8051-20-D-0006); Readiness Management Support L.C., Panama City, Florida (FA8051-20-D-0007); and Vectrus Systems Corp., Colorado Springs, Colorado (FA8051-20-D-0008), have been awarded a combined ceiling $6,400,000,000, multiple award, indefinite-delivery/indefinite-quantity contract for worldwide contingency and humanitarian support. This contract provides contingency planning, deploying and training/equipping of forces; emergency and contingency construction; logistics/commodities and services. The location of performance is determined at the task order level and includes various locations worldwide. The work is expected to be completed by May 31, 2031. This award is the result of a competitive acquisition and eight offers were received. Fiscal 2020 operations and maintenance funds in the amount of $4,000 per contract are being obligated at the time of award. The 772nd Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA805120D0001",
+          "FA805120D0002",
+          "FA805120D0003",
+          "FA805120D0004",
+          "FA805120D0005",
+          "FA805120D0006",
+          "FA805120D0007",
+          "FA805120D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 6400000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4000.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the amount of $4,000 per contract are being obligated at the time of award",
+        "completion_date": "2031-05-31",
+        "contracting_activity": {
+          "name": "The 772nd Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "URS Federal Services International Inc.",
+            "location": "Cleveland, Ohio",
+            "contract_number": "FA8051-20-D-0001",
+            "markers": null
+          },
+          {
+            "name": "DynCorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8051-20-D-0002",
+            "markers": null
+          },
+          {
+            "name": "ECC International LLC",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "FA8051-20-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Fluor Intercontinental Inc.",
+            "location": "Greenville, South Carolina",
+            "contract_number": "FA8051-20-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Kellogg Brown & Root Services Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "FA8051-20-D-0005",
+            "markers": null
+          },
+          {
+            "name": "PAE-Perini LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA8051-20-D-0006",
+            "markers": null
+          },
+          {
+            "name": "Readiness Management Support L.C.",
+            "location": "Panama City, Florida",
+            "contract_number": "FA8051-20-D-0007",
+            "markers": null
+          },
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8051-20-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award, indefinite-delivery/indefinite-quantity contract",
+        "description": "Worldwide contingency and humanitarian support (contingency planning, deployment and training, emergency construction, logistics/commodities and services)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6400000000,
+        "cumulative_value_usd": 6400000000,
+        "obligated_usd": 32000,
+        "fms_countries": [],
+        "competition": "competitive; eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Defense, St. Louis, Missouri, has been awarded a $68,060,000 undefinitized contract action for the F-15 Qatar program. This contract action supports the Foreign Military Sales requirement for the Qatar Emiri Air Force and provides maintenance and logistics support for aircraft and training devices conducting pre-delivery training. Work will be performed in St. Louis, Missouri, and is expected to be completed by Dec. 21, 2021. This contract involves Foreign Military Sales (FMS) to the state of Qatar and is the result of a sole-source acquisition. FMS funds in the amount of $33,349,400 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8634-18-C-2701).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA863418C2701"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 68060000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33349400.0,
+        "funding_text": "FMS funds in the amount of $33,349,400 are being obligated at the time of award",
+        "completion_date": "2021-12-21",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8634-18-C-2701"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co., Defense",
+            "location": "St. Louis, Missouri",
+            "contract_number": "FA8634-18-C-2701",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "F-15 Qatar program maintenance and logistics support for pre-delivery training",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 68060000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33349400,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "University of Dayton Research Institute, Dayton, Ohio, has been awarded a $25,000,000 indefinite-delivery/indefinite-quantity (IDIQ) contract for the research and development for emerging fuze technologies and Energetic Materials for Munitions effort. The first task order will be a $415,000 award for the Terminal Burst Point Control Sciences effort, under Task Order FA8651-20-F-1003. The five year IDIQ will support research and development for emerging fuze technology and energetic materials to develop, demonstrate, and transition technologies with applications in fuzes for air-delivered weapons. Work will be performed at Eglin Air Force Base, Florida, and is expected to be completed by September 2021 for Task Order 0001. This award is the result of a competitive acquisition and fiscal 2019 research, development, test and evaluation funds in the amount of $90,000 are being obligated at the time of award. Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity (FA8651-20-D-0003).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA865120F1003",
+          "FA865120D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90000.0,
+        "funding_text": "This award is the result of a competitive acquisition and fiscal 2019 research, development, test and evaluation funds in the amount of $90,000 are being obligated at the time of award",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": "FA8651-20-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "University of Dayton Research Institute",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8651-20-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (IDIQ)",
+        "description": "Research and development for emerging fuze technologies and Energetic Materials for Munitions; first task order Terminal Burst Point Control Sciences effort",
+        "base_contract_number": null,
+        "order_number": "FA8651-20-F-1003",
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": 25000000,
+        "obligated_usd": 90000,
+        "fms_countries": [],
+        "competition": "competitive",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3 Technologies Inc., Wilmington, Massachusetts, has been awarded a $9,356,200 cost-plus-fixed-fee contract for Wide Field of View testbed Wide-Area Six-Degree Payload pre-launch and post-launch services. This contract provides for pre-launch and post-launch services to include launch site integration support and preparation, on-orbit calibration and analysis, and mission operations and anomaly resolution services. Work will be performed in Wilmington, Massachusetts, and is expected to be completed by March 2024. This award is the result of a sole-source acquisition, and fiscal 2020 research, development, testing and evaluation funds in the amount of $1,275,000 are being obligated at the time of award. The Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity (FA8808-20-C-0040).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA880820C0040"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9356200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1275000.0,
+        "funding_text": "This award is the result of a sole-source acquisition, and fiscal 2020 research, development, testing and evaluation funds in the amount of $1,275,000 are being obligated at the time of award",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": "FA8808-20-C-0040"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "L3 Technologies Inc.",
+            "location": "Wilmington, Massachusetts",
+            "contract_number": "FA8808-20-C-0040",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Wide Field of View testbed Wide-Area Six-Degree Payload pre-launch and post-launch services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9356200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1275000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Aleut Logistics Services LLC, Colorado Springs, Colorado, has been awarded a $7,757,682 firm-fixed-price contract for U.S. Air Force Academy (USAFA) cadet support services. This contract provides for administrative support for all direct mission events, athletics department support, cadet wing support and dean of faculty support for all cadet services. Work will be performed at the USAFA, Colorado, and is expected to be completed by Feb. 28, 2022. This award is the result of a direct award 8(a) small business set aside. Fiscal 2020 operations and maintenance funds in the amount of $1,295,912 will be obligated at the time of award. The 10th Contracting Squadron, USAFA, Colorado, is the contracting activity (FA7000-20-C-0012). (Awarded March 15, 2020)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA700020C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7757682.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1295912.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the amount of $1,295,912 will be obligated at the time of award",
+        "completion_date": "2022-02-28",
+        "contracting_activity": {
+          "name": "The 10th Contracting Squadron, USAFA, Colorado",
+          "code": "FA7000-20-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Aleut Logistics Services LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA7000-20-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "U.S. Air Force Academy (USAFA) cadet support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7757682,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1295912,
+        "fms_countries": [],
+        "competition": "direct award 8(a) small business set aside",
+        "award_date": "2020-03-15"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods Inc., Oklahoma City, Oklahoma, has been awarded a maximum $96,608,715 fixed-price with economic-price-adjustment, indefinite-quantity contract for full-line food distribution. This was a competitive acquisition with four responses received. This is a 24-month base contract with one 12-month and one 24-month option periods. Locations of performance are Texas and Oklahoma, with an April 2, 2022, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps, Coast Guard and federal civilian agencies. Type of appropriation is fiscal 2020 through 2022 defense working capital funds. The contracting agency is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-20-D-3249). (Awarded April 3, 2020)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE30020D3249"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 96608715.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-20-D-3249"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "US Foods Inc.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "SPE300-20-D-3249",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity contract",
+        "description": "Full-line food distribution",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 96608715,
+        "cumulative_value_usd": 96608715,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive; four responses received",
+        "award_date": "2020-04-03"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Fairfield, New Jersey, has been awarded a maximum $90,000,000 firm-fixed-price contract for facilities maintenance, repair and operations items. This was a sole-source acquisition using justification 10 U.S. Code 2304(c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is an 18-month bridge contract with no option periods. Locations of performance are Arkansas, Colorado, Kansas, New Mexico, Oklahoma and New Jersey, with an Oct. 6, 2021, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal year 2020 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-20-D-0010).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E320D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-20-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Fairfield, New Jersey",
+            "contract_number": "SPE8E3-20-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Facilities maintenance, repair and operations items (18-month bridge contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": 90000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SupplyCore Inc.,* Rockford, Illinois, has been awarded a maximum $90,000,000 firm-fixed-price contract for facilities maintenance, repair and operations items. This was a sole-source acquisition using justification 10 U.S. Code 2304(c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is an 18-month bridge contract with no option periods. Locations of performance are Louisiana, Texas and Illinois, with an Oct. 6, 2021, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal year 2020 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-20-D-0008).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E320D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-20-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "SupplyCore Inc.",
+            "location": "Rockford, Illinois",
+            "contract_number": "SPE8E3-20-D-0008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Facilities maintenance, repair and operations items (18-month bridge contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": 90000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "AvKare LLC, Pulaski, Tennessee, has been awarded an estimated $12,428,958 firm-fixed-price requirements contract for Telmisartan tablets. This was a competitive acquisition with six responses received. This is a one-year base contract with four one-year option periods. Locations of performance are New York and Tennessee, with an April 5, 2021, performance completion date. Using customers are Department of Defense, Department of Veterans Affairs, Indian Health Services and Federal Bureau of Prisons. Type of appropriation is fiscal 2020 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D2-20-D-0087).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D220D0087"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12428958.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D2-20-D-0087"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "AvKare LLC",
+            "location": "Pulaski, Tennessee",
+            "contract_number": "SPE2D2-20-D-0087",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Telmisartan tablets",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12428958,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive; six responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aecom Technical Service Inc., Los Angeles, California (W91278-20-D-0020); Aptim Federal Services LLC, Alexandria, Virginia (W91278-20-D-0021); Arcadis U.S. Inc., Highland Ranch, Colorado (W91278-20-D-0022); Cardno-EA JV, Charlottesville, Virginia (W91278-20-D-0023); HDR Environmental, Operation and Construction Inc., Englewood, Colorado (W91278-20-D-0024); Leidos Inc., Reston, Virginia (W91278-20-D0025); and Tetra Tech Inc., Pasadena, California (W91278-20-D-0026), will compete for each order of the $49,000,000 firm-fixed-price contract for architect and engineering services to support the U.S. Army Corps of Engineers South Atlantic Division. Bids were solicited via the internet with 14 received. Work locations and funding will be determined with each order, with an estimated completion date of April 5, 2023. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W9127820D0020",
+          "W9127820D0021",
+          "W9127820D0022",
+          "W9127820D0023",
+          "W9127820D0024",
+          "W9127820D0025",
+          "W9127820D0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-04-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Aecom Technical Service Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W91278-20-D-0020",
+            "markers": null
+          },
+          {
+            "name": "Aptim Federal Services LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W91278-20-D-0021",
+            "markers": null
+          },
+          {
+            "name": "Arcadis U.S. Inc.",
+            "location": "Highland Ranch, Colorado",
+            "contract_number": "W91278-20-D-0022",
+            "markers": null
+          },
+          {
+            "name": "Cardno-EA JV",
+            "location": "Charlottesville, Virginia",
+            "contract_number": "W91278-20-D-0023",
+            "markers": null
+          },
+          {
+            "name": "HDR Environmental, Operation and Construction Inc.",
+            "location": "Englewood, Colorado",
+            "contract_number": "W91278-20-D-0024",
+            "markers": null
+          },
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W91278-20-D-0025",
+            "markers": null
+          },
+          {
+            "name": "Tetra Tech Inc.",
+            "location": "Pasadena, California",
+            "contract_number": "W91278-20-D-0026",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Architect and engineering services for U.S. Army Corps of Engineers South Atlantic Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; 14 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Alliant Techsystems Operations, Plymouth, Minnesota, was awarded a $32,167,259 modification (P00073) to contract W15QKN-13-C-0074 for Precision Guidance Kit M1156. Work will be performed in Plymouth, Minnesota, with an estimated completion date of June 3, 2024. Fiscal 2020 other procurement, Army funds in the amount of $32,167,259 were obligated at the time of the award. U.S. Army Contracting Command, New Jersey, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN13C0074"
+        ],
+        "modification_numbers": [
+          "P00073"
+        ],
+        "is_modification": true,
+        "value_usd": 32167259.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32167259.0,
+        "funding_text": "Fiscal 2020 other procurement, Army funds in the amount of $32,167,259 were obligated at the time of the award",
+        "completion_date": "2024-06-03",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Alliant Techsystems Operations",
+            "location": "Plymouth, Minnesota",
+            "contract_number": "W15QKN-13-C-0074",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Precision Guidance Kit M1156",
+        "base_contract_number": "W15QKN-13-C-0074",
+        "order_number": null,
+        "modification_number": "P00073",
+        "value_usd": 32167259,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32167259,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "TAE Aerospace Inc.,* New Braunfels, Texas, was awarded a $25,000,000 firm-fixed-price contract to overhaul electro mechanical fuel system assemblies and oil pump assemblies for AGT 1500 M1 tanks. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of April 5, 2025. The United State Property and Fiscal Office, Topeka, Kansas, is the contracting activity (W912JC-20-D-5730).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W912JC20D5730"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-04-05",
+        "contracting_activity": {
+          "name": "The United State Property and Fiscal Office, Topeka, Kansas",
+          "code": "W912JC-20-D-5730"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "TAE Aerospace Inc.",
+            "location": "New Braunfels, Texas",
+            "contract_number": "W912JC-20-D-5730",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Overhaul of electro mechanical fuel system assemblies and oil pump assemblies for AGT 1500 M1 tanks",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Robins & Morton Group, Birmingham, Alabama, was awarded a $22,500,000 firm-fixed-price contract to retrofit space into an alternate care facility. Bids were solicited via the internet with nine received. Work will be performed in Miami Beach, Florida, with an estimated completion date of April 27, 2020. Fiscal 2020 civil construction funds in the amount of $22,500,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Jacksonville, Florida, is the contracting activity (W912EP-20-C-0003).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W912EP20C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22500000.0,
+        "funding_text": "Fiscal 2020 civil construction funds in the amount of $22,500,000 were obligated at the time of the award",
+        "completion_date": "2020-04-27",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Jacksonville, Florida",
+          "code": "W912EP-20-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "The Robins & Morton Group",
+            "location": "Birmingham, Alabama",
+            "contract_number": "W912EP-20-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Retrofit space into an alternate care facility in Miami Beach, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22500000,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AECOM Technical Services Inc., Los Angeles, California, was awarded a $12,367,196 firm-fixed-price contract to convert Gateway Shopping Center into an alternate care facility. Bids were solicited via the internet with one received. Work will be performed in Memphis, Tennessee, with an estimated completion date of April 27, 2020. Fiscal 2020 FEMA funds in the amount of $12,367,196 were obligated at the time of the award. U.S. Army Corps of Engineers, Memphis, Tennessee, is the contracting activity (W912EQ-20-C-0004).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912EQ20C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12367196.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12367196.0,
+        "funding_text": "Fiscal 2020 FEMA funds in the amount of $12,367,196 were obligated at the time of the award",
+        "completion_date": "2020-04-27",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Memphis, Tennessee",
+          "code": "W912EQ-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W912EQ-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Convert Gateway Shopping Center into an alternate care facility in Memphis, Tennessee",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12367196,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12367196,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gilbane Federal, Concord, California, was awarded an $11,000,000 firm-fixed-price contract to retrofit space into an alternate care facility. Bids were solicited via the internet with one received. Work will be performed in Novi, Michigan, with an estimated completion date of April 20, 2020. Fiscal 2020 FEMA funds in the amount of $11,000,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Nashville, Tennessee, is the contracting activity (W911XK-20-C-0004). (Awarded April 5, 2020)",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "W911XK20C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000000.0,
+        "funding_text": "Fiscal 2020 FEMA funds in the amount of $11,000,000 were obligated at the time of the award",
+        "completion_date": "2020-04-20",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Nashville, Tennessee",
+          "code": "W911XK-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Gilbane Federal",
+            "location": "Concord, California",
+            "contract_number": "W911XK-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Retrofit space into an alternate care facility in Novi, Michigan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000000,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": "2020-04-05"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bulley & Andrews, Chicago, Illinois, was awarded an $8,998,200 firm-fixed-price contract to convert a closed hospital into an acute alternate care facility. Bids were solicited via the internet with one received. Work will be performed in Melrose Park, Illinois, with an estimated completion date of April 24, 2020. Fiscal 2020 FEMA funds in the amount of $8,998,200 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912P6-20-C-0004). (Awarded April 4, 2020)",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "W912P620C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8998200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8998200.0,
+        "funding_text": "Fiscal 2020 FEMA funds in the amount of $8,998,200 were obligated at the time of the award",
+        "completion_date": "2020-04-24",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912P6-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Bulley & Andrews",
+            "location": "Chicago, Illinois",
+            "contract_number": "W912P6-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Convert a closed hospital into an acute alternate care facility in Melrose Park, Illinois",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8998200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8998200,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": "2020-04-04"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Manassas, Virginia, is awarded $29,485,050 for a cost-plus-fixed-fee and cost-reimbursement-type contract to provide systems engineering, software design/development, integration, testing, installation, training, management support and system documentation for continued modernization of the Office of Naval Intelligence Measurement and Signature Intelligence Enterprise for Global Acoustic Intelligence system. Work will be performed at the contractor's facilities in Manassas, Virginia. This one-year contract includes four option periods which, if exercised, will bring the overall potential value of this contract to an estimated $90,314,266. The period of performance of the base award is from April 6, 2020, through April 5, 2021. If all options are exercised, the period of performance will extend through April 5, 2025. Fiscal 2020 funds will be obligated using research and development (Navy) funds and contract funds will not expire at the end of the current fiscal year. This contract was awarded using other than full and open competition in accordance with Federal Acquisition Regulation Subpart 6.302-1 and 10 U.S. Code 2304(c)(1), with only one responsible source. The Naval Information Warfare Center, Pacific, San Diego, California, is the contracting activity (N66001-20-C-0082).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "N6600120C0082"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29485050.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2020 funds will be obligated using research and development (Navy) funds and contract funds will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Information Warfare Center, Pacific, San Diego, California",
+          "code": "N66001-20-C-0082"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N66001-20-C-0082",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and cost-reimbursement-type contract",
+        "description": "Systems engineering, software design/development, integration, testing, installation, training and documentation for modernization of the Office of Naval Intelligence Measurement and Signature Intelligence Enterprise for Global Acoustic Intelligence system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29485050,
+        "cumulative_value_usd": 90314266,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Other than full and open competition; only one responsible source (FAR 6.302-1; 10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DCS Corp., Alexandria, Virginia, is awarded $7,584,179 for a cost-plus-fixed-fee order N00019-20-F-0703 against previously-issued basic ordering agreement N00019-20-G-0001. This modification provides for the continued support and redesign of weapon and stores planning from version 4.1 to 5.0 (the beginning of the initial transition to micro-services architecture in support of Next Generation Naval Mission Planning). Work will be performed in Lexington Park, Maryland, and is expected to be complete by December 2021. Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $3,000,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 18
+      "seq": 18,
+      "fields": {
+        "contract_numbers": [
+          "N0001920F0703",
+          "N0001920G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7584179.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000000.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $3,000,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 18,
+        "awardees": [
+          {
+            "name": "DCS Corp.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "N00019-20-F-0703",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Continued support and redesign of weapon and stores planning from version 4.1 to 5.0 for Next Generation Naval Mission Planning, in Lexington Park, Maryland",
+        "base_contract_number": "N00019-20-G-0001",
+        "order_number": "N00019-20-F-0703",
+        "modification_number": null,
+        "value_usd": 7584179,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "UPDATE: A multiple-award contract announced on Sept. 26, 2019, with a combined value of $90,000,000, has added Firetrol Protection Systems Inc., Mobile, Alabama (N69450-20-D-0005), as one of five awardees to design and build fire protection construction projects located within the Naval Facilities Engineering Command Southeast area of operations.",
-      "seq": 19
+      "seq": 19,
+      "fields": {
+        "contract_numbers": [
+          "N6945020D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 19,
+        "awardees": [
+          {
+            "name": "Firetrol Protection Systems Inc.",
+            "location": "Mobile, Alabama",
+            "contract_number": "N69450-20-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": null,
+        "description": "Update adding Firetrol as one of five awardees on a multiple-award contract for fire protection construction projects in the NAVFAC Southeast area of operations (originally announced Sept. 26, 2019)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:42Z",
-  "source": "file:2020-04-06.html"
+  "source": "file:2020-04-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:50:12Z"
+  }
 }

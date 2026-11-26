@@ -11,57 +11,454 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Schutt Industries of Clintonville Wi Inc., Clintonville, Wisconsin, was awarded a $230,154,899 fixed-price with economic price adjustment contract for M870A4 semitrailer, lowbed, construction equipment transporters. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2032. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-25-D-0010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912CH25D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 230154899.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2032-05-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-25-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Schutt Industries of Clintonville Wi Inc.",
+            "location": "Clintonville, Wisconsin",
+            "contract_number": "W912CH-25-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic price adjustment contract",
+        "description": "M870A4 semitrailer, lowbed, construction equipment transporters",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 230154899,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Center for Disease Detection LLC, San Antonio, Texas, was awarded a $54,392,013 firm-fixed-price contract for medical laboratory testing services. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 30, 2029. Army Health Contracting Activity, San Antonio, Texas, is the contracting activity (W81K04-25-D-0002)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W81K0425D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54392013.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-09-30",
+        "contracting_activity": {
+          "name": "Army Health Contracting Activity, San Antonio, Texas",
+          "code": "W81K04-25-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Center for Disease Detection LLC",
+            "location": "San Antonio, Texas",
+            "contract_number": "W81K04-25-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Medical laboratory testing services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54392013,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with five received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Insitu Inc., Bingen, Washington, is awarded a $102,353,293 modification (P00007) to a previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N0001922D0038). This modification increases the contract ceiling to procure 21 RQ-21A Blackjack air vehicles and 47 ScanEagle air vehicles, as well as associated payloads, turrets, support equipment, spares, tools, and training for both Unmanned Aircraft Systems in support of intelligence, surveillance, and reconnaissance for the Navy, Foreign Military Sales customers, and other international business partnership capacity efforts. Work will be performed in Bingen, Washington (88%); and various locations outside the continental U.S. (12%), and is expected to be completed in June 2026. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This modification was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001922D0038"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 102353293.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Insitu Inc.",
+            "location": "Bingen, Washington",
+            "contract_number": "N0001922D0038",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Increases contract ceiling to procure 21 RQ-21A Blackjack and 47 ScanEagle air vehicles with payloads, turrets, support equipment, spares, tools, and training for ISR for the Navy, FMS customers, and other international partnership efforts",
+        "base_contract_number": "N0001922D0038",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 102353293,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, is awarded a $99,589,480 cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract. This contract provides design and development studies, technology demonstrations, and engineering services for rapid technology development by continuing to modify the Joint Air to Surface Standoff Missile, Long Range Anti-Ship Missile, Joint Air-to-Ground Missile, and Hellfire baseline weapon systems. This contract will also provide services for integration of the aforementioned weapons systems into tactical aircraft platforms for the Navy. Work will be performed in Orlando, Florida, and is expected to be completed by February 2030. No funds will be obligated at the time of award, funds will be obligated on individual orders as they are issued. This contract was not competed. Naval Air Warfare Center Weapons Division, China Lake, California, is the contracting activity (N6893625D0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6893625D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99589480.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award, funds will be obligated on individual orders as they are issued",
+        "completion_date": "2030-02",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Weapons Division, China Lake, California",
+          "code": "N6893625D0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "N6893625D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity",
+        "description": "Design and development studies, technology demonstrations, and engineering services for rapid technology development on JASSM, LRASM, JAGM, and Hellfire baseline weapon systems, including integration into tactical aircraft platforms",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99589480,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $27,968,786 modification (P00007) to a previously awarded cost-plus-fixed-fee undefinitized contract (N0001924C0011). This modification adds scope to provide program management support for special tooling/special test equipment in support of F-35 production aircraft, as well as aircraft modifications and flight test instrumentation in support of the Joint Strike Fighter aircraft for the Air Force, Marine Corps, Navy, Foreign Military Sales (FMS) customers, and non-U.S. Department of Defense (DOD) participants. Work will be performed in Fort Worth, Texas, and is expected to be completed in December 2028. Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $88,638; fiscal 2025 research, development, test and evaluation (Air Force) funds in the amount of $88,638; fiscal 2024 aircraft procurement (Air Force) funds in the amount of $10,035,130; fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,680,828; non-U.S. DOD participants funds in the amount of $5,508,125; and FMS customer funds in the amount of $3,567,430, will be obligated at time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001924C0011"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 27968786.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27968789.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $88,638; fiscal 2025 research, development, test and evaluation (Air Force) funds in the amount of $88,638; fiscal 2024 aircraft procurement (Air Force) funds in the amount of $10,035,130; fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,680,828; non-U.S. DOD participants funds in the amount of $5,508,125; and FMS customer funds in the amount of $3,567,430, will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001924C0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee undefinitized contract",
+        "description": "Program management support for special tooling/special test equipment for F-35 production aircraft, plus aircraft modifications and flight test instrumentation for the Joint Strike Fighter",
+        "base_contract_number": "N0001924C0011",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 27968786,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27968786,
+        "fms_countries": [
+          "Foreign Military Sales customers",
+          "non-U.S. Department of Defense participants"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Cruz Associates Inc.,* Yorktown, Virginia, is awarded a $20,827,861 cost-plus-fixed fee contract for manufacturing and technical expertise services in all areas relative to energetics development. This contract includes options which, if exercised, would bring the cumulative value of this contract to $60,911,615. Work will be performed at Naval Surface Warfare Center (NSWC) Indian Head (IHD) at Indian Head, Maryland (98%); and detachment Naval Weapons Station (NWS) Yorktown, Yorktown, Virginia (2%), and is expected to be completed by February 2026. If all options are exercised, work will continue through August 2027. Fiscal 2025 Working Capital Fund in the amount of $20,827,861 will be obligated at time of award, and will not expire at the end of the current fiscal year. This contract was not competitively procured, in accordance with 10 U.S. Code 3204(a)(1) (only one responsible source and no other supplies or services will satisfy agency requirements. NSWC IHD, Indian Head, Maryland, is the contracting activity (N0017425C0001).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0017425C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20827861.0,
+        "cumulative_value_usd": 60911615.0,
+        "obligated_usd": 20827861.0,
+        "funding_text": "Fiscal 2025 Working Capital Fund in the amount of $20,827,861 will be obligated at time of award, and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-02",
+        "contracting_activity": {
+          "name": "NSWC IHD, Indian Head, Maryland",
+          "code": "N0017425C0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Cruz Associates Inc.",
+            "location": "Yorktown, Virginia",
+            "contract_number": "N0017425C0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed fee",
+        "description": "Manufacturing and technical expertise services in all areas relative to energetics development at NSWC Indian Head",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20827861,
+        "cumulative_value_usd": 60911615,
+        "obligated_usd": 20827861,
+        "fms_countries": [],
+        "competition": "not competitively procured, only one responsible source (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Rotary and Mission Systems, Moorestown, New Jersey, was awarded a $13,010,593 cost-plus-incentive-fee and cost-only modification to previously awarded contract N00024-21-C-5105 to exercise options for combat system ship integration and test on Littoral Combat Ships and unmanned surface vessels. Work will be performed in Moorestown, New Jersey (32%); Seattle, Washington (32%); Pascagoula, Mississippi (8%); Jacksonville, Florida (7%); San Diego, California (7%); Camden, New Jersey (6%); Pittsfield, Massachusetts (6%); Virginia Beach, Virginia (1%); and Marinette, Wisconsin (1%), and work is expected to be completed by February 2026. Fiscal 2024 other procurement (Navy) funds in the amount of $85,000 (18%); and fiscal 2025 other procurement (Navy) funds in the amount of $400,000 (82%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command in Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C5105"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13010593.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 485000.0,
+        "funding_text": "Fiscal 2024 other procurement (Navy) funds in the amount of $85,000 (18%); and fiscal 2025 other procurement (Navy) funds in the amount of $400,000 (82%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-02",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command in Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee and cost-only modification",
+        "description": "Exercise of options for combat system ship integration and test on Littoral Combat Ships and unmanned surface vessels",
+        "base_contract_number": "N00024-21-C-5105",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13010593,
+        "cumulative_value_usd": null,
+        "obligated_usd": 485000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ultra Electronics Ocean Systems Inc., Braintree, Massachusetts, is awarded a $10,976,004 cost-plus-fixed-fee modification to previously awarded contract N0002425C4127 for engineering support in connection with the production of AN/SPS-73(V) Next Generation Surface Search Radar systems. Work will be performed in Braintree, Massachusetts (60%); Waker Forest, North Carolina (35%); and Chantilly, Virginia (5%), and is expected to be completed by August 2027. If all options are exercised, work will continue through September 2031. Fiscal 2024 other procurement (Navy) funds in the amount of $2,014,897 (91%); and fiscal 2025 other procurement (Navy) funds in the amount of $200,000 (9%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-25-C-4127).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C4127"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10976004.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2214897.0,
+        "funding_text": "Fiscal 2024 other procurement (Navy) funds in the amount of $2,014,897 (91%); and fiscal 2025 other procurement (Navy) funds in the amount of $200,000 (9%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-08",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-25-C-4127"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Ultra Electronics Ocean Systems Inc.",
+            "location": "Braintree, Massachusetts",
+            "contract_number": "N00024-25-C-4127",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering support for production of AN/SPS-73(V) Next Generation Surface Search Radar systems",
+        "base_contract_number": "N0002425C4127",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10976004,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2214897,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "MicroTechnologies LLC, Delray Beach, Florida, was awarded a $12,900,000 firm-fixed-price modification (P00004) to a previously awarded contract (FA4890-24-C-0035) for an additional 4-months continuance of support to the Combined Air and Space Operations Center. Work will be performed at Shaw Air Force Base, South Carolina; and Al Udeid Air Base, Qatar, and is expected to be completed by July 2, 2025. Fiscal 2025 operation and maintenance funds in the amount of $11,518,907 are being obligated at the time of award. The Air Combat Command Acquisition Management and Integration Center, Hampton, Virginia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA489024C0035"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 12900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11518907.0,
+        "funding_text": "Fiscal 2025 operation and maintenance funds in the amount of $11,518,907 are being obligated at the time of award",
+        "completion_date": "2025-07-02",
+        "contracting_activity": {
+          "name": "The Air Combat Command Acquisition Management and Integration Center, Hampton, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "MicroTechnologies LLC",
+            "location": "Delray Beach, Florida",
+            "contract_number": "FA4890-24-C-0035",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Additional 4-month continuance of support to the Combined Air and Space Operations Center",
+        "base_contract_number": "FA4890-24-C-0035",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 12900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11518907,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-02-18.html"
+  "source": "file:2025-02-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:14:52Z"
+  }
 }

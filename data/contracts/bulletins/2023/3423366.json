@@ -11,87 +11,777 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Electric Aerospace, Cincinnati, Ohio, has been awarded a maximum $422,810,759 firm-fixed price, requirements-type contract for supplies related to the F-series engines (F101/110/118). This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulations 6.302-1. This is a five-year base contract with one five-year option period. The performance completion date is May 31, 2028. Using military services are Army, Air Force, and Navy. Type of appropriation is fiscal 2023 through 2027 defense appropriated funds and working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4AX-23-D-9420).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE4AX23D9420"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 422810759.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": "SPE4AX-23-D-9420"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Electric Aerospace",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "SPE4AX-23-D-9420",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, requirements-type contract",
+        "description": "Supplies related to F-series engines (F101/110/118)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 422810759,
+        "cumulative_value_usd": 422810759,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Eastern Aviation, doing business as Titan Aviation, New Bern, North Carolina (SPE607-23-D-0106, $8,214,486), has been added as an awardee to the multiple award contract for fuel support at Monroeville County Aeroplex Airport, Alabama, issued against solicitation SPE607-23-R-0202 and awarded March 6, 2023.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE60723D0106",
+          "SPE60723R0202"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8214486.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Eastern Aviation, doing business as Titan Aviation",
+            "location": "New Bern, North Carolina",
+            "contract_number": "SPE607-23-D-0106",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Addition of awardee to multiple award contract for fuel support at Monroeville County Aeroplex Airport, Alabama (solicitation SPE607-23-R-0202)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8214486,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-03-06"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hensel Phelps Construction Co., Bellevue, Washington, was awarded a $103,157,000 firm-fixed-price contract to construct a research facility. Bids were solicited via the internet with three received. Work will be performed in Pullman, Washington, with an estimated completion date of Dec. 5, 2025. Fiscal 2023 civil construction funds in the amount of $103,157,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity (W912DW-23-C-0014).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912DW23C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 103157000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 103157000.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $103,157,000 were obligated at the time of the award",
+        "completion_date": "2025-12-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": "W912DW-23-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Hensel Phelps Construction Co.",
+            "location": "Bellevue, Washington",
+            "contract_number": "W912DW-23-C-0014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a research facility in Pullman, Washington",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 103157000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 103157000,
+        "fms_countries": [],
+        "competition": "internet solicitation, 3 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Consigli Construction Co Inc., Milford, Massachusetts, was awarded an $83,789,463 firm-fixed-price contract for unaccompanied enlisted personnel housing barracks replacement. Bids were solicited via the internet with five received. Work will be performed at Fort Meade, Maryland, with an estimated completion date of March 12, 2025. Fiscal 2023 military construction, Army funds in the amount of $83,789,463 were obligated at the time of the award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity (W912DR-23-C-0017).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912DR23C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 83789463.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 83789463.0,
+        "funding_text": "Fiscal 2023 military construction, Army funds in the amount of $83,789,463 were obligated at the time of the award",
+        "completion_date": "2025-03-12",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore, Maryland",
+          "code": "W912DR-23-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Consigli Construction Co Inc.",
+            "location": "Milford, Massachusetts",
+            "contract_number": "W912DR-23-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Unaccompanied enlisted personnel housing barracks replacement at Fort Meade, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 83789463,
+        "cumulative_value_usd": null,
+        "obligated_usd": 83789463,
+        "fms_countries": [],
+        "competition": "internet solicitation, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "RENK America LLC, Muskegon, Michigan, was awarded a $56,863,296 modification (P00031) to contract W56HZV-20-C-0124 for Armored Multi-Purpose Vehicle System transmissions. Work will be performed in Muskegon, Michigan, with an estimated completion date of Aug. 31, 2025. Fiscal 2022 and 2023 procurement of weapons and tracked combat vehicles, Army funds in the amount of $56,863,296 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV20C0124"
+        ],
+        "modification_numbers": [
+          "P00031"
+        ],
+        "is_modification": true,
+        "value_usd": 56863296.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 56863296.0,
+        "funding_text": "Fiscal 2022 and 2023 procurement of weapons and tracked combat vehicles, Army funds in the amount of $56,863,296 were obligated at the time of the award",
+        "completion_date": "2025-08-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "RENK America LLC",
+            "location": "Muskegon, Michigan",
+            "contract_number": "W56HZV-20-C-0124",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Armored Multi-Purpose Vehicle System transmissions",
+        "base_contract_number": "W56HZV-20-C-0124",
+        "order_number": null,
+        "modification_number": "P00031",
+        "value_usd": 56863296,
+        "cumulative_value_usd": null,
+        "obligated_usd": 56863296,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Curtin Maritime Corp.,* Long Beach, California, was awarded a $54,204,676 firm-fixed-price contract for San Juan Harbor construction and maintenance dredging. Bids were solicited via the internet with seven received. Work will be performed in San Juan, Puerto Rico, with an estimated completion date of July 31, 2024. Fiscal 2023 civil construction funds in the amount of $54,204,676 were obligated at the time of the award. U.S. Army Corps of Engineers, Jacksonville, Florida, is the contracting activity (W912EP-23-C-0017).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912EP23C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54204676.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54204676.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $54,204,676 were obligated at the time of the award",
+        "completion_date": "2024-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Jacksonville, Florida",
+          "code": "W912EP-23-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Curtin Maritime Corp.",
+            "location": "Long Beach, California",
+            "contract_number": "W912EP-23-C-0017",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "San Juan Harbor construction and maintenance dredging, Puerto Rico",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54204676,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54204676,
+        "fms_countries": [],
+        "competition": "internet solicitation, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded a $33,054,000 modification (P00001) to contract W9127N-23-C-0005 for maintenance dredging. Work will be performed in Astoria, Oregon, with an estimated completion date of Dec. 15, 2023. Fiscal 2023 civil construction funds in the amount of $33,054,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Portland, Oregon, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9127N23C0005"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 33054000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33054000.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $33,054,000 were obligated at the time of the award",
+        "completion_date": "2023-12-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Portland, Oregon",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W9127N-23-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintenance dredging in Astoria, Oregon",
+        "base_contract_number": "W9127N-23-C-0005",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 33054000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33054000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Defense System Sector, Huntsville, Alabama, was awarded a $19,707,310 modification (P00031) to contract W31P4Q-19-C-0003 for the Distributed Interactive Simulation based Systems Integration Laboratory. Work will be performed in Poland, with an estimated completion date of June 7, 2025. Fiscal 2022 Foreign Military Sales (Poland) funds in the amount of $19,707,310 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q19C0003"
+        ],
+        "modification_numbers": [
+          "P00031"
+        ],
+        "is_modification": true,
+        "value_usd": 19707310.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19707310.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales (Poland) funds in the amount of $19,707,310 were obligated at the time of the award",
+        "completion_date": "2025-06-07",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Poland"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Defense System Sector",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-19-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Distributed Interactive Simulation based Systems Integration Laboratory in Poland",
+        "base_contract_number": "W31P4Q-19-C-0003",
+        "order_number": null,
+        "modification_number": "P00031",
+        "value_usd": 19707310,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19707310,
+        "fms_countries": [
+          "Poland"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Alltrack Inc.,* Pendleton, Indiana, was awarded a $15,000,000 firm-fixed-price contract for railroad maintenance and repair. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of June 11, 2028. U.S. Army 419th Contracting Support Brigade, Fort Campbell, Kentucky, is the contracting activity (W91248-23-D-0002).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9124823D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-06-11",
+        "contracting_activity": {
+          "name": "U.S. Army 419th Contracting Support Brigade, Fort Campbell, Kentucky",
+          "code": "W91248-23-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Alltrack Inc.",
+            "location": "Pendleton, Indiana",
+            "contract_number": "W91248-23-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Railroad maintenance and repair",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Seaward Marine Corp.,* Norfolk, Virginia, was awarded a $12,936,375 firm-fixed-price contract for maintenance dredging. Bids were solicited via the internet with five received. Work will be performed in Philadelphia, Pennsylvania, with an estimated completion date of March 9, 2024. Fiscal 2023 civil construction funds in the amount of $12,936,375 were obligated at the time of the award. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-23-C-0016).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912BU23C0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12936375.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12936375.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $12,936,375 were obligated at the time of the award",
+        "completion_date": "2024-03-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-23-C-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Seaward Marine Corp.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "W912BU-23-C-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging in Philadelphia, Pennsylvania",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12936375,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12936375,
+        "fms_countries": [],
+        "competition": "internet solicitation, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Entrust Manufacturing Technologies Inc.,* Menomonee, Wisconsin, was awarded a $9,101,870 firm-fixed-price contract to procure a new guided bore for the production of cannon tubes. Bids were solicited via the internet with one received. Work will be performed in Watervliet, New York, with an estimated completion date of Oct. 31, 2024. Fiscal 2023 other procurement, Army funds in the amount of $9,101,870 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W911PT-23-C-0013).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W911PT23C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9101870.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9101870.0,
+        "funding_text": "Fiscal 2023 other procurement, Army funds in the amount of $9,101,870 were obligated at the time of the award",
+        "completion_date": "2024-10-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W911PT-23-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Entrust Manufacturing Technologies Inc.",
+            "location": "Menomonee, Wisconsin",
+            "contract_number": "W911PT-23-C-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of a new guided bore for production of cannon tubes, Watervliet, New York",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9101870,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9101870,
+        "fms_countries": [],
+        "competition": "internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Advanced Sciences and Technologies LLC, Berlin, New Jersey (N66001-21-D-0100); Bart & Associates Inc., McLean, Virginia (N66001-21-D-0101); Dark Wolf Solutions LLC, Herndon, Virginia (N66001-21-D-0102); Data Intelligence LLC, Marlton, New Jersey (N66001-21-D-0103); Grove Resource Solutions Inc., Frederick, Maryland (N66001-21-D-0104); ODME Solutions LLC, San Diego, California (N66001-21-D-0105); Solute Consulting, San Diego, California (N66001-21-D-0106); Sugpiat Defense LLC (N66001-21-D-0107); Timitron Corporation, Portsmouth, Virginia (N66001-21-D-0108); and Vector Planning & Services Inc., San Diego, California (N66001-21-D-0109), are awarded a combined $76,368,761 for a cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity, multiple award contract with a maximum value of $178,437,189 for systems lifecycle, engineering, cybersecurity, and security engineering support services to Naval Information Warfare Center Pacific (NIWC Pacific). This covers the entire lifecycle to include programmatic support, logistics support, supply support, maintenance planning, documentation and training development, cybersecurity, training implementation, customer support, information technology infrastructure, and business applications. These efforts address supportability, maintainability and sustainability issues during system development and throughout the systems life and retirement or recapitalization of the systems at end of life. Efforts also include systems engineering, hardware engineering, software engineering, network engineering, configuration management, and test and evaluation. All work is expected to be performed in Philadelphia, Pennsylvania. Work will be completed by June 2026. If all options are exercised, work will continue to June 2028. No funds will be obligated at the time of award. Funds will be obligated as task orders issued using research, development, test, and evaluation (Navy) funds; other procurement (Navy) funds; operation and maintenance (Navy) funds; working capital (Defense) funds; and Foreign Military Sales funds. This contract was competitively procured via Request for Proposal N66001-20-R-0004 which was published on the SAM.gov website and the Naval Information Warfare Systems Command e-Commerce Central website, and 24 offers were received and 10 were selected for award. NIWC Pacific, San Diego, California, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6600121D0100",
+          "N6600121D0101",
+          "N6600121D0102",
+          "N6600121D0103",
+          "N6600121D0104",
+          "N6600121D0105",
+          "N6600121D0106",
+          "N6600121D0107",
+          "N6600121D0108",
+          "N6600121D0109",
+          "N6600120R0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 76368761.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated as task orders issued using research, development, test, and evaluation (Navy) funds; other procurement (Navy) funds; operation and maintenance (Navy) funds; working capital (Defense) funds; and Foreign Military Sales funds",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "NIWC Pacific, San Diego, California",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Advanced Sciences and Technologies LLC",
+            "location": "Berlin, New Jersey",
+            "contract_number": "N66001-21-D-0100",
+            "markers": null
+          },
+          {
+            "name": "Bart & Associates Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "N66001-21-D-0101",
+            "markers": null
+          },
+          {
+            "name": "Dark Wolf Solutions LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "N66001-21-D-0102",
+            "markers": null
+          },
+          {
+            "name": "Data Intelligence LLC",
+            "location": "Marlton, New Jersey",
+            "contract_number": "N66001-21-D-0103",
+            "markers": null
+          },
+          {
+            "name": "Grove Resource Solutions Inc.",
+            "location": "Frederick, Maryland",
+            "contract_number": "N66001-21-D-0104",
+            "markers": null
+          },
+          {
+            "name": "ODME Solutions LLC",
+            "location": "San Diego, California",
+            "contract_number": "N66001-21-D-0105",
+            "markers": null
+          },
+          {
+            "name": "Solute Consulting",
+            "location": "San Diego, California",
+            "contract_number": "N66001-21-D-0106",
+            "markers": null
+          },
+          {
+            "name": "Sugpiat Defense LLC",
+            "location": null,
+            "contract_number": "N66001-21-D-0107",
+            "markers": null
+          },
+          {
+            "name": "Timitron Corporation",
+            "location": "Portsmouth, Virginia",
+            "contract_number": "N66001-21-D-0108",
+            "markers": null
+          },
+          {
+            "name": "Vector Planning & Services Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N66001-21-D-0109",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity, multiple award",
+        "description": "Systems lifecycle, engineering, cybersecurity, and security engineering support services for NIWC Pacific",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 76368761,
+        "cumulative_value_usd": 178437189,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, RFP N66001-20-R-0004; 24 offers received, 10 selected",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sterling Shipyard LP*, Port Neches, Texas, is awarded a $8,800,550 firm-fixed-price modification to previously awarded contract N00024-23-C-2244 for the detail design and construction of two additional Fuel Oil Barge (YON) craft and one Crew Familiarization. Work will be performed in Port Neches, Texas, and is expected to be completed by July 2025. Fiscal 2020 appropriation shipbuilding and conversion (Navy) funds in the amount of $4,614,000 (52%); and fiscal 2019 appropriation account shipbuilding and conversion (Navy) funds in the amount of $4,186,550 (48%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C2244"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8800550.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8800550.0,
+        "funding_text": "Fiscal 2020 appropriation shipbuilding and conversion (Navy) funds in the amount of $4,614,000 (52%); and fiscal 2019 appropriation account shipbuilding and conversion (Navy) funds in the amount of $4,186,550 (48%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Sterling Shipyard LP",
+            "location": "Port Neches, Texas",
+            "contract_number": "N00024-23-C-2244",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Detail design and construction of two additional Fuel Oil Barge (YON) craft and one Crew Familiarization",
+        "base_contract_number": "N00024-23-C-2244",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8800550,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8800550,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat, Groton, Connecticut, is awarded a $7,596,449 cost plus-fixed-fee modification to previously awarded contract N00024-18-C-4301 for continued Nuclear Regional Maintenance Department support at Naval Submarine Base New London, Connecticut. Work will be performed in Groton, Connecticut, and is expected to be completed by August 2023. Fiscal 2023 operations and maintenance (Navy) funds in the amount of $4,222,038 will be obligated at time of award and will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C4301"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7596449.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4222038.0,
+        "funding_text": "Fiscal 2023 operations and maintenance (Navy) funds in the amount of $4,222,038 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2023-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-18-C-4301",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Continued Nuclear Regional Maintenance Department support at Naval Submarine Base New London, Connecticut",
+        "base_contract_number": "N00024-18-C-4301",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7596449,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4222038,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-06-09.html"
+  "source": "file:2023-06-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:29:40Z"
+  }
 }

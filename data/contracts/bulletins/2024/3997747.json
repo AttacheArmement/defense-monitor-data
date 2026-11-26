@@ -11,69 +11,663 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, was awarded a $987,000,000 firm-fixed-price, cost reimbursement, no-fee, cost-plus-fixed-fee, and indefinite-delivery/indefinite-quantity contract for F-16 Foreign Military Sales (FMS) sustainment support. This contract provides repair and return, engineering and technical services, and analysis and resolution support for diminishing manufacturing sources and material shortages. Work will be performed in Reston, Virginia, and is expected to be completed by May 31, 2034. This contract involves FMS to Taiwan. This contract was a competitive acquisition, and two offers were received. FMS funds in the amount of $1,599,225 are being obligated at the time of award. The Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity (FA8232-25-D-B001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA823225DB001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 987000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1599225.0,
+        "funding_text": "FMS funds in the amount of $1,599,225 are being obligated at the time of award",
+        "completion_date": "2034-05-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": "FA8232-25-D-B001"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8232-25-D-B001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost reimbursement, no-fee, cost-plus-fixed-fee, and indefinite-delivery/indefinite-quantity contract",
+        "description": "F-16 Foreign Military Sales sustainment support (repair and return, engineering and technical services, DMS/material shortage analysis and resolution)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 987000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1599225,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Virginia Commonwealth University, Richmond, Virginia, has been awarded a $17,731,291 modification (P00007) to a previously awarded contract (FA8651-23-C-A023) for the Convergence Lab Initiative. The modification brings the total cumulative face value of the contract to $26,724,010 from $8,992,719. Work will be performed in Richmond, Virginia, and is expected to be completed by Dec. 21, 2027. Fiscal 2025 research, development, test and evaluation funds in the amount of $8,865,847 are being obligated at time of award. The Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865123CA023"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 17731291.0,
+        "cumulative_value_usd": 26724010.0,
+        "obligated_usd": 8865847.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $8,865,847 are being obligated at time of award",
+        "completion_date": "2027-12-21",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Virginia Commonwealth University",
+            "location": "Richmond, Virginia",
+            "contract_number": "FA8651-23-C-A023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Convergence Lab Initiative",
+        "base_contract_number": "FA8651-23-C-A023",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 17731291,
+        "cumulative_value_usd": 26724010,
+        "obligated_usd": 8865847,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Applied Research Associates, Albuquerque, New Mexico, was awarded a $13,824,777 cost-plus-fixed-fee contract for radar modeling effort. This contract provides for further development of modeling software for the design-build-test-deploy cycle of multispectral assets. Work will be performed in Cypress, California, and is expected to be complete by May 11, 2026. This contract was a sole source acquisition. Fiscal 2024 research, development, test and evaluation funds in the amount of $9,730,808 are being obligated at the time of award. The Air Force Material Command Integration Development Office, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA2201-25-C-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA220125C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13824777.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9730808.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation funds in the amount of $9,730,808 are being obligated at the time of award",
+        "completion_date": "2026-05-11",
+        "contracting_activity": {
+          "name": "The Air Force Material Command Integration Development Office, Wright Patterson Air Force Base, Ohio",
+          "code": "FA2201-25-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Applied Research Associates",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "FA2201-25-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Radar modeling effort; further development of modeling software for design-build-test-deploy cycle of multispectral assets",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13824777,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9730808,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., York, Pennsylvania, was awarded a $656,232,769 fixed-price-incentive contract to produce M2A4 and M7A4 vehicles. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 30, 2027. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-25-F-0096).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912CH25F0096"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 656232769.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-11-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-25-F-0096"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W912CH-25-F-0096",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-incentive contract",
+        "description": "Production of M2A4 and M7A4 vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 656232769,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "S.J. Amoroso Construction Co. LLC, Redwood City, California, was awarded a $166,034,000 firm-fixed-price contract to construct a community living center. Bids were solicited via the internet with two received. Work will be performed in French Camp, California, with an estimated completion date of Feb. 21, 2027. Fiscal 2025 U.S. Army Corps of Engineers construction funds in the amount of $166,034,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-25-C-0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9123825C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 166034000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166034000.0,
+        "funding_text": "Fiscal 2025 U.S. Army Corps of Engineers construction funds in the amount of $166,034,000 were obligated at the time of the award",
+        "completion_date": "2027-02-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-25-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "S.J. Amoroso Construction Co. LLC",
+            "location": "Redwood City, California",
+            "contract_number": "W91238-25-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of a community living center in French Camp, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 166034000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166034000,
+        "fms_countries": [],
+        "competition": "solicited via internet, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Questek Innovations LLC,* Evanston, Illinois, was awarded a $10,000,000 modification (P00001) to contract W911W6-21-D-0002 for Ferrium steels for improved drive systems. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 4, 2026. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W911W621D0002"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-05-04",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Questek Innovations LLC",
+            "location": "Evanston, Illinois",
+            "contract_number": "W911W6-21-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Ferrium steels for improved drive systems",
+        "base_contract_number": "W911W6-21-D-0002",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded a $9,259,790 modification (P00010) to contract W56HZV-21-C-0072 to extend the period of performance for contractor logistics support services. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2025. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-21-C-0072).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV21C0072"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 9259790.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-21-C-0072"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-21-C-0072",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Extension of period of performance for contractor logistics support services",
+        "base_contract_number": "W56HZV-21-C-0072",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 9259790,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bay City Marine Inc.,* San Diego, California (N4044325D0003); Colonna's Shipyard West LLC* San Diego, California (N4044325D0004); Confluence Corp., doing business as Regal Service Co.,* Oahu, Hawaii (N4044325D0005); Delphinus Engineering Inc.,* San Diego, California, and Bremerton, Washington (N4044325D0006); Epsilon Systems Solutions Inc.,* San Diego, California; and Oahu, Hawaii (N4044325D0007); Highmark Marine Fabrication, LLC,* Kodiak, Alaska (N4044325D0008); Integrated Marine Services Inc.,* San Diego, California (N4044325D0009); Neal Technical Innovations LLC,* San Diego, California (N4044325D0011); Levi Mason Industrial Inc.,* Bremerton, Washington (N4044325D0010); Pacific Shipyards International LLC,* Oahu, Hawaii (N4044325D0012); Propulsion Controls Engineering,* San Diego, California; Bremerton, Washington; and Oahu, Hawaii (N4044325D0013); Q.E.D. Systems Inc.,* San Diego, California; and Bremerton, Washington (N4044325D0014); Standard Ship Repair/Standard Inspection Services,* San Diego, California; and Bremerton, Washington (N4044325D0015); and Walashek Industrial & Marine Inc.,* San Diego, California; and Bremerton, Washington (N4044325D0016), are awarded a combined, maximum-value $49,000,000 firm-fixed-price, indefinite-delivery/indefinite quantity, multiple award contract for a broad range of ship repair requirements in support of Military Sealift Command vessels. This contract includes a five-year base period and a six-month option period. Work will be performed at government and commercial facilities located on the West Coast continental U.S., Alaska, and Hawaii, and is expected to be completed by Jan. 14, 2030. Working capital funds (Navy) are provided in the amount of $3,500 per contract for a total of $49,000 to support the minimal guaranteed quantities. This contract is a small business set-aside solicited via the Government Point of Entry website and twenty-two offers were received. The Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N4044325D0003",
+          "N4044325D0004",
+          "N4044325D0005",
+          "N4044325D0006",
+          "N4044325D0007",
+          "N4044325D0008",
+          "N4044325D0009",
+          "N4044325D0011",
+          "N4044325D0010",
+          "N4044325D0012",
+          "N4044325D0013",
+          "N4044325D0014",
+          "N4044325D0015",
+          "N4044325D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-01-14",
+        "contracting_activity": {
+          "name": "The Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Bay City Marine Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N4044325D0003",
+            "markers": "*"
+          },
+          {
+            "name": "Colonna's Shipyard West LLC",
+            "location": "San Diego, California",
+            "contract_number": "N4044325D0004",
+            "markers": "*"
+          },
+          {
+            "name": "Confluence Corp., doing business as Regal Service Co.",
+            "location": "Oahu, Hawaii",
+            "contract_number": "N4044325D0005",
+            "markers": "*"
+          },
+          {
+            "name": "Delphinus Engineering Inc.",
+            "location": "San Diego, California, and Bremerton, Washington",
+            "contract_number": "N4044325D0006",
+            "markers": "*"
+          },
+          {
+            "name": "Epsilon Systems Solutions Inc.",
+            "location": "San Diego, California; and Oahu, Hawaii",
+            "contract_number": "N4044325D0007",
+            "markers": "*"
+          },
+          {
+            "name": "Highmark Marine Fabrication, LLC",
+            "location": "Kodiak, Alaska",
+            "contract_number": "N4044325D0008",
+            "markers": "*"
+          },
+          {
+            "name": "Integrated Marine Services Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N4044325D0009",
+            "markers": "*"
+          },
+          {
+            "name": "Neal Technical Innovations LLC",
+            "location": "San Diego, California",
+            "contract_number": "N4044325D0011",
+            "markers": "*"
+          },
+          {
+            "name": "Levi Mason Industrial Inc.",
+            "location": "Bremerton, Washington",
+            "contract_number": "N4044325D0010",
+            "markers": "*"
+          },
+          {
+            "name": "Pacific Shipyards International LLC",
+            "location": "Oahu, Hawaii",
+            "contract_number": "N4044325D0012",
+            "markers": "*"
+          },
+          {
+            "name": "Propulsion Controls Engineering",
+            "location": "San Diego, California; Bremerton, Washington; and Oahu, Hawaii",
+            "contract_number": "N4044325D0013",
+            "markers": "*"
+          },
+          {
+            "name": "Q.E.D. Systems Inc.",
+            "location": "San Diego, California; and Bremerton, Washington",
+            "contract_number": "N4044325D0014",
+            "markers": "*"
+          },
+          {
+            "name": "Standard Ship Repair/Standard Inspection Services",
+            "location": "San Diego, California; and Bremerton, Washington",
+            "contract_number": "N4044325D0015",
+            "markers": "*"
+          },
+          {
+            "name": "Walashek Industrial & Marine Inc.",
+            "location": "San Diego, California; and Bremerton, Washington",
+            "contract_number": "N4044325D0016",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity, multiple award contract",
+        "description": "Ship repair requirements in support of Military Sealift Command vessels",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 49000,
+        "fms_countries": [],
+        "competition": "small business set-aside via Government Point of Entry website, twenty-two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Technology Solutions & Services Inc., Rockville, Maryland, is awarded a $33,383,969 modification (P00082) to a previously awarded cost-plus-fixed-fee contract (N0042120C0003). This modification exercises an option to provide continued engineering, technical, logistics, training, and testing support services to deliver fully integrated and tested command, control, computers, and intelligence system electronic radio communications systems for shipboard installation onboard Navy ships. Work will be performed in St. Inigoes, Maryland, and is expected to be completed in June 2033. Fiscal 2025 ship building and conversion (Navy) funds in the amount of $8,369,007 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The previously awarded contract was competed on a full and open basis with one offer received. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0042120C0003"
+        ],
+        "modification_numbers": [
+          "P00082"
+        ],
+        "is_modification": true,
+        "value_usd": 33383969.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8369007.0,
+        "funding_text": "Fiscal 2025 ship building and conversion (Navy) funds in the amount of $8,369,007 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2033-06",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "BAE Systems Technology Solutions & Services Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N0042120C0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Option exercise for engineering, technical, logistics, training, and testing support for command, control, computers, and intelligence system electronic radio communications systems for shipboard installation",
+        "base_contract_number": "N0042120C0003",
+        "order_number": null,
+        "modification_number": "P00082",
+        "value_usd": 33383969,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8369007,
+        "fms_countries": [],
+        "competition": "competed on a full and open basis, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Collins Elbit Vision Systems LLC, Fort Worth, Texas, is being awarded $16,289,563 for a ceiling-priced, undefinitized repair, delivery order N00383-25-F-VT00 under a previously awarded basic ordering agreement (N00383-20-G-VT01) for the repair of 109 power supplies, 428 helmet display units, 25 extra-large cable assemblies, 100 large cable assemblies, and 50 medium cable assemblies in support of the F-18 aircraft. The delivery order does not include an option period. All work will be performed in Atlanta, Georgia, and work is expected to be completed by April 2027. Working capital funds (Navy) in the amount of $7,981,886 will be obligated at the time of award, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0038325FVT00",
+          "N0038320GVT01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16289563.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7981886.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $7,981,886 will be obligated at the time of award, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2027-04",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Collins Elbit Vision Systems LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00383-25-F-VT00",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "ceiling-priced, undefinitized repair delivery order",
+        "description": "Repair of 109 power supplies, 428 helmet display units, and cable assemblies for F-18 aircraft",
+        "base_contract_number": "N00383-20-G-VT01",
+        "order_number": "N00383-25-F-VT00",
+        "modification_number": null,
+        "value_usd": 16289563,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7981886,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "AEF-Performance,* Picayune, Mississippi (SPE7MX-25-D-0013); and SMR Acquisition, Fenwick, West Virginia (SPE7MX-25-D-0014), have each been awarded a maximum $18,323,566 firm-fixed-price, indefinite-quantity contract under solicitation SPE7MX-24-R-0050 for Landing Craft Air Cushion skirting system parts. This was a competitive acquisition with two responses received. These are one-year contracts with no option periods. The performance completion date is Dec. 15, 2025. Using military service is Navy. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE7MX25D0013",
+          "SPE7MX25D0014",
+          "SPE7MX24R0050"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18323566.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "AEF-Performance",
+            "location": "Picayune, Mississippi",
+            "contract_number": "SPE7MX-25-D-0013",
+            "markers": "*"
+          },
+          {
+            "name": "SMR Acquisition",
+            "location": "Fenwick, West Virginia",
+            "contract_number": "SPE7MX-25-D-0014",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-quantity contract",
+        "description": "Landing Craft Air Cushion skirting system parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18323566,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received under solicitation SPE7MX-24-R-0050",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2024-12-11.html"
+  "source": "file:2024-12-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:21:30Z"
+  }
 }

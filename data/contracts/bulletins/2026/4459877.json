@@ -12,75 +12,692 @@
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "OptumServe Health Services Inc., La Crosse, Wisconsin, is awarded an indefinite-delivery/ indefinite-quantity contract (HT001126DE001) for medical, dental, and behavioral health services in the form of assessments, physical exams, laboratory services, diagnostics, audiology services, optometry services, immunizations, dental exams, and dental treatment in the U.S. The total maximum dollar value (program ceiling) for all RHRP-4 task orders placed under this contract is $1,610,000,000. The guaranteed minimum dollar value for the entire contract period of performance is $11,000,000. The first RHRP-4 task order for transition-in effort is funded with $11,000,000 operations and maintenance funding for the entire minimum guarantee, at the execution of the basic contract award. The total period of performance for the RHRP-4 award consists of not to exceed 9-month transition plus a 3–6-month base period (depending on the length of the transition-in period), and nine 12-month option years, for a total of ten years if all options are exercised. The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HT001126DE001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1610000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "OptumServe Health Services Inc.",
+            "location": "La Crosse, Wisconsin",
+            "contract_number": "HT001126DE001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Medical, dental, and behavioral health services (RHRP-4) in the U.S.",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1610000000,
+        "cumulative_value_usd": 1610000000,
+        "obligated_usd": 11000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Andover, Massachusetts, was awarded a $904,600,000 modification (P00015) to contract W31P4Q-24-C-0024 to support the low-rate initial production of five Lower Tier Air and Missile Defense System units and six spares, including new production hardware, software, and services inherent to production and documentation for the Army. The modification brings the total cumulative face value of the contract to $5,357,669,576. Bids were solicited via the internet with one received. Work will be performed in Andover, Massachusetts, with an estimated completion date of Aug. 29, 2031. Fiscal 2026 Missile Procurement, Army funds in the amount of $725,878,580 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q24C0024"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 904600000.0,
+        "cumulative_value_usd": 5357669576.0,
+        "obligated_usd": 725878580.0,
+        "funding_text": "Fiscal 2026 Missile Procurement, Army funds in the amount of $725,878,580 were obligated at the time of the award",
+        "completion_date": "2031-08-29",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Andover, Massachusetts",
+            "contract_number": "W31P4Q-24-C-0024",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Low-rate initial production of five Lower Tier Air and Missile Defense System units and six spares",
+        "base_contract_number": "W31P4Q-24-C-0024",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 904600000,
+        "cumulative_value_usd": 5357669576,
+        "obligated_usd": 725878580,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Conco Inc.,* Louisville, Kentucky, was awarded a $24,506,300 firm-fixed-price, fixed-price with economic price adjustment contract for M548 metal ammunition container production for fiscal years 2025 through 2029. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of April 15, 2031. Army Contracting Command, Rock Island, Illinois, is the contracting activity (W519TC-26-D-0007).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W519TC26D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24506300.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-04-15",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island, Illinois",
+          "code": "W519TC-26-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Conco Inc.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "W519TC-26-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, fixed-price with economic price adjustment contract",
+        "description": "M548 metal ammunition container production for fiscal years 2025 through 2029",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24506300,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Electric Co., Lynn, Massachusetts, was awarded a $16,755,000 modification (P00104) to contract W58RGZ-19-C-0003 for additional funding to continue support of the improved turbine engine program for engineering and manufacturing development efforts. The modification brings the total cumulative face value of the contract to $879,709,255. Bids were solicited via the internet with two received. Work will be performed in Lynn, Massachusetts, with an estimated completion date of Dec. 31, 2029. Fiscal 2026 Research, Development, Test, and Evaluation, Army funds in the amount of $16,755,000 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19C0003"
+        ],
+        "modification_numbers": [
+          "P00104"
+        ],
+        "is_modification": true,
+        "value_usd": 16755000.0,
+        "cumulative_value_usd": 879709255.0,
+        "obligated_usd": 16755000.0,
+        "funding_text": "Fiscal 2026 Research, Development, Test, and Evaluation, Army funds in the amount of $16,755,000 were obligated at the time of the award",
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "W58RGZ-19-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Additional funding for improved turbine engine program engineering and manufacturing development",
+        "base_contract_number": "W58RGZ-19-C-0003",
+        "order_number": null,
+        "modification_number": "P00104",
+        "value_usd": 16755000,
+        "cumulative_value_usd": 879709255,
+        "obligated_usd": 16755000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land System, Sterling Heights, Michigan, was awarded a $13,439,861 modification (P00132) to contract W56HZV-22-C-0012 for incorporating level of effort and completion work directives to support Systems Technical Support and Sustainment Systems Technical Support for the current and future Abrams Family of Vehicles. The modification brings the total cumulative face value of the contract to $13,439,861. Work will be performed in Sterling Heights, Michigan, with an estimated completion date of June 30, 2029. Fiscal 2024 and 2026 Procurement of Weapons and Tracked Combat Vehicles, Army funds; fiscal 2026 research, development, test, and evaluation, Army funds; and fiscal 2026 operations and maintenance, Army funds in the combined amount of $13,439,861, were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0012"
+        ],
+        "modification_numbers": [
+          "P00132"
+        ],
+        "is_modification": true,
+        "value_usd": 13439861.0,
+        "cumulative_value_usd": 13439861.0,
+        "obligated_usd": 13439861.0,
+        "funding_text": "Fiscal 2024 and 2026 Procurement of Weapons and Tracked Combat Vehicles, Army funds; fiscal 2026 research, development, test, and evaluation, Army funds; and fiscal 2026 operations and maintenance, Army funds in the combined amount of $13,439,861, were obligated at the time of the award",
+        "completion_date": "2029-06-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Dynamics Land System",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-22-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Level of effort and completion work directives for Systems Technical Support and Sustainment for the Abrams Family of Vehicles",
+        "base_contract_number": "W56HZV-22-C-0012",
+        "order_number": null,
+        "modification_number": "P00132",
+        "value_usd": 13439861,
+        "cumulative_value_usd": 13439861,
+        "obligated_usd": 13439861,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Vigor Marine LLC, Portland, Oregon, was awarded a $252,849,606 firm-fixed-price contract action for maintenance, modernization, and repair of USS Sampson (DDG 102) Fiscal 2026 Depot Modernization Period. The scope of this acquisition includes all labor, supervision, equipment, production, testing, facilities, and quality assurance necessary to prepare for and accomplish the Chief of Naval Operations Availability for critical modernization, maintenance, and repair programs. This contract includes options which, if exercised, would bring the cumulative value of this contract to $253,195,124. Work will be performed in Seattle, Washington, and is expected to be completed by March 2028. Fiscal 2026 other procurement, (Navy) funds in the amount of $237,096,356 (94%); fiscal 2025 operations and maintenance, (Navy) funds in the amount of $15,167,771 (5%); working capital funds in the amount of $455,304 (<1%); fiscal 2025 other procurement, (Navy) funds in the amount of $60,731 (<1%); fiscal 2024 other procurement, (Navy) funds in the amount of $69,445 (<1%), of which, $15,167,771 will expire at the end of the current fiscal year. This contract was not competitively procured, but in accordance with 10 U.S. Code 3204 (a) (3) (Industrial Mobilization). The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N0002426C4411).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002426C4411"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 252849606.0,
+        "cumulative_value_usd": 253195124.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N0002426C4411"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Vigor Marine LLC",
+            "location": "Portland, Oregon",
+            "contract_number": "N0002426C4411",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract action",
+        "description": "Maintenance, modernization, and repair of USS Sampson (DDG 102) Fiscal 2026 Depot Modernization Period",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 252849606,
+        "cumulative_value_usd": 253195124,
+        "obligated_usd": 237096356,
+        "fms_countries": [],
+        "competition": "Not competitively procured, per 10 U.S. Code 3204(a)(3) (Industrial Mobilization)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Melbourne, Florida, is awarded $9,704,396 cost-plus-fixed-fee order (N0001926F0262) against a previously issued basic ordering agreement (N0001925G0003). This order provides the required aircrew, flight test engineering, instrumentation, aircraft maintenance, and test management personnel to support integrated test and evaluation, to include test planning, execution, reporting, and deficiency disposition in accordance with approved test plans for the E-2D Advanced Hawkeye for the Navy. Work will be performed in Patuxent River, Maryland (83%); Melbourne, Florida (14.2%); and Liverpool, New York (2.8%), and is expected to be completed in March 2027. Fiscal 2026 research, development, test, and evaluation (Navy) funds in the amount of $9,704,396 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001926F0262",
+          "N0001925G0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9704396.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9704396.0,
+        "funding_text": "Fiscal 2026 research, development, test, and evaluation (Navy) funds in the amount of $9,704,396 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001926F0262",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Aircrew, flight test engineering, instrumentation, and test management support for integrated test and evaluation of the E-2D Advanced Hawkeye",
+        "base_contract_number": "N0001925G0003",
+        "order_number": "N0001926F0262",
+        "modification_number": null,
+        "value_usd": 9704396,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9704396,
+        "fms_countries": [],
+        "competition": "Not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Lions Services Inc.,** Charlotte, North Carolina, has been awarded a maximum $36,686,250 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for improved H-nape chinstraps. This is a five-year contract with no option periods. The ordering period end date is April 15, 2031. Using military service is Army. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-26-D-B006).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126DB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36686250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-26-D-B006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lions Services Inc.",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "SPE1C1-26-D-B006",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Improved H-nape chinstraps",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36686250,
+        "cumulative_value_usd": 36686250,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Guidehouse Inc., McLean, Virginia, has been awarded a Firm-Fixed-Price, Labor Hours, and time and materials contract (HQ0034-25-A-E008) with a value of $30,730,015. The purpose of this contract is to comply with the fiscal 2024 National Defense Authorization Act mandate to achieve and sustain a department-wide unmodified financial statement audit opinion by the end of 2028. Work will be performed at the Pentagon and the Mark Center. The estimated completion date is Feb. 28, 2031. Funds in the amount of $7,054,230, are being obligated at the time of the award. The contracting activity is the Washington Headquarters Services, Arlington, Virginia.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "HQ003425AE008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30730015.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7054230.0,
+        "funding_text": "Funds in the amount of $7,054,230, are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Guidehouse Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "HQ0034-25-A-E008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, labor hours, and time and materials contract",
+        "description": "Support for department-wide unmodified financial statement audit opinion (FY2024 NDAA mandate)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30730015,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7054230,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Environmental Tectonics Corp., Southampton, Pennsylvania, has been awarded a $26,482,195 definitive firm-fixed price contract for simulators and associated sustainment for the Egyptian Air Force Aeromedical Center modernization. This contract provides for aircrew training equipment, travel, and storage. Work will be performed at Southampton, Pennsylvania, and is expected to be completed by July 31, 2029. This contract involves Foreign Military Sales (FMS) to Egypt. This award is the result of a specified sole source acquisition. FMS funds in the amount of $26,482,195 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA862126CB005).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA862126CB005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26482195.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26482195.0,
+        "funding_text": "FMS funds in the amount of $26,482,195 are being obligated at the time of award",
+        "completion_date": "2029-07-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA862126CB005"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Egypt"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Environmental Tectonics Corp.",
+            "location": "Southampton, Pennsylvania",
+            "contract_number": "FA862126CB005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "definitive firm-fixed-price contract",
+        "description": "Simulators and associated sustainment for the Egyptian Air Force Aeromedical Center modernization",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26482195,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26482195,
+        "fms_countries": [
+          "Egypt"
+        ],
+        "competition": "Specified sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Apex FSE JV LLC, McDonough, Georgia, has been awarded a $9,700,000 firm-fixed-price indefinite-delivery/indefinite-quantity contract action for heating, ventilation, and air conditioning (HVAC) recommissioning and energy optimization services (REOS). This contract provides HVAC and REOS to base civil engineers to enhance efficiency and reduce energy consumption. Work will be performed at various Air and Space Force facilities throughout the continental U.S., Alaska, and Hawaii, and is expected to be complete by April 14, 2031. This award is the result of a competitive acquisition, and six offers were received. Fiscal 2026 operations and maintenance funds in the amount of $157,000 are being obligated at the time of initial task order award. The 772d Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida, is the contracting activity (FA805126D0001). (Awarded on April 15, 2026).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA805126D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9700000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 157000.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds in the amount of $157,000 are being obligated at the time of initial task order award",
+        "completion_date": "2031-04-14",
+        "contracting_activity": {
+          "name": "The 772d Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida",
+          "code": "FA805126D0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Apex FSE JV LLC",
+            "location": "McDonough, Georgia",
+            "contract_number": "FA805126D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract action",
+        "description": "HVAC recommissioning and energy optimization services (REOS) for Air and Space Force facilities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9700000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 157000,
+        "fms_countries": [],
+        "competition": "Competitive, six offers received",
+        "award_date": "2026-04-15"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The $1,843,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract awarded to Anduril Industries Inc., Costa Mesa, California (FA881926DB0011); Astranis Space Technologies Corp., San Francisco, California (FA881926DB013); BAE Systems, Space Mission Systems Inc., Broomfield, Colorado (FA881926DB006); General Atomics Electromagnetic Systems, San Diego, California (FA881926DB008); Intuitive Machines LLC, Houston, Texas (FA881926DB014); L3Harris Technologies Inc., Rochester, New York (FA881926DB003); Lockheed Martin Corp., Littleton, Colorado (FA881926DB004); Millennium Space Systems Inc., El Segundo, California (FA881926DB005); Northrop Grumman Systems Corp., Dulles, Virginia (FA881926DB001); Quantum Space LLC, Rockville, Maryland (FA881926DB002); Redwire Space Missions LLC, Littleton, Colorado (FA881926DB012); Sierra Space Corp., Louisville, Colorado (FA881926DB007); True Anomaly Inc., Centennial, Colorado (FA881926DB009); and Turion Space Corp., Irvine, California (FA881926DB010) on April 8, 2026 incorrectly characterized the Andromeda contract vehicle as a program. Rather, Andromeda is a contract vehicle that will be utilized for the procurement of space-based space domain awareness capability, including the RG-XX program.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA881926DB013",
+          "FA881926DB006",
+          "FA881926DB008",
+          "FA881926DB014",
+          "FA881926DB003",
+          "FA881926DB004",
+          "FA881926DB005",
+          "FA881926DB001",
+          "FA881926DB002",
+          "FA881926DB012",
+          "FA881926DB007",
+          "FA881926DB009",
+          "FA881926DB010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1843000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Anduril Industries Inc.",
+            "location": "Costa Mesa, California",
+            "contract_number": "FA881926DB0011",
+            "markers": null
+          },
+          {
+            "name": "Astranis Space Technologies Corp.",
+            "location": "San Francisco, California",
+            "contract_number": "FA881926DB013",
+            "markers": null
+          },
+          {
+            "name": "BAE Systems, Space Mission Systems Inc.",
+            "location": "Broomfield, Colorado",
+            "contract_number": "FA881926DB006",
+            "markers": null
+          },
+          {
+            "name": "General Atomics Electromagnetic Systems",
+            "location": "San Diego, California",
+            "contract_number": "FA881926DB008",
+            "markers": null
+          },
+          {
+            "name": "Intuitive Machines LLC",
+            "location": "Houston, Texas",
+            "contract_number": "FA881926DB014",
+            "markers": null
+          },
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Rochester, New York",
+            "contract_number": "FA881926DB003",
+            "markers": null
+          },
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Littleton, Colorado",
+            "contract_number": "FA881926DB004",
+            "markers": null
+          },
+          {
+            "name": "Millennium Space Systems Inc.",
+            "location": "El Segundo, California",
+            "contract_number": "FA881926DB005",
+            "markers": null
+          },
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Dulles, Virginia",
+            "contract_number": "FA881926DB001",
+            "markers": null
+          },
+          {
+            "name": "Quantum Space LLC",
+            "location": "Rockville, Maryland",
+            "contract_number": "FA881926DB002",
+            "markers": null
+          },
+          {
+            "name": "Redwire Space Missions LLC",
+            "location": "Littleton, Colorado",
+            "contract_number": "FA881926DB012",
+            "markers": null
+          },
+          {
+            "name": "Sierra Space Corp.",
+            "location": "Louisville, Colorado",
+            "contract_number": "FA881926DB007",
+            "markers": null
+          },
+          {
+            "name": "True Anomaly Inc.",
+            "location": "Centennial, Colorado",
+            "contract_number": "FA881926DB009",
+            "markers": null
+          },
+          {
+            "name": "Turion Space Corp.",
+            "location": "Irvine, California",
+            "contract_number": "FA881926DB010",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Correction: Andromeda is a contract vehicle (not a program) for space-based space domain awareness capability, including the RG-XX program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1843000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-04-08"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-04-16.html"
+  "source": "file:2026-04-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:27:35Z"
+  }
 }

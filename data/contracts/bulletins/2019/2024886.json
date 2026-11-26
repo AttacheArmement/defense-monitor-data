@@ -11,81 +11,691 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pegasus Support Services LLC,* Woodstock, Georgia, was awarded a $176,853,950 firm-fixed-price contract for sustainment, restoration and modernization services for the full spectrum of facility types to include ranges, barracks, warehouse, administrative buildings, bridges, worship centers, gyms, and airfields. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 30, 2024. U.S. Army Mission and Installation Contracting Command, Fort Bragg, North Carolina, is the contracting activity (W9124M-20-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9124M20D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 176853950.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Fort Bragg, North Carolina",
+          "code": "W9124M-20-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pegasus Support Services LLC",
+            "location": "Woodstock, Georgia",
+            "contract_number": "W9124M-20-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Sustainment, restoration and modernization services for facilities (ranges, barracks, warehouses, administrative buildings, bridges, worship centers, gyms, airfields)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 176853950,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CACI-ISS Inc., Chantilly, Virginia, was awarded an $112,531,961 modification (P00062) to contract W15QKN-15-C-0049 for build and test of the Integrated Personnel and Pay System-Army. Work will be performed in Chantilly, Virginia, with an estimated completion date of Dec. 31, 2021. Fiscal 2010 research, development, test and evaluation funds in the amount of $5,000,000 were obligated at the time of the award. U.S. Army Contracting Command, New Jersey, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN15C0049"
+        ],
+        "modification_numbers": [
+          "P00062"
+        ],
+        "is_modification": true,
+        "value_usd": 112531961.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000000.0,
+        "funding_text": "Fiscal 2010 research, development, test and evaluation funds in the amount of $5,000,000 were obligated at the time of the award",
+        "completion_date": "2021-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "CACI-ISS Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W15QKN-15-C-0049",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Build and test of the Integrated Personnel and Pay System-Army",
+        "base_contract_number": "W15QKN-15-C-0049",
+        "order_number": null,
+        "modification_number": "P00062",
+        "value_usd": 112531961,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $10,702,978 firm-fixed-price Foreign Military Sales (Saudi Arabia) contract for the integration and retrofit of 23 AH-6i aircraft with DVR, equipment stowage, and APKWS II capabilities. One bid was solicited with one bid received. Work will be performed in Mesa, Arizona, with an estimated completion date of March 30, 2022. Fiscal 2010 Foreign Military Sales funds in the amount of $10,702,978 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-20-C-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ20C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10702978.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10702978.0,
+        "funding_text": "Fiscal 2010 Foreign Military Sales funds in the amount of $10,702,978 were obligated at the time of the award",
+        "completion_date": "2022-03-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-20-C-0001"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-20-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Integration and retrofit of 23 AH-6i aircraft with DVR, equipment stowage, and APKWS II capabilities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10702978,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10702978,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Alliant Techsystems Operations LLC, Plymouth, Minnesota, was awarded an $8,072,570 firm-fixed-price contract for the procurement of the M230 30MM automatic gun and the Bevel Gear. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 19, 2024. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-20-D-0003).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV20D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8072570.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-11-19",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-20-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Alliant Techsystems Operations LLC",
+            "location": "Plymouth, Minnesota",
+            "contract_number": "W56HZV-20-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of the M230 30MM automatic gun and the Bevel Gear",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8072570,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Integrated Defense Systems, Marlborough, Massachusetts, is awarded a $97,334,085 cost-plus-fixed fee, firm-fixed-price, and cost only modification to previously awarded contract N00024-19-C-5501 to exercise the options for Air and Missile Defense Radar AN/SPY-6(V) integration and production support efforts. This option exercise is for performance of the integration and production support for continued combat system integration and test, engineering, training, software and depot maintenance in support of the Air and Missile Defense Radar AN/SPS-6(V). Work will be performed in Marlborough, Massachusetts (64%); Kauai, Hawaii (18%); Portsmouth, Rhode Island (8%); San Diego, California (7%); Fair Lakes, Virginia (2%); and Moorestown, New Jersey (less than 1%), and is expected to be completed by November 2020. Fiscal 2016, 2018 and 2019 shipbuilding and conversion (Navy); and fiscal 2020 research, development, test and evaluation (Navy) funding in the amount of $27,075,110 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was procured under the statutory authority of 10 U.S. Code 2304(c)(1). Only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Sea Systems Command, Washington Navy Yard, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5501"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 97334085.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27075110.0,
+        "funding_text": "Fiscal 2016, 2018 and 2019 shipbuilding and conversion (Navy); and fiscal 2020 research, development, test and evaluation (Navy) funding in the amount of $27,075,110 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2020-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Integrated Defense Systems",
+            "location": "Marlborough, Massachusetts",
+            "contract_number": "N00024-19-C-5501",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed fee, firm-fixed-price, and cost only modification",
+        "description": "Option exercise for Air and Missile Defense Radar AN/SPY-6(V) integration and production support",
+        "base_contract_number": "N00024-19-C-5501",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 97334085,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27075110,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "CH2M Hill Constructors Inc., Englewood, Colorado (N62470-13-D-6019); Environmental Chemical Corp., Burlingame, California (N62470-13-D-6020); Kellogg, Brown, and Root Services Inc., Arlington, Virginia (N62470-13-D-6021); and URS Group Inc., Morrisville, North Carolina (N62470-13-D-6022), are awarded a $92,000,000 modification to increase the maximum dollar value of an indefinite-delivery/indefinite-quantity, multiple award contract for global contingency construction projects worldwide. The work to be performed provides for the Navy, the Navy on behalf of the Department of Defense, and the Navy on behalf of other federal agencies, when authorized, an immediate response for construction services. The construction and related engineering services would respond to natural disasters, humanitarian assistance, conflict or projects with similar characteristics. Work will be predominately construction. The contractor, in support of the construction effort, may be required to provide initial base operating support services, which will be incidental to construction efforts. After award of this modification, the total cumulative contract value will be $1,150,000,000. The term of the contract is not to exceed 71 months with a completion date of May 2019. No funds will be obligated at time of award. Funds will be obligated on subsequent modifications for work on existing individual task orders. The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6247013D6019",
+          "N6247013D6020",
+          "N6247013D6021",
+          "N6247013D6022"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 92000000.0,
+        "cumulative_value_usd": 1150000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Funds will be obligated on subsequent modifications for work on existing individual task orders",
+        "completion_date": "2019-05",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "CH2M Hill Constructors Inc.",
+            "location": "Englewood, Colorado",
+            "contract_number": "N62470-13-D-6019",
+            "markers": null
+          },
+          {
+            "name": "Environmental Chemical Corp.",
+            "location": "Burlingame, California",
+            "contract_number": "N62470-13-D-6020",
+            "markers": null
+          },
+          {
+            "name": "Kellogg, Brown, and Root Services Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "N62470-13-D-6021",
+            "markers": null
+          },
+          {
+            "name": "URS Group Inc.",
+            "location": "Morrisville, North Carolina",
+            "contract_number": "N62470-13-D-6022",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity, multiple award",
+        "description": "Increase maximum dollar value of global contingency construction projects IDIQ contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 92000000,
+        "cumulative_value_usd": 1150000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Integrated Defense Systems, Marlborough, Massachusetts, is awarded a $14,576,017 firm-fixed-price modification to previously-awarded contract N00024-19-C-5112 to exercise an option for the AN/SPY-1 radar solid-state switch assembly mod kit. This contract modification is for the production of solid-state switch assembly ordnance alteration kits for the Navy to support AEGIS modernization efforts. Work will be performed in Andover, Massachusetts, (75%); Chesapeake, Virginia (15%); and Marlborough, Massachusetts (10%), and is expected to be completed by April 2023. Fiscal 2020 other procurement (Navy) funding in the amount of $14,576,017 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5112"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14576017.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14576017.0,
+        "funding_text": "Fiscal 2020 other procurement (Navy) funding in the amount of $14,576,017 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co., Integrated Defense Systems",
+            "location": "Marlborough, Massachusetts",
+            "contract_number": "N00024-19-C-5112",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for AN/SPY-1 radar solid-state switch assembly mod kit production for AEGIS modernization",
+        "base_contract_number": "N00024-19-C-5112",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14576017,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14576017,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Integrated Defense Systems, Portsmouth, Rhode Island, is awarded an $8,230,603 cost-plus-fixed-fee modification to previously awarded contract N00024-16-C-5418 to exercise options for NATO Sea Sparrow missile system design agent engineering and technical support services. Work will be performed in Portsmouth, Rhode Island (94%); Marlborough, Massachusetts (3%); and San Diego, California (3%), and is expected to be completed by November 2020. Fiscal 2018 other procurement (Navy); fiscal 2019 research, development, test and evaluation (Navy); non-expiring other funds; and Foreign Military Sales funding in the amount of $4,251,731 will be obligated at time of award, and $2,162,681 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C5418"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8230603.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4251731.0,
+        "funding_text": "Fiscal 2018 other procurement (Navy); fiscal 2019 research, development, test and evaluation (Navy); non-expiring other funds; and Foreign Military Sales funding in the amount of $4,251,731 will be obligated at time of award, and $2,162,681 will expire at the end of the current fiscal year",
+        "completion_date": "2020-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Raytheon Integrated Defense Systems",
+            "location": "Portsmouth, Rhode Island",
+            "contract_number": "N00024-16-C-5418",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Option exercise for NATO Sea Sparrow missile system design agent engineering and technical support",
+        "base_contract_number": "N00024-16-C-5418",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8230603,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4251731,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Missiles Systems Co., Tucson, Arizona, has been awarded a $72,000,000 cost-plus, fixed-fee, cost-plus-incentive fee, firm-fixed price, indefinite-delivery/indefinite-quantity contract for advanced medium range air to air missile (AMRAAM) technical support. The contractor will provide technical services and analysis supporting the AMRAAM weapon system. Work will be performed in Tucson, Arizona, and is expected to be completed by Sept. 30, 2025. This award is the result of a sole source acquisition. No funds are being obligated on the action at the time of award. Concurrently, the first task order will be awarded with $238,173 in fiscal 2019 missile procurement funds. The Air Force Lifecycle Management Center, Eglin Air Force Base, Florida, is the contracting activity (FA8675-20-D-0010).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA867520D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 72000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated on the action at the time of award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Eglin Air Force Base, Florida",
+          "code": "FA8675-20-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles Systems Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8675-20-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost-plus-incentive fee, firm-fixed price, indefinite-delivery/indefinite-quantity",
+        "description": "AMRAAM technical support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 72000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BrainGu LLC,* Grand Rapids, Michigan, has been awarded a $12,376,710 commercial firm-fixed price, level of effort direct award for development, security operations teams. This contract provides expert experience in Kubernetes and Istio Mesh implementation utilizing the Small Business Innovation Research (SBIR) process. Work will be performed at San Antonio, Texas, and is expected to be completed by Nov. 21, 2020. This award is the result of a sole source acquisition as the SBIR Phase III vendors are selected from a previously competitive pool of small businesses in Phase I. Fiscal 2020 research and development funds in the amount of $800,000 are being obligated at the time of award. The Cryptologic and Cyber Systems Division, Lackland Air Force Base, Texas, is the contracting activity (FA8307-20-C-0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA830720C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12376710.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 800000.0,
+        "funding_text": "This award is the result of a sole source acquisition as the SBIR Phase III vendors are selected from a previously competitive pool of small businesses in Phase I. Fiscal 2020 research and development funds in the amount of $800,000 are being obligated at the time of award",
+        "completion_date": "2020-11-21",
+        "contracting_activity": {
+          "name": "The Cryptologic and Cyber Systems Division, Lackland Air Force Base, Texas",
+          "code": "FA8307-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "BrainGu LLC",
+            "location": "Grand Rapids, Michigan",
+            "contract_number": "FA8307-20-C-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "commercial firm-fixed price, level of effort direct award",
+        "description": "Development and security operations teams (Kubernetes and Istio Mesh implementation) under SBIR Phase III",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12376710,
+        "cumulative_value_usd": null,
+        "obligated_usd": 800000,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Missile Systems Co., Tucson, Arizona, has been awarded a $10,954,391 fixed-price incentive (firm) modification (P00018) to previously awarded contract FA8675-18-C-0003 for Advanced Medium Range Air-to-Air Missile (AMRAAM) Production program. This modification provides for acceptance of a voluntary value-engineering change proposal resulting in non-recurring engineering costs for qualification of a second source for the AMRAAM Integrated Wing Restraint rocket motor. Work will be performed in Tucson, Arizona, and is expected to be complete by Dec. 15, 2021. This contract involves foreign military sales to Japan, South Korea, Australia, Indonesia, Spain, United Kingdom, Poland, Romania and Morocco. The total cumulative face value of the contract is $1,252,588,656. Fiscal 2018 missile procurement funds (Air Force and Navy) in the amount of $7,096,254; and Foreign Military Sales funds in the amount of $3,858,137 are being obligated at the time of award. The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA867518C0003"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": true,
+        "value_usd": 10954391.0,
+        "cumulative_value_usd": 1252588656.0,
+        "obligated_usd": 10954391.0,
+        "funding_text": "Fiscal 2018 missile procurement funds (Air Force and Navy) in the amount of $7,096,254; and Foreign Military Sales funds in the amount of $3,858,137 are being obligated at the time of award",
+        "completion_date": "2021-12-15",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan",
+          "South Korea",
+          "Australia",
+          "Indonesia",
+          "Spain",
+          "United Kingdom",
+          "Poland",
+          "Romania",
+          "Morocco"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Raytheon Missile Systems Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8675-18-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm)",
+        "description": "AMRAAM production: qualification of second source for Integrated Wing Restraint rocket motor (VECP)",
+        "base_contract_number": "FA8675-18-C-0003",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 10954391,
+        "cumulative_value_usd": 1252588656,
+        "obligated_usd": 10954391,
+        "fms_countries": [
+          "Japan",
+          "South Korea",
+          "Australia",
+          "Indonesia",
+          "Spain",
+          "United Kingdom",
+          "Poland",
+          "Romania",
+          "Morocco"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Northrup Grumman, McClellan, California, has been awarded a maximum $45,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for production of spare parts in support of the Guardrail/Common Sensor Modernization system. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year base contract with one five-year option period. Location of performance is California, with a Nov. 21, 2024, performance completion date. Using military service is Army. Type of appropriation is fiscal 2020 through 2025 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-20-D-0002).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL120D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-20-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Northrup Grumman",
+            "location": "McClellan, California",
+            "contract_number": "SPRBL1-20-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Production of spare parts for Guardrail/Common Sensor Modernization system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "ENGlobal Government Services Inc., Tulsa, Oklahoma, has been awarded a maximum $11,552,569 cost-plus-fixed-fee, bridge contract for automated fuel handling maintenance. This was a sole-source acquisition using justification 10 U.S.Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 15-month base contract with one three-month option period. Locations of performance are Virginia, Georgia, Hawaii, California, Washington, Florida, North Carolina, South Carolina, Oklahoma, Spain, Greenland and Japan, with a May 12, 2021, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, National Guard and Coast Guard. Type of appropriation is fiscal 2020 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Contracting Services Office, Columbus, Ohio (SP4702-20-C-0002).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SP470220C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11552569.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office, Columbus, Ohio",
+          "code": "SP4702-20-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "ENGlobal Government Services Inc.",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "SP4702-20-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee bridge contract",
+        "description": "Bridge contract for automated fuel handling maintenance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11552569,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1) per FAR 6.302-1",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:41Z",
-  "source": "file:2019-11-22.html"
+  "source": "file:2019-11-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T23:06:02Z"
+  }
 }

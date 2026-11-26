@@ -9,51 +9,401 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded a $93,519,000 fixed-price-incentive contract for M1A2 Abrams engineering, manufacturing, design and production. Bids were solicited via the internet with one received. Work will be performed in Lima, Ohio, with an estimated completion date of Sep. 30, 2025. Fiscal 2019 Foreign Military Sales funds in the amount of $93,519,000 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-22-C-0005).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 93519000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 93519000.0,
+        "funding_text": "Fiscal 2019 Foreign Military Sales funds in the amount of $93,519,000 were obligated at the time of the award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-22-C-0005"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-22-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-incentive",
+        "description": "M1A2 Abrams engineering, manufacturing, design and production",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93519000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 93519000,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "APTIM Federal Services LLC, Baton Rouge, Louisiana, was awarded a $12,162,413 modification (P00001) to contract W912DY-21-F-0015 for recurring maintenance and minor repair of petroleum systems. Work will be performed in Tamuning, Guam, with an estimated completion date of Dec. 31, 2022. Fiscal 2010 revolving funds in the amount of $12,162,413 were obligated at the time of the award. U.S. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912DY21F0015"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 12162413.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12162413.0,
+        "funding_text": "Fiscal 2010 revolving funds in the amount of $12,162,413 were obligated at the time of the award",
+        "completion_date": "2022-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "APTIM Federal Services LLC",
+            "location": "Baton Rouge, Louisiana",
+            "contract_number": "W912DY-21-F-0015",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Recurring maintenance and minor repair of petroleum systems, Tamuning, Guam",
+        "base_contract_number": "W912DY-21-F-0015",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 12162413,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12162413,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Corp., Rolling Meadows, Illinois, has been awarded a maximum $53,969,070, firm-fixed-price delivery order (SPRPA1-22-F-D000) against a seven-year long-term contract (SPE4AX-18-D-9443) for defense logistics repairable spare items in support of common electronic communication equipment and parts. This is a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a two-year seven-month contract with no option periods. Location of performance is Illinois, with a March 31, 2024, performance completion date. Using customers are Navy and Foreign Military Sales (FMS) to Japan. Type of appropriation is fiscal 2022 Navy aircraft procurement funds and FMS funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA122FD000",
+          "SPE4AX18D9443"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 53969070.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Corp.",
+            "location": "Rolling Meadows, Illinois",
+            "contract_number": "SPRPA1-22-F-D000",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Defense logistics repairable spare items for common electronic communication equipment and parts",
+        "base_contract_number": "SPE4AX-18-D-9443",
+        "order_number": "SPRPA1-22-F-D000",
+        "modification_number": null,
+        "value_usd": 53969070,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Services, Houston, Texas, is awarded a $37,015,620 cost-plus-award-fee modification to task order N6247021F9101 to global contingency services multiple award contract N62742-16-D-3551. This modification provides for the exercise of Option Three for the Quantico Expeditionary Staging Area (ESA) at Marine Corps Base (MCB) Quantico, and increases the maximum dollar value of the contract. After award of this option, the total cumulative contract value will be $196,061,079. The work to be performed provides for services in supporting Operation Allies MCB Quantico, and includes the mobilization, operation and maintenance, and demobilization for ESA Quantico. Work will be performed in Quantico, Virginia, and is expected to be completed by December 2021. Fiscal 2022 overseas humanitarian disaster and civic aid contract funds in the amount of $37,015,620 are obligated on this award and will expire at the end of the current fiscal year. Naval Facilities Engineering Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6247021F9101",
+          "N6274216D3551"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37015620.0,
+        "cumulative_value_usd": 196061079.0,
+        "obligated_usd": 37015620.0,
+        "funding_text": "Fiscal 2022 overseas humanitarian disaster and civic aid contract funds in the amount of $37,015,620 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2021-12",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "KBR Services",
+            "location": "Houston, Texas",
+            "contract_number": "N62742-16-D-3551",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Option Three exercise for Quantico Expeditionary Staging Area (ESA) at MCB Quantico, supporting Operation Allies",
+        "base_contract_number": "N62742-16-D-3551",
+        "order_number": "N6247021F9101",
+        "modification_number": null,
+        "value_usd": 37015620,
+        "cumulative_value_usd": 196061079,
+        "obligated_usd": 37015620,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Detyens Shipyards Inc., North Charleston, South Carolina, is awarded $21,604,117 firm-fixed-price contract (N3220522C4030) for a 118-calendar day shipyard availability for the regular overhaul/dry docking availability on the USNS Arctic (T-AOE 8). The contract includes options which, if exercised, would bring the total contract value to $23,095,473. Work will be performed in North Charleston, South Carolina, and is expected to be completed by May 15, 2022. Contract funds in the amount of $21,604,117 are obligated in fiscal 2022 using working capital funds (Navy). This contract was competitively procured with proposals solicited via the beta.sam.gov website and seven offers were received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220522C4030).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220522C4030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21604117.0,
+        "cumulative_value_usd": 23095473.0,
+        "obligated_usd": 21604117.0,
+        "funding_text": "Contract funds in the amount of $21,604,117 are obligated in fiscal 2022 using working capital funds (Navy)",
+        "completion_date": "2022-05-15",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220522C4030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Detyens Shipyards Inc.",
+            "location": "North Charleston, South Carolina",
+            "contract_number": "N3220522C4030",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "118-day shipyard availability for regular overhaul/dry docking of USNS Arctic (T-AOE 8)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21604117,
+        "cumulative_value_usd": 23095473,
+        "obligated_usd": 21604117,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Bath Iron Works, Bath, Maine, is awarded a $12,900,028 cost-plus-award-fee and cost modification to previously awarded contract N00024-19-C-2322 to exercise options for the accomplishment of planning yard efforts such as engineering, technical, planning, ship configuration, data and logistics efforts for DDG-1000 class destroyers post-delivery and in-service life-cycle support. Work will be performed in Bath, Maine (95%); and San Diego, California (5%), and is expected to be completed by December 2022. Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $3,747,976 (59%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,508,785 (40%); and fiscal 2022 operations and maintenance (Navy) funds in the amount of $46,850 (1%) will be obligated at the time of award, of which funds in the amount of $3,794,826 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2322"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12900028.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6303611.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $3,747,976 (59%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,508,785 (40%); and fiscal 2022 operations and maintenance (Navy) funds in the amount of $46,850 (1%) will be obligated at the time of award, of which funds in the amount of $3,794,826 will expire at the end of the current fiscal year",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics Bath Iron Works",
+            "location": "Bath, Maine",
+            "contract_number": "N00024-19-C-2322",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee and cost",
+        "description": "Option exercise for DDG-1000 class destroyer planning yard efforts and post-delivery in-service life-cycle support",
+        "base_contract_number": "N00024-19-C-2322",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12900028,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12900028,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Utility Works JV, Virginia Beach, Virginia, is awarded an $11,393,982 firm-fixed-price task order (N6247022F4001) under indefinite-delivery/indefinite-quantity contract N62470-21-D-0005 for Utility Infrastructure and Condition Assessment Program (UICAP) implementation at various Marine Corps installation command installations at Marine Corps Installations West (MCIWest) and UICAP sustainment at Marine Corps Base (MCB) Quantico. The work to be performed provides for all management, labor, supplies, equipment, information technology, materials, and transportation necessary to perform the four phases of UICAP at seven MCIWest installations, and a year of support is required for UICAP sustainment at MCB Quantico. Work will be performed in California (83%); Arizona (14%); and Virginia (3%), and is expected to be completed by December 2023. Fiscal 2022 operation and maintenance (Marine Corps) contract funds in the amount of $11,393,982 are obligated on this award and will expire on Sept. 30, 2022. One proposal was received for this task order. The Naval Facilities Engineering Systems Command Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6247022F4001",
+          "N6247021D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11393982.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11393982.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Marine Corps) contract funds in the amount of $11,393,982 are obligated on this award and will expire on Sept. 30, 2022",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Utility Works JV",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N6247022F4001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Utility Infrastructure and Condition Assessment Program (UICAP) implementation at MCIWest installations and UICAP sustainment at MCB Quantico",
+        "base_contract_number": "N62470-21-D-0005",
+        "order_number": "N6247022F4001",
+        "modification_number": null,
+        "value_usd": 11393982,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11393982,
+        "fms_countries": [],
+        "competition": "one proposal received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Parsons Government Services Inc., Colorado Springs, Colorado, has been awarded a $10,807,540 cost-plus-fixed-fee contract for a Small Business Innovation Research Phase III effort titled Blackjack Prototype Ground Operations Center. Work will be performed in Colorado Springs, Colorado, with an estimated completion date of June 2024. Fiscal 2021 research and development funds in the amount of $1,000,000 are being obligated at the time of award. This contract is the continuation of an acquisition originally competed in accordance with § 9 of the Small Business Act, 15 U.S. Code 638. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001122C0027).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HR001122C0027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10807540.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000000.0,
+        "funding_text": "Fiscal 2021 research and development funds in the amount of $1,000,000 are being obligated at the time of award",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR001122C0027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Parsons Government Services Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "HR001122C0027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "SBIR Phase III effort, Blackjack Prototype Ground Operations Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10807540,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000000,
+        "fms_countries": [],
+        "competition": "SBIR Phase III, continuation of acquisition competed under Small Business Act § 9",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2021-12-10.html"
+  "source": "file:2021-12-10.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:30:26Z"
+  }
 }

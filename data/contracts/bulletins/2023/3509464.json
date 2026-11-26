@@ -11,81 +11,645 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, was awarded a $574,527,416 cost-plus-incentive-fee ground based radar maintenance and sustainment services support task order. This contract provides for continued sustainment and modification of the ground-based radar sensor systems. Work will be performed in Colorado Springs, Colorado; and other locations, and is expected to be completed by March 24, 2030. This contract was a competitive acquisition and four offers were received. Fiscal 2023 operations and maintenance funds in the amount of $43,836,709 are being obligated at the time of award. Space Systems Command Acquisitions, Peterson Space Force Base, Colorado, is the contracting activity (TO FA8723-23-F-9010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA872323F9010"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 574527416.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43836709.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $43,836,709 are being obligated at the time of award",
+        "completion_date": "2030-03-24",
+        "contracting_activity": {
+          "name": "Space Systems Command Acquisitions, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8723-23-F-9010",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Ground based radar maintenance and sustainment services support task order",
+        "base_contract_number": null,
+        "order_number": "FA8723-23-F-9010",
+        "modification_number": null,
+        "value_usd": 574527416,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43836709,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "M1 Support Services, Denton, Texas, has been awarded a $32,722,843 modification to previously awarded contract FA4890-16-C-0012 to exercise Option Year 7 for the T‐38 Aircraft Maintenance Program. Work will be performed at Beale Air Force Base, California; Holloman AFB, New Mexico; Langley AFB, Virginia; and Whiteman AFB, Missouri, and is expected to be completed Sept. 30, 2024. No funds are being obligated at the time of award. The Acquisition Management and Integration Center, Joint Base Langley-Eustis Air Force Base, Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA489016C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 32722843.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Acquisition Management and Integration Center, Joint Base Langley-Eustis Air Force Base, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "M1 Support Services",
+            "location": "Denton, Texas",
+            "contract_number": "FA4890-16-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "T-38 Aircraft Maintenance Program, Option Year 7 exercise",
+        "base_contract_number": "FA4890-16-C-0012",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32722843,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, was awarded a $25,396,875 cost-plus-fixed-fee contract for United Kingdom MQ-9 contractor logistics support. This contract provides contractor logistics support for the MQ-9A and ground control station to the Royal Air Force. This contract provides for the field service representative, repair and return, and technical support tasks. Work will be performed at an international location and is expected to be completed March 31, 2024. This contract involves foreign military sales to the United Kingdom. This contract was a sole-source acquisition. Foreign Military Sales funds in the amount of $25,396,875 are being obligated at time of award. The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA8620-19-C-2003).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA862019C2003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25396875.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25396875.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $25,396,875 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": "FA8620-19-C-2003"
+        },
+        "fms": true,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8620-19-C-2003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "United Kingdom MQ-9 contractor logistics support for the Royal Air Force",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25396875,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25396875,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Ricardo Defense Inc., Troy, Michigan, was awarded a $385,554,528 modification (P00002) to contract W56HZV-21-D-0008 for High Mobility Multi-Purpose Wheeled Vehicle Anti-Lock Brake System with Electronic Stability Control retrofit kit production. Work locations and funding will be determined with each order, with an estimated completion date of March 15, 2026. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV21D0008"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 385554528.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-03-15",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Ricardo Defense Inc.",
+            "location": "Troy, Michigan",
+            "contract_number": "W56HZV-21-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "High Mobility Multi-Purpose Wheeled Vehicle Anti-Lock Brake System with Electronic Stability Control retrofit kit production",
+        "base_contract_number": "W56HZV-21-D-0008",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 385554528,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Danbury Mission Technologies LLC,* Danbury, Connecticut, was awarded a $136,498,737 hybrid (cost-plus-fixed-fee, firm-fixed-price) contract for AN/VVR-4 laser detecting sets, laser diode pulsers and support services. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 28, 2028. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W56HZV-23-D-0066).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV23D0066"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 136498737.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-08-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W56HZV-23-D-0066"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Danbury Mission Technologies LLC",
+            "location": "Danbury, Connecticut",
+            "contract_number": "W56HZV-23-D-0066",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-plus-fixed-fee, firm-fixed-price)",
+        "description": "AN/VVR-4 laser detecting sets, laser diode pulsers and support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 136498737,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Overhaul Support Services, East Granby, Connecticut, was awarded a $24,987,648 firm-fixed-price contract for spindle head rotary overhaul. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 23, 2026. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-23-D-0070). (Awarded Aug. 28, 2023)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ23D0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24987648.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-08-23",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-23-D-0070"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Overhaul Support Services",
+            "location": "East Granby, Connecticut",
+            "contract_number": "W58RGZ-23-D-0070",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Spindle head rotary overhaul",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24987648,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": "2023-08-28"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, was awarded a $9,005,116 firm-fixed-price contract for hazardous toxic radioactive waste verification and laboratory services. Bids were solicited via the internet with one received. Work will be performed in Hazelwood, Missouri, with an estimated completion date of Aug. 29, 2024. Fiscal 2023 U.S. Army Corps of Engineers funds in the amount of $9,005,116 were obligated at the time of the award. U.S. Army Corps of Engineers, St. Louis, Missouri, is the contracting activity (W912P9-23-C-0012).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912P923C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9005116.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9005116.0,
+        "funding_text": "Fiscal 2023 U.S. Army Corps of Engineers funds in the amount of $9,005,116 were obligated at the time of the award",
+        "completion_date": "2024-08-29",
+        "contracting_activity": {
+          "name": "Louis, Missouri",
+          "code": "W912P9-23-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W912P9-23-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Hazardous toxic radioactive waste verification and laboratory services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9005116,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9005116,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: G1/ESA South JV LLC,* Atlanta, Georgia, was added as an awardee to the $495,000,000 firm-fixed-price contract (W91248-23-D-3017) announced on June 30, 2023, for construction services.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9124823D3017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 495000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "G1/ESA South JV LLC",
+            "location": "Atlanta, Georgia",
+            "contract_number": "W91248-23-D-3017",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price",
+        "description": "Correction adding G1/ESA South JV LLC as awardee to $495,000,000 firm-fixed-price construction services contract announced June 30, 2023",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 495000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Pascagoula, Mississippi, was awarded a $154,818,890 cost-plus-incentive-fee modification to previously awarded contract N00024-23-C-2324 for the DDG 1000 Modernization Period execution. Work will be performed in Pascagoula, Mississippi (95%); and other locations below 1% (collectively totaling 5%), and is expected to be completed by September 2025. Fiscal 2023 other procurement (Navy) funds in the amount of $152,518,544 (99%); and fiscal 2023 operation and maintenance (Navy) funds in the amount of $2,300,346 (1%), will be obligated at time of award, of which $2,300,346 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-23-C-2324). (Awarded Aug. 25, 2023)",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C2324"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 154818890.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 154818890.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $152,518,544 (99%); and fiscal 2023 operation and maintenance (Navy) funds in the amount of $2,300,346 (1%), will be obligated at time of award, of which $2,300,346 will expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-23-C-2324"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Pascagoula, Mississippi",
+            "contract_number": "N00024-23-C-2324",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "DDG 1000 Modernization Period execution",
+        "base_contract_number": "N00024-23-C-2324",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 154818890,
+        "cumulative_value_usd": null,
+        "obligated_usd": 154818890,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-08-25"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Saab Inc., East Syracuse, New York, is awarded a $36,776,321 firm-fixed-price, cost-plus-fixed-fee contract to procure two SPN-50(V)1 shipboard air traffic radars, one initial checkout kit, two onboard repair parts kits, and two depot spares kits, as well as associated sustainment requirements for two Navy aircraft carriers. Work will be performed in Syracuse, New York, and is expected to be completed in August 2025. Fiscal 2023 other procurement (Navy) funds in the amount of $36,776,321 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001923C0049).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001923C0049"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36776321.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36776321.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $36,776,321 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-08",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001923C0049"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Saab Inc.",
+            "location": "East Syracuse, New York",
+            "contract_number": "N0001923C0049",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Procure two SPN-50(V)1 shipboard air traffic radars, initial checkout kit, onboard repair parts and depot spares kits, and sustainment for two Navy aircraft carriers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36776321,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36776321,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "JJLL LLC, Austin, Texas, is awarded a $10,412,499 cost-plus-incentive-fee modification to previously awarded contract N62742-23-C-3550 to exercise the option period for various support services under the Philippines operations support contract. This award brings the total cumulative value to $17,753,679. Work will be performed primarily in the cities of Manila and Zamboanga and may include foreign locations within the regions of Southeast Asia, Northeast Asia, and Oceania, and is expected to be completed by March 2024. Fiscal 2023 operation and maintenance (Navy) funds in the amount of $3,111,000 will be obligated at time of award and will expire at the end of the current fiscal year. Naval Facilities Engineering Systems Command Pacific, Pearl Harbor, Hawaii, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6274223C3550"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10412499.0,
+        "cumulative_value_usd": 17753679.0,
+        "obligated_usd": 3111000.0,
+        "funding_text": "Fiscal 2023 operation and maintenance (Navy) funds in the amount of $3,111,000 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Pacific, Pearl Harbor, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "JJLL LLC",
+            "location": "Austin, Texas",
+            "contract_number": "N62742-23-C-3550",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Option period exercise for various support services under the Philippines operations support contract",
+        "base_contract_number": "N62742-23-C-3550",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10412499,
+        "cumulative_value_usd": 17753679,
+        "obligated_usd": 3111000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Fairbanks Morse LLC, Norfolk, Virginia, is being awarded $13,530,010 for a firm-fixed-price spares contract for the purchase of the turbocharger in support of the landing, platform dock main propulsion diesel engine. All work will be performed in Beloit, Wisconsin, and work is expected to be completed by March 2024. Working capital funds (Navy) in the full amount of $13,530,010 will be obligated at the time of award, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania, is the contracting activity (N00104-23-F-YA04).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0010423FYA04"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13530010.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13530010.0,
+        "funding_text": "Working capital funds (Navy) in the full amount of $13,530,010 will be obligated at the time of award, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania",
+          "code": "N00104-23-F-YA04"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Fairbanks Morse LLC",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00104-23-F-YA04",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Turbocharger spares for landing platform dock main propulsion diesel engine",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13530010,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13530010,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "The Henry M. Jackson Foundation for the Advancement of Military Medicine Inc., Bethesda, Maryland, is awarded a hybrid cost-plus-fixed-fee, firm-fixed-price $10,648,459 contract (HT942523C0075) to provide diagnostics and countermeasures branch support services to the Walter Reed Army Institute of Research, Silver Spring, Maryland. Support services specifically include: specimen acquisition, processing, and handling; implementation and maintenance of all pre-test, test, and post-test quality indicators for report of clinical screening, confirmatory testing, infection classification, diagnosis, clinical monitoring (viral load), or therapeutic monitoring (resistance genotype); execute serological, immunological, protein, and/or molecular testing in support of clinical service delivery and translational research, vaccine, therapeutic, and cure initiatives/studies; input/process data files, analyze data, assist in the preparation of reports, manuscripts, military briefings, and scientific presentations. Fiscal 2023 operations and maintenance funding will be obligated at the time of award. Period of performance is Sept. 1, 2023, to Aug. 31, 2028. Place of performance is Silver Spring, Maryland. The contracting activity is U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HT942523C0075"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10648459.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funding will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "The Henry M. Jackson Foundation for the Advancement of Military Medicine Inc.",
+            "location": "Bethesda, Maryland",
+            "contract_number": "HT942523C0075",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid cost-plus-fixed-fee, firm-fixed-price",
+        "description": "Diagnostics and countermeasures branch support services to the Walter Reed Army Institute of Research, Silver Spring, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10648459,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-08-29.html"
+  "source": "file:2023-08-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:21:01Z"
+  }
 }

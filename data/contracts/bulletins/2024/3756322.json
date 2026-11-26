@@ -11,57 +11,465 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Absher Construction Co., Puyallup, Washington, was awarded a $57,608,170 firm-fixed-price contract for unaccompanied enlisted personnel housing. Bids were solicited via the internet with three received. Work will be performed in Joint Base Lewis McChord, Washington, with an estimated completion date of Oct. 26, 2026. Fiscal 2024 military construction, Army funds in the amount of $57,608,170 were obligated at the time of the award. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity (W912DW-24-C-0004).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DW24C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 57608170.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57608170.0,
+        "funding_text": "Fiscal 2024 military construction, Army funds in the amount of $57,608,170 were obligated at the time of the award",
+        "completion_date": "2026-10-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": "W912DW-24-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Absher Construction Co.",
+            "location": "Puyallup, Washington",
+            "contract_number": "W912DW-24-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Unaccompanied enlisted personnel housing at Joint Base Lewis McChord, Washington",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57608170,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57608170,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Miller Electric Co. Inc., Reno, Nevada, was awarded a $15,000,000 firm-fixed-price contract for sustainment, restoration and modernization projects. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of April 24, 2029. 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-24-D-2006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911SA24D2006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-04-24",
+        "contracting_activity": {
+          "name": "Work locations and funding will be determined with each order, with an estimated completion date of April 24, 2029. 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-24-D-2006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Miller Electric Co. Inc.",
+            "location": "Reno, Nevada",
+            "contract_number": "W911SA-24-D-2006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Sustainment, restoration and modernization projects; work locations determined with each order",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "RSI-Quantitech JV LLC,* Huntsville, Alabama, was awarded an $8,048,752 modification (P00005) to contract W911SF-23-C-0009 for aviation maintenance support. Work will be performed at Fort Moore, Georgia, with an estimated completion date of April 27, 2028. Fiscal 2024 operation and maintenance, Army funds in the amount of $8,048,752 were obligated at the time of the award. U.S. Army Field Directorate Office, Fort Moore, Georgia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W911SF23C0009"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 8048752.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8048752.0,
+        "funding_text": "Fiscal 2024 operation and maintenance, Army funds in the amount of $8,048,752 were obligated at the time of the award",
+        "completion_date": "2028-04-27",
+        "contracting_activity": {
+          "name": "U.S. Army Field Directorate Office, Fort Moore, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "RSI-Quantitech JV LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W911SF-23-C-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation maintenance support at Fort Moore, Georgia",
+        "base_contract_number": "W911SF-23-C-0009",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 8048752,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8048752,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Phillystran Inc., Montgomeryville, Pennsylvania, has been awarded a maximum $25,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for aramid fibrous ropes. This was a competitive acquisition with one response received. This is a one-year base contract with four one-year option periods. The ordering period end date is April 24, 2025. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8EG-24-D-0006).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EG24D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8EG-24-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Phillystran Inc.",
+            "location": "Montgomeryville, Pennsylvania",
+            "contract_number": "SPE8EG-24-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Aramid fibrous ropes; one-year base with four one-year options; ordering period ends April 24, 2025",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": 25000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Belleville Shoe Manufacturing Co.,* Belleville, Illinois, has been awarded a maximum $16,912,795 fixed-price, indefinite-delivery/indefinite-quantity contract for men’s and women’s dress oxford shoes. This was a competitive acquisition with three responses received. This is a three-year contract with no option periods. The ordering period end date is April 24, 2027. Using military service is Army. Type of appropriation is fiscal 2024 through 2027 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-24-D-0039).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C124D0039"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16912795.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-24-D-0039"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Belleville Shoe Manufacturing Co.",
+            "location": "Belleville, Illinois",
+            "contract_number": "SPE1C1-24-D-0039",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Men's and women's dress oxford shoes; three-year contract; ordering period ends April 24, 2027",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16912795,
+        "cumulative_value_usd": 16912795,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Pacific Rim Constructors Inc.,* Dededo, Guam, is awarded a $21,978,000 firm-fixed-price contract for construction at the Naval Support Activity Marine Corps Base, Finegayan, Guam, The work to be performed provides for construction of a permanent low-rise recreation center. Work will be performed in Finegayan, Guam, and is expected to be completed by October 2026. Fiscal 2024 military construction (Navy) funds in the amount of $21,978,000 will be obligated at time of award. This contract was competitively procured via the sam.gov website, with three proposals received. Naval Facilities Engineering Systems Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-24-C-1312).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6274224C1312"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21978000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21978000.0,
+        "funding_text": "Fiscal 2024 military construction (Navy) funds in the amount of $21,978,000 will be obligated at time of award",
+        "completion_date": "2026-10",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-24-C-1312"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Pacific Rim Constructors Inc.",
+            "location": "Dededo, Guam",
+            "contract_number": "N62742-24-C-1312",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a permanent low-rise recreation center at NSA Marine Corps Base Finegayan, Guam",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21978000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21978000,
+        "fms_countries": [],
+        "competition": "Sam.gov, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hunsaker and Associates San Diego Inc.,* San Diego, California, is awarded a $10,000,000 firm-fixed price, indefinite-delivery/indefinite-quantity, architect-engineering contract for surveying and mapping services within the Naval Facilities Engineering Systems Command (NAVFAC) Southwest area of operations (AO). This contract provides for the performance of surveying and mapping services in support of construction planning. The maximum dollar value, including the base and option periods, is $10,000,000. Work will be performed at various military installations in the NAVFAC Southwest AO to include California (87%), Arizona (5%), Nevada (5%), Colorado (1%), New Mexico (1%), and Utah (1%), and is expected to be completed by April 2032. Fiscal 2024 operation and maintenance (Navy) funds in the amount of $5,000 (minimum contract guarantee) will be obligated at time of award and will expire at the end of the current fiscal year. This contract was competitively procured via the sam.gov website with seven offers received. NAVFAC Southwest, San Diego, California, is the contracting activity (N62473-24-D-1401).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6247324D1401"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2024 operation and maintenance (Navy) funds in the amount of $5,000 (minimum contract guarantee) will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2032-04",
+        "contracting_activity": {
+          "name": "NAVFAC Southwest, San Diego, California",
+          "code": "N62473-24-D-1401"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Hunsaker and Associates San Diego Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N62473-24-D-1401",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity architect-engineering",
+        "description": "Surveying and mapping services within NAVFAC Southwest area of operations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": 10000000,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "Sam.gov, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded an $8,913,054 cost reimbursable, cost-plus-incentive-fee modification (P00082) to a previously awarded contract (N0001918C1048). This modification adds scope to procure low-rate initial production 11 depot test systems upgrades including LMStar and Integrated Core Processor and Communication, Navigation, and Identification Test Program Set (TPS) required for Windows 10 and TestStand 2019 in support of F-35 aircraft sustainment efforts for the Air Force, Marine Corps, Navy, and non-U.S. Department of Defense (DOD) participants. Work will be performed in Fort Worth, Texas, and is expected to be completed in February 2027. Fiscal 2022 aircraft procurement (Air Force) funds in the amount of $3,785,515; fiscal 2022 aircraft procurement (Marine Corp) funds in the amount of $1,892,835; fiscal 2022 aircraft procurement (Navy) funds in the amount of $1,892,761; and non-U.S. DOD participant funds in the amount of $1,341,941, will be obligated at time of award, $7,571,111 of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1048"
+        ],
+        "modification_numbers": [
+          "P00082"
+        ],
+        "is_modification": true,
+        "value_usd": 8913054.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8913052.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Air Force) funds in the amount of $3,785,515; fiscal 2022 aircraft procurement (Marine Corp) funds in the amount of $1,892,835; fiscal 2022 aircraft procurement (Navy) funds in the amount of $1,892,761; and non-U.S. DOD participant funds in the amount of $1,341,941, will be obligated at time of award, $7,571,111 of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-02",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001918C1048",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Low-rate initial production 11 depot test systems upgrades (LMStar, Integrated Core Processor, CNI Test Program Set) for F-35 sustainment",
+        "base_contract_number": "N0001918C1048",
+        "order_number": null,
+        "modification_number": "P00082",
+        "value_usd": 8913054,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Melbourne, Florida, is awarded a $8,089,776 cost-plus-fixed-fee order (N0001924F0064) against a previously issued basic ordering agreement (N0001920G0005). This order provides engineering and logistics sustainment support in support of the E-2D Hawkeye aircraft transition from production to sustainment. Work will be performed in Melbourne, Florida and is expected to be completed in April 2025. Fiscal 2024 operations and maintenance (Navy) funds in the amount of $4,443,250; and fiscal 2024 research, development, test, and evaluation (Navy) funds in the amount of $354,260, will be obligated at the time of award, of which $4,443,250 will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001924F0064",
+          "N0001920G0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8089776.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4797510.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the amount of $4,443,250; and fiscal 2024 research, development, test, and evaluation (Navy) funds in the amount of $354,260, will be obligated at the time of award, of which $4,443,250 will expire at the end of the current fiscal year",
+        "completion_date": "2025-04",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001924F0064",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Engineering and logistics sustainment support for E-2D Hawkeye transition from production to sustainment",
+        "base_contract_number": "N0001920G0005",
+        "order_number": "N0001924F0064",
+        "modification_number": null,
+        "value_usd": 8089776,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-04-25.html"
+  "source": "file:2024-04-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:51:50Z"
+  }
 }

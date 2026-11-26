@@ -11,57 +11,467 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Eli Lilly and Co., Indianapolis, Indiana, was awarded a $1,080,000,000 firm-fixed-price contract for manufacture, distribution and storage of Bebtelovimab in support of the national emergency response to COVID-19. Bids were solicited via the internet with one received. Work will be performed in Indianapolis, Indiana, with an estimated completion date of Jan. 31, 2023. Health and Human Services Biomedical Advanced Research and Development Authority (HHS/BARDA) American Rescue Plan Act funds in the amount of $1,080,000,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W58P05-22-C-0012). (Awarded Feb. 10, 2022)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1080000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1080000000.0,
+        "funding_text": "Health and Human Services Biomedical Advanced Research and Development Authority (HHS/BARDA) American Rescue Plan Act funds in the amount of $1,080,000,000 were obligated at the time of the award",
+        "completion_date": "2023-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W58P05-22-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Eli Lilly and Co.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "W58P05-22-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Manufacture, distribution and storage of Bebtelovimab in support of national emergency response to COVID-19",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1080000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1080000000,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": "2022-02-10"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cape Fox Federal Integrators LLC,* Manassas, Virginia, was awarded a $25,000,000 firm-fixed-price contract to provide training support for the Army Traffic Safety Training Program. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 13, 2027. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-22-D-0011).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127822D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-02-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-22-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Cape Fox Federal Integrators LLC",
+            "location": "Manassas, Virginia",
+            "contract_number": "W91278-22-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Training support for the Army Traffic Safety Training Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Grand Prairie, Texas, was awarded a $16,099,270 cost-plus-incentive-fee contract for Patriot Advanced Capability-3 flight test support. Bids were solicited via the internet with one received. Work will be performed in Saudi Arabia and Qatar, with an estimated completion date of Feb. 13, 2025. Fiscal 2022 Foreign Military Sales (Saudi Arabia and Qatar) funds in the amount of $16,099,270 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-22-F-0050).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q22F0050"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16099270.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16099270.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales (Saudi Arabia and Qatar) funds in the amount of $16,099,270 were obligated at the time of the award",
+        "completion_date": "2025-02-13",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-22-F-0050"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Grand Prairie, Texas",
+            "contract_number": "W31P4Q-22-F-0050",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Patriot Advanced Capability-3 flight test support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16099270,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16099270,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Qatar"
+        ],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Textron Aviation Inc., Wichita, Kansas, was awarded an $11,444,058 firm-fixed-price contract for new commercial Beechcraft King Air 360ER aircraft. Bids were solicited via the internet with one received. Work will be performed in Wichita, Kansas, with an estimated completion date of Sept. 26, 2025. Fiscal 2022 Foreign Military Sales (Sri Lanka) funds in the amount of $11,444,058 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-22-C-0018).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ22C0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11444058.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11444058.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales (Sri Lanka) funds in the amount of $11,444,058 were obligated at the time of the award",
+        "completion_date": "2025-09-26",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-22-C-0018"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Sri Lanka"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Textron Aviation Inc.",
+            "location": "Wichita, Kansas",
+            "contract_number": "W58RGZ-22-C-0018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "New commercial Beechcraft King Air 360ER aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11444058,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11444058,
+        "fms_countries": [
+          "Sri Lanka"
+        ],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Electric - Aviation, Lynn, Massachusetts, is awarded a $39,164,444 cost-plus-fixed-fee modification (P00004) to a previously awarded contract (N0001921C0035). This modification exercises an option to procure 19 T-64 engine cores for the CH-53E aircraft in support of the T-64 Engine Reliability Improvement Program. Work will be performed in Lynn, Massachusetts (45%); Rutland, Vermont (28%); Havelock, North Carolina (18%); Madisonville, Kentucky (4%); Evendale, Ohio (4%); and various locations within the continental U.S. (1%), and is expected to be completed in January 2024. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $39,164,444 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0035"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 39164444.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39164444.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $39,164,444 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Electric - Aviation",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "N0001921C0035",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Exercise of option to procure 19 T-64 engine cores for CH-53E aircraft, T-64 Engine Reliability Improvement Program",
+        "base_contract_number": "N0001921C0035",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 39164444,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39164444,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Simulation and Training Solutions, Cedar Rapids, Iowa, is awarded a $31,359,881 firm-fixed-price modification (P00001) to a previously awarded contract (N6134021C0017). This modification extends services and adds hours to implement Delta Software System Configuration (DSSC) #4 tactical baseline updates and concurrency enhancements, to include technical data, on the E-2D Hawkeye Integrated Training System, flight, tactics, maintenance, and E-2D Distributed Readiness Trainer (D-DRT) devices. Additionally, this modification exercises options to provide integration of the DSSC #4 on weapons system trainers and flight devices, DSSC #4 Operating Systems upgrades on flight and D-DRT devices, and technical data, as well as provide DSSC #4 training, to include maintenance, user, and cyber security/software support. Work will be performed in Point Mugu, California (45%); Norfolk, Virginia (30%); Sterling, Virginia (15%); and Iwakuni, Japan (10%), and is expected to be completed in September 2024. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $16,530,372; fiscal 2021 aircraft procurement (Navy) funds in the amount of $755,186; and fiscal 2020 aircraft procurement (Navy) funds in the amount of $14,074,323 will be obligated at the time of award, $14,074,323.00 of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6134021C0017"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 31359881.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31359881.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $16,530,372; fiscal 2021 aircraft procurement (Navy) funds in the amount of $755,186; and fiscal 2020 aircraft procurement (Navy) funds in the amount of $14,074,323 will be obligated at the time of award, $14,074,323.00 of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Simulation and Training Solutions",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N6134021C0017",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price modification",
+        "description": "Extends services and adds hours for DSSC #4 tactical baseline updates and concurrency enhancements on E-2D Hawkeye Integrated Training System, with option exercises for integration, OS upgrades, technical data and training",
+        "base_contract_number": "N6134021C0017",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 31359881,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45959881,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Military Aircraft Systems, Melbourne, Florida, is awarded a $22,218,097 modification (P00037) to a previously awarded cost reimbursable contract (N0001918C1037). This modification adds scope to provide non-recurring engineering risk reduction to support the delivery schedule for E-2D aircraft FAA1-FAA3 for the government of France. Work will be performed in Baltimore, Maryland (25%); Woodland Hills, California (25%); Dallas, Texas (19%); West Chester, Ohio (7%); Syracuse, New York (5%); Ronkonkoma, New York (3%); Haywood, California (2%); Cistena Di Latina, Italy (3%); Orlando, Florida (3%); Owego, New York (2%); and various locations within the continental U.S. (6%), and is expected to be completed in April 2022. Foreign Military Sales funds in the amount of $22,218,097 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1037"
+        ],
+        "modification_numbers": [
+          "P00037"
+        ],
+        "is_modification": true,
+        "value_usd": 22218097.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22218097.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $22,218,097 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp., Military Aircraft Systems",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001918C1037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost reimbursable modification",
+        "description": "Non-recurring engineering risk reduction for E-2D aircraft FAA1-FAA3 for the government of France",
+        "base_contract_number": "N0001918C1037",
+        "order_number": null,
+        "modification_number": "P00037",
+        "value_usd": 22218097,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22218097,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Technology Solutions and Services, Rockville, Maryland, is awarded a $7,528,289 cost-plus-fixed-fee modification (P00030) to a previously awarded contract (N0042120C0003). This modification exercises an option to provide research, development, engineering, technical, and logistics support in support of the delivery of fully integrated and tested command, control, communications, computer, and intelligence (C4I) electronic radio communication systems for shipboard installation for the Ship and Air Integration Warfare Division, Naval Air Warfare Center, Webster Outlying Field. Work will be performed in St. Inigoes, Maryland (60%); California, Maryland (30%); Bath, Maine (5%); and Pascagoula, Mississippi (5%), and is expected to be completed in February 2023. Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $1,753,663 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0042120C0003"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 7528289.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1753663.0,
+        "funding_text": "Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $1,753,663 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "BAE Systems Technology Solutions and Services",
+            "location": "Rockville, Maryland",
+            "contract_number": "N0042120C0003",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Research, development, engineering, technical and logistics support for delivery of integrated C4I electronic radio communication systems for shipboard installation, Webster Outlying Field",
+        "base_contract_number": "N0042120C0003",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 7528289,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1753663,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Water Operations and Maintenance LLC, Camden, New Jersey, has been awarded a $10,901,088 modification (P00180) to a 50-year contract (SP0600-08-C-8257) with no option periods for the ownership, operation and maintenance of the electric utility system at Fort Polk, Louisiana. This is a fixed-price with economic-price-adjustment contract. Locations of performance are Louisiana and New Jersey, with a Jan. 31, 2059, performance completion date. Using military service is Army. Type of appropriation is fiscal 2022 through 2059 Army operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SP060008C8257"
+        ],
+        "modification_numbers": [
+          "P00180"
+        ],
+        "is_modification": true,
+        "value_usd": 10901088.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "American Water Operations and Maintenance LLC",
+            "location": "Camden, New Jersey",
+            "contract_number": "SP0600-08-C-8257",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Ownership, operation and maintenance of the electric utility system at Fort Polk, Louisiana",
+        "base_contract_number": "SP0600-08-C-8257",
+        "order_number": null,
+        "modification_number": "P00180",
+        "value_usd": 10901088,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-02-14.html"
+  "source": "file:2022-02-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:24:27Z"
+  }
 }

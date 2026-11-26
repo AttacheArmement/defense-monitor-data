@@ -9,15 +9,108 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Kratos Unmanned Aerial Systems Inc., Sacramento, California, has been awarded a $53,003,839 firm-fixed-price modification (P00001) for spares to previously awarded contract FA8678-21-D-0001. The contract modification provides for the purchase of spare parts under the basic indefinite-delivery/indefinite-quantity contract, along with correcting the contract’s ceiling amount. Work will be performed in Sacramento, California, and is expected to be completed by Dec. 31, 2027. No funds are being obligated at the time of award, and the total cumulative face value of the contract is $374,043,801. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA867821D0001"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 53003839.0,
+        "cumulative_value_usd": 374043801.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award, and the total cumulative face value of the contract is $374,043,801",
+        "completion_date": "2027-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Kratos Unmanned Aerial Systems Inc.",
+            "location": "Sacramento, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Spare parts purchase under basic IDIQ contract FA8678-21-D-0001 with ceiling amount correction",
+        "base_contract_number": "FA8678-21-D-0001",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 53003839,
+        "cumulative_value_usd": 374043801,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Schuyler Line Navigation Co. LLC, Annapolis, Maryland (N3220518C3508), is awarded an $11,406,250 option (P00018) for the fixed-price portion of a previously awarded, firm-fixed-price contract, with reimbursable elements, to exercise a one-year option period for the operation and maintenance of the tanker SLNC Goodwill to provide transportation of clean petroleum products in support of the Department of Defense Logistics Agency Energy. This contract includes a one-year firm period of the performance, three one-year option periods, and one eleven-month option period, which if exercised would bring the cumulative value of this contract to $60,816,000. Work will be performed worldwide and is expected to be completed, if all options are exercised, by Sept. 13, 2023. Working capital funds (Transportation) in the amount of $11,406,250 are not yet obligated for fiscal 2022. This procurement was released under full and open competition with an unlimited number of companies solicited via the beta.sam.gov website, with no offers received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N3220518C3508"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": false,
+        "value_usd": 11406250.0,
+        "cumulative_value_usd": 60816000.0,
+        "obligated_usd": 11406250.0,
+        "funding_text": "Working capital funds (Transportation) in the amount of $11,406,250 are not yet obligated for fiscal 2022",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Schuyler Line Navigation Co. LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "N3220518C3508",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price with reimbursable elements",
+        "description": "One-year option period for operation and maintenance of tanker SLNC Goodwill transporting clean petroleum products for DLA Energy",
+        "base_contract_number": "N3220518C3508",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 11406250,
+        "cumulative_value_usd": 60816000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "full and open competition; unlimited number of companies solicited via beta.sam.gov; no offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:46Z",
-  "source": "file:2021-10-13.html"
+  "source": "file:2021-10-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:35:56Z"
+  }
 }

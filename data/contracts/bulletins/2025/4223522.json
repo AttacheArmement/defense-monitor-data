@@ -11,51 +11,400 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Carnegie Mellon University, Pittsburgh, Pennsylvania, was awarded a $1,500,941,451 ceiling indefinite-delivery/indefinite-quantity contract for the operation of the Software Engineering Institute Federally Funded Research and Development Center. This contract provides for research, development, and prototyping of advanced technology to meet the Department of Defense and national security needs. Work will be performed primarily at facilities located in Pittsburgh, Pennsylvania and is expected to be complete by June 30, 2030. This award is the result of a sole-source acquisition. Fiscal 2025 research, development, test, and evaluation funds in the amount of $416,000 are being obligated at the time of award. The Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA8702-25-D-B003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA870225DB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1500941451.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 416000.0,
+        "funding_text": "Fiscal 2025 research, development, test, and evaluation funds in the amount of $416,000 are being obligated at the time of award",
+        "completion_date": "2030-06-30",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": "FA8702-25-D-B003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Carnegie Mellon University",
+            "location": "Pittsburgh, Pennsylvania",
+            "contract_number": "FA8702-25-D-B003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (ceiling)",
+        "description": "Operation of the Software Engineering Institute Federally Funded Research and Development Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1500941451,
+        "cumulative_value_usd": null,
+        "obligated_usd": 416000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, was awarded a not-to exceed ceiling $49,674,035 letter contract for F-15 Foreign Military Sales (FMS) sustainment of Royal Saudi Air Force repair and return support services. This contract provides logistical support to include repair and return of unclassified items for Royal Saudi Air Force F-15 C/D/S and SA components, as well as spares, repair and return maintenance, procurement of support equipment, aircraft integration, and training. Services include repair, refurbishment, and/or replacement of Royal Saudi Air Force aerospace ground equipment, special purpose vehicles, and fire and safety vehicles. Work will be performed at St. Louis, Missouri; and Saudi Arabia, and expected to be complete by June 20, 2026. This contract involves FMS to Saudi Arabia. This contract was a sole source acquisition. No year authority non-appropriated FMS funds in the amount of $23,232,704 are being obligated at the time of award. The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8575-25-C-0004). (Awarded June 18, 2025)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA857525C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49674035.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23232704.0,
+        "funding_text": "No year authority non-appropriated FMS funds in the amount of $23,232,704 are being obligated at the time of award",
+        "completion_date": "2026-06-20",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8575-25-C-0004"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "FA8575-25-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "letter contract (not-to-exceed ceiling)",
+        "description": "F-15 FMS sustainment of Royal Saudi Air Force repair and return support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49674035,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23232704,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "sole source",
+        "award_date": "2025-06-18"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., El Segundo, California, has been awarded a $22,159,551 modification (P00115) to a previously awarded contract (FA8819-15-C-0007) for a one-year extension to continue RedLAN sustainment and support. The modification brings the total cumulative face value of the contract to $392,029,501. Work will be performed in Colorado Springs, Colorado, and the period of performance is through June 20, 2026. Fiscal 2025 operations and maintenance appropriations funding in the amount of $4,095,077; and fiscal 2025 research, development, test and evaluation funding in the amount of $2,000,000, is being obligated at the time of modification award. Space Systems Command, Peterson Space Force Base, Colorado is the contracting activity. (Awarded June 20, 2025)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA881915C0007"
+        ],
+        "modification_numbers": [
+          "P00115"
+        ],
+        "is_modification": true,
+        "value_usd": 22159551.0,
+        "cumulative_value_usd": 392029501.0,
+        "obligated_usd": 6095077.0,
+        "funding_text": "Fiscal 2025 operations and maintenance appropriations funding in the amount of $4,095,077; and fiscal 2025 research, development, test and evaluation funding in the amount of $2,000,000, is being obligated at the time of modification award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space Systems Command, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "El Segundo, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "One-year extension to continue RedLAN sustainment and support",
+        "base_contract_number": "FA8819-15-C-0007",
+        "order_number": null,
+        "modification_number": "P00115",
+        "value_usd": 22159551,
+        "cumulative_value_usd": 392029501,
+        "obligated_usd": 6095077,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2025-06-20"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BILT Inc., Grapevine, Texas, was awarded a $14,999,050 firm-fixed-price contract for 3D/XR training and support for the Air Combat Command Logistics, Engineering and Force Protection Directorate. This contract provides for improved training, maintenance, and operational procedures for the BILT application. Work will be performed at Grapevine, Texas; and Langley Air Force Base, Virginia, and is expected to be completed by June 30, 2029. The contract was a sole source acquisition through a Small Business Innovation Research Phase 2 direct award selection. Fiscal 2025 research, development, test and evaluation funds in the amount of $3,110,362 are being obligated at the time of award. The 82nd Contracting Squadron, Sheppard AFB, Texas, is the contracting activity (FA3020-25-C-0005).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA302025C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14999050.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3110362.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $3,110,362 are being obligated at the time of award",
+        "completion_date": "2029-06-30",
+        "contracting_activity": {
+          "name": "The 82nd Contracting Squadron, Sheppard AFB, Texas",
+          "code": "FA3020-25-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BILT Inc.",
+            "location": "Grapevine, Texas",
+            "contract_number": "FA3020-25-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "3D/XR training and support for the Air Combat Command Logistics, Engineering and Force Protection Directorate (BILT application)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14999050,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3110362,
+        "fms_countries": [],
+        "competition": "sole source (SBIR Phase 2 direct award)",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded a $621,058,065 modification (P00056) to contract W31P4Q-20-D-0039 for SGT Stout systems, parts, services, and support. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 29, 2028. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q20D0039"
+        ],
+        "modification_numbers": [
+          "P00056"
+        ],
+        "is_modification": true,
+        "value_usd": 621058065.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-09-29",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W31P4Q-20-D-0039",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "SGT Stout systems, parts, services, and support",
+        "base_contract_number": "W31P4Q-20-D-0039",
+        "order_number": null,
+        "modification_number": "P00056",
+        "value_usd": 621058065,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aleut O&M Services LLC, Colorado Springs, Colorado, was awarded a $25,900,127 firm-fixed-price contract for base operation support services. Bids were solicited via the internet with one received. Work will be performed in Fort Belvoir, Virginia, with an estimated completion date of March. 31, 2026. Fiscal 2025 operation and maintenance, Army funds in the amount of $6,760,491 were obligated at the time of the award. Army Field Directorate Office, Fort Sam Houston, Texas, is the contracting activity (W5168W-25-C-A003). (Awarded June 20, 2025)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W5168W25CA003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25900127.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6760491.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $6,760,491 were obligated at the time of the award",
+        "completion_date": "2026-03-31",
+        "contracting_activity": {
+          "name": "Army Field Directorate Office, Fort Sam Houston, Texas",
+          "code": "W5168W-25-C-A003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Aleut O&M Services LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W5168W-25-C-A003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Base operation support services at Fort Belvoir, Virginia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25900127,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6760491,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": "2025-06-20"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "McKim and Creed Inc., Raleigh, North Carolina, was awarded an $8,000,000 firm-fixed-price contract for architect-engineering services. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of June 22, 2030. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-25-D-0003).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912DS25D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-06-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York, New York",
+          "code": "W912DS-25-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "McKim and Creed Inc.",
+            "location": "Raleigh, North Carolina",
+            "contract_number": "W912DS-25-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price (architect-engineering services)",
+        "description": "Architect-engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "PAE Government Services Inc., Chantilly, Virginia, is awarded a $34,028,721, firm-fixed-price, indefinite-delivery/indefinite-quantity modification to previously awarded contract (N40084-21-D-0060) for base operation support services at Marine Corps Air Station Iwakuni, Japan. This award brings the total cumulative face value of the contract to $154,894,539. Work will be performed at Iwakuni City, Yamaguchi Prefecture, Japan, and is expected to be completed by June 2026. No funds will be obligated at time of award. Fiscal 2025 operations and maintenance (O&M) (Marine Corps); fiscal 2025 O&M (Navy); fiscal 2025 O&M (Defense Agencies); and fiscal 2025 Department of Defense working capital funds, in the amount of $18,636,510 for recurring work will be obligated on individual task orders issued during the option period, and will expire at the end of the current fiscal year. The Naval Facilities Engineering Systems Command Far East, Iwakuni, Japan, is the contracting activity (N40084-21-D-0060).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N4008421D0060"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 34028721.0,
+        "cumulative_value_usd": 154894539.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Fiscal 2025 operations and maintenance (O&M) (Marine Corps); fiscal 2025 O&M (Navy); fiscal 2025 O&M (Defense Agencies); and fiscal 2025 Department of Defense working capital funds, in the amount of $18,636,510 for recurring work will be obligated on individual task orders issued during the option period, and will expire at the end of the current fiscal year",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Far East, Iwakuni, Japan",
+          "code": "N40084-21-D-0060"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "PAE Government Services Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N40084-21-D-0060",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Base operation support services at Marine Corps Air Station Iwakuni, Japan",
+        "base_contract_number": "N40084-21-D-0060",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34028721,
+        "cumulative_value_usd": 154894539,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:56Z",
-  "source": "file:2025-06-23.html"
+  "source": "file:2025-06-23.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:01:09Z"
+  }
 }

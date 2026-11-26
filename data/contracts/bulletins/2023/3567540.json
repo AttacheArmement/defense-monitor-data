@@ -9,9 +9,54 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Certified Stainless Service Inc., Ceres, California (SPE8EC-24-D-0025, $93,000,000) has been added as an awardee to the multiple award contract for sweeper and scrubber equipment, issued against solicitation SPE8EC-21-R-0002 and awarded Feb. 22, 2022.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC24D0025",
+          "SPE8EC21R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 93000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Certified Stainless Service Inc.",
+            "location": "Ceres, California",
+            "contract_number": "SPE8EC-24-D-0025",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Adds Certified Stainless Service Inc. as an awardee to the multiple award contract for sweeper and scrubber equipment (solicitation SPE8EC-21-R-0002)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-02-22"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-10-24.html"
+  "source": "file:2023-10-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:10:02Z"
+  }
 }

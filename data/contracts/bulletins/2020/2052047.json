@@ -9,15 +9,106 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ensign-Bickford Aerospace & Defense, Simsbury, Connecticut, is awarded a $28,323,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a five-year ordering period and five one-year options for the MK 150 MOD 0 4.0 second Delay Detonator, and the MK 164 MOD 0 Non Electric Dual Detonator. The MN50 is a 4.0 second delay detonator with 7' of pyrotechnic lead with one non-electric delay detonator on one end and an inline initiator on the other end. The MP29 is a non-electric dual detonator with 40' of dual, no flash pyrotechnic lead with two non-electric detonators on one end and two inline initiators on the other end. They are used for demolition breaching, critical target destruction and obstacle clearing for U.S. Naval Special Warfare Command. Work will be performed in Graham, Kentucky, and is expected to be complete by January 2030. Fiscal 2019 procurement of ammunition, Navy and Marine Corps, funding in the amount of $305,486; and defense procurement funding in the amount of $149,971 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website with one offer received. The Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N0016420DJR74).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0016420DJR74"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28323000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 455457.0,
+        "funding_text": "Fiscal 2019 procurement of ammunition, Navy and Marine Corps, funding in the amount of $305,486; and defense procurement funding in the amount of $149,971 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2030-01",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Crane Division, Crane, Indiana",
+          "code": "N0016420DJR74"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Ensign-Bickford Aerospace & Defense",
+            "location": "Simsbury, Connecticut",
+            "contract_number": "N0016420DJR74",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "MK 150 MOD 0 4.0 second delay detonator and MK 164 MOD 0 non-electric dual detonator for U.S. Naval Special Warfare Command",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28323000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 455457,
+        "fms_countries": [],
+        "competition": "competitively procured via Federal Business Opportunities website; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dyncorp International LLC, Fort Worth, Texas, was awarded a $19,810,314 modification (P00022) to contract W58RGZ-19-C-0025 for aviation maintenance services. Work will be performed in Fort Campbell, Kentucky; Afghanistan and Iraq, with an estimated completion date of Nov. 30, 2020. Fiscal 2020 operations and maintenance, Army funds in the amount of $19,810,314 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19C0025"
+        ],
+        "modification_numbers": [
+          "P00022"
+        ],
+        "is_modification": true,
+        "value_usd": 19810314.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19810314.0,
+        "funding_text": "Fiscal 2020 operations and maintenance, Army funds in the amount of $19,810,314 were obligated at the time of the award",
+        "completion_date": "2020-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Dyncorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W58RGZ-19-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation maintenance services, Fort Campbell, Kentucky; Afghanistan and Iraq",
+        "base_contract_number": "W58RGZ-19-C-0025",
+        "order_number": null,
+        "modification_number": "P00022",
+        "value_usd": 19810314,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19810314,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:41Z",
-  "source": "file:2020-01-07.html"
+  "source": "file:2020-01-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T23:00:44Z"
+  }
 }

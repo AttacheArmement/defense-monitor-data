@@ -13,99 +13,837 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Siemens Healthcare Diagnostics Inc., Tarrytown, New York, was awarded a $370,440,000 modification (P00003) to contract W58P05-22-C-0011 for COVID-19 rapid antigen test kits. Work will be performed in Tarrytown, New York, with an estimated completion date of June 25, 2022. American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $370,440,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity. (Awarded Feb. 17, 2022)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0011"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 370440000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 370440000.0,
+        "funding_text": "American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $370,440,000 were obligated at the time of the award",
+        "completion_date": "2022-06-25",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Siemens Healthcare Diagnostics Inc.",
+            "location": "Tarrytown, New York",
+            "contract_number": "W58P05-22-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "COVID-19 rapid antigen test kits",
+        "base_contract_number": "W58P05-22-C-0011",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 370440000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 370440000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-02-17"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $103,774,884 modification (PZ0007) to contract W58RGZ-20-C-0037 for AH-6 aircraft. Work will be performed in Mesa, Arizona, with an estimated completion date of May 30, 2025. Foreign Military Sales (Thailand) funds in the amount of $103,774,884 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ20C0037"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 103774884.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 103774884.0,
+        "funding_text": "Foreign Military Sales (Thailand) funds in the amount of $103,774,884 were obligated at the time of the award",
+        "completion_date": "2025-05-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Thailand"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-20-C-0037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "AH-6 aircraft",
+        "base_contract_number": "W58RGZ-20-C-0037",
+        "order_number": null,
+        "modification_number": "PZ0007",
+        "value_usd": 103774884,
+        "cumulative_value_usd": null,
+        "obligated_usd": 103774884,
+        "fms_countries": [
+          "Thailand"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Maxim Biomedical Inc., Rockville, Maryland was awarded a $54,640,000 firm-fixed-price contract for COVID-19 antigen test kits. Bids were solicited via the internet with one received. Work will be performed in Chambersburg, Pennsylvania, with an estimated completion date of June 30, 2022. American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $54,640,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W58P05-22-C-0013).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54640000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54640000.0,
+        "funding_text": "American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $54,640,000 were obligated at the time of the award",
+        "completion_date": "2022-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W58P05-22-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Maxim Biomedical Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W58P05-22-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "COVID-19 antigen test kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54640000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54640000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "InBios International Inc., Seattle, Washington, was awarded a $53,500,000 firm-fixed-price contract for COVID-19 antigen test kits. Bids were solicited via the internet with one received. Work will be performed in Chambersburg, Pennsylvania, with an estimated completion date of June 30, 2022. American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $53,500,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W58P05-22-C-0014). (Awarded Feb. 17, 2022)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 53500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 53500000.0,
+        "funding_text": "American Rescue Plan Act funds awarded in fiscal 2022 in the amount of $53,500,000 were obligated at the time of the award",
+        "completion_date": "2022-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W58P05-22-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "InBios International Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "W58P05-22-C-0014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "COVID-19 antigen test kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 53500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 53500000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": "2022-02-17"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Xator Corp., Reston, Virginia, was awarded an $8,900,000 firm-fixed-price contract to provide individual terrorism awareness courses. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 22, 2027. U.S. Army Corps of Engineer Humphreys Engineer Center Support Activity, Alexandria, Virginia, is the contracting activity (W912HQ-22-D-0006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912HQ22D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-02-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineer Humphreys Engineer Center Support Activity, Alexandria, Virginia",
+          "code": "W912HQ-22-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Xator Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "W912HQ-22-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Individual terrorism awareness courses",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Butt Construction Company Inc.,* Dayton, Ohio, was awarded an $8,774,200 firm-fixed-price contract for design-bid-build renovation at Wright-Patterson Air Force Base. Bids were solicited via the internet with five received. Work will be performed at Wright-Patterson AFB, Ohio, with an estimated completion date of Sept. 11, 2023. Fiscal 2022 operation and maintenance, defense-wide funds in the amount of $8,774,200 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-22-F-0065).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912QR22F0065"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8774200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8774200.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, defense-wide funds in the amount of $8,774,200 were obligated at the time of the award",
+        "completion_date": "2023-09-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-22-F-0065"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Butt Construction Company Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "W912QR-22-F-0065",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-bid-build renovation at Wright-Patterson Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8774200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8774200,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with five received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ICF Incorporated LLC, Fairfax, Virginia, was awarded an $8,430,904 modification (P00006) to contract W911QY-21-C-0050 to support fielded equipment, including tents, rigid wall shelters, environmental control units, heaters, camouflage net systems and ariel delivery systems. Work will be performed in Fairfax, Virginia, with an estimated completion date of Aug. 31, 2022. Fiscal 2023 other procurement, Army funds in the amount of $2,804,844 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W911QY21C0050"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 8430904.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2804844.0,
+        "funding_text": "Fiscal 2023 other procurement, Army funds in the amount of $2,804,844 were obligated at the time of the award",
+        "completion_date": "2022-08-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "ICF Incorporated LLC",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W911QY-21-C-0050",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Support for fielded equipment including tents, rigid wall shelters, environmental control units, heaters, camouflage net systems and aerial delivery systems",
+        "base_contract_number": "W911QY-21-C-0050",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 8430904,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2804844,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $42,134,921 firm-fixed-price modification (P00014) to a previously awarded indefinite-delivery/indefinite-quantity contract (N0001919D0015). This modification exercises an option to procure ancillary mission equipment in support of F-35 Joint Strike Fighter Lot 16 production aircraft for the Navy, Marine Corps, Air Force, Foreign Military Sales customers, and non-U.S. Department of Defense participants. Work will be performed in Fort Worth, Texas, and is expected to be completed in December 2024. No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0015"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 42134921.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001919D0015",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Ancillary mission equipment for F-35 Lot 16 production aircraft (option exercise)",
+        "base_contract_number": "N0001919D0015",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 42134921,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Systems, Hunt Valley, Maryland, is awarded a $41,699,951 cost-plus-fixed-fee and cost-only modification to previously awarded contract N00024-14-C-6322 for engineering and technical support, incidental materials and travel for the Unmanned Influence Sweep System (UISS) Unmanned Surface Vehicle (USV) program. Work will be performed in Hunt Valley, Maryland (70%); and Slidell, Louisiana (30%), and is expected to be completed by April 2023. Fiscal 2022 other procurement (Navy) funds in the amount of $6,467,712 (66%); fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $2,848,058 (29%); and fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $444,957 (5%) will be obligated at time of award, of which $444,957 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C6322"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 41699951.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9760727.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) funds in the amount of $6,467,712 (66%); fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $2,848,058 (29%); and fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $444,957 (5%) will be obligated at time of award, of which $444,957 will expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Textron Systems",
+            "location": "Hunt Valley, Maryland",
+            "contract_number": "N00024-14-C-6322",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and cost-only",
+        "description": "Engineering and technical support for the Unmanned Influence Sweep System (UISS) Unmanned Surface Vehicle (USV) program",
+        "base_contract_number": "N00024-14-C-6322",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41699951,
+        "cumulative_value_usd": null,
+        "obligated_usd": 41699951,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sikorsky, a Lockheed Martin Company, Stratford, Connecticut, is awarded a $37,691,897 modification (P00002) to a firm-fixed-price order (N0001921F0709) against a previously issued basic ordering agreement (N0001919G0029). This modification adds scope to procure 1,026 various spare parts for the CH-53K low rate initial production configuration aircraft. Work will be performed in Los Angeles, California (52.15%); Stratford, Connecticut (31.56%); Quebec, Canada (4.15%); Berlin, Connecticut (2.28%); St. Louis, Missouri (1.29%); and various locations within the continental U.S. (8.57%), and is expected to be completed in December 2026. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $37,691,897 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001921F0709",
+          "N0001919G0029"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 37691897.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37691897.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $37,691,897 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Sikorsky, a Lockheed Martin Company",
+            "location": "Stratford, Connecticut",
+            "contract_number": "N0001921F0709",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Spare parts for the CH-53K low rate initial production configuration aircraft",
+        "base_contract_number": "N0001919G0029",
+        "order_number": "N0001921F0709",
+        "modification_number": "P00002",
+        "value_usd": 37691897,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37691897,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Syracuse, New York, is awarded a $15,067,063 firm-fixed-price modification to the previously awarded delivery order (N00024-21-F-6206) under indefinite-delivery/indefinite-quantity contract N00024-19-D-6200 to exercise options for the procurement of submarine modernization kits, equipment, and installation. Work will be performed in Syracuse, New York and is expected to be completed by October 2024. Fiscal 2022 other procurement (Navy) in the amount of $15,067,063 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0002421F6206",
+          "N0002419D6200"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15067063.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15067063.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) in the amount of $15,067,063 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-10",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-21-F-6206",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Submarine modernization kits, equipment, and installation (option exercise)",
+        "base_contract_number": "N00024-19-D-6200",
+        "order_number": "N00024-21-F-6206",
+        "modification_number": null,
+        "value_usd": 15067063,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15067063,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Progeny Systems Corporation (PSC),* Manassas, Virginia, is awarded a $10,179,326 cost-plus-fixed-fee modification to previously awarded contract N00024-19-C-6115 to exercise options for engineering services in support of information assurance assessment and authorization. Work will be performed in Manassas, Virginia, and is expected to be completed by May 2023. Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $363,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington D.C., is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C6115"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10179326.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 363000.0,
+        "funding_text": "Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $363,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Progeny Systems Corporation (PSC)",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-19-C-6115",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering services in support of information assurance assessment and authorization (option exercise)",
+        "base_contract_number": "N00024-19-C-6115",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10179326,
+        "cumulative_value_usd": null,
+        "obligated_usd": 363000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "WSM Pacific SIOP JV, Honolulu, Hawaii, is awarded an $8,095,048 firm-fixed-price task order (N4425522F4035) to contract N62742-21-D-0001 for architect-engineer initial services for the multi-mission dry dock at Puget Sound Naval Shipyard, Washington. The work to be performed provides for engineering services to support the future design of the multi-mission dry dock, but is not limited to, geotechnical investigation, topographical survey, and dredge material characterization. Work will be performed in Bremerton, Washington, and is expected to be completed by September 2023. Fiscal 2022 military construction, planning, and design (Navy) contract funds in the amount of $8,095,048 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Facilities Engineering Systems Command Northwest, Silverdale, Washington, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N4425522F4035",
+          "N6274221D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8095048.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8095048.0,
+        "funding_text": "Fiscal 2022 military construction, planning, and design (Navy) contract funds in the amount of $8,095,048 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-09",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Northwest, Silverdale, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "WSM Pacific SIOP JV",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62742-21-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Architect-engineer initial services for the multi-mission dry dock at Puget Sound Naval Shipyard, Washington",
+        "base_contract_number": "N62742-21-D-0001",
+        "order_number": "N4425522F4035",
+        "modification_number": null,
+        "value_usd": 8095048,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8095048,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Aero-Tel Wire Harness Corp.,** Orlando, Florida (SPE7LX-22-D-0078); Brighton Cromwell,* Randolph, New Jersey (SPE7LX-22-D-0077); and Oshkosh Defense LLC, Oshkosh, Wisconsin (SPE7LX-22-D-0076), are sharing an estimated $25,198,119 firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE7LX-21-R-0071 for Joint Light Tactical Vehicle parts. This was a competitive acquisition with four responses received. These are three-year base contracts with two one-year option periods. Locations of performance are Florida, New Jersey and Wisconsin, with a Feb. 17, 2025, ordering period end date. Using military services are Army, Navy and Marine Corps. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX22D0078",
+          "SPE7LX22D0077",
+          "SPE7LX22D0076",
+          "SPE7LX21R0071"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25198119.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          },
+          {
+            "marker": "**",
+            "meaning": "Small business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Aero-Tel Wire Harness Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "SPE7LX-22-D-0078",
+            "markers": "**"
+          },
+          {
+            "name": "Brighton Cromwell",
+            "location": "Randolph, New Jersey",
+            "contract_number": "SPE7LX-22-D-0077",
+            "markers": "*"
+          },
+          {
+            "name": "Oshkosh Defense LLC",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "SPE7LX-22-D-0076",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Joint Light Tactical Vehicle parts, shared contract under solicitation SPE7LX-21-R-0071",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25198119,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Legacy Aircraft Services Inc.,* Simi Valley, California, has been awarded a maximum $20,500,091 firm-fixed-price, indefinite-quantity contract for A-10 and F-16 aircraft wiring harnesses. This was a competitive acquisition with four responses received. This is a three-year contract with no option periods. Location of performance is California, with a Feb. 8, 2025, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4A6-22-D-0069).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A622D0069"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20500091.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": "SPE4A6-22-D-0069"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Legacy Aircraft Services Inc.",
+            "location": "Simi Valley, California",
+            "contract_number": "SPE4A6-22-D-0069",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-quantity",
+        "description": "A-10 and F-16 aircraft wiring harnesses",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20500091,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Blind Industries and Services of Maryland,*** Baltimore, Maryland, has been awarded a maximum $9,022,500 modification (P00003) exercising the first one-year option period of a one-year base contract (SPE1C1-21-D-B107) with four one-year option periods for wind cold weather jackets. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is Maryland, with a Feb. 25, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121DB107"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 9022500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "***",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Blind Industries and Services of Maryland",
+            "location": "Baltimore, Maryland",
+            "contract_number": "SPE1C1-21-D-B107",
+            "markers": "***"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Wind cold weather jackets; first one-year option period exercise",
+        "base_contract_number": "SPE1C1-21-D-B107",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 9022500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-02-18.html"
+  "source": "file:2022-02-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:23:52Z"
+  }
 }

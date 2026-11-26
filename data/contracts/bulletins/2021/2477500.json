@@ -11,21 +11,151 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, has been awarded a $2,124,531,149 modification (P00232) to contract FA8625-11-C-6600 for Lot 7 production KC-46 aircraft, subscriptions and licenses and G081 flat file. The modification provides for the exercise of an option for an additional quantity of 15 KC-46 aircraft, data, subscriptions and licenses, and G081 flat file being produced under the basic contract. Work will be performed in Seattle, Washington, and is expected to be completed May 31, 2024. Fiscal 2021 aircraft procurement funds in the full amount are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6600"
+        ],
+        "modification_numbers": [
+          "P00232"
+        ],
+        "is_modification": true,
+        "value_usd": 2124531149.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2021 aircraft procurement funds in the full amount are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "FA8625-11-C-6600",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Lot 7 production of 15 KC-46 aircraft, subscriptions and licenses, and G081 flat file (exercise of option)",
+        "base_contract_number": "FA8625-11-C-6600",
+        "order_number": null,
+        "modification_number": "P00232",
+        "value_usd": 2124531149,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2124531149,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Jan. 15, 2021, for Mile Two LLC, Dayton, Ohio, for $14,788,874, was listed with an incorrect contract number. The correct contract number is FA8650-21-C-6271.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865021C6271"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14788874.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Mile Two LLC",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-21-C-6271",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Jan. 15, 2021 announcement of $14,788,874 award to Mile Two LLC; corrected contract number",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14788874,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Detyens Shipyard Inc., Charleston, South Carolina, is awarded a $19,150,225 firm-fixed-price contract for a 76-calendar day shipyard availability. The work to be performed under this contract provides regular overhaul availability and dry-docking services for the fleet replenishment oiler USNS Laramie (T-AO 203). The contract also contains six unexercised options, which if exercised, would increase cumulative contract value to $19,841,567. Work will be performed in Charleston, South Carolina, and is expected to be completed by June 4, 2021. Fiscal 2021 working capital contract funds (Navy) in the amount of $19,150,225 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the beta.SAM.gov website, with two proposals received. The Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-21-C-4001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N3220521C4001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19150225.0,
+        "cumulative_value_usd": 19841567.0,
+        "obligated_usd": 19150225.0,
+        "funding_text": "Fiscal 2021 working capital contract funds (Navy) in the amount of $19,150,225 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-06-04",
+        "contracting_activity": {
+          "name": "The Military Sealift Command, Norfolk, Virginia",
+          "code": "N32205-21-C-4001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Detyens Shipyard Inc.",
+            "location": "Charleston, South Carolina",
+            "contract_number": "N32205-21-C-4001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "76-calendar day dry-docking and regular overhaul availability for USNS Laramie (T-AO 203)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19150225,
+        "cumulative_value_usd": 19841567,
+        "obligated_usd": 19150225,
+        "fms_countries": [],
+        "competition": "competitive, beta.SAM.gov, 2 proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:44Z",
-  "source": "file:2021-01-20.html"
+  "source": "file:2021-01-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:11:10Z"
+  }
 }

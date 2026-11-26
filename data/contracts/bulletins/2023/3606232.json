@@ -11,69 +11,619 @@
       "agency": "SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, is being awarded a single award, firm-fixed-price, multi-year contract (H92408-24-C-6972) in the amount of $321,266,052 for the continued production and delivery of Silent Knight Radar systems and initial spare components in support of Special Operations Command (USSOCOM). The work will be performed primarily at contractor locations in McKinney, Texas; and Forest, Mississippi, and is expected to be completed by Dec. 31, 2028. Foreign Military Sales funding of $27,500,000 will be used. Solicitation for Silent Knight Radars was issued sole-source to Raytheon Co. under authority of 10 U.S. Code 2304(c)(1), as implemented in Federal Acquisition Regulation 6.302-1 and detailed in approved Justification and Analysis 22-2147. USSOCOM, MacDill Air Force Base, Florida, is the contracting activity. (Awarded Dec. 1, 2023)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "H9240824C6972"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 321266052.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-31",
+        "contracting_activity": {
+          "name": "USSOCOM, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "H92408-24-C-6972",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multi-year contract",
+        "description": "Continued production and delivery of Silent Knight Radar systems and initial spare components for USSOCOM",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 321266052,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1); FAR 6.302-1; J&A 22-2147)",
+        "award_date": "2023-12-01"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tyonek Worldwide Services,* Madison, Alabama (W58RGZ-24-D-0004); Vali Inc.,* Huntsville, Alabama (W58RGZ-24-D-0005); and Yulista Support Services LLC,* Huntsville, Alabama (W58RGZ-24-D-0006), will compete for each order of the $249,955,801 hybrid (cost-plus-fixed-fee, firm-fixed-price) contract for logistics facility management support services. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 3, 2028. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ24D0004",
+          "W58RGZ24D0005",
+          "W58RGZ24D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249955801.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-03",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Tyonek Worldwide Services",
+            "location": "Madison, Alabama",
+            "contract_number": "W58RGZ-24-D-0004",
+            "markers": "*"
+          },
+          {
+            "name": "Vali Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W58RGZ-24-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "Yulista Support Services LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W58RGZ-24-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "hybrid (cost-plus-fixed-fee, firm-fixed-price) contract",
+        "description": "Logistics facility management support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249955801,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, 3 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Red River Science & Technology LLC,* Lawton, Oklahoma, was awarded a $118,869,095 cost-plus-fixed-fee contract for supply, maintenance, and transportation support services. Bids were solicited via the internet with 12 received. Work will be performed at Fort Campbell, Kentucky, with an estimated completion date of June 12, 2029. Fiscal 2023 operation and maintenance, Army funds in the amount of $118,869,095 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-24-F-0031).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W519TC24F0031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 118869095.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 118869095.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Army funds in the amount of $118,869,095 were obligated at the time of the award",
+        "completion_date": "2029-06-12",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-24-F-0031"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Red River Science & Technology LLC",
+            "location": "Lawton, Oklahoma",
+            "contract_number": "W519TC-24-F-0031",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Supply, maintenance, and transportation support services at Fort Campbell, Kentucky",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 118869095,
+        "cumulative_value_usd": null,
+        "obligated_usd": 118869095,
+        "fms_countries": [],
+        "competition": "solicited via internet, 12 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "United Medevac Solutions Inc.,* Georgetown, Texas, was awarded a $19,081,200 firm-fixed-price contract for patient transport services. Bids were solicited via the internet with seven received. Work will be performed Joint Base San Antonio, Texas, with an estimated completion date of Dec. 14, 2028. Fiscal 2024, 2025, 2026, 2027 and 2028 defense health program funds in the amount of $19,081,200 were obligated at the time of the award. Army Health Contracting Activity, San Antonio, Texas, is the contracting activity (W81K00-24-C-0002).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W81K0024C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19081200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19081200.0,
+        "funding_text": "Fiscal 2024, 2025, 2026, 2027 and 2028 defense health program funds in the amount of $19,081,200 were obligated at the time of the award",
+        "completion_date": "2028-12-14",
+        "contracting_activity": {
+          "name": "Army Health Contracting Activity, San Antonio, Texas",
+          "code": "W81K00-24-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "United Medevac Solutions Inc.",
+            "location": "Georgetown, Texas",
+            "contract_number": "W81K00-24-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Patient transport services at Joint Base San Antonio, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19081200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19081200,
+        "fms_countries": [],
+        "competition": "solicited via internet, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aero Engineering Support Group, Kissimmee, Florida, was awarded a $16,125,718 firm-fixed-price contract to overhaul the Blackhawk left-hand stabilator. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 3, 2028. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-24-D-0011).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ24D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16125718.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-03",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-24-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Aero Engineering Support Group",
+            "location": "Kissimmee, Florida",
+            "contract_number": "W58RGZ-24-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Overhaul of the Blackhawk left-hand stabilator",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16125718,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, 3 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Total Computer Solutions Inc.,* Burke, Virginia, was awarded a $10,642,181 modification (P00004) to contract W31P4Q-23-F-D001 for programmatic support services for the Utility Helicopters Project Office. Work will be performed in Burke, Virginia, with an estimated completion date of Sept. 30, 2024. Fiscal 2023 other procurement, Army funds; fiscal 2024 operation and maintenance, Army funds; fiscal 2023 and 2024 Foreign Military Sales (Albania, Croatia, Jordan, Latvia, Lithuania, Mexico, Slovakia, Slovenia, Sweden, Taiwan, Thailand, and United Arab Emirates) funds; and fiscal 2023 research, development, test, and evaluation, Army funds in the amount of $10,642,181, were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23FD001"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 10642181.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10642181.0,
+        "funding_text": "Fiscal 2023 other procurement, Army funds; fiscal 2024 operation and maintenance, Army funds; fiscal 2023 and 2024 Foreign Military Sales (Albania, Croatia, Jordan, Latvia, Lithuania, Mexico, Slovakia, Slovenia, Sweden, Taiwan, Thailand, and United Arab Emirates) funds; and fiscal 2023 research, development, test, and evaluation, Army funds in the amount of $10,642,181, were obligated at the time of the award",
+        "completion_date": "2024-09-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Albania",
+          "Croatia",
+          "Jordan",
+          "Latvia",
+          "Lithuania",
+          "Mexico",
+          "Slovakia",
+          "Slovenia",
+          "Sweden",
+          "Taiwan",
+          "Thailand",
+          "United Arab Emirates"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Total Computer Solutions Inc.",
+            "location": "Burke, Virginia",
+            "contract_number": "W31P4Q-23-F-D001",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Programmatic support services for the Utility Helicopters Project Office",
+        "base_contract_number": "W31P4Q-23-F-D001",
+        "order_number": null,
+        "modification_number": "P00004",
+        "modification_number_placeholder": null,
+        "value_usd": 10642181,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10642181,
+        "fms_countries": [
+          "Albania",
+          "Croatia",
+          "Jordan",
+          "Latvia",
+          "Lithuania",
+          "Mexico",
+          "Slovakia",
+          "Slovenia",
+          "Sweden",
+          "Taiwan",
+          "Thailand",
+          "United Arab Emirates"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Kratos Unmanned Aerial Systems Inc., Sacramento, California, is awarded a $22,913,358 modification (P00006) to a previously awarded cost-plus-fixed-fee contract (N0042123C0010). This modification adds scope to provide continued non-recurring engineering in support for the XQ-58A Unmanned Aerial Systems mission systems and subsystems integration for the Marine Corps. Additionally, this modification provides for flight test and demonstration events, associated spares, materials, and repairs. Work will be performed in Sacramento, California (75%); and Oklahoma City, Oklahoma (25%), and is expected to be completed in September 2024. Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $22,913,358 will be obligated at the time of award, all of which will expire at the end of the current fiscal year. Naval Air Warfare Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0042123C0010"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 22913358.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22913358.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $22,913,358 will be obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Kratos Unmanned Aerial Systems Inc.",
+            "location": "Sacramento, California",
+            "contract_number": "N0042123C0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Continued non-recurring engineering for XQ-58A Unmanned Aerial Systems mission systems integration for the Marine Corps, plus flight test and demonstration events",
+        "base_contract_number": "N0042123C0010",
+        "order_number": null,
+        "modification_number": "P00006",
+        "modification_number_placeholder": null,
+        "value_usd": 22913358,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22913358,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Saab Inc., Syracuse, New York, is awarded a $15,877,254 firm-fixed-price contract, for the construction of underwater unmanned vehicles and associated storage containers, training naval mines, spare parts, training documentation, training and transportation. This contract involves Foreign Military Sales to the State of Kuwait. Work will be performed in Cranston, Rhode Island (75%); and Syracuse, New York (25%), and is expected to be completed by September 2025. Foreign Military Sales funds in the amount of $15,877,254 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(4). Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-24-C-2204).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C2204"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15877254.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15877254.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $15,877,254 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-24-C-2204"
+        },
+        "fms": true,
+        "fms_countries": [
+          "State of Kuwait"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Saab Inc.",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-24-C-2204",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of underwater unmanned vehicles and associated storage containers, training naval mines, spare parts, training documentation, training and transportation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15877254,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15877254,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": "not competitively procured (10 U.S.C. 3204(a)(4))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hodges Transportation Inc.,* Silver Springs, Nevada, is awarded a $13,578,400 cost-plus-fixed-fee contract for the Next Generation Medium Tactical Truck Technology Demonstrator. The work to be performed provides for the consideration of advanced technologies in the areas of propulsion, suspension and modularity. Work will be performed in Silver Springs, Nevada, and is expected to be completed in December 2025. The total cumulative value, including a 24-month base period with no option periods, is $13,578,400. Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $5,478,845 are obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured under N00014-23-S-B001 entitled “Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology.” Since proposals are received throughout the year under the Long-Range BAA, the number of proposals received in response to the solicitation is unknown. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N00014-24-C-1316).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001423SB001",
+          "N0001424C1316"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13578400.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5478845.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $5,478,845 are obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-12",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": "N00014-24-C-1316"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Hodges Transportation Inc.",
+            "location": "Silver Springs, Nevada",
+            "contract_number": "N00014-24-C-1316",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Next Generation Medium Tactical Truck Technology Demonstrator",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13578400,
+        "cumulative_value_usd": 13578400,
+        "obligated_usd": 5478845,
+        "fms_countries": [],
+        "competition": "competitive, Long Range BAA N00014-23-S-B001",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is awarded a $11,504,936 definitized contract action under previously awarded contract N00024-19-C-2125 to provide Rotatable Pool Material. Work will be performed in Groton, Connecticut, and is expected to be completed by Dec. 31, 2028. Fiscal 2023 other procurement (Navy) funds in the amount of $11,504,936 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2125"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11504936.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11504936.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $11,504,936 (100%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12-31",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-19-C-2125",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "definitized contract action",
+        "description": "Rotatable Pool Material",
+        "base_contract_number": "N00024-19-C-2125",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11504936,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11504936,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "SecuriGence LLC,* Leesburg, Virginia, has been awarded a $9,433,494 modification (P00025) to previously awarded task order HR001121F0006 for information technology multi-network support services. The modification brings the total cumulative face value of the task order to $284,783,750 from $275,350,255. Work will be performed in Arlington, Virginia, with an expected completion date of June 2024. No funds are being obligated at time of award. Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HR001121F0006"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 9433494.0,
+        "cumulative_value_usd": 284783750.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "SecuriGence LLC",
+            "location": "Leesburg, Virginia",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology multi-network support services (task order)",
+        "base_contract_number": "HR001121F0006",
+        "order_number": "HR001121F0006",
+        "modification_number": "P00025",
+        "value_usd": 9433494,
+        "cumulative_value_usd": 284783750,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2023-12-04.html"
+  "source": "file:2023-12-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:06:29Z"
+  }
 }

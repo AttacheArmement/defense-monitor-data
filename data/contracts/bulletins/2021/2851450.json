@@ -12,81 +12,655 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pfizer Inc., New York, New York, was awarded a $1,400,000,001 modification (P00003) to contract W58P05-21-C-0002 for an additional 200 million doses of Pfizer's COVID-19 vaccine for international donation. Work will be performed in New York, New York, with an estimated completion date of June 30, 2022. Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $1,400,000,001 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity. (Awarded Nov. 19, 2021)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58P0521C0002"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 1400000001.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1400000001.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $1,400,000,001 were obligated at the time of the award",
+        "completion_date": "2022-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pfizer Inc.",
+            "location": "New York, New York",
+            "contract_number": "W58P05-21-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Additional 200 million doses of Pfizer COVID-19 vaccine for international donation",
+        "base_contract_number": "W58P05-21-C-0002",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 1400000001,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1400000001,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-11-19"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "MEB General Contractors Inc., Chesapeake, Virginia, was awarded a $28,013,000 firm-fixed-price contract for fuel facility replacement. Work will be performed in Fort Hood, Texas, and is expected to be completed by Feb. 7, 2023. Bids were solicited via the internet with five received. Fiscal 2018 and 2021 military construction, Army; and 2022 military construction, Defense funds in the amount of $28,013,000 were obligated at the time of award. The U.S. Army Corps of Engineers, Fort Worth, Texas, is the contracting activity (W9126G-22-C-0003).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9126G22C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28013000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28013000.0,
+        "funding_text": "Fiscal 2018 and 2021 military construction, Army; and 2022 military construction, Defense funds in the amount of $28,013,000 were obligated at the time of award",
+        "completion_date": "2023-02-07",
+        "contracting_activity": {
+          "name": "The U.S. Army Corps of Engineers, Fort Worth, Texas",
+          "code": "W9126G-22-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "MEB General Contractors Inc.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "W9126G-22-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Fuel facility replacement at Fort Hood, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28013000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28013000,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Radiance Technologies Inc.,* Huntsville, Alabama, was awarded a $25,808,362 cost-plus-fixed-fee contract for directed energy common test support. Bids were solicited via the internet with three received. Work will be performed in Huntsville and Redstone Arsenal, Alabama, with an estimated completion date of Nov. 21, 2026. Fiscal 2021 research, development, test and evaluation, Army funds in the amount of $25,808,362 were obligated at the time of the award. U.S. Army Rapid Capabilities and Critical Technologies Office, Redstone Arsenal, Alabama, is the contracting activity (W50RAJ-22-F-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W50RAJ22F0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25808362.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25808362.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation, Army funds in the amount of $25,808,362 were obligated at the time of the award",
+        "completion_date": "2026-11-21",
+        "contracting_activity": {
+          "name": "U.S. Army Rapid Capabilities and Critical Technologies Office, Redstone Arsenal, Alabama",
+          "code": "W50RAJ-22-F-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Radiance Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W50RAJ-22-F-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Directed energy common test support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25808362,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25808362,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dyncorp International LLC, Fort Worth, Texas, was awarded a $8,529,070 modification (P00182) to contract W58RGZ-19-C-0025 for worldwide aviation maintenance. Work will be performed in Fort Campbell and Fort Knox, Kentucky; Fort Drum, New York; Sato Cano, Honduras; Germany; and Thailand, with an estimated completion date of Nov. 30, 2022. Fiscal 2022 operation and maintenance, Army; and Foreign Military Sales funds in the amount of $8,529,070 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19C0025"
+        ],
+        "modification_numbers": [
+          "P00182"
+        ],
+        "is_modification": true,
+        "value_usd": 8529070.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8529070.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army; and Foreign Military Sales funds in the amount of $8,529,070 were obligated at the time of the award",
+        "completion_date": "2022-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Dyncorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W58RGZ-19-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Worldwide aviation maintenance",
+        "base_contract_number": "W58RGZ-19-C-0025",
+        "order_number": null,
+        "modification_number": "P00182",
+        "value_usd": 8529070,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8529070,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The Nov. 19, 2021, contract announcement for Dynetics Inc., Huntsville, Alabama (W50RAJ-22-9-0001), for $478,598,908 incorrectly stated that all funds would be obligated at time of award. The funds will be obligated incrementally by Other Transaction Authority modifications.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W50RAJ2290001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 478598908.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 478598908.0,
+        "funding_text": "CORRECTION: The Nov. 19, 2021, contract announcement for Dynetics Inc., Huntsville, Alabama (W50RAJ-22-9-0001), for $478,598,908 incorrectly stated that all funds would be obligated at time of award The funds will be obligated incrementally by Other Transaction Authority modifications.",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Dynetics Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W50RAJ-22-9-0001",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Nov. 19, 2021 announcement of $478,598,908 award: funds to be obligated incrementally by Other Transaction Authority modifications, not all at award",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 478598908,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-11-19"
+      }
     },
     {
       "agency": "DEFENSE INTELLIGENCE AGENCY",
       "kind": "announcement",
       "text": "General Dynamics Information Technology Inc., Falls Church, Virginia, was awarded a $829,235,847 fixed-price, award-fee task order to provide all information technology help desk services for the Defense Intelligence Agency (DIA). Work will be performed at Joint Base Anacostia-Bolling in Washington, D.C., and other DIA sites, with an expected completion date of Jan. 27, 2032. Fiscal 2022 operations and management funds in the amount of $19,962 are being incrementally funded at the time of award for base-year labor. This contract was a competitive acquisition, and five offers were received. The Virginia Contracting Activity, Washington, D.C., is the contracting activity (HHM402-21-D-0016/0002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "HHM40221D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 829235847.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2032-01-27",
+        "contracting_activity": {
+          "name": "The Virginia Contracting Activity, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Falls Church, Virginia",
+            "contract_number": "HHM402-21-D-0016/0002",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "fixed-price, award-fee task order",
+        "description": "All information technology help desk services for the Defense Intelligence Agency",
+        "base_contract_number": "HHM402-21-D-0016",
+        "order_number": "0002",
+        "modification_number": null,
+        "value_usd": 829235847,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19962,
+        "fms_countries": [],
+        "competition": "Competitive, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin, Rotary and Mission Systems, Moorestown, New Jersey, is awarded an $114,606,157 cost-plus-incentive-fee, cost-plus-fixed-fee, and cost-only modification to previously-awarded contract N00024-13-C-5116 to exercise an option for AEGIS Combat System Engineering Agent efforts for the design, development, integration, test and delivery of Advanced Capability Build 20. Work will be performed in Moorestown, New Jersey, and is expected to be completed by December 2022. Fiscal 2021 other procurement (Navy) funds in the amount of $430,000 (53%); and fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $382,216 (47%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C5116"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 114606157.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 812216.0,
+        "funding_text": "Fiscal 2021 other procurement (Navy) funds in the amount of $430,000 (53%); and fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $382,216 (47%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin, Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee, cost-plus-fixed-fee, and cost-only",
+        "description": "Option exercise for AEGIS Combat System Engineering Agent efforts, Advanced Capability Build 20",
+        "base_contract_number": "N00024-13-C-5116",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 114606157,
+        "cumulative_value_usd": null,
+        "obligated_usd": 812216,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technologies, Portsmouth, Rhode Island, is awarded a $27,596,535 firm-fixed-price modification to previously awarded contract N00024-16-C-6423 to exercise options for the production of the MK54 lightweight torpedo MOD 0 and MOD 1 common part kits and spare torpedo components. This contract combines purchases for the U.S. government (67%); and the governments of Spain and Brazil (33%) under the Foreign Military Sales (FMS) program. Work will be performed in Portsmouth, Rhode Island; and Keyport, Washington (5%), and is expected to be completed by May 2025. Fiscal 2022 weapons procurement (Navy) funds in the amount of $18,234,431 (66%); FMS Spain and FMS Brazil funds in the amount of $9,015,184 (33%), and fiscal 2021 weapons procurement (Navy) funds in the amount of $346,920 (1%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C6423"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 27596535.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27596535.0,
+        "funding_text": "Fiscal 2022 weapons procurement (Navy) funds in the amount of $18,234,431 (66%); FMS Spain and FMS Brazil funds in the amount of $9,015,184 (33%), and fiscal 2021 weapons procurement (Navy) funds in the amount of $346,920 (1%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-05",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Raytheon Technologies",
+            "location": "Portsmouth, Rhode Island",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for MK54 lightweight torpedo MOD 0 and MOD 1 common part kits and spare components; FMS for Spain and Brazil",
+        "base_contract_number": "N00024-16-C-6423",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27596535,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27596535,
+        "fms_countries": [
+          "Spain",
+          "Brazil"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, is awarded a $9,900,000 firm-fixed-price, cost-plus-fixed-fee modification (P00011) to a previously awarded contract (N0042118C0042). This modification exercises an option to provide for the flight management function application enterprise-wide license for all Navy, Marine Corps, and Navy led joint program aircraft. Work will be performed in Cedar Rapids, Iowa, and is expected to be completed in July 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $9,900,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0042118C0042"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9900000.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $9,900,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-07",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N0042118C0042",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Option exercise for flight management function application enterprise-wide license for Navy, Marine Corps, and Navy-led joint program aircraft",
+        "base_contract_number": "N0042118C0042",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9900000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Zapata Group Inc., Charlotte, North Carolina (FA4418-22-D-0007); and ADC Engineering Inc., Hanahan, South Carolina (FA4418-22-D-0006), were awarded a $19,000,000 multiple award, indefinite-delivery/indefinite-quantity contract for architect-engineer services. The contract provides for the development of master planning documents for construction and utility infrastructure, and to accomplish studies. Work will be performed at Joint Base Charleston, South Carolina, and is expected to be completed by May 21, 2027. This award is the result of a competitive acquisition in which 16 offers were received. The 628th Contracting Squadron, Joint Base Charleston, South Carolina, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA441822D0007",
+          "FA441822D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-05-21",
+        "contracting_activity": {
+          "name": "The 628th Contracting Squadron, Joint Base Charleston, South Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Zapata Group Inc.",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "FA4418-22-D-0007",
+            "markers": null
+          },
+          {
+            "name": "ADC Engineering Inc.",
+            "location": "Hanahan, South Carolina",
+            "contract_number": "FA4418-22-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award, indefinite-delivery/indefinite-quantity, architect-engineer services",
+        "description": "Master planning documents for construction and utility infrastructure, and studies at Joint Base Charleston",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, 16 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Blue Canyon Technologies Inc., Lafayette, Colorado, was awarded a $14,609,337 not-to-exceed, cost-plus-fixed-fee type contract for the Space Situational Awareness (SSA) Micro-Satellite Bus (AgileSAT) Program. This contract provides for the development and demonstration of a small satellite bus that can operate and maneuver effectively for up to three years in orbits beyond the geosynchronous equatorial orbit and has flexible support for a broad range of payloads. Work will be performed in Lafayette, Colorado, and is expected to be completed by Feb. 28, 2023. This award is the result of a competitive acquisition via the Small Business Innovative Research Program. Fiscal 2021 research and development funding in the amount of $1,600,000 is being obligated at the time of award. Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA8650-22-C-9211).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA865022C9211"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14609337.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1600000.0,
+        "funding_text": "Fiscal 2021 research and development funding in the amount of $1,600,000 is being obligated at the time of award",
+        "completion_date": "2023-02-28",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio",
+          "code": "FA8650-22-C-9211"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Blue Canyon Technologies Inc.",
+            "location": "Lafayette, Colorado",
+            "contract_number": "FA8650-22-C-9211",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "not-to-exceed cost-plus-fixed-fee",
+        "description": "Space Situational Awareness Micro-Satellite Bus (AgileSAT) Program development and demonstration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14609337,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1600000,
+        "fms_countries": [],
+        "competition": "Competitive, SBIR program",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Jo-Kell Inc.,** Chesapeake, Virginia, has been awarded a maximum $11,103,552 indefinite-quantity, firm-fixed-price long-term contract for UH-60A helicopter special purpose electrical cable assembly spare parts. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year contract with no option periods. Location of performance is Virginia, with a Nov. 29, 2026, performance completion date. Using military service is Army. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4A6-21-D-0036).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A621D0036"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11103552.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": "SPE4A6-21-D-0036"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Woman-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Jo-Kell Inc.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "SPE4A6-21-D-0036",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-quantity, firm-fixed-price long-term contract",
+        "description": "UH-60A helicopter special purpose electrical cable assembly spare parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11103552,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Defense Energy Syndicate LLC, Bronx, New York, has been awarded a maximum $9,803,682 fixed-price with economic-price-adjustment requirements contract for fuel system icing inhibitor. This was a competitive acquisition with six responses received. This is a 30-month contract with a 90-day carryover. Locations of performance are throughout Europe and the Middle East, with a June 30, 2024, performance completion date. Using customer is Defense Logistics Agency Energy. Type of appropriation is fiscal 2022 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE602-22-D-0751).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE60222D0751"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9803682.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE602-22-D-0751"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Defense Energy Syndicate LLC",
+            "location": "Bronx, New York",
+            "contract_number": "SPE602-22-D-0751",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, maximum (IDIQ-style indefinite quantity)",
+        "description": "Fuel system icing inhibitor supply for Defense Logistics Agency Energy, Europe and Middle East",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9803682,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 6 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:46Z",
-  "source": "file:2021-11-22.html"
+  "source": "file:2021-11-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:32:40Z"
+  }
 }

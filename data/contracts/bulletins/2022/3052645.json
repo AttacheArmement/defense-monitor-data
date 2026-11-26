@@ -11,45 +11,380 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Harper Construction Company Inc., San Diego, California, was awarded a $60,610,169 firm-fixed-price contract for construction of barracks for 600 soldiers. Bids were solicited via the internet with two received. Work will be performed at Fort Sill, Oklahoma, with an estimated completion date of June 3, 2022. Fiscal 2022 military construction, Army funds in the amount of $60,610,169 were obligated at the time of the award. U.S. Army Corps of Engineers, Tulsa, Oklahoma, is the contracting activity (W912BV-22-C-0013).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912BV22C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60610169.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 60610169.0,
+        "funding_text": "Fiscal 2022 military construction, Army funds in the amount of $60,610,169 were obligated at the time of the award",
+        "completion_date": "2022-06-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa, Oklahoma",
+          "code": "W912BV-22-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Harper Construction Company Inc.",
+            "location": "San Diego, California",
+            "contract_number": "W912BV-22-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of barracks for 600 soldiers at Fort Sill, Oklahoma",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60610169,
+        "cumulative_value_usd": null,
+        "obligated_usd": 60610169,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "American Classic Construction Inc., Chatsworth, California, was awarded an $8,732,021 firm-fixed-price contract for delivery of quarry materials to Fort McCoy, Wisconsin. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2027. U.S. Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-22-D-1004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911SA22D1004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8732021.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-22-D-1004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "American Classic Construction Inc.",
+            "location": "Chatsworth, California",
+            "contract_number": "W911SA-22-D-1004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Delivery of quarry materials to Fort McCoy, Wisconsin",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8732021,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet, seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Q.E.D. Systems Inc.,* Virginia Beach, Virginia, is awarded a $39,955,973 modification to a previously awarded contract (N00024-18-C-4312). The modification is for the execution planning efforts to support West Coast, East Coast and outside the contiguous U.S. maintenance and sustainment execution contracts for littoral combat ships. The exercise of this option will bring the cumulative value of this contract to $133,427,919. Work will be performed in San Diego, California (80%); and Virginia Beach, Virginia (20%), and is expected to be completed by June 2023. Fiscal 2022 operations and maintenance (Navy) funding in the amount of $4,590,291 (97%); and fiscal 2022 other procurement (Navy) in the amount of $157,445 (3%) will be obligated immediately after option exercise and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with one offer received. The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-18-C-4312).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C4312"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 39955973.0,
+        "cumulative_value_usd": 133427919.0,
+        "obligated_usd": 4747736.0,
+        "funding_text": "Fiscal 2022 operations and maintenance (Navy) funding in the amount of $4,590,291 (97%); and fiscal 2022 other procurement (Navy) in the amount of $157,445 (3%) will be obligated immediately after option exercise and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-18-C-4312"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Q.E.D. Systems Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N00024-18-C-4312",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Execution planning efforts supporting littoral combat ship maintenance and sustainment execution contracts (West Coast, East Coast, outside contiguous U.S.)",
+        "base_contract_number": "N00024-18-C-4312",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39955973,
+        "cumulative_value_usd": 133427919,
+        "obligated_usd": 4747736,
+        "fms_countries": [],
+        "competition": "Competitive via Federal Business Opportunities website, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Laurel Technologies Partnership, Johnstown, Pennsylvania, is awarded an $11,989,125 firm-fixed-price contract for production of Launch Control Unit (LCU) MK 235 Mod 17 and Mod 18 and associated components in support of the MK 41 Vertical Launch System (VLS). The LCUs are used to select and issue prelaunch and launch commands to selected missiles in the VLS. This contract includes options which, if exercised, would bring the cumulative value of this contract to $90,466,087. This contract combines purchases for the Navy (38%); and the governments of Spain (36%); Australia (10%); Republic of Korea (5%); Finland (5%); and Germany (4%) under the Foreign Military Sales program. Work will be performed in Johnstown, Pennsylvania, and is expected to be completed by July 2023. If all options are exercised, work will continue through May 2027. Fiscal 2022 Foreign Military Sales funds in the amount of $7,161,376 (60%); fiscal 2022 other procurement (Navy) funds in the amount of $3,585,571 (30%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $1,242,178 (10%) will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the System for Award Management website, with two offers received. The Naval Surface Warfare Center Port Hueneme Division, Port Hueneme, California, is the contracting activity (N6339422C0003).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6339422C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11989125.0,
+        "cumulative_value_usd": 90466087.0,
+        "obligated_usd": 11989125.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales funds in the amount of $7,161,376 (60%); fiscal 2022 other procurement (Navy) funds in the amount of $3,585,571 (30%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $1,242,178 (10%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-07",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Port Hueneme Division, Port Hueneme, California",
+          "code": "N6339422C0003"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Laurel Technologies Partnership",
+            "location": "Johnstown, Pennsylvania",
+            "contract_number": "N6339422C0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production of Launch Control Unit (LCU) MK 235 Mod 17 and Mod 18 and components for MK 41 Vertical Launch System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11989125,
+        "cumulative_value_usd": 90466087,
+        "obligated_usd": 11989125,
+        "fms_countries": [
+          "Spain",
+          "Australia",
+          "Republic of Korea",
+          "Finland",
+          "Germany"
+        ],
+        "competition": "Competitive via System for Award Management website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "L3 Aviation Products, Inc. – Military Displays (L3 Harris), Alpharetta, Georgia, has been awarded a $31,407,000 firm-fixed-price, indefinite-delivery requirements contract for flight display units. This was a limited competitive acquisition using justification 10 U.S. Code 2304 (c)(1) as stated in Federal Acquisition Regulation 19.502-2. This is a five-year contract with no option periods. The performance completion date is June 3, 2027. Using military service is Army. Type of appropriation is fiscal 2022 through 2027 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-22-D-0013). (Awarded June 2, 2022)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA122D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31407000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-22-D-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L3 Aviation Products, Inc. – Military Displays (L3 Harris)",
+            "location": "Alpharetta, Georgia",
+            "contract_number": "SPRRA1-22-D-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery requirements firm-fixed-price",
+        "description": "Flight display units (five-year contract, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31407000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Limited competitive acquisition, 10 U.S.C. 2304(c)(1)",
+        "award_date": "2022-06-02"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Georgia Tech Research Institute, Atlanta, Georgia, has been awarded a $14,657,508 cost-type contract for Defensive Avionics Systems Sustainment Studies. Work will be performed in Atlanta, Georgia, and is expected to be completed by June 2, 2025. Fiscal 2022 operations and maintenance funds are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8523-22-F-0035).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA852322F0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14657508.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds are being obligated at the time of award",
+        "completion_date": "2025-06-02",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8523-22-F-0035"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Georgia Tech Research Institute",
+            "location": "Atlanta, Georgia",
+            "contract_number": "FA8523-22-F-0035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-type",
+        "description": "Defensive Avionics Systems Sustainment Studies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14657508,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The contract announced May 31, 2022, to Assured Information Security Inc., Rome, New York (FA8750-22-D-1001); CNF Technologies Corp., San Antonio, Texas (FA8750-22-D-1002); Global Infotek Inc., Reston, Virginia (FA8750-22-D-1003); Invictus International Consulting LLC, Alexandria, Virginia (FA8750-22-D-1004); and Radiance Technologies Inc., Huntsville, Alabama (FA8750-22-D-1005), for technical documentation, technical reports, software and hardware, was actually awarded on June 3, 2022.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA875022D1001",
+          "FA875022D1002",
+          "FA875022D1003",
+          "FA875022D1004",
+          "FA875022D1005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Assured Information Security Inc.",
+            "location": "Rome, New York",
+            "contract_number": "FA8750-22-D-1001",
+            "markers": null
+          },
+          {
+            "name": "CNF Technologies Corp.",
+            "location": "San Antonio, Texas",
+            "contract_number": "FA8750-22-D-1002",
+            "markers": null
+          },
+          {
+            "name": "Global Infotek Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8750-22-D-1003",
+            "markers": null
+          },
+          {
+            "name": "Invictus International Consulting LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "FA8750-22-D-1004",
+            "markers": null
+          },
+          {
+            "name": "Radiance Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA8750-22-D-1005",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: technical documentation, technical reports, software and hardware contracts; actual award date June 3, 2022 (not May 31, 2022)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-06-03"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-06-03.html"
+  "source": "file:2022-06-03.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:12:17Z"
+  }
 }

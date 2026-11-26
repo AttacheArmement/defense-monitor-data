@@ -11,63 +11,563 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Marlborough, Massachusetts, was awarded a $1,809,613,484 fixed-price incentive (firm-target), firm-fixed-price, and cost-only modification to the previously awarded contract (N00024-22-C-5500) for hardware production of the AN/SPY-6(V) Family of Radars and associated hardware. This contract modification includes options which, if exercised, would bring the cumulative value of this contract to $3,393,637,335. Work will be performed in Andover, Massachusetts (30%); San Diego, California (10%); Scottsdale, Arizona (10%); Syracuse, New York (8%); Stafford Springs, Connecticut (6%); Sykesville, Maryland (4%); Tulsa, Oklahoma (3%); Indianapolis, Indiana (2%); Cerritos, California (2%); Chippewa Fall, Wisconsin (2%); Eua Claire, Wisconsin (2%); Riverside, California (2%); Portsmouth, Rhode Island (2%); Chantilly, Virginia (1%); Bloomfield, Connecticut (1%); and various locations across the U.S. each less than 1% (15%), and is expected to be completed by July 2031. If all options are exercised, work will continue through October 2031. Fiscal 2025 research, development, test and evaluation (DOD) funds in the amount of $847,295,998 (47%); fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $706,885,654 (39%); fiscal 2026 other procurement (Navy) funds in the amount of $204,616,885 (11%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $12,163,685 (<1%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $10,291,967 (<1%); fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $9,644,828 (<1%); fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $8,218,682 (<1%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $5,096,787 (<1%); fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $4,361,141 (<1%); fiscal 2019 shipbuilding and conversion (Navy) funds in the amount of $777,702 (<1%); fiscal 2016 shipbuilding and conversion (Navy) funds in the amount of $230,562 (<1%); and fiscal 2017 shipbuilding and conversion (Navy) funds in the amount of $29,593 (<1%), of which $12,163,685 will expire at the end of the year. This contract modification was procured under the statutory authority of 10 U.S. Code 3204(a)(1), only one responsible source and no other supplies or services will satisfy agency requirements. Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded July 15, 2026)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C5500"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 1809613484.0,
+        "cumulative_value_usd": 3393637335.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-07",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Marlborough, Massachusetts",
+            "contract_number": "N00024-22-C-5500",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target), firm-fixed-price, and cost-only modification",
+        "description": "Hardware production of the AN/SPY-6(V) Family of Radars and associated hardware",
+        "base_contract_number": "N00024-22-C-5500",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1809613484,
+        "cumulative_value_usd": 3393637335,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "only one responsible source (10 U.S.C. 3204(a)(1))",
+        "award_date": "2026-07-15"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments LP, Minneapolis, Minnesota, is awarded a $22,897,940 firm-fixed-price modification to previously awarded contract (N00024-25-C-5315) for MK 41 Vertical Launching System MK 29 canister and ancillary equipment production. This action combines purchases for the Navy (50%) and the government of Japan (50%) under the Foreign Military Sales (FMS) program. Work will be performed in Aberdeen, South Dakota (90%), and Minneapolis, Minnesota (10%), and is expected to be completed by September 2028. Fiscal 2026 defense-wide procurement funds in the amount of $11,448,970 (50%); and FMS (Japan) funds in the amount of $11,448,970 (50%) will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C5315"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22897940.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22897940.0,
+        "funding_text": "Fiscal 2026 defense-wide procurement funds in the amount of $11,448,970 (50%); and FMS (Japan) funds in the amount of $11,448,970 (50%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments LP",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": "N00024-25-C-5315",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "MK 41 Vertical Launching System MK 29 canister and ancillary equipment production (Navy and Japan FMS)",
+        "base_contract_number": "N00024-25-C-5315",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22897940,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22897940,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "National Institute of Building Sciences, Washington, D.C., is awarded $19,697,634 for a firm-fixed-price contract for industrialized construction criteria standards and design support. Work will be performed in Washington, D.C. and is expected to complete by July 2028. Fiscal 2024 and fiscal 2026 military construction (Navy) funds in the amount of $19,697,634 will be obligated at time of award, and funds will not expire at the end of the current fiscal year (N39430-26-C-2001). This contract procured as a sole source contract utilizing 10 U.S. Code 3204(a)(5). Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N3943026C2001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19697634.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19697634.0,
+        "funding_text": "Fiscal 2024 and fiscal 2026 military construction (Navy) funds in the amount of $19,697,634 will be obligated at time of award, and funds will not expire at the end of the current fiscal year (N39430-26-C-2001)",
+        "completion_date": "2028-07",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "National Institute of Building Sciences",
+            "location": "Washington, D.C.",
+            "contract_number": "N39430-26-C-2001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Industrialized construction criteria standards and design support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19697634,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19697634,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 3204(a)(5))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Waterman Transport Inc., Mobile, Alabama is awarded a $16,016,000 firm-fixed-price contract with pass-through elements (N3220526C1247) for a 64-day time charter of two, U.S. flag, self-sustaining roll-on/roll-off vessels per offer capable of carrying a minimum of 110,000 square feet of military cargo (wheeled vehicles, tracked vehicles, and breakbulk). This contract is for a 64-day period of performance, for each vessel, with no option period. Work will be performed between the U.S. East Coast, the U.S. West Coast, and the Far East region, and expected to be completed by October 2026. Working capital funds (Transportation) in the amount of $16,016,000 are obligated for fiscal 2026 and will expire at the end of the fiscal year. This contract was competitively procured with proposals solicited via the Government Point of Entry website and three proposals were received. Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3220526C1247"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16016000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16016000.0,
+        "funding_text": "Working capital funds (Transportation) in the amount of $16,016,000 are obligated for fiscal 2026 and will expire at the end of the fiscal year",
+        "completion_date": "2026-10",
+        "contracting_activity": {
+          "name": "Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Waterman Transport Inc.",
+            "location": "Mobile, Alabama",
+            "contract_number": "N3220526C1247",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price time charter with pass-through elements",
+        "description": "64-day time charter of two U.S. flag self-sustaining roll-on/roll-off vessels for military cargo",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16016000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16016000,
+        "fms_countries": [],
+        "competition": "competitive, Government Point of Entry website, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Integer Technologies LLC,* Columbia, South Carolina, is awarded a $9,769,318 option exercise contract modification (P00002) to a contract (N0001425C2204) for the \"Intelligent Autonomous Systems for Seabed Warfare\" effort. The modification provides continuing science and technology research into an operational decision-support tool for intelligent autonomous systems conducting seabed warfare and undersea missions. The tool consists of physics and data-based models, deployed at the edge, that allow for real-time processing of seabed warfare sensor datasets, monitoring of the evolving environmental conditions in an area of operation, and real-time adaptation of onboard data collection, data processing, and vehicle command parameters to maximize the likelihood of mission success. The tool has the potential to improve the intelligence and independence of autonomous systems employed on seabed warfare missions, to enable multi-domain seabed warfare missions, and allow for autonomous systems to operate for significantly longer with minimal human intervention. The project will develop and demonstrate the application of edge deployed modeling and simulation tools, combined with artificial intelligence and machine learning to real-time decision making for intelligent autonomous systems. This capability is foundational to the Navy's envisioned long-duration, forward deployments of autonomous systems, particularly underwater autonomous systems, for seabed warfare missions in contested maritime regions. Work will be performed in Columbia, South Carolina, and is expected to be completed in July 2029. The total cumulative value of this contract is $24,803,999, inclusive of base period ($4,377,498), Option One ($10,657,183), and Option Two ($9,769,318). The base is fully funded and Option One exercised. Option Two will be incrementally funded with an initial obligation of $6,389,978. Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $6,389,978 are obligated at time of award and will not expire at the end of the current fiscal year. The Office of Naval Research, Arlington, Virginia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001425C2204"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 9769318.0,
+        "cumulative_value_usd": 24803999.0,
+        "obligated_usd": 12779956.0,
+        "funding_text": "Option Two will be incrementally funded with an initial obligation of $6,389,978 Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $6,389,978 are obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-07",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Integer Technologies LLC",
+            "location": "Columbia, South Carolina",
+            "contract_number": "N0001425C2204",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Intelligent Autonomous Systems for Seabed Warfare science and technology research (Option Two)",
+        "base_contract_number": "N0001425C2204",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 9769318,
+        "cumulative_value_usd": 24803999,
+        "obligated_usd": 6389978,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Odyssey Systems Consulting Group Ltd., Wakefield, Massachusetts (FA2489-26-F-B008, $934,103,681); Aventis LLC, Huntsville, Alabama (FA2489-26-F-B007, $523,863,958) (FA2489-26-F-B005, $323,405,239); and Gauss Management Research and Engineering Inc., South Ogden, Utah (FA2489-26-F-B006, $115,855,859), have been awarded cost-plus-fixed-fee contracts for technical and management advisory services. This contract provides support for aerospace research, development, and test and evaluation activities. Work will be performed at, but not limited to, Arnold Air Force Base, Tennessee; Barksdale AFB, Louisiana; Beale AFB, California; Davis-Monthan AFB, Arizona; Duke Field, Florida; Edwards AFB, California; Eglin AFB, Florida; Gunter Annex, Alabama; Hanscom AFB, Massachusetts; Hickam AFB, Hawaii; Hill AFB, Utah; Holloman AFB, New Mexico; Hurlburt Field, Florida; Joint Base San Antonio-Lackland, Texas; Langley AFB, Virginia; March Air Reserve Base, California; McConnell AFB, Kansas; Melbourne, Florida; Nellis AFB, Nevada; Patrick AFB, Florida; Patrick Space Force Base, Florida; Peterson Space Force Base, Colorado; Robins AFB, Georgia; San Antonio, Texas; Schriever SFB, Colorado; Tinker AFB, Oklahoma; and Wright Patterson AFB, Ohio, and is expected to completed by Sept. 30, 2031. No funds are being obligated at the time of award. The Air Force Test Center, Eglin AFB, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA248926FB008",
+          "FA248926FB007",
+          "FA248926FB005",
+          "FA248926FB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 934103681.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2031-09-30",
+        "contracting_activity": {
+          "name": "The Air Force Test Center, Eglin AFB, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Odyssey Systems Consulting Group Ltd.",
+            "location": "Wakefield, Massachusetts",
+            "contract_number": "FA2489-26-F-B008",
+            "markers": null
+          },
+          {
+            "name": "Aventis LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA2489-26-F-B007",
+            "markers": null
+          },
+          {
+            "name": "Aventis LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA2489-26-F-B005",
+            "markers": null
+          },
+          {
+            "name": "Gauss Management Research and Engineering Inc.",
+            "location": "South Ogden, Utah",
+            "contract_number": "FA2489-26-F-B006",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Technical and management advisory services for aerospace research, development, test and evaluation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland, has been awarded a $199,268,833 cost-plus-fixed-fee contract for support on the Sentinel program. This contract provides research and development engineering services. Work will be performed at several locations throughout the U.S. and is expected to be completed by July 23, 2029. This contract was a sole source acquisition. Fiscal 2026 research, development, test and evaluation funds in the amount of $31,323,302 are being obligated at time of award. The Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity (FA8204-26-F-B008).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA820426FB008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 199268833.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31323302.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $31,323,302 are being obligated at time of award",
+        "completion_date": "2029-07-23",
+        "contracting_activity": {
+          "name": "The Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": "FA8204-26-F-B008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Johns Hopkins University Applied Physics Laboratory",
+            "location": "Laurel, Maryland",
+            "contract_number": "FA8204-26-F-B008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Research and development engineering services for the Sentinel program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 199268833,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31323302,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CNI Service Advantage JV LLC, Norman, Oklahoma, has been awarded a ceiling $99,000,000 indefinite-delivery/indefinite-quantity contract for the Rapid Development Integration Facility. This contract provides for aircraft and equipment related part development, materials, integration, development, prototyping, production, kitting, touch labor, manufacturing, quality assurance, engineering, aircraft modification, and test support. Work will be performed at Wright-Patterson Air Force Base, Ohio, and is expected to be completed by July 19, 2031. This contract was a competitive acquisition, and three offers were received. Fiscal 2025 aircraft procurement funds in the amount of $174,944 are being obligated at the time of award. The Air Force Lifecycle Management Center, Asymmetric Warfare Division, Wright-Patterson AFB, Ohio, is the contracting activity (FA8629-26-D-B005).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA862926DB005"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 174944.0,
+        "funding_text": "Fiscal 2025 aircraft procurement funds in the amount of $174,944 are being obligated at the time of award",
+        "completion_date": "2031-07-19",
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Asymmetric Warfare Division, Wright-Patterson AFB, Ohio",
+          "code": "FA8629-26-D-B005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "CNI Service Advantage JV LLC",
+            "location": "Norman, Oklahoma",
+            "contract_number": "FA8629-26-D-B005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (ceiling)",
+        "description": "Rapid Development Integration Facility aircraft and equipment related part development, integration, and support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 174944,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Tandem Defense, Richmond Hill, Georgia, has been awarded a ceiling $90,000,000 indefinite-delivery/indefinite-quantity contract for group one aerial denial unmanned aircraft systems. This contract provides for ancillary support equipment, operator training, and field service representative support. Work will be performed at locations as determined by follow on task orders and is expected to be completed by July 19, 2028. This contract was a competitive acquisition, and 10 offers were received. Fiscal 2026 other procurement funds in the amount of $98,000 are being obligated at time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8629-26-D-B006).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA862926DB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 98000.0,
+        "funding_text": "Fiscal 2026 other procurement funds in the amount of $98,000 are being obligated at time of award",
+        "completion_date": "2028-07-19",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8629-26-D-B006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Tandem Defense",
+            "location": "Richmond Hill, Georgia",
+            "contract_number": "FA8629-26-D-B006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (ceiling)",
+        "description": "Group one aerial denial unmanned aircraft systems with ancillary support equipment, operator training, and field service representative support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 98000,
+        "fms_countries": [],
+        "competition": "competitive, 10 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GMHill-Baker JV LLC,* Jacksonville, Florida (W91248-26-D-A020); Kenall Inc.,* Houston, Texas (W91248-26-D-A021); OEI-AECOM JV2 LLC,* Dallas, Texas (W91248-26-D-A022); Raymond Pond Federal Solutions JV LLC,* Conyers, Georgia (W91248-26-D-A023); and S&B Christ Consulting LLC,* Las Vegas, Nevada (W91248-26-D-A024), will compete for each order of the $249,500,000 order-dependent, indefinite-delivery/indefinite-quantity contract for architect engineering design services for the planning and design of facilities and infrastructure for construction projects. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of July 31, 2036. Army 419th Contracting Support Brigade, Fort Campbell, Kentucky, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W9124826DA020",
+          "W9124826DA021",
+          "W9124826DA022",
+          "W9124826DA023",
+          "W9124826DA024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2036-07-31",
+        "contracting_activity": {
+          "name": "Army 419th Contracting Support Brigade, Fort Campbell, Kentucky",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "GMHill-Baker JV LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "W91248-26-D-A020",
+            "markers": "*"
+          },
+          {
+            "name": "Kenall Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "W91248-26-D-A021",
+            "markers": "*"
+          },
+          {
+            "name": "OEI-AECOM JV2 LLC",
+            "location": "Dallas, Texas",
+            "contract_number": "W91248-26-D-A022",
+            "markers": "*"
+          },
+          {
+            "name": "Raymond Pond Federal Solutions JV LLC",
+            "location": "Conyers, Georgia",
+            "contract_number": "W91248-26-D-A023",
+            "markers": "*"
+          },
+          {
+            "name": "S&B Christ Consulting LLC",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "W91248-26-D-A024",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "order-dependent indefinite-delivery/indefinite-quantity",
+        "description": "Architect engineering design services for planning and design of facilities and infrastructure for construction projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, five offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-07-20.html"
+  "source": "file:2026-07-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:16:35Z"
+  }
 }

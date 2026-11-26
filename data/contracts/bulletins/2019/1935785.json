@@ -11,99 +11,800 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GiaCare and MedTrust JV LLC,* Fort Lauderdale, Florida, was awarded a $218,983,564 firm-fixed-price contract for registered nursing services. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 30, 2024. U.S. Army Health Contracting Activity, San Antonio, Texas, is the contracting activity (W81K04-19-D-0021).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W81K0419D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 218983564.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Health Contracting Activity, San Antonio, Texas",
+          "code": "W81K04-19-D-0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "GiaCare and MedTrust JV LLC",
+            "location": "Fort Lauderdale, Florida",
+            "contract_number": "W81K04-19-D-0021",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Registered nursing services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 218983564,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Honeywell International Inc., Phoenix, Arizona, was awarded an $110,870,867 modification (P00102) to contract W56HZV-12-C-0344 for Total Integrated Engine Revitalization (TIGER) hardware to meet the Anniston Army Depot production of the Advanced Gas Turbine 1500 engine for the Abrams tanks and TIGER field repair site requirements. Work will be performed in Phoenix, Arizona, with an estimated completion date of Feb. 22, 2022. Fiscal 2019 other procurement, Army funds in the amount of $110,870,867 were obligated at the time of the award. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV12C0344"
+        ],
+        "modification_numbers": [
+          "P00102"
+        ],
+        "is_modification": true,
+        "value_usd": 110870867.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 110870867.0,
+        "funding_text": "Fiscal 2019 other procurement, Army funds in the amount of $110,870,867 were obligated at the time of the award",
+        "completion_date": "2022-02-22",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Phoenix, Arizona",
+            "contract_number": "W56HZV-12-C-0344",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Total Integrated Engine Revitalization (TIGER) hardware for Anniston Army Depot production of the Advanced Gas Turbine 1500 engine for Abrams tanks and TIGER field repair site requirements",
+        "base_contract_number": "W56HZV-12-C-0344",
+        "order_number": null,
+        "modification_number": "P00102",
+        "value_usd": 110870867,
+        "cumulative_value_usd": null,
+        "obligated_usd": 110870867,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Ross Group Construction Corp., Tulsa, Oklahoma, was awarded a $46,949,880 firm-fixed-price contract for the construction of a new visiting quarters facility at Little Rock Air Force Base, Arkansas. Bids were solicited via the internet with three received. Work will be performed in Little Rock Air Force Base, Arkansas, with an estimated completion date of Oct. 1, 2021. Fiscal 2019 non-appropriated funds for Air Force services funds in the amount of $46,949,880 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-19-C-0028).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912QR19C0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46949880.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 46949880.0,
+        "funding_text": "Fiscal 2019 non-appropriated funds for Air Force services funds in the amount of $46,949,880 were obligated at the time of the award",
+        "completion_date": "2021-10-01",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-19-C-0028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Ross Group Construction Corp.",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "W912QR-19-C-0028",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a new visiting quarters facility at Little Rock Air Force Base, Arkansas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46949880,
+        "cumulative_value_usd": null,
+        "obligated_usd": 46949880,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lord & Son Construction Inc.,* Fort Walton Beach, Florida, was awarded a $32,128,489 firm-fixed-price contract for construction of a Long-Range Stand-Off Acquisition Facility on Eglin Air Force Base, Florida. Bids were solicited via the internet with three received. Work will be performed in Eglin Air Force Base, Florida, with an estimated completion date of Aug. 14, 2021. Fiscal 2018 military construction funds in the amount of $21,128,489 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-19-C-0023).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9127819C0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32128489.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21128489.0,
+        "funding_text": "Fiscal 2018 military construction funds in the amount of $21,128,489 were obligated at the time of the award",
+        "completion_date": "2021-08-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-19-C-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lord & Son Construction Inc.",
+            "location": "Fort Walton Beach, Florida",
+            "contract_number": "W91278-19-C-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a Long-Range Stand-Off Acquisition Facility on Eglin Air Force Base, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32128489,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21128489,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GEO Consultants Corp.,* Kevil, Kentucky, was awarded a $9,000,000 firm-fixed-price contract for environmental services. Nine bids were solicited with nine bids received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 14, 2024. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-19-D-0045).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912QR19D0045"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-08-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-19-D-0045"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "GEO Consultants Corp.",
+            "location": "Kevil, Kentucky",
+            "contract_number": "W912QR-19-D-0045",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Environmental services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Nine bids solicited, nine bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Michael Baker International Inc., Moon Township, Pennsylvania, was awarded a $9,000,000 firm-fixed-price contract for communications engineering services within the Central Command Area of Responsibility. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 14, 2024. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-19-D-0043).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912QR19D0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-08-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-19-D-0043"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Michael Baker International Inc.",
+            "location": "Moon Township, Pennsylvania",
+            "contract_number": "W912QR-19-D-0043",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Communications engineering services within the Central Command Area of Responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Moorestown, New Jersey, is awarded an $80,011,579 fixed-price-incentive, firm-fixed-price, cost-plus-fixed-fee modification to previously awarded contract N00024-14-C-5106 for fiscal 2019 AEGIS Modernization (AMOD) production requirements. This procurement covers the production, test and delivery of multi-mission signal processor equipment sets; electronic equipment fluid cooler; AEGIS Weapon System AMOD Upgrade equipment; Kill Assessment System 5.1 equipment; AEGIS spares; Australia Combat Systems Engineering Development Site; and AEGIS Ashore Japan Sites equipment. This contract combines purchases for the Navy (78.1%); the government of Japan (18.2%); and the government of Australia (3.7%) under the Foreign Military Sales program. This contract includes options, which, if exercised, would bring the cumulative value of this contract action to $80,411,730. Work will be performed in Moorestown, New Jersey (71.2%); Clearwater, Florida (27.4%); and Owego, New York (1.4%), and is expected to be complete by November 2023. Fiscal 2019 defense-wide procurement; 2019, 2018, 2017 other procurement (Navy); 2019, 2018, 2016, 2015, 2014 and 2013 shipbuilding and conversion (Navy); fiscal 2019 operations and maintenance (Navy); and Foreign Military Sales funding in the amount of $80,011,579 will be obligated at the time of award, of which $968,079 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C5106"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 80011579.0,
+        "cumulative_value_usd": 80411730.0,
+        "obligated_usd": 80011579.0,
+        "funding_text": "Fiscal 2019 defense-wide procurement; 2019, 2018, 2017 other procurement (Navy); 2019, 2018, 2016, 2015, 2014 and 2013 shipbuilding and conversion (Navy); fiscal 2019 operations and maintenance (Navy); and Foreign Military Sales funding in the amount of $80,011,579 will be obligated at the time of award, of which $968,079 will expire at the end of the current fiscal year",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-14-C-5106",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive, firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Fiscal 2019 AEGIS Modernization (AMOD) production requirements, including multi-mission signal processor equipment sets, fluid cooler, AEGIS Weapon System AMOD Upgrade equipment, Kill Assessment System 5.1 equipment, AEGIS spares, Australia Combat Systems Engineering Development Site, and AEGIS Ashore Japan Sites equipment",
+        "base_contract_number": "N00024-14-C-5106",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 80011579,
+        "cumulative_value_usd": 80411730,
+        "obligated_usd": 80011579,
+        "fms_countries": [
+          "Japan",
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp. Rotary and Mission Systems, Moorestown, New Jersey, is awarded a $55,960,700 cost-plus-incentive fee, cost-only, firm-fixed-price contract for combat system engineering support on the Ship Self-Defense System (SSDS). The SSDS combat system engineering agent/software design agent primary deliverables will be SSDS tactical computer programs, program updates and associated engineering, development and logistics products. This contract will manage the in-service SSDS configurations as well as adapt and integrate new or upgraded war-fighting capabilities. Work will be performed in Moorestown, New Jersey (95.6%); and San Diego, California (4.4%), and is expected to be complete by December 2019. This contract includes options, which if exercised, would bring the cumulative value of this contract to $637,583,110 and be complete by December 2028. Fiscal 2019 research, development, test and evaluation (Navy); 2019 other procurement (Navy); 2018 shipbuilding and conversion (Navy); and 2019 operations and maintenance (Navy) funding in the amount of $12,438,006 will be obligated at time of award, and funding in the amount of $1,306 will expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with three offers received. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-19-C-5603).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5603"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55960700.0,
+        "cumulative_value_usd": 637583110.0,
+        "obligated_usd": 12439312.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy); 2019 other procurement (Navy); 2018 shipbuilding and conversion (Navy); and 2019 operations and maintenance (Navy) funding in the amount of $12,438,006 will be obligated at time of award, and funding in the amount of $1,306 will expire at the end of the current fiscal year",
+        "completion_date": "2019-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-19-C-5603"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp. Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-19-C-5603",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-incentive fee, cost-only, firm-fixed-price",
+        "description": "Combat system engineering support on the Ship Self-Defense System (SSDS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 55960700,
+        "cumulative_value_usd": 637583110,
+        "obligated_usd": 12438006,
+        "fms_countries": [],
+        "competition": "Competitive, Federal Business Opportunities website, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "American Electronic Warfare Associates Inc.,* California, Maryland, is awarded a $40,103,262 fixed-price indefinite-delivery/indefinite-quantity contract. This contract provides for technical support services for the Aircraft Prototype Systems Division of the Naval Air Warfare Center – Aircraft Division Integrated Battlespace Simulation and Test Department. Services to be provided include all phases of program execution from initial conceptual studies, execution planning, management, engineering, documentation, fabrication, installation/ modification and test and evaluation activity support for aircraft research, development, prototyping, experimentation and test and evaluation programs. Work will be performed in Patuxent River, Maryland, and is expected to be completed in November 2023. No funds will be obligated at time of award; funds will be obligated on individual delivery orders as they are issued. This contract was competitively procured via an electronic request for proposals as a 100 percent small business set-aside; two offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042119D0076).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0042119D0076"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 40103262.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042119D0076"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "American Electronic Warfare Associates Inc.",
+            "location": "California, Maryland",
+            "contract_number": "N0042119D0076",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Technical support services for the Aircraft Prototype Systems Division of the Naval Air Warfare Center Aircraft Division Integrated Battlespace Simulation and Test Department",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40103262,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, electronic request for proposals, 100% small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "FLIR Surveillance Inc., Wilsonville, Oregon, is awarded a $12,689,470 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a five-year ordering period for supplies, repairs and upgrades for Littoral Combat Ship configuration of Sea Star SAFIRE III Electro-Optics Sensor Systems. Work will be performed in Wilsonville, Oregon, and is expected to be complete by August 2024. Fiscal 2019 operations and maintenance (Navy) funding in the amount of $432,514 will be obligated at the time of award and will expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center, Crane, Indiana, is the contracting activity (N00164-19-D-JQ49).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0016419DJQ49"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12689470.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 432514.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) funding in the amount of $432,514 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-08",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Crane, Indiana",
+          "code": "N00164-19-D-JQ49"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "FLIR Surveillance Inc.",
+            "location": "Wilsonville, Oregon",
+            "contract_number": "N00164-19-D-JQ49",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Supplies, repairs and upgrades for Littoral Combat Ship configuration of Sea Star SAFIRE III Electro-Optics Sensor Systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12689470,
+        "cumulative_value_usd": null,
+        "obligated_usd": 432514,
+        "fms_countries": [],
+        "competition": "Not competitively procured, only one responsible source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Teledyne Instruments Inc., North Falmouth, Massachusetts, is awarded a $7,666,080 cost-plus-fixed-fee, cost reimbursable, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for services and supplies to support the ongoing development of autonomous underwater vehicles, localization systems, monitoring and navigation tele-sonar subsea modems. This contract includes options, which, if exercised, would bring the cumulative value of this contract to an estimated $22,222,593. Work will be performed in North Falmouth, Massachusetts (90%); and Keyport, Washington (10%), and is expected to be complete by December 2024. Fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $4,281,649; and fiscal 2019 operations and maintenance (Navy) funding in the amount of $1,070,412 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was procured as a Small Business Innovation Research Phase III award without further competition. The awardee satisfied competition requirements during Phase I and Phase II under Topic N02-082. A justification and approval document pursuant to 10 U.S. Code 2304(c)(5) was approved by the Naval Undersea Warfare Center Division, Keyport, Competition Advocate in January 2017. The Naval Undersea Warfare Center Division, Keyport, in Keyport, Washington, is the contracting activity (N00253-19-D-0005).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0025319D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7666080.0,
+        "cumulative_value_usd": 22222593.0,
+        "obligated_usd": 5352061.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $4,281,649; and fiscal 2019 operations and maintenance (Navy) funding in the amount of $1,070,412 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-12",
+        "contracting_activity": {
+          "name": "The Naval Undersea Warfare Center Division, Keyport, in Keyport, Washington",
+          "code": "N00253-19-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Teledyne Instruments Inc.",
+            "location": "North Falmouth, Massachusetts",
+            "contract_number": "N00253-19-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost reimbursable, firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Services and supplies supporting development of autonomous underwater vehicles, localization systems, monitoring and navigation tele-sonar subsea modems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7666080,
+        "cumulative_value_usd": 22222593,
+        "obligated_usd": 5351061,
+        "fms_countries": [],
+        "competition": "Not competitively procured; SBIR Phase III award under 10 U.S.C. 2304(c)(5)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "AMYX Inc., Reston, Virginia, was awarded a fixed-price contract with an estimated value of $56,818,861. The contract provides contracting and program management support to the Defense Health Agency (DHA). Services include, but are not limited to, acquisition and contract management, program management support, and other related workload requirements associated with the award and administration of DHA contracts. The contract was awarded as a competitive 100% small business acquisition. There is a base period of eight months, and four one-year option periods. The places of contract performance are: Falls Church, Virginia; Rosslyn, Virginia; San Antonio, Texas; and Aurora, Colorado. The period of performance begins on Sept. 25, 2019, and the completion date is May 31, 2024. The base period is funded with fiscal 2019 operations and maintenance funding in the amount of $7,208,836. The Defense Health Agency, Enterprise Medical Services, Contracting Division, Joint Base San Antonio, Texas, is the contracting activity (HT0050-19-F-0001).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HT005019F0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 56818861.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Enterprise Medical Services, Contracting Division, Joint Base San Antonio, Texas",
+          "code": "HT0050-19-F-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "AMYX Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "HT0050-19-F-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price",
+        "description": "Contracting and program management support to the Defense Health Agency",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 56818861,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7208836,
+        "fms_countries": [],
+        "competition": "Competitive, 100% small business acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "AMYX Inc., Reston, Virginia, was awarded a fixed-price contract with an estimated value of $47,926,649. The program and acquisition support services include, but are not limited to, program management support and other related workload requirements associated with acquisition and business processes. The contractor shall accomplish a variety of acquisition and other related administrative services to complement the government's workplace capabilities. The contract was a competitive 100% small business acquisition. There is a base period of nine months, and four one-year option periods. This contract provides support to San Antonio, Texas; Aurora, Colorado; Falls Church, Virginia; and Wright Patterson Air Force Base, Ohio, with a completion date of June 17, 2024. The base period is funded with fiscal 2019 operations and maintenance funding in the amount of $6,077,590. The Defense Health Agency, Enterprise Medical Services, Contracting Division, Joint Base San Antonio, Texas, is the contracting activity (HT0050-19-F-0002).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HT005019F0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47926649.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-06-17",
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Enterprise Medical Services, Contracting Division, Joint Base San Antonio, Texas",
+          "code": "HT0050-19-F-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "AMYX Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "HT0050-19-F-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price",
+        "description": "Program and acquisition support services, including program management support and related acquisition and business process workload",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47926649,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6077590,
+        "fms_countries": [],
+        "competition": "competitive 100% small business acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sysco Alabama, Calera, Alabama, has been awarded a maximum $37,893,960 fixed-price with economic-price-adjustment, indefinite-quantity contract for full line food distribution. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a one-year bridge contract with no option periods. Locations of performance are Central Alabama and Florida Panhandle regions, with an Aug. 8, 2020, performance completion date. Using customers are Army, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2019 defense working capital funds. The contracting agency is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-19-D-3234).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE30019D3234"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 37893960.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-19-D-3234"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Sysco Alabama",
+            "location": "Calera, Alabama",
+            "contract_number": "SPE300-19-D-3234",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity",
+        "description": "Full line food distribution (one-year bridge contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37893960,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Arizona Industries for the Blind, Phoenix, Arizona, has been awarded an estimated $8,600,000 firm-fixed-price with economic-price-adjustment contract for warehousing, storage, logistics and distribution functions. This is a two-year base contract with three one-year option periods. Location of performance is Arizona, with an Aug. 16, 2021, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and National Guard and Reserves. Type of appropriation is fiscal 2019 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-19-D-B065).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119DB065"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-19-D-B065"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Arizona Industries for the Blind",
+            "location": "Phoenix, Arizona",
+            "contract_number": "SPE1C1-19-D-B065",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment",
+        "description": "Warehousing, storage, logistics and distribution functions",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Trident Technologies LLC, Huntsville, Alabama, has been awarded a contract modification (P00013) on contract HTC711-14-D-D003 in the amount of $13,616,300. The contract modification executed Federal Acquisition Regulation 52.217-8 Option to Extend Services for the Enterprise Architecture, Data, and Engineering (EADE) indefinite-delivery/indefinite-quantity to continue vital support services. The EADE contract acquires enterprise architecture, data, and information technology engineering services for the U.S. Transportation Command, Air Mobility Command/A6, and the Surface Deployment and Distribution Command. Period of performance is Oct. 1, 2019, to March 31, 2020. The location of performance is Scott Air Force Base, Illinois. Operations and maintenance; transportation working capital funds; and research, development, test and evaluation funds will be obligated at the individual task order level. This modification brings the total cumulative face value of the contract from $125,752,500 to $139,368,800. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "HTC71114DD003"
+        ],
+        "modification_numbers": [
+          "P00013"
+        ],
+        "is_modification": true,
+        "value_usd": 13616300.0,
+        "cumulative_value_usd": 125752500.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Operations and maintenance; transportation working capital funds; and research, development, test and evaluation funds will be obligated at the individual task order level",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Trident Technologies LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "HTC711-14-D-D003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Enterprise Architecture, Data, and Engineering (EADE) services option to extend services, Oct. 1, 2019 to March 31, 2020",
+        "base_contract_number": "HTC711-14-D-D003",
+        "order_number": null,
+        "modification_number": "P00013",
+        "value_usd": 13616300,
+        "cumulative_value_usd": 139368800,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-08-15.html"
+  "source": "file:2019-08-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T23:21:02Z"
+  }
 }

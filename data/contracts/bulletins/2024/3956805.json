@@ -11,39 +11,313 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sabre Systems LLC,* Warminster, Pennsylvania, is awarded a $499,923,342 cost-plus-fixed-fee, cost, indefinite-delivery/indefinite-quantity contract to provide contractor support systems engineering and technical support services to include analysis, development, integration, testing, and fleet introduction support of various warfare systems into naval aircraft for the Navy and Foreign Military Sales customers. Work will be performed in Warminster, Pennsylvania (40%); Patuxent River, Maryland (30%); and various locations within the continental U.S. (30%), and is expected to be completed in November 2029. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured as a small business set-aside, six offers received. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042125D0004).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0042125D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 499923342.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2029-11",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042125D0004"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sabre Systems LLC",
+            "location": "Warminster, Pennsylvania",
+            "contract_number": "N0042125D0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost, indefinite-delivery/indefinite-quantity contract",
+        "description": "Contractor support systems engineering and technical support services for warfare systems integration into naval aircraft (Navy and FMS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 499923342,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, small business set-aside, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Burlington Industries LLC, Charlotte, North Carolina, has been awarded a maximum $40,219,200 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with economic-price-adjustment for tropical, khaki, cloth. This was a competitive acquisition with one response received. This is a four-year contract with no option periods. The ordering period end date is Nov. 4, 2028. Using military service is Navy. Type of appropriation is fiscal 2025 through 2029 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-0009).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40219200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-25-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Burlington Industries LLC",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "SPE1C1-25-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract with economic-price-adjustment",
+        "description": "Tropical, khaki, cloth (DLA Troop Support; Navy)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40219200,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "FCN Inc., Rockville, Maryland, has been awarded a $21,125,535 fixed-fee modification (P00010) to a previously awarded contract (FA8307-23-F-0008) for a security incident event management non-secure internet protocol router and to exercise Option Year Two. Work will be performed at Joint Base San Antonio-Lackland, Texas; Chapman Annex, Texas; Scott Air Force Base, Illinois; and Hurlburt Field, Florida, and is expected to be completed by Nov. 29, 2025. Fiscal 2023 operation and maintenance funds in the amount of $21,125,535 are being obligated at time of award. The Air Force Life Cycle Management Center, Joint Base San Antonio-Lackland, Texas, is the contracting activity. (Awarded Oct. 29, 2024)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA830723F0008"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 21125535.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21125535.0,
+        "funding_text": "Fiscal 2023 operation and maintenance funds in the amount of $21,125,535 are being obligated at time of award",
+        "completion_date": "2025-11-29",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Joint Base San Antonio-Lackland, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "FCN Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "FA8307-23-F-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-fee modification",
+        "description": "Security incident event management non-secure internet protocol router system; exercise of Option Year Two",
+        "base_contract_number": "FA8307-23-F-0008",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 21125535,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21125535,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-29"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Red Six Aerospace LLC, Orlando, Florida, was awarded a $20,975,050 firm-fixed-price strategic funding increase contract for augmented reality for aircrew and special teams’ development and integration. This contract provides the engineering and integration efforts required to advance, develop, integrate, and install the Red 6 Advanced Tactical Augmented Reality System. Work will be performed at Hurlburt Field, Florida, and is expected to be completed by May 1, 2027. This contract was a sole source acquisition under Small Business Innovation Research Phase II. Fiscal 2024 research and development funds in the amount of $7,719,549 are being obligated at the time of award. The Air Force Installation Contracting Center, Hurlburt Field, Florida, is the contracting activity (FA0021-25-C-0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA002125C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20975050.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7719549.0,
+        "funding_text": "This contract was a sole source acquisition under Small Business Innovation Research Phase II. Fiscal 2024 research and development funds in the amount of $7,719,549 are being obligated at the time of award",
+        "completion_date": "2027-05-01",
+        "contracting_activity": {
+          "name": "The Air Force Installation Contracting Center, Hurlburt Field, Florida",
+          "code": "FA0021-25-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Red Six Aerospace LLC",
+            "location": "Orlando, Florida",
+            "contract_number": "FA0021-25-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price strategic funding increase contract",
+        "description": "Augmented reality for aircrew; Red 6 Advanced Tactical Augmented Reality System engineering and integration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20975050,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7719549,
+        "fms_countries": [],
+        "competition": "sole source, SBIR Phase II",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Baird-Stantec JV,* Fitchburg, Wisconsin, was awarded a $10,000,000 firm-fixed-price contract for marine engineering services. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 4, 2029. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-25-D-0002).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912BU25D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-11-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-25-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Baird-Stantec JV",
+            "location": "Fitchburg, Wisconsin",
+            "contract_number": "W912BU-25-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Marine engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Willard Asphalt Paving Inc.,* Lebanon, Missouri, was awarded a $7,709,964 firm-fixed-price contract to replace asphalt surfaces and other associated tasks. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 14, 2029. Army Field Directorate Office, Fort Eustis, Virginia, is the contracting activity (W911S7-25-D-0001). (Awarded Nov. 1, 2024)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W911S725D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7709964.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-11-14",
+        "contracting_activity": {
+          "name": "Army Field Directorate Office, Fort Eustis, Virginia",
+          "code": "W911S7-25-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Willard Asphalt Paving Inc.",
+            "location": "Lebanon, Missouri",
+            "contract_number": "W911S7-25-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Replacement of asphalt surfaces and other associated tasks",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7709964,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one bid received",
+        "award_date": "2024-11-01"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-11-05.html"
+  "source": "file:2024-11-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:24:42Z"
+  }
 }

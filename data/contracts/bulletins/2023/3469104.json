@@ -11,63 +11,556 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Pierce Manufacturing Inc., Appleton, Wisconsin, has been awarded a maximum $889,832,238 fixed-price with economic-price-adjustment, indefinite-delivery requirements contract for fire and emergency equipment. This was a competitive acquisition with six offers received. Other contracts are expected to be awarded under this solicitation (SPE8EC-21-R-0005) and awardees will compete for a portion of the maximum dollar value. This is a five-year contract with no option periods. Location of performance is Florida, with a July 21, 2028, ordering period end date. Using military services are Army, Navy, Air Force, and Marine Corps. Type of appropriation is fiscal 2023 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8EC-23-D-0017).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC21R0005",
+          "SPE8EC23D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 889832238.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8EC-23-D-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pierce Manufacturing Inc.",
+            "location": "Appleton, Wisconsin",
+            "contract_number": "SPE8EC-23-D-0017",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery requirements contract",
+        "description": "Fire and emergency equipment requirements contract (solicitation SPE8EC-21-R-0005); awardees compete for orders",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 889832238,
+        "cumulative_value_usd": 889832238,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced July 18, 2023, for American Apparel Inc.,* Selma, Alabama (SPE1C1-23-D-0063), for $82,931,950 was announced with an incorrect award date and incorrect ordering period end date. The correct award date is July 20, 2023, and the correct ordering period end date is July 19, 2028.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0063"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 82931950.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "American Apparel Inc.",
+            "location": "Selma, Alabama",
+            "contract_number": "SPE1C1-23-D-0063",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to July 18, 2023 announcement of $82,931,950 contract; corrects award date to July 20, 2023 and ordering period end date to July 19, 2028",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 82931950,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-07-20"
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Kalitta Air LLC, Ypsilanti, Michigan, was awarded the twenty-third contract in a fixed-price, indefinite-delivery/indefinite-quantity contract (HTC71118RCC01) with a face value of $697,000,000 for domestic air cargo and passenger charter services on Federal Aviation Administration-approved Part 121 aircraft. The location of performance is all U.S. states and territories, Mexico, Canada, and the Caribbean Islands. Services are to be performed between July 27, 2023, and Sept. 30, 2023. This award is the result of a competitive acquisition, and 23 offers were received. Fiscal 2023 working capital funds (Transportation) will be obligated at individual task order level. The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "HTC71118RCC01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 697000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2023 working capital funds (Transportation) will be obligated at individual task order level",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Kalitta Air LLC",
+            "location": "Ypsilanti, Michigan",
+            "contract_number": "HTC71118RCC01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Domestic air cargo and passenger charter services on FAA-approved Part 121 aircraft (twenty-third contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 697000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 23 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc. – Newport News Shipbuilding, Newport News, Virginia, was awarded a $528,381,355 cost-plus-fixed-fee, cost-plus-award fee, cost-plus-incentive-fee, indefinite-delivery/indefinite-quantity contract to support emergent work, continuous maintenance availabilities, pre-refueling complex overhaul availabilities, and Chief of Naval Operations scheduled availabilities for Navy aircraft carriers homeported in and visiting the San Diego, California, area. Work is expected to be completed by July 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured and solicited via the System for Award Management website. The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-23-D-4107). (Awarded July 21, 2023)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002423D4107"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 528381355.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2028-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-23-D-4107"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc. – Newport News Shipbuilding",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-23-D-4107",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost-plus-award fee, cost-plus-incentive-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Emergent work, continuous maintenance, pre-refueling complex overhaul and CNO scheduled availabilities for aircraft carriers homeported in/visiting San Diego, California area",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 528381355,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, solicited via SAM website",
+        "award_date": "2023-07-21"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alabama Shipyard LLC,* Mobile, Alabama, is awarded $19,685,492 firm-fixed-price contract (N3220523C4084) for a 120-calendar day shipyard availability for the mid-term availability of Military Sealift Command’s hospital ship USNS Comfort (T-AH 20). This contract includes a base period and options, which if exercised, would bring the cumulative value to $19,927,348. Work will be performed in Mobile, Alabama, beginning Sept. 15, 2023, and is expected to be completed by Jan. 12, 2024. Fiscal 2023 working capital funds (Navy) in the amount of $19,685,492 are obligated and will expire at the end of the current fiscal year. This contract was a small business set-aside with proposals solicited via the SAM.gov website and four offers received. The Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220523C4084"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19685492.0,
+        "cumulative_value_usd": 19927348.0,
+        "obligated_usd": 19685492.0,
+        "funding_text": "Fiscal 2023 working capital funds (Navy) in the amount of $19,685,492 are obligated and will expire at the end of the current fiscal year",
+        "completion_date": "2024-01-12",
+        "contracting_activity": {
+          "name": "The Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Alabama Shipyard LLC",
+            "location": "Mobile, Alabama",
+            "contract_number": "N3220523C4084",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "120-calendar day shipyard availability for mid-term availability of USNS Comfort (T-AH 20)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19685492,
+        "cumulative_value_usd": 19927348,
+        "obligated_usd": 19685492,
+        "fms_countries": [],
+        "competition": "small business set-aside, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Vectrus Systems Corp., Colorado Springs, Colorado, is awarded $7,663,827 for an indefinite-delivery/indefinite-quantity modification to previously awarded contract N62470-20-D-0004. This modification provides for the exercise of Option Number Two for base operating support services at U.S. Naval Support Facility Deveselu. Work will be performed in Deveselu, Romania, and the option period is from August 2023 to July 2024. After award of this option, the total cumulative contract value will be $37,739,278. Fiscal 2023 operation and maintenance (Navy) funds in the amount of $7,343,320 will be obligated at time of award and will expire at the end of the current fiscal year. Naval Facilities Engineering Systems Command Europe Africa Central, Naples, Italy, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6247020D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7663827.0,
+        "cumulative_value_usd": 37739278.0,
+        "obligated_usd": 7343320.0,
+        "funding_text": "Fiscal 2023 operation and maintenance (Navy) funds in the amount of $7,343,320 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Europe Africa Central, Naples, Italy",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of Option Number Two for base operating support services at U.S. Naval Support Facility Deveselu, Romania",
+        "base_contract_number": "N62470-20-D-0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7663827,
+        "cumulative_value_usd": 37739278,
+        "obligated_usd": 7343320,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dynetics Technical Solutions, Huntsville, Alabama, was awarded a $428,266,378 modification (PZ0002) to contract W9124P-23-9-0001 to create Common Hypersonic Glide Body prototypes. Work will be performed in Huntsville, Alabama, with an estimated completion date of July 23, 2027. Fiscal 2023 research, development, test and evaluation, Army funds in the amount of $43,100,000 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 428266378.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43100000.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation, Army funds in the amount of $43,100,000 were obligated at the time of the award",
+        "completion_date": "2027-07-23",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Dynetics Technical Solutions",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W9124P-23-9-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Create Common Hypersonic Glide Body prototypes (modification PZ0002)",
+        "base_contract_number": "W9124P-23-9-0001",
+        "order_number": null,
+        "modification_number": "PZ0002",
+        "value_usd": 428266378,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43100000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Eastern Shipbuilding Group,* Panama City, Florida, was awarded a $256,955,264 firm-fixed-price contract for the design-build of a new medium-class hopper dredge. Bids were solicited via the internet with three received. Work will be performed in Panama City, Florida, with an estimated completion date of Aug. 16, 2027. Fiscal 2023 Plant Replacement and Improvement Program funds in the amount of $256,955,264 were obligated at the time of the award. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-23-C-0020).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912BU23C0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 256955264.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 256955264.0,
+        "funding_text": "Fiscal 2023 Plant Replacement and Improvement Program funds in the amount of $256,955,264 were obligated at the time of the award",
+        "completion_date": "2027-08-16",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-23-C-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Eastern Shipbuilding Group",
+            "location": "Panama City, Florida",
+            "contract_number": "W912BU-23-C-0020",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build of a new medium-class hopper dredge",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 256955264,
+        "cumulative_value_usd": null,
+        "obligated_usd": 256955264,
+        "fms_countries": [],
+        "competition": "solicited via internet, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "HHI Corp., Ogden, Utah, was awarded a $73,581,115 firm-fixed-price contract for roof repairs. Bids were solicited via the internet with one received. Work will be performed in Layton, Utah, with an estimated completion date of July 27, 2025. Fiscal 2010 military construction, Army funds in the amount of $73,581,115 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-23-C-0021).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9123823C0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 73581115.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 73581115.0,
+        "funding_text": "Fiscal 2010 military construction, Army funds in the amount of $73,581,115 were obligated at the time of the award",
+        "completion_date": "2025-07-27",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-23-C-0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "HHI Corp.",
+            "location": "Ogden, Utah",
+            "contract_number": "W91238-23-C-0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Roof repairs in Layton, Utah",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 73581115,
+        "cumulative_value_usd": null,
+        "obligated_usd": 73581115,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "correction",
       "text": "CORRECTION: The multiple award contract (H92403-23-R-0002) announced July 21, 2023, with a maximum total ceiling of $750,000,000 to allow U.S. Special Operations Command (USSOCOM) the flexibility to procure numerous types of ammunition requirements for all USSOCOM components included some incorrect company addresses. The correct firms and their locations are Ultimate Training Munitions Inc., Mildenhall, Suffolk, United Kingdom; Sig Sauer, Jacksonville, Arkansas; Black Hills Ammunition, Rapid City, South Dakota; Bighorn Government Services LLC, Georgetown, Tennessee; Eagle Eye Precision Ammunition, Mesa, Arizona; General Dynamics Ordnance and Tactical Systems, Quebec, Canada; Capstone Precision Group LLC, Mesa, Arizona; OCR Global Inc., Chantilly, Virginia; PCP Tactical, Sebastian, Florida; UDC Inc., Tampa, Florida; and Vista Outdoor Sales LLC, Anoka, Minnesota.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "H9240323R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 750000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Ultimate Training Munitions Inc.",
+            "location": "Mildenhall, Suffolk, United Kingdom",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Sig Sauer",
+            "location": "Jacksonville, Arkansas",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Black Hills Ammunition",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Bighorn Government Services LLC",
+            "location": "Georgetown, Tennessee",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Eagle Eye Precision Ammunition",
+            "location": "Mesa, Arizona",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "General Dynamics Ordnance and Tactical Systems",
+            "location": "Quebec, Canada",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Capstone Precision Group LLC",
+            "location": "Mesa, Arizona",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "OCR Global Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "PCP Tactical",
+            "location": "Sebastian, Florida",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "UDC Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          },
+          {
+            "name": "Vista Outdoor Sales LLC",
+            "location": "Anoka, Minnesota",
+            "contract_number": "H92403-23-R-0002",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "multiple award contract",
+        "description": "Correction of company addresses for USSOCOM ammunition multiple award contract with $750,000,000 maximum ceiling (announced July 21, 2023)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 750000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-07-24.html"
+  "source": "file:2023-07-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:25:30Z"
+  }
 }

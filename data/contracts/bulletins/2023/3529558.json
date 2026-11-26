@@ -11,123 +11,1052 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Grunley Construction Co. Inc., Rockville, Maryland, was awarded a $129,412,000 firm-fixed-price contract for design and build services. Bids were solicited via the internet with four received. Work will be performed in Washington, D.C., with an estimated completion date of Oct. 1, 2027. Fiscal 2023 Capitol Police Buildings and Grounds, Architect of the Capitol funds in the amount of $129,412,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting authority.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 129412000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 129412000.0,
+        "funding_text": "Fiscal 2023 Capitol Police Buildings and Grounds, Architect of the Capitol funds in the amount of $129,412,000 were obligated at the time of the award",
+        "completion_date": "2027-10-01",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Grunley Construction Co. Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design and build services in Washington, D.C. (Capitol Police Buildings and Grounds)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 129412000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 129412000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Abhe & Svoboda Inc.,* Jordan, Minnesota, was awarded a $22,535,910 firm-fixed-price contract for gate maintenance. Bids were solicited via the internet with four received. Work will be performed in Minnesota City, Minnesota, with an estimated completion date of Nov. 1, 2028. Fiscal 2023 civil construction funds in the amount of $22,535,910 were obligated at the time of the award. U.S. Army Corps of Engineers, Saint Paul, Minnesota, is the contracting activity (W912ES-23-C-0011).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912ES23C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22535910.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22535910.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $22,535,910 were obligated at the time of the award",
+        "completion_date": "2028-11-01",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Saint Paul, Minnesota",
+          "code": "W912ES-23-C-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Abhe & Svoboda Inc.",
+            "location": "Jordan, Minnesota",
+            "contract_number": "W912ES-23-C-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Gate maintenance in Minnesota City, Minnesota",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22535910,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22535910,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $15,000,000 cost-plus-fixed-price contract to procure and fabricate software and hardware into the target air vehicle platform. Bids were received via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 18, 2025. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W911W6-23-D-0010).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W911W623D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-09-18",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W911W6-23-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W911W6-23-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-price contract",
+        "description": "Procure and fabricate software and hardware into the target air vehicle platform",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids received via the internet with eight received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Conrad Shipyard LLC,* Morgan City, Louisiana, was awarded a $9,106,800 firm-fixed-price contract to design, construct, test, and deliver a new steel spud barge. Bids were solicited via the internet with one received. Work will be performed in Morgan City, Louisiana, with an estimated completion date of April 14, 2025. Fiscal 2023 Plant Replacement Improvement Program funds in the amount of $9,106,800 were obligated at the time of the award. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-23-C-0033).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912BU23C0033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9106800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9106800.0,
+        "funding_text": "Fiscal 2023 Plant Replacement Improvement Program funds in the amount of $9,106,800 were obligated at the time of the award",
+        "completion_date": "2025-04-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-23-C-0033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Conrad Shipyard LLC",
+            "location": "Morgan City, Louisiana",
+            "contract_number": "W912BU-23-C-0033",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design, construct, test, and deliver a new steel spud barge",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9106800,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9106800,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dynetics Inc., Huntsville, Alabama, was awarded an $8,778,846 cost-plus-fixed-fee contract for hardware and technical support for the Long-Range Persistent Surveillance System. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 17, 2028. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-23-D-0023).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8778846.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-09-17",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-23-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Dynetics Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-23-D-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Hardware and technical support for the Long-Range Persistent Surveillance System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8778846,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Applied Technologies Group Inc., Huntsville, Alabama, was awarded an $8,036,757 modification (P00012) to contract W31P4Q-23-F-E001 for logistics support. Work will be performed in Huntsville, Alabama, with an estimated completion date of Sept. 17, 2024. Fiscal 2010 and 2023 Foreign Military Sales (Albania, Austria, Croatia, Egypt, Israel, Japan, Jordan, Latvia, Mexico, Slovakia, South Korea, Sweden, Taiwan, Thailand, and Turkey); 2023 operation and maintenance, Army funds; and 2023 other procurement, Army funds, in the amount of $8,036,757 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23FE001"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 8036757.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8036757.0,
+        "funding_text": "Fiscal 2010 and 2023 Foreign Military Sales (Albania, Austria, Croatia, Egypt, Israel, Japan, Jordan, Latvia, Mexico, Slovakia, South Korea, Sweden, Taiwan, Thailand, and Turkey); 2023 operation and maintenance, Army funds; and 2023 other procurement, Army funds, in the amount of $8,036,757 were obligated at the time of the award",
+        "completion_date": "2024-09-17",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Albania",
+          "Austria",
+          "Croatia",
+          "Egypt",
+          "Israel",
+          "Japan",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Slovakia",
+          "South Korea",
+          "Sweden",
+          "Taiwan",
+          "Thailand",
+          "Turkey"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Applied Technologies Group Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Logistics support",
+        "base_contract_number": "W31P4Q-23-F-E001",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 8036757,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8036757,
+        "fms_countries": [
+          "Albania",
+          "Austria",
+          "Croatia",
+          "Egypt",
+          "Israel",
+          "Japan",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Slovakia",
+          "South Korea",
+          "Sweden",
+          "Taiwan",
+          "Thailand",
+          "Turkey"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SSFM International Inc., Honolulu, Hawaii, was awarded a $7,823,002 firm-fixed-price contract to design a vehicle maintenance shop. Bids were solicited via the internet with one received. Work will be performed in Okinawa, Japan, with an estimated completion date of June 25, 2026. Fiscal 2023 military construction, Army funds in the amount of $7,823,002 were obligated at the time of the award. U.S. Army Corps of Engineers, Okinawa, Japan, is the contracting activity (W912HV-23-F-0041).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912HV23F0041"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7823002.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7823002.0,
+        "funding_text": "Fiscal 2023 military construction, Army funds in the amount of $7,823,002 were obligated at the time of the award",
+        "completion_date": "2026-06-25",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Okinawa, Japan",
+          "code": "W912HV-23-F-0041"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "SSFM International Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W912HV-23-F-0041",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design a vehicle maintenance shop in Okinawa, Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7823002,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7823002,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Elevated Technologies Inc.,* Charleston, South Carolina, was awarded a $7,568,640 firm-fixed-price contract for elevator replacement and repair. Bids were solicited via the internet with one received. Work will be performed in Albuquerque, New Mexico, with an estimated completion date of June 26, 2025. Fiscal 2023 Veterans Affairs non-recurring maintenance funds in the amount of $7,568,640 were obligated at the time of the award. U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting authority (W912PP-23-C-0009).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912PP23C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7568640.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7568640.0,
+        "funding_text": "Fiscal 2023 Veterans Affairs non-recurring maintenance funds in the amount of $7,568,640 were obligated at the time of the award",
+        "completion_date": "2025-06-26",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Elevated Technologies Inc.",
+            "location": "Charleston, South Carolina",
+            "contract_number": "W912PP-23-C-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Elevator replacement and repair in Albuquerque, New Mexico",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7568640,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7568640,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: Signature Renovations LLC,* Capitol Heights, Maryland, was added as an awardee to the $249,000,000 firm-fixed-price contract (W91247-23-D-9014) announced on Aug. 15, 2023, for maintenance, repair, and minor construction projects. Bids were solicited via the internet with 19 received. Work locations and funding will be determined with each order, with an estimated completion date of July 31, 2028. 419th Contracting Support Brigade, Fort Liberty, North Carolina, is the contracting authority.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9124723D9014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-07-31",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Signature Renovations LLC",
+            "location": "Capitol Heights, Maryland",
+            "contract_number": "W91247-23-D-9014",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Added as awardee to contract for maintenance, repair, and minor construction projects (correction to Aug. 15, 2023 announcement)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 19 received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Long Wave Inc., Oklahoma City, Oklahoma, was awarded a $112,600,000 firm-fixed-price indefinite-delivery/definite-quantity contract for High Frequency Global Communications System – Antenna Program Support III. This contract provides program depot maintenance and installation activities for high power, high frequency antenna and antenna subsystems in support of strategic military command and control communications. Work will be performed at Joint Base Andrews (Davidsonville and Brandywine), Maryland; Ascension Island Auxiliary Field, Royal Air Force Croughton, Diego Garcia; Joint Base Elmendorf-Richardson, Alaska; Guam (Barrigada and Finegayan), Hawaii (Lualualei and Wahiawa); Lajes (Cinco Picos and Villa Nova); Offutt Air Force Base (Elkhorn and Scribner), Nebraska; Puerto Rico (Isabella and Salinas); Naval Air Station Sigonella, Italy; West Coast (Dixon and Lincoln); and Yokota Air Base (Tokorozawa and Owada), Japan, and is expected to be completed by Sept. 19, 2030. This contract was a competitive acquisition and two offers were received. No funds are being obligated at time of award. The Air Force Life Cycle Management Center, Tinker AFB, Oklahoma, is the contracting activity (FA8102-23-D-0001).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA810223D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 112600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2030-09-19",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Tinker AFB, Oklahoma",
+          "code": "FA8102-23-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Long Wave Inc.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8102-23-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/definite-quantity contract",
+        "description": "High Frequency Global Communications System – Antenna Program Support III (depot maintenance and installation)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 112600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "3D Systems Corp., Rock Hill, South Carolina, was awarded a $10,758,261 cost-plus-fixed-fee contract for Large-format Metal 3D Printer Advanced Technology Demonstrator (GEN-II DMP-1000). This contract supports the development of large-scale hypersonic relevant additive manufacturing print capabilities. Work will be performed at Rock Hill, South Carolina; and San Diego, California, and is expected to be completed by Sept. 29, 2025. This contract was a competitive acquisition and one offer was received. Fiscal 2022 and 2023 research, development, test and evaluation funds in the amount of $10,758,261 are being obligated at time of award. The Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA2394-23-C-B055).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA239423CB055"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10758261.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10758261.0,
+        "funding_text": "Fiscal 2022 and 2023 research, development, test and evaluation funds in the amount of $10,758,261 are being obligated at time of award",
+        "completion_date": "2025-09-29",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio",
+          "code": "FA2394-23-C-B055"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "3D Systems Corp.",
+            "location": "Rock Hill, South Carolina",
+            "contract_number": "FA2394-23-C-B055",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Large-format Metal 3D Printer Advanced Technology Demonstrator (GEN-II DMP-1000)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10758261,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10758261,
+        "fms_countries": [],
+        "competition": "Competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "UAV Communications Inc., Newport News, Virginia, was awarded an $8,342,946 firm-fixed-price and cost-reimbursable contract action for the ongoing sustainment, management, development, and network administration of the United Kingdom MQ-9 Reaper Operation Centers. Work will be performed at Royal Air Force Waddington, United Kingdom; and Creech Air Force Base, Nevada, and is expected to be completed by March 31, 2025. This contract involves Foreign Military Sales to the United Kingdom. This contract was a sole-source acquisition. Foreign Military Sales funds in the amount of $8,342,946 are being obligated at time of award. The Air Force Life Cycle Management Center, Wright Patterson AFB, Ohio, is the contracting activity (FA8620-19-C-2002).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA862019C2002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8342946.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8342946.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $8,342,946 are being obligated at time of award",
+        "completion_date": "2025-03-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright Patterson AFB, Ohio",
+          "code": "FA8620-19-C-2002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "UAV Communications Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "FA8620-19-C-2002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price and cost-reimbursable contract action",
+        "description": "Sustainment, management, development, and network administration of United Kingdom MQ-9 Reaper Operation Centers (FMS to UK)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8342946,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8342946,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Technology Solutions & Services Inc., Rockville, Maryland, is awarded a cost-plus-fixed-fee contract modification (P00019) in the amount of $66,974,244 to a previously awarded and announced contract (N00030-22-C-6001) to exercise fiscal 2024 options to provide support services for the U.S. Trident II D5 Strategic Weapon Systems program, the Attack Weapon System program, and the Nuclear Weapon Security program. This contract award also benefits a foreign military sale to the United Kingdom. Work will be performed in Rockville, Maryland (58.2%); Washington, D.C. (23.8%); Saint Marys, Georgia (3.3%); Cape Canaveral, Florida (2.3%); Rochester, United Kingdom (1.7%); Bremerton, Washington (1.3%); Portsmouth, Virginia (1.0%); and various other locations (less than 1% each, 8.4% total). Work is expected to be completed Sept. 30, 2024. This action is awarded subject to the availability of funds. No funds will expire at the end of the current fiscal year. This contract was a sole source acquisition pursuant to 10 U.S. Code 2304(c)(1)(4). Strategic Systems Programs, Washington, D.C., is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0003022C6001"
+        ],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 66974244.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "BAE Systems Technology Solutions & Services Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N00030-22-C-6001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee contract modification",
+        "description": "Exercise of fiscal 2024 options for support services for Trident II D5 Strategic Weapon Systems, Attack Weapon System, and Nuclear Weapon Security programs",
+        "base_contract_number": "N00030-22-C-6001",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 66974244,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": "sole source (10 U.S. Code 2304(c)(1)(4))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Moorestown, New Jersey, is awarded a $63,820,154 cost-plus-incentive-fee contract for establishment of the AEGIS Canadian Surface Combatant land-based test site in New Jersey. This contract involves Foreign Military Sales to the Royal Canadian Navy. Work will be performed in Moorestown, New Jersey (93%); Clearwater, Florida (3%); Orlando, Florida, (3%); and Owego, New York (1%), and is expected to be completed by November 2026. Foreign Military Sales (Canada) funds in the amount of $63,820,154 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10.U.S. Code 3204 (a)(4) (International Agreement). Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-23-C-5101).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C5101"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 63820154.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 63820154.0,
+        "funding_text": "Foreign Military Sales (Canada) funds in the amount of $63,820,154 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-11",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-23-C-5101"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Canada",
+          "Royal Canadian Navy"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-23-C-5101",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-incentive-fee contract",
+        "description": "Establishment of AEGIS Canadian Surface Combatant land-based test site in New Jersey",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 63820154,
+        "cumulative_value_usd": null,
+        "obligated_usd": 63820154,
+        "fms_countries": [
+          "Canada"
+        ],
+        "competition": "not competitively procured (10 U.S.C. 3204(a)(4), international agreement)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Woodland Hills, California, is awarded a $23,923,898 firm-fixed-price modification (P00009) to a previously awarded contract (N0001921C0073). This modification adds scope to procure six UH-1Y Link 16 A kits, six AH-1Z Link 16 A kits, 12 Link 16 B kits, two Link 16 Flight Training Device B kits, four Link 16 B kit spares, as well as associated systems engineering, program management, and logistics support in support of the UH-1Y and AH-1Z helicopter upgrades for the Navy. Work will be performed in Woodland Hills, California (67%); Des Plaines, Illinois (17%); San Diego, California (9%); and Huntsville, Alabama (7%), and is expected to be completed in November 2025. Fiscal 2023 aircraft procurement (Navy) funds in the amount of $16,415,283; and fiscal 2022 aircraft procurement (Navy) funds in the amount of $7,508,615, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0073"
+        ],
+        "modification_numbers": [
+          "P00009"
+        ],
+        "is_modification": true,
+        "value_usd": 23923898.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23923898.0,
+        "funding_text": "Fiscal 2023 aircraft procurement (Navy) funds in the amount of $16,415,283; and fiscal 2022 aircraft procurement (Navy) funds in the amount of $7,508,615, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Woodland Hills, California",
+            "contract_number": "N0001921C0073",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Adds scope to procure Link 16 kits and related engineering, program management, and logistics support for UH-1Y and AH-1Z helicopter upgrades",
+        "base_contract_number": "N0001921C0073",
+        "order_number": null,
+        "modification_number": "P00009",
+        "value_usd": 23923898,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23923898,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Greenland Enterprises Inc.,* Newport News, Virginia, is awarded a $23,718,772 firm-fixed-price contract to replace a steam boiler. This contract provides for a steam system replacement at the Steam B plant. Work will be performed at Naval Support Facility Indian Head, Maryland, and will be completed by July 2026. Fiscal 2023 operations and maintenance (Navy) funds in the amount of $23,718,772 will be obligated at time of award, and will not expire at the end of the fiscal year. This contract was competitively procured via the Procurement Integrated Enterprise Environment website, with two offers received. Naval Facilities Engineering Systems Command, Washington, D.C., is the contracting activity (N40080-23-C-0013).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "N4008023C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23718772.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23718772.0,
+        "funding_text": "Fiscal 2023 operations and maintenance (Navy) funds in the amount of $23,718,772 will be obligated at time of award, and will not expire at the end of the fiscal year",
+        "completion_date": "2026-07",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command, Washington, D.C.",
+          "code": "N40080-23-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Greenland Enterprises Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N40080-23-C-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Replacement of steam boiler (steam system replacement at Steam B plant), Naval Support Facility Indian Head",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23718772,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23718772,
+        "fms_countries": [],
+        "competition": "competitive, PIEE website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell Boeing Joint Project Office, Amarillo, Texas, is awarded an $11,284,194 modification (P00002) to a firm-fixed-price order (N0001922F2046) against a previously issued basic ordering agreement (N0001921G0006). This modification exercises an option to procure 38 rescue hoist mission kits in support of the CMV-22 Osprey fleet aircraft for the Navy. Work will be performed in Brea, California (88%); Ridley Park, Pennsylvania (9%); and Aston, Pennsylvania (3%), and is expected to be completed in March 2027. Fiscal 2021 aircraft procurement (Navy) funds in the amount of $11,284,194 will be obligated at the time of award, all of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F2046",
+          "N0001921G0006"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 11284194.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11284194.0,
+        "funding_text": "Fiscal 2021 aircraft procurement (Navy) funds in the amount of $11,284,194 will be obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Bell Boeing Joint Project Office",
+            "location": "Amarillo, Texas",
+            "contract_number": "N0001922F2046",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Exercise of option for 38 rescue hoist mission kits for CMV-22 Osprey fleet",
+        "base_contract_number": "N0001921G0006",
+        "order_number": "N0001922F2046",
+        "modification_number": "P00002",
+        "value_usd": 11284194,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11284194,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Charles Stark Draper Laboratory, Cambridge, Massachusetts, is awarded a $10,188,553 cost-plus-incentive-fee, cost-plus-fixed-fee modification (P00017) to a previously awarded contract (N0003022C6002). This modification increases the level of effort and incrementally funds fiscal 2023 options to provide technical and engineering services necessary to maintain and sustain the Trident II Strategic Weapon System (SWS) MK 6 Guidance subsystem. The effort also includes a requirement for strategic guidance, navigation, and control subject matter expertise to research and develop current and maturing concepts and technologies that will enable follow-on, full-scale development of the 2nd Life Extension of the Trident II (D5) SWS. Work will be performed in Cambridge, Massachusetts, and is expected to be completed Nov. 30, 2024. Fiscal 2023 research and development test and evaluation (Navy) funds in the amount of $3,311,845; fiscal 2023 weapons procurement (Navy) funds in the amount of $3,030,956; and fiscal 2023 operations and maintenance (Navy) funds in the amount of $3,845,752, will be obligated at the time of modification. Funds in the amount of $3,845,752 will expire at the end of the current fiscal year. This contract was awarded as a sole-source acquisition pursuant to 10 U.S. Code 2304(c)(1). Strategic Systems Programs, Washington, D.C., is the contracting activity.",
-      "seq": 18
+      "seq": 18,
+      "fields": {
+        "contract_numbers": [
+          "N0003022C6002"
+        ],
+        "modification_numbers": [
+          "P00017"
+        ],
+        "is_modification": true,
+        "value_usd": 10188553.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10188553.0,
+        "funding_text": "Fiscal 2023 research and development test and evaluation (Navy) funds in the amount of $3,311,845; fiscal 2023 weapons procurement (Navy) funds in the amount of $3,030,956; and fiscal 2023 operations and maintenance (Navy) funds in the amount of $3,845,752, will be obligated at the time of modification",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 18,
+        "awardees": [
+          {
+            "name": "The Charles Stark Draper Laboratory",
+            "location": "Cambridge, Massachusetts",
+            "contract_number": "N0003022C6002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee, cost-plus-fixed-fee",
+        "description": "Increases level of effort and incrementally funds fiscal 2023 options for Trident II SWS MK 6 Guidance subsystem technical and engineering services",
+        "base_contract_number": "N0003022C6002",
+        "order_number": null,
+        "modification_number": "P00017",
+        "value_usd": 10188553,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10188553,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sealift Inc. of Delaware, Oyster Bay, New York, is awarded an option (P000026) in the amount of $10,065,000 for contract N3220520C6173. This modification exercises the fourth one-year option period of the contract for one U.S. flagged prepositioning vessel M/V LTC John U.D. Page (T-AK 4543) supporting the Army’s preposition requirements. This contract includes a 223 day base period with two 365 day option periods, one 360 day option period, one 366 day option period, and one 51 day option period, which, if exercised, would bring the cumulative value of this contract to $53,103,000. Work will be performed worldwide and is expected to be completed, if all options are exercised, by Nov. 15, 2025. Working capital funds (Transportation) in the amount of $10,065,000 are obligated for fiscal 2023. This contract was competitively procured with proposals solicited via the System for Award Management website and no offers were received. Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 19
+      "seq": 19,
+      "fields": {
+        "contract_numbers": [
+          "N3220520C6173"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10065000.0,
+        "cumulative_value_usd": 53103000.0,
+        "obligated_usd": 10065000.0,
+        "funding_text": "Working capital funds (Transportation) in the amount of $10,065,000 are obligated for fiscal 2023",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 19,
+        "awardees": [
+          {
+            "name": "Sealift Inc. of Delaware",
+            "location": "Oyster Bay, New York",
+            "contract_number": "N3220520C6173",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "option for prepositioning vessel service",
+        "description": "Fourth one-year option for prepositioning vessel M/V LTC John U.D. Page (T-AK 4543) supporting Army preposition requirements",
+        "base_contract_number": "N3220520C6173",
+        "order_number": null,
+        "modification_number": "P000026",
+        "value_usd": 10065000,
+        "cumulative_value_usd": 53103000,
+        "obligated_usd": 10065000,
+        "fms_countries": [],
+        "competition": "competitive, SAM website, no offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Athena Construction Group Inc., Triangle, Virginia, is awarded a modification for an option year (P00001) valued at $8,000,000 on a firm-fixed-price, indefinite-delivery/indefinite-quantity contract (HQ003422D0021). No funds will be obligated at the time of award. The cumulative total of the contract, including this option year, is $27,010,000. The total amount of this action if all options are exercised is $45,000,000. The purpose of this contract is to procure heavy and civil construction on the Pentagon Reservation for up to 10 years if all options are exercised. The work will be performed at the Pentagon Reservation. The estimated completion date is Sept. 26, 2032. Washington Headquarters Services, Arlington, Virginia, is the contracting activity.",
-      "seq": 20
+      "seq": 20,
+      "fields": {
+        "contract_numbers": [
+          "HQ003422D0021"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 8000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 20,
+        "awardees": [
+          {
+            "name": "Athena Construction Group Inc.",
+            "location": "Triangle, Virginia",
+            "contract_number": "HQ003422D0021",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Option year for heavy and civil construction on the Pentagon Reservation",
+        "base_contract_number": "HQ003422D0021",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 8000000,
+        "cumulative_value_usd": 27010000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-09-18.html"
+  "source": "file:2023-09-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:17:24Z"
+  }
 }

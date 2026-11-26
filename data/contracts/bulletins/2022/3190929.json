@@ -11,9 +11,58 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Pole/Zero Acquisition Inc., West Chester, Ohio, is awarded a $53,544,462 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures up to 346 antenna interface units and communications trays, to include 190 for the Navy, 132 for Foreign Military Sales (FMS) customers and 24 for the government of Australia, as well as required technical data, assemblies, subassemblies, and spares in support of the P-8A Poseidon communications suite. Work will be performed in West Chester, Ohio, and is expected to be completed in October 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to Defense Federal Acquisition Regulations 6.302-1. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833523D0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6833523D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 53544462.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2028-10",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833523D0001"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pole/Zero Acquisition Inc.",
+            "location": "West Chester, Ohio",
+            "contract_number": "N6833523D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Up to 346 antenna interface units and communications trays (190 Navy, 132 FMS, 24 Australia) and spares for the P-8A Poseidon communications suite",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 53544462,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": "not competitively procured pursuant to DFARS 6.302-1",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2022-10-17.html"
+  "source": "file:2022-10-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:52:41Z"
+  }
 }

@@ -11,45 +11,354 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Kratos Technology & Training Solutions Inc., San Diego, California, has been awarded a single-award, indefinite-delivery/indefinite-quantity contract with a ceiling value of $579,000,000 for the Command-and-Control System Consolidated (CCS-C) Sustainment and Resiliency. This contract will sustain and provide post-production development for the current CCS-C system for telemetry, tracking and commanding of current and future military communication satellites. Work will primarily be performed at Schriever Space Force Base, Colorado; Vandenberg SFB, California; and Peterson SFB, Colorado, and is expected to be completed May 30, 2032. This award is the result of a competitive acquisition with one solicitation mailed and one offer received. No funds will be obligated on the basic contract. Fiscal 2024 Space Force operations and maintenance funds in the amount of $6,277,290 will be obligated on a subsequent task and delivery order. Space Systems Command, Peterson SFB, Colorado, is the contracting activity (FA8823-23-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA882323D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 579000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated on the basic contract Fiscal 2024 Space Force operations and maintenance funds in the amount of $6,277,290 will be obligated on a subsequent task and delivery order",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space Systems Command, Peterson SFB, Colorado",
+          "code": "FA8823-23-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Kratos Technology & Training Solutions Inc.",
+            "location": "San Diego, California",
+            "contract_number": "FA8823-23-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "single-award indefinite-delivery/indefinite-quantity contract",
+        "description": "Command-and-Control System Consolidated (CCS-C) Sustainment and Resiliency for telemetry, tracking and commanding of military communication satellites",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 579000000,
+        "cumulative_value_usd": 579000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive acquisition; one solicitation mailed, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded a $44,576,288 modification (P00001) to contract W911W6-21-D-0001 for specialized engineering analysis test and technical services. Work locations and funding will be determined with each order, with an estimated completion date of March 21, 2026. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911W621D0001"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 44576288.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-03-21",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W911W6-21-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Specialized engineering analysis test and technical services",
+        "base_contract_number": "W911W6-21-D-0001",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 44576288,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The modification (P01111) to contract W56HZV-15-C-0095, announced Nov. 3, 2023, for Oshkosh Defense, Oshkosh, Wisconsin, for Joint Light Tactical Vehicles, was actually in the amount of $208,890,271.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15C0095"
+        ],
+        "modification_numbers": [
+          "P01111"
+        ],
+        "is_modification": true,
+        "value_usd": 208890271.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Oshkosh Defense",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "W56HZV-15-C-0095",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to modification P01111 for Joint Light Tactical Vehicles, announced Nov. 3, 2023; amount corrected to $208,890,271",
+        "base_contract_number": "W56HZV-15-C-0095",
+        "order_number": null,
+        "modification_number": "P01111",
+        "value_usd": 208890271,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, was awarded a $36,262,469 cost-plus-fixed-fee, cost-reimbursable contract (N0003924C4000) issued by the Naval Information Warfare Systems Command. The contract is to procure software engineering services to customize the latest Windows version of Northrop Grumman Systems Corp. ICS software to meet Taipei Economic and Cultural Representative Office (TECRO) specific requirements. The contract effort will require the contractor to perform systems engineering, software engineering, integration and testing, installation support, and training. This contract was not competitively procured because it is a sole source acquisition pursuant to the authority of 10 U.S. Code 3204 (a)(1) - Only One Responsible Source (Federal Acquisition Regulation subpart 6.302-1). Foreign Military Sales (FMS) case funds from TECRO in the amount of $16,245,829 will be obligated at award, the remainder of the effort will continue to be incrementally funded with TECRO FMS case funding. Work will be performed in San Diego, California (90%); and in Taiwan (10%), and is expected to be completed by November 2026. The Naval Information Warfare Systems Command, San Diego, California, is the contracting activity (N00039).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0003924C4000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36262469.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16245829.0,
+        "funding_text": "Foreign Military Sales (FMS) case funds from TECRO in the amount of $16,245,829 will be obligated at award, the remainder of the effort will continue to be incrementally funded with TECRO FMS case funding",
+        "completion_date": "2026-11",
+        "contracting_activity": {
+          "name": "The Naval Information Warfare Systems Command, San Diego, California",
+          "code": "N00039"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N0003924C4000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost-reimbursable contract",
+        "description": "Software engineering services to customize Windows version of Northrop Grumman ICS software for TECRO requirements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36262469,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16245829,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "sole source (10 U.S.C. 3204(a)(1), only one responsible source)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Syracuse, New York, is awarded a $26,330,635 cost-plus-incentive-fee delivery order N00024-24-F-6214 under indefinite-delivery/indefinite-quantity contract N00024-19-D-6200 for design and submarine equipment. Work will be performed in Syracuse, New York, and is expected to be completed by August 2025. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $19,258,207 (73%); and fiscal 2024 other procurement (Navy) funds in the amount of $7,072,428 (27%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002424F6214",
+          "N0002419D6200"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26330635.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26330635.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $19,258,207 (73%); and fiscal 2024 other procurement (Navy) funds in the amount of $7,072,428 (27%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-08",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-24-F-6214",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-incentive-fee delivery order under indefinite-delivery/indefinite-quantity contract",
+        "description": "Design and submarine equipment",
+        "base_contract_number": "N00024-19-D-6200",
+        "order_number": "N00024-24-F-6214",
+        "modification_number": null,
+        "value_usd": 26330635,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26330635,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Innovative Defense Technologies LLC,* Arlington, Virginia, is awarded a $16,352,342 cost-plus-fixed-fee and cost modification to previously awarded contract N00024-21-C-5100 to exercise options for engineering labor and support requirements for Automated Test and Analysis capability supporting Navy surface combatant combat system development. Work will be performed in Arlington, Virginia (40%); Mount Laurel, New Jersey (39%); Kauai, Hawaii (10%); White Sands, New Mexico (9%); and various at-sea events (2%), and is expected to be completed by November 2024. Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $5,267,128 (94%); and fiscal 2024 research, development, test, and evaluation (Navy) funding in the amount of $350,192 (6%), will be obligated at time of award, of which $5,267,128 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C5100"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16352342.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5617320.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $5,267,128 (94%); and fiscal 2024 research, development, test, and evaluation (Navy) funding in the amount of $350,192 (6%), will be obligated at time of award, of which $5,267,128 will expire at the end of the current fiscal year",
+        "completion_date": "2024-11",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Innovative Defense Technologies LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "N00024-21-C-5100",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and cost contract modification (option exercise)",
+        "description": "Engineering labor and support for Automated Test and Analysis capability supporting Navy surface combatant combat system development",
+        "base_contract_number": "N00024-21-C-5100",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16352342,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5617320,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Linthicum, Maryland, was awarded a $9,234,025 cost-plus-fixed-fee completion contract for a Defense Advanced Research Projects Agency research project for the Miniature Integrated Thermal Management Systems for 3D Heterogeneous Integration (Minitherms3D) program. The Minitherms3D program seeks to revolutionize thermal management 3D heterogeneous integration (3DHI) and significantly reduce thermal resistances within the 3D stack and external to the stack of 3DHI systems, while increasing volumetric heat removal. Work will be performed in Batavia, Illinois (42.5%); Linthicum, Maryland (22.2%); Lincoln, Nebraska (22.1%); Chicago, Illinois (7.3%); Niskayuna, New York (3.8%); and La Jolla, California (2.1%), with an expected completion date of May 2025. Fiscal 2023 research, development, test and evaluation funds in the amount of $4,034,707 are being obligated at time of award. This contract is a competitive acquisition in which 11 proposals were received in response to Broad Agency Announcement HR001123S0019. DARPA, Arlington, Virginia, is the contracting activity (HR001124C0303).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "HR001123S0019",
+          "HR001124C0303"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9234025.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4034707.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation funds in the amount of $4,034,707 are being obligated at time of award",
+        "completion_date": "2025-05",
+        "contracting_activity": {
+          "name": "DARPA, Arlington, Virginia",
+          "code": "HR001124C0303"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Linthicum, Maryland",
+            "contract_number": "HR001124C0303",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion contract",
+        "description": "DARPA research project for Miniature Integrated Thermal Management Systems for 3D Heterogeneous Integration (Minitherms3D)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9234025,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4034707,
+        "fms_countries": [],
+        "competition": "competitive; 11 proposals received under BAA HR001123S0019",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-11-06.html"
+  "source": "file:2023-11-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:09:03Z"
+  }
 }

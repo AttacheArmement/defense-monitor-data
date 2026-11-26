@@ -11,63 +11,525 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, was awarded a $74,045,265 modification (P00017) to contract W58RGZ-21-C-0016 for the AH-64 Apache Modernized Target Acquisition Designation Sight/Pilot Night Vision Sensor Performance Based Logistics program. Work will be performed in Orlando, Florida, with an estimated completion date of Dec. 31, 2024. Fiscal 2024 Army working capital funds in the amount of $74,045,265 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ21C0016"
+        ],
+        "modification_numbers": [
+          "P00017"
+        ],
+        "is_modification": true,
+        "value_usd": 74045265.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 74045265.0,
+        "funding_text": "Fiscal 2024 Army working capital funds in the amount of $74,045,265 were obligated at the time of the award",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "W58RGZ-21-C-0016",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "AH-64 Apache Modernized Target Acquisition Designation Sight/Pilot Night Vision Sensor Performance Based Logistics program",
+        "base_contract_number": "W58RGZ-21-C-0016",
+        "order_number": null,
+        "modification_number": "P00017",
+        "value_usd": 74045265,
+        "cumulative_value_usd": null,
+        "obligated_usd": 74045265,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Longbow LLC, Orlando, Florida, was awarded a $10,773,790 modification (P00008) to contract W58RGZ-22-C-0053 for the Apache AH-64D/E Model Fire Control Radar. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2024. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ22C0053"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 10773790.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Longbow LLC",
+            "location": "Orlando, Florida",
+            "contract_number": "W58RGZ-22-C-0053",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Apache AH-64D/E Model Fire Control Radar",
+        "base_contract_number": "W58RGZ-22-C-0053",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 10773790,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "West Consultants Inc.,* Salem, Oregon, was awarded a $10,000,000 firm-fixed-price contract for hydraulic and hydrologic engineering services. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 12, 2028. U.S. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W9127N-24-D-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9127N24D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-12",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Portland, Oregon",
+          "code": "W9127N-24-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "West Consultants Inc.",
+            "location": "Salem, Oregon",
+            "contract_number": "W9127N-24-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Hydraulic and hydrologic engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; five received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "B.L. Harbert International LLC, Birmingham, Alabama, is awarded a $136,109,705 firm-fixed-price contract for construction of a nuclear regional maintenance facility located at Naval Submarine Base, Kings Bay, Georgia. The work to be performed provides for, but is not limited to, construction of a new precast panel and structural steel frame building, with aggregate pier ground improvements and spread footings with reinforced concrete slab on grade, with incidental site work, pavements, utilities, drainage and demolition work. Work will be performed in Camden County, Georgia, and will be completed by August 2028. Fiscal 2023 military construction (Navy) contract funds in the amount of $136,109,705 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the sam.gov website, with two offers received. Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida, is the contracting activity (N69450-24-C-0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6945024C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 136109705.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 136109705.0,
+        "funding_text": "Fiscal 2023 military construction (Navy) contract funds in the amount of $136,109,705 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-08",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida",
+          "code": "N69450-24-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "B.L. Harbert International LLC",
+            "location": "Birmingham, Alabama",
+            "contract_number": "N69450-24-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of a nuclear regional maintenance facility at Naval Submarine Base, Kings Bay, Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 136109705,
+        "cumulative_value_usd": null,
+        "obligated_usd": 136109705,
+        "fms_countries": [],
+        "competition": "Competitive, sam.gov; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Lockheed Martin Co., Stratford, Connecticut, is awarded a $56,873,480 modification (P00005) to a previously awarded firm-fixed-price, cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract (N0001923D0011). This modification increases the contract ceiling to provide integrated logistics support, sustainment engineering, spares procurement, materials management, component overhaul, and training activities in support of sustainment efforts for the VH-92A helicopter for the Navy. Work will be performed in Stratford, Connecticut (92.5%); Owego, New York (4.6%); Trumball, Connecticut (1.6%); and various locations within the continental U.S. (1.3%). No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001923D0011"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 56873480.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp., Lockheed Martin Co.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "N0001923D0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract",
+        "description": "Increases contract ceiling for integrated logistics support, sustainment engineering, spares, overhaul and training for the VH-92A helicopter",
+        "base_contract_number": "N0001923D0011",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 56873480,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded a $34,286,466 cost-plus-fixed-fee modification to previously awarded contract N00024-23-C-5401 to exercise options for design agent and engineering support services for the Rolling Airframe Missile. Work will be performed in Tucson, Arizona, and is expected to be completed by March 2028. Federal Republic of Germany funds in the amount of $8,530,761 (77%); fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $1,154,900 (10%); Foreign Military Sales funds in the amount of $620,002 (6%); fiscal 2022 weapons procurement (Navy) funds in the amount of $271,317 (2%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $197,054 (2%); fiscal 2023 weapons procurement (Navy) funds in the amount of $140,319 (1%); fiscal 2018 shipbuilding and conversion (Navy) funds in the amount of $117,283 (1%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $95,914 (<1%); and fiscal 2022 other procurement (Navy) funds in the amount of $16,918 (<1%), will be obligated at time of award of which $288,235 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C5401"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 34286466.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11144468.0,
+        "funding_text": "Federal Republic of Germany funds in the amount of $8,530,761 (77%); fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $1,154,900 (10%); Foreign Military Sales funds in the amount of $620,002 (6%); fiscal 2022 weapons procurement (Navy) funds in the amount of $271,317 (2%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $197,054 (2%); fiscal 2023 weapons procurement (Navy) funds in the amount of $140,319 (1%); fiscal 2018 shipbuilding and conversion (Navy) funds in the amount of $117,283 (1%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $95,914 (<1%); and fiscal 2022 other procurement (Navy) funds in the amount of $16,918 (<1%), will be obligated at time of award of which $288,235 will expire at the end of the current fiscal year",
+        "completion_date": "2028-03",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00024-23-C-5401",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Design agent and engineering support services for the Rolling Airframe Missile (exercise of options)",
+        "base_contract_number": "N00024-23-C-5401",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34286466,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Federal Republic of Germany"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Environmental Alternatives Inc.* Swanzey, New Hampshire, is awarded a $19,564,482 firm-fixed-price, indefinite-delivery/indefinite-quantity contract, for specialized depot overhaul induction procedures to process potentially radiologically contaminated LM2500 Single Shank Turbine Gas Generator Assemblies, which are subject to radiological control in support of the Navy’s Marine Gas Turbine Program. The contract will have a five year ordering period. Work will be performed in Swanzey, New Hampshire, and is expected to be completed by November 2029. Fiscal 2024 operation and maintenance (Navy) funding in the total amount of $940,400 will be obligated at time of award and will expire at the end of the fiscal year. This contract was a total small business set-aside, competitively procured via the Contract Opportunities website at www.sam.gov with two offers received. Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity (N64498-24-D-4001).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6449824D4001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19564482.0,
+        "cumulative_value_usd": 940400.0,
+        "obligated_usd": 940400.0,
+        "funding_text": "Fiscal 2024 operation and maintenance (Navy) funding in the total amount of $940,400 will be obligated at time of award and will expire at the end of the fiscal year",
+        "completion_date": "2029-11",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": "N64498-24-D-4001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Environmental Alternatives Inc.",
+            "location": "Swanzey, New Hampshire",
+            "contract_number": "N64498-24-D-4001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Specialized depot overhaul induction procedures for potentially radiologically contaminated LM2500 Single Shank Turbine Gas Generator Assemblies, Marine Gas Turbine Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19564482,
+        "cumulative_value_usd": null,
+        "obligated_usd": 940400,
+        "fms_countries": [],
+        "competition": "Total small business set-aside; competitive via sam.gov; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "ION Corp., Eden Prairie, Minnesota (FA8139-24-D-0001, $37,493,852); X Technologies, Inc., San Antonio, Texas (FA8139-24-D-0002, $43,964,664); Westest Engineering Corp., Layton, Utah (FA8139-24-D-0003, $24,123,608); and Tyonek Engineering and Agile Manufacturing LLC, Warner Robbins, Georgia (FA8139-24-D-0004, $20,167,002), were awarded firm-fixed-price, multiple award, indefinite-delivery/indefinite-quantity contracts for interface test adapter and related test equipment design and manufacturing services. This contract provides for all supervision, personnel, equipment, tools, materials, transportation, and other items as necessary, except for government furnished property applicable for design and manufacture of interface test adapters and related test equipment design and manufacturing for Air Force government test program set development. Work will be performed at each vendors location and is expected to be completed by April 2, 2029. These awards are the result of a competitive acquisition, and 10 offers were received. Fiscal 2024 working capital funds in the amount of $25,196 are being obligated at time of award. The Air Force Sustainment Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA813924D0001",
+          "FA813924D0002",
+          "FA813924D0003",
+          "FA813924D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 37493852.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25196.0,
+        "funding_text": "Fiscal 2024 working capital funds in the amount of $25,196 are being obligated at time of award",
+        "completion_date": "2029-04-02",
+        "contracting_activity": {
+          "name": "The Air Force Sustainment Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "ION Corp.",
+            "location": "Eden Prairie, Minnesota",
+            "contract_number": "FA8139-24-D-0001",
+            "markers": null
+          },
+          {
+            "name": "X Technologies, Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "FA8139-24-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Westest Engineering Corp.",
+            "location": "Layton, Utah",
+            "contract_number": "FA8139-24-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Tyonek Engineering and Agile Manufacturing LLC",
+            "location": "Warner Robbins, Georgia",
+            "contract_number": "FA8139-24-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, multiple award, indefinite-delivery/indefinite-quantity contracts",
+        "description": "Interface test adapter and related test equipment design and manufacturing services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25196,
+        "fms_countries": [],
+        "competition": "Competitive acquisition; 10 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Propper International Inc., Cabo Rojo, Puerto Rico, has been awarded a maximum $42,749,076 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the modular lightweight load-carrying equipment components. This was a competitive acquisition with nine responses received. This is a three-year contract with no option periods. The ordering period end date is Dec. 12, 2026. Using military services are Army and Air Force. Type of appropriation is fiscal 2024 through 2027 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-24-D-0016).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C124D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42749076.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-24-D-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Propper International Inc.",
+            "location": "Cabo Rojo, Puerto Rico",
+            "contract_number": "SPE1C1-24-D-0016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Modular lightweight load-carrying equipment components",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42749076,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition; nine responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Altec Industries Inc., Birmingham, Alabama (SPE8EC-24-D-0026, $157,000,000), has been added as an awardee to the multiple award contract for commercial cranes, issued against solicitation SPE8EC-21-R-0003 and awarded Aug. 25, 2022.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC24D0026",
+          "SPE8EC21R0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 157000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Altec Industries Inc.",
+            "location": "Birmingham, Alabama",
+            "contract_number": "SPE8EC-24-D-0026",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "UPDATE: adds Altec Industries as awardee to multiple award contract for commercial cranes (solicitation SPE8EC-21-R-0003, awarded Aug. 25, 2022)",
+        "base_contract_number": "SPE8EC-21-R-0003",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 157000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-08-25"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2023-12-13.html"
+  "source": "file:2023-12-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:05:41Z"
+  }
 }

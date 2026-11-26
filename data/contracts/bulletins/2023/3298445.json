@@ -11,57 +11,511 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land and Armaments L.P., York, Pennsylvania, was awarded a $466,413,360 modification (P00131) to contract W56HZV-17-C-0001 for M109A7 Self-Propelled Howitzers and M992A3 Carrier, Ammunition, Tracked vehicles; Total Package Fielding support hardware kits, and support. Work will be performed in York, Pennsylvania; Sterling Heights, Michigan; Aiken, South Carolina; Elgin, Oklahoma; and Anniston, Alabama, with an estimated completion date of Dec. 30, 2026. Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $83,261,562 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV17C0001"
+        ],
+        "modification_numbers": [
+          "P00131"
+        ],
+        "is_modification": true,
+        "value_usd": 466413360.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 83261562.0,
+        "funding_text": "Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $83,261,562 were obligated at the time of the award",
+        "completion_date": "2026-12-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BAE Systems Land and Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W56HZV-17-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "M109A7 Self-Propelled Howitzers and M992A3 Carrier, Ammunition, Tracked vehicles; Total Package Fielding support hardware kits, and support",
+        "base_contract_number": "W56HZV-17-C-0001",
+        "order_number": null,
+        "modification_number": "P00131",
+        "value_usd": 466413360,
+        "cumulative_value_usd": null,
+        "obligated_usd": 83261562,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Shimmick Construction Company Inc., Irvine, California (W912P5-23-D-0001); Kiewit Infrastructure Co., Woodcliff Lake, New Jersey (W912P5-23-D-0002); Brad Cole Construction Company Inc., Carrollton, Georgia (W912P5-23-D-0003); Wood Environment & Infrastructure Solutions Inc., Blue Bell, Pennsylvania (W912P5-23-D-0004); Howard W. Pence Inc.,* Elizabethtown, Kentucky (W912P5-23-D-0005); Geiger Brothers Inc.,* Jackson, Ohio (W912P5-23-D-0006); and Custom Mechanical Systems Corp.,* Bargersville, Indiana (W912P5-23-D-0007), will compete for each order of the $250,000,000 firm-fixed-price contract for land-based civil works construction. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 13, 2028. U.S. Army Corps of Engineers, Nashville, Tennessee, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912P523D0001",
+          "W912P523D0002",
+          "W912P523D0003",
+          "W912P523D0004",
+          "W912P523D0005",
+          "W912P523D0006",
+          "W912P523D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 250000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-02-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Nashville, Tennessee",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Shimmick Construction Company Inc.",
+            "location": "Irvine, California",
+            "contract_number": "W912P5-23-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Kiewit Infrastructure Co.",
+            "location": "Woodcliff Lake, New Jersey",
+            "contract_number": "W912P5-23-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Brad Cole Construction Company Inc.",
+            "location": "Carrollton, Georgia",
+            "contract_number": "W912P5-23-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Wood Environment & Infrastructure Solutions Inc.",
+            "location": "Blue Bell, Pennsylvania",
+            "contract_number": "W912P5-23-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Howard W. Pence Inc.",
+            "location": "Elizabethtown, Kentucky",
+            "contract_number": "W912P5-23-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "Geiger Brothers Inc.",
+            "location": "Jackson, Ohio",
+            "contract_number": "W912P5-23-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "Custom Mechanical Systems Corp.",
+            "location": "Bargersville, Indiana",
+            "contract_number": "W912P5-23-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Land-based civil works construction multiple award contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 250000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet with seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded an $11,925,385 modification (P00030) to contract W56HZV-22-C-0012 for Abrams systems technical support. Work will be performed in Sterling Heights, Michigan, with an estimated completion date of Feb. 29, 2024. Fiscal 2010 Foreign Military Sales (Saudi Arabia, Morocco, Egypt and Iraq) funds in the amount of $11,925,385 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0012"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 11925385.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11925385.0,
+        "funding_text": "Fiscal 2010 Foreign Military Sales (Saudi Arabia, Morocco, Egypt and Iraq) funds in the amount of $11,925,385 were obligated at the time of the award",
+        "completion_date": "2024-02-29",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Morocco",
+          "Egypt",
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-22-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Abrams systems technical support",
+        "base_contract_number": "W56HZV-22-C-0012",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 11925385,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11925385,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Morocco",
+          "Egypt",
+          "Iraq"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics NASSCO-Bremerton, Bremerton, Washington, was awarded a $43,066,073 firm-fixed-price contract (N4523A-23-C-0561) for the maintenance, modernization, and repair of the USS Sampson (DDG 102) in a Chief of Naval Operations availability. This contract includes options which, if exercised, would bring the cumulative value of this contract to $43,139,448. Work will be performed in Everett, Washington, and is expected to be completed by September 2023. If all options are exercised, work will continue through September 2023. Fiscal 2023 other procurement (Navy) funds in the amount of $40,853,575 (95%); fiscal 2023 operations and maintenance (Navy) funds in the amount of $1,907,116 (4%); fiscal 2022 other procurement (Navy) funds in the amount of $167,840 (less than 1%); and fiscal 2023 working capital funds in the amount of $137,542 (less than 1%) will be obligated at time of award, of which $1,907,116 (4%) will expire at the end of the current fiscal year. This contract was not competitive procured in accordance with 10 U.S. Code 2304(c)(3) — industrial mobilization; engineering, developmental, or research capability; or expert services. The Northwest Regional Maintenance Center, Everett, Washington, is the contracting activity (N4523A-23-C-0561). (Awarded Feb. 13, 2023)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N4523A23C0561"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 43066073.0,
+        "cumulative_value_usd": 43139448.0,
+        "obligated_usd": 43066073.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $40,853,575 (95%); fiscal 2023 operations and maintenance (Navy) funds in the amount of $1,907,116 (4%); fiscal 2022 other procurement (Navy) funds in the amount of $167,840 (less than 1%); and fiscal 2023 working capital funds in the amount of $137,542 (less than 1%) will be obligated at time of award, of which $1,907,116 (4%) will expire at the end of the current fiscal year",
+        "completion_date": "2023-09",
+        "contracting_activity": {
+          "name": "The Northwest Regional Maintenance Center, Everett, Washington",
+          "code": "N4523A-23-C-0561"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "General Dynamics NASSCO-Bremerton",
+            "location": "Bremerton, Washington",
+            "contract_number": "N4523A-23-C-0561",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance, modernization, and repair of USS Sampson (DDG 102) in a Chief of Naval Operations availability",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43066073,
+        "cumulative_value_usd": 43139448,
+        "obligated_usd": 43066073,
+        "fms_countries": [],
+        "competition": "Not competitively procured per 10 U.S.C. 2304(c)(3)",
+        "award_date": "2023-02-13"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alabama Shipyard LLC,* Mobile, Alabama, is awarded a $21,192,959‬ firm-fixed-price contract (N3220523C4006) for a 91-calendar day shipyard availability for the regular overhaul and dry docking of Military Sealift Command’s dry cargo and ammunition ship USNS Robert E. Peary (T-AKE 5). This contract includes a base period and options, which if exercised, would bring the cumulative value to $21,504,977‬. Work will be performed in Mobile, Alabama, beginning March 21, 2023, and is expected to be completed by June 19, 2023. Fiscal 2023 working capital (Navy) funds in the amount of $21,192,959 are obligated and will expire at the end of the current fiscal year. This contract was competitively procured with proposals solicited via the System for Award Management website and three offers were received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220523C4006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220523C4006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21192959.0,
+        "cumulative_value_usd": 21504977.0,
+        "obligated_usd": 21192959.0,
+        "funding_text": "Fiscal 2023 working capital (Navy) funds in the amount of $21,192,959 are obligated and will expire at the end of the current fiscal year",
+        "completion_date": "2023-06-19",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220523C4006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Alabama Shipyard LLC",
+            "location": "Mobile, Alabama",
+            "contract_number": "N3220523C4006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "91-calendar day shipyard availability for regular overhaul and dry docking of USNS Robert E. Peary (T-AKE 5)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21192959,
+        "cumulative_value_usd": 21504977,
+        "obligated_usd": 21192959,
+        "fms_countries": [],
+        "competition": "Competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Oshkosh Defense LLC, Oshkosh, Wisconsin, has been awarded a maximum $11,464,117 firm-fixed-price delivery order (SPRDL1-23-F-0081) against a three-year indefinite-delivery/indefinite-quantity contract (SPE7LX-20-D-0022) with two one-year option periods for tire and wheel assemblies. This was a competitive acquisition with one response received. Location of performance is New Jersey, with an Oct. 31, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL123F0081",
+          "SPE7LX20D0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11464117.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Oshkosh Defense LLC",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "SPRDL1-23-F-0081",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Tire and wheel assemblies",
+        "base_contract_number": "SPE7LX-20-D-0022",
+        "order_number": "SPRDL1-23-F-0081",
+        "modification_number": null,
+        "value_usd": 11464117,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Armed Forces Services Corp., doing business as Magellan Federal, Arlington, Virginia, was awarded a six- month bridge extension modification (P00023) valued at $10,944,982, for the firm-fixed-price contract HT0011-19-C-0006 for Recovery Coordination Program services. The Recovery Coordination Program provides professional services in the areas of strategic, programmatic, and operations to support the full implementation of the Department's Recovery Coordination Program and specifically to provide support to the Department's Recovery Care Coordinator program; the Recovery Coordination Program-Support Solution; Education and Employment Initiative; Military Adaptive Sports Program; Operation Warfighter Internships; the National Resource Directory, and Warrior Games. Services will be performed at various locations in the continental U.S., with an estimated completion date (assuming the government exercises all available contract options) of July 16, 2023. Fiscal 2023 operation and maintenance funds in the amount of $2,736,865 are obligated for the modification to establish and fully fund the first two months of the six-month bridge extension contract line items 1301, 1303-1304 from Jan. 17, 2023, through March 16, 2023. The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia, is the contracting activity. (Awarded Jan. 17, 2023)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "HT001119C0006"
+        ],
+        "modification_numbers": [
+          "P00023"
+        ],
+        "is_modification": true,
+        "value_usd": 10944982.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2736865.0,
+        "funding_text": "Fiscal 2023 operation and maintenance funds in the amount of $2,736,865 are obligated for the modification to establish and fully fund the first two months of the six-month bridge extension contract line items 1301, 1303-1304 from Jan. 17, 2023, through March 16, 2023",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Armed Forces Services Corp., doing business as Magellan Federal",
+            "location": "Arlington, Virginia",
+            "contract_number": "HT0011-19-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Six-month bridge extension for Recovery Coordination Program services",
+        "base_contract_number": "HT0011-19-C-0006",
+        "order_number": null,
+        "modification_number": "P00023",
+        "value_usd": 10944982,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2736865,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-01-17"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Conti Federal Services, Orlando, Florida, was awarded an $8,445,000 firm-fixed-price contract for building renovations of Air Force Building #1643 to support the F-35 aircraft. Work will be performed at Naval Air Station Joint Reserve Base Fort Worth, Texas, and is expected to be completed by April 8, 2024. This contract was a competitive acquisition and one offer was received. Fiscal 2023 operations and maintenance funds in the amount of $8,445,000 are being obligated at time of award. The 301st Contracting Flight, Naval Air Station Joint Reserve Base Fort Worth, Texas, is the contracting activity (FA6675-23-C-0001). (Awarded Feb. 10, 2023)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA667523C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8445000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8445000.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $8,445,000 are being obligated at time of award",
+        "completion_date": "2024-04-08",
+        "contracting_activity": {
+          "name": "The 301st Contracting Flight, Naval Air Station Joint Reserve Base Fort Worth, Texas",
+          "code": "FA6675-23-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Conti Federal Services",
+            "location": "Orlando, Florida",
+            "contract_number": "FA6675-23-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Building renovations of Air Force Building #1643 to support the F-35 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8445000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8445000,
+        "fms_countries": [],
+        "competition": "Competitive, one offer received",
+        "award_date": "2023-02-10"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, has been awarded an $8,324,455 cost-reimbursement, cost-plus-fixed-fee, firm-fixed-price, and fixed-price incentive contract modification (P00216) to previously awarded FA8629-14-C-2403 for removing test instruments from an HH-60W aircraft so that it is fully operational. The modification brings the total cumulative face value of the contract to $5,062,847,117. Work will be performed in Stratford, Connecticut, and is expected to be completed by April 10, 2024. Fiscal 2023 procurement funds in the amount of $8,324,455 are being obligated at time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA862914C2403"
+        ],
+        "modification_numbers": [
+          "P00216"
+        ],
+        "is_modification": true,
+        "value_usd": 8324455.0,
+        "cumulative_value_usd": 5062847117.0,
+        "obligated_usd": 8324455.0,
+        "funding_text": "Fiscal 2023 procurement funds in the amount of $8,324,455 are being obligated at time of award",
+        "completion_date": "2024-04-10",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "FA8629-14-C-2403",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-reimbursement, cost-plus-fixed-fee, firm-fixed-price, and fixed-price incentive contract",
+        "description": "Removing test instruments from an HH-60W aircraft so that it is fully operational",
+        "base_contract_number": "FA8629-14-C-2403",
+        "order_number": null,
+        "modification_number": "P00216",
+        "value_usd": 8324455,
+        "cumulative_value_usd": 5062847117,
+        "obligated_usd": 8324455,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-02-14.html"
+  "source": "file:2023-02-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:41:26Z"
+  }
 }

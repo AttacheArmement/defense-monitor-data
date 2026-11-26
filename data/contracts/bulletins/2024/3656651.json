@@ -11,51 +11,409 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hensel Phelps Construction Co., Greeley, Colorado, was awarded a $95,333,600 firm-fixed-price contract for construction of the Ground Base Strategic Deterrence Integrated Command Center. Bids were solicited via the internet with two received. Work will be performed at F. E. Warren Air Force Base, with an estimated completion date of Aug. 3, 2026. Fiscal 2023 military construction, Air Force funds in the amount of $79,310,799 were obligated at the time of the award. U.S. Army Corps of Engineers, Omaha, Nebraska, is the contracting activity (W9128F-24-C-0009).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9128F24C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95333600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 79310799.0,
+        "funding_text": "Fiscal 2023 military construction, Air Force funds in the amount of $79,310,799 were obligated at the time of the award",
+        "completion_date": "2026-08-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Omaha, Nebraska",
+          "code": "W9128F-24-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Hensel Phelps Construction Co.",
+            "location": "Greeley, Colorado",
+            "contract_number": "W9128F-24-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of the Ground Base Strategic Deterrence Integrated Command Center at F. E. Warren AFB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95333600,
+        "cumulative_value_usd": null,
+        "obligated_usd": 79310799,
+        "fms_countries": [],
+        "competition": "internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Valiant Global Defense Services Inc., Herndon, Virginia, was awarded a $12,471,093 modification (P00006) to contract W564KV-23-F-2000 for non-personal joint training analytical support. Work will be performed in Germany, with an estimated completion date of March 9, 2028. Fiscal 2023 and 2024 operation and maintenance, defense-wide funds in the amount of $12,471,093 were obligated at the time of the award. Army 409th Contracting Support Brigade, Kaiserslautern, Germany, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W564KV23F2000"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 12471093.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12471093.0,
+        "funding_text": "Fiscal 2023 and 2024 operation and maintenance, defense-wide funds in the amount of $12,471,093 were obligated at the time of the award",
+        "completion_date": "2028-03-09",
+        "contracting_activity": {
+          "name": "Army 409th Contracting Support Brigade, Kaiserslautern, Germany",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Valiant Global Defense Services Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Non-personal joint training analytical support",
+        "base_contract_number": "W564KV-23-F-2000",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 12471093,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12471093,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Sunnyvale, California (FA8807-24-C-B001); and The Boeing Co., El Segundo, California (FA8807-24-C-B002), have each been awarded a $66,000,000 fixed-price-incentive-fee (firm) contract for Mobile User Objective System Service Life Extension (MUOS SLE) 1. This Phase 1 contract provides for risk reduction and early design activities to reduce risk and uncertainty prior to entering MUOS SLE Phase 2. Work will be performed at the contractors' facilities and is expected to be completed by July 31, 2025. These contracts were competitive acquisitions, and three offers were received. Fiscal 2023 research, development, test, and evaluation funds in the amount of $23,000,000 ($11,500,000 per awardee) are being obligated at time of award. Space Systems Command, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA880724CB001",
+          "FA880724CB002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 66000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23000000.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation funds in the amount of $23,000,000 ($11,500,000 per awardee) are being obligated at time of award",
+        "completion_date": "2025-07-31",
+        "contracting_activity": {
+          "name": "Space Systems Command, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Sunnyvale, California",
+            "contract_number": "FA8807-24-C-B001",
+            "markers": null
+          },
+          {
+            "name": "The Boeing Co.",
+            "location": "El Segundo, California",
+            "contract_number": "FA8807-24-C-B002",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price-incentive-fee (firm)",
+        "description": "Mobile User Objective System Service Life Extension (MUOS SLE) 1 Phase 1 risk reduction and early design activities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 66000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23000000,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "National Academy of Sciences, Washington, D.C., has been awarded a $55,929,385 contract, with four options, for the Department of the Air Force Science and Technology Fellowship Program. This contract provides for the appointment of U.S. citizens who are highly qualified, non-government, Ph.D.-level scientists and engineers (DAF S&T) to enhance the scientific and technological research capabilities, expertise, and accomplishments of the DAF S&T organizations. Work will be performed at all Air Force Research Laboratories and is expected to be completed by Jan. 31, 2028. This contract was a competitive acquisition, and four offers were received. Fiscal 2023 and 2024 research, development, test and evaluation funds in the amount of $10,028,520 are being obligated at time of award. The Air Force Research Laboratories Office of Scientific Research, Arlington, Virginia, is the contracting activity (FA9550-24-C-B001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA955024CB001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55929385.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10028520.0,
+        "funding_text": "Fiscal 2023 and 2024 research, development, test and evaluation funds in the amount of $10,028,520 are being obligated at time of award",
+        "completion_date": "2028-01-31",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratories Office of Scientific Research, Arlington, Virginia",
+          "code": "FA9550-24-C-B001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "National Academy of Sciences",
+            "location": "Washington, D.C.",
+            "contract_number": "FA9550-24-C-B001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "contract with four options",
+        "description": "Department of the Air Force Science and Technology Fellowship Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 55929385,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10028520,
+        "fms_countries": [],
+        "competition": "competitive, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3Harris Technologies Inc., Colorado Springs, Colorado, was awarded a $16,233,248 contract modification (P00251) to a previously awarded contract (FA8823-20-C-0004) for the Space Surveillance Telescope. The modification brings the total cumulative face value of the contract to $818,624,499. The location of performance is Naval Communications Station Harold E. Holt, Exmouth, Western Australia; Royal Australian Air Force Base Edinburgh, Adelaide, South Australia; and Colorado Springs, Colorado, and is expected to be completed by Jan. 31, 2025. Fiscal 2024 operation and maintenance funds in the amount of $3,497,354 are being obligated at time of award. The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA882320C0004"
+        ],
+        "modification_numbers": [
+          "P00251"
+        ],
+        "is_modification": true,
+        "value_usd": 16233248.0,
+        "cumulative_value_usd": 818624499.0,
+        "obligated_usd": 3497354.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $3,497,354 are being obligated at time of award",
+        "completion_date": "2025-01-31",
+        "contracting_activity": {
+          "name": "The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8823-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Space Surveillance Telescope",
+        "base_contract_number": "FA8823-20-C-0004",
+        "order_number": null,
+        "modification_number": "P00251",
+        "value_usd": 16233248,
+        "cumulative_value_usd": 818624499,
+        "obligated_usd": 3497354,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Moorestown, New Jersey, is awarded a $90,271,480 firm-fixed-price modification to previously awarded contract N00024-23-C-5325 to exercise options for MK 41 Vertical Launching Systems. This modification combines purchases for the Navy (97%); and the government of Spain (3%), under the Foreign Military Sales (FMS) program. Work will be performed in Moorestown, New Jersey (31%); Indianapolis, Indiana (27%); Saginaw, Michigan (7%); Farmingdale, New York (6%); St. Peters, Missouri (3%); San Jose, California (2%); Radford, Virginia (1%); and various other locations (each less than 1%) (23% combined), and is expected to be completed by June 2027. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $63,407,220 (70%); fiscal 2024 Defense-wide procurement in the amount of $23,604,223 (26%); FMS (Spain) funds in the amount $2,716,697 (3%); and fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $543,340 (1%): and will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington Navy Yard, D.C., is the contracting activity (N00024-23-C-5325).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C5325"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 90271480.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 87554783.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $63,407,220 (70%); fiscal 2024 Defense-wide procurement in the amount of $23,604,223 (26%); FMS (Spain) funds in the amount $2,716,697 (3%); and fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $543,340 (1%): and will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-06",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington Navy Yard, D.C.",
+          "code": "N00024-23-C-5325"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Spain"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-23-C-5325",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for MK 41 Vertical Launching Systems",
+        "base_contract_number": "N00024-23-C-5325",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90271480,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90271480,
+        "fms_countries": [
+          "Spain"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Government Systems, Cedar Rapids, Iowa, is awarded a $23,229,169 modification (P00054) to a previously awarded firm-price-incentive-fee, firm-fixed-price contract (N6134017C0007). This modification exercises options for the production and delivery of 68 Airborne Subsystem Pods, five Remote Range Units, three Common Ground Systems, three Portable Support Equipment Subsystems, one Transportable Ground System, and associated contract data requirements list in support of full rate production Lot Two for the Tactical Combat Training System II program for the Navy. Work will be performed in Cedar Rapids, Iowa (30%); Richardson, Texas (30%); Key West, Florida (10%); Lemoore, California (10%); Beaufort, South Carolina (10%); and Oceana, Virginia (10%), and is expected to be completed in January 2026. Fiscal 2024 aircraft procurement (Navy) funds in the amount of $20,785,805; and fiscal 2024 other procurement (Navy) funds in the amount of $2,443,364, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6134017C0007"
+        ],
+        "modification_numbers": [
+          "P00054"
+        ],
+        "is_modification": true,
+        "value_usd": 23229169.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23229169.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Navy) funds in the amount of $20,785,805; and fiscal 2024 other procurement (Navy) funds in the amount of $2,443,364, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-01",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc., Government Systems",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N6134017C0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-price-incentive-fee, firm-fixed-price",
+        "description": "Exercise of options for production of Airborne Subsystem Pods and other items for Tactical Combat Training System II Lot Two",
+        "base_contract_number": "N6134017C0007",
+        "order_number": null,
+        "modification_number": "P00054",
+        "value_usd": 23229169,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23229169,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Canadian Commercial Corp., Ottawa, Ontario, Canada, is being awarded a $13,145,191 firm-fixed-price, long-term requirements contract for the repair of four parts that make up the turret, sensors, and control along with shipping container in support of the P-8 aircraft. This contract includes a two-year base with three one-year options. Work will be performed in Waterdown, Ontario, Canada (70%); and Orange Park, Florida (30%). Work is expected to be completed by January 2026; if all options are exercised, work will be completed by January 2029. No funding will be obligated at the time of award. Individual delivery orders will be funded with appropriate fiscal year working capital funds (Navy) at the time of their issuance, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement under authority 10 U.S. Code 2304 (c)(1), and one offer was received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-24-D-AY01).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0038324DAY01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13145191.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2026-01",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-24-D-AY01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Canadian Commercial Corp.",
+            "location": "Ottawa, Ontario, Canada",
+            "contract_number": "N00383-24-D-AY01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, long-term requirements contract",
+        "description": "Repair of four parts of the turret, sensors, and control with shipping container for P-8 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13145191,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2024-01-25.html"
+  "source": "file:2024-01-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:01:59Z"
+  }
 }

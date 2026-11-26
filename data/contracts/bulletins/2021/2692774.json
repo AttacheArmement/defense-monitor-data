@@ -11,39 +11,311 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Enercon Systems Inc. doing business as Eco Waste Solutions USA,* Dublin, Ohio, was awarded an $89,019,673 firm-fixed-price contract for the Expeditionary Solid Waste Disposal System. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 11, 2026. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QY-21-D-0005).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W911QY21D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89019673.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-07-11",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QY-21-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Enercon Systems Inc. doing business as Eco Waste Solutions USA",
+            "location": "Dublin, Ohio",
+            "contract_number": "W911QY-21-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Expeditionary Solid Waste Disposal System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 89019673,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems, York, Pennsylvania, was awarded a $72,458,148 modification (P00088) to contract W56HZV-17-C-0001 for the production and delivery of M109A7 and M992A3 vehicles. Work will be performed in York, Pennsylvania, with an estimated completion date of Dec. 31, 2024. Fiscal 2020 and 2021 weapons and tracked combat vehicle procurement, Army funds in the amount of $72,458,148 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV17C0001"
+        ],
+        "modification_numbers": [
+          "P00088"
+        ],
+        "is_modification": true,
+        "value_usd": 72458148.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 72458148.0,
+        "funding_text": "Fiscal 2020 and 2021 weapons and tracked combat vehicle procurement, Army funds in the amount of $72,458,148 were obligated at the time of the award",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems",
+            "location": "York, Pennsylvania",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Production and delivery of M109A7 and M992A3 vehicles",
+        "base_contract_number": "W56HZV-17-C-0001",
+        "order_number": null,
+        "modification_number": "P00088",
+        "value_usd": 72458148,
+        "cumulative_value_usd": null,
+        "obligated_usd": 72458148,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DynCorp International LLC, Fort Worth, Texas, was awarded a $27,668,358 modification (P00032) to contract W58RGZ-16-C-0016 for maintenance support services for the government of Saudi Arabia's Royal Saudi Land Forces Aviation Command. Work will be performed in Saudi Arabia, with an estimated completion date of July 31, 2022. Fiscal 2021 Foreign Military Sales (Saudi Arabia) funds in the amount of $27,668,358 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16C0016"
+        ],
+        "modification_numbers": [
+          "P00032"
+        ],
+        "is_modification": true,
+        "value_usd": 27668358.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27668358.0,
+        "funding_text": "Fiscal 2021 Foreign Military Sales (Saudi Arabia) funds in the amount of $27,668,358 were obligated at the time of the award",
+        "completion_date": "2022-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "DynCorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintenance support services for the government of Saudi Arabia's Royal Saudi Land Forces Aviation Command",
+        "base_contract_number": "W58RGZ-16-C-0016",
+        "order_number": null,
+        "modification_number": "P00032",
+        "value_usd": 27668358,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27668358,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Michels Corp., Brownsville, Wisconsin, was awarded a $14,621,174 firm-fixed-price contract for marsh restoration. Bids were solicited via the internet with five received. Work will be performed in Port Wenworth, Georgia, with an estimated completion date of July 9, 2022. Fiscal 2021 civil construction funds in the amount of $14,621,174 were obligated at the time of the award. U.S. Army Corps of Engineers, Savannah, Georgia, is the contracting activity (W912HN-21-C-5001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912HN21C5001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14621174.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14621174.0,
+        "funding_text": "Fiscal 2021 civil construction funds in the amount of $14,621,174 were obligated at the time of the award",
+        "completion_date": "2022-07-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Savannah, Georgia",
+          "code": "W912HN-21-C-5001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Michels Corp.",
+            "location": "Brownsville, Wisconsin",
+            "contract_number": "W912HN-21-C-5001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Marsh restoration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14621174,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14621174,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with five received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "International Business Machines Corp., Bethesda, Maryland, was awarded an $8,922,266 modification (P00001) to contract W15QKN-21-C-0033 for information technology services and support. Work will be performed in Radford, Virginia, with an estimated completion date of Oct. 13, 2021. Fiscal 2021 operation and maintenance, Army funds in the amount of $8,853,859 were obligated at the time of the award. U.S. Army Contracting Command, Newark, New Jersey, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN21C0033"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 8922266.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8853859.0,
+        "funding_text": "Fiscal 2021 operation and maintenance, Army funds in the amount of $8,853,859 were obligated at the time of the award",
+        "completion_date": "2021-10-13",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Newark, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "International Business Machines Corp.",
+            "location": "Bethesda, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology services and support",
+        "base_contract_number": "W15QKN-21-C-0033",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 8922266,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8853859,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $23,018,589 cost-plus-fixed-fee contract. This contract provides for the integration of a Foreign Military Sales (FMS) country into the F-35 Joint Strike Fighter program and provides country-specific program support for F-35 aircraft production, modifications, logistics, and sustainment efforts. Work will be performed in Ft Worth, Texas (58%); Nagoya, Japan (26%); Orlando, Florida (11%); Redondo Beach, California (3%); and Samlesbury, United Kingdom (2%), and is expected to be completed in March 2025. FMS customer funds in the amount of $23,018,589 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 2304(C)(4). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001921C0037).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0037"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23018589.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23018589.0,
+        "funding_text": "FMS customer funds in the amount of $23,018,589 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001921C0037"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001921C0037",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Integration of a Foreign Military Sales country into the F-35 Joint Strike Fighter program and country-specific program support for F-35 aircraft production, modifications, logistics, and sustainment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23018589,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23018589,
+        "fms_countries": [],
+        "competition": "Not competitively procured pursuant to 10 U.S. Code 2304(C)(4)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-07-13.html"
+  "source": "file:2021-07-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:50:41Z"
+  }
 }

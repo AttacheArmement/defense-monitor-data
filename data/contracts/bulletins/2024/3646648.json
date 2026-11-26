@@ -11,45 +11,358 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Intrepid LLC,* Huntsville, Alabama, was awarded a $534,439,851 cost-plus-fixed-fee contract for programmatic and technical support in the areas of program operations, systems engineering, systems test, systems software engineering and systems logistics. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 16, 2029. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9113M-24-F-0006).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9113M24F0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 534439851.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-07-16",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9113M-24-F-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Intrepid LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W9113M-24-F-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Programmatic and technical support in program operations, systems engineering, systems test, systems software engineering and systems logistics",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 534439851,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, was awarded an $18,985,464 modification (P00040) to contract W91QVN-20-F-0157 for information technology support services. Work will be performed in South Korea, with an estimated completion date of Jan. 31, 2025. Fiscal 2024 operations and maintenance, Army funds in the amount of $9,786,732 were obligated at the time of the award. 411th Contracting Support Brigade, Seoul, South Korea, is the contracting activity. (Awarded Jan. 15, 2024)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W91QVN20F0157"
+        ],
+        "modification_numbers": [
+          "P00040"
+        ],
+        "is_modification": true,
+        "value_usd": 18985464.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9786732.0,
+        "funding_text": "Fiscal 2024 operations and maintenance, Army funds in the amount of $9,786,732 were obligated at the time of the award. 411th Contracting Support Brigade, Seoul, South Korea, is the contracting activity",
+        "completion_date": "2025-01-31",
+        "contracting_activity": {
+          "name": "Fiscal 2024 operations and maintenance, Army funds in the amount of $9,786,732 were obligated at the time of the award. 411th Contracting Support Brigade, Seoul, South Korea",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "W91QVN-20-F-0157",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology support services in South Korea",
+        "base_contract_number": "W91QVN-20-F-0157",
+        "order_number": null,
+        "modification_number": "P00040",
+        "value_usd": 18985464,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9786732,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-01-15"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "SRC Inc., Syracuse, New York, has been awarded a $400,000,000 indefinite-delivery/indefinite-quantity contract for Sensor Beam 24. This contract provides engineering services for a wholly self-contained, end-to-end U.S. Electromagnetic systems and combat support database intelligence mission data production process using various tools including relational database management systems. Support includes research, analysis, technical documentation and review of electromagnetic systems, events, and signatures development in support of the 57th Intelligence Squadron. Work will be performed in San Antonio, Texas, and is expected to be completed by Jan. 31, 2034. This contract was a competitive acquisition, and one offer was received. Fiscal 2024 operation and maintenance funds in the amount of $3,000 are being obligated at time of award. The Air Combat Command Acquisition Management and Integration Center, Detachment 2, Joint Base San Antonio-Lackland, Texas, is the contracting activity. (FA7037-24-D-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA703724D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 400000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $3,000 are being obligated at time of award",
+        "completion_date": "2034-01-31",
+        "contracting_activity": {
+          "name": "The Air Combat Command Acquisition Management and Integration Center, Detachment 2, Joint Base San Antonio-Lackland, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SRC Inc.",
+            "location": "Syracuse, New York",
+            "contract_number": "FA7037-24-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Sensor Beam 24 engineering services for electromagnetic systems and combat support database intelligence mission data production, supporting the 57th Intelligence Squadron",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 400000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Dynamics Mission Systems, Dedham, Massachusetts, has been awarded an $8,056,241 cost-plus-fixed-fee and cost-reimbursable contract for Baseband Interface Group (BIG) and BIG-Airborne Interim contractor support. This contract provides for the procurement of interim contractor support, special studies, material, and software patch releases. Work will be performed in Dedham, Massachusetts, and is expected to be completed by June 30, 2027. This contract was a sole source acquisition. Fiscal 2023 Space Force research, development, test and evaluation funds in the amount of $913,598; and fiscal 2024 Space Force research, development, test and evaluation funds in the amount of $50,700, are being obligated at time of the award. The Air Force Nuclear Weapons Center, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA2293-24-C-B0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA229324CB0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8056241.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 964298.0,
+        "funding_text": "Fiscal 2023 Space Force research, development, test and evaluation funds in the amount of $913,598; and fiscal 2024 Space Force research, development, test and evaluation funds in the amount of $50,700, are being obligated at time of the award",
+        "completion_date": "2027-06-30",
+        "contracting_activity": {
+          "name": "The Air Force Nuclear Weapons Center, Hanscom Air Force Base, Massachusetts",
+          "code": "FA2293-24-C-B0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "General Dynamics Mission Systems",
+            "location": "Dedham, Massachusetts",
+            "contract_number": "FA2293-24-C-B0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and cost-reimbursable contract",
+        "description": "Baseband Interface Group (BIG) and BIG-Airborne Interim contractor support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8056241,
+        "cumulative_value_usd": null,
+        "obligated_usd": 964298,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded a not-to-exceed $9,336,000 modification (P00001) to a firm-fixed-price order (N0001924F0171) against a previously issued basic ordering agreement (N0001920G0007). This modification adds scope to provide non-recurring tooling and equipment, to include associated labor in support of increasing production and recertification capacity of the Tactical Tomahawk for the Navy. Work will be performed in Tucson, Arizona and is expected to be completed in July 2026. Fiscal 2024 weapons procurement (Navy) funds in the amount of $2,331,383 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001924F0171",
+          "N0001920G0007"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 9336000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2331383.0,
+        "funding_text": "Fiscal 2024 weapons procurement (Navy) funds in the amount of $2,331,383 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-07",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N0001924F0171",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Non-recurring tooling and equipment to increase production and recertification capacity of the Tactical Tomahawk",
+        "base_contract_number": "N0001920G0007",
+        "order_number": "N0001924F0171",
+        "modification_number": "P00001",
+        "value_usd": 9336000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2331383,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, is awarded $9,000,000 for a not-to-exceed, undefinitized contract action delivery order (N00383-24-F-A500), under previously awarded contract (N00383-23-G-A501), for the procurement of 22 turret assemblies in support of the H-1 aircraft. All work will be performed in Orlando, Florida. Work is expected to be completed by January 2025. Annual working capital funds (Navy) in the amount of $4,410,000 will be obligated at the time of award. Funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0038324FA500",
+          "N0038323GA501"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4410000.0,
+        "funding_text": "Annual working capital funds (Navy) in the amount of $4,410,000 will be obligated at the time of award",
+        "completion_date": "2025-01",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "N00383-24-F-A500",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "not-to-exceed, undefinitized contract action delivery order",
+        "description": "Procurement of 22 turret assemblies in support of the H-1 aircraft",
+        "base_contract_number": "N00383-23-G-A501",
+        "order_number": "N00383-24-F-A500",
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4410000,
+        "fms_countries": [],
+        "competition": "Sole source, one company solicited, one offer received (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Alliant Enterprises LLC,* Grand Rapids, Michigan (SPE2DH-24-D-0003, $49,000,000), has been added as an awardee to the multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-16-R0002 and awarded Oct. 6, 2016.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH24D0003",
+          "SPE2DH16R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Alliant Enterprises LLC",
+            "location": "Grand Rapids, Michigan",
+            "contract_number": "SPE2DH-24-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for medical equipment and accessories for the DLA Electronic Catalog, under solicitation SPE2DH-16-R0002",
+        "base_contract_number": "SPE2DH-16-R0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2016-10-06"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2024-01-16.html"
+  "source": "file:2024-01-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:02:43Z"
+  }
 }

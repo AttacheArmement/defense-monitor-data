@@ -11,69 +11,565 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sallyport Global Holdings, Reston, Virginia, was awarded a $235,608,052 cost-plus-fixed-fee modification (P00003) to previously awarded contract FA8630-22-C-6006 for base operations support, base life support and security services in support of the Iraq F-16 program. The contract modification is for an additional 12 months of service being provided under the basic contract. The modification brings the total cumulative face value of the contract $360,780,574. Work will be performed at Martyr BG Ali Flaih Air Base, Iraq, and is expected to be completed by Jan. 30, 2024. This modification involves foreign military sales to Iraq. Foreign Military Sales funds in the amount of $235,608,052 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Dayton, Ohio, is the contracting Activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA863022C6006"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 235608052.0,
+        "cumulative_value_usd": 360780574.0,
+        "obligated_usd": 235608052.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $235,608,052 are being obligated at the time of award",
+        "completion_date": "2024-01-30",
+        "contracting_activity": null,
+        "fms": true,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sallyport Global Holdings",
+            "location": "Reston, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Base operations support, base life support and security services in support of the Iraq F-16 program",
+        "base_contract_number": "FA8630-22-C-6006",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 235608052,
+        "cumulative_value_usd": 360780574,
+        "obligated_usd": 235608052,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Pond-CDM Smith JV LP, Peachtree Corners, Georgia, has been awarded a $42,578,765 firm-fixed-price contract for architect-engineer services. This contract provides for Pacific Air Forces (PACAF) civil engineering squadrons with facility sustainment, restoration, and modernization. Work will be performed at Kunsan Air Base, Republic of Korea; Misawa AB, Japan; Andersen Air Force Base, Guam; Eielson AFB, Alaska; Yokota AB, Japan; PACAF Regional Support Center, Alaska; Osan AB, Republic of Korea; and Kadena AB, Japan, and is expected to be completed by July 25, 2025. This contract was a competitive acquisition. Fiscal 2023 operations and maintenance funds in the amount of $42,578,765 are being obligated at the time of award. The 766 Enterprise Sourcing Squadron, Joint Base Pearl Harbor-Hickam, Honolulu, Hawaii, is the contracting activity. (Task order FA521523F0011, ordered from contract FA890321D0012) (Awarded Jan. 24, 2023)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA521523F0011",
+          "FA890321D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42578765.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 42578765.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $42,578,765 are being obligated at the time of award",
+        "completion_date": "2025-07-25",
+        "contracting_activity": {
+          "name": "The 766 Enterprise Sourcing Squadron, Joint Base Pearl Harbor-Hickam, Honolulu, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Pond-CDM Smith JV LP",
+            "location": "Peachtree Corners, Georgia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect-engineer services for PACAF civil engineering squadrons facility sustainment, restoration, and modernization",
+        "base_contract_number": "FA890321D0012",
+        "order_number": "FA521523F0011",
+        "modification_number": null,
+        "value_usd": 42578765,
+        "cumulative_value_usd": null,
+        "obligated_usd": 42578765,
+        "fms_countries": [],
+        "competition": "competitive acquisition",
+        "award_date": "2023-01-24"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Cyber Systems & Services Solutions, Bellevue, Nebraska, has been awarded an estimated $8,307,341 firm-fixed-price and cost-plus-fixed-fee modification to previously awarded contract FA8773-18-D-0002 for Defensive Cyber Realization, Integration, and Operational Support (DCRIOS) services. Work will be performed at Joint Base San Antonio-Lackland, Texas, and is expected to be completed by Aug. 12, 2023. This modification is the result of a competitive acquisition, and seven offers were received. Fiscal 2023 operations and maintenance funds in the amount of $4,921,937 are being obligated at the time of award. The Acquisition Management and Integration Center, Joint Base San Antonio-Lackland, Texas, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA877318D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8307341.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4921937.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $4,921,937 are being obligated at the time of award",
+        "completion_date": "2023-08-12",
+        "contracting_activity": {
+          "name": "The Acquisition Management and Integration Center, Joint Base San Antonio-Lackland, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Cyber Systems & Services Solutions",
+            "location": "Bellevue, Nebraska",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price and cost-plus-fixed-fee",
+        "description": "Defensive Cyber Realization, Integration, and Operational Support (DCRIOS) services",
+        "base_contract_number": "FA8773-18-D-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8307341,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4921937,
+        "fms_countries": [],
+        "competition": "competitive acquisition, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Aviation Inc., Wichita, Kansas, is awarded a $113,107,250 firm-fixed-price contract to provide for the production and delivery of 10 Multi-Engine Training System aircraft, initial spares, peculiar support equipment, instructor pilot training, and maintenance personnel training to provide intermediate and advanced training for accession into P-8, EP-3, KC-130, E-6, E-2, CMV-22 and MV-22 aircraft in support of the mission of Chief Naval Air Training for the Navy. Work will be performed in Wichita, Kansas (99%); and Corpus Christi, Texas (1%), and is expected to be completed in June 2024. Fiscal 2023 aircraft procurement (Navy) funds in the amount of $113,107,250 will be obligated at the time if award, none of which will expire at the end of the current fiscal year. This contract was competitively procured via an electronic request for proposal; one offer was received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001923 C0020).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 113107250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113107250.0,
+        "funding_text": "Fiscal 2023 aircraft procurement (Navy) funds in the amount of $113,107,250 will be obligated at the time if award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Textron Aviation Inc.",
+            "location": "Wichita, Kansas",
+            "contract_number": "N0001923 C0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production and delivery of 10 Multi-Engine Training System aircraft with spares, support equipment, and training for Chief Naval Air Training",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 113107250,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113107250,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Civil Works Contracting LLC,* Wilmington, North Carolina (N40085-23-D-0013); Quadrant Construction Inc.,* Jacksonville, North Carolina (N40085-23-D-0014); and Riza Construction, Inc.,* Jacksonville, North Carolina (N40085-23-D-0015), are awarded a combined maximum value $95,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award construction contract for civil and paving projects at Camp Lejeune and the surrounding area. Work will be performed at Marine Corps Base Camp Lejeune, North Carolina, and the surrounding area, and will be completed by January 2028. The maximum dollar value, including base period and four option years, is $95,000,000. Fiscal 2023 operation and maintenance (Marine Corps) funds in the amount of $15,000 are obligated at time of award and will expire at the end of the current fiscal year. Contractors may compete for future task orders under the terms and conditions of the awarded contract. This contract was competitively procured via the System for Award Management website with seven proposals received. The Naval Facilities Engineering Systems Command, Mid-Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N4008523D0013",
+          "N4008523D0014",
+          "N4008523D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000.0,
+        "funding_text": "Fiscal 2023 operation and maintenance (Marine Corps) funds in the amount of $15,000 are obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2028-01",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Mid-Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Civil Works Contracting LLC",
+            "location": "Wilmington, North Carolina",
+            "contract_number": "N40085-23-D-0013",
+            "markers": "*"
+          },
+          {
+            "name": "Quadrant Construction Inc.",
+            "location": "Jacksonville, North Carolina",
+            "contract_number": "N40085-23-D-0014",
+            "markers": "*"
+          },
+          {
+            "name": "Riza Construction, Inc.",
+            "location": "Jacksonville, North Carolina",
+            "contract_number": "N40085-23-D-0015",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Multiple award construction contract for civil and paving projects at Camp Lejeune and surrounding area",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": 95000000,
+        "obligated_usd": 15000,
+        "fms_countries": [],
+        "competition": "competitive, System for Award Management website; seven proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, is awarded a $33,782,230 cost reimbursable modification (P00010) to a previously awarded, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract (N0042118D0017). This modification increases the contract ceiling to provide engineering support, to include multi-discipline, integrated technical baseline evaluations, developmental progress assessments, cost, schedule, emerging technology, and maturity of design assessments for all Naval Air Systems Command (NAVAIR) acquisition programs in support of the NAVAIR Systems Engineering Department. Work will be performed in Patuxent River, Maryland (95%); various locations within the continental U.S. (CONUS) (4%); and various locations outside the CONUS (1%), and is expected to be completed in April 2024. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042118D0017"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 33782230.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N0042118D0017",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Increases contract ceiling for engineering support for all NAVAIR acquisition programs in support of the NAVAIR Systems Engineering Department",
+        "base_contract_number": "N0042118D0017",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 33782230,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Wyle Services LLC, Lexington Park, Maryland, is awarded a $29,386,496 cost-plus-fixed-fee, firm-fixed-price, cost reimbursable modification (P00021) to a previously awarded indefinite-delivery/indefinite-quantity contract (N0042118D0001). This modification exercises options to provide installation, systems integration, test and evaluation, in-service engineering logistics, repair and validation, training, lab maintenance, quality assurance, and technical management services for the Multi-Mission Datalink support system in support of the Airborne Systems Integration Division of Naval Air Warfare Center Aircraft Division Webster Outlying Field. Work will be performed in St. Inigoes, Maryland (50%); Norfolk, Virginia (11%); San Diego, California (11%); Everett, Washington (5%); Mayport, Florida (5%); Yokosuka, Japan (5%); Pearl Harbor, Hawaii (4%); Rota, Spain (2%); Bath, Maine (2%); Pascagoula, Mississippi (2%); various locations outside the continental U.S. (CONUS) (2%); and various locations within the CONUS (1%), and is expected to be completed in January 2025. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0042118D0001"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 29386496.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2025-01",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "KBR Wyle Services LLC",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N0042118D0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, cost reimbursable, indefinite-delivery/indefinite-quantity",
+        "description": "Exercises options for Multi-Mission Datalink support system services for Airborne Systems Integration Division, NAWCAD Webster Outlying Field",
+        "base_contract_number": "N0042118D0001",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 29386496,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems, Greenlawn, New York, is awarded a $14,751,916 firm-fixed-price, requirements-type contract for the repairs of the APX-111 system in support of the F/18 aircraft. The contract will include a five-year base period with no options. All work will be performed in Greenlawn, New York, and work is expected to be completed by December 2028. No funding will be obligated at the time of award. Individual delivery orders will be funded with appropriate fiscal year working capital (Navy) funds at the time of their issuance, and funds will not expire. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-23-D-DY01).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0038323DDY01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14751916.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-23-D-DY01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "BAE Systems",
+            "location": "Greenlawn, New York",
+            "contract_number": "N00383-23-D-DY01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, requirements-type",
+        "description": "Repairs of the APX-111 system in support of the F/18 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14751916,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source, one offer received (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sealevel Construction Inc., Thibodaux, Louisiana, was awarded a $17,357,450 firm-fixed-price contract to remove existing steel tainter gates and fabricate and install new steel tainter gates. Bids were solicited via the internet with two received. Work will be performed in Marksville, Louisiana, with an estimated completion date of June 30, 2025. Fiscal 2023 civil construction funds in the amount of $17,357,450 were obligated at the time of the award. U.S. Army Corps of Engineers, Vicksburg, Mississippi, is the contracting activity (W912EE-23-C-0005).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912EE23C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17357450.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17357450.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $17,357,450 were obligated at the time of the award",
+        "completion_date": "2025-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Vicksburg, Mississippi",
+          "code": "W912EE-23-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Sealevel Construction Inc.",
+            "location": "Thibodaux, Louisiana",
+            "contract_number": "W912EE-23-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Removal of existing steel tainter gates and fabrication and installation of new steel tainter gates in Marksville, Louisiana",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17357450,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17357450,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pond Constructors Inc., Peachtree Corners, Georgia, was awarded a $16,000,000 modification (P00007) to contract W912DY-21-F-0025 to maintain and repair federally-funded and Defense Logistics Agency-Energy capitalized petroleum systems and facilities. Work will be performed in Anchorage, Alaska; Fairbanks, Alaska; Delta Junction, Alaska; Fairbanks, Alaska; Amchitka, Alaska; King Salmon, Alaska; Hilo, Hawaii; Wahiawa, Hawaii; Honolulu, Hawaii; Waianae, Hawaii; Ewa Beach, Hawaii; Pearl Harbor, Hawaii; Kaneohe, Hawaii; Kekaha, Hawaii; Waimea, Hawaii; and Peachtree Corners, Georgia, with an estimated completion date of Jan. 31, 2024. Fiscal 2023 revolving funds in the amount of $16,000,000 were obligated at the time of the award. U.S. Army Corps of Engineers' Engineering and Support Center, Huntsville, Alabama, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912DY21F0025"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 16000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16000000.0,
+        "funding_text": "Fiscal 2023 revolving funds in the amount of $16,000,000 were obligated at the time of the award",
+        "completion_date": "2024-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Engineering and Support Center, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Pond Constructors Inc.",
+            "location": "Peachtree Corners, Georgia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintain and repair federally-funded and DLA-Energy capitalized petroleum systems and facilities",
+        "base_contract_number": "W912DY-21-F-0025",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 16000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Peraton Labs Inc., Basking Ridge, New Jersey, has been awarded a $7,913,687 modification (P00006) to cost-plus-fixed-fee contract HR001121C0069 to exercise the Phase 2 option of the Wideband Secure and Protected Emitter and Receiver (WiSPER) program. The modification brings the total cumulative face value of the contract to $12,271,360 from $4,357,673. Work will be performed in Basking Ridge, New Jersey (89%); San Diego, California (10%); and Point Mugu, California (1%), with an estimated completion date of July 2024. Fiscal 2022 and 2023 research and development funds in the amount of $734,433 and $2,000,000 respectively, are being obligated at the time of award. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HR001121C0069"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 7913687.0,
+        "cumulative_value_usd": 12271360.0,
+        "obligated_usd": 734433.0,
+        "funding_text": "Fiscal 2022 and 2023 research and development funds in the amount of $734,433 and $2,000,000 respectively, are being obligated at the time of award",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Peraton Labs Inc.",
+            "location": "Basking Ridge, New Jersey",
+            "contract_number": "HR001121C0069",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Exercises Phase 2 option of the Wideband Secure and Protected Emitter and Receiver (WiSPER) program",
+        "base_contract_number": "HR001121C0069",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 7913687,
+        "cumulative_value_usd": 12271360,
+        "obligated_usd": 2734433,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2023-01-25.html"
+  "source": "file:2023-01-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:43:38Z"
+  }
 }

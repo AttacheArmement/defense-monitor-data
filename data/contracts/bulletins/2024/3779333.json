@@ -11,69 +11,548 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Space, Huntsville, Alabama, was awarded a $756,807,861 modification (PZ0014) to contract W31P4Q-23-C-0008 for Long Range Hypersonic Weapon ground support equipment. Work will be performed in Huntsville, Alabama, with an estimated completion date of Feb. 28, 2028. Fiscal 2023 missile procurement, Army funds in the amount of $275,270,424 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 756807861.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 275270424.0,
+        "funding_text": "Fiscal 2023 missile procurement, Army funds in the amount of $275,270,424 were obligated at the time of the award",
+        "completion_date": "2028-02-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Space",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-23-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Long Range Hypersonic Weapon ground support equipment",
+        "base_contract_number": "W31P4Q-23-C-0008",
+        "order_number": null,
+        "modification_number": "PZ0014",
+        "value_usd": 756807861,
+        "cumulative_value_usd": null,
+        "obligated_usd": 275270424,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pine Bluff Sand and Gravel, White Hall, Arkansas (W912EQ-24-D-0002); and Luhr Crosby LLC, Columbia, Illinois (W912EQ-24-D-0003), will compete for each order of the $150,000,000 firm-fixed-price contract for furnishing all plant, labor, materials and equipment for the Mississippi River Stone Placement Project. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of May 17, 2029. U.S. Army Corps of Engineers, Memphis, Mississippi, is the contracting activity. (Awarded May 16, 2024)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912EQ24D0002",
+          "W912EQ24D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 150000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-05-17",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Memphis, Mississippi",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Pine Bluff Sand and Gravel",
+            "location": "White Hall, Arkansas",
+            "contract_number": "W912EQ-24-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Luhr Crosby LLC",
+            "location": "Columbia, Illinois",
+            "contract_number": "W912EQ-24-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Mississippi River Stone Placement Project: furnishing all plant, labor, materials and equipment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 150000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, two received",
+        "award_date": "2024-05-16"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments LP, York, Pennsylvania, was awarded a $57,585,343 modification (P00172) to contract W56HZV-17-C-0001 for the production and delivery of M109A7 Self-Propelled Howitzer and M992A3 Carrier Ammunition Tracker ground combat vehicles. Work will be performed in York, Pennsylvania, with an estimated completion date of Dec. 30, 2027. Fiscal 2023 operation and maintenance, defense-wide funds and weapons and tracked combat vehicle procurement, Army funds in the amount of $57,585,343 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity. (Awarded May 16, 2024)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV17C0001"
+        ],
+        "modification_numbers": [
+          "P00172"
+        ],
+        "is_modification": true,
+        "value_usd": 57585343.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57585343.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, defense-wide funds and weapons and tracked combat vehicle procurement, Army funds in the amount of $57,585,343 were obligated at the time of the award",
+        "completion_date": "2027-12-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments LP",
+            "location": "York, Pennsylvania",
+            "contract_number": "W56HZV-17-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Production and delivery of M109A7 Self-Propelled Howitzer and M992A3 Carrier Ammunition Tracker ground combat vehicles",
+        "base_contract_number": "W56HZV-17-C-0001",
+        "order_number": null,
+        "modification_number": "P00172",
+        "value_usd": 57585343,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57585343,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-05-16"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Colt's Manufacturing Co. LLC, West Hartford, Connecticut, was awarded a $57,216,428 modification (P00004) to contract W15QKN-19-D-0116 for production for the M4 and M4A1 carbines. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 18, 2024. Army Contracting Command, Newark, New Jersey, is the contracting activity. (Awarded May 16, 2024)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN19D0116"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 57216428.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-09-18",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Newark, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Colt's Manufacturing Co. LLC",
+            "location": "West Hartford, Connecticut",
+            "contract_number": "W15QKN-19-D-0116",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Production for the M4 and M4A1 carbines",
+        "base_contract_number": "W15QKN-19-D-0116",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 57216428,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "estimated_completion": null,
+        "award_date": "2024-05-16"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AM General LLC, South Bend, Indiana, was awarded a $27,020,608 cost-plus-fixed-fee contract for engineering, logistics, and related technical support functions for all variants of the High Mobility Multipurpose Wheeled Vehicle Family of Vehicles. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2029. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-24-D-0004). (Awarded May 16, 2024)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912CH24D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27020608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-24-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "AM General LLC",
+            "location": "South Bend, Indiana",
+            "contract_number": "W912CH-24-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Engineering, logistics, and related technical support functions for all variants of the High Mobility Multipurpose Wheeled Vehicle Family of Vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27020608,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": "2024-05-16"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Global Force LLC, Falls Church, Virginia, was awarded a $25,649,040 cost-plus-fixed-fee contract for engineering services and to sustain the capabilities of existing information systems. Bids were solicited via the internet with one received. Work will be performed in Falls Church, Virginia, with an estimated completion date of June 9, 2029. Fiscal 2023 research, development, test and evaluation, defense-wide funds in the amount of $2,315,246 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QY-24-F-0139).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W911QY24F0139"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25649040.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2315246.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation, defense-wide funds in the amount of $2,315,246 were obligated at the time of the award",
+        "completion_date": "2029-06-09",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QY-24-F-0139"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics Global Force LLC",
+            "location": "Falls Church, Virginia",
+            "contract_number": "W911QY-24-F-0139",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Engineering services and to sustain the capabilities of existing information systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25649040,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2315246,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Mistral Inc., Bethesda, Maryland, is being awarded an indefinite-delivery/indefinite-quantity contract (H9240324D0003) which has a maximum value of $73,552,208 and a minimum ordering guarantee of $5,000. Mistral Inc. is a small woman owned business and is being awarded a contract for GOLAM II munitions, spares, engineering change proposals, new equipment training, conversion from organic precision fires–mounted to medium range precision strike system and field service representative in support of U.S. Special Operations Command. The work will be performed in Bethesda, Maryland, and is expected to be completed by May 16, 2029. This contract was awarded through other than full and open competition (Sole Source) via 10 U.S. Code 2304(c)(1). U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "H9240324D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 73552208.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-05-16",
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Mistral Inc.",
+            "location": "Bethesda, Maryland",
+            "contract_number": "H9240324D0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "GOLAM II munitions, spares, engineering change proposals, new equipment training, conversion from organic precision fires-mounted to medium range precision strike system and field service representative support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 73552208,
+        "cumulative_value_usd": 73552208,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $70,407,671 cost-plus-incentive-fee modification to a previously awarded contract (N00024-20-C-6117) to exercise options for Navy equipment. Work will be performed in Manassas, Virginia (65%); Clearwater, Florida (32%); Syracuse, New York (2%); and Marion, Florida (1%), and is expected to be completed by December 2029. Fiscal 2024 other procurement (Navy) funds in the amount of $70,407,671 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C6117"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 70407671.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70407671.0,
+        "funding_text": "Fiscal 2024 other procurement (Navy) funds in the amount of $70,407,671 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-12",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-20-C-6117",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee modification",
+        "description": "Exercise options for Navy equipment",
+        "base_contract_number": "N00024-20-C-6117",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70407671,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70407671,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Rolling Meadows, Illinois, is awarded a $25,700,000 firm-fixed-price, long-term requirements contract for the repair of 14 types of parts used in support of the CASS EO3 advanced targeting forward-looking infrared weapon systems. This is a five-year, long-term contract with no options. All work will be performed in Rolling Meadows, Illinois, and work is expected to be completed by May 2029. No funding will be obligated at the time of award. Individual delivery orders will be funded with appropriate fiscal year working capital funds (Navy) at the time of their issuance, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-24-D-BK01).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0038324DBK01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25700000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2029-05",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-24-D-BK01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Rolling Meadows, Illinois",
+            "contract_number": "N00383-24-D-BK01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, long-term requirements contract",
+        "description": "Repair of 14 types of parts for CASS EO3 advanced targeting forward-looking infrared weapon systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25700000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1), one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3 Harris, Clifton, New Jersey, was awarded an order in the amount of $34,059,723 for AN/ALQ-172 Countermeasures program and modernization. Work will be performed in Clifton, New Jersey, and is expected to be completed by Sept. 8, 2027. This contract was a sole source acquisition. Fiscal 2024 research, development, test, and evaluation funds in the amount of $34,059,723 are being obligated at time of award. The Air Force Life Cycle Management Center Electronic Warfare Contracting Branch, Robins Air Force Base, Georgia, is the contracting activity (FA8523-21- D-0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34059723.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34059723.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation funds in the amount of $34,059,723 are being obligated at time of award",
+        "completion_date": "2027-09-08",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center Electronic Warfare Contracting Branch, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "L3 Harris",
+            "location": "Clifton, New Jersey",
+            "contract_number": "FA8523-21-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "AN/ALQ-172 Countermeasures program and modernization",
+        "base_contract_number": "FA8523-21-D-0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34059723,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34059723,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The Bell Boeing Joint Project Office, California, Maryland, has been awarded a maximum $13,630,150 modification (P00030) exercising the first one-year option period of a one-year base contract (SPRPA1-17-D-009U) with four one-year option periods for V-22 spare consumable and depot-level repairable parts. This is a firm-fixed-price requirements contract. Locations of performance are Texas and Pennsylvania, with a May 10, 2025, performance completion date. Using customers are Navy, Marine Corps, and Air Force. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA117D009U"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 13630150.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Bell Boeing Joint Project Office",
+            "location": "California, Maryland",
+            "contract_number": "SPRPA1-17-D-009U",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "V-22 spare consumable and depot-level repairable parts; exercise of first one-year option period",
+        "base_contract_number": "SPRPA1-17-D-009U",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 13630150,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-05-17.html"
+  "source": "file:2024-05-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:49:24Z"
+  }
 }

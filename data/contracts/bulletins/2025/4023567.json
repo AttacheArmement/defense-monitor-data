@@ -9,9 +9,58 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Airbus U.S. Space & Defense Inc., Arlington, Virginia, was awarded a $315,043,393 modification (P00171) to contract W58RGZ-22-C-0022 for UH-72 Lakota contractor logistics support and engineering services. Work will be performed in Grand Prairie, Texas, with an estimated completion date of Dec. 31, 2025. Fiscal 2025 operation and maintenance, Army funds in the amount of $85,621,324 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity. (Awarded Dec. 30, 2024)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ22C0022"
+        ],
+        "modification_numbers": [
+          "P00171"
+        ],
+        "is_modification": true,
+        "value_usd": 315043393.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 85621324.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $85,621,324 were obligated at the time of the award",
+        "completion_date": "2025-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Airbus U.S. Space & Defense Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W58RGZ-22-C-0022",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "UH-72 Lakota contractor logistics support and engineering services",
+        "base_contract_number": "W58RGZ-22-C-0022",
+        "order_number": null,
+        "modification_number": "P00171",
+        "value_usd": 315043393,
+        "cumulative_value_usd": null,
+        "obligated_usd": 85621324,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-12-30"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-01-07.html"
+  "source": "file:2025-01-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:18:16Z"
+  }
 }

@@ -12,9 +12,94 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Pentaq Manufacturing Corp.,* Sabana Grande, Puerto Rico (SPE1C1-25-D-0032, $12,200,033); Puerto Rico Apparel Manufacturing Corp.,** Mayaguez, Puerto Rico (SPE1C1-25-D-0030, $11,941,525); SNC Manufacturing LLC,* Sabana Grande, Puerto Rico (SPE1C1-25-D-0031, $10,033,520); Aurora Industries LLC,* Orocovis, Puerto Rico (SPE1C1-25-D-0026, $8,269,869) and M M Manufacturing LLC,** Lajas, Puerto Rico (SPE1C1-25-D-0029, $7,574,698), have each been awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE1C1-25-R-0014 for various clothing items. This was a competitive acquisition with seven responses received. These are one-year contracts with no option periods. The ordering period end date is Jan. 12, 2026. Using military services are Army and Air Force. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency, Philadelphia, Pennsylvania.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0032",
+          "SPE1C125D0030",
+          "SPE1C125D0031",
+          "SPE1C125D0026",
+          "SPE1C125D0029",
+          "SPE1C125R0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12200033.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small-disadvantaged business in historically underutilized business zones"
+          },
+          {
+            "marker": "**",
+            "meaning": "Women-owned small-disadvantaged business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pentaq Manufacturing Corp.",
+            "location": "Sabana Grande, Puerto Rico",
+            "contract_number": "SPE1C1-25-D-0032",
+            "markers": "*"
+          },
+          {
+            "name": "Puerto Rico Apparel Manufacturing Corp.",
+            "location": "Mayaguez, Puerto Rico",
+            "contract_number": "SPE1C1-25-D-0030",
+            "markers": "**"
+          },
+          {
+            "name": "SNC Manufacturing LLC",
+            "location": "Sabana Grande, Puerto Rico",
+            "contract_number": "SPE1C1-25-D-0031",
+            "markers": "*"
+          },
+          {
+            "name": "Aurora Industries LLC",
+            "location": "Orocovis, Puerto Rico",
+            "contract_number": "SPE1C1-25-D-0026",
+            "markers": "*"
+          },
+          {
+            "name": "M M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-25-D-0029",
+            "markers": "**"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Various clothing items under solicitation SPE1C1-25-R-0014 (one-year contracts, no option periods; ordering period ends Jan. 12, 2026; contracting activity DLA Philadelphia)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 7 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-01-13.html"
+  "source": "file:2025-01-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:17:55Z"
+  }
 }

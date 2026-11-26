@@ -11,63 +11,524 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Burns & McDonnell, Kansas City, Missouri (W91238-23-D-0001); Benham-Stanley LLC, Oklahoma City, Oklahoma (W91238-23-D-0002); HDR Engineering Inc., Folsom, California (W91238-23-D-0003); and Jacobs Engineering Group Inc., Irvine, California (W91238-23-D-0004), will compete for each order of the $99,000,000 firm-fixed-price contract for architectural engineering services. Bids were solicited via the internet with 14 received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 18, 2028. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9123823D0001",
+          "W9123823D0002",
+          "W9123823D0003",
+          "W9123823D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-01-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Burns & McDonnell",
+            "location": "Kansas City, Missouri",
+            "contract_number": "W91238-23-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Benham-Stanley LLC",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "W91238-23-D-0002",
+            "markers": null
+          },
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Folsom, California",
+            "contract_number": "W91238-23-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Jacobs Engineering Group Inc.",
+            "location": "Irvine, California",
+            "contract_number": "W91238-23-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architectural engineering services orders (multiple award pool)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; 14 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "MVL USA Inc., Lansing, Michigan, was awarded a $25,000,000 firm-fixed-price contract for design-build and design-bid-build construction services for new facilities and real property repair and maintenance. Bids were solicited via the internet with 17 received. Work locations and funding will be determined with each order, with an estimated completion date of July 28, 2028. U.S. Army Corps of Engineers, Wiesbaden, Germany, is the contracting activity (W912GB-23-D-0008).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912GB23D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-07-28",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Wiesbaden, Germany",
+          "code": "W912GB-23-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "MVL USA Inc.",
+            "location": "Lansing, Michigan",
+            "contract_number": "W912GB-23-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build and design-bid-build construction services for new facilities and real property repair and maintenance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; 17 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Weston Solutions Inc., Albuquerque, New Mexico, was awarded a $7,934,873 modification (P00018) to contract W912DY-19-F-0061 for recurring maintenance and minor repair of petroleum systems. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 8, 2024. U.S. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912DY19F0061"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": true,
+        "value_usd": 7934873.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-02-08",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Weston Solutions Inc.",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "W912DY-19-F-0061",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Recurring maintenance and minor repair of petroleum systems",
+        "base_contract_number": "W912DY-19-F-0061",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 7934873,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; four received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Howard University, Washington, D.C., will be awarded a $90,000,000 indefinite-delivery/indefinite-quantity contract for research and development. The contract will establish a Historically Black Colleges and Universities-led University Affiliated Research Center consortium to execute research focused on tactical autonomy that will aid in the transition of research into practical applications. Work will be performed at the awardee's facility and consortium members' campuses and is expected to be completed by Jan. 31, 2028. This award is the result of a publicly posted broad agency announcement and four offers were received. Funds will be obligated on individual task orders placed against the indefinite-delivery/indefinite-quantity contract. Fiscal 2023 research and development funds in the total amount of $2,967,271 are being obligated at time of award with the first task order. The Air Force Research Laboratory, Air Force Office of Scientific Research, Arlington, Virginia, is the contracting activity (FA9550-23-D-0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA955023D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": 2967271.0,
+        "obligated_usd": 2967271.0,
+        "funding_text": "Funds will be obligated on individual task orders placed against the indefinite-delivery/indefinite-quantity contract Fiscal 2023 research and development funds in the total amount of $2,967,271 are being obligated at time of award with the first task order",
+        "completion_date": "2028-01-31",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Air Force Office of Scientific Research, Arlington, Virginia",
+          "code": "FA9550-23-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Howard University",
+            "location": "Washington, D.C.",
+            "contract_number": "FA9550-23-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Research and development for an HBCU-led University Affiliated Research Center consortium focused on tactical autonomy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2967271,
+        "fms_countries": [],
+        "competition": "Broad agency announcement; four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Liverpool, New York, was awarded an $84,938,768 modification (P00015) to previously awarded contract FA8730-21-C-0022 for Three-Dimensional Expeditionary Long-Range Radar (3DELRR) systems. This modification provides for the exercise of options for four 3DELRR radars, associated production management, travel and other direct costs, and data under the basic contract. The modification brings the total cumulative face value of the contract to $182,981,058. Work will be performed in Liverpool, New York, and is expected to be completed by Jan. 31, 2025. Fiscal 2023 other procurement funds in the amount of $84,938,768 are being obligated at the time of award. The Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA873021C0022"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 84938768.0,
+        "cumulative_value_usd": 182981058.0,
+        "obligated_usd": 84938768.0,
+        "funding_text": "Fiscal 2023 other procurement funds in the amount of $84,938,768 are being obligated at the time of award",
+        "completion_date": "2025-01-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Liverpool, New York",
+            "contract_number": "FA8730-21-C-0022",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Exercise of options for four 3DELRR radars, production management, travel and other direct costs, and data (Three-Dimensional Expeditionary Long-Range Radar)",
+        "base_contract_number": "FA8730-21-C-0022",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 84938768,
+        "cumulative_value_usd": 182981058,
+        "obligated_usd": 84938768,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3Harris Technologies Inc., Colorado Springs, Colorado, has been awarded a $39,092,259 contract modification (P00155) to previously awarded contract FA8823-20-C-0004 for Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) sustainment services. The modification brings the total cumulative face value of the contract to $582,538,259. Work will be performed in Colorado Springs, Colorado; and Dahlgren, Virginia, and is expected to be completed by Jan. 31, 2024. Fiscal 2023 operations and maintenance funds in the amount of $29,303,751 are being obligated at the time of award. The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado Springs, Colorado, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA882320C0004"
+        ],
+        "modification_numbers": [
+          "P00155"
+        ],
+        "is_modification": true,
+        "value_usd": 39092259.0,
+        "cumulative_value_usd": 582538259.0,
+        "obligated_usd": 29303751.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $29,303,751 are being obligated at the time of award",
+        "completion_date": "2024-01-31",
+        "contracting_activity": {
+          "name": "The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado Springs, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8823-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) sustainment services",
+        "base_contract_number": "FA8823-20-C-0004",
+        "order_number": null,
+        "modification_number": "P00155",
+        "value_usd": 39092259,
+        "cumulative_value_usd": 582538259,
+        "obligated_usd": 29303751,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Magpul Industries Corp.,* Austin Texas, has been awarded a maximum $20,076,393 firm-fixed-price contract for gun magazines. This was a competitive acquisition with three responses received. This is a three-year base contract with two one-year option periods. The performance completion date is Jan. 18, 2026. Using military services are Army and Navy. Type of appropriation is fiscal 2023 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7LX-23-D-0035).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX23D0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20076393.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7LX-23-D-0035"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Magpul Industries Corp.",
+            "location": "Austin Texas",
+            "contract_number": "SPE7LX-23-D-0035",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Gun magazines; three-year base with two one-year options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20076393,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Atlantic Diving Supply Inc.,* Virginia Beach, Virginia (SPE2DE-23-D-0014, $49,000,000) has been added as an awardee to the multiple award contract for medical and surgical supplies for the Defense Logistics Agency Electronics Catalog, issued against solicitation SPE2DE-18-R-0001 and awarded May 10, 2019.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE23D0014",
+          "SPE2DE18R0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Atlantic Diving Supply Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "SPE2DE-23-D-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for medical and surgical supplies for the DLA Electronics Catalog, issued against SPE2DE-18-R-0001 and awarded May 10, 2019",
+        "base_contract_number": "SPE2DE-18-R-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2019-05-10"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "RQ-WM Jordan JV, Carlsbad, California, is awarded a $16,506,834 modification to previously awarded firm-fixed-price contract N40085-20-C-0059 for relocation of the logistics operations school at Marine Corps Base Camp Lejeune. The total cumulative value of the contract is $213,242,036. Work will be performed in Jacksonville, North Carolina, and is expected to be completed by November 2025. Fiscal 2020 military construction (Marine Corps) funds in the amount of $16,506,834 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Facilities Engineering Systems Command Officer in Charge of Construction Florence, Camp Lejeune, North Carolina, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N4008520C0059"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16506834.0,
+        "cumulative_value_usd": 213242036.0,
+        "obligated_usd": 16506834.0,
+        "funding_text": "Fiscal 2020 military construction (Marine Corps) funds in the amount of $16,506,834 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Officer in Charge of Construction Florence, Camp Lejeune, North Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "RQ-WM Jordan JV",
+            "location": "Carlsbad, California",
+            "contract_number": "N40085-20-C-0059",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Relocation of the logistics operations school at Marine Corps Base Camp Lejeune",
+        "base_contract_number": "N40085-20-C-0059",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16506834,
+        "cumulative_value_usd": 213242036,
+        "obligated_usd": 16506834,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sierra Nevada Corp., Sparks, Nevada, is awarded an $11,205,758 cost-plus-fixed-fee contract for the Orchestration of Resilient Cyber Activities project. This contract provides for the delivery of game-changing tools and methods to overcome known and emerging challenges and ensure continued Navy cyber superiority. Work will be performed in Englewood, Colorado, and is expected to be completed by Jan. 18, 2027. The maximum dollar value, including a 48-month base period with no option periods, is $11,205,758. Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $115,004 are obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured under N00014-21-S-B001, the long range broad agency announcement (BAA) for Navy and Marine Corps science and technology. Since proposals will be received throughout the year under the long range BAA, the number of proposals received in response to the solicitation is unknown. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N00014-23-C-1014).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001421SB001",
+          "N0001423C1014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11205758.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 115004.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) funds in the amount of $115,004 are obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-01-18",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": "N00014-23-C-1014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Sierra Nevada Corp.",
+            "location": "Sparks, Nevada",
+            "contract_number": "N00014-23-C-1014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Orchestration of Resilient Cyber Activities project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11205758,
+        "cumulative_value_usd": 11205758,
+        "obligated_usd": 115004,
+        "fms_countries": [],
+        "competition": "Competitive under long range BAA N00014-21-S-B001; number of proposals unknown",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2023-01-19.html"
+  "source": "file:2023-01-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:44:08Z"
+  }
 }

@@ -11,69 +11,671 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Aery Aviation LLC,* Newport News, Virginia (N0042122D0074); ASR International Corp.,* Hauppauge, New York (N0042122D0075); Attollo LLC,* Cumberland, Rhode Island (N0042122D0076); Bowhead Mission Solutions LLC,* Springfield, Virginia (N0042122D0077); Cherokee Nation Red Wing LLC,* Tulsa, Oklahoma (N0042122D0078); Eagle Systems Inc.,* California, Maryland (N0042122D0079); Engineering Solutions and Technology Applications – Odyssey LLC,* Chula Vista, California (N0042122D0080); First Division Consulting Inc.,* Burke, Virginia (N0042122D0081); LTM Inc.,* Havelock, North Carolina (N0042122D0082); Matanzas Engineering and Technology LLC,* St. Augustine, Florida (N0042122D0083); Naval Systems Inc.,* Lexington Park, Maryland (N0042122D0084); Sierra Management and Technologies Inc.,* California, Maryland (N0042122D0085); Synectic Solutions Inc.,* Oxnard, California (N0042122D0086); Tekla Research Inc.,* Fredericksburg, Virginia (N0042122D0087); The Lockwood Group LLC,* Belcamp, Maryland (N0042122D0088); Tri Star Engineering Inc.,* Bloomington, Indiana (N0042122D0089); VectorCSP LLC,* Elizabeth City, North Carolina (N0042122D0090); and Velocit.e LLC,* California, Maryland (N0042122D0091), are awarded a cost-plus-fixed-fee, firm-fixed-price, cost reimbursable, indefinite-delivery/indefinite-quantity contract. The estimated aggregate ceiling for this contract is $346,526,131, with the companies having an opportunity to compete for individual orders. This contract provides product support management integration support, to include program management and logistics support services for the acquisition and life cycle sustainment of specified weapons systems, system of systems, sub-systems, and support equipment for multiple Naval Air Systems Command (NAVAIR) program offices, Echelon III /IV commands, and NAVAIR Sustainment Group departments. Work will be performed in Patuxent River, Maryland (80%); and various locations within the continental U.S. (20%), and is expected to be completed in May 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured, as a small business set aside, via an electronic request for proposal; 18 offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0042122D0074",
+          "N0042122D0075",
+          "N0042122D0076",
+          "N0042122D0077",
+          "N0042122D0078",
+          "N0042122D0079",
+          "N0042122D0080",
+          "N0042122D0081",
+          "N0042122D0082",
+          "N0042122D0083",
+          "N0042122D0084",
+          "N0042122D0085",
+          "N0042122D0086",
+          "N0042122D0087",
+          "N0042122D0088",
+          "N0042122D0089",
+          "N0042122D0090",
+          "N0042122D0091"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 346526131.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Aery Aviation LLC",
+            "location": "Newport News, Virginia",
+            "contract_number": "N0042122D0074",
+            "markers": "*"
+          },
+          {
+            "name": "ASR International Corp.",
+            "location": "Hauppauge, New York",
+            "contract_number": "N0042122D0075",
+            "markers": "*"
+          },
+          {
+            "name": "Attollo LLC",
+            "location": "Cumberland, Rhode Island",
+            "contract_number": "N0042122D0076",
+            "markers": "*"
+          },
+          {
+            "name": "Bowhead Mission Solutions LLC",
+            "location": "Springfield, Virginia",
+            "contract_number": "N0042122D0077",
+            "markers": "*"
+          },
+          {
+            "name": "Cherokee Nation Red Wing LLC",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "N0042122D0078",
+            "markers": "*"
+          },
+          {
+            "name": "Eagle Systems Inc.",
+            "location": "California, Maryland",
+            "contract_number": "N0042122D0079",
+            "markers": "*"
+          },
+          {
+            "name": "Engineering Solutions and Technology Applications – Odyssey LLC",
+            "location": "Chula Vista, California",
+            "contract_number": "N0042122D0080",
+            "markers": "*"
+          },
+          {
+            "name": "First Division Consulting Inc.",
+            "location": "Burke, Virginia",
+            "contract_number": "N0042122D0081",
+            "markers": "*"
+          },
+          {
+            "name": "LTM Inc.",
+            "location": "Havelock, North Carolina",
+            "contract_number": "N0042122D0082",
+            "markers": "*"
+          },
+          {
+            "name": "Matanzas Engineering and Technology LLC",
+            "location": "St. Augustine, Florida",
+            "contract_number": "N0042122D0083",
+            "markers": "*"
+          },
+          {
+            "name": "Naval Systems Inc.",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N0042122D0084",
+            "markers": "*"
+          },
+          {
+            "name": "Sierra Management and Technologies Inc.",
+            "location": "California, Maryland",
+            "contract_number": "N0042122D0085",
+            "markers": "*"
+          },
+          {
+            "name": "Synectic Solutions Inc.",
+            "location": "Oxnard, California",
+            "contract_number": "N0042122D0086",
+            "markers": "*"
+          },
+          {
+            "name": "Tekla Research Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "N0042122D0087",
+            "markers": "*"
+          },
+          {
+            "name": "The Lockwood Group LLC",
+            "location": "Belcamp, Maryland",
+            "contract_number": "N0042122D0088",
+            "markers": "*"
+          },
+          {
+            "name": "Tri Star Engineering Inc.",
+            "location": "Bloomington, Indiana",
+            "contract_number": "N0042122D0089",
+            "markers": "*"
+          },
+          {
+            "name": "VectorCSP LLC",
+            "location": "Elizabeth City, North Carolina",
+            "contract_number": "N0042122D0090",
+            "markers": "*"
+          },
+          {
+            "name": "Velocit.e LLC",
+            "location": "California, Maryland",
+            "contract_number": "N0042122D0091",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, cost reimbursable, indefinite-delivery/indefinite-quantity",
+        "description": "Product support management integration support, including program management and logistics support for NAVAIR weapons systems life cycle sustainment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 346526131,
+        "cumulative_value_usd": 346526131,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, small business set aside, electronic request for proposal; 18 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., Sterling Heights, Michigan, is awarded an $89,467,675 firm-fixed-price modification (P00148) to previously awarded contract M67854-16-0006 for Amphibious Combat Vehicles (ACV). The total cumulative face value of the contract is $1,825,427,258. This contract modification provides for the exercise of options for the procurement of 14 full-rate production ACV Command variants and associated production, and fielding and support costs. Work will be performed in York, Pennsylvania (60%); Aiken, South Carolina (15%); San Jose, California (15%); Sterling Heights, Michigan (5%); and Stafford, Virginia (5%), with an expected completion date of July 2024. Fiscal 2022 procurement (Marine Corps) funds in the amount of $89,467,675 will be obligated at the time of award, and will not expire at the end of the current fiscal year. Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-16-C-0006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "M6785416C0006"
+        ],
+        "modification_numbers": [
+          "P00148"
+        ],
+        "is_modification": true,
+        "value_usd": 89467675.0,
+        "cumulative_value_usd": 1825427258.0,
+        "obligated_usd": 89467675.0,
+        "funding_text": "Fiscal 2022 procurement (Marine Corps) funds in the amount of $89,467,675 will be obligated at the time of award, and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "Marine Corps Systems Command, Quantico, Virginia",
+          "code": "M67854-16-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "M67854-16-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for 14 full-rate production Amphibious Combat Vehicle (ACV) Command variants and associated production, fielding and support",
+        "base_contract_number": "M67854-16-0006",
+        "order_number": null,
+        "modification_number": "P00148",
+        "value_usd": 89467675,
+        "cumulative_value_usd": 1825427258,
+        "obligated_usd": 89467675,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $67,850,964 fixed-price incentive and firm-fixed-priced modification to previously-awarded contract N00024-18-C-5218 to exercise the options for additional Technical Insertion-20 (TI-20) AN/SQQ-89A(V)15 surface ship undersea warfare combat systems, AN/SQS-53C transmitter infrastructure shipsets, and spares in support of the continued AN/SQQ-89A(V)15 development, integration, manufacture, production, and testing efforts. Work will be performed in Manassas, Virginia (60%); Lemont Furnace, Pennsylvania (33%); Syracuse, New York (4%); Clearwater, Florida (2%); and Hauppauge, New York (1%), and is expected to be completed by August 2024. Fiscal 2022 other procurement (Navy) funds in the amount of $35,362,594 (52%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $27,007,759 (40%); Foreign Military Sales (Australia) funds in the amount of $4,637,360 (6%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $481,333 (1%); and fiscal 2019 shipbuilding and conversion (Navy) funds in the amount of $361,918 (1%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C5218"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 67850964.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67850964.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) funds in the amount of $35,362,594 (52%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $27,007,759 (40%); Foreign Military Sales (Australia) funds in the amount of $4,637,360 (6%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $481,333 (1%); and fiscal 2019 shipbuilding and conversion (Navy) funds in the amount of $361,918 (1%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-18-C-5218",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive and firm-fixed-price",
+        "description": "Exercise of options for Technical Insertion-20 (TI-20) AN/SQQ-89A(V)15 surface ship undersea warfare combat systems, AN/SQS-53C transmitter infrastructure shipsets, and spares",
+        "base_contract_number": "N00024-18-C-5218",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 67850964,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67850964,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Crown Point Systems Inc.,* San Diego, California, is awarded a $33,277,946 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures up to 4,465 LED displays for audio visual (AV) equipment in support of the Integrated Command, Control and Intel Systems Division’s integration of specialized network AV systems for intelligence agencies and the command, control, communication, computers, cyber, intelligence, surveillance and reconnaissance missions of Joint Staff and combatant commanders, Department of Defense agencies and services, and Department of Homeland Security operational and support components. Work will be performed in San Diego, California, and is expected to be completed in May 2025. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; four offers were received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833522D0020).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6833522D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33277946.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2025-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833522D0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Crown Point Systems Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N6833522D0020",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of up to 4,465 LED displays for audio visual equipment for Integrated Command, Control and Intel Systems Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33277946,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Caddell-Nan JV, Montgomery, Alabama, is awarded a $27,761,321 firm-fixed-price contract for the construction of an airfield damage repair storage facility at Andersen Air Force Base, Guam. The work to be performed provides for a new one-story warehouse facility required to preposition airfield repair equipment and material. The contract also contains one option which will be exercised at time of award. Work will be performed in Yigo, Guam, and is expected to be completed by November 2023. Fiscal 2022 military construction (Air Force) funds in the amount of $27,761,321 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the beta.sam.gov website, with two proposals received. The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-22-C-1308).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6274222C1308"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27761321.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27761321.0,
+        "funding_text": "Fiscal 2022 military construction (Air Force) funds in the amount of $27,761,321 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-22-C-1308"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Caddell-Nan JV",
+            "location": "Montgomery, Alabama",
+            "contract_number": "N62742-22-C-1308",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of airfield damage repair storage facility at Andersen Air Force Base, Guam",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27761321,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27761321,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov; two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE INFORMATION SYSTEMS AGENCY",
       "kind": "announcement",
       "text": "Forcepoint Federal LLC, Herndon, Virginia, was awarded a competitive, firm-fixed-price contract with a total cumulative face value of $89,145,587 for a user activity monitoring enterprise solution for the Department of Defense combatant commands and Fourth Estate agencies. The base period value of this action is $13,360,360 and will be funded by fiscal 2022 operations and management funds. Performance will be at Fort Meade, Maryland. Proposals were solicited via sam.gov and two proposals were received from this full and open competition. The period of performance is from May 10, 2022, to May 9, 2023, with three one-year options. The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois, is the contracting activity (HC1084-22-C-0002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "HC108422C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89145587.0,
+        "cumulative_value_usd": 89145587.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois",
+          "code": "HC1084-22-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Forcepoint Federal LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "HC1084-22-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "User activity monitoring enterprise solution for DoD combatant commands and Fourth Estate agencies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13360360,
+        "cumulative_value_usd": 89145587,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "full and open competition, sam.gov; two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Premix Inc., Gastonia, North Carolina, has been awarded a $79,869,431, firm-fixed-price contract for increased production capacity of plastic resin material for pipette tips. This contract will enable more than 200 million COVID-19 polymerase chain reaction tests monthly by Oct. 31, 2025. Work will be performed in Gastonia, North Carolina, and is expected to be completed by Oct. 31, 2025. Fiscal 2021 Air Force other procurement Funds will be used to fully fund this contract. Air Force Sustainment Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8118-22-C-0007). (Awarded May 5, 2022)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA811822C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 79869431.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-10-31",
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8118-22-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Premix Inc.",
+            "location": "Gastonia, North Carolina",
+            "contract_number": "FA8118-22-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Increased production capacity of plastic resin material for pipette tips for COVID-19 PCR tests",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 79869431,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-05-05"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Newbegin Enterprises Inc., Piney Flats, Tennessee, has been awarded a $16,816,800 hybrid cost-reimbursable/firm-fixed price definitive supply contract for an internet-based contractor operated parts store for the U.S. Air Forces Central Command. This contract provides for automotive and related vehicle parts, automotive chemicals, corrosion control materials, upholstery material and accessories for vehicles/equipment located in the USAFCENT area of responsibility. Work will be performed in Piney Flats, Tennessee, and is expected to be completed by May 31, 2027. This award is the result of a competitive acquisition and one offer was received. Fiscal 2022 operations and maintenance funds in the amount of $1,600,000 are being obligated at the time of award. Headquarters Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia, is the contracting activity (FA4890-22-C-0012).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA489022C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16816800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1600000.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds in the amount of $1,600,000 are being obligated at the time of award",
+        "completion_date": "2027-05-31",
+        "contracting_activity": {
+          "name": "Headquarters Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia",
+          "code": "FA4890-22-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Newbegin Enterprises Inc.",
+            "location": "Piney Flats, Tennessee",
+            "contract_number": "FA4890-22-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid cost-reimbursable/firm-fixed price definitive supply contract",
+        "description": "Internet-based contractor operated parts store for U.S. Air Forces Central Command",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16816800,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1600000,
+        "fms_countries": [],
+        "competition": "competitive; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Zeno Power Systems Inc., St. Louis, Missouri, has been awarded a $14,997,863 cost-plus-fixed-fee contract for the radioisotope power system. This contract is to provide, develop and demonstrate the concept of a next-generation radioisotope power system. Work will be performed in St. Louis, Missouri, and is expected to be completed by March 31, 2026. This award is the result of a Small Business Innovation Research Sequential Phase II acquisition. Fiscal 2022 research and development funds in the amount of $428,000 are being obligated at the time of award. Air Force Research Laboratory, Kirtland Air Force Base, Albuquerque, New Mexico, is the contracting activity (FA9453-22-C-A019).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA945322CA019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14997863.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 428000.0,
+        "funding_text": "Fiscal 2022 research and development funds in the amount of $428,000 are being obligated at the time of award",
+        "completion_date": "2026-03-31",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Kirtland Air Force Base, Albuquerque, New Mexico",
+          "code": "FA9453-22-C-A019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Zeno Power Systems Inc.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "FA9453-22-C-A019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Next-generation radioisotope power system concept development and demonstration (SBIR Sequential Phase II)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14997863,
+        "cumulative_value_usd": null,
+        "obligated_usd": 428000,
+        "fms_countries": [],
+        "competition": "SBIR Sequential Phase II acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Korte Construction Co., doing business as The Korte Co., St. Louis, Missouri, was awarded a $36,952,500 firm-fixed-price contract to design and construct an operations and test facility. Bids were solicited via the internet with four received. Work will be performed at Nellis Air Force Base, Nevada, with an estimated completion date of May 5, 2024. Fiscal 2022 operation and maintenance, Air Force funds in the amount of $36,952,500 were obligated at the time of the award. U.S. Army Corps of Engineers, Los Angeles, California, is the contracting activity (W912PL-22-C-0015).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912PL22C0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36952500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36952500.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Air Force funds in the amount of $36,952,500 were obligated at the time of the award",
+        "completion_date": "2024-05-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Los Angeles, California",
+          "code": "W912PL-22-C-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Korte Construction Co., doing business as The Korte Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W912PL-22-C-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design and construction of an operations and test facility at Nellis Air Force Base, Nevada",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36952500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36952500,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation; four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Luhr Bros. Inc., Columbia, Illinois, was awarded an $8,246,930 firm-fixed-price contract for dredging the Ohio River and the Upper Mississippi River. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 15, 2022. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-22-F-0140).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W912QR22F0140"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8246930.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-11-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-22-F-0140"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Luhr Bros. Inc.",
+            "location": "Columbia, Illinois",
+            "contract_number": "W912QR-22-F-0140",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dredging the Ohio River and Upper Mississippi River",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8246930,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation; one bid received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-05-09.html"
+  "source": "file:2022-05-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:15:41Z"
+  }
 }

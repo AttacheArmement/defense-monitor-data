@@ -12,75 +12,634 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods Inc., doing business as US Foods-Lexington, Lexington, South Carolina, has been awarded a maximum $603,075,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for full-line food and beverage items. This was a competitive acquisition with three responses received. This is a five-year contract with no option periods. The ordering period end date is Feb. 8, 2031. Using customers are Army, Air Force, Marine Corps, and Air National Guard. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-26-D-3011).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE30026D3011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 603075000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-26-D-3011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "US Foods Inc., doing business as US Foods-Lexington",
+            "location": "Lexington, South Carolina",
+            "contract_number": "SPE300-26-D-3011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment indefinite-delivery/indefinite-quantity",
+        "description": "Full-line food and beverage items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 603075000,
+        "cumulative_value_usd": 603075000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Veterans Healthcare Supply Solutions Inc.,* Jacksonville, Florida, has been awarded a maximum $49,500,000 fixed-price, indefinite-delivery/indefinite-quantity contract for veterinary products. This was a competitive acquisition with three responses received. This is a five-year contract with no option periods. Other contracts are expected to be awarded under this solicitation (SPE2DE-25-R-0001) and awardees will compete for a portion of the maximum dollar value. The ordering period end date is Feb. 11, 2031. Using customers are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia (SPE2DE-26-D-0006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE25R0001",
+          "SPE2DE26D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia",
+          "code": "SPE2DE-26-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Veterans Healthcare Supply Solutions Inc.",
+            "location": "Jacksonville, Florida",
+            "contract_number": "SPE2DE-26-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Veterinary products",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49500000,
+        "cumulative_value_usd": 49500000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "ProAlliance Corp.,** Harvard, Illinois, has been awarded a maximum $47,500,000 fixed-price contract for dental consumable items. This was a competitive acquisition with 15 responses received. This is a five-year contract with no option periods. Other contracts are expected to be awarded under this solicitation (SPE2DE-25-R-0002) and awardees will compete for a portion of the maximum dollar value. The performance completion date is Feb. 18, 2031. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DF-26-D-0006).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE25R0002",
+          "SPE2DF26D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DF-26-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "ProAlliance Corp.",
+            "location": "Harvard, Illinois",
+            "contract_number": "SPE2DF-26-D-0006",
+            "markers": "**"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price",
+        "description": "Dental consumable items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47500000,
+        "cumulative_value_usd": 47500000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 15 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Goodrich Corp., doing business as Collins Aerospace, Troy, Ohio, has been awarded a maximum $23,808,261 modification (P00004) exercising the first four-year option period of a ten-year base contract (SPRHA1-24-D-0002) with one four-year option period for F-15 heat sinks performance-based support remaining. This is a firm-fixed-price, requirements contract. The ordering period end date is Feb. 14, 2030. Using military service is Air Force. Type of appropriation is fiscal 2026 through 2030 Air Force working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Ogden, Utah.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPRHA124D0002"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 23808261.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Ogden, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Goodrich Corp., doing business as Collins Aerospace",
+            "location": "Troy, Ohio",
+            "contract_number": "SPRHA1-24-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "First four-year option period exercise for F-15 heat sinks performance-based support",
+        "base_contract_number": "SPRHA1-24-D-0002",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 23808261,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The County of Harnett, Fort Bragg, North Carolina, has been awarded an estimated $12,037,194 modification (P00140) to a 40-year contract (SP0600-06-C-8254) with no option periods incorporating wastewater collection services commodity rate change. This is a fixed-price, non-regulated tariff contract. The performance completion date is Sep. 25, 2046. Using military service is Army. Type of appropriation is fiscal 2026 through 2046 Army operations and maintenance funds. The contracting activity is Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SP060006C8254"
+        ],
+        "modification_numbers": [
+          "P00140"
+        ],
+        "is_modification": true,
+        "value_usd": 12037194.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "The County of Harnett",
+            "location": "Fort Bragg, North Carolina",
+            "contract_number": "SP0600-06-C-8254",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price, non-regulated tariff contract",
+        "description": "Wastewater collection services commodity rate change",
+        "base_contract_number": "SP0600-06-C-8254",
+        "order_number": null,
+        "modification_number": "P00140",
+        "value_usd": 12037194,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "C.J. Mahan Construction Co. LLC, Urbancrest, Ohio, was awarded a firm-fixed-price contract for the Chickamauga Lock Approach Walls and Decommissioning Project. The amount of this action is $192,143,925, with a total cumulative face value of $558,374,213. Bids were solicited via the internet with one received. Work will be performed in Chattanooga, Tennessee, with an estimated completion date of March 9, 2029. Fiscal 2022 civil construction funds in the amount of $192,143,925 were obligated at the time of the award. U.S. Army Corps of Engineers, Nashville District, is the contracting activity (W912P5-26-C-A002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912P526CA002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 192143925.0,
+        "cumulative_value_usd": 558374213.0,
+        "obligated_usd": 192143925.0,
+        "funding_text": "Fiscal 2022 civil construction funds in the amount of $192,143,925 were obligated at the time of the award",
+        "completion_date": "2029-03-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Nashville District",
+          "code": "W912P5-26-C-A002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "C.J. Mahan Construction Co. LLC",
+            "location": "Urbancrest, Ohio",
+            "contract_number": "W912P5-26-C-A002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Chickamauga Lock Approach Walls and Decommissioning Project, Chattanooga, Tennessee",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 192143925,
+        "cumulative_value_usd": 558374213,
+        "obligated_usd": 192143925,
+        "fms_countries": [],
+        "competition": "solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Clark Construction Group LLC, Bethesda, Maryland, was awarded a firm-fixed-price contract for the Arlington National Cemetery Phase III Cemetery Expansion. The amount of this action is $145,292,000, with a total cumulative face value of $167,587,000. Bids were solicited via the internet with two received. Work will be performed in Fort Meyer, Virginia, with an estimated completion date of April 9, 2029. Fiscal 2026 construction, Cemeterial Expenses, Army funds in the amount of $145,292,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Norfolk District, is the contracting activity (W91236-26-C-A003).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9123626CA003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 145292000.0,
+        "cumulative_value_usd": 167587000.0,
+        "obligated_usd": 145292000.0,
+        "funding_text": "Fiscal 2026 construction, Cemeterial Expenses, Army funds in the amount of $145,292,000 were obligated at the time of the award",
+        "completion_date": "2029-04-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Norfolk District",
+          "code": "W91236-26-C-A003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Clark Construction Group LLC",
+            "location": "Bethesda, Maryland",
+            "contract_number": "W91236-26-C-A003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Arlington National Cemetery Phase III Cemetery Expansion, Fort Meyer, Virginia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 145292000,
+        "cumulative_value_usd": 167587000,
+        "obligated_usd": 145292000,
+        "fms_countries": [],
+        "competition": "solicited via internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "FEDVET Construction,* Temecula, California (W9128F-26-D-A012); Iron Mike Construction LLC,* Centennial, Colorado (W9128F-26-D-A013); John Bowman Inc.,* Fountain, Colorado (W9128F-26-D-A014); and Valiant Construction LLC,* Louisville, Kentucky (W9128F-26-D-A015), will compete for each order of the $99,000,000 firm-fixed-price contract for facilities sustainment, restoration, and modernization projects, including design-build and design-bid-build work. Bids were solicited via the internet with 22 received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 11, 2031. U.S. Army Corps of Engineers, Omaha District, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9128F26DA012",
+          "W9128F26DA013",
+          "W9128F26DA014",
+          "W9128F26DA015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-02-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Omaha District",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "FEDVET Construction",
+            "location": "Temecula, California",
+            "contract_number": "W9128F-26-D-A012",
+            "markers": "*"
+          },
+          {
+            "name": "Iron Mike Construction LLC",
+            "location": "Centennial, Colorado",
+            "contract_number": "W9128F-26-D-A013",
+            "markers": "*"
+          },
+          {
+            "name": "John Bowman Inc.",
+            "location": "Fountain, Colorado",
+            "contract_number": "W9128F-26-D-A014",
+            "markers": "*"
+          },
+          {
+            "name": "Valiant Construction LLC",
+            "location": "Louisville, Kentucky",
+            "contract_number": "W9128F-26-D-A015",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Facilities sustainment, restoration, and modernization projects, including design-build and design-bid-build work",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, 22 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Speegle Construction Inc., Niceville, Florida, was awarded a $31,479,000 firm-fixed-price contract for comprehensive repairs and upgrades to exterior and interior building systems, structures, and finishes. Bids were solicited via the internet with nine received. Work will be performed in Fort Benning, Georgia, with an estimated completion date of May 4, 2028. Fiscal 2026 operation and maintenance, Army funds in the amount of $31,479,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Savannah District, is the contracting activity (W912HN-26-C-A016).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912HN26CA016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31479000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31479000.0,
+        "funding_text": "Fiscal 2026 operation and maintenance, Army funds in the amount of $31,479,000 were obligated at the time of the award",
+        "completion_date": "2028-05-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Savannah District",
+          "code": "W912HN-26-C-A016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Speegle Construction Inc.",
+            "location": "Niceville, Florida",
+            "contract_number": "W912HN-26-C-A016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Comprehensive repairs and upgrades to exterior and interior building systems, structures, and finishes, Fort Benning, Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31479000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31479000,
+        "fms_countries": [],
+        "competition": "solicited via internet, nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems Inc., Nashua, New Hampshire, has been awarded a cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract (FA8681-26-D-B001) with a ceiling of $145,000,000; and delivery order with the total value of $66,673,298 (FA8681-26-F-B012). This contract provides for the development, manufacturing, and delivery of Counter Unmanned Aerial Systems weapon systems. Work will be performed at Hudson, New Hampshire. The ordering period is from Feb. 12, 2026, to Feb. 12, 2031, work is expected to be completed on the delivery order by July 31, 2027. This award is the result of a sole source acquisition due to Federal Acquisition Regulation 6.302-1 Only One Responsible Source. Fiscal 2026 research and development funds in the amount of $26,048,932 are being obligated at time of award. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity. (Awarded on Feb. 11, 2026.)",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA868126DB001",
+          "FA868126FB012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 145000000.0,
+        "cumulative_value_usd": 66673298.0,
+        "obligated_usd": 26048932.0,
+        "funding_text": "Fiscal 2026 research and development funds in the amount of $26,048,932 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "BAE Systems Inc.",
+            "location": "Nashua, New Hampshire",
+            "contract_number": "FA8681-26-D-B001",
+            "markers": null
+          },
+          {
+            "name": "BAE Systems Inc.",
+            "location": "Nashua, New Hampshire",
+            "contract_number": "FA8681-26-F-B012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity",
+        "description": "Counter Unmanned Aerial Systems weapon systems development, manufacturing, and delivery; delivery order at Hudson, New Hampshire",
+        "base_contract_number": null,
+        "order_number": "FA8681-26-F-B012",
+        "modification_number": null,
+        "value_usd": 66673298,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26048932,
+        "fms_countries": [],
+        "competition": "sole source (FAR 6.302-1, only one responsible source)",
+        "award_date": "2026-02-11"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Raytheon Co., McKinney, Texas, is being awarded $12,975,258 for a ceiling-price not-to-exceed delivery order (N00383-26-F-SV00) under a previously awarded basic ordering agreement (N00383-23-G-SV01) for the repair of six weapon repairable assemblies-for a total quantity of 87 repairs-in support of the F/A-18 aircraft system. The delivery order does not include an option provision. All work will be performed in McKinney, Texas. Work is expected to be completed by December 2028. Fiscal 2026 working capital funds in the amount of $9,731,444 will be obligated at the time of award and funds will not expire at the end of the current fiscal year. One source was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1) and one offer was received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0038326FSV00",
+          "N0038323GSV01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12975258.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9731444.0,
+        "funding_text": "Fiscal 2026 working capital funds in the amount of $9,731,444 will be obligated at the time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "N00383-26-F-SV00",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "ceiling-price not-to-exceed delivery order",
+        "description": "Repair of six weapon repairable assemblies (87 repairs total) for F/A-18 aircraft system",
+        "base_contract_number": "N00383-23-G-SV01",
+        "order_number": "N00383-26-F-SV00",
+        "modification_number": null,
+        "value_usd": 12975258,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9731444,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Phoenix Air Group Inc., Cartersville, Georgia (HTC71126CE121), has been awarded a firm-fixed price contract with a face value of $9,856,635.90. This contract provides passenger air transportation services in California, between Point Mugu and San Nicholas Island; and Point Mugu and China Lake. The base period of performance is from March 1, 2026, to Sept. 30, 2026. Working Capital (Navy) funds will be obligated for fiscal 2026. The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HTC71126CE121"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9856635.9,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Working Capital (Navy) funds will be obligated for fiscal 2026",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Phoenix Air Group Inc.",
+            "location": "Cartersville, Georgia",
+            "contract_number": "HTC71126CE121",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Passenger air transportation services in California between Point Mugu, San Nicholas Island, and China Lake",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9856635.9,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-02-12.html"
+  "source": "file:2026-02-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:34:29Z"
+  }
 }

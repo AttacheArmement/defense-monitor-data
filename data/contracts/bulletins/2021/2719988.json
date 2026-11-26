@@ -11,69 +11,612 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Austal USA, Mobile, Alabama (N00024-21-D-4443); Epsilon Systems Solutions Inc.,* Portsmouth, Virginia (N00024-21-D-4444); and Continental Maritime of San Diego LLC, San Diego, California, formerly Huntington Ingalls Industries San Diego Shipyard Inc. (N00024-21-D-4445), are each awarded firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity, multiple award contracts to support sustainment execution efforts for Littoral Combat Ships homeported in San Diego, California (MAC I). The MAC I contracts will have a ceiling of $344,724,287. Delivery orders will be competitively awarded under these contracts, which are to be performed in San Diego, California (58%); outside the continental U.S. (28%); and other continental U.S. (14%) locations, as appropriate. Each of the contracts has an estimated ordering period of 19 months, which is expected to end in February 2023. Fiscal 2021 operation and maintenance (Navy) funding in the amount of $15,000 ($5,000 minimum guarantee per contract) is being obligated as each contract’s initial delivery order which will expire at the end of the current fiscal year. These contracts were competitively procured using full and open competition with three offers received via the beta.sam.gov website. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002421D4443",
+          "N0002421D4444",
+          "N0002421D4445"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 344724287.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funding in the amount of $15,000 ($5,000 minimum guarantee per contract) is being obligated as each contract’s initial delivery order which will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Austal USA",
+            "location": "Mobile, Alabama",
+            "contract_number": "N00024-21-D-4443",
+            "markers": null
+          },
+          {
+            "name": "Epsilon Systems Solutions Inc.",
+            "location": "Portsmouth, Virginia",
+            "contract_number": "N00024-21-D-4444",
+            "markers": "*"
+          },
+          {
+            "name": "Continental Maritime of San Diego LLC (formerly Huntington Ingalls Industries San Diego Shipyard Inc.)",
+            "location": "San Diego, California",
+            "contract_number": "N00024-21-D-4445",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee IDIQ multiple award",
+        "description": "Sustainment execution efforts for Littoral Combat Ships homeported in San Diego (MAC I)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 344724287,
+        "cumulative_value_usd": 344724287,
+        "obligated_usd": 15000,
+        "fms_countries": [],
+        "competition": "competitive, full and open, 3 offers received via beta.sam.gov",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Fort Worth, Texas, was awarded a $66,610,781, fixed-price (incentive) firm target, firm-fixed-price modification (P00056) to a previously awarded contract (N0001917C0001). This modification provides for alternative sources aircraft alignment definitization of material impacts to F-35 Lightning II Joint Strike Fighter low rate initial production Lots 12-14 aircraft in support the U.S. government’s decision to establish alternative source suppliers for materials and hardware within the F-35 production line for the Navy, Marine Corps, Air Force, and non-Department of Defense (DOD) participants. Work will be performed in Hoogergeide, Netherlands (89%); Laval, Quebec, Canada (9%); and Rancho Dominguez, California (1%), and is expected to be completed in February 2023. Fiscal 2018 aircraft procurement (Navy) funds in the amount of $159,568; fiscal 2019 aircraft procurement (Air Force) funds in the amount of $8,982,671; fiscal 2019 aircraft procurement (Navy) funds in the amount of $6,688,543; fiscal 2020 aircraft procurement (Air Force) funds in the amount of $12,457,633; fiscal 2020 aircraft procurement (Navy) funds in the amount of $6,412,057; and non-DOD participant funds in the amount of $31,910,309 will be obligated at time of award, $15,671,214 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity. (Awarded August 2, 2021)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0001"
+        ],
+        "modification_numbers": [
+          "P00056"
+        ],
+        "is_modification": true,
+        "value_usd": 66610781.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66610781.0,
+        "funding_text": "Fiscal 2018 aircraft procurement (Navy) funds in the amount of $159,568; fiscal 2019 aircraft procurement (Air Force) funds in the amount of $8,982,671; fiscal 2019 aircraft procurement (Navy) funds in the amount of $6,688,543; fiscal 2020 aircraft procurement (Air Force) funds in the amount of $12,457,633; fiscal 2020 aircraft procurement (Navy) funds in the amount of $6,412,057; and non-DOD participant funds in the amount of $31,910,309 will be obligated at time of award, $15,671,214 of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001917C0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price (incentive) firm target, firm-fixed-price",
+        "description": "Alternative sources aircraft alignment definitization of material impacts to F-35 Lightning II Lots 12-14 aircraft",
+        "base_contract_number": "N0001917C0001",
+        "order_number": null,
+        "modification_number": "P00056",
+        "value_usd": 66610781,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66610781,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-08-02"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Empire Hospitality LLC, Birmingham, Alabama, is awarded $30,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide emergent restriction of movement COVID-19 support services to include lodging, laundry, transportation and sustenance in support of Commander, Second Fleet. This contract will include a one-year base ordering period with no options and is expected to be completed by August 2022. All work will be performed at locations across the East Coast continental U.S. in which the percentage of work at each of those location cannot be determined at this time. Fiscal 2021 operation and maintenance (Navy) funds in the amount of $2,500 will be obligated to fund the contract’s minimum amount, and will expire at the end of the fiscal year. Individual task orders will be subsequently funded with appropriate fiscal year appropriations at the time of their issuance. This contract resulted from a full and open competitive solicitation through beta.sam.gov, with seven offers received. Naval Supply Systems Command Fleet Logistics Center Norfolk, Contracting Department Norfolk Office, Norfolk, Virginia, is the contracting activity (N00189-21-D-0025).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0018921D0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funds in the amount of $2,500 will be obligated to fund the contract’s minimum amount, and will expire at the end of the fiscal year",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center Norfolk, Contracting Department Norfolk Office, Norfolk, Virginia",
+          "code": "N00189-21-D-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Empire Hospitality LLC",
+            "location": "Birmingham, Alabama",
+            "contract_number": "N00189-21-D-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Emergent restriction of movement COVID-19 support services (lodging, laundry, transportation, sustenance) for Commander, Second Fleet",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": 30000000,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "full and open competitive, 7 offers received via beta.sam.gov",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Woods Hole Oceanographic Institution, Woods Hole, Massachusetts, is awarded a $9,693,289 cost-plus-fixed-fee contract for the effort titled “Autonomous Systems and Communications.” The work to be performed spans vehicle autonomy and multimodal communications. The project aims to improve base understanding of the environment through insitu sampling and autonomous decision making for the Naval research community. The capabilities in development align to the Navy unmanned campaign framework to directly work on key enabling technology outlined by the secretary of the Navy and the chief of naval operations. Work will be performed in Woods Hole, Massachusetts, with an expected completion date of Aug. 3, 2025. Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $451,000 are obligated at time of award. Funds in the amount of $100,000 will expire at the end of the current fiscal year. This contract was competitively procured under N00014-20-S-B001, “Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology.” Since proposals are received throughout the year under the long range BAA, the number of proposals received in response to the solicitation is unknown. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N00014-21-C-2028).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001420SB001",
+          "N0001421C2028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9693289.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 451000.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $451,000 are obligated at time of award",
+        "completion_date": "2025-08-03",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": "N00014-21-C-2028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Woods Hole Oceanographic Institution",
+            "location": "Woods Hole, Massachusetts",
+            "contract_number": "N00014-21-C-2028",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Autonomous Systems and Communications research effort (vehicle autonomy and multimodal communications)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9693289,
+        "cumulative_value_usd": null,
+        "obligated_usd": 451000,
+        "fms_countries": [],
+        "competition": "competitive, under N00014-20-S-B001 Long Range BAA",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., King of Prussia, Pennsylvania, has been awarded a $51,216,326 modification (P00021) to previously awarded contract FA821920-C-0001, to provide engineering services for the Mk21A Reentry Vehicle (RV) Arming and Fuzing Subsystem. Work will be performed at King of Prussia, Pennsylvania, and is expected to be completed by Oct. 31, 2023. No funds are being obligated with this modification, and the total cumulative face value of the contract is $255,313,595. The Air Force Nuclear Weapon Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA821920C0001"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 51216326.0,
+        "cumulative_value_usd": 255313595.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated with this modification, and the total cumulative face value of the contract is $255,313,595",
+        "completion_date": "2023-10-31",
+        "contracting_activity": {
+          "name": "The Air Force Nuclear Weapon Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "King of Prussia, Pennsylvania",
+            "contract_number": "FA821920-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Engineering services for the Mk21A Reentry Vehicle Arming and Fuzing Subsystem",
+        "base_contract_number": "FA821920-C-0001",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 51216326,
+        "cumulative_value_usd": 255313595,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Goodwill Industries of San Antonio Contract Services, San Antonio, Texas, an AbilityOne contractor, was awarded a $9,136,312 indefinite-delivery contract (requirements) to perform grounds services at Joint Base San Antonio (JBSA), Fort Sam Houston, Texas. This award is sole source and services are currently being performed under the AbilityOne program. Fiscal 2021 operation and maintenance funds in the amount of $367,359 for one month of services were obligated at the time of award; services commence Sept. 1, 2021. The contract is expected to be completed by April 30, 2025. The 502nd Contracting Squadron, JBSA, Lackland, Texas, is the contracting activity (FA301621D0021). (Awarded July 30, 2021)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA301621D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9136312.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 367359.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $367,359 for one month of services were obligated at the time of award; services commence Sept. 1, 2021",
+        "completion_date": "2025-04-30",
+        "contracting_activity": {
+          "name": "The 502nd Contracting Squadron, JBSA, Lackland, Texas",
+          "code": "FA301621D0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Goodwill Industries of San Antonio Contract Services",
+            "location": "San Antonio, Texas",
+            "contract_number": "FA301621D0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery contract (requirements)",
+        "description": "Grounds services at Joint Base San Antonio, Fort Sam Houston (AbilityOne)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9136312,
+        "cumulative_value_usd": null,
+        "obligated_usd": 367359,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2021-07-30"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Johnson & Johnson Health Care Systems Inc., Piscataway, New Jersey, has been awarded a maximum $48,080,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract under solicitation SPE2DH-16-R-0002 for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog. This was a competitive acquisition with 154 responses received. This is a five-year contract with no option periods. Location of performance is New Jersey, with an Aug. 3, 2026, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DH-21-D-0068).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH16R0002",
+          "SPE2DH21D0068"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 48080000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DH-21-D-0068"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Johnson & Johnson Health Care Systems Inc.",
+            "location": "Piscataway, New Jersey",
+            "contract_number": "SPE2DH-21-D-0068",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment IDIQ",
+        "description": "Medical equipment and accessories for the DLA Electronic Catalog",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48080000,
+        "cumulative_value_usd": 48080000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, solicitation SPE2DH-16-R-0002, 154 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Advanced Material Handling LLC, Lithia Springs, Georgia (SPE8EC-21-D-0086), has been added as an awardee to the multiple award contract for material handling equipment, issued against solicitation SPE8EC-17-R-0002 and awarded June 9, 2017.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC21D0086",
+          "SPE8EC17R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Advanced Material Handling LLC",
+            "location": "Lithia Springs, Georgia",
+            "contract_number": "SPE8EC-21-D-0086",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for material handling equipment (solicitation SPE8EC-17-R-0002, awarded June 9, 2017)",
+        "base_contract_number": "SPE8EC-17-R-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2017-06-09"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AECOM Technical Services Inc., Los Angeles, California (W91278-21-D-0040); Arcadis U.S. Inc., Highlands Ranch, Colorado (W91278-21-D-0041); CCW AE Services JV, Fairfax, Virginia (W91278-21-D-0042); HDR Engineering Inc., Tampa, Florida (W91278-21-D-0043); Tetra Tech Inc., Boynton Beach, Florida (W91278-21-D-0044); CEC-CDM Smith JV,* Bonita Springs, Florida (W91278-21-D-0045); Ilsi-Arcadis Small Business JV LLC,* New Orleans, Louisiana (W91278-21-D-0046); and Resilient LLC JV,* New Orleans, Louisiana (W91278-21-D-0047), will compete for each order of the $46,000,000 order-dependent contract for architect and engineering services. Bids were solicited via the internet with 21 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 3, 2026. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9127821D0040",
+          "W9127821D0041",
+          "W9127821D0042",
+          "W9127821D0043",
+          "W9127821D0044",
+          "W9127821D0045",
+          "W9127821D0046",
+          "W9127821D0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-08-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W91278-21-D-0040",
+            "markers": null
+          },
+          {
+            "name": "Arcadis U.S. Inc.",
+            "location": "Highlands Ranch, Colorado",
+            "contract_number": "W91278-21-D-0041",
+            "markers": null
+          },
+          {
+            "name": "CCW AE Services JV",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W91278-21-D-0042",
+            "markers": null
+          },
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "W91278-21-D-0043",
+            "markers": null
+          },
+          {
+            "name": "Tetra Tech Inc.",
+            "location": "Boynton Beach, Florida",
+            "contract_number": "W91278-21-D-0044",
+            "markers": null
+          },
+          {
+            "name": "CEC-CDM Smith JV",
+            "location": "Bonita Springs, Florida",
+            "contract_number": "W91278-21-D-0045",
+            "markers": "*"
+          },
+          {
+            "name": "Ilsi-Arcadis Small Business JV LLC",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "W91278-21-D-0046",
+            "markers": "*"
+          },
+          {
+            "name": "Resilient LLC JV",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "W91278-21-D-0047",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "order-dependent contract, architect and engineering services",
+        "description": "Architect and engineering services order-dependent contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 21 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $45,167,317 contract (W912PL-21-C-0017) announced on Aug. 3, 2021, to Harper Construction, San Diego, California, to construct a fixed-wing aircraft operations and maintenance hangar, was actually awarded on Aug. 4, 2021.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912PL21C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45167317.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Harper Construction",
+            "location": "San Diego, California",
+            "contract_number": "W912PL-21-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: construction of a fixed-wing aircraft operations and maintenance hangar; award date corrected from Aug. 3, 2021 to Aug. 4, 2021",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45167317,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-08-04"
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Sunnyvale, California, is being awarded a $35,559,914 modification (P00041) to a previously awarded HQ0147-17-C-0032 contract for the Terminal High Altitude Area Defense (THAAD) weapon system. The total maximum ceiling value of this contract is increased from $6,300,005,882 to $6,335,565,796. Under this contract modification, Lockheed Martin will provide 36 Heavy Expanded Mobility Tactical Trucks (HEMTTs) A2 as a lifetime buy to support the THAAD weapon system. The work will be performed at Sunnyvale, California; Dallas, Texas; and Oshkosh, Wisconsin. The period of performance is from Aug. 4, 2021, through June 28, 2024. Fiscal 2021 procurement funds in the amount of $35,559,914 are being obligated on this award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HQ014717C0032"
+        ],
+        "modification_numbers": [
+          "P00041"
+        ],
+        "is_modification": true,
+        "value_usd": 35559914.0,
+        "cumulative_value_usd": 6300005882.0,
+        "obligated_usd": 35559914.0,
+        "funding_text": "Fiscal 2021 procurement funds in the amount of $35,559,914 are being obligated on this award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Sunnyvale, California",
+            "contract_number": "HQ0147-17-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "THAAD weapon system; 36 HEMTT A2 trucks as lifetime buy; ceiling increased to $6,335,565,796",
+        "base_contract_number": "HQ0147-17-C-0032",
+        "order_number": null,
+        "modification_number": "P00041",
+        "value_usd": 35559914,
+        "cumulative_value_usd": 6335565796,
+        "obligated_usd": 35559914,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:46Z",
-  "source": "file:2021-08-04.html"
+  "source": "file:2021-08-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:48:05Z"
+  }
 }

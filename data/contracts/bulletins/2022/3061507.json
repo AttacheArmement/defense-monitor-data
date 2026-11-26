@@ -11,45 +11,355 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Engineering Research and Consulting, Huntsville, Alabama, was awarded $90,814,115 cost-plus-fixed-fee contract to procure support services for the U.S. Army Redstone Test Center. Bids were solicited via the internet with one received. Work will be performed in Redstone Arsenal, Alabama, with an estimated completion date of April 19, 2023. Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $90,814,115 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-22-F-0282).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB22F0282"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90814115.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90814115.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $90,814,115 were obligated at the time of the award",
+        "completion_date": "2023-04-19",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-22-F-0282"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Engineering Research and Consulting",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W91CRB-22-F-0282",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Support services for the U.S. Army Redstone Test Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90814115,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90814115,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "REEL COH Inc., Boisbriand, Quebec, Canada, was awarded an $11,000,000 modification (P00001) to contract W912DW-21-C-0016 to replace an intake gantry crane for the Libby Dam. Work will be performed in Libby, Montana, with an estimated completion date of Nov. 6, 2023. Fiscal 2022 civil construction, Corps of Engineers funds in the amount of $11,000,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912DW21C0016"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 11000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000000.0,
+        "funding_text": "Fiscal 2022 civil construction, Corps of Engineers funds in the amount of $11,000,000 were obligated at the time of the award",
+        "completion_date": "2023-11-06",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "REEL COH Inc.",
+            "location": "Boisbriand, Quebec, Canada",
+            "contract_number": "W912DW-21-C-0016",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Replace an intake gantry crane for the Libby Dam",
+        "base_contract_number": "W912DW-21-C-0016",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 11000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "SecuriGence LLC,* Leesburg, Virginia, has been awarded a $76,494,912 modification (P00009) to previously awarded task order HR001121F0006 for information technology multi-network security services. The modification brings the total cumulative face value of the task order to $145,918,043 from $69,423,131. Work will be performed in Arlington, Virginia, with an expected completion date of June 2023. Fiscal 22 research and development funds in the amount of $38,271,249 are being obligated at time of award. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "HR001121F0006"
+        ],
+        "modification_numbers": [
+          "P00009"
+        ],
+        "is_modification": true,
+        "value_usd": 76494912.0,
+        "cumulative_value_usd": 145918043.0,
+        "obligated_usd": 38271249.0,
+        "funding_text": "Fiscal 22 research and development funds in the amount of $38,271,249 are being obligated at time of award",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SecuriGence LLC",
+            "location": "Leesburg, Virginia",
+            "contract_number": "HR001121F0006",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology multi-network security services task order",
+        "base_contract_number": null,
+        "order_number": "HR001121F0006",
+        "modification_number": "P00009",
+        "value_usd": 76494912,
+        "cumulative_value_usd": 145918043,
+        "obligated_usd": 38271249,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a not-to-exceed $67,400,000 modification (P00012) to a previously awarded fixed-price incentive (firm-target) advanced acquisition contract (N0001920C0009). This modification increases the scope to procure long lead-time materials, parts, components, and effort for the production of eight Lot 17 F-35A aircraft for one Foreign Military Sales (FMS) customer. Work will be performed in Fort Worth, Texas (57%); El Segundo, California (14%); Warton, United Kingdom (9%); Cameri, Italy (4%); Orlando, Florida (4%); Nashua, New Hampshire (3%); Baltimore, Maryland (3%); San Diego, California (2%); Nagoya, Japan (2%); and various undisclosed locations outside the continental U.S. (2%), and is expected to be completed in May 2026. FMS funds in the amount of $67,400,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001920C0009"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 67400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67400000.0,
+        "funding_text": "FMS funds in the amount of $67,400,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001920C0009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target) advance acquisition contract",
+        "description": "Long lead-time materials, parts, and components for eight Lot 17 F-35A aircraft",
+        "base_contract_number": "N0001920C0009",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 67400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67400000,
+        "fms_countries": [
+          "Foreign Military Sales customer (unnamed)"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "T3W Business Solutions Inc., San Diego, California, is awarded a $7,997,155 firm-fixed-price modification (P00004) exercising Option Year Two to previously awarded contract M67400-20-F-0187 for technical and administrative support services in support of Marine Corps Installations Pacific (MCIPAC) Defense Policy Review Initiative. This contract includes four one-year option periods which, if exercised, could bring the cumulative value of this contract to $37,580,734. Work will be performed in Okinawa, Japan, and is expected to be completed June 2023. If all options are exercised, work will continue through June 2025. Fiscal 2022 operation and maintenance (Marine Corps) funds in the amount of $7,997,155 will obligated at the time of award and will expire at the end of the current fiscal year. This contract was competitively solicited via General Service Administration One Acquisition Solution for Integrated Services Small Business Pool 1, with three proposals received. The MCIPAC Regional Contracting Office, Okinawa, Japan, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "M6740020F0187"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 7997155.0,
+        "cumulative_value_usd": 37580734.0,
+        "obligated_usd": 7997155.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Marine Corps) funds in the amount of $7,997,155 will obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The MCIPAC Regional Contracting Office, Okinawa, Japan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "T3W Business Solutions Inc.",
+            "location": "San Diego, California",
+            "contract_number": "M67400-20-F-0187",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Technical and administrative support services for Marine Corps Installations Pacific Defense Policy Review Initiative (Option Year Two)",
+        "base_contract_number": "M67400-20-F-0187",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 7997155,
+        "cumulative_value_usd": 37580734,
+        "obligated_usd": 7997155,
+        "fms_countries": [],
+        "competition": "Competitive via GSA One Acquisition Solution for Integrated Services Small Business Pool 1, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Labrepco LLC, Horsham, Pennsylvania (SPE2DH-22-D-0014, $24,000,000), has been added as an awardee to the multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-21-R0002 and awarded Feb. 10, 2022.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH22D0014",
+          "SPE2DH21R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Labrepco LLC",
+            "location": "Horsham, Pennsylvania",
+            "contract_number": "SPE2DH-22-D-0014",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for medical equipment and accessories for the DLA Electronic Catalog",
+        "base_contract_number": "SPE2DH-21-R0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-02-10"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Avfuel Corp., Ann Arbor, Michigan (SPE607-22-D-0082, $21,917,245), has been added as an awardee to the multiple award contract for fuel support at Pocatello Regional Airport, Idaho, issued against solicitation SPE607-22-R-0200 and awarded May 4, 2022.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE60722D0082",
+          "SPE60722R0200"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21917245.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Avfuel Corp.",
+            "location": "Ann Arbor, Michigan",
+            "contract_number": "SPE607-22-D-0082",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for fuel support at Pocatello Regional Airport, Idaho",
+        "base_contract_number": "SPE607-22-R-0200",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21917245,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-05-04"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-06-13.html"
+  "source": "file:2022-06-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:11:35Z"
+  }
 }

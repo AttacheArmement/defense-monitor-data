@@ -11,51 +11,418 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Airbus U.S. Space & Defense Inc., Arlington, Virginia, was awarded a $119,788,924 modification (P00455) to contract W58RGZ-17-C-0010 for an extension of contractor logistics support services for the UH-72 Lakota. Work will be performed in Grand Prairie, Texas, with an estimated completion date of June 30, 2022. Fiscal 2022 operation and maintenance, Army funds will be obligated in the future. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17C0010"
+        ],
+        "modification_numbers": [
+          "P00455"
+        ],
+        "is_modification": true,
+        "value_usd": 119788924.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army funds will be obligated in the future",
+        "completion_date": "2022-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Airbus U.S. Space & Defense Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W58RGZ-17-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Extension of contractor logistics support services for the UH-72 Lakota",
+        "base_contract_number": "W58RGZ-17-C-0010",
+        "order_number": null,
+        "modification_number": "P00455",
+        "value_usd": 119788924,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mayvin Inc.,* Annandale, Virginia, was awarded a $95,000,000 hybrid (cost-no-fee and firm-fixed-price) contract to support research, development and acquisition of military weapons, materiel and life cycle sustainment in support of the highest priority operators within the U.S. Special Operations Command. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of June 6, 2026. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QY-21-D-0023).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911QY21D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-06-06",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QY-21-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Mayvin Inc.",
+            "location": "Annandale, Virginia",
+            "contract_number": "W911QY-21-D-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-no-fee and firm-fixed-price)",
+        "description": "Research, development, acquisition and life cycle sustainment of military weapons, materiel in support of U.S. Special Operations Command",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Solicited via internet, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Vazquez Reasbeck Construction LLC, Kansas City, Missouri (FA4625-21-D-0002); K & K Industries Inc., Junction City, Kansas (FA4625-21-D-0003); and HGL Construction Inc., Oklahoma City, Oklahoma (FA4625-21-D-0004), have been collectively been awarded a ceiling $75,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity, multiple-award contract for design-build and design-bid-build construction services. Work includes general construction, including maintenance, repair, alteration, mechanical, electrical, heating/air conditioning, demolition, painting, paving and earthwork for industrial and office buildings. Work will be performed at Whiteman Air Force Base, Missouri, and is expected to be completed June 9, 2026. This award is the result of a competitive acquisition with 15 offers received. Fiscal 2021 operation and maintenance funds in the amount of $500 are being obligated to each contractor at the time of award. The 509th Contracting Squadron, Whiteman AFB, Missouri, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA462521D0002",
+          "FA462521D0003",
+          "FA462521D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 75000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $500 are being obligated to each contractor at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 509th Contracting Squadron, Whiteman AFB, Missouri",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Vazquez Reasbeck Construction LLC",
+            "location": "Kansas City, Missouri",
+            "contract_number": "FA4625-21-D-0002",
+            "markers": null
+          },
+          {
+            "name": "K & K Industries Inc.",
+            "location": "Junction City, Kansas",
+            "contract_number": "FA4625-21-D-0003",
+            "markers": null
+          },
+          {
+            "name": "HGL Construction Inc.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA4625-21-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity, multiple-award",
+        "description": "Design-build and design-bid-build construction services at Whiteman Air Force Base, Missouri",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 75000000,
+        "obligated_usd": 500,
+        "fms_countries": [],
+        "competition": "competitive, 15 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., McLean, Virginia, has been awarded an $8,851,622 indefinite-delivery/indefinite-quantity contract to provide engineering and hardware sustainment for the AN/ALQ-131 and AN/ALQ-184 electronics countermeasures pods. Work will be performed in McLean, Virginia, and is expected to be completed June 3, 2031. No funds are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8523-21-D-0006).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA852321D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8851622.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8523-21-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "McLean, Virginia",
+            "contract_number": "FA8523-21-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Engineering and hardware sustainment for AN/ALQ-131 and AN/ALQ-184 electronics countermeasures pods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8851622,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Arrow Indian Contractors Inc., Tempe, Arizona, has been awarded a maximum $8,800,000 indefinite-delivery/indefinite-quantity contract for base paving. This contract provides for all operations associated with street and parking lot repair. Work will be performed at Davis-Monthan Air Force Base, Arizona, and is expected to be completed June 6, 2026. This award is the result of a competitive acquisition with 12 offers received. Fiscal 2021 operation and maintenance funds in the amount of $2,000 are being obligated at the time of award. The 355th Contracting Squadron, Davis-Monthan AFB, Arizona, is the contracting activity (FA4877-21-D-0008).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA487721D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $2,000 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 355th Contracting Squadron, Davis-Monthan AFB, Arizona",
+          "code": "FA4877-21-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Arrow Indian Contractors Inc.",
+            "location": "Tempe, Arizona",
+            "contract_number": "FA4877-21-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Base paving: street and parking lot repair at Davis-Monthan Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000,
+        "fms_countries": [],
+        "competition": "competitive, 12 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Austal USA, Mobile, Alabama, is awarded a $44,000,000 fixed-price incentive firm-target, undefinitized contract modification to previously awarded contract N00024-19-C-2227 for the detail design, procurement, production implementation, and demonstration of autonomous capability in Expeditionary Fast Transport (EPF) 13. Work will be performed in Mobile, Alabama (60%); Reston, Virginia (35%); and Fairfax, Virginia (5%), and is expected to complete by July 2022. Fiscal 2021 shipbuilding and conversion (Navy) cost-to-complete funding in the amount of $22,000,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2227"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 44000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22000000.0,
+        "funding_text": "Fiscal 2021 shipbuilding and conversion (Navy) cost-to-complete funding in the amount of $22,000,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Austal USA",
+            "location": "Mobile, Alabama",
+            "contract_number": "N00024-19-C-2227",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive firm-target, undefinitized contract modification",
+        "description": "Detail design, procurement, production implementation and demonstration of autonomous capability in Expeditionary Fast Transport (EPF) 13",
+        "base_contract_number": "N00024-19-C-2227",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Global, A 1st Flagship Co.,* Irvine, California, is awarded a $10,833,890 cost-plus fixed fee modification to previously awarded contract N00024-17-C-4100 to exercise Option Period Four of the contract to acquire services and material necessary to support and maintain all vessels assigned to the Naval Sea Systems Command Inactive Ship Maintenance Office Philadelphia, Pennsylvania, and active vessels assigned to the Guided Missile Cruiser (CG)/Dock Landing Ship (LSD) Modernization Detachment, Norfolk, Virginia. Work will be performed in Philadelphia, Pennsylvania (80%); and in Norfolk, Virginia (20%), and is expected to be completed by July 2022. Fiscal 2021 operation and maintenance (Navy) funding in the amount of $1,661,878 will be obligated at the time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C4100"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10833890.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1661878.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funding in the amount of $1,661,878 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Global, A 1st Flagship Co.",
+            "location": "Irvine, California",
+            "contract_number": "N00024-17-C-4100",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus fixed fee",
+        "description": "Option Period Four to support and maintain vessels at NAVSEA Inactive Ship Maintenance Office Philadelphia and Guided Missile Cruiser/Dock Landing Ship Modernization Detachment Norfolk",
+        "base_contract_number": "N00024-17-C-4100",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10833890,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1661878,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "UNIFORMED SERVICES UNIVERSITY OF THE HEALTH SCIENCES",
       "kind": "announcement",
       "text": "George Mason University, Fairfax, Virginia, was awarded a single award, firm-fixed-price, indefinite-delivery/indefinite-quantity contract (HU000121D0002) in support of the Uniformed Services University of the Health Sciences’ (USU) Enlisted to Medical Degree Preparatory Program (EMDP2). This contract has a five-year ordering period from July 13, 2021, to July 12, 2026, with a minimum award amount of $100 and a maximum ceiling/face value of $20,000,000. Performance will be in Manassas, Virginia. The requirement was competitively solicited via beta.sam.gov with one offer received. Operation and maintenance funds will be obligated at the task order level. Uniformed Services University of the Health Sciences, Bethesda, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HU000121D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Operation and maintenance funds will be obligated at the task order level",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Uniformed Services University of the Health Sciences, Bethesda, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "George Mason University",
+            "location": "Fairfax, Virginia",
+            "contract_number": "HU000121D0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity, single award",
+        "description": "Enlisted to Medical Degree Preparatory Program (EMDP2) support for Uniformed Services University of the Health Sciences",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-06-07.html"
+  "source": "file:2021-06-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:54:57Z"
+  }
 }

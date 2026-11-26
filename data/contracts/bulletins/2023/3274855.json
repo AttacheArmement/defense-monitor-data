@@ -11,39 +11,337 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Acuity-PT&C, Atlanta, Georgia (W912EF-23-D-0001); MOCA Systems Inc.,* Newton, Massachusetts (W912EF-23-D-0002); Professional Project Services Inc., Oak Ridge, Tennessee (W912EF-23-D-0004); and AECOM Technical Services Inc., Seattle, Washington (W912EF-23-D-0003), will compete for each order of the $226,000,000 firm-fixed-price contract for architect-engineering cost estimating services. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 26, 2028. U.S. Army Corps of Engineers, Walla Walla, Washington, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912EF23D0001",
+          "W912EF23D0002",
+          "W912EF23D0004",
+          "W912EF23D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 226000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-01-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Walla Walla, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Acuity-PT&C",
+            "location": "Atlanta, Georgia",
+            "contract_number": "W912EF-23-D-0001",
+            "markers": null
+          },
+          {
+            "name": "MOCA Systems Inc.",
+            "location": "Newton, Massachusetts",
+            "contract_number": "W912EF-23-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Professional Project Services Inc.",
+            "location": "Oak Ridge, Tennessee",
+            "contract_number": "W912EF-23-D-0004",
+            "markers": null
+          },
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "W912EF-23-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect-engineering cost estimating services multiple-award contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 226000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3Harris Technologies Inc., Colorado Springs, Colorado, has been awarded a $46,369,592 contract modification (P00158) to previously awarded contract FA8823-20-C-0004 for Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) sustainment services. The modification brings the total cumulative face value of the contract to $645,729,988. Work will be performed in Colorado Springs, Colorado; and Eglin Air Force Base, Florida., and is expected to be completed by Jan. 31, 2024. Fiscal 2023 operations and maintenance funds in the amount of $17,642,914 are being obligated at the time of award. The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado Springs, Colorado, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA882320C0004"
+        ],
+        "modification_numbers": [
+          "P00158"
+        ],
+        "is_modification": true,
+        "value_usd": 46369592.0,
+        "cumulative_value_usd": 645729988.0,
+        "obligated_usd": 17642914.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $17,642,914 are being obligated at the time of award",
+        "completion_date": "2024-01-31",
+        "contracting_activity": {
+          "name": "The Space Systems Center Directorate of Contracting, Peterson Space Force Base, Colorado Springs, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8823-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) sustainment services",
+        "base_contract_number": "FA8823-20-C-0004",
+        "order_number": null,
+        "modification_number": "P00158",
+        "value_usd": 46369592,
+        "cumulative_value_usd": 645729988,
+        "obligated_usd": 17642914,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded a $33,884,719 firm-fixed-price, cost-plus-fixed-fee modification (P00005) to a previously awarded contract (N0001921C0001). This modification exercises an option to procure 50 Distributed Targeting Processor - Networked (DTP-N) B-kits, 50 DTP-N A1-kits, and 25 DTP-N A2-kits, as well as DTP-N cyber security and data support for DTP-N full rate production in support of implementing anti-surface warfare capability in the F/A-18E/F and EA-18G aircraft for the Navy. Work will be performed in St. Louis, Missouri, and is expected to be completed in September 2025. Fiscal 2023 aircraft procurement (Navy) funds in the amount of $33,884,719 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0001"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 33884719.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33884719.0,
+        "funding_text": "Fiscal 2023 aircraft procurement (Navy) funds in the amount of $33,884,719 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001921C0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee modification",
+        "description": "Exercises option for 50 DTP-N B-kits, 50 DTP-N A1-kits, and 25 DTP-N A2-kits, plus cyber security and data support for DTP-N full rate production for F/A-18E/F and EA-18G aircraft",
+        "base_contract_number": "N0001921C0001",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 33884719,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33884719,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technologies, Tucson, Arizona, is awarded a $21,596,222 modification (P00026) to a previously awarded, cost-plus-incentive-fee contract (N0001919C0079). This modification adds hours to finalize the design, integration, and to conduct test and evaluation in support of Phase Two for the Maritime Strike Tomahawk (MST) rapid deployment capability. Additionally, this effort provides for joint flight test to be performed which will provide additional data for MST integration of hardware and software. Work will be performed in Tucson, Arizona, and is expected to be completed in September 2024. Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $9,876,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C0079"
+        ],
+        "modification_numbers": [
+          "P00026"
+        ],
+        "is_modification": true,
+        "value_usd": 21596222.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9876000.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation (Navy) funds in the amount of $9,876,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Raytheon Technologies",
+            "location": "Tucson, Arizona",
+            "contract_number": "N0001919C0079",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Adds hours to finalize design, integration, and test and evaluation for Phase Two of Maritime Strike Tomahawk (MST) rapid deployment capability",
+        "base_contract_number": "N0001919C0079",
+        "order_number": null,
+        "modification_number": "P00026",
+        "value_usd": 21596222,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9876000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alutiiq Solutions LLC,* Anchorage, Alaska, is awarded an $8,003,045 cost-plus-fixed-fee modification (P00008) to a previously awarded indefinite-delivery/indefinite-quantity contract (N0042120D0007). This modification exercises an option to provide research and analysis, strategic initiative, executive leadership management, administrative, operational, and technical program support for the Command Strategic Leadership Service Team in support of the Commander, Naval Air Systems Command (NAVAIR) and direct reporting teams, the NAVAIR Corporate Operations Group Business Financial Management Competency, the Joint Strike Fighter front office, and the NAVAIR Washington Liaison Office. Work will be performed in Patuxent River, Maryland (60%); and Arlington, Virginia (40%), and is expected to be completed in February 2024. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0042120D0007"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 8003045.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Alutiiq Solutions LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N0042120D0007",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification under indefinite-delivery/indefinite-quantity contract",
+        "description": "Option exercise for research and analysis, strategic initiative, executive leadership, administrative, operational and technical program support for Command Strategic Leadership Service Team, NAVAIR",
+        "base_contract_number": "N0042120D0007",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 8003045,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "CACI, Inc. — Federal, Florham Park, New Jersey, was awarded a $10,594,388 modification (P00007) to previously awarded cost-plus-fixed-fee contract HR001121C0053 for the Wideband Secure and Protected Emitter and Receiver (WiSPER) program. The modification brings the total cumulative face value of the contract to $22,137,673 from $11,543,285. Work will be performed in Florham Park, New Jersey (81%); San Diego, California (15%); and Boston, Massachusetts (4%), with an expected completion date of July 2024. Fiscal 2022 research, development, test and evaluation funds in the amount of $939,036; and fiscal 2023 research, development, test and evaluation funds in the amount of $2,544,000 are being obligated at time of award. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "HR001121C0053"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 10594388.0,
+        "cumulative_value_usd": 22137673.0,
+        "obligated_usd": 3483036.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation funds in the amount of $939,036; and fiscal 2023 research, development, test and evaluation funds in the amount of $2,544,000 are being obligated at time of award",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "CACI, Inc. — Federal",
+            "location": "Florham Park, New Jersey",
+            "contract_number": "HR001121C0053",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Modification for the Wideband Secure and Protected Emitter and Receiver (WiSPER) program",
+        "base_contract_number": "HR001121C0053",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 10594388,
+        "cumulative_value_usd": 22137673,
+        "obligated_usd": 3483036,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2023-01-23.html"
+  "source": "file:2023-01-23.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:43:47Z"
+  }
 }

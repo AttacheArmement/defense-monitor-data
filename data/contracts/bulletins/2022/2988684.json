@@ -11,51 +11,412 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AAR Government Services Inc., Wood Dale, Illinois, has been awarded a $365,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for F-16 Systems Program Office Support at Hill Air Force Base, Utah. This contract provides for F-16 depot work and Service Life Extension Program overhauls. Work will be performed in Bydgoszcz, Poland; Droogdokkeneilan, Netherlands; and Clearfield, Utah, and is expected to be completed by March 30, 2033. This award is the result of a competitive acquisition. Fiscal 2021 procurement funds in the amount of $94,873 are being obligated at time of award. Air Force Life Cycle Management Center, Hill AFB, Utah, is the contracting activity (FA8232-22-D-0007). (Awarded March 31, 2022)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA823222D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 365000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 94873.0,
+        "funding_text": "Fiscal 2021 procurement funds in the amount of $94,873 are being obligated at time of award",
+        "completion_date": "2033-03-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hill AFB, Utah",
+          "code": "FA8232-22-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "AAR Government Services Inc.",
+            "location": "Wood Dale, Illinois",
+            "contract_number": "FA8232-22-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "F-16 Systems Program Office Support at Hill AFB, Utah: F-16 depot work and Service Life Extension Program overhauls",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 365000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 94873,
+        "fms_countries": [],
+        "competition": "competitive acquisition",
+        "award_date": "2022-03-31"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The March 29, 2022, announcement of a $75,020,810 contract modification (P00007) to Lockheed Martin Rotary and Mission Systems, Liverpool, New York, to previously awarded contract FA8730-21-C-0022 for the Three-Dimensional Expeditionary Long-Range Radar (3DELRR) system, included an incorrect award date. The modification was actually awarded April 1, 2022. All other information in the original announcement is correct.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA873021C0022"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 75020810.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Liverpool, New York",
+            "contract_number": "FA8730-21-C-0022",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to March 29, 2022 announcement of modification P00007 for Three-Dimensional Expeditionary Long-Range Radar (3DELRR) system; award date corrected to April 1, 2022",
+        "base_contract_number": "FA8730-21-C-0022",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 75020810,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-04-01"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman System Corp., San Diego, California, is awarded a $65,256,002 modification (P00002) to a previously awarded cost-plus-fixed-fee contract (N0001921C0054). This modification exercises options to provide continued operation, logistics and sustainment engineering support, to include training, supply chain and spares management for Global Hawk peculiar items, peculiar support equipment, and technical publications in support of ensuring the Broad Area Maritime Surveillance Demonstrator (BAMS-D) aircraft are mission-capable for intelligence, surveillance and reconnaissance missions. Work will be performed in Patuxent River, Maryland (70%); undisclosed locations outside the continental U.S. (25%); and Rancho Bernardo, California (5%), and is expected to be completed in April 2023. Fiscal 2022 operations and maintenance (Navy) funds in the amount of $15,500,000 will be obligated at the time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0054"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 65256002.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15500000.0,
+        "funding_text": "Fiscal 2022 operations and maintenance (Navy) funds in the amount of $15,500,000 will be obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Northrop Grumman System Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N0001921C0054",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Continued operation, logistics and sustainment engineering support for Global Hawk peculiar items supporting BAMS-D aircraft (exercises options)",
+        "base_contract_number": "N0001921C0054",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 65256002,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Aerospace Systems, Melbourne, Florida, is awarded a fixed-price incentive (firm target) $43,026,089 modification (P00038) to a previously awarded contract (N0001918C1037). This modification exercises options to provide non-recurring engineering, logistics support, obsolescence management, cyber security software support, and technical data in support of Lot 10 E-2D Hawkeye production aircraft. Work will be performed in Melbourne, Florida (24.8%); St. Augustine, Florida (20.3%); Liverpool, New York (18.8%); El Segundo, California (12.1%); Indianapolis, Indiana (4.3%); Menlo Park, California (3.4%); Rolling Meadows, Illinois (1.8%); Aire-sur-l'Adour, France (1.7%); Edgewood, New York (1.1%); Marlboro, Massachusetts (1%); Woodland Hills, California (1%); Greenlawn, New York (1%); and various locations within the continental U.S. (8.7%), and is expected to be completed in December 2025. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $43,026,089 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1037"
+        ],
+        "modification_numbers": [
+          "P00038"
+        ],
+        "is_modification": true,
+        "value_usd": 43026089.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43026089.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $43,026,089 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp., Aerospace Systems",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001918C1037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm target)",
+        "description": "Non-recurring engineering, logistics support, obsolescence management, cyber security software support and technical data for Lot 10 E-2D Hawkeye production aircraft (exercises options)",
+        "base_contract_number": "N0001918C1037",
+        "order_number": null,
+        "modification_number": "P00038",
+        "value_usd": 43026089,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43026089,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is awarded a $30,359,000 cost-plus-fixed-fee modification to a previously awarded contract (N00024-20-C-2120) to support the preliminary design, detailed design, and qualification of Virginia Class Submarine capabilities. Work will be performed in Groton, Connecticut, and is expected to be completed by Sept. 30, 2024. Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,500,000 will be obligated at the time of award and will not expire at the end of the current fiscal year. General Dynamics Electric Boat Corp. will perform planning and execution efforts to support the Virginia Class Program. This contract was not competitively procured. The statutory authority for this sole source award is in accordance with Federal Acquisition Regulation 6.302-1(a)(2)(iii) -- only one responsible source and no other supplies or services will satisfy agency requirements. The Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C2120"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 30359000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500000.0,
+        "funding_text": "Fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,500,000 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-09-30",
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-20-C-2120",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Preliminary design, detailed design, and qualification of Virginia Class Submarine capabilities",
+        "base_contract_number": "N00024-20-C-2120",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30359000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500000,
+        "fms_countries": [],
+        "competition": "sole source (FAR 6.302-1(a)(2)(iii))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "ExxonMobil Marine Ltd., Leatherhead, Surrey, United Kingdom (N3220519D7000), is awarded an $18,648,496 modification (P00015) under a previously awarded firm, fixed-priced, indefinite-delivery/indefinite-quantity contract for lube oil supplies and services for Military Sealift Command’s (MSC) fleet of vessels, USS Navy vessels and any other government-owned or government-chartered ships designated by MSC. The contract modification is for a ceiling increase for the remainder of Option Period Three and Option Period Four. Supplies and services will be provided world-wide with an expected completion date of April 26, 2022, for Option Period Three, and April 26, 2023, for Option Period Four. No funds were obligated at the time of award. Contract funds will be applied at the delivery order level as delivery orders are issued. This modification adds $6,481,033 to Option Period Three, and $12,167,463 to Option Period Four of the contract. Working capital funds (Navy) will be obligated at the delivery order level for fiscal 2022 and fiscal 2023. The total cumulative face value of the contract, if all options are exercised, is increased from $88,700,890 to $107,349,476. This modification provides for the purchase of an increased in quantity of nine lubricant products being provided under the basic contract, the addition of four lubricant products, and the removal of one obsolete product for option period three. Additionally, this modification provides for the increase in the transportation surcharge of 27 port types for Option Period Three. This modification provides for the purchase of an increased in quantity of 15 lubricant products being produced under the basic contract, the addition of four lubricant products, and the removal of one obsolete product for Option Period Four. Additionally, this modification provides for the increase in the transportation surcharge of 27 port types for Option Period Four. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N3220519D7000"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 18648496.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds were obligated at the time of award Working capital funds (Navy) will be obligated at the delivery order level for fiscal 2022 and fiscal 2023",
+        "completion_date": "2022-04-26",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "ExxonMobil Marine Ltd.",
+            "location": "Leatherhead, Surrey, United Kingdom",
+            "contract_number": "N3220519D7000",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm, fixed-priced, indefinite-delivery/indefinite-quantity",
+        "description": "Lube oil supplies and services for Military Sealift Command fleet; ceiling increase for remainder of Option Period Three and Option Period Four",
+        "base_contract_number": "N3220519D7000",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 18648496,
+        "cumulative_value_usd": 107349476,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Conrad Shipyard LLC,* Morgan City, Louisiana, was awarded a $16,983,710 firm-fixed-price contract to build two tug boats for use in the Great Lakes. Bids were solicited via the internet with five received. Work will be performed in Morgan City, Louisiana, with an estimated completion date of Dec. 26, 2024. Fiscal 2022 Plant Replacement and Improvement Program funds in the amount of $16,983,710 were obligated at the time of the award. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-22-C-0014).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912BU22C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16983710.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16983710.0,
+        "funding_text": "Fiscal 2022 Plant Replacement and Improvement Program funds in the amount of $16,983,710 were obligated at the time of the award",
+        "completion_date": "2024-12-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-22-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Conrad Shipyard LLC",
+            "location": "Morgan City, Louisiana",
+            "contract_number": "W912BU-22-C-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of two tug boats for use in the Great Lakes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16983710,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16983710,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Smartronix LLC, Hollywood, Maryland, was awarded a modification (P00011) on firm-fixed-price contract HTC711-20-F-D076 in the amount of $10,554,891. This modification provides continued Amazon Web Services Cloud Service Offering. Work will be performed primarily on-site at Scott Air Force Base, Illinois. The period of performance is from March 30, 2022, to March 29, 2023. Fiscal 2021 transportation working capital funds – operations; operations and maintenance funds; and Defense Health Program funds were obligated at award. This modification brings the total cumulative face value of the contract from $19,163,127 to $29,708,018. U.S. Transportation Command, Directorate of Acquisition, Scott AFB, Illinois, is the contracting activity. (Awarded March 31, 2022)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HTC71120FD076"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 10554891.0,
+        "cumulative_value_usd": 19163127.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2021 transportation working capital funds – operations; operations and maintenance funds; and Defense Health Program funds were obligated at award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott AFB, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "U.S. TRANSPORTATION COMMAND",
+        "awardees": [
+          {
+            "name": "Smartronix LLC",
+            "location": "Hollywood, Maryland",
+            "contract_number": "HTC711-20-F-D076",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Continued Amazon Web Services Cloud Service Offering; period of performance March 30, 2022 to March 29, 2023",
+        "base_contract_number": "HTC711-20-F-D076",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 10554891,
+        "cumulative_value_usd": 29708018,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-03-31"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-04-04.html"
+  "source": "file:2022-04-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:19:20Z"
+  }
 }

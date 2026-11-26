@@ -12,69 +12,566 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "TOTE Services LLC, Jacksonville, Florida, is awarded a $2,206,000,000 firm-fixed-price contract for vessel construction management services to award and manage shipbuilder subcontracts for the new construction of up to eight Medium Landing Ships. This contract includes options which, if exercised, would bring the cumulative value of this contract to $2,605,075,850. Work will be performed in Marinette, Wisconsin (65%); Houma, Louisiana (16%); Jacksonville, Florida (9%); and other locations (10%), and is expected to be completed by June 2030. If all options are exercised, work will continue through September 2031. Fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $1,933,941,000 (88%); and fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $272,059,000 (12%), will be obligated at time of award and will not expire at the end of the current fiscal year. This contract is awarded with funding from the One Big Beautiful Bill Act (Public Law 119-21) and directly supports the national effort to revitalize and rebuild American shipbuilding. This contract was competitively procured via the System for Award Management website (sam.gov), with one offer received. Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-26-C-2421).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002426C2421"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 2206000000.0,
+        "cumulative_value_usd": 2605075850.0,
+        "obligated_usd": 2206000000.0,
+        "funding_text": "Fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $1,933,941,000 (88%); and fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $272,059,000 (12%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2030-06",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-26-C-2421"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "TOTE Services LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "N00024-26-C-2421",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Vessel construction management services to award and manage shipbuilder subcontracts for new construction of up to eight Medium Landing Ships",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2206000000,
+        "cumulative_value_usd": 2605075850,
+        "obligated_usd": 2206000000,
+        "fms_countries": [],
+        "competition": "competitive, sam.gov, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Canadian Commercial Corp./TransCanada Turbines, Airdrie, Alberta, Canada (N6449826D1016); MTU Maintenance Berlin-Brandenburg (MTU-BB) Ludwigsfelde, Germany (N6449826D1017); and TEI-Tusas Engine Industries, Inc., Eskisehir, Turkey (N6449826D1018) are awarded a combined $370,226,037 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the commercial depot-level overhaul of Navy, Coast Guard, Military Sealift Command, and Foreign Military LM2500 and LM2500+ marine gas turbine engines. Each awardee will be awarded $500 (minimum contract guarantee per awardee) at contract award. These contracts include options which, if exercised, would bring the cumulative value to $370,226,038 over a five-year period to the three vendors combined. Work will be performed in Ludwigsfelde, Germany (33%); Airdrie, Alberta, Canada (33%); and Eskisehir, Turkey (33%), and is expected to be completed by July 2031. Fiscal 2026 operations and maintenance (Navy) funding in the total amount of $1,500 will be obligated at time of award and will expire at the end of the current fiscal year. All other funding will be made available at the task order level as contracting actions occur. This contract was not competitively procured based on approval of Class Limited Sources Justification and Approval for Use of Other Than Full and Open Competition in accordance with 10 U.S. Code 3204(a)(1). The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6449826D1016",
+          "N6449826D1017",
+          "N6449826D1018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 370226037.0,
+        "cumulative_value_usd": 370226038.0,
+        "obligated_usd": 1500.0,
+        "funding_text": "Fiscal 2026 operations and maintenance (Navy) funding in the total amount of $1,500 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2031-07",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Canadian Commercial Corp./TransCanada Turbines",
+            "location": "Airdrie, Alberta, Canada",
+            "contract_number": "N6449826D1016",
+            "markers": null
+          },
+          {
+            "name": "MTU Maintenance Berlin-Brandenburg (MTU-BB)",
+            "location": "Ludwigsfelde, Germany",
+            "contract_number": "N6449826D1017",
+            "markers": null
+          },
+          {
+            "name": "TEI-Tusas Engine Industries, Inc.",
+            "location": "Eskisehir, Turkey",
+            "contract_number": "N6449826D1018",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Commercial depot-level overhaul of Navy, Coast Guard, MSC, and FMS LM2500 and LM2500+ marine gas turbine engines",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 370226037,
+        "cumulative_value_usd": 370226038,
+        "obligated_usd": 1500,
+        "fms_countries": [],
+        "competition": "not competitive, class limited sources justification",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L3Harris Corp., Millersville, Maryland, was awarded a $70,822,613 firm-fixed-price, cost-plus-fixed-fee, and cost modification to a previously awarded contract (N00024-24-C-6200) to exercise options for Navy equipment and components and engineering support. Work will be performed in Millersville, Maryland (57%); Liverpool, New York (40%); and Ashaway, Rhode Island (3%), and is expected to be completed by October 2029. Fiscal 2026 other procurement (Navy) funds in the amount of $50,321,197 (71%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $10,127,578 (15%); and fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $10,127,578 (15%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C6200"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 70822613.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70576353.0,
+        "funding_text": "Fiscal 2026 other procurement (Navy) funds in the amount of $50,321,197 (71%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $10,127,578 (15%); and fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $10,127,578 (15%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-10",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "L3Harris Corp.",
+            "location": "Millersville, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, and cost",
+        "description": "Exercise of options for Navy equipment and components and engineering support",
+        "base_contract_number": "N00024-24-C-6200",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70822613,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70822613,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "ManTech Advanced Systems International Inc., Herndon, Virginia, is awarded a $49,814,138 modification (P00014) to a cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract (N0042122D0101). This modification increases the contract ceiling to provide continued engineering and technical services, to include research, development, integration, analysis, acquisition, and technical training support, as well as configuration management, technical and programmatic documentation development, program management, and project planning in support of the Naval Air Systems Command Weaponeering Integration, Naval Air Training and Operating Procedures Standardization, and Naval Aviation Technical Information Product Team. Work will be performed in Oceana, Virginia (26%); Herndon, Virginia (18%); Patuxent River, Maryland (17%); Lemoore, California (17%); Whidbey, Washington (17%); and Fallon, Nevada (5%), and is expected to be completed in September 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured. The Naval Air Warfare Aviation Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0042122D0101"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 49814138.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-09",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Aviation Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "ManTech Advanced Systems International Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "N0042122D0101",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity",
+        "description": "Increases contract ceiling for engineering and technical services supporting NAVAIR Weaponeering Integration, Naval Air Training and Operating Procedures Standardization, and Naval Aviation Technical Information Product Team",
+        "base_contract_number": "N0042122D0101",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 49814138,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, is awarded a $36,500,000 firm-fixed-price contract for the production and delivery of 10 1107C Lot 28 production engines for the CMV-22 aircraft for the Navy. Work will be performed in Indianapolis, Indiana, and is expected to be completed in May 2028. Fiscal 2024 aircraft procurement (Navy) funds in the amount of $36,500,000 will be obligated at the time of award. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001926C0110).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001926C0110"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36500000.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Navy) funds in the amount of $36,500,000 will be obligated at the time of award",
+        "completion_date": "2028-05",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001926C0110"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N0001926C0110",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production and delivery of 10 1107C Lot 28 production engines for the CMV-22 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36500000,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sea Pac Engineering Inc., Los Angeles, California (W51DQV-26-D-A002); and Relyant Global LLC, Maryville, Tennessee (W51DQV-26-D-A006), will compete for each order of the $99,000,000 firm-fixed-price contract for design, repair and construction support for real property, facilities and their systems and components for construction in Central America. This total cumulative face value is $99,000,000. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of July 12, 2031. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W51DQV26DA002",
+          "W51DQV26DA006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": 99000000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-07-12",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Sea Pac Engineering Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W51DQV-26-D-A002",
+            "markers": null
+          },
+          {
+            "name": "Relyant Global LLC",
+            "location": "Maryville, Tennessee",
+            "contract_number": "W51DQV-26-D-A006",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Design, repair and construction support for real property, facilities and systems for construction in Central America",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": 99000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, eight received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boston Consulting Group Inc., Boston, Massachusetts, was awarded a $19,930,562 firm-fixed-price contract to support reform and improvement of the Army’s defense exports process, including analysis, redesign of sales procedures, strategy development for key weapon systems and implementation of process improvements. One bid was solicited with one received. Work will be performed in Arlington, Virginia, with an estimated completion date of May 30, 2029. Fiscal 2026 Foreign Military Sales Trust Fund funds in the amount of $1,000,000 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-26-C-A020).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB26CA020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19930562.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000000.0,
+        "funding_text": "Fiscal 2026 Foreign Military Sales Trust Fund funds in the amount of $1,000,000 were obligated at the time of the award",
+        "completion_date": "2029-05-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-26-C-A020"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Boston Consulting Group Inc.",
+            "location": "Boston, Massachusetts",
+            "contract_number": "W91CRB-26-C-A020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Support reform and improvement of the Army's defense exports process",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19930562,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000000,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded a $13,322,000 firm-fixed-price contract to furnish one fully crewed and equipped self-propelled trailing suction hopper dredge. The total cumulative face value of the contract is $26,050,500. Bids were solicited via the internet with four received. Work will be performed in Venice, Louisiana, with an estimated completion date of May 7, 2027. Fiscal 2026 operation and maintenance, Corps of Engineers, civil funds in the amount of $13,322,000 were obligated at the time of the award. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity (W912P8-26-C-A027).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912P826CA027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13322000.0,
+        "cumulative_value_usd": 26050500.0,
+        "obligated_usd": 13322000.0,
+        "funding_text": "Fiscal 2026 operation and maintenance, Corps of Engineers, civil funds in the amount of $13,322,000 were obligated at the time of the award",
+        "completion_date": "2027-05-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": "W912P8-26-C-A027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W912P8-26-C-A027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "One fully crewed and equipped self-propelled trailing suction hopper dredge",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13322000,
+        "cumulative_value_usd": 26050500,
+        "obligated_usd": 13322000,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded a $12,909,775 firm-fixed-price contract for the Oakland Inner and Outer Harbor fiscal 2026 maintenance dredging project. Bids were solicited via the internet with two received. Work will be performed in Oakland, California, with an estimated completion date of Jan. 12, 2027. Fiscal 2026 construction, Corps of Engineers, civil funds in the amount of $12,909,775 were obligated at the time of the award. U.S. Army Corps of Engineers, San Francisco, California, is the contracting activity (W912P7-26-C-A019).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912P726CA019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12909775.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12909775.0,
+        "funding_text": "Fiscal 2026 construction, Corps of Engineers, civil funds in the amount of $12,909,775 were obligated at the time of the award",
+        "completion_date": "2027-01-12",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, San Francisco, California",
+          "code": "W912P7-26-C-A019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W912P7-26-C-A019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Oakland Inner and Outer Harbor fiscal 2026 maintenance dredging project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12909775,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12909775,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "ORO Manufacturing Co.,* Monroe, North Carolina, has been awarded a maximum $16,532,342 firm-fixed-price, indefinite-quantity contract for aircraft seats. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in the Federal Acquisition Regulation 6.103-1. This is a five-year contract with no option periods. The ordering period end date is July 12, 2031. Using customer is Navy. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Richmond, Virginia (SPE4A7-26-D-0278).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A726D0278"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16532342.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Richmond, Virginia",
+          "code": "SPE4A7-26-D-0278"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "ORO Manufacturing Co.",
+            "location": "Monroe, North Carolina",
+            "contract_number": "SPE4A7-26-D-0278",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-quantity",
+        "description": "Aircraft seats for Navy (sole source, five-year contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16532342,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Vanderbilt University, Nashville, Tennessee, has been awarded a $10,557,755 engineer change proposal modification (P00012) to a previously awarded contract (FA8750-23-C-0518) for Assured Neuro-Symbolic Software Prototype. The modification brings the total cumulative face value of the contract to $16,230,745 from $5,672,990. Work will be performed at Nashville, Tennessee, and is expected to be completed by Sept. 29, 2028. Fiscal 2025 research, development, test and evaluation funds in the amount of $2,807,755; and fiscal 2025 research, development, test and evaluation funds in the amount of $6,250,000, are being obligated at time of award. The Air Force Research Laboratory, Rome, New York, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA875023C0518"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 10557755.0,
+        "cumulative_value_usd": 16230745.0,
+        "obligated_usd": 9057755.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $2,807,755; and fiscal 2025 research, development, test and evaluation funds in the amount of $6,250,000, are being obligated at time of award",
+        "completion_date": "2028-09-29",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Rome, New York",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Vanderbilt University",
+            "location": "Nashville, Tennessee",
+            "contract_number": "FA8750-23-C-0518",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Engineer change proposal modification for Assured Neuro-Symbolic Software Prototype",
+        "base_contract_number": "FA8750-23-C-0518",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 10557755,
+        "cumulative_value_usd": 16230745,
+        "obligated_usd": 9057755,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-07-13.html"
+  "source": "file:2026-07-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:17:31Z"
+  }
 }

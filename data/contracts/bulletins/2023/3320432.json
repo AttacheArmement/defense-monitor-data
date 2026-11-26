@@ -9,39 +9,321 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC,** Lajas, Puerto Rico, has been awarded a maximum $25,149,600 modification (P00011) exercising the two-year option period of a two-year base contract (SPE1C1-21-D-1449) with one two-year option period for various types of coats. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is March 8, 2025. Using military services are Army and Air Force. Type of appropriation is fiscal 2023 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121D1449"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 25149600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": null,
+            "markers": "**"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of two-year option period for various types of coats for Army and Air Force",
+        "base_contract_number": "SPE1C1-21-D-1449",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 25149600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sunshine Aero Industries, Florala, Alabama, has been awarded a minimum $24,128,950 fixed-price with economic-price-adjustment contract for fuel support at Florala Municipal Airport, Alabama. This was a competitive acquisition with 103 responses received. Additional contracts are expected to be awarded under this solicitation (SPE607-23-R-0202). This is a three-year eight-month base contract with one six-month option period. Location of performance is Alabama, with a March 31, 2027, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2023 through 2027 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE607-23-D-0011).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE60723R0202",
+          "SPE60723D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24128950.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE607-23-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Sunshine Aero Industries",
+            "location": "Florala, Alabama",
+            "contract_number": "SPE607-23-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Fuel support at Florala Municipal Airport, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24128950,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 103 responses received (SPE607-23-R-0202)",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cornerstone Engineering Inc.,* Louisville, Kentucky (W912P5-23-D-0008); SES Civil and Environmental LLC,* Oak Ridge, Tennessee (W912P5-23-D-0009); and Underwater Mechanix Services LLC,* Jacksonville, Florida (W912P5-23-D-0010), will compete for each order of the $24,000,000 firm-fixed-price contract for streambank stabilization construction services. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of March 5, 2028. U.S. Army Corps of Engineers, Nashville, Tennessee, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912P523D0008",
+          "W912P523D0009",
+          "W912P523D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-03-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Nashville, Tennessee",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Cornerstone Engineering Inc.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "W912P5-23-D-0008",
+            "markers": "*"
+          },
+          {
+            "name": "SES Civil and Environmental LLC",
+            "location": "Oak Ridge, Tennessee",
+            "contract_number": "W912P5-23-D-0009",
+            "markers": "*"
+          },
+          {
+            "name": "Underwater Mechanix Services LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "W912P5-23-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Streambank stabilization construction services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Dynalec Corp.,* Sodus, New York, is being awarded a $23,913,512 indefinite-delivery/indefinite-quantity contract (N6523623D1005) with provisions for firm-fixed-price, cost-plus-fixed-fee, and cost orders. The contract will provide for the delivery of the Wired Voice Network (WVN) to be installed on the Guided-Missile Frigate Class of ships. This contract will also provide for services and other direct costs that are incidental to the WVN system. The contract includes a five-year base ordering period with a potential value of $23,913,512 and a five-year option ordering period which, if exercised, would bring the cumulative potential value of this contract to $48,032,134. Fiscal 2020 and 2021 shipbuilding and conversion, Navy funds in the amount of $3,179,893 will be obligated at the time of award. Funds will not expire at the end of the current fiscal year. Work will be performed in Sodus, New York (50 percent); and Marinette, Wisconsin (50 percent). Work is expected to be completed by March 2028. If the option is exercised, work could continue until March 2033. The contract was competitively procured by full and open competition via the Naval Information Warfare Systems Command - Electronic Commerce Central and System for Award Management websites, with one offer received. Naval Information Warfare Center Atlantic, Charleston, South Carolina, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6523623D1005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23913512.0,
+        "cumulative_value_usd": 48032134.0,
+        "obligated_usd": 3179893.0,
+        "funding_text": "Fiscal 2020 and 2021 shipbuilding and conversion, Navy funds in the amount of $3,179,893 will be obligated at the time of award",
+        "completion_date": "2028-03",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Atlantic, Charleston, South Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Dynalec Corp.",
+            "location": "Sodus, New York",
+            "contract_number": "N6523623D1005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (firm-fixed-price, cost-plus-fixed-fee, and cost orders)",
+        "description": "Wired Voice Network (WVN) for Guided-Missile Frigate Class ships",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23913512,
+        "cumulative_value_usd": 48032134,
+        "obligated_usd": 3179893,
+        "fms_countries": [],
+        "competition": "full and open competition, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Integrits Corp.,* San Diego, California, is awarded a $14,918,694 cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the procurement of operation and maintenance support for the Mobile At-Sea Sensor System (MATSS) vessel at Pearl Harbor Naval Shipyard and Intermediate Maintenance Facility, Hawaii. This contract includes options which, if exercised, would bring the cumulative value of this contract to $18,755,728. Work will be performed in the Joint Base Pearl Harbor-Hickam, Hawaii, and is expected to be complete by March 2025. If all options are exercised, work will continue through September 2025. Fiscal 2023 research, development, test and evaluation (Navy) funding in the amount of $2,500 will be obligated at the time of award and will not expire at the end of the fiscal year. This contract was competitively procured with three offers received via sam.gov. The Naval Sea Systems Command, Pearl Harbor Naval Shipyard and Intermediate Maintenance Facility, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N32253-23-D-0002).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3225323D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14918694.0,
+        "cumulative_value_usd": 18755728.0,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) funding in the amount of $2,500 will be obligated at the time of award and will not expire at the end of the fiscal year",
+        "completion_date": "2025-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Pearl Harbor Naval Shipyard and Intermediate Maintenance Facility, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N32253-23-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Integrits Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N32253-23-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Operation and maintenance support for Mobile At-Sea Sensor System (MATSS) vessel at Pearl Harbor",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14918694,
+        "cumulative_value_usd": 18755728,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive, three offers received via sam.gov",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "**Woman-owned small business in historically underutilized business zones",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [],
+        "action": "other",
+        "contract_type": null,
+        "description": "Text is a stray category header ('Woman-owned small business in historically underutilized business zones') with no contract award",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-03-06.html"
+  "source": "file:2023-03-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:39:28Z"
+  }
 }

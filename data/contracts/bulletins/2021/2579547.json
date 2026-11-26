@@ -11,63 +11,619 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Corrine, Utah, has been awarded a ceiling $2,311,900,000 cost-plus-award-fee contract with an ordering period of 18.5 years for sustaining engineering support and program management support services for the Intercontinental Ballistic Missile (ICBM) propulsion subsystem. This contract provides for assistance to the government in maintaining the Minuteman III weapon system. Work shall be in areas including, but not limited to; sustaining engineering, maintenance engineering, modification of systems and equipment, hardware and software maintenance, developmental and production engineering, procurement, replenishment, repair and refurbishment. The contractor shall be required to conduct materials and subcomponent analysis and test, including aging surveillance test and evaluation. The primary focus shall be to identify aging mechanism, anomalous behavior, and ensure any modifications or changes to the system which shall maintain and/or improve system-level performance. The location of performance is primarily Corrine and Magna, Utah, with various other locations. Work is expected to be completed Nov. 5, 2040. This award is the result of a sole-source acquisition. Fiscal 2021 operation and maintenance funds in the amount of $10,679,461 are being obligated at the time of award. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity (FA8214-21-D-0001.)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA821421D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 2311900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10679461.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $10,679,461 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Corrine, Utah",
+            "contract_number": "FA8214-21-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-award-fee IDIQ",
+        "description": "Sustaining engineering and program management support for the Minuteman III ICBM propulsion subsystem",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2311900000,
+        "cumulative_value_usd": 2311900000,
+        "obligated_usd": 10679461,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $436,691,186 modification (P00077) to contract W58RGZ-16-C-0023 for full rate production of Apache AH-64E aircraft. Work will be performed in Mesa, Arizona, with an estimated completion date of Feb. 28, 2025. Fiscal 2021 aircraft procurement, Army funds in the amount of $436,691,186 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16C0023"
+        ],
+        "modification_numbers": [
+          "P00077"
+        ],
+        "is_modification": true,
+        "value_usd": 436691186.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 436691186.0,
+        "funding_text": "Fiscal 2021 aircraft procurement, Army funds in the amount of $436,691,186 were obligated at the time of the award",
+        "completion_date": "2025-02-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-16-C-0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Full rate production of Apache AH-64E aircraft",
+        "base_contract_number": "W58RGZ-16-C-0023",
+        "order_number": null,
+        "modification_number": "P00077",
+        "value_usd": 436691186,
+        "cumulative_value_usd": null,
+        "obligated_usd": 436691186,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Main Building Maintenance Inc.,* San Antonio, Texas, was awarded an $18,151,088 firm-fixed-price contract for health care housekeeping services. Bids were solicited via the internet with 12 received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2026. U.S. Army Health Contracting Activity, San Antonio, Texas, is the contracting activity (W81K04-21-D-0007).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W81K0421D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18151088.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Health Contracting Activity, San Antonio, Texas",
+          "code": "W81K04-21-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Main Building Maintenance Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "W81K04-21-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Health care housekeeping services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18151088,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 12 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DAV Energy Solutions Inc.,* San Diego, California (W9128A-21-D-0016); National Facility Solutions LLC,* Hastings, Minnesota (W9128A-21-D-0017); and Specialized Engineering Solutions Inc.,* Omaha, Nebraska (W9128A-21-D-0018), will compete for each order of the $9,900,000 firm-fixed-price contract for architect-engineer services. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 19, 2026. U.S. Army Corps of Engineers, Honolulu, Hawaii, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9128A21D0016",
+          "W9128A21D0017",
+          "W9128A21D0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-10-19",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Honolulu, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "DAV Energy Solutions Inc.",
+            "location": "San Diego, California",
+            "contract_number": "W9128A-21-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "National Facility Solutions LLC",
+            "location": "Hastings, Minnesota",
+            "contract_number": "W9128A-21-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "Specialized Engineering Solutions Inc.",
+            "location": "Omaha, Nebraska",
+            "contract_number": "W9128A-21-D-0018",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price architect-engineer contract",
+        "description": "Architect-engineer services, competed per order",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 7 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Alabama Industries for the Blind, Talladega, Alabama (SPE8EZ-21-D-0001); Alphapointe, Kansas City, Missouri (SPE8EZ-21-D-0002); Arizona Industries for the Blind, Phoenix, Arizona (SPE8EZ-21-D-0003); Associated Industries for the Blind, Milwaukee, Wisconsin (SPE8EZ-21-D-0004); Beacon Lighthouse Inc., Wichita Falls, Texas (SPE8EZ-21-D-0005); Blind Industries and Services of Maryland, Baltimore, Maryland (SPE8EZ-21-D-0006); Central Association for the Blind and Visually Impaired, Utica, New York (SPE8EZ-21-D-0007); Cincinnati Association for the Blind, Cincinnati, Ohio (SPE8EZ-21-D-0008); Envision, Wichita, Kansas (SPE8EZ-21-D-0009); IFB Solutions, Winston-Salem, North Carolina (SPE8EZ-21-D-0010); Industries for the Blind and Visually Impaired, West Allis, Wisconsin (SPE8EZ-21-D-0011); LCI, Durham, North Carolina (SPE8EZ-21-D-0012); San Antonio Lighthouse for the Blind and Vision Impaired, San Antonio, Texas (SPE8EZ-21-D-0013); South Texas Lighthouse for the Blind, Corpus Christi, Texas (SPE8EZ-21-D-0014); The Lighthouse for the Blind Inc., Seattle, Washington (SPE8EZ-21-D-0015); and Virginia Industries for the Blind, Richmond, Virginia (SPE8EZ-21-D-0016), are sharing a maximum $150,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE5E1-20-R-0001for the Ability One Base Supply Center Tailored Logistics Support Program. This was a competitive acquisition restricted to Ability One non-profit agencies in accordance with Federal Acquisition Regulation sub-part 8.7 with 17 responses received. This is a five-year contract with no option periods. Locations of performance are Alabama, Arizona, Kansas, Maryland, Missouri, North Carolina, New York, Ohio, Texas, Virginia, Washington, and Wisconsin, with an April 19, 2026, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EZ21D0001",
+          "SPE8EZ21D0002",
+          "SPE8EZ21D0003",
+          "SPE8EZ21D0004",
+          "SPE8EZ21D0005",
+          "SPE8EZ21D0006",
+          "SPE8EZ21D0007",
+          "SPE8EZ21D0008",
+          "SPE8EZ21D0009",
+          "SPE8EZ21D0010",
+          "SPE8EZ21D0011",
+          "SPE8EZ21D0012",
+          "SPE8EZ21D0013",
+          "SPE8EZ21D0014",
+          "SPE8EZ21D0015",
+          "SPE8EZ21D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 150000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Alabama Industries for the Blind",
+            "location": "Talladega, Alabama",
+            "contract_number": "SPE8EZ-21-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Alphapointe",
+            "location": "Kansas City, Missouri",
+            "contract_number": "SPE8EZ-21-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Arizona Industries for the Blind",
+            "location": "Phoenix, Arizona",
+            "contract_number": "SPE8EZ-21-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Associated Industries for the Blind",
+            "location": "Milwaukee, Wisconsin",
+            "contract_number": "SPE8EZ-21-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Beacon Lighthouse Inc.",
+            "location": "Wichita Falls, Texas",
+            "contract_number": "SPE8EZ-21-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Blind Industries and Services of Maryland",
+            "location": "Baltimore, Maryland",
+            "contract_number": "SPE8EZ-21-D-0006",
+            "markers": null
+          },
+          {
+            "name": "Central Association for the Blind and Visually Impaired",
+            "location": "Utica, New York",
+            "contract_number": "SPE8EZ-21-D-0007",
+            "markers": null
+          },
+          {
+            "name": "Cincinnati Association for the Blind",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "SPE8EZ-21-D-0008",
+            "markers": null
+          },
+          {
+            "name": "Envision",
+            "location": "Wichita, Kansas",
+            "contract_number": "SPE8EZ-21-D-0009",
+            "markers": null
+          },
+          {
+            "name": "IFB Solutions",
+            "location": "Winston-Salem, North Carolina",
+            "contract_number": "SPE8EZ-21-D-0010",
+            "markers": null
+          },
+          {
+            "name": "Industries for the Blind and Visually Impaired",
+            "location": "West Allis, Wisconsin",
+            "contract_number": "SPE8EZ-21-D-0011",
+            "markers": null
+          },
+          {
+            "name": "LCI",
+            "location": "Durham, North Carolina",
+            "contract_number": "SPE8EZ-21-D-0012",
+            "markers": null
+          },
+          {
+            "name": "San Antonio Lighthouse for the Blind and Vision Impaired",
+            "location": "San Antonio, Texas",
+            "contract_number": "SPE8EZ-21-D-0013",
+            "markers": null
+          },
+          {
+            "name": "South Texas Lighthouse for the Blind",
+            "location": "Corpus Christi, Texas",
+            "contract_number": "SPE8EZ-21-D-0014",
+            "markers": null
+          },
+          {
+            "name": "The Lighthouse for the Blind Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "SPE8EZ-21-D-0015",
+            "markers": null
+          },
+          {
+            "name": "Virginia Industries for the Blind",
+            "location": "Richmond, Virginia",
+            "contract_number": "SPE8EZ-21-D-0016",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Ability One Base Supply Center Tailored Logistics Support Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 150000000,
+        "cumulative_value_usd": 150000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, restricted to Ability One non-profit agencies, 17 responses",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Masimo Americas Inc., Irvine, California, has been awarded an estimated $17,500,000 firm‐fixed‐price, indefinite‐delivery/indefinite‐quantity contract for anesthesia systems and monitors, bedside monitoring, central monitoring and vital sign monitoring, to include upgrades, installation, and training. This was a competitive acquisition with 55 responses received. This is a five-year base contract with one five‐year option period. Location of performance is California, with an April 19, 2026, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D1‐21‐D‐0010).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D1‐21‐D‐0010)",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Masimo Americas Inc.",
+            "location": "Irvine, California",
+            "contract_number": "SPE2D1-21-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Anesthesia systems and monitors, bedside, central and vital sign monitoring, with upgrades, installation and training",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 55 responses",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Technology Solutions & Services Inc., Rockville, Maryland, is awarded a $68,529,564 cost-reimbursable, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. This contract provides technical and product support services to include production, fleet, supply, and technical support; pre-positioned technical support; systems improvement, development, test and evaluation; software development, test, and maintenance; field change program support; special purpose test fixture development; test bed support, overhaul and restoration program support in support of the Naval Air Warfare Center Aircraft Division, Webster Outlying Field, Air Traffic Control and Landing Systems Division. Work will be performed in Patuxent River, Maryland (60%); St. Inigoes, Maryland (30%); and various locations within the continental U.S. (10%), and is expected to be completed in August 2026. No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; one offer was received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042121D0017).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0042121D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 68529564.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2026-08",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042121D0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "BAE Systems Technology Solutions & Services Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N0042121D0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "Technical and product support services for Naval Air Warfare Center Aircraft Division, Webster Outlying Field, Air Traffic Control and Landing Systems Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 68529564,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive RFP, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Pascagoula, Mississippi, was awarded a $35,673,147 cost-plus-award-fee modification to previously awarded contract N00024-18-C-2312 to exercise options for accomplishment of follow yard services for the DDG 51 class destroyer program. Work will be performed in Pascagoula, Mississippi (98%); Washington, D.C. (1%); and Bath, Maine (1%), and is expected to be completed by April 2022. Fiscal 2017 shipbuilding and conversion (Navy) funds in the amount of $7,746,939 (39%); fiscal 2016 shipbuilding and conversion (Navy) funds in the amount of $5,561,905 (28%); fiscal 2015 shipbuilding and conversion (Navy) funds in the amount of $5,164,626 (26%); and fiscal 2014 shipbuilding and conversion (Navy) funds in the amount of $1,390,476 (7%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded April 16, 2021)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C2312"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 35673147.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19863946.0,
+        "funding_text": "Fiscal 2017 shipbuilding and conversion (Navy) funds in the amount of $7,746,939 (39%); fiscal 2016 shipbuilding and conversion (Navy) funds in the amount of $5,561,905 (28%); fiscal 2015 shipbuilding and conversion (Navy) funds in the amount of $5,164,626 (26%); and fiscal 2014 shipbuilding and conversion (Navy) funds in the amount of $1,390,476 (7%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Pascagoula, Mississippi",
+            "contract_number": "N00024-18-C-2312",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Follow yard services for the DDG 51 class destroyer program, exercising options",
+        "base_contract_number": "N00024-18-C-2312",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35673147,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35673147,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-04-16"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Atomics, San Diego, California, is awarded an $11,434,125 cost-plus-fixed-fee, firm-fixed-price order (N0001921F0818) against a previously issued basic ordering agreement (N0001916G0006). This order provides support services for advanced arresting gear (AAG) depot planning Phase II efforts, to include logistics support, supportability analysis, maintenance planning, reliability maintenance, support equipment recommendations, program development and post production support, provisioning data, packaging requirements identification, and technical manual development as it directly correlates to AAG depot planning for the USS Gerald R. Ford (CVN 78); and USS John F. Kennedy (CVN 79). Work will be performed in San Diego, California (98.11%); Lakehurst, New Jersey (1.65%); and Tupelo, Mississippi (0.24%), and is expected to be completed in February 2024. Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $9,932,360; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $1,501,765 will be obligated at time of award, $1,501,765 of which will expire at the end of the fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001921F0818",
+          "N0001916G0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11434125.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11434125.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $9,932,360; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $1,501,765 will be obligated at time of award, $1,501,765 of which will expire at the end of the fiscal year",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "General Atomics",
+            "location": "San Diego, California",
+            "contract_number": "N0001921F0818",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price order",
+        "description": "Advanced arresting gear (AAG) depot planning Phase II support services for USS Gerald R. Ford and USS John F. Kennedy",
+        "base_contract_number": "N0001916G0006",
+        "order_number": "N0001921F0818",
+        "modification_number": null,
+        "value_usd": 11434125,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11434125,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, is awarded $10,489,423 for an undefinitized contract action, ceiling-priced delivery order (N00383-21-F-AE00) under a previously awarded basic ordering agreement (N00383-17-G-AE01) for the repair of two parts associated with the AN/Distributed Aperture System-3 electro-optical/infrared system in support of the MQ-4C Triton aircraft. All work will be performed in McKinney, Texas, and is expected to be completed by December 2022. Aircraft procurement (Navy) funds in the amount of $5,139,817 will be obligated at the time of award, and funds will expire at the end of the current fiscal year. One company was solicited for this sole-source requirement under authority 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0038321FAE00",
+          "N0038317GAE01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10489423.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5139817.0,
+        "funding_text": "Aircraft procurement (Navy) funds in the amount of $5,139,817 will be obligated at the time of award, and funds will expire at the end of the current fiscal year",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "N00383-21-F-AE00",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "undefinitized contract action, ceiling-priced delivery order",
+        "description": "Repair of two parts for AN/Distributed Aperture System-3 EO/IR system supporting MQ-4C Triton",
+        "base_contract_number": "N00383-17-G-AE01",
+        "order_number": "N00383-21-F-AE00",
+        "modification_number": null,
+        "value_usd": 10489423,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5139817,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-04-20.html"
+  "source": "file:2021-04-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:00:37Z"
+  }
 }

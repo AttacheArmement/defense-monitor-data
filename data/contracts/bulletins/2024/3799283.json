@@ -12,99 +12,812 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Triumph Construction Corp., Bronx, New York, was awarded a $132,671,085 firm-fixed-price contract for construction of the south shore of Staten Island Coastal Storm Risk Management Project. Bids were solicited via the internet with 13 received. Work will be performed in Staten Island, New York, with an estimated completion date of June 7, 2027. Fiscal 2024 civil construction funds in the amount of $132,671,085 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-24-C-0013).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DS24C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 132671085.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 132671085.0,
+        "funding_text": "Fiscal 2024 civil construction funds in the amount of $132,671,085 were obligated at the time of the award",
+        "completion_date": "2027-06-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York, New York",
+          "code": "W912DS-24-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Triumph Construction Corp.",
+            "location": "Bronx, New York",
+            "contract_number": "W912DS-24-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of the south shore of Staten Island Coastal Storm Risk Management Project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 132671085,
+        "cumulative_value_usd": null,
+        "obligated_usd": 132671085,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; 13 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dubuque Barge and Fleeting Service Co., doing business as Newt Marine Service,* Dubuque, Iowa, was awarded a $22,693,700 firm-fixed-price contract for mechanical dredging along the Illinois River. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2029. U.S. Army Corps of Engineers, Rock Island, Illinois, is the contracting activity (W912EK-24-D-0004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912EK24D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22693700.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Rock Island, Illinois",
+          "code": "W912EK-24-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Dubuque Barge and Fleeting Service Co., doing business as Newt Marine Service",
+            "location": "Dubuque, Iowa",
+            "contract_number": "W912EK-24-D-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Mechanical dredging along the Illinois River",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22693700,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "B3 Enterprises LLC,* Woodbridge, Virginia, was awarded a $16,953,460 modification (P00028) to contract W9124G-19-C-0006 for refuel and defuel services. Work will be performed at Fort Novosel, Alabama, with an estimated completion date of June 26, 2028. Fiscal 2024 operation and maintenance, Army funds in the amount of $16,953,460 were obligated at the time of the award. Army Field Directorate Office, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9124G19C0006"
+        ],
+        "modification_numbers": [
+          "P00028"
+        ],
+        "is_modification": true,
+        "value_usd": 16953460.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16953460.0,
+        "funding_text": "Fiscal 2024 operation and maintenance, Army funds in the amount of $16,953,460 were obligated at the time of the award",
+        "completion_date": "2028-06-26",
+        "contracting_activity": {
+          "name": "Army Field Directorate Office, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "B3 Enterprises LLC",
+            "location": "Woodbridge, Virginia",
+            "contract_number": "W9124G-19-C-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Refuel and defuel services at Fort Novosel, Alabama",
+        "base_contract_number": "W9124G-19-C-0006",
+        "order_number": null,
+        "modification_number": "P00028",
+        "value_usd": 16953460,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16953460,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gryphon Environmental LLC,* Colorado Springs, Colorado, was awarded a $12,759,312 firm-fixed-price contract for environmental operations and services. Bids were solicited via the internet with five received. Work will be performed in San Antonio, Texas, with an estimated completion date of April 15, 2028. Fiscal 2024 operation and maintenance, Army funds in the amount of $2,793,676 were obligated at the time of the award. U.S. Army Corps of Engineers, Fort Worth, Texas, is the contracting activity (W9126G-24-F-0226).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9126G24F0226"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12759312.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2793676.0,
+        "funding_text": "Fiscal 2024 operation and maintenance, Army funds in the amount of $2,793,676 were obligated at the time of the award",
+        "completion_date": "2028-04-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Fort Worth, Texas",
+          "code": "W9126G-24-F-0226"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Gryphon Environmental LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W9126G-24-F-0226",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Environmental operations and services in San Antonio, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12759312,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2793676,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; five received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pond Constructors Inc., Peachtree Corners, Georgia, was awarded a $10,351,817 modification (P00007) to contract W912DY-22-F-0266 to maintain and repair petroleum systems and facilities. Work will be performed at Davis Monthan Air Force Base, Arizona; Gila Bend, Arizona; Luke AFB, Arizona; Tucson, Arizona; Phoenix, Arizona; Palmdale, California; Beale AFB, California; Edwards AFB, California; Fresno, California; March A Reserve Base, California; Travis AFB, California; Vandenberg AFB, California; Cannon AFB, New Mexico; Alamogordo, New Mexico; Albuquerque, New Mexico; Indian Springs, Nevada; Nellis AFB, Nevada; Reno, Nevada; Tonopah, Nevada; Hill AFB, Utah; and Salt Lake City, Utah, with an estimated completion date of July 8, 2025. Fiscal 2024 revolving funds in the amount of $10,351,817 were obligated at the time of the award. U.S. Army Corps of Engineers' Engineering and Support Center, Huntsville, Alabama, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912DY22F0266"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 10351817.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10351817.0,
+        "funding_text": "Fiscal 2024 revolving funds in the amount of $10,351,817 were obligated at the time of the award",
+        "completion_date": "2025-07-08",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Engineering and Support Center, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Pond Constructors Inc.",
+            "location": "Peachtree Corners, Georgia",
+            "contract_number": "W912DY-22-F-0266",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintain and repair petroleum systems and facilities at multiple Arizona, California, New Mexico, Nevada and Utah locations",
+        "base_contract_number": "W912DY-22-F-0266",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 10351817,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10351817,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Inland Dredging Co. LLC, Dyersburg, Tennessee, was awarded a $9,146,700 firm-fixed-price contract for pipeline dredging. Bids were solicited via the internet with three received. Work will be performed in Matagorda, Texas, with an estimated completion date of Jan. 7, 2025. Fiscal 2024 civil operation and maintenance funds in the amount of $9,146,700 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-24-C-0004).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912HY24C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9146700.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9146700.0,
+        "funding_text": "Fiscal 2024 civil operation and maintenance funds in the amount of $9,146,700 were obligated at the time of the award",
+        "completion_date": "2025-01-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston, Texas",
+          "code": "W912HY-24-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Inland Dredging Co. LLC",
+            "location": "Dyersburg, Tennessee",
+            "contract_number": "W912HY-24-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Pipeline dredging in Matagorda, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9146700,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9146700,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems, Land and Armaments L.P., San Jose, California, was awarded an $8,999,678 modification (P00069) to contract W56HZV-22-C-0072 for Bradley systems technical support. Work will be performed in San Jose, California, with an estimated completion date of Dec. 11, 2025. Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $8,999,678 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0072"
+        ],
+        "modification_numbers": [
+          "P00069"
+        ],
+        "is_modification": true,
+        "value_usd": 8999678.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8999678.0,
+        "funding_text": "Fiscal 2022 weapons and tracked combat vehicle procurement, Army funds in the amount of $8,999,678 were obligated at the time of the award",
+        "completion_date": "2025-12-11",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "BAE Systems, Land and Armaments L.P.",
+            "location": "San Jose, California",
+            "contract_number": "W56HZV-22-C-0072",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Bradley systems technical support",
+        "base_contract_number": "W56HZV-22-C-0072",
+        "order_number": null,
+        "modification_number": "P00069",
+        "value_usd": 8999678,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8999678,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Plymouth, Minnesota, was awarded an $8,702,651 modification (P00096) to contract W15QKN-13-C-0074 for Precision Guidance Kits. Work will be performed in Plymouth, Minnesota, with an estimated completion date of May 21, 2028. Fiscal 2024 procurement of ammunition, Army funds in the amount of $8,702,651 were obligated at the time of the award. Army Contracting Command, Newark, New Jersey, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN13C0074"
+        ],
+        "modification_numbers": [
+          "P00096"
+        ],
+        "is_modification": true,
+        "value_usd": 8702651.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8702651.0,
+        "funding_text": "Fiscal 2024 procurement of ammunition, Army funds in the amount of $8,702,651 were obligated at the time of the award",
+        "completion_date": "2028-05-21",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Newark, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Plymouth, Minnesota",
+            "contract_number": "W15QKN-13-C-0074",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Precision Guidance Kits",
+        "base_contract_number": "W15QKN-13-C-0074",
+        "order_number": null,
+        "modification_number": "P00096",
+        "value_usd": 8702651,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8702651,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Amentum Services Inc., Chantilly, Virginia, was awarded a $7,968,260 modification (P00099) to contract W9124G-17-C-0005 for initial rotary wing pilot training. Work will be performed at Fort Novosel, Alabama, with an estimated completion date of June 14, 2024. Fiscal 2024 operation and maintenance, Army funds in the amount of $7,968,260 were obligated at the time of the award. Army Field Directorate Office, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9124G17C0005"
+        ],
+        "modification_numbers": [
+          "P00099"
+        ],
+        "is_modification": true,
+        "value_usd": 7968260.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7968260.0,
+        "funding_text": "Fiscal 2024 operation and maintenance, Army funds in the amount of $7,968,260 were obligated at the time of the award",
+        "completion_date": "2024-06-14",
+        "contracting_activity": {
+          "name": "Army Field Directorate Office, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Amentum Services Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W9124G-17-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Initial rotary wing pilot training at Fort Novosel, Alabama",
+        "base_contract_number": "W9124G-17-C-0005",
+        "order_number": null,
+        "modification_number": "P00099",
+        "value_usd": 7968260,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7968260,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Distributed Computing System Solutions Provider Inc., Herndon, Virginia, is awarded a single-award, indefinite-delivery/indefinite-quantity contract (M95494-24-D-0004) in the amount of $99,517,000 (maximum ceiling value) with a five-year ordering period in order to provide the Marine Corps Defense Agencies Initiative end-to-end and portfolio management support services. Work will be performed in Herndon, Virginia (99%); and various other places (1%). Fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $5,000 will be obligated at the time of award. Subsequent funding will be provided on a task order basis with an estimated ordering period expiration of June 2029. This contract was noncompetitively procured as a direct award to an Alaskan Native Corp. 8(a) small business, pursuant to Federal Acquisition Regulation parts 19 and 13 of the Code of Federal Regulations 124.506(b). The Marine Corps Installation Command Headquarters Contracting Office, Arlington, Virginia, is the contracting activity (M9549424D0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "M9549424D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99517000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $5,000 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Marine Corps Installation Command Headquarters Contracting Office, Arlington, Virginia",
+          "code": "M9549424D0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Distributed Computing System Solutions Provider Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "M95494-24-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "single-award indefinite-delivery/indefinite-quantity contract",
+        "description": "Marine Corps Defense Agencies Initiative end-to-end and portfolio management support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99517000,
+        "cumulative_value_usd": 99517000,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "Noncompetitive direct award to an Alaskan Native Corp. 8(a) small business",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a not-to-exceed $97,000,000 undefinitized, fixed-fee order (N0001924F1043) against a previously issued basic ordering agreement (N0001924G0010). This advance acquisition contract procures aircraft armament equipment such as internal adapters and weapon umbilical cables required to employ long-range strike weapons. The procured aircraft armament equipment allows for internal carriage and employment of the Advanced Anti-Radiation Guided Missile – Extended Range weapon for F-35 Lightning II aircraft for the Air Force, Marine Corps, Navy, Foreign Military Sales (FMS) customers, and non-U.S. Department of Defense (DOD) program participants. Work will be performed in Fort Worth, Texas, and is expected to be completed in February 2028. Fiscal 2024 aircraft procurement (Air Force) funds in the amount of $42,342,963; fiscal 2024 aircraft procurement (Navy) funds in the amount of $17,536,564; fiscal 2023 aircraft procurement (Navy) funds in the amount of $32,151,670; FMS customer funds in the amount of $1,296,243 and non-U.S DOD participant funds in the amount of $3,672,560, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001924F1043",
+          "N0001924G0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 97000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 97000000.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Air Force) funds in the amount of $42,342,963; fiscal 2024 aircraft procurement (Navy) funds in the amount of $17,536,564; fiscal 2023 aircraft procurement (Navy) funds in the amount of $32,151,670; FMS customer funds in the amount of $1,296,243 and non-U.S DOD participant funds in the amount of $3,672,560, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-02",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001924F1043",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "undefinitized, fixed-fee order (not-to-exceed)",
+        "description": "Aircraft armament equipment (internal adapters, weapon umbilical cables) for AARGM-ER on F-35 aircraft",
+        "base_contract_number": "N0001924G0010",
+        "order_number": "N0001924F1043",
+        "modification_number": null,
+        "value_usd": 97000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 94849433,
+        "fms_countries": [
+          "Foreign Military Sales customers (unnamed)",
+          "non-U.S. DOD program participants"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Southwest Research Institute, San Antonio, Texas, is awarded a $35,703,370, indefinite-delivery/indefinite-quantity contract (N6523624D1013) with provisions for firm-fixed-price and cost-plus-fixed-fee orders. The contract will provide cryptologic systems and associated equipment support services in support of Naval Information Warfare Center Atlantic; Program Management Warfare 120; Naval Sea Systems Command; Naval Air Systems Command Program Management Aircraft 234; Naval Information Warfare Center Pacific; the National Security Agency; the Coast Guard; and the Marine Corps. This contract includes options which, if exercised, bring the cumulative value of this contract to $49,836,400. No contract funds will be obligated on the basic contract. Contract funds will be obligated under the first delivery order utilizing fiscal 2020 shipbuilding and conversion, Navy funds in the amount of $1,556,128; fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $1,167,096; and fiscal 2023 shipbuilding and conversion, Navy funds in the amount of $452,159. Fiscal 2020 shipbuilding and conversion, Navy funds will expire at the end of the current fiscal year. Work will be performed in San Antonio, Texas, and is expected to be completed by June 2029. If the option is exercised, work could continue until June 2031. This requirement was not competitively procured because it is a sole source acquisition negotiated under 10 U.S. Code 3204(a)(1), only one responsible source and no other supplies or services will satisfy agency requirements. Naval Information Warfare Center Atlantic, Charleston, South Carolina, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6523624D1013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35703370.0,
+        "cumulative_value_usd": 49836400.0,
+        "obligated_usd": 3175383.0,
+        "funding_text": "No contract funds will be obligated on the basic contract Contract funds will be obligated under the first delivery order utilizing fiscal 2020 shipbuilding and conversion, Navy funds in the amount of $1,556,128; fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $1,167,096; and fiscal 2023 shipbuilding and conversion, Navy funds in the amount of $452,159",
+        "completion_date": "2029-06",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Atlantic, Charleston, South Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Southwest Research Institute",
+            "location": "San Antonio, Texas",
+            "contract_number": "N6523624D1013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract with firm-fixed-price and cost-plus-fixed-fee orders",
+        "description": "Cryptologic systems and associated equipment support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35703370,
+        "cumulative_value_usd": 49836400,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Missile and Fire Control, Orlando, Florida, is awarded a $23,965,782 definitized modification (P00015) to a cost-plus-fixed-fee order (N0001922F0010) against a previously issued basic ordering agreement (N0001919G0011). This modification definitizes the contract value above the original not to exceed value and provides continued non-recurring engineering and material to support post-critical design review activities and test asset builds required to establish a new Long Range Anti-Ship Missile C-3 variant for the Navy. Work will be performed in Orlando, Florida (95.9%); Ocala, Florida (3.6%); and Troy, Alabama (1.5%), and is expected to be completed in March 2025. Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $23,965,782 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F0010",
+          "N0001919G0011"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 23965782.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23965782.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $23,965,782 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-03",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "N0001922F0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Definitized modification for continued non-recurring engineering and material supporting post-critical design review and test asset builds for new Long Range Anti-Ship Missile C-3 variant",
+        "base_contract_number": "N0001919G0011",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 23965782,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23965782,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Aviation Inc., Wichita, Kansas, is awarded a $8,388,771 modification (P00010) to a previously awarded firm-fixed-price contract (N0001923C0020). This modification exercises options and extends the period of performance for the production and delivery of one Lot Two multi-engine training system aircraft in support of providing intermediate and advanced training platform for accession into P-8, EP-3, KC-130, E-6, E-2, CMV-22, and MV-22 for the Navy, Marine Corps, and Coast Guard to support the mission of the Chief Naval Air Training to produce aviators and flight officers in sufficient quantity to support Naval Air Forces tasking. Work will be performed in Wichita, Kansas (99%); and Corpus Christi, Texas (1%), and is expected to be completed in November 2025. Fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,388,771 will be obligated at the time if award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0001923C0020"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 8388771.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8388771.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,388,771 will be obligated at the time if award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Textron Aviation Inc.",
+            "location": "Wichita, Kansas",
+            "contract_number": "N0001923C0020",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercises options and extends performance for production and delivery of one Lot Two multi-engine training system aircraft for Chief Naval Air Training",
+        "base_contract_number": "N0001923C0020",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 8388771,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8388771,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The $34,059,723 contract (FA8523-21- D-0004) announced on May 17, 2024, for L3 Harris, Clifton, New Jersey, to provide AN/ALQ-172 Countermeasures Program and Modernization was actually awarded June 5, 2024.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34059723.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "L3 Harris",
+            "location": "Clifton, New Jersey",
+            "contract_number": "FA8523-21-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: AN/ALQ-172 Countermeasures Program and Modernization contract announced May 17, 2024, was actually awarded June 5, 2024",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34059723,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-06-05"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Peckham Vocational Industries Inc.,** Lansing, Michigan, has been awarded a maximum $14,111,500 modification (P00006) exercising the second one-year option period of a one-year base contract (SPE1C1-22-D-N163) with four one-year option periods for silkweight undershirts. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is June 9, 2025. Using military services are Army, Navy, Air Force, and Marine Corps. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122DN163"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 14111500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Peckham Vocational Industries Inc.",
+            "location": "Lansing, Michigan",
+            "contract_number": "SPE1C1-22-D-N163",
+            "markers": "**"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Second one-year option period exercised for silkweight undershirts",
+        "base_contract_number": "SPE1C1-22-D-N163",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 14111500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-06-06.html"
+  "source": "file:2024-06-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:47:22Z"
+  }
 }

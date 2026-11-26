@@ -12,51 +12,415 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a not-to-exceed $606,800,000 fixed-price incentive (firm-target) undefinitized modification (P00002) to a previously awarded advanced acquisition contract (N0001923C0003). This modification procures long lead time materials, parts, components, and efforts in support of maintaining on-time production and delivery of 173, Lot 19, F-35 Joint Strike Fighter aircraft for Foreign Military Sales (FMS) customers and non-U.S. Department of Defense (DOD) participants. Work will be performed in Fort Worth, Texas (59%); El Segundo, California (14%); Warton, United Kingdom (9%); Cameri, Italy (4%); Orlando, Florida (4%); Nashua, New Hampshire (3%); Baltimore, Maryland (3%); San Diego, California (2%); and various locations outside the continental U.S. (2%), and is expected to be completed in January 2028. FMS customer funds in the amount of $329,500,000; and non-U.S. DOD Participants Funds in the amount of $277,300,000, will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001923C0003"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 606800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 606800000.0,
+        "funding_text": "FMS customer funds in the amount of $329,500,000; and non-U.S. DOD Participants Funds in the amount of $277,300,000, will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          },
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target) undefinitized contract action",
+        "description": "Long lead time materials and parts for Lot 19 F-35 Joint Strike Fighter aircraft production (FMS and non-U.S. DOD participants)",
+        "base_contract_number": "N0001923C0003",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 606800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 606800000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KOMAN Sustainable Solutions LLC, Anchorage, Alaska, is awarded a $44,642,962 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for leasing relocatable buildings at Naval Air Station Patuxent River, Maryland. Work will be performed in Patuxent River, Maryland, and is expected to be completed by February 2025. Fiscal 2023 research, development, test and evaluation (Navy) and fiscal 2023 operation and maintenance (Navy) funds in the amount of $27,300,000 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was not competitively procured in accordance with Federal Acquisition Regulation 5.202(a)(4) (authorized or required by statute). The Naval Facilities Engineering Systems Command, Washington, D.C., is the contracting activity (N40080-23-D-0024).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N4008023D0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 44642962.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27300000.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation (Navy) and fiscal 2023 operation and maintenance (Navy) funds in the amount of $27,300,000 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2025-02",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Washington, D.C.",
+          "code": "N40080-23-D-0024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "KOMAN Sustainable Solutions LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N40080-23-D-0024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Leasing relocatable buildings at Naval Air Station Patuxent River, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44642962,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27300000,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 5.202(a)(4) (authorized or required by statute)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Curtiss-Wright Electro-Mechanical Corp., Cheswick, Pennsylvania, is being awarded a not-to-exceed $41,119,900 firm-fixed-price, stand-alone contract for the procurement of 13 rotational deployment mechanisms. This is a stand-alone contract with no options. All work will be performed in Cheswick, Pennsylvania, and is expected to be completed by January 2031. Working capital (Navy) funds in the amount of $30,839,925 will be obligated at time of award and no funds will expire at the end of the current fiscal year. This was a sole-sourced requirement with one offer received. Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania, is the contracting activity. (N00104-23-C-ZA20)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0010423CZA20"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41119900.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Working capital (Navy) funds in the amount of $30,839,925 will be obligated at time of award and no funds will expire at the end of the current fiscal year",
+        "completion_date": "2031-01",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Curtiss-Wright Electro-Mechanical Corp.",
+            "location": "Cheswick, Pennsylvania",
+            "contract_number": "N00104-23-C-ZA20",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, stand-alone",
+        "description": "Procurement of 13 rotational deployment mechanisms",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41119900,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30839925,
+        "fms_countries": [],
+        "competition": "sole source, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Patriot Contract Services LLC,* Concord, California (N3220523C4031), is being awarded a $20,396,329 firm-fixed-price contract with reimbursable elements for operation and maintenance of two government-owned Large, Medium-Speed, Roll-On/Roll-Off vessels. The vessels under this award include USNS Seay (T-AKR 302), and USNS Pililaau (T-AKR 304). This contract includes a 12-month base period with four 12-month option periods and one 6-month option period under Federal Acquisition Regulation 52.217-8, which, if exercised, would bring the cumulative value of this contract to $303,596,232 including reimbursables. Work will be performed at sea worldwide and is expected to be completed, if all options are exercised, by Aug. 21, 2028. Working capital funds (Navy) in the amount of $20,396,329 are obligated for fiscal 2023, and will not expire at the end of the fiscal year. This contract was a small business set-aside, with more than four companies solicited via the Procurement Integrated Enterprise Environment (PIEE) Solicitation Module and the System for Award Management (SAM.gov) website and two offers received. Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220523C4031).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3220523C4031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20396329.0,
+        "cumulative_value_usd": 303596232.0,
+        "obligated_usd": 20396329.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $20,396,329 are obligated for fiscal 2023, and will not expire at the end of the fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220523C4031"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Patriot Contract Services LLC",
+            "location": "Concord, California",
+            "contract_number": "N3220523C4031",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with reimbursable elements",
+        "description": "Operation and maintenance of two Large, Medium-Speed, Roll-On/Roll-Off vessels (USNS Seay and USNS Pililaau)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20396329,
+        "cumulative_value_usd": 303596232,
+        "obligated_usd": 20396329,
+        "fms_countries": [],
+        "competition": "small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alpha Marine Services LLC, Galliano, Louisiana, is being awarded an option (P00030) in the amount of $9,734,184 for contract N3220520C2252. The option is a firm-fixed-price contract with reimbursable elements to support Military Sealift Command’s contract for the time charter of six tractor-like tugs in support of the Navy base in San Diego, California. This option is the third of the current contract. The current contract includes a one-year firm period of the performance, three one-year options periods, and one 11-month option period. The cumulative value of this contract, if all options are exercised, is $44,044,952. Work will be performed in San Diego, California, and is expected to be completed, if all options are exercised, by July 31, 2025. Working capital funds (Navy) in the amount of $797,884 are obligated for fiscal 2023 and will expire at the end of the fiscal year. Funds in the amount of $8,936,300 for the remainder of Option Three are to be provided for fiscal 2024 and are subject to the availability of funds in accordance with Federal Acquisition Regulation 52.232-18, availability of funds. This contract was competitively procured with proposals solicited via the System for Award Management website and one offer was received. Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220520C2252"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": false,
+        "value_usd": 9734184.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 797884.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $797,884 are obligated for fiscal 2023 and will expire at the end of the fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Alpha Marine Services LLC",
+            "location": "Galliano, Louisiana",
+            "contract_number": "N3220520C2252",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price with reimbursable elements",
+        "description": "Option three for time charter of six tractor-like tugs supporting Navy base in San Diego, California",
+        "base_contract_number": "N3220520C2252",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 9734184,
+        "cumulative_value_usd": 44044952,
+        "obligated_usd": 797884,
+        "fms_countries": [],
+        "competition": "competitively procured, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Joseph B. Fay Co., Pittsburgh, Pennsylvania, was awarded a $29,672,873 firm-fixed-price contract for demolition of the Monongahela River Locks & Dam Number 3, establishment of a new navigable channel, and stabilization of monoliths. Bids were solicited via the internet with three received. Work will be performed in Elizabeth, Pennsylvania, with an estimated completion date of March 22, 2027. Fiscal 2019 and 2020 general construction and 2020 Inland Waterway Trust funds in the amount of $29,672,873 were obligated at the time of the award. U.S. Army Corps of Engineers, Pittsburgh, Pennsylvania, is the contracting activity (W911WN-23-C-8010).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W911WN23C8010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29672873.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29672873.0,
+        "funding_text": "Fiscal 2019 and 2020 general construction and 2020 Inland Waterway Trust funds in the amount of $29,672,873 were obligated at the time of the award",
+        "completion_date": "2027-03-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Pittsburgh, Pennsylvania",
+          "code": "W911WN-23-C-8010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Joseph B. Fay Co.",
+            "location": "Pittsburgh, Pennsylvania",
+            "contract_number": "W911WN-23-C-8010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Demolition of Monongahela River Locks & Dam Number 3, new navigable channel, and monolith stabilization",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29672873,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29672873,
+        "fms_countries": [],
+        "competition": "solicited via internet, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CDM Federal Programs Corp., Carbondale, Illinois, was awarded an $8,006,771 firm-fixed-price contract for support services for a U.S. Army Corps of Engineers Construction Management Innovation Program. Bids were solicited via the internet with one received. Work will be performed in Carbondale, Illinois, with an estimated completion date of Aug. 21, 2027. Fiscal 2023 civil works funds in the amount of $8,006,771 were obligated at the time of the award. U.S. Army Corps of Engineers' Humphreys Engineer Center Support Activity, Fort Belvoir, Virginia, is the contracting activity (W912HQ-23-F-0166).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912HQ23F0166"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8006771.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8006771.0,
+        "funding_text": "Fiscal 2023 civil works funds in the amount of $8,006,771 were obligated at the time of the award",
+        "completion_date": "2027-08-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Humphreys Engineer Center Support Activity, Fort Belvoir, Virginia",
+          "code": "W912HQ-23-F-0166"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "CDM Federal Programs Corp.",
+            "location": "Carbondale, Illinois",
+            "contract_number": "W912HQ-23-F-0166",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Support services for U.S. Army Corps of Engineers Construction Management Innovation Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8006771,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8006771,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC, ** Lajas, Puerto Rico, has been awarded a maximum $12,276,574 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for coats and trousers. This was a competitive acquisition with eight responses received. This is a one-year base contract with four one-year option periods. The ordering period end date is Aug. 21, 2024. Using military services are Army and Air Force. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-23-D-0070).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12276574.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-23-D-0070"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-23-D-0070",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Coats and trousers for Army and Air Force",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12276574,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, eight responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-08-22.html"
+  "source": "file:2023-08-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:21:51Z"
+  }
 }

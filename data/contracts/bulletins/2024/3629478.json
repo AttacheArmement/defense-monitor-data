@@ -12,39 +12,309 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hatalom, Orlando, Florida, was awarded a $49,300,000 firm-fixed-price contract for interactive multimedia instruction products and services, desktop trainer products and organic trainers. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 1, 2029. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-24-D-0011).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W900KK24D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-01-01",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-24-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Hatalom",
+            "location": "Orlando, Florida",
+            "contract_number": "W900KK-24-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Interactive multimedia instruction products and services, desktop trainer products and organic trainers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49300000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Kandor Manufacturing Inc.,** Arecibo, Puerto Rico, has been awarded a maximum $28,920,375 modification (P00005) exercising the first one-year option period of a one-year base contract (SPE1C1-23-D-0008) with four one-year option periods for various types of coats and trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is Jan. 5, 2025. Using military service is Navy. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0008"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 28920375.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small-disadvantaged business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Kandor Manufacturing Inc.",
+            "location": "Arecibo, Puerto Rico",
+            "contract_number": "SPE1C1-23-D-0008",
+            "markers": "**"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "First one-year option period exercise for various types of coats and trousers",
+        "base_contract_number": "SPE1C1-23-D-0008",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 28920375,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Layton Utah, has been awarded a $20,465,226 modification (P00006) of a delivery order to a previously awarded contract (FA8214-22-D-0001) for the definitization of the Flight Test Telemetry Termination Production Requirements Contract, fiscal 2022 portion. The modification brings the total cumulative face value of the contract to $20,465,226. Work will be performed at Layton, Utah, and is expected to be completed by Sept. 1, 2025. Fiscal 2022 missile procurement funds in the amount of $4,335,342 are being obligated at time of award. The Air Force Nuclear Weapon Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA821422D0001"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 20465226.0,
+        "cumulative_value_usd": 20465226.0,
+        "obligated_usd": 4335342.0,
+        "funding_text": "Fiscal 2022 missile procurement funds in the amount of $4,335,342 are being obligated at time of award",
+        "completion_date": "2025-09-01",
+        "contracting_activity": {
+          "name": "The Air Force Nuclear Weapon Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Layton, Utah",
+            "contract_number": "FA8214-22-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Definitization of the Flight Test Telemetry Termination Production Requirements Contract, fiscal 2022 portion",
+        "base_contract_number": "FA8214-22-D-0001",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 20465226,
+        "cumulative_value_usd": 20465226,
+        "obligated_usd": 4335342,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Crew Training International Inc., Memphis, Tennessee, has been awarded a $14,990,961 firm-fixed-price modification (P00057) to a previously awarded contract (FA4890-19-C-0003) for the MQ-9 Aircrew Training and Courseware Development Contract. The contract modification is for the exercise of the six-month extension of services. The modification brings the total cumulative face value of the contract to $259,085,983. Work will be performed at Creech Air Force Base, Nevada; Holloman AFB, New Mexico; March Air Reserve Base, California; and Hancock Air National Guard Base, New York, and is expected to be completed by June 30, 2024. Fiscal 2024 operation and maintenance funds in the amount of $736,981 are being obligated at time of award. Air Combat Command, Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA489019C0003"
+        ],
+        "modification_numbers": [
+          "P00057"
+        ],
+        "is_modification": true,
+        "value_usd": 14990961.0,
+        "cumulative_value_usd": 259085983.0,
+        "obligated_usd": 736981.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $736,981 are being obligated at time of award",
+        "completion_date": "2024-06-30",
+        "contracting_activity": {
+          "name": "Air Combat Command, Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Crew Training International Inc.",
+            "location": "Memphis, Tennessee",
+            "contract_number": "FA4890-19-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Six-month extension of services for the MQ-9 Aircrew Training and Courseware Development Contract",
+        "base_contract_number": "FA4890-19-C-0003",
+        "order_number": null,
+        "modification_number": "P00057",
+        "value_usd": 14990961,
+        "cumulative_value_usd": 259085983,
+        "obligated_usd": 736981,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Integrated Solutions for Systems Inc., Huntsville, Alabama, was awarded a $9,950,000 indefinite-delivery/indefinite-quantity contract for a model-based systems engineering for digital material management and development effort. This contract provides model-based systems engineering support to the Air Force Research Laboratory for the purpose of building out a program planning and decision analysis tool for planning future weapons research and quantifying operational utility of integrated concepts. Work will be predominately performed at contractor facilities and is expected to be completed by Jan. 2, 2029. This contract is a sole source acquisition awarded from the FA8651-22-S-0001 Broad Agency Announcement and one offer was received. Fiscal 2024 research, development, test, and evaluation funds in the amount of $100,000 are being obligated at time of award. The Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity (FA8651-24-D-B003).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA865122S0001",
+          "FA865124DB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation funds in the amount of $100,000 are being obligated at time of award",
+        "completion_date": "2029-01-02",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": "FA8651-24-D-B003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Integrated Solutions for Systems Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA8651-24-D-B003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Model-based systems engineering for digital material management and development effort",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": "Sole source from FA8651-22-S-0001 Broad Agency Announcement, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Northridge, California, was awarded a $9,200,000 indefinite-delivery/indefinite-quantity contract for a Counter Air Science and Technology Program \"Increasing Missile Range Capability Through Identified System Element’s Size, Weight, and Power (SWaP) Reductions\" effort. The overall scope is to develop critical subsystem technologies that support but are not limited to, the compact air to air missile and extended range air to air missile systems. Work will be predominately performed at contract facilities and is expected to be completed by Jan. 15, 2029. This contract was a sole source acquisition awarded from the FA8651-20-S-0008 Broad Agency Announcement and one offer was received. Fiscal 2024 research, development, test, and evaluation funds in the amount of $313,214 are being obligated at time of award. The Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity (FA8651-24-D-B002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA865120S0008",
+          "FA865124DB002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9200000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 313214.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation funds in the amount of $313,214 are being obligated at time of award",
+        "completion_date": "2029-01-15",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": "FA8651-24-D-B002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Northridge, California",
+            "contract_number": "FA8651-24-D-B002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Counter Air Science and Technology Program, missile range capability through SWaP reductions effort",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9200000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 313214,
+        "fms_countries": [],
+        "competition": "Sole source from FA8651-20-S-0008 Broad Agency Announcement, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2024-01-02.html"
+  "source": "file:2024-01-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:03:29Z"
+  }
 }

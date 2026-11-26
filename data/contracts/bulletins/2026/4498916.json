@@ -11,75 +11,629 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Management Services Group doing business as Global Technical Systems, Virginia Beach, Virginia (N0003926D9501); Leidos, Reston, Virginia (N0003926D9502); Serco, Herndon, Virginia (N0003926D9503); Systems Engineering Support Co., San Diego, California (N0003926D9504); and VT Milcom, a wholly-owned subsidiary of VT Group Holdings Inc., Virginia Beach, Virginia (N0003926D9505), are each being awarded an indefinite-delivery/indefinite-quantity, firm-fixed-price contract for Automated Digital Network System production units, components, COTS software, spares, lab material, future cyber threat upgrades and mission focused upgrades to support required target inventory objectives for shore and afloat platforms and airborne routing systems. The estimated, cumulative, value of the multiple award contracts is $452,930,000. This contract has an eight-year ordering period up to the contract award ceiling amount. There are no options. Work will be performed in San Diego, California; Herndon, Virginia; Manassas, Virginia; Reston, Virginia; and Virginia Beach, Virginia. Work is expected to be completed by May 2034. Naval Information Warfare Systems Command, San Diego, California, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0003926D9501",
+          "N0003926D9502",
+          "N0003926D9503",
+          "N0003926D9504",
+          "N0003926D9505"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 452930000.0,
+        "cumulative_value_usd": 452930000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2034-05",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Systems Command, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Management Services Group doing business as Global Technical Systems",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N0003926D9501",
+            "markers": null
+          },
+          {
+            "name": "Leidos",
+            "location": "Reston, Virginia",
+            "contract_number": "N0003926D9502",
+            "markers": null
+          },
+          {
+            "name": "Serco",
+            "location": "Herndon, Virginia",
+            "contract_number": "N0003926D9503",
+            "markers": null
+          },
+          {
+            "name": "Systems Engineering Support Co.",
+            "location": "San Diego, California",
+            "contract_number": "N0003926D9504",
+            "markers": null
+          },
+          {
+            "name": "VT Milcom, a wholly-owned subsidiary of VT Group Holdings Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N0003926D9505",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price",
+        "description": "Automated Digital Network System production units, components, COTS software, spares, lab material, cyber threat and mission focused upgrades",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 452930000,
+        "cumulative_value_usd": 452930000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, is awarded a $112,302,900 firm-fixed-price, cost-plus-fixed-fee, and cost-only modification to previously awarded contract (N00024-22-C-6419) to exercise options for the production, spares, production support material, engineering support, and hardware repair of components for MK 48 Heavyweight Torpedo All Up Round. This modification is in support of the MK 48 MOD 7 Heavyweight Torpedo program. This contract combines purchases to support the Navy (99%); and the Royal Australian Navy (1%), under the Foreign Military Sales program. Work will be performed in Bedford, Indiana (80%); and Middletown, Rhode Island (20%), and is expected to be completed by April 2029. Fiscal 2025 weapons procurement (Navy) funds in the amount of $94,774,762 (86%); fiscal 2026 weapons procurement (Navy) funds in the amount of $12,786,942 (12%); fiscal 2024 weapons procurement (Navy) funds in the amount of $1,868,254 (1%); and foreign partner funds in the amount of $917,625 (1%), will be obligated at the time of award, of which, $1,868,254 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C6419"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 112302900.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 110347583.0,
+        "funding_text": "Fiscal 2025 weapons procurement (Navy) funds in the amount of $94,774,762 (86%); fiscal 2026 weapons procurement (Navy) funds in the amount of $12,786,942 (12%); fiscal 2024 weapons procurement (Navy) funds in the amount of $1,868,254 (1%); and foreign partner funds in the amount of $917,625 (1%), will be obligated at the time of award, of which, $1,868,254 will expire at the end of the current fiscal year",
+        "completion_date": "2029-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00024-22-C-6419",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, and cost-only modification",
+        "description": "Option exercise for production, spares, support and hardware repair of MK 48 MOD 7 Heavyweight Torpedo All Up Round components",
+        "base_contract_number": "N00024-22-C-6419",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 112302900,
+        "cumulative_value_usd": null,
+        "obligated_usd": 112302900,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Missions Systems, Owego, New York, is awarded a $54,103,975 firm-fixed-price, cost-plus-fixed-fee order (N0001926F1033) against a previously issued basic ordering agreement (N0001923G0002). This order provides non-recurring engineering support for the development, integration, testing, and deployment of the MH-60 product line System Configuration 28 fleet release. Efforts include systems and software development, hardware and software obsolescence integration, and other non-recurring activities required to sustain systems and software development labs, integration labs, and test labs, as well as support all Navy and Foreign Military Sales (FMS) MH-60 air platform variants. Work will be performed in Owego, New York, and is expected to be completed in October 2028. Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $3,631,759; and FMS customer funds in the amount of $19,521,098, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001926F1033",
+          "N0001923G0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54103975.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23152857.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $3,631,759; and FMS customer funds in the amount of $19,521,098, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-10",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Missions Systems",
+            "location": "Owego, New York",
+            "contract_number": "N0001926F1033",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee order",
+        "description": "Non-recurring engineering support for MH-60 product line System Configuration 28 fleet release",
+        "base_contract_number": "N0001923G0002",
+        "order_number": "N0001926F1033",
+        "modification_number": null,
+        "value_usd": 54103975,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23152857,
+        "fms_countries": [
+          "Navy and Foreign Military Sales (FMS) customers"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Konecranes Nuclear Equipment and Services LLC, New Berlin, Wisconsin, is awarded a $51,162,117 modification to previously awarded contract (N62470-20-C-0002). This award brings the total cumulative face value of the contract to $348,501,960. The contract modification provides for construction of a 175-ton heavy-lift portal crane to be installed at Portsmouth Naval Shipyard, Kittery, Maine. Work will be performed in New Berlin, Wisconsin, and is expected to be completed by November 2029. Fiscal 2025 other procurement, (Navy) funds in the amount of $51,162,117 are obligated on this award and will not expire at the end of the current fiscal year. The Naval Facilities Engineering Systems Command, Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6247020C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 51162117.0,
+        "cumulative_value_usd": 348501960.0,
+        "obligated_usd": 51162117.0,
+        "funding_text": "Fiscal 2025 other procurement, (Navy) funds in the amount of $51,162,117 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Konecranes Nuclear Equipment and Services LLC",
+            "location": "New Berlin, Wisconsin",
+            "contract_number": "N62470-20-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Construction of a 175-ton heavy-lift portal crane for Portsmouth Naval Shipyard, Kittery, Maine",
+        "base_contract_number": "N62470-20-C-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 51162117,
+        "cumulative_value_usd": 348501960,
+        "obligated_usd": 51162117,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is awarded a $24,000,000 cost-plus-fixed-fee modification to a previously awarded contract (N00024-20-C-2109) for engineering, technical, trade, and program management support of industrial type work for submarine availabilities, facilities, and conversion. Work will be performed in Newport News, Virginia (90%); Kings Bay, Georgia (3%); Bremerton, Washington (2%); Pearl Harbor, Hawaii (2%); Kittery, Maine (2%); and Groton, Connecticut (1%), and is expected to be completed by September 2026. Fiscal 2026 operations and maintenance (Navy) funds in the amount of $9,000,000 (97%); and fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $282,280 (3%), will be obligated at time of award and funds in the amount of $9,000,000 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C2109"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18282280.0,
+        "funding_text": "Fiscal 2026 operations and maintenance (Navy) funds in the amount of $9,000,000 (97%); and fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $282,280 (3%), will be obligated at time of award and funds in the amount of $9,000,000 will expire at the end of the current fiscal year",
+        "completion_date": "2026-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-20-C-2109",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Engineering, technical, trade, and program management support of industrial type work for submarine availabilities, facilities, and conversion",
+        "base_contract_number": "N00024-20-C-2109",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9282280,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, is awarded a $16,650,285 modification (P00004) to a cost-plus-fixed-fee order (N0001925F0087) against a previously issued basic ordering agreement (N0001924G0017). This modification exercises an option to provide continued software sustainment support and cyber security lifecycle support for the E-6B aircraft for the Navy. Work will be performed in Richardson, Texas (95%); Tinker Air Force Base, Oklahoma (3%); and Patuxent River, Maryland (2%), and is expected to be completed in June 2027. Fiscal 2026 operations and maintenance (Navy) funds in the amount of $4,018,603 will be obligated at the time of award, all of which will expire at the end of the current fiscal year. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001925F0087",
+          "N0001924G0017"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 16650285.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4018603.0,
+        "funding_text": "Fiscal 2026 operations and maintenance (Navy) funds in the amount of $4,018,603 will be obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-06",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N0001925F0087",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee order modification",
+        "description": "Option exercise for software sustainment and cyber security lifecycle support for the E-6B aircraft",
+        "base_contract_number": "N0001924G0017",
+        "order_number": "N0001925F0087",
+        "modification_number": "P00004",
+        "value_usd": 16650285,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4018603,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Atomics, San Diego, California, is awarded a $15,575,652 modification (P00116) to a firm-fixed-price contract (N0001914C0037). This modification adds scope to provide non-recurring engineering and implementation for the Electromagnetic Aircraft Launch System network upgrade to single mode fiber and Prime Power Interface Subsystem Transformer Rectifier deficiency corrections and installation on the USS Enterprise (CVN-80) future Gerald R. Ford-class aircraft carrier for the Navy. This modification also exercises options for hardware storage management. Work will be performed in San Diego, California (70.7%); Boston, Massachusetts (18.9%); Tupelo, Mississippi (9.1%); and Lakehurst, New Jersey (1.3%), and is expected to be completed in April 2028. Shipbuilding and conversion (Navy) funds in the amount of $15,575,652 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0037"
+        ],
+        "modification_numbers": [
+          "P00116"
+        ],
+        "is_modification": true,
+        "value_usd": 15575652.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15575652.0,
+        "funding_text": "Shipbuilding and conversion (Navy) funds in the amount of $15,575,652 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-04",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "General Atomics",
+            "location": "San Diego, California",
+            "contract_number": "N0001914C0037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Non-recurring engineering and implementation for EMALS network upgrade and PPI transformer rectifier corrections on USS Enterprise (CVN-80); exercises hardware storage management options",
+        "base_contract_number": "N0001914C0037",
+        "order_number": null,
+        "modification_number": "P00116",
+        "value_usd": 15575652,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15575652,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Geost LLC, Tucson, Arizona, has been awarded an $89,510,556 modification P00040 to previously awarded (FA8819-21-C-1001) for the Oculus Host. The modification brings the total cumulative face value of the contract to $195,977,490 from $106,466,934. Work will be performed at Tucson, Arizona, and is expected to be completed by May 13, 2033. Fiscal 2026 research, development, test, and evaluation funds in the amount of $60,823,739 are being obligated at time of award. The Space Systems Command, Los Angeles Air Force Base, California, is the contracting activity. (Awarded May 13, 2026.)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA881921C1001"
+        ],
+        "modification_numbers": [
+          "P00040"
+        ],
+        "is_modification": true,
+        "value_usd": 89510556.0,
+        "cumulative_value_usd": 195977490.0,
+        "obligated_usd": 60823739.0,
+        "funding_text": "Fiscal 2026 research, development, test, and evaluation funds in the amount of $60,823,739 are being obligated at time of award",
+        "completion_date": "2033-05-13",
+        "contracting_activity": {
+          "name": "The Space Systems Command, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Geost LLC",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8819-21-C-1001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Oculus Host",
+        "base_contract_number": "FA8819-21-C-1001",
+        "order_number": null,
+        "modification_number": "P00040",
+        "value_usd": 89510556,
+        "cumulative_value_usd": 195977490,
+        "obligated_usd": 60823739,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-05-13"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CCI Group LLC, Anchorage, Alaska, was awarded a $25,394,305 firm-fixed-price, indefinite-delivery/indefinite-quantity task order (comprehensive construction and engineering small business multiple award) for the renovation of Luke Air Force Base Building 617. This contract provides for the personnel, labor, tools, materials, and equipment necessary to renovate Luke AFB Building 617 to house new Modified Mission Rehearsal Trainers. Work will be performed at Luke AFB, Arizona, and is expected to be completed by Jan. 11, 2028. This award was a competitive acquisition with seven offers received. Fiscal 2026 operations and maintenance funds in the amount of $25,394,305 are being obligated at the time of award. The 56th Contracting Squadron, Luke AFB, Arizona, is the contracting activity (FA488726F0047).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA488726F0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25394305.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25394305.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds in the amount of $25,394,305 are being obligated at the time of award",
+        "completion_date": "2028-01-11",
+        "contracting_activity": {
+          "name": "The 56th Contracting Squadron, Luke AFB, Arizona",
+          "code": "FA488726F0047"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "CCI Group LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "FA488726F0047",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity task order (comprehensive construction and engineering small business multiple award)",
+        "description": "Renovation of Luke AFB Building 617 to house new Modified Mission Rehearsal Trainers",
+        "base_contract_number": null,
+        "order_number": "FA488726F0047",
+        "modification_number": null,
+        "value_usd": 25394305,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25394305,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Norfolk Dredging Co., Chesapeake, Virginia, was awarded a $45,741,737 firm-fixed-price contract for maintenance dredging in the Mobile Harbor, Alabama. Bids were solicited online, with five received. Work will be performed in Irvington, Alabama, with an estimated completion date of Jan. 16, 2027. Fiscal 2026 and 2024 operations and maintenance, Corps of Engineers, civil funds in the amount of $45,741,737 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile District, is the contracting activity (W91278-26-C-A015).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W9127826CA015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45741737.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45741737.0,
+        "funding_text": "Fiscal 2026 and 2024 operations and maintenance, Corps of Engineers, civil funds in the amount of $45,741,737 were obligated at the time of the award",
+        "completion_date": "2027-01-16",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile District",
+          "code": "W91278-26-C-A015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Norfolk Dredging Co.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "W91278-26-C-A015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging in Mobile Harbor, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45741737,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45741737,
+        "fms_countries": [],
+        "competition": "competitive, online solicitation, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Inland Dredging Co. LLC, Dyersburg, Tennessee, was awarded an $11,340,001 firm-fixed-price contract for the lease of one cutterhead hydraulic pipeline dredge, not less than 24-inch diameter, fully operated with attendant plant and personnel for construction and maintenance dredging within the U.S. Army Corps of Engineers Vicksburg District at the Mississippi River ports and harbors. Bids were solicited online, with one received. Work will be performed in Vicksburg, Mississippi, with an estimated completion date of May 20, 2027. Fiscal 2026 construction, Corps of Engineers, civil funds in the amount of $11,340,001 were obligated at the time of the award. U.S. Army Corps of Engineers, Vicksburg District, is the contracting activity (W912EE-26-C-A009).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W912EE26CA009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11340001.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11340001.0,
+        "funding_text": "Fiscal 2026 construction, Corps of Engineers, civil funds in the amount of $11,340,001 were obligated at the time of the award",
+        "completion_date": "2027-05-20",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Vicksburg District",
+          "code": "W912EE-26-C-A009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Inland Dredging Co. LLC",
+            "location": "Dyersburg, Tennessee",
+            "contract_number": "W912EE-26-C-A009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price lease",
+        "description": "Lease of one cutterhead hydraulic pipeline dredge for construction and maintenance dredging in Vicksburg District, Mississippi River ports and harbors",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11340001,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11340001,
+        "fms_countries": [],
+        "competition": "competitive, online solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Upstate Construction Services Inc.,* East Syracuse, New York, was awarded a $10,003,714 firm-fixed-price contract for the Gas Alley Modernization Project at Fort Drum, including construction of a new two-lane road, demolition and reconstruction of existing roadway, installation of lighting, passive and active barriers, controls, site work, utilities, storm water management and related infrastructure at the Ontario Avenue Access Control Point. The total cumulative face value of the contract is $10,328,896. Bids were solicited online, with four received. Work will be performed in Fort Drum, New York, with an estimated completion date of Nov. 21, 2027. Fiscal 2026 operations and maintenance, Army funds in the amount of $10,003,714 were obligated at the time of the award. U.S. Army Corps of Engineers, New York District, is the contracting activity (W912DS-26-C-A008).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W912DS26CA008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10003714.0,
+        "cumulative_value_usd": 10328896.0,
+        "obligated_usd": 10003714.0,
+        "funding_text": "Fiscal 2026 operations and maintenance, Army funds in the amount of $10,003,714 were obligated at the time of the award",
+        "completion_date": "2027-11-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York District",
+          "code": "W912DS-26-C-A008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Upstate Construction Services Inc.",
+            "location": "East Syracuse, New York",
+            "contract_number": "W912DS-26-C-A008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Gas Alley Modernization Project at Fort Drum, including new two-lane road, roadway reconstruction, lighting, barriers, and utilities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10003714,
+        "cumulative_value_usd": 10328896,
+        "obligated_usd": 10003714,
+        "fms_countries": [],
+        "competition": "competitive, online solicitation, four offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-05-21.html"
+  "source": "file:2026-05-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:23:54Z"
+  }
 }

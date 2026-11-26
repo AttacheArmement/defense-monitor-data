@@ -11,51 +11,407 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Owl International Inc., Global 1st Flagship,* Irvine, California, is awarded a $20,652,538 modification to previously awarded contract (N00024-22-C-4204) for the accomplishment of the Inactive Ships Maintenance Pearl Harbor requirement. Work will be performed in Pearl Harbor, Hawaii, and is expected to be completed by August 2025. Fiscal 2024 operations and maintenance (Navy) funds in the amount of $4,386,123 will be obligated at time of award and will expire at the end of fiscal 2025. Naval Sea Systems Command, Washington, D.C., is the contracting authority.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C4204"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 20652538.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4386123.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the amount of $4,386,123 will be obligated at time of award and will expire at the end of fiscal 2025",
+        "completion_date": "2025-08",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Owl International Inc.",
+            "location": "Irvine, California",
+            "contract_number": "N00024-22-C-4204",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Inactive Ships Maintenance Pearl Harbor requirement",
+        "base_contract_number": "N00024-22-C-4204",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20652538,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4386123,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "RDA Inc.,* Doylestown, Pennsylvania, is awarded a $13,944,897 cost-plus-fixed-fee order (N0001924F1856) against a basic ordering agreement (N0001924G0015). This order procures software and hardware upgrades to the low-cost acoustic processor engineering tool suite to include software and hardware product design, development, test, evaluation, installation, integration, off-site field testing for research and development, developmental test, and operational test, data analysis and documentation as well as platform prototype and development efforts in support of the Airborne Anti-Submarine Warfare program for the Navy. Work will be performed in Warrenton, Virginia (34.7%); Doylestown, Pennsylvania (34%); and Lexington Park, Maryland (31.3%), and is expected to be completed in July 2029. Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $744,000; and other procurement (Navy) funds in the amount of $292,035, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001924F1856",
+          "N0001924G0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13944897.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1036035.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $744,000; and other procurement (Navy) funds in the amount of $292,035, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2029-07",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "RDA Inc.",
+            "location": "Doylestown, Pennsylvania",
+            "contract_number": "N0001924F1856",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Low-cost acoustic processor engineering tool suite software and hardware upgrades for Airborne Anti-Submarine Warfare program",
+        "base_contract_number": "N0001924G0015",
+        "order_number": "N0001924F1856",
+        "modification_number": null,
+        "value_usd": 13944897,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1036035,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $12,124,252 cost-plus-fixed-fee, firm-fixed-price contract. This contract provides program management, logistics, system engineering, country unique requirements, and training in support of new F-35 integration efforts for the Republic of Korea. Work will be performed in Fort Worth, Texas (91%); and Orlando, Florida (9%), and is expected to be completed in July 2027. Foreign Military Sales customer funds in the amount of $12,124,252 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001924C0051).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001924C0051"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12124252.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12124252.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $12,124,252 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-07",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001924C0051"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001924C0051",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price contract",
+        "description": "Program management, logistics, systems engineering, country unique requirements and training for new F-35 integration efforts for the Republic of Korea",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12124252,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12124252,
+        "fms_countries": [
+          "Republic of Korea"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Chromalloy Gas Turbine LLC (Chromalloy), Carson City, Nevada, is awarded a $10,278,810 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for LM2500 high pressure turbine repairs. Work will be completed at the contractor’s facility located in Carson City, Nevada, and is expected to be completed by June 2030. The contract will have a five year ordering period. Fiscal 2024 operations and maintenance (Navy) funds in the total amount of $58,320 will be obligated at time of award and will expire at the end of the current fiscal year. All other funding will be made available at the task order level as contracting actions occur. This contract was competitively procured using full and open competition via the System for Award Management website, with three offers received. Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity (N66498-24-D-4026).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6649824D4026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10278810.0,
+        "cumulative_value_usd": 58320.0,
+        "obligated_usd": 58320.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the total amount of $58,320 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2030-06",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": "N66498-24-D-4026"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Chromalloy Gas Turbine LLC (Chromalloy)",
+            "location": "Carson City, Nevada",
+            "contract_number": "N66498-24-D-4026",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "LM2500 high pressure turbine repairs",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10278810,
+        "cumulative_value_usd": null,
+        "obligated_usd": 58320,
+        "fms_countries": [],
+        "competition": "full and open competition via the System for Award Management website, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "D&H Industries Inc.,* Oconomowoc, Wisconsin, was awarded a $9,999,990 firm-fixed-price contract for M16 magazines. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 29, 2029. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-24-D-0023).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB24D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9999990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-08-29",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-24-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "D&H Industries Inc.",
+            "location": "Oconomowoc, Wisconsin",
+            "contract_number": "W91CRB-24-D-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "M16 magazines",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9999990,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Suh'dutsing Staffing Services,* Cedar City, Utah, was awarded an $8,175,858 firm-fixed-price contract to repair and upgrade a building. Bids were solicited via the internet with six received. Work will be performed in Portland, Oregon, with an estimated completion date of Jan. 27, 2026. Fiscal 2024 operation and maintenance, defense-wide funds in the amount of $8,175,858 were obligated at the time of the award. U.S. Property and Fiscal Office, Oregon, is the contracting activity (W50S8Y-24-C-0002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W50S8Y24C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8175858.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8175858.0,
+        "funding_text": "Fiscal 2024 operation and maintenance, defense-wide funds in the amount of $8,175,858 were obligated at the time of the award",
+        "completion_date": "2026-01-27",
+        "contracting_activity": {
+          "name": "U.S. Property and Fiscal Office, Oregon",
+          "code": "W50S8Y-24-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Suh'dutsing Staffing Services",
+            "location": "Cedar City, Utah",
+            "contract_number": "W50S8Y-24-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair and upgrade of a building in Portland, Oregon",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8175858,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8175858,
+        "fms_countries": [],
+        "competition": "solicited via internet, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $32,233,988 firm-fixed-price contract (W912CH-24-D-0009) announced on July 17, 2024, for Teledyne Flir Unmanned Ground Systems Inc., Chelmsford, Massachusetts, to support the Robot Logistics Support Center was actually awarded on July 22, 2024.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912CH24D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32233988.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Teledyne Flir Unmanned Ground Systems Inc.",
+            "location": "Chelmsford, Massachusetts",
+            "contract_number": "W912CH-24-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Correction: contract to support the Robot Logistics Support Center, announced July 17, 2024, actually awarded July 22, 2024",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32233988,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-07-22"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Franklin Young International Inc., Upland, California (SPE2DE-24-D-0027, $40,000,000), has been added as an awardee to the multiple award contract for laboratory equipment, accessories and consumables for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-22-R-0006 and awarded Feb. 24, 2023.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE24D0027",
+          "SPE2DE22R0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Franklin Young International Inc.",
+            "location": "Upland, California",
+            "contract_number": "SPE2DE-24-D-0027",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "multiple award contract",
+        "description": "Added as awardee to multiple award contract for laboratory equipment, accessories and consumables for the DLA Electronic Catalog",
+        "base_contract_number": "SPE2DE-22-R-0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-02-24"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-07-24.html"
+  "source": "file:2024-07-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:41:26Z"
+  }
 }

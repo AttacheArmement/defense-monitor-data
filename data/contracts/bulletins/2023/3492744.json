@@ -12,63 +12,519 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia (W5J9CQ-18-D-0001, P00001); and General Dynamics One Source LLC, Falls Church, Virginia (W5J9CQ-18-D-0002, P0007), will compete for each order of the $99,000,000 cost-plus-fixed-fee contract for geospatial services. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of May 12, 2024. U.S. Army Corps of Engineers' Army Geospatial Center, Alexandria, Virginia, is the contracting activity. (Awarded Aug. 12, 2023)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W5J9CQ18D0001",
+          "W5J9CQ18D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-05-12",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Army Geospatial Center, Alexandria, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W5J9CQ-18-D-0001, P00001",
+            "markers": null
+          },
+          {
+            "name": "General Dynamics One Source LLC",
+            "location": "Falls Church, Virginia",
+            "contract_number": "W5J9CQ-18-D-0002, P0007",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Geospatial services orders, competed among awardees, for U.S. Army Corps of Engineers Army Geospatial Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, three offers received",
+        "award_date": "2023-08-12"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Accenture Federal Services LLC, Arlington, Virginia, was awarded a $35,461,002 modification (P00030) to contract W52P1J-21-C-0025 for the Enterprise Task Management Software Solution. Work will be performed in Arlington, Virginia, with an estimated completion date of Aug. 14, 2024. Fiscal 2023 operation and maintenance, Army funds in the amount of $35,461,002 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J21C0025"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 35461002.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35461002.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Army funds in the amount of $35,461,002 were obligated at the time of the award",
+        "completion_date": "2024-08-14",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Accenture Federal Services LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "W52P1J-21-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enterprise Task Management Software Solution modification",
+        "base_contract_number": "W52P1J-21-C-0025",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 35461002,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35461002,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Great Lakes Dredge & Dock Co. LLC, Houston, Texas, was awarded a $22,100,000 firm-fixed-price contract for dredging in the Mississippi River. Bids were solicited via the internet with two received. Work will be performed in Plaquemines, Louisiana, with an estimated completion date of Dec. 17, 2023. Fiscal 2023 civil operation and maintenance funds in the amount of $22,100,000 were obligated at the time of the award. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity (W912P8-23-C-0038).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912P823C0038"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22100000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22100000.0,
+        "funding_text": "Fiscal 2023 civil operation and maintenance funds in the amount of $22,100,000 were obligated at the time of the award",
+        "completion_date": "2023-12-17",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": "W912P8-23-C-0038"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge & Dock Co. LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W912P8-23-C-0038",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dredging in the Mississippi River, Plaquemines, Louisiana",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22100000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22100000,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Unico Mechanical Corp.,* Benicia, California, was awarded a $9,119,020 firm-fixed-price contract for butterfly valve refurbishment. Bids were solicited via the internet with four received. Work will be performed at Fort Peck, Montana, with an estimated completion date of May 28, 2025. Fiscal 2023 Western States Power Corp. funds in the amount of $9,119,020 were obligated at the time of the award. U.S. Army Corps of Engineers, Omaha, Nebraska, is the contracting activity (W9128F-23-C-0031).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9128F23C0031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9119020.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9119020.0,
+        "funding_text": "Fiscal 2023 Western States Power Corp. funds in the amount of $9,119,020 were obligated at the time of the award",
+        "completion_date": "2025-05-28",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Omaha, Nebraska",
+          "code": "W9128F-23-C-0031"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Unico Mechanical Corp.",
+            "location": "Benicia, California",
+            "contract_number": "W9128F-23-C-0031",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Butterfly valve refurbishment at Fort Peck, Montana",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9119020,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9119020,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Excel Garment Manufacturing Ltd., El Paso, Texas, has been awarded a maximum $26,233,200 modification (P00012) exercising the third one-year option period of a one-year base contract (SPE1C1-20-D-1248) with four one-year option periods for improved flame resistant coveralls. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is Aug. 18, 2024. Using military service is Navy. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C120D1248"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 26233200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Excel Garment Manufacturing Ltd.",
+            "location": "El Paso, Texas",
+            "contract_number": "SPE1C1-20-D-1248",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Improved flame resistant coveralls, third one-year option period",
+        "base_contract_number": "SPE1C1-20-D-1248",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 26233200,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Lions Volunteer Blind Industries Inc., ** Morristown, Tennessee, has been awarded a maximum $14,085,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for helmet covers. This is a five-year contract with no option periods. The ordering period end date is Aug. 16, 2028. Using military service is Army. Type of appropriation is fiscal 2023 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-23-D-B015).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123DB015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14085000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-23-D-B015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Lions Volunteer Blind Industries Inc.",
+            "location": "Morristown, Tennessee",
+            "contract_number": "SPE1C1-23-D-B015",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Helmet covers, five-year contract, no option periods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14085000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Mount Rogers Community Services, ** Atkins, Virginia, has been awarded a maximum $14,085,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for helmet covers. This is a five-year contract with no option periods. The ordering period end date is Aug. 16, 2028. Using military service is Army. Type of appropriation is fiscal 2023 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-23-D-N012).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123DN012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14085000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-23-D-N012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Mount Rogers Community Services",
+            "location": "Atkins, Virginia",
+            "contract_number": "SPE1C1-23-D-N012",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Helmet covers, five-year contract, no option periods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14085000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "AliMed Inc., Dedham, Massachusetts, has been awarded a maximum $8,339,561 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for various medical surgical products. This was a competitive acquisition with four responses received. This is a one-year base contract with nine one-year option periods. The ordering period end date is Aug.16, 2024. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2023 through 2024 Warstopper funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D0-23-D-0003).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D023D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8339561.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D0-23-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "AliMed Inc.",
+            "location": "Dedham, Massachusetts",
+            "contract_number": "SPE2D0-23-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Various medical surgical products; one-year base with nine one-year options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8339561,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Avioss LLC,* Miami, Florida, is awarded a $15,734,709 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures organizational and intermediate level peculiar and common support equipment for the V-22 program in support of the Navy, Marine Corps, Air Force, and Foreign Military Sales customers. Work will be performed in Miami, Florida, and is expected to be completed in August 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; two offers were received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833523D0029).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6833523D0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15734709.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2028-08",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833523D0029"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Avioss LLC",
+            "location": "Miami, Florida",
+            "contract_number": "N6833523D0029",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Organizational and intermediate level peculiar and common support equipment for the V-22 program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15734709,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, electronic request for proposal, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is awarded a $15,670,000 undefinitized contract action under a previously awarded contract (N00024-19-C-2125), to provide chill water pumps and motors. Work will be performed by Electric Boat Corp. in Groton, Connecticut (100%), and is expected to be completed by December 2028. Fiscal 2022 funds in the amount $7,835,000 will be obligated at time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2125"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15670000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7835000.0,
+        "funding_text": "Fiscal 2022 funds in the amount $7,835,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-19-C-2125",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Chill water pumps and motors under a previously awarded contract",
+        "base_contract_number": "N00024-19-C-2125",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15670000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7835000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-08-14.html"
+  "source": "file:2023-08-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:22:52Z"
+  }
 }

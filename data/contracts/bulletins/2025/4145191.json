@@ -11,81 +11,663 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bechtel National Inc., Reston, Virginia, was awarded a $242,282,475 modification (P00284) to contract W52P1J-09-C-0012 to capture past contract overruns for the Pueblo Chemical Agent-Destruction Pilot Plant. Work will be performed in Pueblo, Colorado, with an estimated completion date of April 3, 2026. Fiscal 2015 research, development, test and evaluation, Army funds in the amount of $242,282,475 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J09C0012"
+        ],
+        "modification_numbers": [
+          "P00284"
+        ],
+        "is_modification": true,
+        "value_usd": 242282475.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 242282475.0,
+        "funding_text": "Fiscal 2015 research, development, test and evaluation, Army funds in the amount of $242,282,475 were obligated at the time of the award",
+        "completion_date": "2026-04-03",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bechtel National Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W52P1J-09-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Pueblo Chemical Agent-Destruction Pilot Plant past contract overruns",
+        "base_contract_number": "W52P1J-09-C-0012",
+        "order_number": null,
+        "modification_number": "P00284",
+        "value_usd": 242282475,
+        "cumulative_value_usd": null,
+        "obligated_usd": 242282475,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "M1 Support Services LP, Denton, Texas, was awarded a $65,357,267 modification (P00188) to contract W9124G-17-C-0104 for aviation maintenance. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 15, 2026. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9124G17C0104"
+        ],
+        "modification_numbers": [
+          "P00188"
+        ],
+        "is_modification": true,
+        "value_usd": 65357267.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-01-15",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "M1 Support Services LP",
+            "location": "Denton, Texas",
+            "contract_number": "W9124G-17-C-0104",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation maintenance",
+        "base_contract_number": "W9124G-17-C-0104",
+        "order_number": null,
+        "modification_number": "P00188",
+        "value_usd": 65357267,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ACC Construction Co. Inc., Augusta, Georgia, was awarded a $42,916,905 firm-fixed-price contract to design and construct a barracks. Bids were solicited via the internet with four received. Work will be performed in Fayetteville, North Carolina, with an estimated completion date of Feb. 1, 2029. Fiscal 2024 military construction, Army funds in the amount of $42,916,905 were obligated at the time of the award. U.S. Army Corps of Engineers, Wilmington, North Carolina, is the contracting activity (W912PM-25-C-0029).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912PM25C0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42916905.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 42916905.0,
+        "funding_text": "Fiscal 2024 military construction, Army funds in the amount of $42,916,905 were obligated at the time of the award",
+        "completion_date": "2029-02-01",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Wilmington, North Carolina",
+          "code": "W912PM-25-C-0029"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "ACC Construction Co. Inc.",
+            "location": "Augusta, Georgia",
+            "contract_number": "W912PM-25-C-0029",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design and construction of a barracks in Fayetteville, North Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42916905,
+        "cumulative_value_usd": null,
+        "obligated_usd": 42916905,
+        "fms_countries": [],
+        "competition": "internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "C.J. Mahan Construction Co. LLC, Urbancrest, Ohio, was awarded an $8,635,903 firm-fixed-price contract to replace vertical lift gate cylinders. Bids were solicited via the internet with three received. Work will be performed in Pittsburgh, Pennsylvania, with an estimated completion date of March 22, 2027. Fiscal 2023 civil construction funds in the amount of $8,635,903 were obligated at the time of the award. U.S. Army Corps of Engineers, Pittsburgh, Pennsylvania, is the contracting activity (W911WN-25-C-8006).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911WN25C8006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8635903.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8635903.0,
+        "funding_text": "Fiscal 2023 civil construction funds in the amount of $8,635,903 were obligated at the time of the award",
+        "completion_date": "2027-03-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Pittsburgh, Pennsylvania",
+          "code": "W911WN-25-C-8006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "C.J. Mahan Construction Co. LLC",
+            "location": "Urbancrest, Ohio",
+            "contract_number": "W911WN-25-C-8006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Replacement of vertical lift gate cylinders in Pittsburgh, Pennsylvania",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8635903,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8635903,
+        "fms_countries": [],
+        "competition": "internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded a $23,773,621 firm-fixed-price modification to previously awarded contract (N00024-22-C-5400) to exercise an option for fiscal 2025 Navy procurements of Rolling Airframe Missile (RAM) Block 2B Guided Missile Round Packs. The RAM Guided Missile Weapon System is co-developed and co-produced under an International Cooperative Program between the U.S. and the Federal Republic of Germany. Work will be performed in Ottobrunn, Germany (42%); Tucson, Arizona (31%); Glenrothes Fife, Great Britain (12%); Keyser, West Virginia (9%); Cincinnati, Ohio (1%); and various other U.S. locations each under 1% (5%), and is expected to be completed by July 2028. Fiscal 2025 weapons procurement (Navy) funds in the amount of $23,773,621 will be obligated at the time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C5400"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 23773621.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23773621.0,
+        "funding_text": "Fiscal 2025 weapons procurement (Navy) funds in the amount of $23,773,621 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-07",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00024-22-C-5400",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price modification",
+        "description": "Fiscal 2025 option for RAM Block 2B Guided Missile Round Packs (international cooperative program with Germany)",
+        "base_contract_number": "N00024-22-C-5400",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23773621,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23773621,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics NASSCO, Norfolk, Virginia, is being awarded a $21,735,171 modification to exercise options on a previously awarded contract (N00024-25-C-4427) for the USS Porter (DDG-78) fiscal 2025 extended dry-dock selected restricted availability. Work will be performed in Norfolk, Virginia, and is expected to be completed by May 2026. Fiscal 2025 other procurement (Navy) funds in the amount of $21,735,171 will be obligated at time of award and will not expire at the end of the current fiscal year. Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C4427"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 21735171.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21735171.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $21,735,171 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics NASSCO",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00024-25-C-4427",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "modification exercising options",
+        "description": "USS Porter (DDG-78) fiscal 2025 extended dry-dock selected restricted availability",
+        "base_contract_number": "N00024-25-C-4427",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21735171,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21735171,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lampson International LLC,* Kennewick, Washington, is awarded a $10,301,312 firm-fixed-price, indefinite-delivery/indefinite-quantity contract action for engineering and specialized transportation services for Puget Sound Naval Shipyard and Intermediate Maintenance Facility (PSNS & IMF). PSNS & IMF requires these services for the transport of decommissioned reactor compartment disposal packages from the Port of Benton barge slip near Richland, Washington to their final positioning at the Department of Energy Hanford site. Work will be performed at Port of Benton, Washington (50%); and Hanford, Washington (50%), and is expected to be completed by April 2030. Operations and maintenance (Navy) funding will be provided at the task order level. This contract was competitively procured via the solicitation module on the PIEE website, with two offers received. PSNS & IMF, Bremerton, Washington, is the contracting activity (N4523A25D4001).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N4523A25D4001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10301312.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-04",
+        "contracting_activity": {
+          "name": "PSNS & IMF, Bremerton, Washington",
+          "code": "N4523A25D4001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lampson International LLC",
+            "location": "Kennewick, Washington",
+            "contract_number": "N4523A25D4001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Engineering and specialized transportation services for transport of decommissioned reactor compartment disposal packages to Hanford site, PSNS & IMF",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10301312,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, solicitation via PIEE, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Electric Co., Lynn, Massachusetts, is awarded a $7,748,215 modification (P00004) to a cost-plus-fixed-fee order (N0042125F0023) against a previously issued basic ordering agreement (N0042123G0004). This modification adds scope to provide new build T408 engine ground testing to capture thrust delta verification using a fleet representative test cell and associated noise abatement levels with the new fuel augmentation optimization in support of the T408 component improvement program for the Navy. Work will be performed in Lynn, Massachusetts, and is expected to be completed in April 2026. Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $2,817,750; and fiscal 2025 aircraft procurement (Navy) funds in the amount of $1,342,143, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract action was not competed. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0042125F0023",
+          "N0042123G0004"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 7748215.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4159893.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $2,817,750; and fiscal 2025 aircraft procurement (Navy) funds in the amount of $1,342,143, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-04",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "N0042125F0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "New build T408 engine ground testing in support of T408 component improvement program",
+        "base_contract_number": "N0042123G0004",
+        "order_number": "N0042125F0023",
+        "modification_number": "P00004",
+        "value_usd": 7748215,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4159893,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Fuel Cell and Coated Fabrics Co. LLC,* Magnolia, Arkansas, has been awarded a maximum $17,144,712 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for KC-135 fuel cells. This was a competitive acquisition with two responses received. This is a three-year base contract with one six-month option period. The performance completion date is April 2, 2028. Using military service is Air Force. Type of appropriation is fiscal 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Oklahoma City, Oklahoma (SPRTA1-25-D-0005).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA125D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17144712.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Oklahoma City, Oklahoma",
+          "code": "SPRTA1-25-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "American Fuel Cell and Coated Fabrics Co. LLC",
+            "location": "Magnolia, Arkansas",
+            "contract_number": "SPRTA1-25-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "KC-135 fuel cells",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17144712,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Fuel Cell and Coated Fabrics Co. LLC,* Magnolia, Arkansas, has been awarded a maximum $9,931,435 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for KC-135 fuel cells. This was a competitive acquisition with two responses received. This is a three-year base contract with one six-month option period. The performance completion date is April 2, 2028. Using military service is Air Force. Type of appropriation is fiscal 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Oklahoma City, Oklahoma (SPRTA1-25-D-0014).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA125D0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9931435.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Oklahoma City, Oklahoma",
+          "code": "SPRTA1-25-D-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "American Fuel Cell and Coated Fabrics Co. LLC",
+            "location": "Magnolia, Arkansas",
+            "contract_number": "SPRTA1-25-D-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "KC-135 fuel cells",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9931435,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Honeywell International Inc., doing business as Grimes Aerospace Co., Urbana, Ohio, has been awarded a maximum $8,041,147 firm-fixed-price delivery order (SPE8E7-25-F-0033), against a three-year two-month basic ordering agreement (SPE4A1-22-G-0015), for retractable landing lights. This was a sole-source acquisition using justification 41 U.S. Code 1901, as stated in Federal Acquisition Regulation 13.501 (a). The delivery order end date is April 3, 2025, with no option periods. Using military services are Air Force and Navy. Type of appropriation is fiscal 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency, Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E725F0033",
+          "SPE4A122G0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8041147.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency, Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc., doing business as Grimes Aerospace Co.",
+            "location": "Urbana, Ohio",
+            "contract_number": "SPE8E7-25-F-0033",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Retractable landing lights",
+        "base_contract_number": "SPE4A1-22-G-0015",
+        "order_number": "SPE8E7-25-F-0033",
+        "modification_number": null,
+        "value_usd": 8041147,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 41 U.S.C. 1901 justification (FAR 13.501(a))",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Missiles and Fire Control, Orlando, Florida, has been awarded a not-to-exceed $13,266,668 firm-fixed-price undefinitized contract action modification (P00004) to previously awarded (FA8682-24-C-B001) for Long-Range Anti-Ship Missile production Lot Nine. The modification brings the total cumulative face value of the contract to $5,193,421,201. Work will be performed in Orlando, Florida, and is expected to be completed by Dec. 31, 2028. Fiscal 2025 research, development, test and evaluation funds are being obligated at time of award. The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA868224CB001"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 13266668.0,
+        "cumulative_value_usd": 5193421201.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds are being obligated at time of award",
+        "completion_date": "2028-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Missiles and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": "FA8682-24-C-B001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price undefinitized contract action modification",
+        "description": "Long-Range Anti-Ship Missile production Lot Nine",
+        "base_contract_number": "FA8682-24-C-B001",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 13266668,
+        "cumulative_value_usd": 5193421201,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, has been awarded a $9,430,610 firm-fixed-price modification (P00057) to a previously awarded contract (FA8675-21-C-0034) for Advance Medium Range Air-to-Air Missiles Captive Carry Reliability Vehicle kits. The modification brings the total cumulative face value of the contract to $2,1,77,210,614 from $2,167,680,004. Work will be performed in Tucson, Arizona, and is expected to be completed by March 31, 2027. This contract involves Foreign Military Sales (FMS) to Canada. FMS funds in the amount of $9,530,610 are being obligated at the time of award. The Air Force Lifecycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA867521C0034"
+        ],
+        "modification_numbers": [
+          "P00057"
+        ],
+        "is_modification": true,
+        "value_usd": 9430610.0,
+        "cumulative_value_usd": 2177210614.0,
+        "obligated_usd": 9530610.0,
+        "funding_text": "FMS funds in the amount of $9,530,610 are being obligated at the time of award",
+        "completion_date": "2027-03-31",
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Canada"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8675-21-C-0034",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Advance Medium Range Air-to-Air Missiles Captive Carry Reliability Vehicle kits",
+        "base_contract_number": "FA8675-21-C-0034",
+        "order_number": null,
+        "modification_number": "P00057",
+        "value_usd": 9430610,
+        "cumulative_value_usd": 2177210614,
+        "obligated_usd": 9530610,
+        "fms_countries": [
+          "Canada"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-04-03.html"
+  "source": "file:2025-04-03.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:09:12Z"
+  }
 }

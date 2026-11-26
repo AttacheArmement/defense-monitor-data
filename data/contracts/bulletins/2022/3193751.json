@@ -12,15 +12,118 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Golden Manufacturing,* Golden, Mississippi, has been awarded a maximum $10,800,320 modification (P00024) exercising the third one-year option period of an 18-month base contract (SPE1C1-19-D-1160) with three one-year option periods for various types of trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is North Carolina, with an Oct. 23, 2023, ordering period end date. Using military services are Navy and Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D1160"
+        ],
+        "modification_numbers": [
+          "P00024"
+        ],
+        "is_modification": true,
+        "value_usd": 10800320.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Golden Manufacturing",
+            "location": "Golden, Mississippi",
+            "contract_number": "SPE1C1-19-D-1160",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Third one-year option period exercise for various types of trousers; ordering period ends Oct. 23, 2023; performance in North Carolina",
+        "base_contract_number": "SPE1C1-19-D-1160",
+        "order_number": null,
+        "modification_number": "P00024",
+        "value_usd": 10800320,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "National Industries for the Blind,** Alexandria, Virginia, has been awarded a maximum $9,074,847 modification (P00012) exercising the fourth one-year option period of a one-year base contract (SPE1C1-19-D-B043) with four one-year option periods for moisture wicking t-shirts. This is an indefinite-delivery contract. Locations of performance are North Carolina and Arkansas, with an Oct. 30, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119DB043"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 9074847.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "National Industries for the Blind",
+            "location": "Alexandria, Virginia",
+            "contract_number": "SPE1C1-19-D-B043",
+            "markers": "**"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery contract",
+        "description": "Fourth one-year option period exercise for moisture wicking t-shirts; ordering period ends Oct. 30, 2023; performance in North Carolina and Arkansas",
+        "base_contract_number": "SPE1C1-19-D-B043",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 9074847,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2022-10-19.html"
+  "source": "file:2022-10-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:52:40Z"
+  }
 }

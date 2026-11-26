@@ -11,45 +11,356 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Arthrex Inc., Naples, Florida, has been awarded a maximum $471,048,173 fixed-price, indefinite-delivery/indefinite-quantity contract for orthopedic procedural packages and supplies. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(2), as stated in Federal Acquisition Regulation 6.302-2. This is a five-year contract with no option periods. The ordering period end date is June 10, 2029. Using customers are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal 2024 through 2029 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-24-D-0020).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE24D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 471048173.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-24-D-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Arthrex Inc.",
+            "location": "Naples, Florida",
+            "contract_number": "SPE2DE-24-D-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Orthopedic procedural packages and supplies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 471048173,
+        "cumulative_value_usd": 471048173,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(2) per FAR 6.302-2",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on May 31, 2024, for Vincorion LLC,* El Paso, Texas (SPRBL1-24-D-0009), for $33,900,000 was announced with an incorrect award date. The correct award date is June 7, 2024.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL124D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Vincorion LLC",
+            "location": "El Paso, Texas",
+            "contract_number": "SPRBL1-24-D-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction of award date for May 31, 2024 announcement of Vincorion LLC contract; correct award date is June 7, 2024",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-06-07"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded an $81,064,959 modification (P00011) to a cost-plus-incentive-fee order (N0001921F0886) against a previously issued basic ordering agreement (N0001921G0006.) This modification definitizes the order and adds scope to provide continuing non-recurring engineering in support of configuration efforts for the Harpoon Coastal Defense System (HCDS), to include the Harpoon Block II Update Grade B Canister Launch All Up Round Missiles, the HCDS launch system, and Harpoon weapon station test and production equipment in support of the HCDS for Taiwan. Work will be performed in St. Charles, Missouri (47%); Randolph, Vermont (16%); Baltic, South Dakota (15%); Pontiac, Michigan (9%); Black Mountain, North Carolina (3%); St. Louis, Missouri (2%); Norcross, Georgia (1%); various locations within the continental U.S. (6.7%); and various locations below 1% and is expected to be completed in August 2026. Foreign Military Sales customer funds in the amount of $81,064,959 will be obligated at time of award, none of which will expire at the end of the fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001921F0886",
+          "N0001921G0006"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 81064959.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81064959.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $81,064,959 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2026-08",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001921F0886",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee order",
+        "description": "Definitizes order and adds scope for continuing non-recurring engineering for Harpoon Coastal Defense System (HCDS) for Taiwan",
+        "base_contract_number": "N0001921G0006",
+        "order_number": "N0001921F0886",
+        "modification_number": "P00011",
+        "value_usd": 81064959,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81064959,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "GE Aviation Systems LTD, Cheltenham, Gloucestershire United Kingdom, is awarded a $28,550,890 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the production and delivery of up to a maximum quantity of 622 common electric stand-by indicators, a weapons replaceable assembly which serves as a backup flight display for the pilot or co-pilot on both fixed wing and rotary wing platforms in support of the Navy, Marine Corps, and Foreign Military Sales customers. Work will be performed in Cheltenham, Gloucestershire, United Kingdom, and is expected to be completed in December 2029. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 10 U.S. Code 3204(a)(1). Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity. (N0042124D0015)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0042124D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28550890.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2029-12",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "GE Aviation Systems LTD",
+            "location": "Cheltenham, Gloucestershire United Kingdom",
+            "contract_number": "N0042124D0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Production and delivery of up to 622 common electric stand-by indicators for Navy, Marine Corps, and FMS customers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28550890,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "D 2 Inc.,* Bourne, Massachusetts, is awarded a $20,167,277 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the production and delivery of up to a maximum quantity of 841 portable particle counters as well as non-recurring engineering, logistics and test support. The particle counter measures the level of particulate contamination contained in the fluid (petroleum, synthetic-based fluids, glycols, and phosphate ester fluids) samples taken from aircraft or ground support equipment. The results are used to determine if the fluid is clean enough to be used in the appropriate system. Work will be performed in Bourne, Massachusetts (75%); Lakehurst, New Jersey (18.75%); and Patuxent River, Maryland (6.25%), and is expected to be completed in June 2029. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; three offer was received. Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833524D0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6833524D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20167277.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2029-06",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833524D0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "D 2 Inc.",
+            "location": "Bourne, Massachusetts",
+            "contract_number": "N6833524D0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Production and delivery of up to 841 portable particle counters for aircraft fluid contamination testing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20167277,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Systems Corp., Hunt Valley, Maryland, is awarded a $9,948,204 firm-fixed-price order (N0001924F0105) against a previously issued basic ordering agreement (N0001921G0008). This order procures unmanned aircraft systems intelligence, surveillance, and reconnaissance services, in support of the Department of Defense, other government agencies, and domestic and overseas contingency operations for the Navy. Work will be performed in Hunt Valley, Maryland (20%); and various locations outside the continental U.S. (80%) and is expected to be completed in October 2027. Fiscal 2024 operations and maintenance, (Navy) funds for $9,948,204 will be obligated at the time of award, $9,948,204 of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001924F0105",
+          "N0001921G0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9948204.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19896408.0,
+        "funding_text": "Fiscal 2024 operations and maintenance, (Navy) funds for $9,948,204 will be obligated at the time of award, $9,948,204 of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-10",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Textron Systems Corp.",
+            "location": "Hunt Valley, Maryland",
+            "contract_number": "N0001924F0105",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price order",
+        "description": "Unmanned aircraft systems intelligence, surveillance, and reconnaissance services for Navy",
+        "base_contract_number": "N0001921G0008",
+        "order_number": "N0001924F0105",
+        "modification_number": null,
+        "value_usd": 9948204,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9948204,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The June 7, 2024, announcement for an $11,586,938 modification (P00026) to contract W56HZV-23-D-0008, awarded to AM General LLC, South Bend, Indiana, for the Joint Light Tactical Vehicle Family of Vehicles was not awarded.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV23D0008"
+        ],
+        "modification_numbers": [
+          "P00026"
+        ],
+        "is_modification": true,
+        "value_usd": 11586938.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "AM General LLC",
+            "location": "South Bend, Indiana",
+            "contract_number": "W56HZV-23-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction stating the June 7, 2024 announcement of an $11,586,938 modification (P00026) for Joint Light Tactical Vehicle Family of Vehicles was not awarded",
+        "base_contract_number": "W56HZV-23-D-0008",
+        "order_number": null,
+        "modification_number": "P00026",
+        "value_usd": 11586938,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-06-07"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-06-11.html"
+  "source": "file:2024-06-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:46:51Z"
+  }
 }

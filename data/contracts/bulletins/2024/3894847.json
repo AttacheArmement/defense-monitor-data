@@ -11,69 +11,608 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Val-Pro Inc.,* doing business as Valley Fruit & Produce Co., Los Angeles, California, has been awarded a maximum $955,500,000 firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for fresh fruits and vegetables. This was a competitive acquisition with four responses received. This is a five-year contract with no option periods. The ordering period end date is Sept. 1, 2029. Using customers are Army, Navy, Air Force, Marine Corps, and Department of Agriculture schools and reservations. Type of appropriation is fiscal 2024 through 2029 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-24-D-P427).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE30024DP427"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 955500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-24-D-P427"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Val-Pro Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "SPE300-24-D-P427",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Fresh fruits and vegetables supply contract (doing business as Valley Fruit & Produce Co.)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 955500000,
+        "cumulative_value_usd": 955500000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "C.E. Niehoff & Co., Evanston, Illinois, has been awarded a maximum $9,807,039 firm-fixed-price delivery order (SPRDL1-24-F-0233) against a five-year long-term indefinite-delivery/indefinite-quantity contract (SPRDL1-20-D-0084) with no option periods for generator engines. This was sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. The ordering period end date is April 1, 2025. Using military service is Army. Type of appropriation is fiscal 2020 through 2025 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL124F0233",
+          "SPRDL120D0084"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9807039.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "C.E. Niehoff & Co.",
+            "location": "Evanston, Illinois",
+            "contract_number": "SPRDL1-24-F-0233",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order against long-term indefinite-delivery/indefinite-quantity contract",
+        "description": "Generator engines",
+        "base_contract_number": "SPRDL1-20-D-0084",
+        "order_number": "SPRDL1-24-F-0233",
+        "modification_number": null,
+        "value_usd": 9807039,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 3204(a)(1) per FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technologies Corp., doing business as Pratt and Whitney Military Engines, East Hartford, Connecticut, is awarded a not-to-exceed $405,343,228 undefinitized contract modification (P00016) to a previously awarded firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract (N0001920D0013). This modification adds scope to procure spares for the production and delivery of the F135 propulsion system including spares depot and common for the F-35 global spares pool, and country unique spares in support of the Joint Strike Fighter program for the Air Force, Marine Corps, Navy, non-Department of Defense participants, F-35 Cooperative Program Partners, and Foreign Military Sales customers. Work will be performed in East Hartford, Connecticut (91%) (labor surplus area); North Berwick, Maine (4%); South Windsor, Connecticut (2%); Rockford, Illinois (1%) (labor surplus area); Santa Isabel, Puerto Rico (1%) (labor surplus area); and Phoenix, Arizona (1%), and is expected to be completed in December 2027. No funds will be obligated at the time of award, funds will be obligated on individual orders as they are issued. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001920D0013"
+        ],
+        "modification_numbers": [
+          "P00016"
+        ],
+        "is_modification": true,
+        "value_usd": 405343228.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award, funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-12",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon Technologies Corp.",
+            "location": "East Hartford, Connecticut",
+            "contract_number": "N0001920D0013",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action; firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "F135 propulsion system spares for the F-35 global spares pool and country-unique spares (doing business as Pratt and Whitney Military Engines)",
+        "base_contract_number": "N0001920D0013",
+        "order_number": null,
+        "modification_number": "P00016",
+        "value_usd": 405343228,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technologies Corp., doing business as Pratt and Whitney Military Engines, East Hartford, Connecticut, is awarded a $111,875,732 contract modification (P00032) to a previously awarded cost-plus-incentive-fee contract (N0001919C0007). This modification extends the period of performance for the Propulsion System Block Four Flight Test Program to December 2026 to provide continued technical engineering, flight test support, special tooling, test equipment repair, and flight test spare and repair parts for the F-35 Lightning II Propulsion System Block Four Flight Test Program for the Navy, Marine Corps, Air Force, and F-35 Cooperative Program Partners (non-U.S. Department of Defense (DOD)). Work will be performed in East Hartford, Connecticut (32%); Edwards Air Force Base, California (33%); and Patuxent River, Maryland (35%), and is expected to be completed in December 2026. Fiscal 2024 research, development, test and evaluation (Air Force) funds in the amount of $11,077,874; fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $10,517,721; and non-U.S. DOD participant funds in the amount of $4,685,005, will be obligated at time of award, none of which will expire at the end of the fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C0007"
+        ],
+        "modification_numbers": [
+          "P00032"
+        ],
+        "is_modification": true,
+        "value_usd": 111875732.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26280600.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation (Air Force) funds in the amount of $11,077,874; fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $10,517,721; and non-U.S. DOD participant funds in the amount of $4,685,005, will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2026-12",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Raytheon Technologies Corp.",
+            "location": "East Hartford, Connecticut",
+            "contract_number": "N0001919C0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Extends period of performance for F-35 Propulsion System Block Four Flight Test Program to December 2026 (doing business as Pratt and Whitney Military Engines)",
+        "base_contract_number": "N0001919C0007",
+        "order_number": null,
+        "modification_number": "P00032",
+        "value_usd": 111875732,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26280600,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Marinette Marine Corp., Marinette, Wisconsin, was awarded a $64,939,319 cost-plus-fixed-fee and cost-only modification to previously awarded contract (N00024-20-C-2300) to exercise an option for engineering and class support requirements in support of detail design and construction of the Constellation-class guided-missile frigate. Work will be performed in Arlington, Virginia (35%); Marinette, Wisconsin (30%); Camden, New Jersey (15%); Millersville, Maryland (13%); Columbus, Ohio (1%); Chicago, Illinois (1%); Mathews, Louisiana (1%); Evans, Georgia (1%); Hanrahan, Louisiana (1%); Chesapeake, Virginia (1%); and Arvonia, Virginia (1%); and is expected to be completed by August 2025. Fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $380,157; and fiscal 2024 shipbuilding and conversion (Navy) in the amount of $37,500,000, will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington D.C., is the contracting activity. (Awarded Aug. 30, 2024.)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C2300"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 64939319.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37880157.0,
+        "funding_text": "Fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $380,157; and fiscal 2024 shipbuilding and conversion (Navy) in the amount of $37,500,000, will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-08",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Marinette Marine Corp.",
+            "location": "Marinette, Wisconsin",
+            "contract_number": "N00024-20-C-2300",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee and cost-only modification",
+        "description": "Engineering and class support for detail design and construction of the Constellation-class guided-missile frigate",
+        "base_contract_number": "N00024-20-C-2300",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 64939319,
+        "cumulative_value_usd": null,
+        "obligated_usd": 38380157,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-08-30"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "American Engineering Corp., Okinawa, Japan, is awarded a $22,097,851 firm-fixed-price indefinite-delivery/indefinite-quantity contract for roofing and exterior painting for various projects. This contract provides for labor, management, supervision, tools, materials, equipment, engineering, transportation, and except otherwise specified in specification, necessary to perform various roofing and exterior painting work to installations in U.S. Marine Corps Air Station, Iwakuni, Japan. Work will be performed at Iwakuni City, Yamaguchi Prefecture, Japan, and will be completed by August 2031. Fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $6,078 will be obligated at time of the award, and will expire at the end of the current fiscal year. This contract was procured via the sam.gov website using sealed bidding with one bid received. The Naval Facilities Engineering Systems Command, Far East, Facilities and Acquisition Division, Iwakuni, Japan, is the contracting activity (N40084-24-D-5500).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008424D5500"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22097851.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6078.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $6,078 will be obligated at time of the award, and will expire at the end of the current fiscal year",
+        "completion_date": "2031-08",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Far East, Facilities and Acquisition Division, Iwakuni, Japan",
+          "code": "N40084-24-D-5500"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "American Engineering Corp.",
+            "location": "Okinawa, Japan",
+            "contract_number": "N40084-24-D-5500",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Roofing and exterior painting for various projects at MCAS Iwakuni, Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22097851,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6078,
+        "fms_countries": [],
+        "competition": "sealed bidding via sam.gov, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "OnTime Networks LLC,* Latham, New York, is awarded an $18,990,710 firm-fixed-price indefinite-delivery, indefinite-quantity contract. This contract procures up to a maximum quantity of 470 Ethernet Expansion Devices in support of the V-22 aircraft for the Air Force, Navy and Marine Corps. Work will be performed in Latham, New York (34%); Oslo, Norway (53%); and Eden Prairie, Minnesota (13%), and is expected to be completed in September 2029. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001924D0118).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001924D0118"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18990710.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2029-09",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001924D0118"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "OnTime Networks LLC",
+            "location": "Latham, New York",
+            "contract_number": "N0001924D0118",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Up to 470 Ethernet Expansion Devices for the V-22 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18990710,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hyliion Inc.,* Cedar Park, Texas, is awarded a cost-plus-fixed-fee contract for the High Efficiency/Low Maintenance 250-kW Power Source 60-day test profile and evaluation effort. The total cumulative value of this contract, including a 24-month base period with no options, is $15,973,055. This contract provides for building and demonstrating the 250 kW Stirling generator module and performing post-test disassembly and evaluation. The Stirling generator will consist of a production 12-cylinder six-shaft free piston Stirling Engine that was adapted to meet Office of Naval Research (ONR) requirements. The demonstration test will be conducted at a Hyliion test facility for a 60-day demonstration utilizing the test profile provided by ONR. Following the test, the 250-kW test module will be disassembled to evaluate the hardware for degradation and serviceability. Work will be performed in Cedar Park, Texas, and is expected to be completed in August 2026. Fiscal 2023 and fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $9,653,528, and $4,260,358, respectively, are obligated at time of award. Funds in the amount of $9,653,528 will expire at the end of the current fiscal year. This contract was competitively procured under long range broad agency announcement (BAA) (N0001423SB001) entitled \"Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology,\" posted Sept. 30, 2022. Since proposals were received throughout the year under the Long-Range BAA, the number of proposals received in response to the solicitation is unknown. ONR, Arlington, Virginia, is the contracting activity (N0001424C1305).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001423SB001",
+          "N0001424C1305"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15973055.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9653528.0,
+        "funding_text": "Fiscal 2023 and fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $9,653,528, and $4,260,358, respectively, are obligated at time of award",
+        "completion_date": "2026-08",
+        "contracting_activity": {
+          "name": "ONR, Arlington, Virginia",
+          "code": "N0001424C1305"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Hyliion Inc.",
+            "location": "Cedar Park, Texas",
+            "contract_number": "N0001424C1305",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "250-kW Stirling generator module 60-day test profile and evaluation (High Efficiency/Low Maintenance Power Source) for ONR",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 15973055,
+        "obligated_usd": 14913886,
+        "fms_countries": [],
+        "competition": "competitive, Long Range BAA N0001423SB001",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aecom International Inc., Neu-Isenburg, Germany (W912GB-24-D-0038); Atkins-UC JV,* Alexandria, Virginia (W912GB-24-D-0039); HDR-Stanley JV, Colorado Springs, Colorado (W912GB-24-D-0040); Jacobs Government Services Co., Arlington, Virginia (W912GB-24-D-0041); Michael Baker-Cardno JV, Coraopolis, Pennsylvania (W912GB-24-D-0042); Parsons Government Services Inc., San Antonio, Texas (W912GB-24-D-0043); Woolpert-Black & Veatch Europe Planning,* Beavercreek, Ohio (W912GB-24-D-0044); and WSP USA Solutions Inc., Washington, D.C. (W912GB-24-D-0045), will compete for each order of the $94,500,000 firm-fixed-price contract for architect-engineer planning services. Bids were solicited via the internet with 14 received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 3, 2029. U.S. Army Corps of Engineers, European District, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912GB24D0038",
+          "W912GB24D0039",
+          "W912GB24D0040",
+          "W912GB24D0041",
+          "W912GB24D0042",
+          "W912GB24D0043",
+          "W912GB24D0044",
+          "W912GB24D0045"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 94500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-09-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, European District",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Aecom International Inc.",
+            "location": "Neu-Isenburg, Germany",
+            "contract_number": "W912GB-24-D-0038",
+            "markers": null
+          },
+          {
+            "name": "Atkins-UC JV",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W912GB-24-D-0039",
+            "markers": "*"
+          },
+          {
+            "name": "HDR-Stanley JV",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W912GB-24-D-0040",
+            "markers": null
+          },
+          {
+            "name": "Jacobs Government Services Co.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912GB-24-D-0041",
+            "markers": null
+          },
+          {
+            "name": "Michael Baker-Cardno JV",
+            "location": "Coraopolis, Pennsylvania",
+            "contract_number": "W912GB-24-D-0042",
+            "markers": null
+          },
+          {
+            "name": "Parsons Government Services Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "W912GB-24-D-0043",
+            "markers": null
+          },
+          {
+            "name": "Woolpert-Black & Veatch Europe Planning",
+            "location": "Beavercreek, Ohio",
+            "contract_number": "W912GB-24-D-0044",
+            "markers": "*"
+          },
+          {
+            "name": "WSP USA Solutions Inc.",
+            "location": "Washington, D.C.",
+            "contract_number": "W912GB-24-D-0045",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect-engineer planning services multiple-award contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 94500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 14 received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "MicroHealth LLC, Vienna, Virginia, is awarded $12,963,219 for a firm-fixed-price modification to a previously awarded task order (HT001123F0047) for Uniformed Services Family Health Plan data integration support services. The Uniformed Services Family Health Plan Data integration support services task order provides information technology, data warehouse, and data processing support services to the Department of Defense for the designated provider health care delivery system in support of the Military Health System. Additionally, services are provided to collect designated provider submitted data monthly, interface with Defense Enrollment and Eligibility Reporting System for the purpose of collecting enrollment and eligibility data and to send enrollment fee and catastrophic capitation information on designated provider beneficiaries, report monthly results for enrollment and capitation, maintain a database of all enrollment demographics for the designated provider population, perform audits and reviews, and report results of the data collection and comparison. Fiscal 2024 operation and",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HT001123F0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12963219.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "MicroHealth LLC",
+            "location": "Vienna, Virginia",
+            "contract_number": "HT001123F0047",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Uniformed Services Family Health Plan data integration support services task order modification",
+        "base_contract_number": "HT001123F0047",
+        "order_number": "HT001123F0047",
+        "modification_number": null,
+        "value_usd": 12963219,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "maintenance funds are obligated for task order modification HT001123F0047-P00005 to exercise and fully fund Option One contract line items 1001-1007 for 12 months from Sept. 27, 2024, through Sept. 26, 2025. The place of performance is Aurora, Colorado. The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HT001123F0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "maintenance funds are obligated for task order modification HT001123F0047-P00005 to exercise and fully fund Option One contract line items 1001-1007 for 12 months from Sept. 27, 2024, through Sept. 26, 2025",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Professional Services Contracting Division, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "MicroHealth LLC",
+            "location": "Vienna, Virginia",
+            "contract_number": "HT001123F0047",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Task order modification HT001123F0047-P00005 exercising Option One (CLINs 1001-1007) for 12 months, Sept. 27, 2024 to Sept. 26, 2025; place of performance Aurora, Colorado",
+        "base_contract_number": "HT001123F0047",
+        "order_number": "HT001123F0047",
+        "modification_number": "P00005",
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-09-04.html"
+  "source": "file:2024-09-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:35:42Z"
+  }
 }

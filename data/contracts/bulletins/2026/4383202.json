@@ -11,27 +11,211 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Clarios LLC, Milwaukee, Wisconsin, has been awarded a maximum $46,885,608 firm-fixed-price, indefinite-quantity contract for battery storage. This was a competitive acquisition with one response received. This is a three-year base contract with two one-year option periods. The ordering period end date is Jan. 20, 2029. Using military services are Air Force, Army, Marine Corps, and Navy. Type of appropriation is fiscal 2026 through 2029 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Columbus, Ohio (SPE7LX-26-D-0026).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX26D0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46885608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Columbus, Ohio",
+          "code": "SPE7LX-26-D-0026"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Clarios LLC",
+            "location": "Milwaukee, Wisconsin",
+            "contract_number": "SPE7LX-26-D-0026",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-quantity contract",
+        "description": "Battery storage",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46885608,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Ameripack Inc.,* Robbinsville, New Jersey (SPE8ED-26-D-0001); and Hardigg Industries, South Deerfield, Massachusetts (SPE8ED-26-D-0002), are sharing a maximum $9,400,000 indefinite-delivery/indefinite-quantity contract under solicitation SPE8ED-25-R-0006 for specialized shipping and storage containers. This was a competitive acquisition with two responses received. These are five-year contracts with no option periods. Locations of performance are Minnesota and California, with a Jan. 20, 2030, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal 2026 through 2030 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE8ED26D0001",
+          "SPE8ED26D0002",
+          "SPE8ED25R0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Ameripack Inc.",
+            "location": "Robbinsville, New Jersey",
+            "contract_number": "SPE8ED-26-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Hardigg Industries",
+            "location": "South Deerfield, Massachusetts",
+            "contract_number": "SPE8ED-26-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Specialized shipping and storage containers under solicitation SPE8ED-25-R-0006",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Advanced Concepts Enterprises Inc., Fort Walton Beach, Florida, was awarded a $31,407,882 firm-fixed-price task order for mission readiness and training support services. This contract provides contractor support in operations training scheduling and planning, aviation resource management, standardization and evaluation, and information operations. Work will be performed primarily at Hurlburt Field, Florida, and is expected to be completed by Feb. 28, 2031. This contract was a competitive service disabled veteran owned small business set aside, and four offers were received. Fiscal 2026 operation and maintenance funds in the amount of $6,232,790 are being obligated at the time of award. The Air Force Installation Contracting Center, 765th Enterprise Sourcing Flight, Hurlburt Field, Florida, is the contracting activity (FA0021 26 F 0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31407882.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6232790.0,
+        "funding_text": "Fiscal 2026 operation and maintenance funds in the amount of $6,232,790 are being obligated at the time of award",
+        "completion_date": "2031-02-28",
+        "contracting_activity": {
+          "name": "The Air Force Installation Contracting Center, 765th Enterprise Sourcing Flight, Hurlburt Field, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Advanced Concepts Enterprises Inc.",
+            "location": "Fort Walton Beach, Florida",
+            "contract_number": "FA0021 26 F 0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Mission readiness and training support services at Hurlburt Field, Florida",
+        "base_contract_number": null,
+        "order_number": "FA0021 26 F 0001",
+        "modification_number": null,
+        "value_usd": 31407882,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6232790,
+        "fms_countries": [],
+        "competition": "competitive service-disabled veteran-owned small business set-aside, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Systems Planning and Analysis Inc., Alexandria, Virginia, has been awarded a $12,677,125 labor hour contract (HQ003426FE044). The full value of the contract is $112,084,896. The contract will be executed out of the research, development, test and evaluation funds up to the maximum value of $112,084,896. Funds in the amount of $1,000,000 are being obligated at the time of the award. The purpose of this contract is to provide services in support of the Office of the Under Secretary of War (Research and Engineering) mission in the areas of administrative support, travel support, communications and public affairs and stakeholder engagement support, and workflow management support. Washington Headquarters Services, Arlington, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "HQ003426FE044"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12677125.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000000.0,
+        "funding_text": "Funds in the amount of $1,000,000 are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Systems Planning and Analysis Inc.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "HQ003426FE044",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "labor hour contract",
+        "description": "Administrative, travel, communications and public affairs, stakeholder engagement, and workflow management support for the Office of the Under Secretary of War (Research and Engineering)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12677125,
+        "cumulative_value_usd": 112084896,
+        "obligated_usd": 1000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-01-20.html"
+  "source": "file:2026-01-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:37:04Z"
+  }
 }

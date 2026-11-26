@@ -11,15 +11,113 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Huntsville, Alabama, was awarded a $481,329,816 hybrid (firm-fixed-price and cost-plus-fixed-fee) other transaction agreement for updates and improvements to the Integrated Air and Missile Defense Battle Command System's software. Bids were solicited via the internet with 21 received. Work will be performed in McLean, Virginia; Huntsville, Alabama; Linthicum Heights, Maryland; and Orlando, Florida, with an estimated completion date of Dec. 30, 2029. Fiscal 2024 Foreign Military Sales (Poland) funds in the amount of $347,632,616 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9124P-19-9-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9124P1990001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 481329816.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 347632616.0,
+        "funding_text": "Fiscal 2024 Foreign Military Sales (Poland) funds in the amount of $347,632,616 were obligated at the time of the award",
+        "completion_date": "2029-12-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9124P-19-9-0001"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Poland"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W9124P-19-9-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (firm-fixed-price and cost-plus-fixed-fee) other transaction agreement",
+        "description": "Updates and improvements to the Integrated Air and Missile Defense Battle Command System software",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 481329816,
+        "cumulative_value_usd": null,
+        "obligated_usd": 347632616,
+        "fms_countries": [
+          "Poland"
+        ],
+        "competition": "Bids solicited via the internet with 21 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "HSG Park JV 2 LLC,* Harvey, North Dakota, was awarded an $18,689,732 firm-fixed-price contract for the Fargo Moorhead Metropolitan Area Flood Risk Management Project. Bids were solicited via the internet with four received. Work will be performed in Fargo, North Dakota, with an estimated completion date of Sept. 10, 2027. Fiscal 2025 civil construction funds in the amount of $18,689,732 were obligated at the time of the award. U.S. Army Corps of Engineers, St. Paul, Minnesota, is the contracting activity (W912ES-25-C-0003).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912ES25C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18689732.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18689732.0,
+        "funding_text": "Fiscal 2025 civil construction funds in the amount of $18,689,732 were obligated at the time of the award",
+        "completion_date": "2027-09-10",
+        "contracting_activity": {
+          "name": "Paul, Minnesota",
+          "code": "W912ES-25-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "HSG Park JV 2 LLC",
+            "location": "Harvey, North Dakota",
+            "contract_number": "W912ES-25-C-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Fargo Moorhead Metropolitan Area Flood Risk Management Project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18689732,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18689732,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-01-02.html"
+  "source": "file:2025-01-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:18:21Z"
+  }
 }

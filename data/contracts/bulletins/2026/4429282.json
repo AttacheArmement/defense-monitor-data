@@ -11,75 +11,612 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AAR Manufacturing LLC, Cadillac, Michigan, was awarded a $159,784,641 firm-fixed-price, indefinite-delivery requirements contract for 463L Legacy Cargo Pallets. This contract provides for the repair services of the 463L Legacy Cargo Pallet. Work will be performed in Cadillac, Michigan, and is expected to be completed by March 5, 2031. This contract was a sole source acquisition. No funds are being obligated at time of award. The Air Force Life Cycle Management Center, Combat Readiness-Support Equipment and Vehicles, Robins Air Force Base, Georgia, is the contracting activity (FA8534-26-D-0004). (Awarded March 6, 2026)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA853426D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 159784641.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2031-03-05",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Combat Readiness-Support Equipment and Vehicles, Robins Air Force Base, Georgia",
+          "code": "FA8534-26-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "AAR Manufacturing LLC",
+            "location": "Cadillac, Michigan",
+            "contract_number": "FA8534-26-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery requirements contract",
+        "description": "Repair services of 463L Legacy Cargo Pallets",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 159784641,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2026-03-06"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Beaver Aerospace & Defense Inc., Livonia, Michigan, has been awarded an $18,218,132 modification (P00001) to a previously awarded contract (FA820624C0002) for Flywheel Modules. The modification brings the total cumulative face value of the contract to $19,095,996 from $877,864. Work will be performed at Livonia, Michigan, and is expected to be completed by March 2029. Fiscal 2026 working capital funds in the amount of $18,218,132 are being obligated at the time of award. The Air Force Supply Chain Division - ICBM and Aircraft Power Systems, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA820624C0002"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 18218132.0,
+        "cumulative_value_usd": 19095996.0,
+        "obligated_usd": 18218132.0,
+        "funding_text": "Fiscal 2026 working capital funds in the amount of $18,218,132 are being obligated at the time of award",
+        "completion_date": "2029-03",
+        "contracting_activity": {
+          "name": "The Air Force Supply Chain Division - ICBM and Aircraft Power Systems, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Beaver Aerospace & Defense Inc.",
+            "location": "Livonia, Michigan",
+            "contract_number": "FA820624C0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Flywheel Modules",
+        "base_contract_number": "FA820624C0002",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 18218132,
+        "cumulative_value_usd": 19095996,
+        "obligated_usd": 18218132,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $700,400,000 modification (P00006) to a previously awarded fixed-price incentive (firm-target), undefinitized, advanced acquisition contract (N0001925C0070). This modification adds scope to procure long lead material, parts, and components in support of Lots 20 and 21 of F-35 production aircraft for the government of Denmark. Additionally, this modification provides additional funding to previously awarded scope that procures long lead materials, parts, and components in support of Lots 20 and 21 of F-35 production aircraft for F-35 Cooperative Program Partners and Foreign Military Customers. Work will be performed Fort Worth, Texas (59%); El Segundo, California (14%); Warton, United Kingdom (9%); Cameri, Italy (4%); Orlando, Florida (4%); Nashua, New Hampshire (3%); Baltimore, Maryland (3%); San Diego, California (2%); and other various locations outside of the continental U.S. (2%), and is expected to be completed December 2030. F-35 cooperative program partner funds in the amount of $305,900,000; and Foreign Military Sales customer funds in the amount of $394,500,000, will be obligated at the time of award, none of which expire at the end of the current fiscal year. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001925C0070"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 700400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 700400000.0,
+        "funding_text": "F-35 cooperative program partner funds in the amount of $305,900,000; and Foreign Military Sales customer funds in the amount of $394,500,000, will be obligated at the time of award, none of which expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001925C0070",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target), undefinitized, advanced acquisition contract",
+        "description": "Long lead material, parts, and components for Lots 20 and 21 F-35 production aircraft (Denmark, cooperative partners and FMS customers)",
+        "base_contract_number": "N0001925C0070",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 700400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 700400000,
+        "fms_countries": [
+          "Denmark"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Moorestown, New Jersey, is being awarded $60,643,363 for a firm-fixed-price contract for the repair of 123 components that support the SPY-1 Radar System for the Aegis Weapon System. The contract does not contain an option provision. All work will be performed in Moorestown, New Jersey, and ordering under the contract is expected to be completed by March 2031. No funding will be obligated at the time of award. Individual delivery orders will be funded with appropriate fiscal year working capital funds (Navy) at the time of their issuance and those funds will not expire at the end of the applicable fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1) and one offer received. Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania, is the contracting activity (N00104-26-D-0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0010426D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60643363.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2031-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania",
+          "code": "N00104-26-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00104-26-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair of 123 components supporting SPY-1 Radar System for Aegis Weapon System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60643363,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L3 Technologies Inc., L-3 Telemetry and Radio Frequency Products, San Diego, California, is awarded a $38,313,299 modification (P00028) to a previously awarded firm-fixed-price contract (N0001921C0064). This modification adds scope for the production and delivery of 627 modernized radios, to include 356 for the Navy, 13 for the Marine Corps and 258 for Foreign Military Sales (FMS) customers. Work will be performed in San Diego, California, and is expected to be completed in August 2028. Fiscal 2024 weapons procurement (Navy) funds in the amount of $1,222,115; fiscal 2025 weapons procurement (Navy) funds in the amount of $2,871,970; fiscal 2025 other procurement (Marine Corps) funds in the amount of $794,374.62; fiscal 2026 weapons procurement (Navy) funds in the amount of $17,659,559; and FMS customer funds in the amount of $15,765,281 will be obligated at the time of award, $1,222,115 of which will expire at the end of the current fiscal year. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0064"
+        ],
+        "modification_numbers": [
+          "P00028"
+        ],
+        "is_modification": true,
+        "value_usd": 38313299.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 38313299.62,
+        "funding_text": "Fiscal 2024 weapons procurement (Navy) funds in the amount of $1,222,115; fiscal 2025 weapons procurement (Navy) funds in the amount of $2,871,970; fiscal 2025 other procurement (Marine Corps) funds in the amount of $794,374.62; fiscal 2026 weapons procurement (Navy) funds in the amount of $17,659,559; and FMS customer funds in the amount of $15,765,281 will be obligated at the time of award, $1,222,115 of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-08",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L3 Technologies Inc., L-3 Telemetry and Radio Frequency Products",
+            "location": "San Diego, California",
+            "contract_number": "N0001921C0064",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Production and delivery of 627 modernized radios (Navy, Marine Corps, FMS)",
+        "base_contract_number": "N0001921C0064",
+        "order_number": null,
+        "modification_number": "P00028",
+        "value_usd": 38313299,
+        "cumulative_value_usd": null,
+        "obligated_usd": 38313299,
+        "fms_countries": [
+          "FMS customers (unspecified)"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Massa Products Corp.,* Hingham, Massachusetts, is awarded a $23,479,329 indefinite-delivery/indefinite-quantity contract containing firm-fixed-price provisions. This contract is for the manufacture of acoustic equipment for submarines: TR-302D and TR-355 transducers as well as spare parts which include acoustic assembly windows, acoustic windows, receptacle connectors, T2 and T3 transformer assemblies, bulkhead receptacle connectors, transformer assembles and TR-355A conversion kits. Work will be performed in Hingham, Massachusetts, and the ordering period will be completed in March 2031. Fiscal 2025 other procurement (Navy) funds in the amount of $559,850 will be obligated at time of award on the first delivery order and will not expire at the end of the current fiscal year. This contract was competitively procured using full and open competition via the System for Award Management website with one offer received. Naval Undersea Warfare Center, Division Newport, Newport, Rhode Island, is the contracting activity (N66604-26-D-E600).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6660426DE600"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23479329.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 559850.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $559,850 will be obligated at time of award on the first delivery order and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Undersea Warfare Center, Division Newport, Newport, Rhode Island",
+          "code": "N66604-26-D-E600"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Massa Products Corp.",
+            "location": "Hingham, Massachusetts",
+            "contract_number": "N66604-26-D-E600",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price provisions",
+        "description": "Manufacture of acoustic equipment for submarines (TR-302D and TR-355 transducers, spare parts)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23479329,
+        "cumulative_value_usd": null,
+        "obligated_usd": 559850,
+        "fms_countries": [],
+        "competition": "full and open competition; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Fincantieri Marine Systems North America, Chesapeake, Virginia, is being awarded $17,307,657 to execute the fourth and final option year (modification P00010) on previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract N00406-22-D-0002 for the scheduled maintenance, repairs, and technical support for the Isotta Franschini diesel engines used on the Navy's Mine Countermeasure Class ships. The contract also provides for the purchase of necessary repair parts, replacement components and related supplies to keep the engines operational. The original contract was awarded with a base year and four one-year option periods. The execution of Option Year Four represented in this award will bring the contract to its full term and the contract's total amount to $77,605,845. All work under the contract is expected to be completed by March 2027. Work will be performed in Manama, Bahrain (50%); and Sasebo, Japan (50%). No funding will be obligated at time of award. Individual task orders will be subsequently funded with appropriate fiscal year operation and maintenance (Navy) funds at the time of their issuance and will expire at the end of the applicable fiscal year. One company was originally solicited for this sole-source, non-competitive requirement pursuant to the authority set forth in 10 U.S. Code 2304 (c)(1) and one offer received. Naval Supply Systems Command Fleet Logistics Center Puget Sound, Bremerton, Washington, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0040622D0002"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 17307657.0,
+        "cumulative_value_usd": 77605845.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center Puget Sound, Bremerton, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Fincantieri Marine Systems North America",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "N00406-22-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Fourth and final option year for maintenance, repairs, and technical support of Isotta Franschini diesel engines on Mine Countermeasure Class ships",
+        "base_contract_number": "N00406-22-D-0002",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 17307657,
+        "cumulative_value_usd": 77605845,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "2 Circle Inc.,* Arlington, Virginia, is awarded a $13,292,184 cost-plus-fixed-fee contract. This contract facilitates the continued development of the Reconstruction and Assessment of Proficiency in an Integrated Debrief software under Small Business Innovation Research (SBIR) Phase III. The project will refine the software's analytical tools to provide a comprehensive assessment of warfighting capabilities across live, virtual, and constructive training and testing environments for the US Department of Defense and its international partners in support of the mission and functions of the Naval Surface Warfare Center (NSWC), Corona Division, Range Systems Department. This contract includes options which, if exercised, would bring the cumulative value of this contract to $65,694,779. Work will be performed in Norco, California (3%); various locations throughout the continental U.S. (84%); and various partner nation training locations outside the continental U.S. (13%). Work is expected to be completed by March 2027. If all options are exercised, work will continue through March 2031. Fiscal 2026 working capital (Navy) funds in the amount of $30,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 15 U.S. Code 638(r)(4), as it is a SBIR Phase III for work derived from prior SBIR contract efforts. NSWC, Corona Division, Corona, California, is the contracting activity (N6426726C7300).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6426726C7300"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13292184.0,
+        "cumulative_value_usd": 65694779.0,
+        "obligated_usd": 30000.0,
+        "funding_text": "Fiscal 2026 working capital (Navy) funds in the amount of $30,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "NSWC, Corona Division, Corona, California",
+          "code": "N6426726C7300"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "2 Circle Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "N6426726C7300",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "SBIR Phase III continued development of Reconstruction and Assessment of Proficiency in an Integrated Debrief software",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13292184,
+        "cumulative_value_usd": 65694779,
+        "obligated_usd": 30000,
+        "fms_countries": [],
+        "competition": "not competed (SBIR Phase III, 15 U.S.C. 638(r)(4))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ultra Maritime, Braintree, Massachusetts, is awarded a $9,355,203 firm-fixed-price delivery order (N00024-26-F-6229) under a previously awarded indefinite-delivery/indefinite-quantity contract (N00024-26-D-6214). The delivery order covers production of Acoustic Device Countermeasures for in-service submarines. Work will be performed in Braintree, Massachusetts, and is expected to be completed by August 2027. Fiscal 2025 research, development, testing and evaluation (Navy) funds in the amount of $9,355,203 will be obligated at the time of award, of which $9,355,203 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C, is the contracting activity (N00024-26-F-6229)",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002426F6229",
+          "N0002426D6214"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9355203.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9355203.0,
+        "funding_text": "Fiscal 2025 research, development, testing and evaluation (Navy) funds in the amount of $9,355,203 will be obligated at the time of award, of which $9,355,203 will expire at the end of the current fiscal year",
+        "completion_date": "2027-08",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C",
+          "code": "N00024-26-F-6229"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Ultra Maritime",
+            "location": "Braintree, Massachusetts",
+            "contract_number": "N00024-26-F-6229",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Production of Acoustic Device Countermeasures for in-service submarines",
+        "base_contract_number": "N00024-26-D-6214",
+        "order_number": "N00024-26-F-6229",
+        "modification_number": null,
+        "value_usd": 9355203,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9355203,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: SkyMark Refuelers,* Kansas City, Missouri (SPE8EC-26-D-0013, $248,000,000), has been added as an awardee to the multiple award contract for trucks and trailers, issued against solicitation SPE8EC-21-R-0007 and awarded March 18, 2022. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC26D0013",
+          "SPE8EC21R0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 248000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "SkyMark Refuelers",
+            "location": "Kansas City, Missouri",
+            "contract_number": "SPE8EC-26-D-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for trucks and trailers (solicitation SPE8EC-21-R-0007, awarded March 18, 2022)",
+        "base_contract_number": "SPE8EC-21-R-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 248000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Feb. 26, 2026, for Red One Medical Devices LLC,* Savannah, Georgia (SPE2DE-26-D-0002), for $207,833,573 was announced with an incorrect award date. The correct award date is March 3, 2026.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE26D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 207833573.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Red One Medical Devices LLC",
+            "location": "Savannah, Georgia",
+            "contract_number": "SPE2DE-26-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to award date of contract announced Feb. 26, 2026 (value $207,833,573)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 207833573,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-03-03"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $610,000,000 firm-fixed-price contract (W9126G-26-C-A011) announced on March 6, 2026, to M. A. Mortenson Co., Minneapolis, Minnesota, for the Department of Agriculture's Domestic New World Screwworm Sterile Insect Production Facility, has an estimated completion date of Dec. 6, 2028, not March 6, 2028.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W9126G26CA011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 610000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-06",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "M. A. Mortenson Co.",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": "W9126G-26-C-A011",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price",
+        "description": "Correction to estimated completion date (Dec. 6, 2028, not March 6, 2028) for Department of Agriculture Domestic New World Screwworm Sterile Insect Production Facility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 610000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-03-09.html"
+  "source": "file:2026-03-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:32:10Z"
+  }
 }

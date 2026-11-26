@@ -11,63 +11,521 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Thales Defense and Security Inc., Clarksburg, Maryland (W15P7T-22-F-0080); and L3Harris Technologies Inc., Rochester, New York (W15P7T-22-F-0079), will compete for each order of the $6,108,734,590 hybrid (cost-plus-fixed-fee and firm-fixed-price) contract to modernize Single Channel Ground and Airborne Radio System (SINCGARS) radios to align with the National Security Agency crypto modernization requirements. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of March 24, 2032. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W15P7T22F0080",
+          "W15P7T22F0079"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 6108734590.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2032-03-24",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Thales Defense and Security Inc.",
+            "location": "Clarksburg, Maryland",
+            "contract_number": "W15P7T-22-F-0080",
+            "markers": null
+          },
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Rochester, New York",
+            "contract_number": "W15P7T-22-F-0079",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Modernize Single Channel Ground and Airborne Radio System (SINCGARS) radios to align with NSA crypto modernization requirements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6108734590,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Valiant Global Defense Services Inc., San Diego, California, was awarded a $75,232,935 modification (P00050) to contract W91247-18-C-0001 to deliver a realistic, high-end collective training experience at the Joint Readiness Training Center at Fort Polk. Work will be performed in Fort Polk, Louisiana, with an estimated completion date of March 26, 2023. Fiscal 2022 operation and maintenance, Army funds in the amount of $45,000,000 were obligated at the time of the award. U.S. Army 418th Contracting Support Brigade, Fort Polk, Louisiana, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9124718C0001"
+        ],
+        "modification_numbers": [
+          "P00050"
+        ],
+        "is_modification": true,
+        "value_usd": 75232935.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45000000.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army funds in the amount of $45,000,000 were obligated at the time of the award",
+        "completion_date": "2023-03-26",
+        "contracting_activity": {
+          "name": "U.S. Army 418th Contracting Support Brigade, Fort Polk, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Valiant Global Defense Services Inc.",
+            "location": "San Diego, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Collective training experience at the Joint Readiness Training Center at Fort Polk",
+        "base_contract_number": "W91247-18-C-0001",
+        "order_number": null,
+        "modification_number": "P00050",
+        "value_usd": 75232935,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., Sterling Heights, Michigan, is awarded a $173,592,903 firm-fixed-price modification (P00144) to previously awarded contract M67854-16-0006 for Amphibious Combat Vehicles (ACV). The total cumulative face value of the contract is $1,733,760,197. This contract modification provides for the exercise of options for the procurement of 36 full rate production ACVs and associated production, and fielding and support costs. Work will be performed in York, Pennsylvania (60%); Aiken, South Carolina (15%); San Jose, California (15%); Sterling Heights, Michigan (5%); and Stafford, Virginia (5%), with an expected completion date of March 2024. Fiscal 2022 procurement (Marine Corps) funds in the amount of $173,592,903 will be obligated at the time of award, and will not expire at the end of the current fiscal year. Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-16-C-0006).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "M6785416C0006"
+        ],
+        "modification_numbers": [
+          "P00144"
+        ],
+        "is_modification": true,
+        "value_usd": 173592903.0,
+        "cumulative_value_usd": 1733760197.0,
+        "obligated_usd": 173592903.0,
+        "funding_text": "Fiscal 2022 procurement (Marine Corps) funds in the amount of $173,592,903 will be obligated at the time of award, and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "Marine Corps Systems Command, Quantico, Virginia",
+          "code": "M67854-16-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "M67854-16-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for 36 full rate production Amphibious Combat Vehicles (ACV) and associated production, fielding and support",
+        "base_contract_number": "M67854-16-0006",
+        "order_number": null,
+        "modification_number": "P00144",
+        "value_usd": 173592903,
+        "cumulative_value_usd": 1733760197,
+        "obligated_usd": 173592903,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Huntington Beach, California, is awarded a $72,550,000 fixed-price incentive (firm target) contract modification to previously awarded contract N00024-17-C-6307 for all efforts, tooling and equipment, and materials for the design, manufacture, and testing of an Orca Extra Large Unmanned Undersea Vehicle Test Asset System. Work will be performed in Huntington Beach, California (44%); Virginia Beach, Virginia (24%); Waukesha, Wisconsin (6%); Smithfield, Pennsylvania (5%); Torrance, California (4%); Katy, Texas (3%); Groton, Connecticut (3%); Camden, New Jersey (2%); Joplin, Missouri (2%); Thousand Oaks, California (2%); East Aurora, New York (1%); Rancho Dominguez, California (1%); South El Monte, California (1%); Irwindale, California (1%); and Farmingdale, California (1%), and is expected to be completed by August 2023. Fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $17,900,000 (62%); and fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $11,100,000 (38%) will be obligated at time of award, of which funding in the amount of $17,900,000 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C6307"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 72550000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29000000.0,
+        "funding_text": "Fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $17,900,000 (62%); and fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $11,100,000 (38%) will be obligated at time of award, of which funding in the amount of $17,900,000 will expire at the end of the current fiscal year",
+        "completion_date": "2023-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Huntington Beach, California",
+            "contract_number": "N00024-17-C-6307",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm target)",
+        "description": "Design, manufacture, and testing of an Orca Extra Large Unmanned Undersea Vehicle Test Asset System",
+        "base_contract_number": "N00024-17-C-6307",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 72550000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Jacobs Technology Inc., Tullahoma, Tennessee, is awarded a $53,367,960 indefinite-delivery/indefinite-quantity modification to contract N62470-20-D-0001. This modification provides for the exercise of Option Two for base operating support services at various installations with the Naval Facilities Engineering Systems Command (NAVFAC) Northwest (NW) area of operations. The work to be performed provides for all management, supervision, labor, equipment, materials, supplies, and tools necessary to perform facilities management and administration, fire and emergency services, pavement clearance, and transportation. Work will be performed in Washington State (90%); Alaska (1%); Idaho (1%); Iowa (1%); Minnesota (1%); Montana (1%); Nebraska (1%); Oregon (1%); North Dakota (1%); South Dakota (1%); and Wyoming (1%). The option period is from April 1, 2022, to March 31, 2023. Upon award of this option, the total the total cumulative contract value will be $414,481,603. Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $53,367,960 will be obligated on individual task orders during the option period. No funds will be obligated at time of award. NAVFAC NW, Silverdale, Washington, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6247020D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 53367960.0,
+        "cumulative_value_usd": 414481603.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $53,367,960 will be obligated on individual task orders during the option period No funds will be obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "NAVFAC NW, Silverdale, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Jacobs Technology Inc.",
+            "location": "Tullahoma, Tennessee",
+            "contract_number": "N62470-20-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Base operating support services, Option Two, NAVFAC Northwest area",
+        "base_contract_number": "N62470-20-D-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 53367960,
+        "cumulative_value_usd": 414481603,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technologies, Tucson, Arizona, is awarded a $40,392,099 cost-plus-incentive-fee modification (P00021) to a previously awarded contract (N0001919C0079). This modification exercises an option to integrate, produce, qualify, test and field 29 Lot Two low rate production Maritime Strike Tomahawk seeker suites and all subsystems required to provide midcourse and terminal guidance to a modernized Tactical Tomahawk missile for prosecution of maritime targets from surface and subsurface platforms. The seeker suites will be installed in recertified Tomahawk missiles for the Navy. Work will be performed in Tucson, Arizona (42%); Boulder, Colorado (21.62%); Dallas, Texas (16.57%); North Logan, Utah (9.24%); Pontiac, Michigan (5.56%); and various locations within the continental U.S. (5.01%), and is expected to be completed in October 2024. Fiscal 2022 weapons procurement (Navy) funds in the amount of $40,392,099 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C0079"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 40392099.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40392099.0,
+        "funding_text": "Fiscal 2022 weapons procurement (Navy) funds in the amount of $40,392,099 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Raytheon Technologies",
+            "location": "Tucson, Arizona",
+            "contract_number": "N0001919C0079",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Integrate, produce, qualify, test and field 29 Lot Two low rate production Maritime Strike Tomahawk seeker suites",
+        "base_contract_number": "N0001919C0079",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 40392099,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40392099,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., a Lockheed Martin Co., Stratford, Connecticut, is awarded a $25,594,463 cost-plus-fixed-fee modification (P00001) for definitization to an order (N0001922F1147) against a previously issued basic ordering agreement (N0001919G0029). This modification provides non-recurring engineering efforts to integrate, test, and qualify re-designed data concentrator and blade fold distributor units that will mitigate component obsolescence and outdated test equipment used for the CH-53K aircraft. Work will be performed in Torrance, California (65%); Stratford, Connecticut (31%); Fort Worth, Texas (2%); and Owego, New York (2%), and is expected to be completed in June 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $10,860,781 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F1147",
+          "N0001919G0029"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 25594463.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10860781.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $10,860,781 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp., a Lockheed Martin Co.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "N0001922F1147",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Definitization of order for non-recurring engineering to integrate, test, and qualify re-designed data concentrator and blade fold distributor units for CH-53K aircraft",
+        "base_contract_number": "N0001919G0029",
+        "order_number": "N0001922F1147",
+        "modification_number": "P00001",
+        "value_usd": 25594463,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10860781,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hako Plumbing Inc.,* Honolulu, Hawaii, is awarded an $8,499,990 firm-fixed-price task order (N6247822F4095) under previously-awarded contract N62478-20-D-4036 for new perimeter fence at Marine Corps Training Area Bellows Perimeter Security Fence, Marine Corps Training Area Bellows. Work will be performed at Oahu, Hawaii, and is expected to be completed by April 2023. Fiscal 2022 military construction (Navy) funds in the amount of $8,499,990 will be obligated at time of award, and funds will not expire at the end of the current fiscal year. This contract was competitively procured via Procurement Integrated Enterprise Environment website, with four offers received. The Naval Facilities Engineering Systems Command Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6247822F4095",
+          "N6247820D4036"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8499990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8499990.0,
+        "funding_text": "Fiscal 2022 military construction (Navy) funds in the amount of $8,499,990 will be obligated at time of award, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Hako Plumbing Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N6247822F4095",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "New perimeter fence at Marine Corps Training Area Bellows Perimeter Security Fence",
+        "base_contract_number": "N62478-20-D-4036",
+        "order_number": "N6247822F4095",
+        "modification_number": null,
+        "value_usd": 8499990,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8499990,
+        "fms_countries": [],
+        "competition": "Competitive via PIEE website, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "InDyne Inc., Sterling, Virginia, has been awarded a $66,286,547 contract modification to previously awarded contract FA2517-18-C-8000/FA2518-22-C-0001 to exercise Option Year Four to extend the term of the contract for Solid State Phased Array Radar Systems. The modification provides for continued management, operation, maintenance and logistical support. Work will be performed at Beale Air Force Base, California; Cape Cod Space Force Station, Massachusetts; Clear Space Force Station, Alaska; Thule Air Base, Greenland; Cheyenne Mountain Space Force Station, Colorado; and Royal Air Force Fylingdales, United Kingdom, and is expected to be completed by April 30, 2023. Fiscal 2022 operation and maintenance funds will be obligated at the time of award. The total cumulative face value of the contract is $285,226,547. The Space Acquisition Management Directorate, Peterson AFB, Colorado, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA251718C8000",
+          "FA251822C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 66286547.0,
+        "cumulative_value_usd": 285226547.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operation and maintenance funds will be obligated at the time of award",
+        "completion_date": "2023-04-30",
+        "contracting_activity": {
+          "name": "The Space Acquisition Management Directorate, Peterson AFB, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "InDyne Inc.",
+            "location": "Sterling, Virginia",
+            "contract_number": "FA2517-18-C-8000/FA2518-22-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option Year Four exercise for management, operation, maintenance and logistical support of Solid State Phased Array Radar Systems",
+        "base_contract_number": "FA2517-18-C-8000/FA2518-22-C-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 66286547,
+        "cumulative_value_usd": 285226547,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "American Systems, Chantilly, Virginia (HT0038-20-C-0006), was awarded a second option period with a value of $11,154,552 to provide bridge enterprise operational management services. The contract has a period of performance from March 27, 2022, to Sept. 26, 2022. The estimated completion date is Sept. 26, 2022. Work will primarily occur in Chantilly, Virginia. This award will be funded by fiscal 2022 operations and maintenance funds. The Defense Health Agency, Falls Church, Virginia, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HT003820C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11154552.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "agency": "DEFENSE HEALTH AGENCY",
+        "awardees": [
+          {
+            "name": "American Systems",
+            "location": "Chantilly, Virginia",
+            "contract_number": "HT0038-20-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Second option period for bridge enterprise operational management services",
+        "base_contract_number": "HT0038-20-C-0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11154552,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-03-25.html"
+  "source": "file:2022-03-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:20:50Z"
+  }
 }

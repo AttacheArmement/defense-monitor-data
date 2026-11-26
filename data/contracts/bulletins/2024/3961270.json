@@ -11,57 +11,454 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Clark Construction Group LLC, Bethesda, Maryland, was awarded a $727,511,955 modification (P00004) to contract W912DR-23-C-0006 to construct a building. Work will be performed in at Fort Meade, Maryland, with an estimated completion date of Dec. 31, 2028. Fiscal 2024 military construction, defense-wide funds in the amount of $30,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DR23C0006"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 727511955.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000.0,
+        "funding_text": "Fiscal 2024 military construction, defense-wide funds in the amount of $30,000 were obligated at the time of the award",
+        "completion_date": "2028-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Clark Construction Group LLC",
+            "location": "Bethesda, Maryland",
+            "contract_number": "W912DR-23-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Construction of a building at Fort Meade, Maryland (military construction, defense-wide)",
+        "base_contract_number": "W912DR-23-C-0006",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 727511955,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Repkon USA-Defense LLC, Tampa Bay, Florida, was awarded a $217,500,000 firm-fixed-price contract to design, build and commission a Trinitrotoluene facility. Work will be performed in Graham, Kentucky, with an estimated completion date of Nov. 3, 2028. Fiscal 2024 procurement of ammunition, Army funds in the amount of $217,500,000 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-25-F-0015). (Awarded Nov. 6, 2024)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W519TC25F0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 217500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 217500000.0,
+        "funding_text": "Fiscal 2024 procurement of ammunition, Army funds in the amount of $217,500,000 were obligated at the time of the award",
+        "completion_date": "2028-11-03",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-25-F-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Repkon USA-Defense LLC",
+            "location": "Tampa Bay, Florida",
+            "contract_number": "W519TC-25-F-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design, build and commission a Trinitrotoluene facility in Graham, Kentucky",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 217500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 217500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-11-06"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Head Inc.,* Columbus, Ohio, was awarded a $9,807,249 firm-fixed-price contract to remove concrete and asphaltic pavement and to provide new base course, new concrete pavement, stormwater drainage improvements, relocation of taxiway edge lights, signage and taxi lines for aircraft. Bids were solicited via the internet with two received. Work will be performed in Eastover, South Carolina, with an estimated completion date of Aug. 14, 2025. Fiscal 2025 military construction, defense-wide funds in the amount of $9,807,249 were obligated at the time of the award. U.S. Property and Fiscal Office, South Carolina, is the contracting activity (W50S95-25-C-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W50S9525C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9807249.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9807249.0,
+        "funding_text": "Fiscal 2025 military construction, defense-wide funds in the amount of $9,807,249 were obligated at the time of the award",
+        "completion_date": "2025-08-14",
+        "contracting_activity": {
+          "name": "U.S. Property and Fiscal Office, South Carolina",
+          "code": "W50S95-25-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Head Inc.",
+            "location": "Columbus, Ohio",
+            "contract_number": "W50S95-25-C-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Pavement removal and replacement, drainage, taxiway edge light relocation and signage at Eastover, South Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9807249,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9807249,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; two received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Systems Corp., New Orleans, Louisiana, is awarded a $394,299,705 fixed-price incentive (firm-target), cost-plus-fixed-fee modification to definitize a previously awarded letter contract (N00024-23-C-2452) for the construction of nine Ship to Shore Connector Landing Craft Air Cushion 100-class craft. Work will be performed in New Orleans, Louisiana (96%); Hunt Valley, Maryland (3%); and other locations (1%), and is expected to be completed by September 2030. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $249,051,155 (47%); fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $169,950,657 (32%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $115,968,365 (21%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C2452"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 394299705.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 534970177.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $249,051,155 (47%); fiscal 2023 shipbuilding and conversion (Navy) funds in the amount of $169,950,657 (32%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $115,968,365 (21%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2030-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Textron Systems Corp.",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "N00024-23-C-2452",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target), cost-plus-fixed-fee",
+        "description": "Definitization of letter contract for construction of nine Ship to Shore Connector Landing Craft Air Cushion 100-class craft",
+        "base_contract_number": "N00024-23-C-2452",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 394299705,
+        "cumulative_value_usd": null,
+        "obligated_usd": 528970177,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tewksbury, Massachusetts, was awarded a $93,934,273 cost-plus-fixed-fee, cost-only, and firm-fixed-price modification to previously awarded contract N00024-22-C-5501 to exercise the fiscal 2025 option for Dual Band Radar (DBR) design agent and technical engineering follow-on requirements and spares to support the DBR systems installed aboard CVN78 and DDG1000 class ships. Work will be performed in Tewksbury, Massachusetts (40%); Marlborough, Massachusetts (20%); San Diego, California (15%); Norfolk, Virginia (10%); Andover, Massachusetts (5%); Portsmouth, Rhode Island (5%); and Chesapeake, Virginia (5%); and is expected to be completed by September 2026. Fiscal 2025 other procurement (Navy) funds in the amount of $10,276,891 (90%); fiscal 2025 operation and maintenance (Navy) funds in the amount of $777,918 (7%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $298,723 (2%); and fiscal 2023 other procurement (Navy) funds in the amount of $32,275 (1%), will be obligated at time of award, and funds in the amount of $810,193 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Nov. 6, 2024.)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C5501"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 93934273.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12196000.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $10,276,891 (90%); fiscal 2025 operation and maintenance (Navy) funds in the amount of $777,918 (7%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $298,723 (2%); and fiscal 2023 other procurement (Navy) funds in the amount of $32,275 (1%), will be obligated at time of award, and funds in the amount of $810,193 will expire at the end of the current fiscal year",
+        "completion_date": "2026-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tewksbury, Massachusetts",
+            "contract_number": "N00024-22-C-5501",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee, cost-only, and firm-fixed-price modification",
+        "description": "Fiscal 2025 option for Dual Band Radar design agent and technical engineering follow-on requirements and spares for CVN78 and DDG1000 class ships",
+        "base_contract_number": "N00024-22-C-5501",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93934273,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10276891,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-11-06"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sedna Digital Solutions LLC,* Manassas, Virginia, is awarded a $23,866,466 cost-plus-fixed-fee, cost-plus-incentive-fee, and cost contract modification to previously awarded contract N00024-23-C-6132 to exercise options for Navy equipment and supporting material. Work will be performed in Manassas, Virginia, and is expected to be completed by Jan. 30, 2029. Fiscal 2025 other procurement (Navy) funds in the amount of $13,827,089 (63%); fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $3,982,000 (18%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $3,982,546 (18%); and fiscal 2025 research, development, test and evaluation (Navy) in the amount of $75,000 (1%) will be obligated at time of award, of which none will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C6132"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 23866466.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21866635.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $13,827,089 (63%); fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $3,982,000 (18%); fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $3,982,546 (18%); and fiscal 2025 research, development, test and evaluation (Navy) in the amount of $75,000 (1%) will be obligated at time of award, of which none will expire at the end of the current fiscal year",
+        "completion_date": "2029-01-30",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Sedna Digital Solutions LLC",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-23-C-6132",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, cost-plus-incentive-fee, and cost contract modification",
+        "description": "Options exercised for Navy equipment and supporting material",
+        "base_contract_number": "N00024-23-C-6132",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23866466,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21866466,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Peraton Technology Services Inc., Chantilly, Virginia, is awarded a $17,341,141 cost-plus-fixed-fee order (N0001925F0055) against a previously issued basic ordering agreement (N0001921G0010). This contract provides for the continued development, delivery, sustainment, requirement analysis and design of the Theater Mission Planning Center in support of the Navy. Work will be performed in Chantilly, Virginia (98%); and Great Cacapon, West Virginia (2%), and is expected to be completed in November 2025. Fiscal 2025 other procurement (Navy) funds in the amount of $6,382,000; and fiscal 2025 research development test and evaluation (Navy) funds in the amount of $1,8141,000, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This order was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001925F0055",
+          "N0001921G0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17341141.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24523000.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $6,382,000; and fiscal 2025 research development test and evaluation (Navy) funds in the amount of $1,8141,000, will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Peraton Technology Services Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N0001925F0055",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Continued development, delivery, sustainment, requirement analysis and design of the Theater Mission Planning Center for the Navy",
+        "base_contract_number": "N0001921G0010",
+        "order_number": "N0001925F0055",
+        "modification_number": null,
+        "value_usd": 17341141,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE COUNTERINTELLIGENCE AND SECURITY AGENCY",
       "kind": "announcement",
       "text": "A3 Consulting LLC, Baltimore, Maryland, has been awarded an $11,527,792 task order under contract 47QTCA18D00D3 for the Defense Counterintelligence and Security Agency (DCSA). Five proposals were received for this task order. This labor-hour task order HS0021-25-F-0001 provides the Office of Personnel Management Personnel Investigations Processing System Imaging System development, operations, and maintenance support services with an estimated completion of Nov. 11, 2029. Fiscal 2025 DCSA defense working capital funds in the amount of $4,834,459 were obligated at the time of award. Individual task orders will be subsequently funded with appropriate fiscal year appropriations at the time of their issuance. The cumulative face value of the contract to date is $11,527,792. The DCSA Contracting and Procurement office, Quantico, Virginia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HS002125F0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11527792.0,
+        "cumulative_value_usd": 11527792.0,
+        "obligated_usd": 4834459.0,
+        "funding_text": "Fiscal 2025 DCSA defense working capital funds in the amount of $4,834,459 were obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The DCSA Contracting and Procurement office, Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "A3 Consulting LLC",
+            "location": "Baltimore, Maryland",
+            "contract_number": "47QTCA18D00D3",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "labor-hour task order",
+        "description": "OPM Personnel Investigations Processing System Imaging System development, operations and maintenance support for DCSA",
+        "base_contract_number": "47QTCA18D00D3",
+        "order_number": "HS0021-25-F-0001",
+        "modification_number": null,
+        "value_usd": 11527792,
+        "cumulative_value_usd": 11527792,
+        "obligated_usd": 4834459,
+        "fms_countries": [],
+        "competition": "Five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Unlabel Innovation LLC, Minnetonka, Minnesota, was awarded a $9,307,000 firm-fixed-price contract for Department of Defense idea and portfolio management operations. This contract provides for the deployment, maintenance, and scaling a commercial-off-the-shelf dual-use, outcome-focused software-as-a-service application to improve innovation idea management operations to ingest, curate, evaluate, and collaborate on subject matter expert ideas. Work will be performed in Minnetonka, Minnesota, and is expected to be completed by May 31, 2029. This contract is a follow on to Small Business Innovation Research Phase III contract FA7014-21-C-0022. Fiscal 2025 operation and maintenance funds in the amount $577,000 are being obligated at time of award. The Air Force District of Washington, Washington, D.C., is the contracting activity (FA7014-235-C-0002).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA701421C0022",
+          "FA7014235C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9307000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 577000.0,
+        "funding_text": "Fiscal 2025 operation and maintenance funds in the amount $577,000 are being obligated at time of award",
+        "completion_date": "2029-05-31",
+        "contracting_activity": {
+          "name": "The Air Force District of Washington, Washington, D.C.",
+          "code": "FA7014-235-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Unlabel Innovation LLC",
+            "location": "Minnetonka, Minnesota",
+            "contract_number": "FA7014-235-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Department of Defense idea and portfolio management SaaS application, follow-on to SBIR Phase III contract FA7014-21-C-0022",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9307000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 577000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-11-08.html"
+  "source": "file:2024-11-08.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:24:17Z"
+  }
 }

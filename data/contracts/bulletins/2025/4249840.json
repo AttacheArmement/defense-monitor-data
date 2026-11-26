@@ -11,105 +11,832 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Longbow LLC, Orlando, Florida, was awarded a $348,312,758 modification (P00002) to contract W58RGZ-25-C-0001 for fire control radar systems. Work will be performed in Orlando, Florida, with an estimated completion date of Sept. 30, 2025. Fiscal 2025 Foreign Military Sales funds in the amount of $348,312,758 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ25C0001"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 348312758.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 348312758.0,
+        "funding_text": "Fiscal 2025 Foreign Military Sales funds in the amount of $348,312,758 were obligated at the time of the award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Longbow LLC",
+            "location": "Orlando, Florida",
+            "contract_number": "W58RGZ-25-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Fire control radar systems",
+        "base_contract_number": "W58RGZ-25-C-0001",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 348312758,
+        "cumulative_value_usd": null,
+        "obligated_usd": 348312758,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ASRC Builders-Caddell LLC, Anchorage, Alaska, was awarded a $290,322,700 firm-fixed-price contract for construction of the Joint Integrated Test and Training Center flight simulator training facility. Bids were solicited via the internet with two received. Work will be performed on Joint Base Elmendorf Richardson, Alaska, with an estimated completion date of July 18, 2025. Fiscal 2025 military construction funds in the amount of $110,962,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Joint Base Elmendorf-Richardson, Alaska, is the contracting activity (W911KB-25-C-A005).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911KB25CA005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 290322700.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 110962000.0,
+        "funding_text": "Fiscal 2025 military construction funds in the amount of $110,962,000 were obligated at the time of the award",
+        "completion_date": "2025-07-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Joint Base Elmendorf-Richardson, Alaska",
+          "code": "W911KB-25-C-A005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "ASRC Builders-Caddell LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-25-C-A005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of the Joint Integrated Test and Training Center flight simulator training facility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 290322700,
+        "cumulative_value_usd": null,
+        "obligated_usd": 110962000,
+        "fms_countries": [],
+        "competition": "internet solicitation, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sig Sauer Inc., Newington, New Hampshire, was awarded a $95,245,084 firm-fixed-price contract for the commercial spare parts for machine guns, special tools, and gauges. Bids were solicited via the internet with one received. Work will be performed in Epping, New Hampshire, with an estimated completion date of Apr. 18, 2026. Fiscal 2025 Foreign Military Sales funds in the amount of $95,245,084 were obligated at the time of the award. Army Contracting Command, Newark, New Jersey, is the contracting activity (W15QKN-25-C-0021).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN25C0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95245084.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 95245084.0,
+        "funding_text": "Fiscal 2025 Foreign Military Sales funds in the amount of $95,245,084 were obligated at the time of the award",
+        "completion_date": "2026-04-18",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Newark, New Jersey",
+          "code": "W15QKN-25-C-0021"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Sig Sauer Inc.",
+            "location": "Newington, New Hampshire",
+            "contract_number": "W15QKN-25-C-0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Commercial spare parts for machine guns, special tools, and gauges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95245084,
+        "cumulative_value_usd": null,
+        "obligated_usd": 95245084,
+        "fms_countries": [],
+        "competition": "internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "C.J. Mahan Construction Co. LLC, Urbancrest, Ohio, was awarded a $26,306,940 firm-fixed-price contract for restoration of Holt Lock Monolith. Bids were solicited via the internet with two received. Work will be performed in Tuscaloosa, Alabama, with an estimated completion date of April 14, 2026. Fiscal 2025 civil construction funds in the amount of $26,306,940 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-25-C-A004).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9127825CA004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26306940.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26306940.0,
+        "funding_text": "Fiscal 2025 civil construction funds in the amount of $26,306,940 were obligated at the time of the award",
+        "completion_date": "2026-04-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-25-C-A004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "C.J. Mahan Construction Co. LLC",
+            "location": "Urbancrest, Ohio",
+            "contract_number": "W91278-25-C-A004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Restoration of Holt Lock Monolith",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26306940,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26306940,
+        "fms_countries": [],
+        "competition": "internet solicitation, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GSE Construction Co. Inc., Livermore, California, was awarded a $9,741,900 firm-fixed-price contract for wastewater treatment plant repairs. Bids were solicited via the internet with three received. Work will be performed in Tracy, California, with an estimated completion date of Jan. 9, 2027. Fiscal 2025 operation and maintenance funds in the amount of $9,741,900 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-25-C-A001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9123825CA001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9741900.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9741900.0,
+        "funding_text": "Fiscal 2025 operation and maintenance funds in the amount of $9,741,900 were obligated at the time of the award",
+        "completion_date": "2027-01-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-25-C-A001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "GSE Construction Co. Inc.",
+            "location": "Livermore, California",
+            "contract_number": "W91238-25-C-A001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Wastewater treatment plant repairs",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9741900,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9741900,
+        "fms_countries": [],
+        "competition": "internet solicitation, 3 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land and Armaments L.P., York, Pennsylvania, was awarded a $9,000,000 modification (P00003) to contract W912CH-24-C-0037 for technical inspections and to convert Bradley vehicles to be fully mission capable. Work will be performed in York, Pennsylvania, with an estimated completion date of July 10, 2026. Fiscal 2025 Security Assistance Initiative funds in the amount of $9,000,000 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912CH24C0037"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9000000.0,
+        "funding_text": "Fiscal 2025 Security Assistance Initiative funds in the amount of $9,000,000 were obligated at the time of the award",
+        "completion_date": "2026-07-10",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "BAE Systems Land and Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W912CH-24-C-0037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Technical inspections and conversion of Bradley vehicles to be fully mission capable",
+        "base_contract_number": "W912CH-24-C-0037",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Michels Construction Inc., Brownsville, Wisconsin, was awarded a $7,691,140 firm-fixed-price contract for a power charging system at Caven Point Marine Terminal. Bids were solicited via the internet with seven received. Work will be performed in Jersey City, New Jersey, with an estimated completion date of June 30, 2026. Fiscal 2025 operation and maintenance, Army funds in the amount of $7,691,140 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-25-C-0008).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912DS25C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7691140.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7691140.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $7,691,140 were obligated at the time of the award",
+        "completion_date": "2026-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York, New York",
+          "code": "W912DS-25-C-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Michels Construction Inc.",
+            "location": "Brownsville, Wisconsin",
+            "contract_number": "W912DS-25-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Power charging system at Caven Point Marine Terminal",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7691140,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7691140,
+        "fms_countries": [],
+        "competition": "internet solicitation, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, is awarded a $63,825,763 cost-plus-fixed-fee and firm-fixed-price indefinite-delivery/indefinite-quantity contract for warhead expansion boxes and the associated cable kits. This is a 78-month contract with no option periods. The ordering period end date is January 2032. Work will be performed in Bedford, Indiana (42%); Middletown, Rhode Island (32%); Indianapolis, Indiana (20%); Charleston, South Carolina (6%), and is expected to be completed by January 2032. Fiscal 2025 weapons procurement (Navy) funds in the amount of $1,001,642 will be obligated on the first task order immediately following award of the basic contract and will not expire at the end of the current fiscal year. This contract was competitively procured via SAM.gov, with 2 offers received. Naval Undersea Warfare Center Division, Newport, Newport, Rhode Island, is the contracting activity (N66604-25-D-T500).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6660425DT500"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 63825763.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1001642.0,
+        "funding_text": "Fiscal 2025 weapons procurement (Navy) funds in the amount of $1,001,642 will be obligated on the first task order immediately following award of the basic contract and will not expire at the end of the current fiscal year",
+        "completion_date": "2032-01",
+        "contracting_activity": {
+          "name": "Naval Undersea Warfare Center Division, Newport, Newport, Rhode Island",
+          "code": "N66604-25-D-T500"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N66604-25-D-T500",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and firm-fixed-price IDIQ",
+        "description": "Warhead expansion boxes and associated cable kits (78-month contract, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 63825763,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1001642,
+        "fms_countries": [],
+        "competition": "competitive, SAM.gov, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Dynetics Technical Solutions, Huntsville, Alabama, is awarded a $8,441,591 firm-fixed-price and cost-plus-fixed-fee, term, indefinite-delivery/indefinite-quantity contract (N00167-25-D-0007) for Virginia-class submarine electron beam welding follow-on. Work will be performed in Huntsville, Alabama, with an ordering period up to five years from the date of the award and will not expire at the end of the current fiscal year. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $310,104 (3%) will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured under the authority of 10 U.S. Code 3204(a)(1), as implemented by Federal Acquisition Regulation 6.302-1. Naval Surface Warfare Center Carderock Division, West Bethesda, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0016725D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8441591.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 310104.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $310,104 (3%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center Carderock Division, West Bethesda, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Dynetics Technical Solutions",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N00167-25-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price and cost-plus-fixed-fee term IDIQ",
+        "description": "Virginia-class submarine electron beam welding follow-on",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8441591,
+        "cumulative_value_usd": null,
+        "obligated_usd": 310104,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S.C. 3204(a)(1) / FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "General Dynamics Information Technology Inc., Falls Church, Virginia, was awarded a $52,038,567 firm-fixed-price, level-of-effort, and cost reimbursable contract (H9227725FE011) under the Defense Intelligence Agency Solutions for Intelligence Analysis 3 indefinite-delivery/indefinite-quantity vehicle. This contract provided services and expertise to support Special Operations Command Central J2 Intelligence Directorate to enhance overall mission effectiveness. The period of performance includes a base year from Aug. 1, 2025, to Feb. 28, 2026, with four option years. U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "H9227725FE011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 52038567.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Falls Church, Virginia",
+            "contract_number": "H9227725FE011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, level-of-effort, and cost reimbursable",
+        "description": "Services supporting Special Operations Command Central J2 Intelligence Directorate under DIA Solutions for Intelligence Analysis 3 IDIQ vehicle",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 52038567,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Cherokee Analytics LLC, Tulsa, Oklahoma, was awarded a $35,492,790 firm-fixed-price, level-of-effort, and cost reimbursable contract (H9227725FE010) under the Defense Intelligence Agency Solutions for Intelligence Analysis 3 indefinite-delivery/indefinite-quantity vehicle. This contract provided services and expertise to support Special Operations Command Central J3 Operations Directorate to enhance overall mission effectiveness. The period of performance includes a base year from Aug. 1, 2025, to Feb. 28, 2026, with four option years. U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "H9227725FE010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35492790.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Cherokee Analytics LLC",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "H9227725FE010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, level-of-effort, and cost reimbursable",
+        "description": "Services supporting Special Operations Command Central J3 Operations Directorate under DIA Solutions for Intelligence Analysis 3 IDIQ vehicle",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35492790,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Dynamics Mission Systems, Inc., Scottsdale, Arizona, has been awarded a ceiling $34,273,921 modification (P00053) to a previously awarded contract (HQ0850-22-C-0007) for the Proliferated Warfighter Space Architecture Ground Management and Integration and Operation and Sustainment efforts. The modification brings the total cumulative face value of the contract to $ 1,106,722,296. Work will be performed at Scottsdale, Arizona; Huntsville, Alabama; and Grand Forks, North Dakota, and is expected to be completed by Sept. 30, 2029. Fiscal 2024 and 2025 research, development, test and evaluation funds in the amount of $738,697 are being obligated at time of award. The Space Development Agency, Washington, D.C., is the contracting activity. (Awarded July 17, 2025)",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HQ085022C0007"
+        ],
+        "modification_numbers": [
+          "P00053"
+        ],
+        "is_modification": true,
+        "value_usd": 34273921.0,
+        "cumulative_value_usd": 1106722296.0,
+        "obligated_usd": 738697.0,
+        "funding_text": "Fiscal 2024 and 2025 research, development, test and evaluation funds in the amount of $738,697 are being obligated at time of award",
+        "completion_date": "2029-09-30",
+        "contracting_activity": {
+          "name": "The Space Development Agency, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "General Dynamics Mission Systems, Inc.",
+            "location": "Scottsdale, Arizona",
+            "contract_number": "HQ0850-22-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "ceiling modification",
+        "description": "Proliferated Warfighter Space Architecture Ground Management and Integration and Operation and Sustainment efforts",
+        "base_contract_number": "HQ0850-22-C-0007",
+        "order_number": null,
+        "modification_number": "P00053",
+        "value_usd": 34273921,
+        "cumulative_value_usd": 1106722296,
+        "obligated_usd": 738697,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2025-07-17"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Microlink Devices Inc., Niles, Illinois, was awarded a space technology advanced research effort ceiling $28,232,840 cost reimbursement contract for developing lightweight advanced space power. This contract provides for six projects supporting a diverse range of space technology development, building on MicroLink’s epitaxial lift-off inverted metamorphic multijunction solar cell technology. Work will be performed in Niles, Illinois, and is expected to be completed by July 17, 2029. Fiscal 2024 and 2025 research, development, test and evaluation funds in the amount of $5,285,000 are being obligated at the time of award. The Air Force Research Lab Space Technology Branch, Kirtland Air Force Base, New Mexico, is the contracting activity (FA9453-25-C-X021). (Awarded July 17, 2025)",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA945325CX021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28232840.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5285000.0,
+        "funding_text": "Fiscal 2024 and 2025 research, development, test and evaluation funds in the amount of $5,285,000 are being obligated at the time of award",
+        "completion_date": "2029-07-17",
+        "contracting_activity": {
+          "name": "The Air Force Research Lab Space Technology Branch, Kirtland Air Force Base, New Mexico",
+          "code": "FA9453-25-C-X021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Microlink Devices Inc.",
+            "location": "Niles, Illinois",
+            "contract_number": "FA9453-25-C-X021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-reimbursement contract (space technology advanced research effort, ceiling)",
+        "description": "Space technology advanced research effort for developing lightweight advanced space power (epitaxial lift-off inverted metamorphic multijunction solar cells)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28232840,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5285000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2025-07-17"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Dynamics Mission Systems Inc., Scottsdale, Arizona, has been awarded a not-to-exceed $20,000,000 modification (P00054) to a previously awarded contract (HQ0850-22-C-0007) for the Proliferated Warfighter Space Architecture Ground Management and Integration and Operation and Sustainment efforts. The modification brings the total cumulative face value of the contract to $1,126,722,296 from $1,106,722,296. Work will be performed at Andøya Air Station and Ørland Air Station, Norway; and Kirtland Air Force Base, Albuquerque, New Mexico, and is expected to be completed by January 14, 2026. Fiscal 2025 research, development, test and evaluation funds in the amount of $8,800,000 are being obligated at time of award. The Space Development Agency, Washington, D.C., is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "HQ085022C0007"
+        ],
+        "modification_numbers": [
+          "P00054"
+        ],
+        "is_modification": true,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": 1126722296.0,
+        "obligated_usd": 8800000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $8,800,000 are being obligated at time of award",
+        "completion_date": "2026-01-14",
+        "contracting_activity": {
+          "name": "The Space Development Agency, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "General Dynamics Mission Systems Inc.",
+            "location": "Scottsdale, Arizona",
+            "contract_number": "HQ0850-22-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Proliferated Warfighter Space Architecture Ground Management and Integration and Operation and Sustainment efforts",
+        "base_contract_number": "HQ0850-22-C-0007",
+        "order_number": null,
+        "modification_number": "P00054",
+        "value_usd": 20000000,
+        "cumulative_value_usd": 1126722296,
+        "obligated_usd": 8800000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "LMI Consulting LLC, Tysons, Virginia, was awarded a firm-fixed-price, level-of-effort for labor, and time and materials for other directed cost and travel contract (HQ003425FE232). The amount of this action is $15,625,516. Fiscal 2025 operations and maintenance funds; and research, development, test and evaluation funds in the amount of $11,675,636, are being obligated at the time of the award. The cumulative total of the contract is $116,693,128. The total, if all options are exercised, is $116,693,128. The purpose of this contract is to provide professional support services and the capability to meet existing and emerging requirements through administrative, analytical, and strategic communication in support of the Office of the Under Secretary of Defense for Acquisition and Sustainment. LMI Consulting LLC will provide day-to-day administrative, analytical, program management and strategic communications support services. The work will be performed at the Pentagon; Mark Center, Alexandria, Virginia; and Crystal City, Virginia. The estimated contract completion date is July 22, 2030. Washington Headquarters Services, Arlington, Virginia, is the contracting agency.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HQ003425FE232"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15625516.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11675636.0,
+        "funding_text": "Fiscal 2025 operations and maintenance funds; and research, development, test and evaluation funds in the amount of $11,675,636, are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "LMI Consulting LLC",
+            "location": "Tysons, Virginia",
+            "contract_number": "HQ003425FE232",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, level-of-effort for labor, and time and materials for other directed cost and travel contract",
+        "description": "Professional support services for administrative, analytical, and strategic communication support to the Office of the Under Secretary of Defense for Acquisition and Sustainment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15625516,
+        "cumulative_value_usd": 116693128,
+        "obligated_usd": 11675636,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Annapolis, Maryland, has been awarded a maximum $14,027,974 firm-fixed-price, definite-quantity contract for acoustic sonar baffles. This was a sole-source acquisition using U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1(a)(ii)(A). This is a three-year contract with no option periods. The performance completion date is Dec. 17, 2028. Using military service is Navy. Type of appropriation is fiscal 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation at Richmond, Virginia (SPE4A5-25-C-0040).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A525C0040"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14027974.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation at Richmond, Virginia",
+          "code": "SPE4A5-25-C-0040"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Annapolis, Maryland",
+            "contract_number": "SPE4A5-25-C-0040",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, definite-quantity contract",
+        "description": "Acoustic sonar baffles (Navy, sole source)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14027974,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Infinity Fabrication, Marysville, Washington, has been awarded a maximum $9,999,999 firm-fixed-price, indefinite-quantity contract for B-52 aircraft engine hanger beams. This was a competitive acquisition with two responses received. This is a five-year contract with no option periods. The performance completion date is July 17, 2030. Using military service is Air Force. Type of appropriation is fiscal 2025 through 2030 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4A7-25-D-0297).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A725D0297"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9999999.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": "SPE4A7-25-D-0297"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Infinity Fabrication",
+            "location": "Marysville, Washington",
+            "contract_number": "SPE4A7-25-D-0297",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-quantity contract",
+        "description": "B-52 aircraft engine hanger beams (Air Force)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9999999,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:56Z",
-  "source": "file:2025-07-18.html"
+  "source": "file:2025-07-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:58:13Z"
+  }
 }

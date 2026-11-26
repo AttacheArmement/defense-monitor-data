@@ -11,33 +11,270 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "DNI Trend JV LLC, Tulsa, Oklahoma (FA4877-26-D-0007); PCI Bhate JV LLC, Reston, Virginia (FA4877-26-D-0008); and OCS Construction Services Inc., Riverside, California (FA4877-26-D-0009), were awarded a not-to-exceed $350,000,000 multiple award indefinite-delivery/indefinite-quantity contract for a multiple award construction contract. This contract provides for a construction program to include maintenance, repair, alterations, mechanical, electrical, heating and air conditioning, demolition, painting, paving, and earthwork. Work will be performed at Davis-Monthan Air Force Base, Arizona; and Luke AFB, Arizona, and is expected to be completed by Sept. 9, 2031. This contract was a competitive acquisition, and 31 offers were received. No funds will be obligated at the time of award. The 355th Contracting Squadron, Davis-Monthan AFB, Arizona, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA487726D0007",
+          "FA487726D0008",
+          "FA487726D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 350000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award",
+        "completion_date": "2031-09-09",
+        "contracting_activity": {
+          "name": "The 355th Contracting Squadron, Davis-Monthan AFB, Arizona",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "DNI Trend JV LLC",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "FA4877-26-D-0007",
+            "markers": null
+          },
+          {
+            "name": "PCI Bhate JV LLC",
+            "location": "Reston, Virginia",
+            "contract_number": "FA4877-26-D-0008",
+            "markers": null
+          },
+          {
+            "name": "OCS Construction Services Inc.",
+            "location": "Riverside, California",
+            "contract_number": "FA4877-26-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award indefinite-delivery/indefinite-quantity contract",
+        "description": "Construction program for maintenance, repair, alterations, mechanical, electrical, HVAC, demolition, painting, paving, and earthwork at Davis-Monthan AFB and Luke AFB, Arizona",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 350000000,
+        "cumulative_value_usd": 350000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 31 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, was awarded a $95,000,000 cost-plus-fixed-fee modification to a previously awarded contract (N00024-24-C-2124) for engineering, technical, design agent, and planning yard support for operational strategic and attack submarines. Work will be performed in Groton, Connecticut (70%); Kings Bay, Georgia (13%); Bangor, Washington (10%); Pearl Harbor, Hawaii (3%); North Kingston, Rhode Island (2%); and Newport, Rhode Island (2%), and is expected to be completed by June 2026. Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $2,600,000 (54%); fiscal 2026 operations and maintenance (Navy) funds in the amount of $1,793,786 (37%); and fiscal 2024 other procurement (Navy) funds in the amount of $425,176 (9%), were obligated at time of award, of which $ $2,218,962 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity. This contract was awarded on March 23, 2026.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C2124"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4818962.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $2,600,000 (54%); fiscal 2026 operations and maintenance (Navy) funds in the amount of $1,793,786 (37%); and fiscal 2024 other procurement (Navy) funds in the amount of $425,176 (9%), were obligated at time of award, of which $ $2,218,962 will expire at the end of the current fiscal year",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-24-C-2124",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering, technical, design agent, and planning yard support for operational strategic and attack submarines",
+        "base_contract_number": "N00024-24-C-2124",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4818962,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-03-23"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Goodrich Corp., doing business as Collins Aerospace, Troy, Ohio, has been awarded a maximum $62,172,173 modification (P00014) exercising the second four-year option period of a two-year base contract (SPRHA1-20-D-0001) with two four-year option periods for C-130 heat sinks performance-based support. This is a firm-fixed-price, requirements contract. The ordering period end date is March 31, 2030. Using military service is Air Force. Type of appropriation is fiscal 2026 through 2030 Air Force working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Ogden, Utah.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPRHA120D0001"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 62172173.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Ogden, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Goodrich Corp., doing business as Collins Aerospace",
+            "location": "Troy, Ohio",
+            "contract_number": "SPRHA1-20-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Second four-year option period for C-130 heat sinks performance-based support",
+        "base_contract_number": "SPRHA1-20-D-0001",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 62172173,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Spartan Medical Inc.,** Gaithersburg, Maryland (SPE2DF-26-D-0008, $15,000,000), has been added as an awardee to the multiple award contract for consumable dental supplies for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-25-R-0002 and awarded Feb. 12, 2026. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DF26D0008",
+          "SPE2DE25R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Spartan Medical Inc.",
+            "location": "Gaithersburg, Maryland",
+            "contract_number": "SPE2DF-26-D-0008",
+            "markers": "**"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Adds Spartan Medical Inc. as awardee to multiple award contract for consumable dental supplies for DLA Electronic Catalog (solicitation SPE2DE-25-R-0002)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-02-12"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Kraemer North America LLC, Plain, Wisconsin, was awarded a $12,822,905 firm-fixed-price contract for the rehabilitation of dam tow haulage systems, including repairs and modifications to the guide-wall; design, fabrication, installation, and testing of new rail systems; and other associated repairs to support barge movement. Bids were solicited via the internet with five received. Work will be performed in Hastings, Minnesota, with an estimated completion date of April 7, 2028. Fiscal 2025 civil construction funds in the amount of $12,822,905 were obligated at the time of the award. U.S. Army Corps of Engineers, St. Paul District, is the contracting activity (W912ES-26-C-A010).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912ES26CA010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12822905.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12822905.0,
+        "funding_text": "Fiscal 2025 civil construction funds in the amount of $12,822,905 were obligated at the time of the award",
+        "completion_date": "2028-04-07",
+        "contracting_activity": {
+          "name": "Paul District",
+          "code": "W912ES-26-C-A010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Kraemer North America LLC",
+            "location": "Plain, Wisconsin",
+            "contract_number": "W912ES-26-C-A010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Rehabilitation of dam tow haulage systems, including guide-wall repairs and new rail systems, Hastings, Minnesota",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12822905,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12822905,
+        "fms_countries": [],
+        "competition": "internet solicitation, five bids received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-03-25.html"
+  "source": "file:2026-03-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:30:30Z"
+  }
 }

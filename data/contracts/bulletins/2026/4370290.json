@@ -11,15 +11,108 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BL Harbert International LLC, Birmingham, Alabama, was awarded a $171,506,091 firm-fixed-price contract for the conversion of existing administrative space to a data center, laboratories, and updated administrative space. Bids were solicited via the internet with three received. Work will be performed in Huntsville, Alabama, with an estimated completion date of April 21, 2028. Fiscal 2024 and 2025 military construction, defense-wide funds; and fiscal 2026 research, development, test and evaluation, defense-wide funds totaling $171,506,091, were obligated at the time of the award. The total cumulative face value of the contract is $194,861,091. U.S. Army Corps of Engineers, Mobile District, is the contracting activity (W91278-26-C-A004).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9127826CA004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 171506091.0,
+        "cumulative_value_usd": 194861091.0,
+        "obligated_usd": 171506091.0,
+        "funding_text": "Fiscal 2024 and 2025 military construction, defense-wide funds; and fiscal 2026 research, development, test and evaluation, defense-wide funds totaling $171,506,091, were obligated at the time of the award",
+        "completion_date": "2028-04-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile District",
+          "code": "W91278-26-C-A004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BL Harbert International LLC",
+            "location": "Birmingham, Alabama",
+            "contract_number": "W91278-26-C-A004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Conversion of existing administrative space to a data center, laboratories, and updated administrative space in Huntsville, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 171506091,
+        "cumulative_value_usd": 194861091,
+        "obligated_usd": 171506091,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Affirmative Solutions LLC,** Cheyenne, Wyoming (SPE2DE-26-D-0003, $49,500,000) has been added as an awardee to the multiple award contract for medical and surgical supplies for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-22-R-0017/SPE2DE-26-R-0003 and awarded Sept. 28, 2023.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE26D0003",
+          "SPE2DE22R0017",
+          "SPE2DE26R0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Affirmative Solutions LLC",
+            "location": "Cheyenne, Wyoming",
+            "contract_number": "SPE2DE-26-D-0003",
+            "markers": "**"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Adds Affirmative Solutions LLC as an awardee to the multiple award contract for medical and surgical supplies for the DLA Electronic Catalog",
+        "base_contract_number": "SPE2DE-22-R-0017/SPE2DE-26-R-0003",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2023-09-28"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-01-02.html"
+  "source": "file:2026-01-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:38:31Z"
+  }
 }

@@ -11,39 +11,308 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Noble Supply & Logistics LLC,* Boston, Massachusetts, was awarded a $95,218,285 firm-fixed-price contract for the Forward Repair System M7A1 Tool Load program. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of April 21, 2030. Army Contracting Command, Detroit Arsenal, Illinois, is the contracting activity (W912CH-25-D-0024).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912CH25D0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95218285.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-04-21",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Illinois",
+          "code": "W912CH-25-D-0024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Noble Supply & Logistics LLC",
+            "location": "Boston, Massachusetts",
+            "contract_number": "W912CH-25-D-0024",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Forward Repair System M7A1 Tool Load program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95218285,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, was awarded a $54,908,584 cost-plus-award-fee contract for the Space Development Agency’s Tranche Three program integration effort. This contract provides for system engineering and integration support activities enabling the delivery of the tranche 3 space vehicles for transport, tracking, and custody layers and their integration within the proliferated warfighter space architecture ground segment. Work will be performed in Washington, D.C., and is expected to be completed by April 30, 2030. This contract was a competitive acquisition, and five offers were received. Fiscal 2025 research, development, test and evaluation funds in the amount of $6,000,000 are being obligated at time of award. The Space Development Agency, Washington, D.C., is the contracting activity (FA2401-25-C-0005).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA240125C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54908584.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6000000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $6,000,000 are being obligated at time of award",
+        "completion_date": "2030-04-30",
+        "contracting_activity": {
+          "name": "The Space Development Agency, Washington, D.C.",
+          "code": "FA2401-25-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA2401-25-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Space Development Agency Tranche Three program integration effort (system engineering and integration support)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54908584,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6000000,
+        "fms_countries": [],
+        "competition": "Competitive, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Deloitte & Touche LLP, Arlington, Virginia, was awarded a $12,073,195 firm-fixed-price task order bridge contract for the Space Systems Command Contracting Directorate. This contract provides for the remediation of audit findings and improving financial management processes focusing on audit liaison and response, mission critical asset valuation, formal classroom training, strategic management and communication and data analysis. Work will be performed at Los Angeles Air Force Base, California; Patrick Space Force Base, Florida; and Vandenberg SFB, California, and is expected to be completed by Oct. 20, 2026. This contract was a sole source acquisition. Fiscal 2024 procurement funds in the amount of $2,350,563 are being obligated at the time of award. Space Systems Command, Los Angeles AFB, California is the contracting activity (FA8802-25-F-0002). (Awarded April 21, 2025)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA880225F0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12073195.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2350563.0,
+        "funding_text": "Fiscal 2024 procurement funds in the amount of $2,350,563 are being obligated at the time of award",
+        "completion_date": "2026-10-20",
+        "contracting_activity": {
+          "name": "Space Systems Command, Los Angeles AFB, California",
+          "code": "FA8802-25-F-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Deloitte & Touche LLP",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA8802-25-F-0002",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order bridge contract",
+        "description": "Remediation of audit findings and improving financial management processes for Space Systems Command Contracting Directorate",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12073195,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2350563,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": "2025-04-21"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "United Food Service Inc., doing business as Shamrock Foods Co., Aurora, Colorado, has been awarded a maximum $34,413,103 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for full-line food and beverage items. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 573-day bridge contract. The ordering period end date is Nov.14, 2026. Using military services are Army and Air Force. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-25-D-3014). (Awarded on April 18, 2025)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE30025D3014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34413103.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-25-D-3014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "United Food Service Inc., doing business as Shamrock Foods Co.",
+            "location": "Aurora, Colorado",
+            "contract_number": "SPE300-25-D-3014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Full-line food and beverage items (573-day bridge contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34413103,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1), FAR 6.302-1",
+        "award_date": "2025-04-18"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Apparel Inc.,* Selma, Alabama, has been awarded a maximum $14,318,920 modification (P00015) exercising the second one-year option period of a one-year base contract (SPE1C1-23-D-0047) with four one-year option periods for blouses and trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is April 24, 2026. Using military service is Marine Corps. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0047"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 14318920.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "American Apparel Inc.",
+            "location": "Selma, Alabama",
+            "contract_number": "SPE1C1-23-D-0047",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Second one-year option period exercise for blouses and trousers",
+        "base_contract_number": "SPE1C1-23-D-0047",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 14318920,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Woodward Inc., Loves Park, Illinois, is awarded $14,099,028 for a firm-fixed-price requirements, long-term contract for the repair of hydro-mechanical control system for the Navy T700 401C engines. This contract includes a two-year period with no options. All work will be performed in Loves Park, Illinois, and the ordering period is expected to be completed by April 2027. No funding will be obligated at the time of award. Working capital funds (Navy) will be used and funds will not expire at the end of the current fiscal year. One firm was solicited for this non-competitive requirement under authority 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-25-D-NX01).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0038325DNX01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14099028.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2027-04",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-25-D-NX01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Woodward Inc.",
+            "location": "Loves Park, Illinois",
+            "contract_number": "N00383-25-D-NX01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements, long-term",
+        "description": "Repair of hydro-mechanical control system for Navy T700 401C engines",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14099028,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Non-competitive, one offer received (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2025-04-22.html"
+  "source": "file:2025-04-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:07:48Z"
+  }
 }

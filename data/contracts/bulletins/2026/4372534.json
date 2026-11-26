@@ -11,27 +11,301 @@
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "Correction: The $235,400,000 contract awarded to Piepenbrock Government Services GmbH + Co. KG, Eschborn, Germany (FA5613-26-D-0002); Geiger FM Grunservice GmbH, Dietmannsried, Germany (FA5613-26-D-0003); Centerra Integrated Services GmbH, Kaiserslautern, Germany (FA5613-26-D-0006); Amentum Services, Inc., Chantilly, Virginia, United States (FA5613-26-D-0009); Centerra Integrated Services GmbH, Kaiserslautern, Germany (FA5613-26-D-0005) on December 31, 2025, incorrectly listed the expected completion date. The work is expected to be completed by Jan. 11, 2036.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA561326D0002",
+          "FA561326D0003",
+          "FA561326D0006",
+          "FA561326D0009",
+          "FA561326D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 235400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2036-01-11",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Piepenbrock Government Services GmbH + Co. KG",
+            "location": "Eschborn, Germany",
+            "contract_number": "FA5613-26-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Geiger FM Grunservice GmbH",
+            "location": "Dietmannsried, Germany",
+            "contract_number": "FA5613-26-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Centerra Integrated Services GmbH",
+            "location": "Kaiserslautern, Germany",
+            "contract_number": "FA5613-26-D-0006",
+            "markers": null
+          },
+          {
+            "name": "Amentum Services, Inc.",
+            "location": "Chantilly, Virginia, United States",
+            "contract_number": "FA5613-26-D-0009",
+            "markers": null
+          },
+          {
+            "name": "Centerra Integrated Services GmbH",
+            "location": "Kaiserslautern, Germany",
+            "contract_number": "FA5613-26-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to the $235,400,000 contract awarded December 31, 2025, to correct the expected completion date (now Jan. 11, 2036)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 235400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2025-12-31"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ControlPoint Surveying Inc,* Honolulu, Hawaii (W9128A-26-D-A007); KAI JV,* San Diego, California (W9128A-26-D-A008); and Sam O. Hirota Inc,* Honolulu, Hawaii (W9128A-26-D-A009), will compete for each order of the $9,900,000 firm-fixed-price contract for architect-engineer services for geotechnical engineering, engineering geology, topographic survey, orthophotography, cadastral mapping, and land parcel mapping for miscellaneous projects. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order. The estimated completion date is Jan. 6, 2031. U.S. Army Corps of Engineers, Honolulu District, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9128A26DA007",
+          "W9128A26DA008",
+          "W9128A26DA009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Honolulu District",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "ControlPoint Surveying Inc",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-26-D-A007",
+            "markers": "*"
+          },
+          {
+            "name": "KAI JV",
+            "location": "San Diego, California",
+            "contract_number": "W9128A-26-D-A008",
+            "markers": "*"
+          },
+          {
+            "name": "Sam O. Hirota Inc",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-26-D-A009",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect-engineer services for geotechnical engineering, engineering geology, topographic survey, orthophotography, cadastral mapping, and land parcel mapping for miscellaneous projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods Raleigh, Zebulon, North Carolina, has been awarded a maximum $198,260,924 firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for full-line food and beverage items. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 465-day bridge contract with no option periods. Location of performance is Virginia, with an April 17, 2027, ordering period end date. Using military services are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-26-D-3004).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE30026D3004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 198260924.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-26-D-3004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "US Foods Raleigh",
+            "location": "Zebulon, North Carolina",
+            "contract_number": "SPE300-26-D-3004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Full-line food and beverage items; 465-day bridge contract with no option periods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 198260924,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S. Code 3204 (a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Freeman Holdings of Hawaii LLC, doing business as Million Air Honolulu, Kapolei, Hawaii (SPE607-26-D-0006, $86,689,562); McClellan Jet Services, McClellan Park, California (SPE607-26-D-0011, $80,381,818); Avfuel Corp., Ann Arbor, Michigan (SPE607-26-D-0019, $36,817,846); San Bernardino International Airport Authority, San Bernardino, California (SPE607-26-D-0009, $31,367,062); Air Center San Diego LLC, San Diego, California (SPE607-26-D-0007, $31,129,656); Freeman Holdings of Washington LLC, doing business as Million Air Moses Lake, Moses Lake, Washington (SPE607-26-D-0018, $27,319,570); Freeman Holdings of Riverside LLC, doing business as Million Air Riverside, Moreno Valley, California (SPE607-26-D-0012, $23,831,100); Freeman Holdings of Oregan LLC, doing business as Million Air Medford, Medford, Oregon (SPE607-26-D-0017, $23,349,052); and Freeman Holdings of California LLC, doing business as Million Air Victorville, Victorville, California (SPE607-26-D-0008, $14,806,683), have each been awarded a minimum $86,689,562 fixed-price with economic-price-adjustment contract under solicitation SPE607-25-R-0204 for fuel support. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a three-year contract with no option periods. Locations of performance are Hawaii, California, Washington and Oregon, with a March 31, 2029, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2026 through 2029 defense working capital funds. The contracting activity is Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE60726D0006",
+          "SPE60726D0011",
+          "SPE60726D0019",
+          "SPE60726D0009",
+          "SPE60726D0007",
+          "SPE60726D0018",
+          "SPE60726D0012",
+          "SPE60726D0017",
+          "SPE60726D0008",
+          "SPE60725R0204"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 86689562.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Freeman Holdings of Hawaii LLC, doing business as Million Air Honolulu",
+            "location": "Kapolei, Hawaii",
+            "contract_number": "SPE607-26-D-0006",
+            "markers": null
+          },
+          {
+            "name": "McClellan Jet Services",
+            "location": "McClellan Park, California",
+            "contract_number": "SPE607-26-D-0011",
+            "markers": null
+          },
+          {
+            "name": "Avfuel Corp.",
+            "location": "Ann Arbor, Michigan",
+            "contract_number": "SPE607-26-D-0019",
+            "markers": null
+          },
+          {
+            "name": "San Bernardino International Airport Authority",
+            "location": "San Bernardino, California",
+            "contract_number": "SPE607-26-D-0009",
+            "markers": null
+          },
+          {
+            "name": "Air Center San Diego LLC",
+            "location": "San Diego, California",
+            "contract_number": "SPE607-26-D-0007",
+            "markers": null
+          },
+          {
+            "name": "Freeman Holdings of Washington LLC, doing business as Million Air Moses Lake",
+            "location": "Moses Lake, Washington",
+            "contract_number": "SPE607-26-D-0018",
+            "markers": null
+          },
+          {
+            "name": "Freeman Holdings of Riverside LLC, doing business as Million Air Riverside",
+            "location": "Moreno Valley, California",
+            "contract_number": "SPE607-26-D-0012",
+            "markers": null
+          },
+          {
+            "name": "Freeman Holdings of Oregan LLC, doing business as Million Air Medford",
+            "location": "Medford, Oregon",
+            "contract_number": "SPE607-26-D-0017",
+            "markers": null
+          },
+          {
+            "name": "Freeman Holdings of California LLC, doing business as Million Air Victorville",
+            "location": "Victorville, California",
+            "contract_number": "SPE607-26-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Fuel support; three-year contract with no option periods, awarded under solicitation SPE607-25-R-0204",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 86689562,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S. Code 3204 (a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2026-01-07.html"
+  "source": "file:2026-01-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:38:18Z"
+  }
 }

@@ -11,75 +11,623 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Honeywell International Inc., Clearwater, Florida, has been awarded a $54,392,796 cost-plus-fixed-fee contract for space technology advanced research. This contract provides for research and development for the Strategic Grade Compact Inertial Measurement Unit. Work will be performed in Clearwater, Florida, and is expected to be completed by May 1, 2027. Fiscal 2021 research, development, test and evaluation funds in the amount of $2,259,879 are being obligated at the time of award. The Air Force Research Laboratory, Kirtland Air Force Base, Albuquerque, New Mexico, is the contracting activity (FA9453-22-0020).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA9453220020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54392796.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2259879.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation funds in the amount of $2,259,879 are being obligated at the time of award",
+        "completion_date": "2027-05-01",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Kirtland Air Force Base, Albuquerque, New Mexico",
+          "code": "FA9453-22-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Clearwater, Florida",
+            "contract_number": "FA9453-22-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Research and development for the Strategic Grade Compact Inertial Measurement Unit (space technology advanced research)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54392796,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2259879,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The Jan. 31, 2022, announcement of a $34,453,277 contract award to Metis Technology Partners LLC, Moffett Field, California, for the Pad Safety Support Contract II included an incorrect award amount. The contract was actually awarded for $34,456,277.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34453277.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Metis Technology Partners LLC",
+            "location": "Moffett Field, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Jan. 31, 2022 announcement of Pad Safety Support Contract II award; award amount corrected to $34,456,277 (previously $34,453,277)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34456277,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Abt Associates Inc., Rockville, Maryland (W912HQ-22-D-0002); AECOM Technical Services Inc., Arlington, Virginia (W912HQ-22-D-0003); Booz Allen Hamilton Inc., McLean, Virginia (W912HQ-22-D-0004); and CDM Federal Programs Corp., Carbondale, Illinois (W912HQ-22-D-0005), will compete for each order of the $48,335,000 firm-fixed-price contract for water resources analytical and professional support services. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 3, 2027. U.S. Army Corps of Engineers, Fort Belvoir, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912HQ22D0002",
+          "W912HQ22D0003",
+          "W912HQ22D0004",
+          "W912HQ22D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 48335000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-02-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Abt Associates Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W912HQ-22-D-0002",
+            "markers": null
+          },
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912HQ-22-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "W912HQ-22-D-0004",
+            "markers": null
+          },
+          {
+            "name": "CDM Federal Programs Corp.",
+            "location": "Carbondale, Illinois",
+            "contract_number": "W912HQ-22-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Water resources analytical and professional support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48335000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 8 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Coakley & Williams Construction Inc., Bethesda, Maryland, was awarded a $21,592,300 firm-fixed-price contract for construction of a maintenance and supply facility. Bids were solicited via the internet with seven received. Work will be performed in Alexandria, Virginia, with an estimated completion date of April 24, 2024. Fiscal 2022 military construction, Army funds in the amount of $21,592,300 were obligated at the time of the award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity (W912DR-22-C-0009).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912DR22C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21592300.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21592300.0,
+        "funding_text": "Fiscal 2022 military construction, Army funds in the amount of $21,592,300 were obligated at the time of the award",
+        "completion_date": "2024-04-24",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore, Maryland",
+          "code": "W912DR-22-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Coakley & Williams Construction Inc.",
+            "location": "Bethesda, Maryland",
+            "contract_number": "W912DR-22-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a maintenance and supply facility in Alexandria, Virginia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21592300,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21592300,
+        "fms_countries": [],
+        "competition": "internet solicitation, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Engineering Concepts Inc.,* Honolulu, Hawaii, is awarded a $30,000,000 firm-fixed-price, indefinite-delivery/indefinite quantity, architect-engineering contract for environmental investigations, permit applications and related studies at various locations within the Naval Facilities Engineering Systems Command (NAVFAC) Pacific area of operations (AO). The work to be performed includes the preparation of analytical studies, reports, management plans, technical evaluations, training material, permit applications, preliminary engineering designs, cost estimates and supporting documents for corrective projects, and performing monitoring, testing, and training actions. No task orders are being issued at this time. Work will be performed at various locations within the NAVFAC Pacific AO including, but not limited to Hawaii (50%); Guam (25%); and Japan (25%). The term of the contract is not-to-exceed 60 months, with an expected completion date of February 2027. Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $5,000 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operation and maintenance (Navy) funds. This contract was competitively procured via the beta.sam.gov website with six proposals received. NAVFAC Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-22-D-1803).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6274222D1803"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $5,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2027-02",
+        "contracting_activity": {
+          "name": "NAVFAC Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-22-D-1803"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Engineering Concepts Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62742-22-D-1803",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite quantity, architect-engineering contract",
+        "description": "Environmental investigations, permit applications and related studies at various NAVFAC Pacific AO locations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, 6 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics, Applied Physical Sciences Corp., Groton, Connecticut, is awarded a $19,162,989 indefinite-delivery/indefinite-quantity, single award, cost-plus-fixed-fee contract for Environmental and Ship Motion Forecasting (ESMF) systems. The ESMF system provides sea-based forces with environmental and ship motion forecasting as input to the common operation tactical picture, in order to forecast windows of opportunity for inter/intra-ship material and personnel movement. The ESMF system allows for single-ship motion modeling and predictions, and for two ship motion modeling and predictions. The contractor shall perform in a wide variety of locations both within the continental U.S. and outside the continental U.S. (OCONUS). The expected work distribution by performance location includes Mid-Atlantic U.S. (30%); Northeast U.S. (2%); U.S. Gulf Coast (5%); Southwest U.S. (30%); Northwest U.S. (5%); and other/OCONUS (30%). OCONUS locations typically include, but are not limited to, Guam, Saipan, Japan, Hawaii, Spain, Croatia, and Italy. The maximum dollar value for the contract is $19,162,989, and work is expected to be completed by January 2027. Fiscal 2021 research, development, test and evaluation (Navy) funding in the total amount of $415 will be obligated at time of award to meet the minimum guarantee of the contract. This contract was competitively procured via the beta.sam.gov website, with one offer received. The Naval Surface Warfare Center Carderock Division, Detachment Norfolk, Virginia, is the contracting activity (N0016722D0001).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0016722D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19162989.0,
+        "cumulative_value_usd": 415.0,
+        "obligated_usd": 415.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation (Navy) funding in the total amount of $415 will be obligated at time of award to meet the minimum guarantee of the contract",
+        "completion_date": "2027-01",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Carderock Division, Detachment Norfolk, Virginia",
+          "code": "N0016722D0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics, Applied Physical Sciences Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N0016722D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity, single award",
+        "description": "Environmental and Ship Motion Forecasting (ESMF) systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19162989,
+        "cumulative_value_usd": 19162989,
+        "obligated_usd": 415,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Space, Littleton, Colorado, is awarded an $18,700,000 cost-plus-incentive-fee and cost-plus-fixed-fee unpriced letter contract modification (PH0001) to a previously awarded and announced unpriced letter contract (N00030-22-C-1025) for engineering development, systems integration, and long lead material procurement in support of missile production. Work will be performed in Denver, Colorado (50.5%); Pittsfield, Massachusetts (24.6%); Sunnyvale, California (17.1%); Washington, D.C. (6.5%); and Groton, Connecticut (1.3%). Work is expected to be completed on Sept. 2, 2022. Fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $14,025,000, which will expire at the end of the current 2022 fiscal year, are obligated upon award. This contract is being awarded to the contractor on a sole source basis under 10 U.S. Code 2304(c)(1) and was previously synopsized on the beta.sam.gov online portal. Strategic Systems Programs, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0003022C1025"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 18700000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14025000.0,
+        "funding_text": "Fiscal 2021 research, development, test, and evaluation (Navy) funds in the amount of $14,025,000, which will expire at the end of the current 2022 fiscal year, are obligated upon award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Space",
+            "location": "Littleton, Colorado",
+            "contract_number": "PH0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee and cost-plus-fixed-fee unpriced letter contract modification",
+        "description": "Engineering development, systems integration, and long lead material procurement in support of missile production",
+        "base_contract_number": "N00030-22-C-1025",
+        "order_number": null,
+        "modification_number": "PH0001",
+        "value_usd": 18700000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14025000,
+        "fms_countries": [],
+        "competition": "sole source under 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Agile-Bot II LLC,* Reston, Virginia, is awarded a $14,333,068 modification to exercise Option One to a previously awarded cost-plus-fixed-fee contract (N66001-21-C-0043) for advanced cyber support services in support of Marine Corps Cyberspace Operations Group. Fiscal 2022 operation and maintenance (Marine Corps) funds are being used incrementally for this award. The contract included a one-year base period and four one-year option periods which, if exercised, would bring the value of this contract to $72,996,224. Fiscal 2022 operations and maintenance (Marine Corps) funds in the amount of $1,226,775 will expire at the end of the current fiscal year. Work will be performed in Quantico, Virginia. The option’s period of performance is from January 2022 through January 2023. If all options are exercised, the period of performance would extend through January 2026. This contract was competitively procured via request for proposal N66001-18-R-0011 and was published on the Federal Business Opportunities website and the Naval Information Warfare Systems Command e-Commerce Central website. Five offers were received and one was selected for award. The Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6600121C0043",
+          "N6600118R0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14333068.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Information Warfare Center Pacific, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Agile-Bot II LLC",
+            "location": "Reston, Virginia",
+            "contract_number": "N66001-21-C-0043",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Option One exercise for advanced cyber support services for Marine Corps Cyberspace Operations Group",
+        "base_contract_number": "N66001-21-C-0043",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14333068,
+        "cumulative_value_usd": 72996224,
+        "obligated_usd": 1226775,
+        "fms_countries": [],
+        "competition": "competitive RFP N66001-18-R-0011, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Syracuse, New York, is awarded a $9,050,510 cost-plus-incentive-fee modification to the previously awarded delivery order N00024-19-F-6201 under indefinite-delivery/indefinite-quantity contract N00024-19-D-6200 for design, prototyping, and qualification testing of submarine electronic warfare equipment. Work will be performed in Syracuse, New York, and is expected to be completed by February 2023. Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $5,050,510 (56%); fiscal 2022 National Sea-based Deterrence Fund (Navy) funds in the amount of $2,000,000 (22%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,000,000 (22%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002419F6201",
+          "N0002419D6200"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9050510.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9050510.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $5,050,510 (56%); fiscal 2022 National Sea-based Deterrence Fund (Navy) funds in the amount of $2,000,000 (22%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $2,000,000 (22%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-19-F-6201",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee delivery order under IDIQ",
+        "description": "Design, prototyping, and qualification testing of submarine electronic warfare equipment",
+        "base_contract_number": "N00024-19-D-6200",
+        "order_number": "N00024-19-F-6201",
+        "modification_number": null,
+        "value_usd": 9050510,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9050510,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Michelin North America Inc., Greenville, South Carolina (SPE7LX-22-D-0074, $29,943,591); and Goodyear Tire and Rubber Co., Akron, Ohio (SPE7LX-22-D-0073, $10,746,556), have each been awarded a firm-fixed-price, requirements contract under solicitation SPE7LX-21-R-0156 for aircraft tires. These were competitive acquisitions with three responses received. These are three-year contracts with no option periods. Locations of performance are South Carolina and Ohio, with an April 4, 2025, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX22D0074",
+          "SPE7LX22D0073",
+          "SPE7LX21R0156"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29943591.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Michelin North America Inc.",
+            "location": "Greenville, South Carolina",
+            "contract_number": "SPE7LX-22-D-0074",
+            "markers": null
+          },
+          {
+            "name": "Goodyear Tire and Rubber Co.",
+            "location": "Akron, Ohio",
+            "contract_number": "SPE7LX-22-D-0073",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Aircraft tires",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40690147,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 3 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced Nov. 4, 2021, to Cue Health Inc.,* San Diego, California (SPE2DE-22-D-0006) for $49,500,000 was announced with an incorrect award date. The correct award date is Feb. 2, 2022.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE22D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Cue Health Inc.",
+            "location": "San Diego, California",
+            "contract_number": "SPE2DE-22-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to award date of Nov. 4, 2021 contract to Cue Health Inc.; correct award date is Feb. 2, 2022",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-02-02"
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "CACI, Inc. – Federal, Florham Park, New Jersey, has been awarded a $20,412,398 cost-plus-fixed-fee contract to support the Mission-Integrated Network Control (MINC) program. Work will be performed in Florham Park, New Jersey (75%); Kansas City, Missouri (9%); Murray Hill, New Jersey (14%); and Arlington, Virginia (2%), with an expected completion date of August 2025. Fiscal 2021 and 2022 research, development, test, and engineering funds in the amounts of $105,527 and $1,303,371, respectively, are being obligated at time of award. This contract was a competitive acquisition under Broad Agency Announcement HR001121S0028. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001122C0022).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HR001121S0028",
+          "HR001122C0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20412398.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1408898.0,
+        "funding_text": "Fiscal 2021 and 2022 research, development, test, and engineering funds in the amounts of $105,527 and $1,303,371, respectively, are being obligated at time of award",
+        "completion_date": "2025-08",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR001122C0022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "CACI, Inc. - Federal",
+            "location": "Florham Park, New Jersey",
+            "contract_number": "HR001122C0022",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Mission-Integrated Network Control (MINC) program support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20412398,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1408898,
+        "fms_countries": [],
+        "competition": "competitive, Broad Agency Announcement HR001121S0028",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-02-04.html"
+  "source": "file:2022-02-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:25:06Z"
+  }
 }

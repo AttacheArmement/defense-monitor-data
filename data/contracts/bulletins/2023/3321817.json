@@ -9,45 +9,359 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "System Studies & Simulation Inc., Huntsville, Alabama, was awarded an $81,465,200 hybrid (firm-fixed-price and time-and-materials) contract for technical engineering support. Bids were solicited via the internet with four received. Work will be performed in Huntsville, Alabama, with an estimated completion date of March 15, 2028. Fiscal 2021 other procurement, Army funds in the amount of $6,553,332 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-23-F-B003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23FB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 81465200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6553332.0,
+        "funding_text": "Fiscal 2021 other procurement, Army funds in the amount of $6,553,332 were obligated at the time of the award",
+        "completion_date": "2028-03-15",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-23-F-B003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "System Studies & Simulation Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-23-F-B003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (firm-fixed-price and time-and-materials) contract",
+        "description": "Technical engineering support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 81465200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6553332,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Integrated Solutions for Systems Inc.,* Huntsville, Alabama, was awarded a $9,489,613 cost-plus-fixed-fee contract for basic and applied scientific research for development and demonstration of plug-and-play open architectures for positioning, navigation and timing. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of March 7, 2026. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QX-23-D-0005).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911QX23D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9489613.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-03-07",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QX-23-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Integrated Solutions for Systems Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W911QX-23-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Basic and applied scientific research for development and demonstration of plug-and-play open architectures for positioning, navigation and timing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9489613,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon, Aurora, Colorado, was awarded a $15,047,091 bilateral supplemental agreement modification (P00392) to previously awarded Next Generation Operational Control Segment (OCX) contract FA8807-10-C-0001 for additional development contractor support for OCX. This modification extends sustainment for the Block 0 Launch and Checkout System and certain other fielded components of OCX by nine months. The location of performance is primarily Aurora, Colorado, and is expected to be completed by Dec. 1, 2023. Fiscal 2023 research, development, test, and evaluation funds in the amount of $15,047,091 are being obligated at the time of award. Total cumulative face value of the contract is $3,919,145,910. Space Systems Command, Los Angeles Air Force Base, El Segundo, California, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA880710C0001"
+        ],
+        "modification_numbers": [
+          "P00392"
+        ],
+        "is_modification": true,
+        "value_usd": 15047091.0,
+        "cumulative_value_usd": 3919145910.0,
+        "obligated_usd": 15047091.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation funds in the amount of $15,047,091 are being obligated at the time of award",
+        "completion_date": "2023-12-01",
+        "contracting_activity": {
+          "name": "Space Systems Command, Los Angeles Air Force Base, El Segundo, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon",
+            "location": "Aurora, Colorado",
+            "contract_number": "FA8807-10-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "bilateral supplemental agreement modification",
+        "description": "Next Generation Operational Control Segment (OCX) additional development contractor support and nine-month extension of sustainment for Block 0 Launch and Checkout System and other fielded components",
+        "base_contract_number": "FA8807-10-C-0001",
+        "order_number": null,
+        "modification_number": "P00392",
+        "value_usd": 15047091,
+        "cumulative_value_usd": 3919145910,
+        "obligated_usd": 15047091,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Tri-State Government Services Inc.,** Chattanooga, Tennessee, has been awarded a maximum $9,820,047 indefinite-delivery/indefinite-quantity contract for hazardous waste removal and disposal. This was a competitive acquisition with one response received. This is a 30-month base contract with one 30-month option period. Location of performance is Georgia, with a Sept. 9, 2025, performance completion date. Using customers are Air Force, Air Reserve, Air National Guard, Army, Army Reserve, Army National Guard, Coast Guard and Navy. Type of appropriation is fiscal 2023 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Disposition Services, Battle Creek, Michigan (SP4500-23-D-0012).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SP450023D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9820047.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Disposition Services, Battle Creek, Michigan",
+          "code": "SP4500-23-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Tri-State Government Services Inc.",
+            "location": "Chattanooga, Tennessee",
+            "contract_number": "SP4500-23-D-0012",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Hazardous waste removal and disposal; 30-month base with one 30-month option period; place of performance Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9820047,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SND Manufacturing, Dallas, Texas, has been awarded a maximum $9,146,497 modification (P00013) exercising the fourth one-year option period of a one-year base contract (SPE1C1-19-D-5038) with four one-year option periods for running suit jackets. This is an indefinite-delivery contract. The ordering period end date is March 17, 2024. Using military services are Navy and Marine Corps. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D5038"
+        ],
+        "modification_numbers": [
+          "P00013"
+        ],
+        "is_modification": true,
+        "value_usd": 9146497.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "SND Manufacturing",
+            "location": "Dallas, Texas",
+            "contract_number": "SPE1C1-19-D-5038",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery contract",
+        "description": "Fourth one-year option period exercise for running suit jackets; ordering period ends March 17, 2024",
+        "base_contract_number": "SPE1C1-19-D-5038",
+        "order_number": null,
+        "modification_number": "P00013",
+        "value_usd": 9146497,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hensel Phelps Construction Co., Honolulu, Hawaii, is awarded a $8,530,000 firm-fixed-price task order (N6247823F4066) under previously-awarded contract N62478-20-D-4003 for repairs to the Water Reclamation Facility secondary clarifier, Marine Corps Base Hawaii. Work will be performed at Oahu, Hawaii, and is expected to be completed by February 2024. Fiscal 2023 operation and maintenance, (Marine Corps) funds in the amount of $8,530,000 will be obligated at time of award, and funds will not expire at the end of the current fiscal year. This contract was competitively procured with three offers received. The Naval Facilities Engineering Systems Command, Hawaii, Kaneohe Bay, Hawaii, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6247823F4066",
+          "N6247820D4003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8530000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8530000.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, (Marine Corps) funds in the amount of $8,530,000 will be obligated at time of award, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Hawaii, Kaneohe Bay, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Hensel Phelps Construction Co.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N6247823F4066",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Repairs to Water Reclamation Facility secondary clarifier, Marine Corps Base Hawaii",
+        "base_contract_number": "N62478-20-D-4003",
+        "order_number": "N6247823F4066",
+        "modification_number": null,
+        "value_usd": 8530000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8530000,
+        "fms_countries": [],
+        "competition": "Competitive with three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Liverpool, New York, is awarded an $8,444,082 fixed-price-incentive-fee modification to previously awarded contract N00024-19-C-6120 to exercise options for Navy equipment and engineering services. Work will be performed in Liverpool, New York (66%); Millersville, Maryland (33%); and Marion, Massachusetts (1%), and is expected to be completed by January 2025. Fiscal 2022 other procurement (Navy) funds in the amount of $5,629,388 (66%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $1,407,347 (17%); and fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $1,407,347 (17%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C6120"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8444082.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8444082.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) funds in the amount of $5,629,388 (66%); fiscal 2021 shipbuilding and conversion (Navy) funds in the amount of $1,407,347 (17%); and fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $1,407,347 (17%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-01",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Liverpool, New York",
+            "contract_number": "N00024-19-C-6120",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-fee modification",
+        "description": "Exercise of options for Navy equipment and engineering services; work in Liverpool NY (66%), Millersville MD (33%), Marion MA (1%)",
+        "base_contract_number": "N00024-19-C-6120",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8444082,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7036735,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-03-07.html"
+  "source": "file:2023-03-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:39:24Z"
+  }
 }

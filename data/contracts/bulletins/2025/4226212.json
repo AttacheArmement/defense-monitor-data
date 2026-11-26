@@ -12,57 +12,479 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Fort Worth, Texas, is awarded a $250,000,000 modification (P00006) to a previously awarded fixed-price incentive (firm-target), cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract (N0001922D0004). This modification increases the contract ceiling to provide for the ongoing production of the F-35 logistics information system, which encompasses both the Autonomic Logistics Information System and Operational Data Integrated Network (ODIN) and Mission Planning Environment (MPE) hardware, as well as associated support necessary to field the F-35 ODIN, MPE, and components of any future ODIN and MPE retrofits for the F-35A, F-35B and F-35C aircraft in support of the F-35 Joint Strike Fighter program for the Air Force, Marine Corps, Navy, Foreign Military Sales customers, and F-35 Cooperative Program Partners. Work will be performed in Orlando, Florida (95%); and Fort Worth, Texas (5%), and is expected to be completed in August 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001922D0004"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 250000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-08",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target), cost-plus-fixed-fee indefinite-delivery/indefinite-quantity",
+        "description": "F-35 logistics information system (ODIN and Mission Planning Environment) ceiling increase for ongoing production",
+        "base_contract_number": "N0001922D0004",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 250000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is awarded a $57,800,000 undefinitized contract action under previously awarded contract (N00024-24-C-2124) in support of procurement for two Subsafe hull and back up valves. Work will be performed in Annapolis, Maryland, and is expected to be completed by December 2028. Fiscal 2025 research development test and evaluation (Navy) funds in the amount of $5,410,939 (9%) will be obligated at time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C2124"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 57800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5410939.0,
+        "funding_text": "Fiscal 2025 research development test and evaluation (Navy) funds in the amount of $5,410,939 (9%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-24-C-2124",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Procurement of two Subsafe hull and back up valves",
+        "base_contract_number": "N00024-24-C-2124",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5410939,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "LOGMET LLC, Austin, Texas, is awarded $27,126,316 firm-fixed-price, indefinite-delivery/indefinite-quantity contract (M0068125D0005) for motor vehicle operations support at the Marine Corps (USMC) Southwest Region Fleet Transportation Department. Work will be performed at various USMC military installations throughout California, Arizona, and Nevada, with an expected completion date of July 2030. This contract includes a five-year ordering period. Fiscal 2025 operations and maintenance (USMC) funds in the amount of $200,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the System for Award Management (SAM) website with two proposals received. The Marine Corps Installations West, Regional Contracting Office, Camp Pendleton, California, is the contracting activity (M0068125D0005).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "M0068125D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27126316.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 200000.0,
+        "funding_text": "Fiscal 2025 operations and maintenance (USMC) funds in the amount of $200,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2030-07",
+        "contracting_activity": {
+          "name": "The Marine Corps Installations West, Regional Contracting Office, Camp Pendleton, California",
+          "code": "M0068125D0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "LOGMET LLC",
+            "location": "Austin, Texas",
+            "contract_number": "M0068125D0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Motor vehicle operations support, USMC Southwest Region Fleet Transportation Department",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27126316,
+        "cumulative_value_usd": null,
+        "obligated_usd": 200000,
+        "fms_countries": [],
+        "competition": "competitive, via SAM website, two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Global,** Irvine, California, is awarded a $14,905,002 firm-fixed-price modification to a previously awarded contract (N0002422C4203) to exercise options for the accomplishment of the Inactive Ships Maintenance Philadelphia requirement. Work will be performed in Philadelphia, Pennsylvania, and is expected to be completed June 2026. Fiscal 2025 operations and management (Navy) funds in the amount of $3,762,529 will be obligated at the time of award and will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C4203"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14905002.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3762529.0,
+        "funding_text": "Fiscal 2025 operations and management (Navy) funds in the amount of $3,762,529 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "a 1st Flagship Co."
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Global",
+            "location": "Irvine, California",
+            "contract_number": "N0002422C4203",
+            "markers": "**"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for Inactive Ships Maintenance Philadelphia requirement",
+        "base_contract_number": "N0002422C4203",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14905002,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3762529,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Marine Hydraulics International LLC - MHI Ship Repair & Service, Norfolk, Virginia, is being awarded an $11,488,745 modification to exercise options on a previously awarded contract (N00024-25-C-4431) for the USS New York (LPD 21) fiscal 2025 selected restricted availability. Work will be performed in Norfolk, Virginia, and is expected to be completed by September 2026. Fiscal 2025 operations and maintenance, (Navy) funds in the amount of $10,967,356 (96%); fiscal 2025 other procurement (Navy) funds in the amount of $274,550 (2%); and fiscal 2025 working capital funds (Navy) in the amount of $246,839 (2%), will be obligated at time of award and will not expire at the end of the current fiscal year. Mid Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C4431"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11488745.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11488745.0,
+        "funding_text": "Fiscal 2025 operations and maintenance, (Navy) funds in the amount of $10,967,356 (96%); fiscal 2025 other procurement (Navy) funds in the amount of $274,550 (2%); and fiscal 2025 working capital funds (Navy) in the amount of $246,839 (2%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-09",
+        "contracting_activity": {
+          "name": "Mid Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Marine Hydraulics International LLC - MHI Ship Repair & Service",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00024-25-C-4431",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "USS New York (LPD 21) fiscal 2025 selected restricted availability",
+        "base_contract_number": "N00024-25-C-4431",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11488745,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11488745,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Vectrus Systems LLC, Colorado Springs, Colorado, was awarded a $118,020,690 cost-plus-fixed-fee undefinitized contract action, for base support services in support of the Iraq F-16 program. This contract provides for base operating support, base life support, and security services. Work will be performed at Martyr BG Ali Flaih Air Base (formerly Balad Air Base), Iraq, and is expected to be completed by Nov. 30, 2026. This contract involves Foreign Military Sales (FMS) to Iraq. This contract was a sole source acquisition as requested in a Letter of Request and agreed to in a Letter of Offer and Acceptance. FMS funds in the amount of $57,830,138 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8630-25-C-B017).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA863025CB017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 118020690.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57830138.0,
+        "funding_text": "FMS funds in the amount of $57,830,138 are being obligated at the time of award",
+        "completion_date": "2026-11-30",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8630-25-C-B017"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Vectrus Systems LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8630-25-C-B017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee undefinitized contract action",
+        "description": "Base support services for Iraq F-16 program at Martyr BG Ali Flaih Air Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 118020690,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57830138,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Colossal Contracting LLC, Annapolis, Maryland (FA8501-25-D-0001); DISYS Solutions Inc., Ashburn, Virginia (FA8501-25-D-0002); FedData Technology Solutions LLC, Annapolis Junction, Maryland (FA8501-25-D-0003); GovSmart Inc., Charlottesville, Virginia (FA8501-25-D-0004); and Sterling Computers Corp., North Sioux City, South Dakota (FA8501-25-D-0005), have been awarded a ceiling $84,556,394 firm-fixed-price, multiple award, indefinite‐delivery/indefinite‐quantity contracts for the purchase of infrastructure hardware and any incidental warranty services for the installation, sustainment, development, and expansion of Robins Air Force Base NIPR/SIPR infrastructure and its facilities. The contract provides for supporting the deployment of new technology within the Robins AFB NIPR/SIPR infrastructure. Work will be performed at Robins AFB, Georgia, and is expected to be completed by June 24, 2030. These contracts were a competitive acquisition and five offers were received. Fiscal 2025 working capital funds in the amount of $745,257 are being obligated at the time of award. The Air Force Sustainment Center, Operational Contracting Branch, Robins AFB, Georgia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA850125D0001",
+          "FA850125D0002",
+          "FA850125D0003",
+          "FA850125D0004",
+          "FA850125D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 84556394.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 745257.0,
+        "funding_text": "Fiscal 2025 working capital funds in the amount of $745,257 are being obligated at the time of award",
+        "completion_date": "2030-06-24",
+        "contracting_activity": {
+          "name": "The Air Force Sustainment Center, Operational Contracting Branch, Robins AFB, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Colossal Contracting LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "FA8501-25-D-0001",
+            "markers": null
+          },
+          {
+            "name": "DISYS Solutions Inc.",
+            "location": "Ashburn, Virginia",
+            "contract_number": "FA8501-25-D-0002",
+            "markers": null
+          },
+          {
+            "name": "FedData Technology Solutions LLC",
+            "location": "Annapolis Junction, Maryland",
+            "contract_number": "FA8501-25-D-0003",
+            "markers": null
+          },
+          {
+            "name": "GovSmart Inc.",
+            "location": "Charlottesville, Virginia",
+            "contract_number": "FA8501-25-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Sterling Computers Corp.",
+            "location": "North Sioux City, South Dakota",
+            "contract_number": "FA8501-25-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, multiple award indefinite-delivery/indefinite-quantity",
+        "description": "Infrastructure hardware for Robins AFB NIPR/SIPR infrastructure",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 84556394,
+        "cumulative_value_usd": null,
+        "obligated_usd": 745257,
+        "fms_countries": [],
+        "competition": "competitive, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Co., Marietta, Georgia, was awarded a $48,809,421 cost-plus-fixed-fee and firm-fixed-price, indefinite-delivery/indefinite-quantity contract action for replacement multi-functional control display for the C-5M Super Galaxy fleet. This contract provides for development, integration, testing, kitting, pre-production, prototype installation, and development testing of an integrated design into the latest C-5 configuration. Work will be performed at Marietta, Georgia; and Greenville, South Carolina, and is expected to be completed by May 31, 2028. This contract was a sole source acquisition. Fiscal 2025 research, development, test and evaluation funds in the amount of $8,500,000 are being obligated at the time of award. The C-5 Contracting Branch, Robins Air Force Base, Georgia, is the contracting activity (FA8525-25-D-B003).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA852525DB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 48809421.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8500000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $8,500,000 are being obligated at the time of award",
+        "completion_date": "2028-05-31",
+        "contracting_activity": {
+          "name": "The C-5 Contracting Branch, Robins Air Force Base, Georgia",
+          "code": "FA8525-25-D-B003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8525-25-D-B003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Replacement multi-functional control display for C-5M Super Galaxy fleet",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48809421,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8500000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "L3Harris Global Communications Inc., Rochester, New York, was awarded a $29,635,553 firm-fixed-price contract for communications equipment and accessories. Bids were solicited via the internet with one received. Work will be performed in Rochester, New York, with an estimated completion date of April 30, 2027. Fiscal 2010 other procurement, Army funds in the amount of $29,635,553 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-25-C-5050).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB25C5050"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29635553.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29635553.0,
+        "funding_text": "Fiscal 2010 other procurement, Army funds in the amount of $29,635,553 were obligated at the time of the award",
+        "completion_date": "2027-04-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-25-C-5050"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "L3Harris Global Communications Inc.",
+            "location": "Rochester, New York",
+            "contract_number": "W91CRB-25-C-5050",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Communications equipment and accessories",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29635553,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29635553,
+        "fms_countries": [],
+        "competition": "internet solicitation, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:56Z",
-  "source": "file:2025-06-25.html"
+  "source": "file:2025-06-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:00:58Z"
+  }
 }

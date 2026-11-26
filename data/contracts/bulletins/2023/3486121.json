@@ -11,51 +11,421 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bowhead Marine Support Services LLC,* Springfield, Virginia, is being awarded a $25,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide the Navy and eligible foreign partner nations access to a broad range of services and materials associated with the acquisition, operation, and maintenance of small boat maritime assets. Work under this contract will be performed world-wide; specific locations will not be known until the requirements are identified by the Navy or eligible foreign partner nations through orders under the contract (ordering will be through August 6, 2028). This contract combines purchases for the Navy (25%); and various foreign partner nations (75%), under the Foreign Military Sales program. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(5) (a statute expressly authorizes or requires that the procurement be made through another agency or from a specified source). The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-23-D-4116).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002423D4116"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-23-D-4116"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bowhead Marine Support Services LLC",
+            "location": "Springfield, Virginia",
+            "contract_number": "N00024-23-D-4116",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Small boat maritime asset acquisition, operation, and maintenance services and materials for Navy and eligible foreign partner nations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S. Code 3204(a)(5)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Safe Boats International LLC,* Bremerton, Washington, is awarded a $22,271,829 firm-fixed-price modification to previously-awarded contract N00024-21-C-2201 for the exercise of options for procurement and installation of six Gun Weapon Systems onto the Island Class patrol boats with spares. Work will be performed in Tacoma, Washington, and is expected to be completed by October 2024. Foreign Military Financing (Ukraine) funds in the amount of $22,271,829 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Aug. 3, 2023)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C2201"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22271829.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22271829.0,
+        "funding_text": "Foreign Military Financing (Ukraine) funds in the amount of $22,271,829 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-10",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Safe Boats International LLC",
+            "location": "Bremerton, Washington",
+            "contract_number": "N00024-21-C-2201",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for procurement and installation of six Gun Weapon Systems onto Island Class patrol boats with spares",
+        "base_contract_number": "N00024-21-C-2201",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22271829,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22271829,
+        "fms_countries": [
+          "Ukraine"
+        ],
+        "competition": null,
+        "award_date": "2023-08-03"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics NASSCO-Norfolk, Norfolk, Virginia, is awarded a $9,529,812 modification to previously awarded cost-plus-award-fee, cost-plus-incentive-fee contract N00024-16-C-4306 for the USS George H.W. Bush (CVN-77) fiscal 2023 continuous maintenance availability. Work will be performed in Norfolk, Virginia, and is expected to be completed December 2023. Fiscal 2023 operations and maintenance, Navy funds in the amount of $9,529,812 will be utilized in support of this modification. Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C4306"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9529812.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics NASSCO-Norfolk",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00024-16-C-4306",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee, cost-plus-incentive-fee",
+        "description": "USS George H.W. Bush (CVN-77) fiscal 2023 continuous maintenance availability",
+        "base_contract_number": "N00024-16-C-4306",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9529812,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9529812,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Systems Corp., New Orleans, Louisiana, was awarded a firm-fixed-price modification in the amount of $7,763,000 to the previously awarded contract N00024-17-C 2480. This effort is to provide Major Shore Based Spares to support Landing Craft Air Cushion 100 Class at ACU-4. Funding in the amount of $7,763,000 will be obligated at time of contract modification release. Fiscal 2020 other procurement, Navy funds in the amount of $7,763,000 (100%) are obligated at time of award; funds will expire at the end of fiscal 2026. The Supervisor of Shipbuilding, Conversion, and Repair, Gulf Coast, Pascagoula, Mississippi, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7763000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15526000.0,
+        "funding_text": "Funding in the amount of $7,763,000 will be obligated at time of contract modification release Fiscal 2020 other procurement, Navy funds in the amount of $7,763,000 (100%) are obligated at time of award; funds will expire at the end of fiscal 2026",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding, Conversion, and Repair, Gulf Coast, Pascagoula, Mississippi",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Textron Systems Corp.",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "N00024-17-C 2480",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Major Shore Based Spares to support Landing Craft Air Cushion 100 Class at ACU-4",
+        "base_contract_number": "N00024-17-C 2480",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7763000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7763000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Burns and McDonnell Engineering Co., Kansas City, Missouri, was awarded a $100,000,000 firm-fixed-price contract for architect and engineer services. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 6, 2024. National Guard Bureau’s Directorate of Acquisitions, Operational Contracting Division, Arlington, Virginia, is the contracting activity (W9133L-23-D-6100).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9133L23D6100"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-08-06",
+        "contracting_activity": {
+          "name": "National Guard Bureau’s Directorate of Acquisitions, Operational Contracting Division, Arlington, Virginia",
+          "code": "W9133L-23-D-6100"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Burns and McDonnell Engineering Co.",
+            "location": "Kansas City, Missouri",
+            "contract_number": "W9133L-23-D-6100",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect and engineer services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Roundhouse PBN LLC,* Warner Robins, Georgia, was awarded a $49,021,451 firm-fixed-price contract for building repairs. Bids were solicited via the internet with four received. Work will be performed at Fort Moore, Georgia, with an estimated completion date of June 30, 2025. Fiscal 2023 operation and maintenance, Army funds in the amount of $49,021,451 were obligated at the time of the award. U.S. Army Corps of Engineers, Savannah, Georgia, is the contracting activity (W912HN-23-C-4002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912HN23C4002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49021451.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 49021451.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Army funds in the amount of $49,021,451 were obligated at the time of the award",
+        "completion_date": "2025-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Savannah, Georgia",
+          "code": "W912HN-23-C-4002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Roundhouse PBN LLC",
+            "location": "Warner Robins, Georgia",
+            "contract_number": "W912HN-23-C-4002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Building repairs at Fort Moore, Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49021451,
+        "cumulative_value_usd": null,
+        "obligated_usd": 49021451,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Regulus Global LLC,* Virginia Beach, Virginia, was awarded a $10,830,090 firm-fixed-price contract for the Army/Navy Portable Visual Search-21 Low Profile Night Vision Goggle Kits, Clip on Thermal Modules, Micro Combat Identification Beacons, and Airfield Multi-Spectral Beacon System Lighting System Kits. Bids were solicited via the internet with one received. Work will be performed in Miamisburg, Ohio, with an estimated completion date of May 30, 2025. Fiscal 2010 Foreign Military Sales (Egypt) funds in the amount of $10,830,090 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-23-C-5024).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB23C5024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10830090.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10830090.0,
+        "funding_text": "Fiscal 2010 Foreign Military Sales (Egypt) funds in the amount of $10,830,090 were obligated at the time of the award",
+        "completion_date": "2025-05-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-23-C-5024"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Egypt"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Regulus Global LLC",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "W91CRB-23-C-5024",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Army/Navy Portable Visual Search-21 Low Profile Night Vision Goggle Kits, Clip on Thermal Modules, Micro Combat Identification Beacons, and Airfield Multi-Spectral Beacon System Lighting System Kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10830090,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10830090,
+        "fms_countries": [
+          "Egypt"
+        ],
+        "competition": "Bids solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Vinyl Technology Inc.,* Monrovia, California, has been awarded a maximum $38,799,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for waterproof clothing bags. This was a competitive acquisition with two responses received. This is a three-year tiered contract. The ordering period end date is Aug. 7, 2026. Using military service is Army. Type of appropriation is fiscal 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-23-D-0072).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C123D0072"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38799000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-23-D-0072"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Vinyl Technology Inc.",
+            "location": "Monrovia, California",
+            "contract_number": "SPE1C1-23-D-0072",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Waterproof clothing bags",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38799000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-08-07.html"
+  "source": "file:2023-08-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:23:33Z"
+  }
 }

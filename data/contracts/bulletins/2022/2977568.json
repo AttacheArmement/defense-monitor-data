@@ -12,87 +12,768 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Abbott Rapid Dx North America LLC, Orlando, Florida, was awarded a $1,027,500,000 modification (P00003) to contract W58P05-22-C-0008 for COVID-19 rapid antigen test kits. Work will be performed in Orlando, Florida, with an estimated completion date of June 26, 2022. American Rescue Plan Act funds in the amount of $1,027,500,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity. (Awarded March 23, 2022)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0008"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 1027500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1027500000.0,
+        "funding_text": "American Rescue Plan Act funds in the amount of $1,027,500,000 were obligated at the time of the award",
+        "completion_date": "2022-06-26",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Abbott Rapid Dx North America LLC",
+            "location": "Orlando, Florida",
+            "contract_number": "W58P05-22-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "COVID-19 rapid antigen test kits",
+        "base_contract_number": "W58P05-22-C-0008",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 1027500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1027500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-03-23"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "IMPSA International Inc.,* Monroeville, Pennsylvania, was awarded a $47,944,815 firm-fixed-price contract for design, fabrication, and transportation of two ship-to-shore container cranes to be delivered to Military Ocean Terminal Concord in Concord, California. Bids were solicited via the internet with three received. Work will be performed in Monroeville, Pennsylvania, with an estimated completion date of March 25, 2025. Fiscal 2022 other procurement, Army funds in the amount of $47,944,815 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-22-C-0025).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47944815.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 47944815.0,
+        "funding_text": "Fiscal 2022 other procurement, Army funds in the amount of $47,944,815 were obligated at the time of the award",
+        "completion_date": "2025-03-25",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-22-C-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "IMPSA International Inc.",
+            "location": "Monroeville, Pennsylvania",
+            "contract_number": "W56HZV-22-C-0025",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design, fabrication, and transportation of two ship-to-shore container cranes for Military Ocean Terminal Concord",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47944815,
+        "cumulative_value_usd": null,
+        "obligated_usd": 47944815,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 3 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Contrack Watts Inc., McLean, Virginia, was awarded a $34,030,929 firm-fixed-price contract for the design bid-build construction of an electrical system upgrade at the Naval Support Activity in the Kingdom of Bahrain. Bids were solicited via the internet with five received. Work will be performed in Manama, Bahrain, with an estimated completion date of Oct. 19, 2024. Fiscal 2020 military construction, defense-wide funds in the amount of $34,030,929 were obligated at the time of the award. U.S. Army Corps of Engineers, Middle East District, is the contracting activity (W912ER-22-C-0010).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912ER22C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34030929.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34030929.0,
+        "funding_text": "Fiscal 2020 military construction, defense-wide funds in the amount of $34,030,929 were obligated at the time of the award",
+        "completion_date": "2024-10-19",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Middle East District",
+          "code": "W912ER-22-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Contrack Watts Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "W912ER-22-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-bid-build construction of electrical system upgrade at Naval Support Activity, Kingdom of Bahrain",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34030929,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34030929,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Jacobs Engineering Group Inc., Dallas, Texas, was awarded a $28,960,397 firm-fixed-price contract for environmental support tasks at Hill Air Force Base. Bids were solicited via the internet with one received. Work will be performed at Hill AFB, Utah, with an estimated completion date of March 31, 2027. Fiscal 2022 operation and maintenance, Air Force funds in the amount of $5,902,539 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-22-C-0011).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9123822C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28960397.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5902539.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Air Force funds in the amount of $5,902,539 were obligated at the time of the award",
+        "completion_date": "2027-03-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-22-C-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Jacobs Engineering Group Inc.",
+            "location": "Dallas, Texas",
+            "contract_number": "W91238-22-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Environmental support tasks at Hill Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28960397,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5902539,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "American International Contractors Inc., McLean, Virginia, was awarded a $24,750,303 firm-fixed-price contract to construct an F-16 maintenance hangar at Marsa Matrouh Air Base in Egypt. Bids were solicited via the internet with one received. Work will be performed in Egypt, with an estimated completion date of Sept. 30, 2024. Fiscal 2019 Foreign Military Financing (Egypt) funds in the amount of $24,750,303 were obligated at the time of the award. U.S. Army Corps of Engineers, Middle East District, is the contracting activity (W912ER-22-F-0059).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912ER22F0059"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24750303.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24750303.0,
+        "funding_text": "Fiscal 2019 Foreign Military Financing (Egypt) funds in the amount of $24,750,303 were obligated at the time of the award",
+        "completion_date": "2024-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Middle East District",
+          "code": "W912ER-22-F-0059"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "American International Contractors Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "W912ER-22-F-0059",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of F-16 maintenance hangar at Marsa Matrouh Air Base, Egypt",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24750303,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24750303,
+        "fms_countries": [
+          "Egypt"
+        ],
+        "competition": "Internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Butt Construction Company Inc.,* Dayton, Ohio, was awarded a $7,813,100 firm-fixed-price contract to construct an addition to an existing building for research purposes. Bids were solicited via the internet with two received. Work will be performed at Wright-Patterson Air Force Base, Ohio, with an estimated completion date of June 3, 2023. Fiscal 2022 research, development, test and evaluation, defense-wide funds in the amount of $7,813,100 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-22-C-0017).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912QR22C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7813100.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7813100.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation, defense-wide funds in the amount of $7,813,100 were obligated at the time of the award",
+        "completion_date": "2023-06-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-22-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Butt Construction Company Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "W912QR-22-C-0017",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of building addition for research purposes at Wright-Patterson AFB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7813100,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7813100,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Torch Technologies Inc., Huntsville, Alabama, was awarded a $7,679,109 modification (P00021) to contract W31P4Q-21-F-0054 for modeling, simulation, analysis, integration and development support. Work will be performed in Huntsville, Alabama, with an estimated completion date of March 23, 2023. Fiscal 2022 research, development, test and evaluation, Army funds; fiscal 2022 research, development, test and evaluation, defense-wide funds; and fiscal 2022 operation and maintenance, Army funds in the amount of $7,679,109 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q21F0054"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 7679109.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7679109.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation, Army funds; fiscal 2022 research, development, test and evaluation, defense-wide funds; and fiscal 2022 operation and maintenance, Army funds in the amount of $7,679,109 were obligated at the time of the award",
+        "completion_date": "2023-03-23",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Torch Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Modeling, simulation, analysis, integration and development support",
+        "base_contract_number": "W31P4Q-21-F-0054",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 7679109,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7679109,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Doyon Management Services LLC, Federal Way, Washington (FA8201-22-D-0013); DSB-RLR II JV LLC, American Fork, Utah (FA8201-22-D-0014); GE JV LLC, Layton, Utah (FA8201-22-D-0015); Nomlaki Technologies LLC, West Sacramento, California (FA8201-22-D-0006); NVE-HHI, Cedar Valley, Utah (FA8201-22-D-0007); RHI LLC, West Haven, Utah (FA8201-22-D-0011); Rio Vista Management LLC, West Jordan, Utah (FA8201-22-D-0010); Sahara Palms Inc., Fruitland, Utah (FA8201-22-D-0012); and West Coast JV LLC, Coos Bay, Oregon (FA8201-22-D-0008), have been awarded an estimated maximum $385,000,000 indefinite-delivery/indefinite-quantity multiple award construction contract. This contract provides for general construction services at Hill Air Force Base, Utah, and Utah Air National Guard Base, Utah. The work is expected to be completed by Sept. 23, 2028. This award is the result of a competitive acquisition and 16 offers were received. Fiscal 2022 Air Force working capital funds in the amount of $22,500 will be obligated at the time of award. Hill AFB, Utah, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA820122D0013",
+          "FA820122D0014",
+          "FA820122D0015",
+          "FA820122D0006",
+          "FA820122D0007",
+          "FA820122D0011",
+          "FA820122D0010",
+          "FA820122D0012",
+          "FA820122D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 385000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22500.0,
+        "funding_text": "Fiscal 2022 Air Force working capital funds in the amount of $22,500 will be obligated at the time of award",
+        "completion_date": "2028-09-23",
+        "contracting_activity": {
+          "name": "Hill AFB, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Doyon Management Services LLC",
+            "location": "Federal Way, Washington",
+            "contract_number": "FA8201-22-D-0013",
+            "markers": null
+          },
+          {
+            "name": "DSB-RLR II JV LLC",
+            "location": "American Fork, Utah",
+            "contract_number": "FA8201-22-D-0014",
+            "markers": null
+          },
+          {
+            "name": "GE JV LLC",
+            "location": "Layton, Utah",
+            "contract_number": "FA8201-22-D-0015",
+            "markers": null
+          },
+          {
+            "name": "Nomlaki Technologies LLC",
+            "location": "West Sacramento, California",
+            "contract_number": "FA8201-22-D-0006",
+            "markers": null
+          },
+          {
+            "name": "NVE-HHI",
+            "location": "Cedar Valley, Utah",
+            "contract_number": "FA8201-22-D-0007",
+            "markers": null
+          },
+          {
+            "name": "RHI LLC",
+            "location": "West Haven, Utah",
+            "contract_number": "FA8201-22-D-0011",
+            "markers": null
+          },
+          {
+            "name": "Rio Vista Management LLC",
+            "location": "West Jordan, Utah",
+            "contract_number": "FA8201-22-D-0010",
+            "markers": null
+          },
+          {
+            "name": "Sahara Palms Inc.",
+            "location": "Fruitland, Utah",
+            "contract_number": "FA8201-22-D-0012",
+            "markers": null
+          },
+          {
+            "name": "West Coast JV LLC",
+            "location": "Coos Bay, Oregon",
+            "contract_number": "FA8201-22-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award construction contract",
+        "description": "General construction services at Hill AFB and Utah Air National Guard Base, Utah",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 385000000,
+        "cumulative_value_usd": 385000000,
+        "obligated_usd": 22500,
+        "fms_countries": [],
+        "competition": "Competitive, 16 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Bionetics Corp., Heath, Ohio, has been awarded a $13,879,256 undefinitized contract modification to previously awarded contract F0965001C0267 for Air Force Primary Standards Laboratory services. This contract provides for calibration and technical order writing services. Work will be performed in Heath, Ohio, and is expected to be completed by Nov. 30, 2022. This award is the result of a sole source acquisition. Fiscal 2022 operations and maintenance funds in the amount of $4,728,487; and Foreign Military Sales funds in the amount of $595,815 are being obligated at the time of award. Air Force Life Cycle Management Center, Heath, Ohio, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "F0965001C0267"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13879256.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5324302.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds in the amount of $4,728,487; and Foreign Military Sales funds in the amount of $595,815 are being obligated at the time of award",
+        "completion_date": "2022-11-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Heath, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "The Bionetics Corp.",
+            "location": "Heath, Ohio",
+            "contract_number": "F0965001C0267",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract modification",
+        "description": "Air Force Primary Standards Laboratory calibration and technical order writing services",
+        "base_contract_number": "F0965001C0267",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13879256,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5324302,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Summit Technical Solutions LLC, Colorado Springs, Colorado, has been awarded an $8,696,468 contract modification (P00055) to previously awarded contract FA2517-17-C-8000 for the Perimeter Acquisition Radar Attack Characterization System. This contract modification provides for the exercise of Option Year Five for management, operation, maintenance and logistical support. Work will be performed at Cavalier Space Force Station, North Dakota, and is expected to be completed by April 30, 2023. Fiscal 2022 operational and maintenance funds in the amount of $8,696,468 are being obligated at the time of award. The total cumulative face value of the contract is $53,700,000. The Space Operations Command Space Acquisition Management Directorate, Peterson Space Force Base, Colorado, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA251717C8000"
+        ],
+        "modification_numbers": [
+          "P00055"
+        ],
+        "is_modification": true,
+        "value_usd": 8696468.0,
+        "cumulative_value_usd": 53700000.0,
+        "obligated_usd": 8696468.0,
+        "funding_text": "Fiscal 2022 operational and maintenance funds in the amount of $8,696,468 are being obligated at the time of award",
+        "completion_date": "2023-04-30",
+        "contracting_activity": {
+          "name": "The Space Operations Command Space Acquisition Management Directorate, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Summit Technical Solutions LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA2517-17-C-8000",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Perimeter Acquisition Radar Attack Characterization System: Option Year Five management, operation, maintenance and logistical support at Cavalier Space Force Station",
+        "base_contract_number": "FA2517-17-C-8000",
+        "order_number": null,
+        "modification_number": "P00055",
+        "value_usd": 8696468,
+        "cumulative_value_usd": 53700000,
+        "obligated_usd": 8696468,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is awarded a $71,811,770 cost-plus-fixed-fee modification (P00221) to a previously awarded contract (N0001914C0067). This modification adds scope to provide segregable effort support, unknown obsolescence, Class I change assessments and obsolescence monitoring in support of the P-8A Multi-mission Maritime aircraft Lot 12 production line. Work will be performed in Seattle, Washington (97.1%); Huntington Beach, California (2.7%); and Colorado Springs, Colorado (0.2%), and is expected to be completed in April 2025. Fiscal 2021 aircraft procurement (Navy) funds in the amount of $24,811,251; Foreign Military Sales customer funds in the amount of $41,480,002; and Foreign Cooperative Project funds in the amount of $2,059,820 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0067"
+        ],
+        "modification_numbers": [
+          "P00221"
+        ],
+        "is_modification": true,
+        "value_usd": 71811770.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 68351073.0,
+        "funding_text": "Fiscal 2021 aircraft procurement (Navy) funds in the amount of $24,811,251; Foreign Military Sales customer funds in the amount of $41,480,002; and Foreign Cooperative Project funds in the amount of $2,059,820 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N0001914C0067",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "P-8A Multi-mission Maritime aircraft Lot 12 production line segregable effort support, unknown obsolescence, Class I change assessments and obsolescence monitoring",
+        "base_contract_number": "N0001914C0067",
+        "order_number": null,
+        "modification_number": "P00221",
+        "value_usd": 71811770,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67351073,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Gravois Aluminum Boats LLC,* doing business as Metal Shark, Jeanerette, Louisiana, is awarded a $36,195,438 firm-fixed-price modification to previously awarded indefinite-delivery/indefinite-quantity contract N00024-17-D-2201 to establish fiscal 2022 and fiscal 2023 pricing for Near Coastal Patrol Vessels (NCPVs) Seven through Ten, and accompanying outfitting, testing, spares, tools, travel, reactivation, crew familiarization, exportation, and transportation. This modification supports Foreign Military Sales (FMS) orders from nations within the U.S. Southern Command area of responsibility. Specific FMS sales will be identified as future delivery orders occur. Work will be performed in Franklin, Louisiana, and is expected to be completed by November 2024. No funding will be obligated at the time of award. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0002417D2201"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 36195438.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2024-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Gravois Aluminum Boats LLC",
+            "location": "Jeanerette, Louisiana",
+            "contract_number": "N00024-17-D-2201",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price modification",
+        "description": "Establish fiscal 2022 and 2023 pricing for Near Coastal Patrol Vessels Seven through Ten, with outfitting, testing, spares, and FMS support (doing business as Metal Shark)",
+        "base_contract_number": "N00024-17-D-2201",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36195438,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary Mission Systems, Orlando, Florida, is awarded a $12,442,888 cost-plus-fixed-fee modification (P00058) to a previously awarded contract (N6833517C0253). This modification adds scope to provide sustainment support, to include repair of repairables, replenishment of consumables, asset management, packaging, shipping, obsolescence, class II engineering change proposals, installation and sustaining engineering support for the electronic Consolidated Automated Support System. Work will be performed in Orlando, Florida, and is expected to be completed in April 2024. Working capital (Navy) funds in the amount of $5,800,000; and fiscal 2022 aircraft procurement (Navy) funds in the amount of $2,998,653 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N6833517C0253"
+        ],
+        "modification_numbers": [
+          "P00058"
+        ],
+        "is_modification": true,
+        "value_usd": 12442888.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8798653.0,
+        "funding_text": "Working capital (Navy) funds in the amount of $5,800,000; and fiscal 2022 aircraft procurement (Navy) funds in the amount of $2,998,653 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary Mission Systems",
+            "location": "Orlando, Florida",
+            "contract_number": "N6833517C0253",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Sustainment support for the electronic Consolidated Automated Support System (eCASS), including repair of repairables, replenishment of consumables, asset management, packaging, shipping, obsolescence, class II engineering change proposals, installation and sustaining engineering support",
+        "base_contract_number": "N6833517C0253",
+        "order_number": null,
+        "modification_number": "P00058",
+        "value_usd": 12442888,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8798653,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bestwork Industries for the Blind Inc.,** Cherry Hill, New Jersey, has been awarded a maximum $12,271,104 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for blue, black and coyote brown fleece liners. This is a one-year base contract with two one-year option periods. Location of performance is New Jersey, with a March 23, 2023, ordering period end date. Using military service is Navy. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-22-D-B124).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122DB124"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12271104.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-22-D-B124"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Bestwork Industries for the Blind Inc.",
+            "location": "Cherry Hill, New Jersey",
+            "contract_number": "SPE1C1-22-D-B124",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Blue, black and coyote brown fleece liners; one-year base with two one-year option periods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12271104,
+        "cumulative_value_usd": 12271104,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-03-24.html"
+  "source": "file:2022-03-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:21:02Z"
+  }
 }

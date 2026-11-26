@@ -11,195 +11,1603 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Tucson, Arizona, has been awarded an approximately $2,000,000,000 (to include all options) cost-plus-fixed-fee with performance incentives contract for the engineering and manufacturing development (EMD) phase of the Long Range Standoff (LRSO) Weapon System. During the EMD phase, manufacturing processes will continue to mature and the manufacturing environment will be demonstrated and transitioned to a pilot line readiness state. The objective at the end of EMD is to demonstrate full production readiness. Work will be performed in Tucson, Arizona, and is expected to be completed February 2027. This contract is the result of a sole-source acquisition. Fiscal 2021 research, development, test and evaluation funds are being obligated at the time of award. Air Force Nuclear Weapons Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 2000000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation funds are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Tucson, Arizona",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee with performance incentives contract",
+        "description": "Engineering and manufacturing development phase of the Long Range Standoff (LRSO) Weapon System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2000000000,
+        "cumulative_value_usd": 2000000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a $79,420,164 delivery order (FA8689-21-F-2805) to a previously awarded indefinite-delivery/indefinite -quantity contract (FA8689-20-D-2020) for the France MQ-9 Block 5 aircraft procurement program. Work will be performed in Poway, California, and is expected to be completed March 29, 2024. This contract involves 100% Foreign Military Sales (FMS) to France. FMS funds in the full amount are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA868921F2805",
+          "FA868920D2020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 79420164.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "FMS funds in the full amount are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "France"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8689-21-F-2805",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "delivery order under indefinite-delivery/indefinite-quantity contract",
+        "description": "France MQ-9 Block 5 aircraft procurement program",
+        "base_contract_number": "FA8689-20-D-2020",
+        "order_number": "FA8689-21-F-2805",
+        "modification_number": null,
+        "value_usd": 79420164,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, has been awarded a $67,385,721.00 modification (P00235) to contract FA8625-11-C-6600 for Lot 6 spare parts and Lot 7 support equipment. Work will be performed in Seattle, Washington, and is expected to be completed by Oct. 30, 2024. Fiscal 2019 aircraft procurement funds in the amount of $47,308,613; and fiscal 2020 aircraft procurement funds in the amount of $20,077,108 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6600"
+        ],
+        "modification_numbers": [
+          "P00235"
+        ],
+        "is_modification": true,
+        "value_usd": 67385721.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67385721.0,
+        "funding_text": "Fiscal 2019 aircraft procurement funds in the amount of $47,308,613; and fiscal 2020 aircraft procurement funds in the amount of $20,077,108 are being obligated at the time of award",
+        "completion_date": "2024-10-30",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "FA8625-11-C-6600",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Lot 6 spare parts and Lot 7 support equipment",
+        "base_contract_number": "FA8625-11-C-6600",
+        "order_number": null,
+        "modification_number": "P00235",
+        "value_usd": 67385721,
+        "cumulative_value_usd": null,
+        "obligated_usd": 67385721,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems Information and Electronic Systems Integration, Manassas, Virginia, has been awarded a $16,295,110 modification (P00012) to contract FA9453-19-C-0009 to provide research options for space enterprise technologies. This modification is to research and develop improvements to the density, performance and power consumption of future space-system memory. Work will be performed in Manassas, Virginia, and is expected to be completed Oct. 21, 2023. Fiscal 2021 research, development, test and evaluation funds in the amount of $5,335,600 are being obligated at the time of award. The total cumulative face value of the contract is $21,559,726. Air Force Research Laboratory, Kirtland Air Force Base, New Mexico, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA945319C0009"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 16295110.0,
+        "cumulative_value_usd": 21559726.0,
+        "obligated_usd": 5335600.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation funds in the amount of $5,335,600 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Kirtland Air Force Base, New Mexico",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BAE Systems Information and Electronic Systems Integration",
+            "location": "Manassas, Virginia",
+            "contract_number": "FA9453-19-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Research on improved density, performance and power consumption of space-system memory for space enterprise technologies",
+        "base_contract_number": "FA9453-19-C-0009",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 16295110,
+        "cumulative_value_usd": 21559726,
+        "obligated_usd": 5335600,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Altus Technology Solutions LLC, Hanover, Maryland, has been awarded a $10,816,036 firm‐fixed-price contract for operations, maintenance, and support services at Melrose Air Force Range. Work will be performed in Melrose, New Mexico, and is expected to be completed Nov. 30, 2025. This award is the result of a competitive acquisition with five offers received. Fiscal 2022 operation and maintenance funds in the full amount will be obligated once funds are certified after Oct. 1, 2021. The 27th Special Operations Contracting Squadron, Cannon Air Force Base, New Mexico, is the contracting activity (FA4855-21-C-0013).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA485521C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10816036.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operation and maintenance funds in the full amount will be obligated once funds are certified after Oct. 1, 2021",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 27th Special Operations Contracting Squadron, Cannon Air Force Base, New Mexico",
+          "code": "FA4855-21-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Altus Technology Solutions LLC",
+            "location": "Hanover, Maryland",
+            "contract_number": "FA4855-21-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Operations, maintenance, and support services at Melrose Air Force Range",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10816036,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition with five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Threat Management Group LLC, North Charleston, South Carolina, has been awarded a $7,621,740 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for commercial off-the-shelf training aid items. This contract provides for training aid supplies for Counter-Improvised Explosive Device and Counter-small Unmanned Aircraft systems. Work will be performed in Ladson, South Carolina, and is expected to be completed June 30, 2026. This award is the result of a competitive acquisition. Fiscal 2021 operation and maintenance funds in the amount of $8,385 are being obligated at the time of award. The 338th Enterprise Sourcing Squadron, Joint Base San Antonio-Randolph, Texas, is the contracting activity (FA3002-21-D-0006).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA300221D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7621740.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8385.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $8,385 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 338th Enterprise Sourcing Squadron, Joint Base San Antonio-Randolph, Texas",
+          "code": "FA3002-21-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Threat Management Group LLC",
+            "location": "North Charleston, South Carolina",
+            "contract_number": "FA3002-21-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Commercial off-the-shelf training aid items for Counter-IED and Counter-small Unmanned Aircraft systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7621740,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8385,
+        "fms_countries": [],
+        "competition": "competitive acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Wornick Foods, Cincinnati, Ohio, has been awarded a maximum $105,487,120 fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE3S1-20-R-0002 for production and delivery of modular operational ration enhancements. This was a competitive acquisition with three offers received. This is a five-year contract with no option periods. Location of performance is Ohio, with a June 29, 2026, ordering period end date. Using military services are Army and Marine Corps. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE3S1-21-D-Z130).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE3S120R0002",
+          "SPE3S121DZ130"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 105487120.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE3S1-21-D-Z130"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Wornick Foods",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "SPE3S1-21-D-Z130",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Production and delivery of modular operational ration enhancements (solicitation SPE3S1-20-R-0002)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 105487120,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition with three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Welcome Dairy LLC,* Colby, Wisconsin (SPE3S1-21-D-Z132, $69,091,636); and ThermoPac LLC, Stone Mountain, Georgia (SPE3S1-21-D-Z131, $58,295,709), have each been awarded a fixed-price and fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for production and delivery of meals-ready-to-eat spreads components. These were competitive acquisitions with two offers received. These are five-year contracts with no option periods. Locations of performance are Wisconsin and Georgia, with an Oct. 30, 2026, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2027 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE3S121DZ132",
+          "SPE3S121DZ131"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 69091636.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Welcome Dairy LLC",
+            "location": "Colby, Wisconsin",
+            "contract_number": "SPE3S1-21-D-Z132",
+            "markers": "*"
+          },
+          {
+            "name": "ThermoPac LLC",
+            "location": "Stone Mountain, Georgia",
+            "contract_number": "SPE3S1-21-D-Z131",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price and fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract",
+        "description": "Production and delivery of meals-ready-to-eat spreads components",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition with two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Alliant Healthcare Products, Grand Rapids, Michigan, has been awarded a maximum $49,000,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for medical and surgical supplies. This was a competitive acquisition with 17 responses received. This is a five-year contract with no option periods. Location of performance is Michigan, with a June 30, 2026, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-21-D-0034).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE21D0034"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-21-D-0034"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Alliant Healthcare Products",
+            "location": "Grand Rapids, Michigan",
+            "contract_number": "SPE2DE-21-D-0034",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract",
+        "description": "Medical and surgical supplies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition with 17 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Renzi Brothers Inc.,* doing business as Renzi Food Service, Watertown, New York, has been awarded a maximum $10,528,769 fixed-price with economic-price-adjustment, indefinite-quantity contract for full-line food distribution. This was a competitive acquisition within Zone 1 with two responses received. This is a two-year base contract with two 18-month option periods. Locations of performance are Pennsylvania, New Jersey, and Southern New York, with a June 30, 2023, ordering period end date. Using customers are Army, Air Force, Navy, Marine Corps and Coast Guard. Type of appropriation is fiscal 2021 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-21-D-3319).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE30021D3319"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10528769.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-21-D-3319"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Renzi Brothers Inc. (doing business as Renzi Food Service)",
+            "location": "Watertown, New York",
+            "contract_number": "SPE300-21-D-3319",
+            "markers": "*"
+          },
+          {
+            "name": "Renzi Brothers Inc.",
+            "location": "Watertown, New York",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity contract",
+        "description": "Full-line food distribution, Zone 1",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10528769,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition within Zone 1 with two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Maersk Line Ltd., Norfolk, Virginia, has been awarded a $176,028,620 option period modification to a previously awarded contract (HTC71119DW026) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $519,197,595. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW026"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 176028620.0,
+        "cumulative_value_usd": 519197595.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Maersk Line Ltd.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "HTC71119DW026",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "option period modification",
+        "description": "International ocean and intermodal transportation services using ocean common or contract carriers",
+        "base_contract_number": "HTC71119DW026",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 176028620,
+        "cumulative_value_usd": 519197595,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "American President Lines LLC, Washington, D.C, has been awarded a $145,185,321 option period modification to a previously awarded contract (HTC71119DW014) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $428,225,079. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW014"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 145185321.0,
+        "cumulative_value_usd": 428225079.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "American President Lines LLC",
+            "location": "Washington, D.C",
+            "contract_number": "HTC71119DW014",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "option period modification",
+        "description": "International ocean and intermodal transportation services using ocean common or contract carriers",
+        "base_contract_number": "HTC71119DW014",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 145185321,
+        "cumulative_value_usd": 428225079,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "American Roll-On Roll-Off Carrier LLC, Parsippany, New Jersey, has been awarded a $86,914,021 option period modification to a previously awarded contract (HTC71119DW015) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $256,353,488. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW015"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 86914021.0,
+        "cumulative_value_usd": 256353488.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW015",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 86914021,
+        "cumulative_value_usd": 256353488,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "American Roll-On Roll-Off Carrier LLC",
+            "location": "Parsippany, New Jersey",
+            "contract_number": "HTC71119DW015",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Matson Navigation Company Inc., Oakland, California, has been awarded a $73,692,950 option period modification to a previously awarded contract (HTC71119DW027) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $217,357,849. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW027"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 73692950.0,
+        "cumulative_value_usd": 217357849.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW027",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 73692950,
+        "cumulative_value_usd": 217357849,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Matson Navigation Company Inc.",
+            "location": "Oakland, California",
+            "contract_number": "HTC71119DW027",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Liberty Global Logistics LLC, Lake Success, New York, has been awarded a $70,729,505 option period modification to a previously awarded contract (HTC71119DW025) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $208,617,149. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW025"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 70729505.0,
+        "cumulative_value_usd": 208617149.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW025",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70729505,
+        "cumulative_value_usd": 208617149,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Liberty Global Logistics LLC",
+            "location": "Lake Success, New York",
+            "contract_number": "HTC71119DW025",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Farrell Lines Inc., Dulles, Virginia, has been awarded a $64,110,167 option period modification to a previously awarded contract (HTC71119DW021) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $189,093,367. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW021"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 64110167.0,
+        "cumulative_value_usd": 189093367.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW021",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 64110167,
+        "cumulative_value_usd": 189093367,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Farrell Lines Inc.",
+            "location": "Dulles, Virginia",
+            "contract_number": "HTC71119DW021",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Hapag-Lloyd USA LLC, Piscataway, New Jersey, has been awarded a $57,848,789 option period modification to a previously awarded contract (HTC71119DW023) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $170,625,392. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW023"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 57848789.0,
+        "cumulative_value_usd": 170625392.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW023",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57848789,
+        "cumulative_value_usd": 170625392,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Hapag-Lloyd USA LLC",
+            "location": "Piscataway, New Jersey",
+            "contract_number": "HTC71119DW023",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Waterman Transport Inc., New York, New York, has been awarded a $35,179,904 option period modification to a previously awarded contract (HTC71119DW016) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $103,763,362. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 18
+      "seq": 18,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW016"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 35179904.0,
+        "cumulative_value_usd": 103763362.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 18,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW016",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35179904,
+        "cumulative_value_usd": 103763362,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Waterman Transport Inc.",
+            "location": "New York, New York",
+            "contract_number": "HTC71119DW016",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "TOTE Maritime Alaska LLC, Federal Way, Washington, has been awarded a $20,127,952 option period modification to a previously awarded contract (HTC71119DW036) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $59,367,528. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 19
+      "seq": 19,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW036"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 20127952.0,
+        "cumulative_value_usd": 59367528.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 19,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW036",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20127952,
+        "cumulative_value_usd": 59367528,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "TOTE Maritime Alaska LLC",
+            "location": "Federal Way, Washington",
+            "contract_number": "HTC71119DW036",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "TOTE Maritime Puerto Rico LLC, Jacksonville, Florida, has been awarded a $14,488,604 option period modification to a previously awarded contract (HTC71119DW037) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $42,734,235. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 20
+      "seq": 20,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW037"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14488604.0,
+        "cumulative_value_usd": 42734235.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 20,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW037",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14488604,
+        "cumulative_value_usd": 42734235,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "TOTE Maritime Puerto Rico LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "HTC71119DW037",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Schuyler Line Navigation Co. LLC, Annapolis, Maryland, has been awarded a $12,599,041 option period modification to a previously awarded contract (HTC71119DW031) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $37,160,957. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 21
+      "seq": 21,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW031"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12599041.0,
+        "cumulative_value_usd": 37160957.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 21,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW031",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12599041,
+        "cumulative_value_usd": 37160957,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Schuyler Line Navigation Co. LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "HTC71119DW031",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Young Brothers Ltd., Honolulu, Hawaii, has been awarded a $7,546,515 option period modification to a previously awarded contract (HTC71119DW040) for international ocean and intermodal, time definite, port-to-port and door-to-door transportation service using ocean common or contract carriers offering regularly scheduled commercial service. Service includes shipment of both containerized and breakbulk cargo. The modification brings the total cumulative face value of the contract to $22,258,496. The location of performance is worldwide as specified on each individual order. The option period of performance is from Sept. 1, 2021, to Aug. 31, 2022. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 22
+      "seq": 22,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DW040"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7546515.0,
+        "cumulative_value_usd": 22258496.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 22,
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option period modification for international ocean and intermodal transportation services (USTRANSCOM)",
+        "base_contract_number": "HTC71119DW040",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7546515,
+        "cumulative_value_usd": 22258496,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Young Brothers Ltd.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "HTC71119DW040",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Wisconsin Physicians Service Insurance Corp. (WPS), Madison, Wisconsin, was awarded a sole-source extension with a total estimated value of $60,039,931 to the TRICARE Dual Eligibility Fiscal Intermediary Contract awarded in 2014. The purpose of the indefinite-delivery/indefinite-quantity contract is to provide claims processing and associated customer support services for claims submitted by, and on behalf of, the Military Health System (MHS) beneficiaries who are eligible for both Medicare and TRICARE benefits for services received in the U.S., Puerto Rico, Guam, the U.S. Virgin Islands, America Samoa and the Northern Mariana Islands. Performance of this contract will be accomplished at the contractor's and its teammate's facilities. The extension's period (transition-in) of performance is July 1, 2021, through April 30, 2022. The Defense Health Agency, Aurora, Colorado, is the contracting activity (HT9402). (Awarded June 30, 2021)",
-      "seq": 23
+      "seq": 23,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60039931.0,
+        "cumulative_value_usd": 60039931.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Aurora, Colorado",
+          "code": "HT9402"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 23,
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity (sole-source extension)",
+        "description": "Sole-source extension of TRICARE Dual Eligibility Fiscal Intermediary Contract for claims processing (transition-in period July 1, 2021 to April 30, 2022)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60039931,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2021-06-30",
+        "awardees": [
+          {
+            "name": "Wisconsin Physicians Service Insurance Corp. (WPS)",
+            "location": "Madison, Wisconsin",
+            "contract_number": "HT9402",
+            "markers": null
+          }
+        ]
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Quality Performance Inc.,* Fredericksburg, Virginia, is awarded a $39,942,234 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures Moriah Wind Systems in multiple configurations, to include associated components, teardown, test and evaluation, engineering and technical support in support of the aircraft launch and recovery equipment program for the Navy. Work will be performed in Fredericksburg, Virginia, and is expected to be completed in June 2026. No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(1). The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833521D0064).",
-      "seq": 24
+      "seq": 24,
+      "fields": {
+        "contract_numbers": [
+          "N6833521D0064"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39942234.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833521D0064"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 24,
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Moriah Wind Systems in multiple configurations with components, teardown, test and evaluation, engineering and technical support for aircraft launch and recovery equipment program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39942234,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competitively procured pursuant to 10 U.S. Code 2304(c)(1)",
+        "award_date": null,
+        "awardees": [
+          {
+            "name": "Quality Performance Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "N6833521D0064",
+            "markers": "*"
+          }
+        ]
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Owego, New York, is awarded a $28,160,769 modification (P00005) to a firm-fixed-price order (N0001920F0350) against a previously issued basic ordering agreement (N0001919G0029). This modification exercises an option to procure mission computers (MC) and flight management computers (FMC) retrofit kits to upgrade the MH-60R/S aircraft. The quantities are as follows: 205 Generation 3i/5i MCs to upgrade from Generation III/V/VI, to include 187 for the Navy, nine for the government of Australia, five for the government of Saudi Arabia and four for the government of Denmark; 200 Generation 3i/5i FMCs to upgrade from Generation III/V FMCs, to include 182 for the Navy, nine for the government of Australia, five for the government of Saudi Arabia and four for the government of Denmark. Additionally, this modification procures 153 wiring kits to include 136 for the Navy, nine for the government of Australia, four for the government of Denmark, and four for the government of Saudi Arabia. Work will be performed in Owego, New York (97%); and Clearwater, Florida (3%), and is expected to be completed in March 2024. Fiscal 2021 aircraft procurement (Navy) funds in the amount of $25,371,171; and Foreign Military Sales customer funds in the amount of $2,789,598 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 25
+      "seq": 25,
+      "fields": {
+        "contract_numbers": [
+          "N0001920F0350",
+          "N0001919G0029"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 28160769.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28160769.0,
+        "funding_text": "Fiscal 2021 aircraft procurement (Navy) funds in the amount of $25,371,171; and Foreign Military Sales customer funds in the amount of $2,789,598 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 25,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Owego, New York",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Exercise of option for MH-60R/S mission computer and flight management computer retrofit kits, plus wiring kits",
+        "base_contract_number": "N0001919G0029",
+        "order_number": "N0001920F0350",
+        "modification_number": "P00005",
+        "value_usd": 28160769,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28160769,
+        "fms_countries": [
+          "Australia",
+          "Saudi Arabia",
+          "Denmark"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Peter Vander Werff Construction Inc.,* El Cajon, California, is awarded a $13,405,000 firm-fixed-price task order N6247321F5002 under a multiple award construction contract for repair of Building 210802 at Marine Corps Base Camp Pendleton, California. The task order also contains two unexercised options which, if exercised, would increase the cumulative task order value to $13,986,727. The work to be performed includes repairs to the mess hall building to replace major systems and finishes, reconfigure the kitchen and serving spaces, and provide a temporary dining facility. The options, if exercised, will provide additional environmental remediation and additional temporary dining facility services. Work will be performed in Camp Pendleton, California, and is expected to be completed by January 2023. Fiscal 2021 operation and maintenance (Marine Corps) contract funds in the amount of $13,405,000 are obligated on this award and will expire at the end of the current fiscal year. Four proposals were received for this task order. Naval Facilities Engineering Systems Command Southwest, San Diego, California, is the contracting activity (N62473-20-D-1125).",
-      "seq": 26
+      "seq": 26,
+      "fields": {
+        "contract_numbers": [
+          "N6247321F5002",
+          "N6247320D1125"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13405000.0,
+        "cumulative_value_usd": 13986727.0,
+        "obligated_usd": 13405000.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Marine Corps) contract funds in the amount of $13,405,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2023-01",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Southwest, San Diego, California",
+          "code": "N62473-20-D-1125"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 26,
+        "awardees": [
+          {
+            "name": "Peter Vander Werff Construction Inc.",
+            "location": "El Cajon, California",
+            "contract_number": "N6247321F5002",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Repair of Building 210802 (mess hall) at Marine Corps Base Camp Pendleton, California",
+        "base_contract_number": "N62473-20-D-1125",
+        "order_number": "N6247321F5002",
+        "modification_number": null,
+        "value_usd": 13405000,
+        "cumulative_value_usd": 13986727,
+        "obligated_usd": 13405000,
+        "fms_countries": [],
+        "competition": "Four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Didlake Inc., Manassas, Virginia, is awarded a $12,347,409 modification to increase the maximum dollar value of an indefinite-delivery/indefinite-quantity contract for custodial services at Norfolk Naval Shipyard, Virginia; and Naval Amphibious Base Little Creek, Virginia. After award of this modification, the total cumulative contract value will be $24,476,244. The work to be performed provides for all management, supervision, tools, materials, supplies, labor, and transportation services necessary to perform custodial services for office space, restrooms, and other types of rooms. Work will be performed in Virginia Beach, Virginia (75%); and Portsmouth, Virginia (25%), and is expected to be completed by June 2025. Fiscal 2020 operation and maintenance (Navy) contract funds in the amount of $12,347,409 for recurring and non-recurring work will be obligated on individual task orders and will not expire at the end of the current fiscal year. Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity (N40085-20-D-0055).",
-      "seq": 27
+      "seq": 27,
+      "fields": {
+        "contract_numbers": [
+          "N4008520D0055"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12347409.0,
+        "cumulative_value_usd": 24476244.0,
+        "obligated_usd": 12347409.0,
+        "funding_text": "Fiscal 2020 operation and maintenance (Navy) contract funds in the amount of $12,347,409 for recurring and non-recurring work will be obligated on individual task orders and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-06",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia",
+          "code": "N40085-20-D-0055"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 27,
+        "awardees": [
+          {
+            "name": "Didlake Inc.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N40085-20-D-0055",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Increase in maximum value of custodial services contract at Norfolk Naval Shipyard and Naval Amphibious Base Little Creek",
+        "base_contract_number": "N40085-20-D-0055",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12347409,
+        "cumulative_value_usd": 24476244,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Global, a 1st Flagship Co.,* Irvine, California, is awarded a $10,534,230 cost-plus-fixed-fee modification to previously awarded contract N00024-17-C-4404 to exercise Option Period Four in the amount of for the purchase of services and material to support and maintain all vessels assigned to the Naval Sea Systems Command Inactive Ship Maintenance Office Bremerton, Washington. This contract includes options which, if exercised, would bring the cumulative value of this contract to $60,737,344. Work will be performed in Bremerton, Washington, and is expected to be completed by August 2022. Fiscal 2021 operation and maintenance (Navy) funding in the amount of $1,711,100 will be obligated at the time of award and will not expire at the end of the current fiscal year in accordance with Title 10 U.S. Code 2410a — authorizes the Department of Defense to enter into severable services contracts that begin in one fiscal year and end not more than 365 days later, in the next fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 28
+      "seq": 28,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C4404"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10534230.0,
+        "cumulative_value_usd": 60737344.0,
+        "obligated_usd": 1711100.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funding in the amount of $1,711,100 will be obligated at the time of award and will not expire at the end of the current fiscal year in accordance with Title 10 U.S. Code 2410a — authorizes the Department of Defense to enter into severable services contracts that begin in one fiscal year and end not more than 365 days later, in the next fiscal year",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 28,
+        "awardees": [
+          {
+            "name": "Global, a 1st Flagship Co.",
+            "location": "Irvine, California",
+            "contract_number": "N00024-17-C-4404",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Option Period Four for services and material to support and maintain vessels at NAVSEA Inactive Ship Maintenance Office Bremerton, Washington",
+        "base_contract_number": "N00024-17-C-4404",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10534230,
+        "cumulative_value_usd": 60737344,
+        "obligated_usd": 1711100,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Agile Defense Inc.,* Reston, Virginia, was awarded a $33,919,670 firm-fixed-price contract for support services for Program Executive Office Missiles and Space Information Technology. Bids were solicited via the internet with 21 received. Work will be performed at Redstone Arsenal, Alabama, with an estimated completion date of Dec. 31, 2026. Fiscal 2010 research, development, test and evaluation, Army funds; and 2021 other procurement, Army funds in the amount of $3,598,000 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9124P-21-F-0665).",
-      "seq": 29
+      "seq": 29,
+      "fields": {
+        "contract_numbers": [
+          "W9124P21F0665"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33919670.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3598000.0,
+        "funding_text": "Fiscal 2010 research, development, test and evaluation, Army funds; and 2021 other procurement, Army funds in the amount of $3,598,000 were obligated at the time of the award",
+        "completion_date": "2026-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9124P-21-F-0665"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 29,
+        "awardees": [
+          {
+            "name": "Agile Defense Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W9124P-21-F-0665",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Support services for Program Executive Office Missiles and Space Information Technology",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33919670,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3598000,
+        "fms_countries": [],
+        "competition": "Solicited via internet, 21 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dyncorp International LLC, Fort Worth, Texas, was awarded a $20,606,486 modification (P00152) to contract W58RGZ-19-C-0025 for worldwide aviation maintenance. Work will be performed in Fort Worth, Texas; and Iraq, with an estimated completion date of Nov. 30, 2021. Fiscal 2021 aircraft procurement, Army; and operation and maintenance, Army funds in the amount of $20,606,486 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 30
+      "seq": 30,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19C0025"
+        ],
+        "modification_numbers": [
+          "P00152"
+        ],
+        "is_modification": true,
+        "value_usd": 20606486.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20606486.0,
+        "funding_text": "Fiscal 2021 aircraft procurement, Army; and operation and maintenance, Army funds in the amount of $20,606,486 were obligated at the time of the award",
+        "completion_date": "2021-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 30,
+        "awardees": [
+          {
+            "name": "Dyncorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Worldwide aviation maintenance",
+        "base_contract_number": "W58RGZ-19-C-0025",
+        "order_number": null,
+        "modification_number": "P00152",
+        "value_usd": 20606486,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20606486,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Amentum Services Inc., Germantown, Maryland, was awarded a $10,708,728 modification (0003C4) to contract W52P1J-12-G-0028 for transportation logistics support services. Work will be performed in Kuwait and Iraq, with an estimated completion date of July 2, 2022. Fiscal 2021 operation and maintenance, Army funds in the amount of $10,708,728 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 31
+      "seq": 31,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J12G0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10708728.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10708728.0,
+        "funding_text": "Fiscal 2021 operation and maintenance, Army funds in the amount of $10,708,728 were obligated at the time of the award",
+        "completion_date": "2022-07-02",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 31,
+        "awardees": [
+          {
+            "name": "Amentum Services Inc.",
+            "location": "Germantown, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Transportation logistics support services in Kuwait and Iraq",
+        "base_contract_number": "W52P1J-12-G-0028",
+        "order_number": null,
+        "modification_number": "0003C4",
+        "value_usd": 10708728,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10708728,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Inverness Technologies Inc., Annandale, Virginia, was awarded a $10,510,090 firm-fixed-price contract for counseling and employment assistance training under the Soldier for Life Transition Assistance Program. Bids were solicited via the internet with one received. Work will be performed at Fort Knox, Kentucky, with an estimated completion date of March 3, 2022. Fiscal 2021 operation and maintenance, Army funds in the amount of $9,539,164 were obligated at the time of the award. U.S. Army Field Directorate Office, Fort Knox, Kentucky, is the contracting activity (W9124D-21-C-0017).",
-      "seq": 32
+      "seq": 32,
+      "fields": {
+        "contract_numbers": [
+          "W9124D21C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10510090.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9539164.0,
+        "funding_text": "Fiscal 2021 operation and maintenance, Army funds in the amount of $9,539,164 were obligated at the time of the award",
+        "completion_date": "2022-03-03",
+        "contracting_activity": {
+          "name": "U.S. Army Field Directorate Office, Fort Knox, Kentucky",
+          "code": "W9124D-21-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 32,
+        "awardees": [
+          {
+            "name": "Inverness Technologies Inc.",
+            "location": "Annandale, Virginia",
+            "contract_number": "W9124D-21-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Counseling and employment assistance training under the Soldier for Life Transition Assistance Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10510090,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9539164,
+        "fms_countries": [],
+        "competition": "Solicited via internet, one received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-07-01.html"
+  "source": "file:2021-07-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:51:55Z"
+  }
 }

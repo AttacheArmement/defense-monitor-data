@@ -12,105 +12,858 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, has been awarded a $13,400,000,000 ceiling modification (P00008) to a previously awarded contract (FA8609-19-D-0007) for the addition of Foreign Military Sales (FMS) scope of work. The modification brings the total contract ceiling to $19,100,000,000 from $5,700,000,000. Work will be performed in Seattle, Washington, and is expected to be completed by April 28, 2035. This contract involves FMS to Japan and Israel and will also include future country partners. No funds are being obligated at time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA860919D0007"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 13400000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2035-04-28",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan",
+          "Israel"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "FA8609-19-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Ceiling increase for Foreign Military Sales scope of work (Japan, Israel, future partners)",
+        "base_contract_number": "FA8609-19-D-0007",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 13400000000,
+        "cumulative_value_usd": 19100000000,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Japan",
+          "Israel"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Blue Halo LLC, Huntsville, Alabama, has been awarded a $99,832,117 ceiling indefinite-delivery/indefinite-quantity contract for the Leveraged Orbital Battlespace Optimization program. This contract provides for research and development to advance scientific knowledge and state-of-the-art technology supporting space systems. Work will be performed in Huntsville, Alabama; and Kirtland Air Force Base, New Mexico, and is expected to be completed by Aug. 29, 2031. This award is the result of a competitive acquisition, and one offer was received. Fiscal 2026 research, development, test and evaluation funds in the amount of $1,696,597 are being obligated at the time of award for two initial task orders (FA9453-26-F-X013 and FA9453-26-F-X014) with a combined ceiling value of $20,178,910 of both task orders. The Air Force Research Laboratory, Kirtland AFB, New Mexico, is the contracting activity (FA9453-26-D-X006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA945326FX013",
+          "FA945326FX014",
+          "FA945326DX006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99832117.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1696597.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $1,696,597 are being obligated at the time of award for two initial task orders (FA9453-26-F-X013 and FA9453-26-F-X014) with a combined ceiling value of $20,178,910 of both task orders",
+        "completion_date": "2031-08-29",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Kirtland AFB, New Mexico",
+          "code": "FA9453-26-D-X006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Blue Halo LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA9453-26-D-X006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Leveraged Orbital Battlespace Optimization program research and development",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99832117,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1696597,
+        "fms_countries": [],
+        "competition": "competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Olin Winchester LLC, Oxford, Mississippi, was awarded a $788,361,894 firm-fixed-price, fixed-price-with-economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for the procurement of 5.56mm, 7.62mm, and caliber.50 ammunition. One bid was solicited with one received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 10, 2031. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-26-D-A024).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W519TC26DA024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 788361894.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-09-10",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-26-D-A024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Olin Winchester LLC",
+            "location": "Oxford, Mississippi",
+            "contract_number": "W519TC-26-D-A024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, fixed-price-with-economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of 5.56mm, 7.62mm, and caliber .50 ammunition",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 788361894,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Rolls-Royce Solutions America Inc., Novi, Michigan, was awarded a $39,123,120 modification (P00011) to contract W56HZV-23-C-0054 to procure Eitan power packs. The modification brings the total cumulative face value of the contract to $158,903,171. Work will be performed in Graniteville, South Carolina, with an estimated completion date of Sept. 11, 2027. Fiscal 2010 non-expiring Foreign Military Sales (Israel) funds in the amount of $39,123,120 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV23C0054"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 39123120.0,
+        "cumulative_value_usd": 158903171.0,
+        "obligated_usd": 39123120.0,
+        "funding_text": "Fiscal 2010 non-expiring Foreign Military Sales (Israel) funds in the amount of $39,123,120 were obligated at the time of the award",
+        "completion_date": "2027-09-11",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Israel"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Solutions America Inc.",
+            "location": "Novi, Michigan",
+            "contract_number": "W56HZV-23-C-0054",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Procurement of Eitan power packs",
+        "base_contract_number": "W56HZV-23-C-0054",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 39123120,
+        "cumulative_value_usd": 158903171,
+        "obligated_usd": 39123120,
+        "fms_countries": [
+          "Israel"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "J & J Contractors Inc., North Billerica, Massachusetts, was awarded a $33,007,000 firm-fixed-price contract to demolish failing barracks and construct a new three-story, 300-person collective training barracks. Bids were solicited via the internet with four received. Work will be performed in Devens, Massachusetts, with an estimated completion date of April 18, 2029. Fiscal 2025 operation and maintenance, Army Reserve funds in the amount of $33,007,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-26-C-A032).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912QR26CA032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33007000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33007000.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army Reserve funds in the amount of $33,007,000 were obligated at the time of the award",
+        "completion_date": "2029-04-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-26-C-A032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "J & J Contractors Inc.",
+            "location": "North Billerica, Massachusetts",
+            "contract_number": "W912QR-26-C-A032",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Demolition of failing barracks and construction of new three-story, 300-person collective training barracks in Devens, MA",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33007000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 33007000,
+        "fms_countries": [],
+        "competition": "internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Marinex Construction Inc., Charleston, South Carolina, was awarded a firm-fixed-price contract to renourish approximately 5.5 miles of beach and dune. The amount of this action is $28,400,000 with a total cumulative face value of $32,373,000. Bids were solicited via the internet with five received. Work will be performed in Anna Maria Island, Florida, with an estimated completion date of May 28, 2027. Fiscal 2025 civil construction funds in the amount of $28,400,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Jacksonville, Florida, is the contracting activity (W912EP-26-C-A028).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912EP26CA028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28400000.0,
+        "cumulative_value_usd": 32373000.0,
+        "obligated_usd": 28400000.0,
+        "funding_text": "Fiscal 2025 civil construction funds in the amount of $28,400,000 were obligated at the time of the award",
+        "completion_date": "2027-05-28",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Jacksonville, Florida",
+          "code": "W912EP-26-C-A028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Marinex Construction Inc.",
+            "location": "Charleston, South Carolina",
+            "contract_number": "W912EP-26-C-A028",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Renourishment of approximately 5.5 miles of beach and dune, Anna Maria Island, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28400000,
+        "cumulative_value_usd": 32373000,
+        "obligated_usd": 28400000,
+        "fms_countries": [],
+        "competition": "internet solicitation, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Orion Government Services LLC, Houston, Texas, was awarded a $26,727,470 firm-fixed-price contract to perform Phase II major maintenance of the North Jetty at the mouth of the Columbia River. Bids were solicited via the internet with two received. Work will be performed in Ilwaco, Washington, with an estimated completion date of Oct. 31, 2028. Fiscal 2026 civil construction funds in the amount of $26,727,470 were obligated at the time of the award. U.S. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W9127N-26-C-A033).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9127N26CA033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26727470.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26727470.0,
+        "funding_text": "Fiscal 2026 civil construction funds in the amount of $26,727,470 were obligated at the time of the award",
+        "completion_date": "2028-10-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Portland, Oregon",
+          "code": "W9127N-26-C-A033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Orion Government Services LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W9127N-26-C-A033",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Phase II major maintenance of the North Jetty at the mouth of the Columbia River",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26727470,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26727470,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Onebrief Inc., Honolulu, Hawaii, was awarded a $20,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for commercial software platforms. One bid was solicited with one received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 10, 2027. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W9128Z-26-D-A014).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9128Z26DA014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-09-10",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W9128Z-26-D-A014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Onebrief Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128Z-26-D-A014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Commercial software platforms",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Radford, Virginia, was awarded a $19,999,798 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to procure non-standard ammunition. Two bids were solicited with two received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 1, 2027. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-26-F-A562).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W519TC26FA562"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19999798.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-10-01",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-26-F-A562"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Radford, Virginia",
+            "contract_number": "W519TC-26-F-A562",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of non-standard ammunition",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19999798,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "two bids solicited, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Ahtna Construction & Primary Products Co. LLC, Anchorage, Alaska, was awarded a $9,669,500 firm-fixed-price contract to perform a dike raise and outfall rehabilitation at Placement Area 14 along the Houston Ship Channel. Bids were solicited via the internet with six received. Work will be performed in Anahuac, Texas, with an estimated completion date of Nov. 9, 2027. Fiscal 2026 civil operation and maintenance funds in the amount of $9,669,500 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-26-C-A030).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912HY26CA030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9669500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9669500.0,
+        "funding_text": "Fiscal 2026 civil operation and maintenance funds in the amount of $9,669,500 were obligated at the time of the award",
+        "completion_date": "2027-11-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston, Texas",
+          "code": "W912HY-26-C-A030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Ahtna Construction & Primary Products Co. LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W912HY-26-C-A030",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dike raise and outfall rehabilitation at Placement Area 14, Houston Ship Channel (Anahuac, TX)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9669500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9669500,
+        "fms_countries": [],
+        "competition": "internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded a $9,387,750 firm-fixed-price contract to perform maintenance dredging of the Brazos Island Harbor entrance and jetty channel. Bids were solicited via the internet with three received. Work will be performed in Port Isabel, Texas, with an estimated completion date of March 31, 2027. Fiscal 2026 civil construction funds in the amount of $9,387,750 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-26-C-A029).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W912HY26CA029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9387750.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9387750.0,
+        "funding_text": "Fiscal 2026 civil construction funds in the amount of $9,387,750 were obligated at the time of the award",
+        "completion_date": "2027-03-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston, Texas",
+          "code": "W912HY-26-C-A029"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W912HY-26-C-A029",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging of Brazos Island Harbor entrance and jetty channel (Port Isabel, TX)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9387750,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9387750,
+        "fms_countries": [],
+        "competition": "internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "American Systems Corp., Chantilly, Virginia, is awarded a $30,579,869 modification (P00023) to previously awarded firm-fixed-price contract (N6134022C0001). This modification includes development, integration, testing, and delivery of a software update to the P-8A Virtual Maintenance Trainer, simulating the new Increment 3 Block 2 configuration for both Navy and Royal Australian Air Force (RAAF). Additionally, this action procures critical hardware, software, and courseware updates to integrate the Automated Readiness Measurement System Combat System Increment 3 capabilities for both the Navy and the RAAF under the P-8A Maintenance Training Device Suite program. Work will be performed in Jacksonville, Florida (50%); and Edinburgh, Australia (50%), and is expected to be completed in January 2029. Fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,707,250; fiscal 2026 aircraft procurement (Navy) funds in the amount of $7,770,413; and RAAF funds in the amount of $14,112,206, will be obligated at the time of award. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6134022C0001"
+        ],
+        "modification_numbers": [
+          "P00023"
+        ],
+        "is_modification": true,
+        "value_usd": 30579869.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30589869.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Navy) funds in the amount of $8,707,250; fiscal 2026 aircraft procurement (Navy) funds in the amount of $7,770,413; and RAAF funds in the amount of $14,112,206, will be obligated at the time of award",
+        "completion_date": "2029-01",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "American Systems Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N6134022C0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Development and delivery of P-8A Virtual Maintenance Trainer software update (Increment 3 Block 2) and ARMS Combat System Increment 3 updates for Navy and RAAF",
+        "base_contract_number": "N6134022C0001",
+        "order_number": null,
+        "modification_number": "P00023",
+        "value_usd": 30579869,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30579869,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Mission Systems Inc., Marion, Virginia, is awarded a $11,502,716 firm-fixed-price modification to previously awarded contract (N0016419DWP49) for the manufacture, test, and delivery AN/SPG-62 Antenna Reflectors to support the AEGIS Fire Control System. This contract combines purchases for the U.S. government (65%); and the countries of Spain (26%), and Australia (9%), under the Foreign Military Sales (FMS) program. Work will be performed in Marion, Virginia, and is expected to be completed by October 2029. Fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $4,001,543 (65%); and FMS (Spain) funds in the amount of $1,600,617 (26%); and FMS (Australia) funds in the amount of $533,539 (9%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Surface Warfare Center, Crane, Indiana, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0016419DWP49"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11502716.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6135699.0,
+        "funding_text": "Fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $4,001,543 (65%); and FMS (Spain) funds in the amount of $1,600,617 (26%); and FMS (Australia) funds in the amount of $533,539 (9%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-10",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Crane, Indiana",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Spain",
+          "Australia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "General Dynamics Mission Systems Inc.",
+            "location": "Marion, Virginia",
+            "contract_number": "N0016419DWP49",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "AN/SPG-62 Antenna Reflectors manufacture, test, and delivery for AEGIS Fire Control System",
+        "base_contract_number": "N0016419DWP49",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11502716,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6135699,
+        "fms_countries": [
+          "Spain",
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Oklahoma City, Oklahoma, has been awarded a maximum $18,730,567 modification (P00024) to a delivery order (SPRTA1-16-F-0353) issued against a base contract (SPE4AX-16-D-9479) for the manufacture and production of B-2 hot trailing edges. This is a firm-fixed-price, indefinite-quantity contract. Location of performance is Utah, with a July 10, 2029, delivery order completion date. Using military service is Air Force. Type of appropriation is fiscal 2026 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Tinker Air Force Base, Oklahoma.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA116F0353",
+          "SPE4AX16D9479"
+        ],
+        "modification_numbers": [
+          "P00024"
+        ],
+        "is_modification": true,
+        "value_usd": 18730567.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "SPRTA1-16-F-0353",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-quantity",
+        "description": "B-2 hot trailing edges manufacture and production",
+        "base_contract_number": "SPE4AX-16-D-9479",
+        "order_number": "SPRTA1-16-F-0353",
+        "modification_number": "P00024",
+        "value_usd": 18730567,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Peckham Vocational Industries Inc.,** Lansing, Michigan, has been awarded a maximum $9,980,867 fixed-price, indefinite-delivery/indefinite-quantity contract for cold weather drawers. This is a five-year contract with no option periods. The ordering period end date is Sept. 10, 2031. Using military services are Air Force, Navy, and Marine Corps. Type of appropriation is fiscal 2026 through 2031 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-26-D-N023).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126DN023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9980867.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-26-D-N023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory Source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Peckham Vocational Industries Inc.",
+            "location": "Lansing, Michigan",
+            "contract_number": "SPE1C1-26-D-N023",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Cold weather drawers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9980867,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Aug. 19, 2026, for Kelvin Hughes LLC, doing business as Hensoldt North America, Bethesda, Maryland (SPRDL1-26-D-0061), for $57,300,000 was announced with an incorrect award date and incorrect dollar value. The correct award date is Sept. 11, 2026, and the correct dollar value is $65,503,020. The contracting activity is Defense Logistics Agency Weapons Support, Warren, Michigan (SPRDL1-26-D-0061).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL126D0061"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 57300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Warren, Michigan",
+          "code": "SPRDL1-26-D-0061"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Kelvin Hughes LLC, doing business as Hensoldt North America",
+            "location": "Bethesda, Maryland",
+            "contract_number": "SPRDL1-26-D-0061",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Aug. 19, 2026 announcement of Kelvin Hughes LLC (Hensoldt North America) contract: corrects award date and dollar value",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 65503020,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-09-11"
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Obsidian Solutions Group LLC, Fredericksburg, Virginia, is being awarded an order (HP223926AE017) for the Joint Human Dimension Training Program. This is a firm-fixed-price order with a value of $9,309,352 and $36,540 and fiscal 2026 operations and maintenance funds are obligated at time of award. The primary performance location is 95th Civil Affairs Brigade, Fort Bragg, North Carolina. Headquarters U.S. Army Special Operations Command, Fort Bragg, North Carolina, is the contracting activity.",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "HP223926AE017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9309352.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9345892.0,
+        "funding_text": "This is a firm-fixed-price order with a value of $9,309,352 and $36,540 and fiscal 2026 operations and maintenance funds are obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Headquarters U.S. Army Special Operations Command, Fort Bragg, North Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Obsidian Solutions Group LLC",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "HP223926AE017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price order",
+        "description": "Joint Human Dimension Training Program",
+        "base_contract_number": null,
+        "order_number": "HP223926AE017",
+        "modification_number": null,
+        "value_usd": 9309352,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36540,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:59Z",
-  "source": "file:2026-09-11.html"
+  "source": "file:2026-09-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:08:50Z"
+  }
 }

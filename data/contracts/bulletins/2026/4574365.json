@@ -11,81 +11,639 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "M1 Support Services L.P., Denton, Texas, was awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide initial entry rotary-wing training for 800 to 1,500 Army pilots annually using a contractor-owned, contractor-operated solution for commercially available services and equipment at Fort Rucker, Alabama. Bids were solicited via the internet with 11 received. Work will be performed at Fort Rucker, Alabama, and funding will be determined with each task order. This action has a combined cumulative total face value of $10,000,000,000 with an estimated completion date of Aug. 12, 2052. Army Contracting Command, Redstone Arsenal, Alabama, is the procuring contracting activity (W9124P-26-D-A004). (Awarded Aug. 13, 2026).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9124P26DA004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000000.0,
+        "cumulative_value_usd": 10000000000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2052-08-12",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "M1 Support Services L.P.",
+            "location": "Denton, Texas",
+            "contract_number": "W9124P-26-D-A004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Initial entry rotary-wing training for 800 to 1,500 Army pilots annually, contractor-owned/contractor-operated, at Fort Rucker, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 10000000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, 11 received",
+        "award_date": "2026-08-13"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $636,110,315 modification (PZ0022) to contract W58RGZ-24-C-0028 for performance-based logistics support for depot-level component repair of highly complex items, system component support, unique consumable items supply, test equipment support, supply/retrograde transmission infrastructure, a comprehensive obsolescence management program, and supply chain management for Apache airframe components. The modification brings the total cumulative face value of the contract to $1,128,815,031. Work will be performed in Mesa, Arizona, with an estimated completion date of April 30, 2029. Fiscal 2026 Army working capital funds in the amount of $506,314,739 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ24C0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 636110315.0,
+        "cumulative_value_usd": 1128815031.0,
+        "obligated_usd": 506314739.0,
+        "funding_text": "Fiscal 2026 Army working capital funds in the amount of $506,314,739 were obligated at the time of the award",
+        "completion_date": "2029-04-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-24-C-0028",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Performance-based logistics support for Apache airframe components, Mesa, Arizona",
+        "base_contract_number": "W58RGZ-24-C-0028",
+        "order_number": null,
+        "modification_number": "PZ0022",
+        "value_usd": 636110315,
+        "cumulative_value_usd": 1128815031,
+        "obligated_usd": 506314739,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tidewater Inc., Elkridge, Maryland, was awarded a $249,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for facility sustainment, restoration, and modernization construction services across Army installations in Germany. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of August 13, 2031. Army 409th Contracting Support Brigade, Kaiserslautern, Germany, is the contracting activity (W912PB-26-D-A027).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912PB26DA027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 249000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-08-13",
+        "contracting_activity": {
+          "name": "Army 409th Contracting Support Brigade, Kaiserslautern, Germany",
+          "code": "W912PB-26-D-A027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Tidewater Inc.",
+            "location": "Elkridge, Maryland",
+            "contract_number": "W912PB-26-D-A027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Facility sustainment, restoration, and modernization construction services across Army installations in Germany",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 249000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Airbus Helicopters Inc., Grand Prairie, Texas, was awarded a firm-fixed-price contract for the procurement of up to 12 Lakota UH-72B (MBB-BK 117 D3) helicopters, jettisonable cockpit doors, air conditioning system installation, engine inlet barrier filters, and program management. The amount of this action is $115,406,740, with a total cumulative face value of $140,716,352. One bid was solicited via the internet with one received. Work will be performed in Redstone Arsenal, Alabama, with an estimated completion date of Dec. 31, 2030. Fiscal 2024 and 2025 aircraft procurement, Army funds in the amount of $115,406,740 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-26-C-0020).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ26C0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 115406740.0,
+        "cumulative_value_usd": 140716352.0,
+        "obligated_usd": 115406740.0,
+        "funding_text": "Fiscal 2024 and 2025 aircraft procurement, Army funds in the amount of $115,406,740 were obligated at the time of the award",
+        "completion_date": "2030-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-26-C-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Airbus Helicopters Inc.",
+            "location": "Grand Prairie, Texas",
+            "contract_number": "W58RGZ-26-C-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of up to 12 Lakota UH-72B helicopters with related equipment and program management, Redstone Arsenal, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 115406740,
+        "cumulative_value_usd": 140716352,
+        "obligated_usd": 115406740,
+        "fms_countries": [],
+        "competition": "One bid solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AM General, South Bend, Indiana, was awarded an $82,236,398 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to procure high mobility multipurpose wheeled vehicles. The amount of this action is $82,236,398, with a total cumulative face value of $754,550,541. One bid was solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 31, 2028. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-26-F-A172). (Awarded Aug. 13, 2026).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912CH26FA172"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 82236398.0,
+        "cumulative_value_usd": 754550541.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-08-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-26-F-A172"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "AM General",
+            "location": "South Bend, Indiana",
+            "contract_number": "W912CH-26-F-A172",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Procurement of high mobility multipurpose wheeled vehicles (HMMWV)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 82236398,
+        "cumulative_value_usd": 754550541,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited via internet, one received",
+        "award_date": "2026-08-13"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CAE USA Inc., Tampa, Florida, was awarded a $29,423,547 modification (P00007) to contract W9124G-24-C-0007 to exercise Option Year Two of advanced helicopter flight training support. The modification brings the total cumulative face value of the contract to $164,526,226. Work will be performed in Fort Rucker, Alabama, with an estimated completion date of Aug. 30, 2029. Fiscal 2026 operations and maintenance, Army funds in the amount of $7,355,887 were obligated at the time of the award. Army Contracting Command, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9124G24C0007"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 29423547.0,
+        "cumulative_value_usd": 164526226.0,
+        "obligated_usd": 7355887.0,
+        "funding_text": "Fiscal 2026 operations and maintenance, Army funds in the amount of $7,355,887 were obligated at the time of the award",
+        "completion_date": "2029-08-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "CAE USA Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "W9124G-24-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Exercise of Option Year Two of advanced helicopter flight training support, Fort Rucker, Alabama",
+        "base_contract_number": "W9124G-24-C-0007",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 29423547,
+        "cumulative_value_usd": 164526226,
+        "obligated_usd": 7355887,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "McMillen Inc., Boise, Idaho, was awarded a firm-fixed-price contract for the Webbers Falls Tainter Gate Replacement and Repair project. The amount of this action is $19,642,700, with a total cumulative face value of $28,417,900. Bids were solicited via the internet with two received. Work will be performed in Gore, Oklahoma, with an estimated completion date of May 31, 2030. Fiscal 2026 civil operation and maintenance funds in the amount of $19,642,700 were obligated at the time of the award. U.S. Army Corps of Engineers, Tulsa, Oklahoma, is the contracting activity (W912BV-26-C-A021).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912BV26CA021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19642700.0,
+        "cumulative_value_usd": 28417900.0,
+        "obligated_usd": 19642700.0,
+        "funding_text": "Fiscal 2026 civil operation and maintenance funds in the amount of $19,642,700 were obligated at the time of the award",
+        "completion_date": "2030-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa, Oklahoma",
+          "code": "W912BV-26-C-A021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "McMillen Inc.",
+            "location": "Boise, Idaho",
+            "contract_number": "W912BV-26-C-A021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Webbers Falls Tainter Gate Replacement and Repair project, Gore, Oklahoma",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19642700,
+        "cumulative_value_usd": 28417900,
+        "obligated_usd": 19642700,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "New South Associates,* Stone Mountain, Georgia, was awarded a $9,999,999 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for cultural resources services. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of August 13, 2031. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-26-D-A075).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9127826DA075"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9999999.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-08-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-26-D-A075"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "New South Associates",
+            "location": "Stone Mountain, Georgia",
+            "contract_number": "W91278-26-D-A075",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Cultural resources services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9999999,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet, six received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Tukwila, Washington, has been awarded a maximum $75,000,000 modification P00187 to previously awarded contract (FA8625-16-C-6599) for the procurement of initial spare parts for two, fully mission capable, VC-25B aircraft. The modification brings the total cumulative face value of the contract to $4,491,794,108 from $4,416,794,108. The modification is separate from the contract’s firm-fixed-price engineering and manufacturing development efforts. Work will be performed at San Antonio, Texas. Fiscal 2026 research, development, test and evaluation funds in the amount of $30,000,000 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA862516C6599"
+        ],
+        "modification_numbers": [
+          "P00187"
+        ],
+        "is_modification": true,
+        "value_usd": 75000000.0,
+        "cumulative_value_usd": 4491794108.0,
+        "obligated_usd": 30000000.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation funds in the amount of $30,000,000 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Tukwila, Washington",
+            "contract_number": "FA8625-16-C-6599",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Initial spare parts for two VC-25B aircraft; separate from engineering and manufacturing development efforts",
+        "base_contract_number": "FA8625-16-C-6599",
+        "order_number": null,
+        "modification_number": "P00187",
+        "value_usd": 75000000,
+        "cumulative_value_usd": 4491794108,
+        "obligated_usd": 30000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, was awarded a $20,000,000 ceiling, indefinite-delivery/indefinite-quantity contract for advanced research for munition readiness. This contract provides a flexible vehicle to rapidly explore, mature, and demonstrate advanced missile and munitions technologies. Work will be performed at Reston, Virginia and Eglin Air Force Base, Florida, and the ordering period is expected to be completed by Aug. 14, 2031. This contract was awarded off Broad Agency Announcement FA8651-22-S-0001. No funds are being obligated at time of award. The Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity (FA865126DB003).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA865122S0001",
+          "FA865126DB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2031-08-14",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": "FA865126DB003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA865126DB003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract (ceiling)",
+        "description": "Advanced research for munition readiness, Reston, Virginia and Eglin Air Force Base, Florida; awarded off BAA FA8651-22-S-0001",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Broad Agency Announcement FA8651-22-S-0001",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, is awarded a $48,149,237 firm-fixed-price modification to a previously awarded contract (N00024-25-C-2405) for the production of spares in support of the Ship to Shore Connector, Landing Craft, Air Cushion (LCAC 100) craft program. Said spares include fiscal 2025 base installation and checkout spares; fiscal 2025 base fleet spares; fiscal 2026 spares; and six spare MT7 Turboshaft Engines with ancillary parts and installation kits. Work will be performed in Indianapolis, Indiana, and is expected to be completed by December 2029. This contract is awarded with funding from the One Big Beautiful Bill Act (Public Law 119-21) and directly supports the national effort to revitalize and rebuild American shipbuilding. One Big Beautiful Bill Act funds in the amount of $48,149,237 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C2405"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 48149237.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 48149237.0,
+        "funding_text": "One Big Beautiful Bill Act funds in the amount of $48,149,237 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-12",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N00024-25-C-2405",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Production of spares for Ship to Shore Connector / LCAC 100 craft program",
+        "base_contract_number": "N00024-25-C-2405",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48149237,
+        "cumulative_value_usd": null,
+        "obligated_usd": 48149237,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, was awarded a $19,689,621 cost-plus-incentive-fee modification to a previously awarded contract (N00024-20-C-6117) to exercise options for hardware spares procurement in support of sonar systems. Work will be performed in Manassas, Virginia (65%); Clearwater, Florida (32%); Syracuse, New York (2%); and Marion, Florida (1%), and is expected to be completed by September 2027. Fiscal 2026 other procurement (Navy) funds in the amount of $18,020,864 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Aug. 12, 2026).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C6117"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 19689621.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18020864.0,
+        "funding_text": "Fiscal 2026 other procurement (Navy) funds in the amount of $18,020,864 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-20-C-6117",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-incentive-fee modification",
+        "description": "Hardware spares procurement for sonar systems",
+        "base_contract_number": "N00024-20-C-6117",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19689621,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18020864,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-08-12"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Oshkosh Defense LLC, Oshkosh, Wisconsin, has been awarded an estimated $19,490,398 firm-fixed-price requirements contract for Joint Light Tactical Vehicle pneumatic wheel assemblies. This was a competitive acquisition with two responses received. This is a three-year contract with no option periods. The ordering period end date is Aug. 13, 2029. Using military service is Army. Type of appropriation is fiscal 2026 through 2029 Army working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Warren, Michigan (SPRDL1-26-D-0053).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL126D0053"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19490398.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Warren, Michigan",
+          "code": "SPRDL1-26-D-0053"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Oshkosh Defense LLC",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "SPRDL1-26-D-0053",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Joint Light Tactical Vehicle pneumatic wheel assemblies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19490398,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 2 offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:59Z",
-  "source": "file:2026-08-14.html"
+  "source": "file:2026-08-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:13:02Z"
+  }
 }

@@ -9,45 +9,357 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Valiant Integrated Services LLC, Herndon, Virginia, has been awarded a maximum $152,000,000 firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for food supplies. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in the Federal Acquisition Regulation 6.302-1. This is a 251-day bridge contract with no option periods. Locations of performance are the United Arab Emirates, Oman, Djibouti and Kenya, with a Sept. 3, 2024, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-24-D-4003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE30024D4003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 152000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-24-D-4003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Valiant Integrated Services LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "SPE300-24-D-4003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Food supplies bridge contract for United Arab Emirates, Oman, Djibouti and Kenya",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 152000000,
+        "cumulative_value_usd": 152000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lakey Inc.,* Lukin, Texas, was awarded a $20,000,000 firm-fixed-price contract for construction services. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2028. U.S. Army Corps of Engineers, Fort Worth, Texas, is the contracting activity (W9126G-24-D-0015).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9126G24D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Fort Worth, Texas",
+          "code": "W9126G-24-D-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lakey Inc.",
+            "location": "Lukin, Texas",
+            "contract_number": "W9126G-24-D-0015",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DRS Sustainment Systems Inc., Bridgeton, Missouri, was awarded a $15,375,000 firm-fixed-price contract for heavy-duty tank trailers. Bids were solicited via the internet with one received. Work will be performed in West Plains, Missouri, with an estimated completion date of Dec. 22, 2026. Fiscal 2024 Foreign Military Sales (Israel) funds in the amount of $15,375,000 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-24-C-0020).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV24C0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15375000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15375000.0,
+        "funding_text": "Fiscal 2024 Foreign Military Sales (Israel) funds in the amount of $15,375,000 were obligated at the time of the award",
+        "completion_date": "2026-12-22",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-24-C-0020"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Israel"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "DRS Sustainment Systems Inc.",
+            "location": "Bridgeton, Missouri",
+            "contract_number": "W56HZV-24-C-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Heavy-duty tank trailers, West Plains, Missouri; FMS (Israel)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15375000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15375000,
+        "fms_countries": [
+          "Israel"
+        ],
+        "competition": "internet solicitation, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Criterion Corp., Marquette, Michigan, was awarded a not-to-exceed $12,000,000 firm-fixed-price, cost-reimbursable emergency bridge extension contract for base operating support services. This extension contract provides for base operating support services in support of supply management, vehicle operations and maintenance, traffic management operations, real property maintenance, fuels management, and airfield management functions. Work will be performed at March Air Reserve Base, California, and is expected to be completed by Dec. 31, 2024. This contract was a sole source acquisition. Fiscal 2024 operation and maintenance funds in the amount of $5,200,000 are being obligated at time of award. The 452nd Mission Support Group Contracting Office, March Air Reserve Base, California, is the contracting activity (FA4664-20-C-0008-P00030).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA466420C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5200000.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $5,200,000 are being obligated at time of award",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "The 452nd Mission Support Group Contracting Office, March Air Reserve Base, California",
+          "code": "FA4664-20-C-0008-P00030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Criterion Corp.",
+            "location": "Marquette, Michigan",
+            "contract_number": "FA4664-20-C-0008-P00030",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-reimbursable emergency bridge extension",
+        "description": "Emergency bridge extension for base operating support services at March Air Reserve Base, California",
+        "base_contract_number": "FA4664-20-C-0008",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 12000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5200000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Tactical Communications Group (TCG) LLC, Tewksbury, Massachusetts, was awarded a $9,990,608 contract for a ground support system. TCG will be responsible for sustainment and maintenance of the previously acquired ground support system (GSS) to include the purchase of GSS parts and functional components to repair or expand the functional use of the GSS. Work will be performed in the Kingdom of Saudi Arabia, and is expected to be completed by Dec. 31, 2027. This contract involves Foreign Military Sales (FMS) to the Kingdom of Saudi Arabia. This contract was a sole-source acquisition. FMS funds in the amount of $4,516,266 are being obligated at time of award. The Air Force Life Cycle Management Center, Aerial Networks Division (International Programs) Branch, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA2291-24-C-B002).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA229124CB002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9990608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4516266.0,
+        "funding_text": "FMS funds in the amount of $4,516,266 are being obligated at time of award",
+        "completion_date": "2027-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Aerial Networks Division (International Programs) Branch, Hanscom Air Force Base, Massachusetts",
+          "code": "FA2291-24-C-B002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Kingdom of Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Tactical Communications Group (TCG) LLC",
+            "location": "Tewksbury, Massachusetts",
+            "contract_number": "FA2291-24-C-B002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Sustainment and maintenance of ground support system (GSS) for Saudi Arabia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9990608,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4516266,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3Harris Technologies Integrated Systems L.P., Greenville, Texas, was awarded a $9,109,277 cost-plus-fixed-fee contract for software licenses and life cycle support services. This contract provides lifecycle lab support, System Integration Laboratory software, and aircraft licensing and subscriptions for 2024. Work will be performed in Greenville, Texas, and is expected to be completed by Dec. 31, 2024. This contract was a sole-source acquisition. Foreign Military Sales funds in the amount of $9,109,277 are being obligated at time of award. The 645th Aeronautical Engineering Systems Group, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8620-24-F-4830).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA862024F4830"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9109277.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9109277.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $9,109,277 are being obligated at time of award",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "The 645th Aeronautical Engineering Systems Group, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8620-24-F-4830"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "L3Harris Technologies Integrated Systems L.P.",
+            "location": "Greenville, Texas",
+            "contract_number": "FA8620-24-F-4830",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Software licenses and life cycle support services, lifecycle lab support, SIL software, aircraft licensing for 2024",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9109277,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9109277,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Intelsat General Communications LLC, McLean, Virginia, was awarded a $9,087,138 contract for the Defense Experimentation Using Commercial Space Internet (DEUCSI). This contract provides for efforts to develop and experimentally test satellite communications (SATCOM) systems capable of operating with multiple commercial space internet constellations operating in low, medium, and geostationary earth orbits offering a new low size, weight, power, and cost (SWaP-C) terminal that easily integrates onto aircraft platforms to provide resilient, high throughput, globally available, and highly reliable SATCOM. Work will be performed in McLean, Virginia, and is expected to be completed by Nov. 26, 2024. This contract was a competitive acquisition and 11 offers were received. Fiscal 2023 research, development, test, and evaluation funds in the amount of $8,842,797 are being obligated at time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA2385-24-C-B016). (Awarded Dec. 26, 2023)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA238524CB016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9087138.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8842797.0,
+        "funding_text": "Fiscal 2023 research, development, test, and evaluation funds in the amount of $8,842,797 are being obligated at time of award",
+        "completion_date": "2024-11-26",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA2385-24-C-B016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Intelsat General Communications LLC",
+            "location": "McLean, Virginia",
+            "contract_number": "FA2385-24-C-B016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Defense Experimentation Using Commercial Space Internet (DEUCSI) SATCOM development and testing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9087138,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8842797,
+        "fms_countries": [],
+        "competition": "competitive, 11 offers received",
+        "award_date": "2023-12-26"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2023-12-27.html"
+  "source": "file:2023-12-27.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:03:58Z"
+  }
 }

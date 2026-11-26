@@ -11,63 +11,603 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut is awarded a not-to-exceed $1,851,065,000 undefinitized contract action modification to a previously awarded contract (N00024-24-C-2110) for long lead time material and preliminary construction efforts associated with Virginia-class Block VI submarines. Work will be performed in Sunnyvale, California (37%); Tucson, Arizona (6%); Chesapeake, Virginia (6%); Dallas, Texas (4%); York, Pennsylvania (3%); Ashland, Virginia (3%); South El Monte, California (3%); Westminster, Massachusetts (3%); Manchester, New Hampshire (3%); Huntington, West Virginia (3%); Minneapolis, Minnesota (2%); McKeesport, Pennsylvania (2%); Spring Grove, Illinois (2%); Louisville, Kentucky (1%); Warren, Massachusetts (1%); Camden, New Jersey (1%); El Cajon, California (1%); Yaphank, New York (1%); and other locations less than 1% (18%), and is expected to be completed by September 2035. Fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $1,679,564,500 (91%) will be obligated at the time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C2110"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 1851065000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1679564500.0,
+        "funding_text": "Fiscal 2025 shipbuilding and conversion (Navy) funds in the amount of $1,679,564,500 (91%) will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2035-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-24-C-2110",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action",
+        "description": "Long lead time material and preliminary construction efforts for Virginia-class Block VI submarines",
+        "base_contract_number": "N00024-24-C-2110",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1851065000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1679564500,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Applied Cloud & Development Technologies LLC,* Washington, D.C. (N66001-25-D-0042); AtechGov LLC,* Bethesda, Maryland (N66001-25-D-0043); Bennett Adelson Professional Services,* Cleveland, Ohio (N66001-25-D-0044); ClearPro Partners LLC,* Leesburg, Virginia (N66001-25-D-0045); Client First Technologies,* Fairfax, Virginia (N66001-25-D-0046); Innovatus Technology Consulting,* San Diego, California (N66001-25-D-0047); Practical Solutions Inc,* Washington, D.C. (N66001-25-D-0048); and True Tandem LLC,* Herndon, Virginia (N66001-25-D-0049), are awarded a combined $1,494,000,000 indefinite-delivery/indefinite-quantity, multiple award contract with firm fixed pricing for the Department of Defense Enterprise Software Initiative (DOD ESI) Microsoft Enterprise Services II Small Business (MES II - SB). MES II – SB will provide the DOD with comprehensive, continuous enterprise support and engineering solutions for Microsoft products and cloud services, designed to enhance productivity and advance technology throughout the entire information technology lifecycle. This includes enterprise-wide and organization-specific architectural planning, implementation, deployment, and infrastructure optimization services. Work will be performed globally and is expected to be completed by June 2030. No funds will be obligated at the time of award. Funds will be obligated on individual task orders as they are issued. This requirement was competitively procured as a total small business set-aside via a request for proposal (N66001-24-R-0048) published on the beta.SAM.gov website and the Naval Information Warfare Systems Command e-Commerce central website. 15 offers were received. Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6600125D0042",
+          "N6600125D0043",
+          "N6600125D0044",
+          "N6600125D0045",
+          "N6600125D0046",
+          "N6600125D0047",
+          "N6600125D0048",
+          "N6600125D0049",
+          "N6600124R0048"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1494000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2030-06",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Pacific, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Applied Cloud & Development Technologies LLC",
+            "location": "Washington, D.C.",
+            "contract_number": "N66001-25-D-0042",
+            "markers": "*"
+          },
+          {
+            "name": "AtechGov LLC",
+            "location": "Bethesda, Maryland",
+            "contract_number": "N66001-25-D-0043",
+            "markers": "*"
+          },
+          {
+            "name": "Bennett Adelson Professional Services",
+            "location": "Cleveland, Ohio",
+            "contract_number": "N66001-25-D-0044",
+            "markers": "*"
+          },
+          {
+            "name": "ClearPro Partners LLC",
+            "location": "Leesburg, Virginia",
+            "contract_number": "N66001-25-D-0045",
+            "markers": "*"
+          },
+          {
+            "name": "Client First Technologies",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N66001-25-D-0046",
+            "markers": "*"
+          },
+          {
+            "name": "Innovatus Technology Consulting",
+            "location": "San Diego, California",
+            "contract_number": "N66001-25-D-0047",
+            "markers": "*"
+          },
+          {
+            "name": "Practical Solutions Inc",
+            "location": "Washington, D.C.",
+            "contract_number": "N66001-25-D-0048",
+            "markers": "*"
+          },
+          {
+            "name": "True Tandem LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "N66001-25-D-0049",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm fixed price multiple award contract",
+        "description": "DOD ESI Microsoft Enterprise Services II Small Business (MES II - SB) for Microsoft products and cloud services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1494000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "total small business set-aside; competitive RFP N66001-24-R-0048; 15 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, is being awarded a $22,909,025 cost-plus-fixed-fee and cost-only modification to a previously awarded contract (N00024-22-C-5231) to exercise options for installation of the Navy's AN/SQQ-89 surface ship undersea warfare combat systems. Work will be performed in Chesapeake, Virginia (51%); San Diego, California (37%); Yokosuka, Japan (3%); Bath, Maine (3%); Pascagoula, Mississippi (3%); Mayport, Florida (2%); and Seattle, Washington (1%), and is expected to be completed by May 2026. Fiscal 2025 other procurement (Navy) funding in the amount of $5,566,570 (50%); fiscal 2024 shipbuilding and conversion (Navy) funding in the amount of $1,222,560 (11%); fiscal 2022 shipbuilding and conversion (Navy) funding in the amount of $1,224,625 (11%); fiscal 2021 shipbuilding and conversion (Navy) funding in the amount of $1,098,791 (10%); fiscal 2023 shipbuilding and conversion (Navy) funding in the amount of $1,088,668 (9%); fiscal 2020 shipbuilding and conversion (Navy) funding in the amount of $562,700 (5%); fiscal 2023 other procurement (Navy) funding in the amount of $306,000 (3%); and fiscal 2025 operations and maintenance (Navy) funding in the amount of $30,000 (1%), will be obligated at the time of award, of which $1,434,791 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C5231"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22909025.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11099914.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funding in the amount of $5,566,570 (50%); fiscal 2024 shipbuilding and conversion (Navy) funding in the amount of $1,222,560 (11%); fiscal 2022 shipbuilding and conversion (Navy) funding in the amount of $1,224,625 (11%); fiscal 2021 shipbuilding and conversion (Navy) funding in the amount of $1,098,791 (10%); fiscal 2023 shipbuilding and conversion (Navy) funding in the amount of $1,088,668 (9%); fiscal 2020 shipbuilding and conversion (Navy) funding in the amount of $562,700 (5%); fiscal 2023 other procurement (Navy) funding in the amount of $306,000 (3%); and fiscal 2025 operations and maintenance (Navy) funding in the amount of $30,000 (1%), will be obligated at the time of award, of which $1,434,791 will expire at the end of the current fiscal year",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00024-22-C-5231",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and cost-only modification",
+        "description": "Exercise of options for installation of AN/SQQ-89 surface ship undersea warfare combat systems",
+        "base_contract_number": "N00024-22-C-5231",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22909025,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22909025,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Triman Industries Inc., Morristown, New Jersey, is awarded a $14,284,767 firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N64498-25-D-4035) for the procurement of digital voltage regulators for use on Navy Ships. Work will be performed in Morristown, New Jersey, and is expected to be completed by November 2026. Fiscal 2025 other procurement (Navy) funds in the amount of $340,113 (2%) will be obligated at the time of award and will not expire at the end of the fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(1), only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6449825D4035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14284767.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 340113.0,
+        "funding_text": "Fiscal 2025 other procurement (Navy) funds in the amount of $340,113 (2%) will be obligated at the time of award and will not expire at the end of the fiscal year",
+        "completion_date": "2026-11",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Triman Industries Inc.",
+            "location": "Morristown, New Jersey",
+            "contract_number": "N64498-25-D-4035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Procurement of digital voltage regulators for use on Navy ships",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14284767,
+        "cumulative_value_usd": null,
+        "obligated_usd": 340113,
+        "fms_countries": [],
+        "competition": "not competitively procured; only one responsible source (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Siemens Government Technologies, Reston, Virginia, was awarded a not-to-exceed $9,788,601 firm-fixed-price modification to previously awarded, third party financed contract (N39430-18-F-9924) for an increase to the energy service performance contract for Navy Europe, Africa, Central (EURAFCENT). This award brings the total cumulative face value of the contract to $235,800,315. Work will be performed at various locations across the EURAFCENT area of responsibility. Work is expected to be completed in August 2040. No funds were obligated at time of award. Private financing will be obtained by the contractor. The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3943018F9924"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9788601.0,
+        "cumulative_value_usd": 235800315.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds were obligated at time of award",
+        "completion_date": "2040-08",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Siemens Government Technologies",
+            "location": "Reston, Virginia",
+            "contract_number": "N39430-18-F-9924",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price modification to third party financed contract",
+        "description": "Increase to energy service performance contract for Navy Europe, Africa, Central (EURAFCENT)",
+        "base_contract_number": "N39430-18-F-9924",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9788601,
+        "cumulative_value_usd": 235800315,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Missiles and Fire Control, Orlando, Florida, was awarded a $45,900,000 firm-fixed-price undefinitized contract action modification (P00017) to previously awarded contract (FA8682-23-C-B001) for the Long-Range Anti-Ship Missile (LRASM) Lots Seven and Eight for the conversion of 10 LRASM missiles from the C-1 configuration to the C-3 configuration. This modification brings the total cumulative face value of the contract to $1,215,345,826. Work will be performed at Orlando, Florida, and is expected to be completed by Sept. 30, 2026. Fiscal 2024 and 2025 Navy weapons procurement funds in the amount of $5,400,000; and $3,150,000, are being obligated at time of award. The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA868223CB001"
+        ],
+        "modification_numbers": [
+          "P00017"
+        ],
+        "is_modification": true,
+        "value_usd": 45900000.0,
+        "cumulative_value_usd": 1215345826.0,
+        "obligated_usd": 5400000.0,
+        "funding_text": "Fiscal 2024 and 2025 Navy weapons procurement funds in the amount of $5,400,000; and $3,150,000, are being obligated at time of award",
+        "completion_date": "2026-09-30",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Missiles and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": "FA8682-23-C-B001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price undefinitized contract action",
+        "description": "LRASM Lots Seven and Eight: conversion of 10 missiles from C-1 to C-3 configuration",
+        "base_contract_number": "FA8682-23-C-B001",
+        "order_number": null,
+        "modification_number": "P00017",
+        "value_usd": 45900000,
+        "cumulative_value_usd": 1215345826,
+        "obligated_usd": 8550000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Rise8 Inc., Tampa, Florida, was awarded a $19,282,821 firm-fixed-price contract for Apollo strategic funding increase. This contract provides for the deployment, management, and continuous delivery of software capabilities across cloud, hybrid, and on-premises environments. Work will be performed at Tampa, Florida; and El Segundo, California, and is expected to be completed by June 30, 2027. This contract was a competitive acquisition under the Small Business Innovative Research program and one offer was received. Fiscal 2025 research, development, test and evaluation funds in the amount of $6,577,587 are being obligated at time of award. The Space System Command, Los Angeles Air Force Base, El Segundo, California, is the contracting activity (FA8806-25-C-B003).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA880625CB003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19282821.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6577587.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $6,577,587 are being obligated at time of award",
+        "completion_date": "2027-06-30",
+        "contracting_activity": {
+          "name": "The Space System Command, Los Angeles Air Force Base, El Segundo, California",
+          "code": "FA8806-25-C-B003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Rise8 Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "FA8806-25-C-B003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Apollo strategic funding increase; deployment, management, and continuous delivery of software capabilities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19282821,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6577587,
+        "fms_countries": [],
+        "competition": "competitive SBIR acquisition; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Telephonics Corp., Farmindgale, New York, was awarded a $16,134,963 firm-fixed-price contract for maintenance and overhaul of the CH-47 for the interface communication unit. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of June 27, 2028. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-25-D-0020).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ25D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16134963.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-06-27",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-25-D-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Telephonics Corp.",
+            "location": "Farmindgale, New York",
+            "contract_number": "W58RGZ-25-D-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Maintenance and overhaul of the CH-47 for the interface communication unit",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16134963,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mason Construction Co., Seattle, Washington, was awarded a $14,042,000 firm-fixed-price contract for dredging services. Bids were solicited via the internet with two received. Work will be performed in Venice, Louisiana, with an estimated completion date of Sept. 7, 2026. Fiscal 2025 civil operation and maintenance funds in the amount f $14,042,000 were obligated at the time of the award. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity (W912P8-25-C-0017).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912P825C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14042000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14042000.0,
+        "funding_text": "Fiscal 2025 civil operation and maintenance funds in the amount f $14,042,000 were obligated at the time of the award",
+        "completion_date": "2026-09-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": "W912P8-25-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Mason Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W912P8-25-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Dredging services in Venice, Louisiana",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14042000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14042000,
+        "fms_countries": [],
+        "competition": "internet solicitation; two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "USTRANSCOM has modified contracts with 11 companies in an indefinite-delivery/indefinite-quantity, firm-fixed-price, multiple award contract, bringing the total cumulative face value of the program to $646,518,220. This contract is for continued international, commercial, and multimodal transportation service between various points and ports worldwide. Transportation services include time-definite, door to door and port to door pickup and delivery, Electronic Data Interchange, customs processing, and clearance of containerized and breakbulk cargo. The modified contracts are with: Air Transport International Inc., Wilmington, Ohio (HTC71119DW002P00014); American President Lines LLC, Arlington, Virginia (HTC71119DW003P00014); American Roll-On Roll-Off Carrier LLC, Ponte Verda Beach, Florida (HTC71119DW004P00014); Amerijet International Inc., Miami, Florida (HTC71119DW005P00014); Farrell Lines Incorporated, Norfolk, Virginia (HTC71119DW006P00015); Hawaiian Airlines Inc., Honolulu, Hawaii (HTC71119DW007P00014); Liberty Global Logistics LLC, Lake Success, New York (HTC71119DW008P00014); National Air Cargo Group Inc., Orlando, Florida (HTC71119DW009P00014); Northern Air Cargo Inc., Anchorage, Alaska (HTC71119DW010P00014); Schuyler Line Navigation Company LLC, Annapolis, Maryland (HTC71119DW011P00013); and United Airlines Inc., Chicago, Illinois (HTC71119DW012P00013). The period of performance is from July 1, 2025, to June 30, 2027. Working Capital Funds (Transportation) will be obligated for fiscal 2025 to 2027. The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 646518220.0,
+        "cumulative_value_usd": 646518220.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Working Capital Funds (Transportation) will be obligated for fiscal 2025 to 2027",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Air Transport International Inc.",
+            "location": "Wilmington, Ohio",
+            "contract_number": "HTC71119DW002P00014",
+            "markers": null
+          },
+          {
+            "name": "American President Lines LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "HTC71119DW003P00014",
+            "markers": null
+          },
+          {
+            "name": "American Roll-On Roll-Off Carrier LLC",
+            "location": "Ponte Verda Beach, Florida",
+            "contract_number": "HTC71119DW004P00014",
+            "markers": null
+          },
+          {
+            "name": "Amerijet International Inc.",
+            "location": "Miami, Florida",
+            "contract_number": "HTC71119DW005P00014",
+            "markers": null
+          },
+          {
+            "name": "Farrell Lines Incorporated",
+            "location": "Norfolk, Virginia",
+            "contract_number": "HTC71119DW006P00015",
+            "markers": null
+          },
+          {
+            "name": "Hawaiian Airlines Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "HTC71119DW007P00014",
+            "markers": null
+          },
+          {
+            "name": "Liberty Global Logistics LLC",
+            "location": "Lake Success, New York",
+            "contract_number": "HTC71119DW008P00014",
+            "markers": null
+          },
+          {
+            "name": "National Air Cargo Group Inc.",
+            "location": "Orlando, Florida",
+            "contract_number": "HTC71119DW009P00014",
+            "markers": null
+          },
+          {
+            "name": "Northern Air Cargo Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "HTC71119DW010P00014",
+            "markers": null
+          },
+          {
+            "name": "Schuyler Line Navigation Company LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "HTC71119DW011P00013",
+            "markers": null
+          },
+          {
+            "name": "United Airlines Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "HTC71119DW012P00013",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity multiple award contract",
+        "description": "International, commercial, and multimodal transportation services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 646518220,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:56Z",
-  "source": "file:2025-06-26.html"
+  "source": "file:2025-06-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:00:51Z"
+  }
 }

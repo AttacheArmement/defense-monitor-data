@@ -11,93 +11,783 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Amentum Services Inc., Germantown, Maryland, was awarded a $136,667,022 modification (P00157) to contract W58RGZ-17-C-0011 for contractor logistics support services for government-owned fixed-wing fleets performing transport aircraft missions. Work will be performed in Germantown, Maryland, with an estimated completion date of May 31, 2023. Fiscal 2022 operation and maintenance, Army funds in the amount of $30,000,000 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17C0011"
+        ],
+        "modification_numbers": [
+          "P00157"
+        ],
+        "is_modification": true,
+        "value_usd": 136667022.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000000.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army funds in the amount of $30,000,000 were obligated at the time of the award",
+        "completion_date": "2023-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Amentum Services Inc.",
+            "location": "Germantown, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Contractor logistics support services for government-owned fixed-wing fleets performing transport aircraft missions",
+        "base_contract_number": "W58RGZ-17-C-0011",
+        "order_number": null,
+        "modification_number": "P00157",
+        "value_usd": 136667022,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Liverpool, New York, was awarded a $129,040,507 modification (PZ0003) to contract W56KGY-21-C-0010 for the purchase of six radar systems, spares, tool kits, remote computer display units, integrated computer systems, training, contractor technical assistance, field service representatives, software support and program management. Work will be performed in Syracuse, New York, with an estimated completion date of Aug. 11, 2026. Fiscal 2022 Foreign Military Sales (Romania) funds in the amount of $129,040,507 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56KGY21C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 129040507.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 129040507.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales (Romania) funds in the amount of $129,040,507 were obligated at the time of the award",
+        "completion_date": "2026-08-11",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Romania"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Liverpool, New York",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Purchase of six radar systems with spares, training, field service representatives, software support and program management",
+        "base_contract_number": "W56KGY-21-C-0010",
+        "order_number": null,
+        "modification_number": "PZ0003",
+        "value_usd": 129040507,
+        "cumulative_value_usd": null,
+        "obligated_usd": 129040507,
+        "fms_countries": [
+          "Romania"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon/Lockheed Martin Javelin JV, Tucson, Arizona, was awarded a $71,412,090 modification (P00066) to contract W31P4Q-19-C-0076 for the Javelin Missile System. Work will be performed in Tucson, Arizona, with an estimated completion date of Feb. 28, 2025. Fiscal 2022 missile procurement, Army funds; and Foreign Military Sales (Thailand, Norway, Albania and Latvia) funds in the amount of $71,412,090 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q19C0076"
+        ],
+        "modification_numbers": [
+          "P00066"
+        ],
+        "is_modification": true,
+        "value_usd": 71412090.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 71412090.0,
+        "funding_text": "Fiscal 2022 missile procurement, Army funds; and Foreign Military Sales (Thailand, Norway, Albania and Latvia) funds in the amount of $71,412,090 were obligated at the time of the award",
+        "completion_date": "2025-02-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Thailand",
+          "Norway",
+          "Albania",
+          "Latvia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon/Lockheed Martin Javelin JV",
+            "location": "Tucson, Arizona",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Javelin Missile System",
+        "base_contract_number": "W31P4Q-19-C-0076",
+        "order_number": null,
+        "modification_number": "P00066",
+        "value_usd": 71412090,
+        "cumulative_value_usd": null,
+        "obligated_usd": 71412090,
+        "fms_countries": [
+          "Thailand",
+          "Norway",
+          "Albania",
+          "Latvia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Goodyear Tire & Rubber Co., Akron, Ohio, was awarded a $36,856,548 modification (P00004) to contract W91CRB-21-D-0003 for tires for U.S. Army Security Assistance Command. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 20, 2025. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB21D0003"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 36856548.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-12-20",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Goodyear Tire & Rubber Co.",
+            "location": "Akron, Ohio",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Tires for U.S. Army Security Assistance Command",
+        "base_contract_number": "W91CRB-21-D-0003",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 36856548,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Amentum Services Inc., Germantown, Maryland, was awarded a $16,013,615 modification (001DX) to contract WF2P1J12-G-0028 for logistics support services, including maintenance, supply and transportation. Work will be performed at Fort Polk, Louisiana, with an estimated completion date of May 17, 2023. Fiscal 2022 operation and maintenance, Army funds in the amount of $16,013,614 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "WF2P1J12G0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16013615.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16013614.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army funds in the amount of $16,013,614 were obligated at the time of the award",
+        "completion_date": "2023-05-17",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Amentum Services Inc.",
+            "location": "Germantown, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Logistics support services, including maintenance, supply and transportation at Fort Polk, Louisiana",
+        "base_contract_number": "WF2P1J12-G-0028",
+        "order_number": null,
+        "modification_number": "001DX",
+        "value_usd": 16013615,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16013614,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Cubic Defense Applications Inc., San Diego, California, has been awarded an estimated maximum $90,600,000 firm-fixed-price contract for the P5 Combat Training System (P5CTS) Security Update (SSU). The SSU is a Type 1 encryptor and provides a National Security Agency-certified control interface that enables or restricts the access or transfer of information between security domains on the P5CTS. Work will be performed in San Diego, California, and is expected to be completed by May 31, 2028. This contract includes 10 percent Foreign Military Sales to Qatar and other classified customers. U.S. Air Force operations and maintenance funds in the amount of $8,909,438 are being obligated at the time of award for the first task order. Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity (FA8210-22-D-0002).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA821022D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8909438.0,
+        "funding_text": "U.S. Air Force operations and maintenance funds in the amount of $8,909,438 are being obligated at the time of award for the first task order",
+        "completion_date": "2028-05-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": "FA8210-22-D-0002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Cubic Defense Applications Inc.",
+            "location": "San Diego, California",
+            "contract_number": "FA8210-22-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "P5 Combat Training System (P5CTS) Security Update (SSU) Type 1 encryptor",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90600000,
+        "cumulative_value_usd": 90600000,
+        "obligated_usd": 8909438,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Aery Aviation LLC, Newport News, Virginia, has been awarded a $9,950,000 indefinite-delivery/indefinite-quantity contract for Joint Base Aerial Gunnery Target Towing. Work will be performed at Joint Base Elmendorf-Richardson and Eielson Air Force Base, Alaska, and is expected to be completed by May 15, 2027. This award is the result of a competitive acquisition and two offers were received. Fiscal 2022 operations and maintenance funds in the amount of $3,500 are being obligated at the time of award. The 673rd Contracting Squadron, Joint Base Elmendorf-Richardson, Alaska, is the contracting activity (FA5000-22-D-0021).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA500022D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds in the amount of $3,500 are being obligated at the time of award",
+        "completion_date": "2027-05-15",
+        "contracting_activity": {
+          "name": "The 673rd Contracting Squadron, Joint Base Elmendorf-Richardson, Alaska",
+          "code": "FA5000-22-D-0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Aery Aviation LLC",
+            "location": "Newport News, Virginia",
+            "contract_number": "FA5000-22-D-0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Joint Base Aerial Gunnery Target Towing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500,
+        "fms_countries": [],
+        "competition": "Competitive; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CDW Government LLC, Vernon Hills, Illinois, has been awarded a $8,191,493 firm-fixed-price delivery order for Carahpoints. This contract provides for the purchase of Carahpoints to be used for the subsequent purchase of software licenses. Work will be performed at Hill Air Force Base, Utah, and is expected to be completed by May 13, 2023. This award is the result of a competitive acquisition and nine offers were received. Defense working capital funds in the amount of $8,191,493 are being obligated at the time of award. Air Force Material Command, Hill AFB, Utah is the contracting activity (FA8201-22-F-0128).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA820122F0128"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8191493.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8191493.0,
+        "funding_text": "Defense working capital funds in the amount of $8,191,493 are being obligated at the time of award",
+        "completion_date": "2023-05-13",
+        "contracting_activity": {
+          "name": "Air Force Material Command, Hill AFB, Utah",
+          "code": "FA8201-22-F-0128"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "CDW Government LLC",
+            "location": "Vernon Hills, Illinois",
+            "contract_number": "FA8201-22-F-0128",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Carahpoints for subsequent purchase of software licenses",
+        "base_contract_number": null,
+        "order_number": "FA8201-22-F-0128",
+        "modification_number": null,
+        "value_usd": 8191493,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8191493,
+        "fms_countries": [],
+        "competition": "Competitive; nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DLT Solutions LLC, Herndon, Virginia, is awarded a $70,000,000 modification (P00009) increasing the ceiling available to previously awarded indefinite-delivery/indefinite-quantity, firm-fixed priced contract (N00189-18-D-Q001). This modification will provide for firm-fixed-price orders allowing the Department of the Navy to continue to purchase licenses and technical support for Oracle software programs. This modification will bring the estimated cumulative value of the total contract value from the original $379,309,544 to $449,309,544. The contract is in its last year of the five-year ordering period, with no option periods. All work will be performed in Herndon, Virginia, and the ordering period of the contract is expected to be completed by May 2023. No funding will be obligated at time of award. Operation and maintenance (Navy) funds will fund individual orders with appropriate fiscal year appropriations at the time of their issuance. Naval Supply Systems Command Fleet Logistics Center, Norfolk Contracting Department, Mechanicsburg Office, Mechanicsburg, Pennsylvania, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0018918DQ001"
+        ],
+        "modification_numbers": [
+          "P00009"
+        ],
+        "is_modification": true,
+        "value_usd": 70000000.0,
+        "cumulative_value_usd": 379309544.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award",
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center, Norfolk Contracting Department, Mechanicsburg Office, Mechanicsburg, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "DLT Solutions LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "N00189-18-D-Q001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Ceiling increase for Oracle software licenses and technical support orders",
+        "base_contract_number": "N00189-18-D-Q001",
+        "order_number": null,
+        "modification_number": "P00009",
+        "value_usd": 70000000,
+        "cumulative_value_usd": 449309544,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Ingalls Shipbuilding Division, Pascagoula, Mississippi, is awarded a $58,396,917 hybrid cost-plus-award-fee, cost-plus-fixed-fee with a special performance incentive, and cost-only modification to previously awarded contract N00024-21-C-4205 to exercise options for planning yard support for LPD 17 amphibious transport dock ships, LHD 1/LHA 6 amphibious assault ships, LSD 41/49 dock landing ships, and LCC 19 amphibious command ship. Work will be performed in Pascagoula, Mississippi, with on-site technical support for Chief of Naval Operations availabilities in Mayport, Florida; Norfolk, Virginia; San Diego, California; and Sasebo, Japan. Work is expected to be completed by May 2023. No funding will be obligated at the time of award. The Supervisor of Shipbuilding Gulf Coast, Pascagoula, Mississippi, is the contracting activity (N00024-21-C-4205).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C4205"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 58396917.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award",
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding Gulf Coast, Pascagoula, Mississippi",
+          "code": "N00024-21-C-4205"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc., Ingalls Shipbuilding Division",
+            "location": "Pascagoula, Mississippi",
+            "contract_number": "N00024-21-C-4205",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "hybrid cost-plus-award-fee, cost-plus-fixed-fee with a special performance incentive, and cost-only",
+        "description": "Planning yard support for LPD 17, LHD 1/LHA 6, LSD 41/49 and LCC 19 ship classes",
+        "base_contract_number": "N00024-21-C-4205",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 58396917,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Brooks & Perkins Inc.,* Cadillac, Michigan (N00174-22-D-0011); and Garrett Container Systems Inc.,* Accident, Maryland (N00174-22-D-0012), are awarded a combined $22,500,000 in firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award contracts for the manufacture, testing and spare parts of metal weapons containers. Each awardee will be awarded $500 (minimum contract guarantee per awardee) at contract award. These contracts include a five-year ordering period with a cumulative value of $22,500,000 to the two vendors combined. Work will be performed in Cadillac, Michigan; and Accident, Maryland, and is expected to be completed by May 2027. Fiscal 2022 working capital (Defense) funds of $1,000 will be obligated at time of award, and will not expire at the end of the current fiscal year. All other funding will be made available at the delivery order level as contracting actions occur. This contract was competitively procured via the beta.sam.gov website with two offers received. The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0017422D0011",
+          "N0017422D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22500000.0,
+        "cumulative_value_usd": 22500000.0,
+        "obligated_usd": 1000.0,
+        "funding_text": "Fiscal 2022 working capital (Defense) funds of $1,000 will be obligated at time of award, and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-05",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Brooks & Perkins Inc.",
+            "location": "Cadillac, Michigan",
+            "contract_number": "N00174-22-D-0011",
+            "markers": "*"
+          },
+          {
+            "name": "Garrett Container Systems Inc.",
+            "location": "Accident, Maryland",
+            "contract_number": "N00174-22-D-0012",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award",
+        "description": "Manufacture, testing and spare parts of metal weapons containers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22500000,
+        "cumulative_value_usd": 22500000,
+        "obligated_usd": 1000,
+        "fms_countries": [],
+        "competition": "Competitive via beta.sam.gov; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Peter Vander Werff Construction Inc.,* El Cajon, California, is awarded a $10,494,000 firm-fixed-price task order (N6247322F4459) under a multiple award construction contract for construction at Naval Base Coronado, California. The work to be performed provides design, engineering, and construction of an operations support facility to support Naval Special Warfare Group 11. The task order also contains six unexercised options, which if exercised would increase cumulative task order value to $12,426,000. Three modifications for collateral equipment are also planned for award under this contract and will be funded via fiscal 2023 and fiscal 2024 operation and maintenance (Navy) funds in the amount of $701,950. If all unexercised options and planned modifications are exercised, total cumulative task order value would increase to $13,127,950. Work will be performed in Coronado, California, and is expected to be completed by June 2024. Fiscal 2021 and 2022 military construction (Navy) funds in the amount of $10,494,000 are obligated on this award and will not expire at the end of the current fiscal year. Five proposals were received for this task order. The Naval Facilities Engineering Systems Command Southwest, San Diego, California, is the contracting activity (N62473-20-D-1125).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6247322F4459",
+          "N6247320D1125"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10494000.0,
+        "cumulative_value_usd": 12426000.0,
+        "obligated_usd": 10494000.0,
+        "funding_text": "Fiscal 2021 and 2022 military construction (Navy) funds in the amount of $10,494,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southwest, San Diego, California",
+          "code": "N62473-20-D-1125"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Peter Vander Werff Construction Inc.",
+            "location": "El Cajon, California",
+            "contract_number": "N6247322F4459",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Design, engineering and construction of an operations support facility for Naval Special Warfare Group 11 at Naval Base Coronado",
+        "base_contract_number": "N62473-20-D-1125",
+        "order_number": "N6247322F4459",
+        "modification_number": null,
+        "value_usd": 10494000,
+        "cumulative_value_usd": 12426000,
+        "obligated_usd": 10494000,
+        "fms_countries": [],
+        "competition": "Five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Intercontinental Construction Contracting Inc.,* Passaic, New Jersey, is awarded an $8,587,080 firm-fixed-price task order (N6247322F4497) under a multiple award construction contract for renovations at Room 19-0935, Building 214, Naval Postgraduate School. The work to be performed provides for the full renovation of the first floor, including the relocation of the engine testing lab, additional storage, and new graduate work areas and classrooms, new construction of stairways and elevator to access the new second floor, which will accommodate the consolidation of workshop machinery equipment. Additionally, a covered exterior equipment enclosure will be provided, and the existing rail crane will be replaced with a new five-ton bridge crane. Work will be performed in Monterey, California, and is expected to be completed by November 2023. Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $8,587,080 are obligated on this award and will expire at the end of the current fiscal year. Seven proposals were received for this task order. The Naval Facilities Engineering Systems Command Southwest, San Diego, California, is the contracting activity (N62473-21-D-1024).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N6247322F4497",
+          "N6247321D1024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8587080.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8587080.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) contract funds in the amount of $8,587,080 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southwest, San Diego, California",
+          "code": "N62473-21-D-1024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Intercontinental Construction Contracting Inc.",
+            "location": "Passaic, New Jersey",
+            "contract_number": "N6247322F4497",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order under a multiple award construction contract",
+        "description": "Renovation of Room 19-0935, Building 214, Naval Postgraduate School (engine testing lab relocation, new classrooms, stairways/elevator, five-ton bridge crane)",
+        "base_contract_number": "N62473-21-D-1024",
+        "order_number": "N6247322F4497",
+        "modification_number": null,
+        "value_usd": 8587080,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8587080,
+        "fms_countries": [],
+        "competition": "7 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sterling BV Inc.,* doing business as Sterling Foods, San Antonio, Texas, has been awarded a maximum $13,716,000 fixed-price, indefinite-delivery/indefinite-quantity contract for the production and delivery of performance readiness bars. This was a competitive acquisition with two responses received. This is a three-year contract with no option periods. The ordering period end date is May 12, 2025. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE3S1-22-D-Z151).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE3S122DZ151"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13716000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE3S1-22-D-Z151"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Sterling BV Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "SPE3S1-22-D-Z151",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Production and delivery of performance readiness bars",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13716000,
+        "cumulative_value_usd": 13716000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 2 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Upper Valley Produce LLC, White River Junction, Vermont, has been awarded a maximum $9,750,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for fresh fruits and vegetables. This was a competitive acquisition with two responses received. This is a five-year contract with no option periods. The ordering period end date is May 8, 2027. Using customers are U.S. Department of Agriculture schools. Type of appropriation is fiscal 2022 through 2027 defense working capital funds. The contracting agency is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-22-D-S754).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE30022DS754"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9750000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-22-D-S754"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Upper Valley Produce LLC",
+            "location": "White River Junction, Vermont",
+            "contract_number": "SPE300-22-D-S754",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment indefinite-delivery/indefinite-quantity",
+        "description": "Fresh fruits and vegetables for U.S. Department of Agriculture schools",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9750000,
+        "cumulative_value_usd": 9750000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 2 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-05-12.html"
+  "source": "file:2022-05-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:15:21Z"
+  }
 }

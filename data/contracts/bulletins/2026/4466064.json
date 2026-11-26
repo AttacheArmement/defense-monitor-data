@@ -12,63 +12,535 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "All American Contracting Solutions, Rapid City South Dakota (FA469021D0004); Dakota Plains Electrical Engineering and RCS Construction JV, Eagle Butte, South Dakota (FA469021D0005); LaCreek Development Corp., Martin, South Dakota (FA469021D0006); OK2 Construction, Cleburne, Texas (FA469021D0007); and QSJV, Rapid City, South Dakota (FA469021D0008) have been awarded a ceiling $190,000,000 modification (FA469021D0004P00003, FA469021D0005P00002, FA469021D0006P00003, FA469021D0007P00003, and FA469021D0008P00002) for construction services. The modification brings the total cumulative face value of the contract to $190,000,000 from $95,000,000. Work will be performed at Ellsworth Air Force Base, South Dakota, and is expected to be completed Sept. 30, 2027. There are no funds being obligated at time of award. The 28th Contracting Squadron, Ellsworth AFB, South Dakota, is the contracting activity. (Awarded on April 20, 2026).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA469021D0004",
+          "FA469021D0005",
+          "FA469021D0006",
+          "FA469021D0007",
+          "FA469021D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 190000000.0,
+        "cumulative_value_usd": 190000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "There are no funds being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 28th Contracting Squadron, Ellsworth AFB, South Dakota",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "All American Contracting Solutions",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "FA469021D0004",
+            "markers": null
+          },
+          {
+            "name": "Dakota Plains Electrical Engineering and RCS Construction JV",
+            "location": "Eagle Butte, South Dakota",
+            "contract_number": "FA469021D0005",
+            "markers": null
+          },
+          {
+            "name": "LaCreek Development Corp.",
+            "location": "Martin, South Dakota",
+            "contract_number": "FA469021D0006",
+            "markers": null
+          },
+          {
+            "name": "OK2 Construction",
+            "location": "Cleburne, Texas",
+            "contract_number": "FA469021D0007",
+            "markers": null
+          },
+          {
+            "name": "QSJV",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "FA469021D0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Ceiling increase for construction services at Ellsworth Air Force Base, South Dakota; completion Sept. 30, 2027",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": "FA469021D0004P00003, FA469021D0005P00002, FA469021D0006P00003, FA469021D0007P00003, FA469021D0008P00002",
+        "value_usd": 190000000,
+        "cumulative_value_usd": 190000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-04-20"
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "United Concordia Companies Inc., Camp Hill, Pennsylvania, is awarded a modification (P00048) in the amount of $132,005,812 to exercise Option Period Five of the firm-fixed-price, cost reimbursable, no-fee contract (HT940221C0006) to provide worldwide dental coverage to active-duty service members of the uniformed services of the U.S. The Active-Duty Dental Program supplements the dental care provided in Department of Defense dental treatment facilities, as well as provides care to active-duty service members living in remote regions that do not have access to dental treatment facilities. The period of performance is from May 1, 2026, to April 30, 2027. Fiscal 2026 operations and maintenance funds are being obligated at the time of award. The Defense Health Agency, Managed Care Contracting Division, Aurora, Colorado, is the contracting activity. (Awarded April 15, 2026).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "HT940221C0006"
+        ],
+        "modification_numbers": [
+          "P00048"
+        ],
+        "is_modification": true,
+        "value_usd": 132005812.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Managed Care Contracting Division, Aurora, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "United Concordia Companies Inc.",
+            "location": "Camp Hill, Pennsylvania",
+            "contract_number": "HT940221C0006",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, cost reimbursable, no-fee contract",
+        "description": "Option Period Five exercise for worldwide active-duty dental program (May 1, 2026 to April 30, 2027)",
+        "base_contract_number": "HT940221C0006",
+        "order_number": null,
+        "modification_number": "P00048",
+        "value_usd": 132005812,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-04-15"
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "QBase LLC, Reston, Virginia, was awarded a fixed price requirements bridge contract (HT001525C0001 P0003) with a value of $16,355,750. This contract supports the Defense Health Agency Infrastructure and Services Resource Management Branch, whose mission is to provide provides network sustainment and deployment support services to Military Health System military medical treatment facilities, to include hospitals, clinics, and other remote elements, both inside and outside the continental U.S. This work supports the overall network infrastructure at a medical treatment facility and responds to, detects, reports, records, diagnoses, and resolves the occurrence of network faults as well as measures network performance and connectivity on an ongoing basis. This is a six-month base contract with a six-month option. Location of performance is worldwide with a June 27, 2027, performance completion date. The base year is funded with operations and maintenance funds in the amount of $16,355,750. The Defense Health Agency, Enterprise Medical Services Contracting Division, San Antonio, Texas, is the contracting activity. (Awarded April 16, 2026).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "HT001525C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16355750.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Enterprise Medical Services Contracting Division, San Antonio, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "QBase LLC",
+            "location": "Reston, Virginia",
+            "contract_number": "HT001525C0001 P0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed price requirements bridge contract",
+        "description": "Network sustainment and deployment support services for Defense Health Agency military treatment facilities; six-month base with six-month option",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16355750,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16355750,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-04-16"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $70,107,750 modification (P00001) to a cost-plus-fixed-fee, firm-fixed-price contract (N0001925C0080). This modification adds scope to provide for ongoing integration efforts for the government of Romania as F-35 Foreign Military Sales (FMS) customer to include program management, logistics and sustainment, and systems engineering. Work will be performed in various undisclosed locations within and outside the continental U.S. and is expected to be completed in November 2028. FMS customer funds in the amount of $70,107,750 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001925C0080"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 70107750.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70107750.0,
+        "funding_text": "FMS customer funds in the amount of $70,107,750 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-11",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001925C0080",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price contract",
+        "description": "Scope addition for F-35 integration for Romania as FMS customer (program management, logistics and sustainment, systems engineering)",
+        "base_contract_number": "N0001925C0080",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 70107750,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70107750,
+        "fms_countries": [
+          "Romania"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $36,973,224 cost-plus-incentive-fee modification to previously awarded delivery order N00024-26-F-6241 under an indefinite-delivery/indefinite-quantity contract (N00024-26-D-6203) to exercise an option for engineering and technical support in support of the Integrated Submarine Imaging System. Work will be performed in Manassas, Virginia, and is expected to be completed by March 2027. Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $3,500,000 will be obligated at the time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002426F6241",
+          "N0002426D6203"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 36973224.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $3,500,000 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-26-D-6203",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee indefinite-delivery/indefinite-quantity delivery order modification",
+        "description": "Option exercise for engineering and technical support for the Integrated Submarine Imaging System",
+        "base_contract_number": "N00024-26-D-6203",
+        "order_number": "N00024-26-F-6241",
+        "modification_number": null,
+        "value_usd": 36973224,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Manassas, Virginia, is being awarded $20,492,194 for a firm-fixed-price contract for the purchase of 180 spare high-frequency chin array acoustic modules used in Block IV Virginia-class submarines. The contract does not contain an option provision. Work under the contract will be performed in multiple locations: Hingham, Massachusetts (37%); Oldsmar, Florida (36%); Liverpool, New York (23%); and Manassas, Virginia (4%). Work is expected to be completed by June 2031. Fiscal 2026 working capital funds (Navy) in the contract’s full amount of $20,492,194 will be obligated at time of award and those funds will not expire at the end of the applicable fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1) and one offer received. Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania, is the contracting activity (N00104-26-C-NA12).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0010426CNA12"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20492194.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20492194.0,
+        "funding_text": "Fiscal 2026 working capital funds (Navy) in the contract’s full amount of $20,492,194 will be obligated at time of award and those funds will not expire at the end of the applicable fiscal year",
+        "completion_date": "2031-06",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Mechanicsburg, Pennsylvania",
+          "code": "N00104-26-C-NA12"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00104-26-C-NA12",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Purchase of 180 spare high-frequency chin array acoustic modules for Block IV Virginia-class submarines",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20492194,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20492194,
+        "fms_countries": [],
+        "competition": "sole source; one company solicited, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Karlas & Emmas Knits LLC,** Brooklyn, New York, has been awarded a maximum $21,070,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for various types of physical fitness shirts. This was a competitive acquisition with 12 responses received. This is a four-year contract with no option periods. The ordering period end date is April 20, 2030. Using military services are Air Force and Space Force. Type of appropriation is fiscal 2026 through 2030 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-26-D-0042).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0042"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21070000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-26-D-0042"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Women-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Karlas & Emmas Knits LLC",
+            "location": "Brooklyn, New York",
+            "contract_number": "SPE1C1-26-D-0042",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Maximum-value IDIQ for physical fitness shirts for Air Force and Space Force; four-year contract, ordering period ends April 20, 2030",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21070000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 12 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tech Tactical LLC,* Tampa, Florida, was awarded a $14,950,000 cost-no-fee, cost-plus-fixed-fee, firm-fixed-price indefinite-delivery contract to facilitate rapid development, procurement, training and sustainment of information operations systems. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of April 23, 2031. Army Contracting Command, Aberdeen Proving Ground, Edgewood Division, Edgewood, New Jersey, is the contracting activity (W911SR-26-D-A004).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W911SR26DA004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-04-23",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Edgewood Division, Edgewood, New Jersey",
+          "code": "W911SR-26-D-A004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Tech Tactical LLC",
+            "location": "Tampa, Florida",
+            "contract_number": "W911SR-26-D-A004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-no-fee, cost-plus-fixed-fee, firm-fixed-price indefinite-delivery contract",
+        "description": "Rapid development, procurement, training and sustainment of information operations systems; estimated completion April 23, 2031",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "HGS LLC, Bellaire, Texas, was awarded a $9,503,303 firm-fixed-price contract for restoration of the Dutch Gap aquatic ecosystem, including stream, riparian, wetland, and buffering plant communities to provide habitat for migratory birds and local fish and wildlife at the Dutch Gap Aquatic Complex in Antioch, Illinois. Bids were solicited via the internet with five received. Work will be performed in Antioch, Illinois, with an estimated completion date of April 20, 2031. Fiscal 2026 operation and maintenance, Corps of Engineers, civil funds in the amount of $9,503,303 were obligated at the time of the award. U.S. Army Corps of Engineers, Chicago District is the contracting activity (W912P6-26-C-A008).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912P626CA008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9503303.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9503303.0,
+        "funding_text": "Fiscal 2026 operation and maintenance, Corps of Engineers, civil funds in the amount of $9,503,303 were obligated at the time of the award",
+        "completion_date": "2031-04-20",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Chicago District",
+          "code": "W912P6-26-C-A008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "HGS LLC",
+            "location": "Bellaire, Texas",
+            "contract_number": "W912P6-26-C-A008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Restoration of Dutch Gap aquatic ecosystem, Antioch, Illinois; estimated completion April 20, 2031",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9503303,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9503303,
+        "fms_countries": [],
+        "competition": "internet solicitation, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Missiles and Fire Control, Dallas, Texas, is being awarded a $9,992,195 modification (P00124) to a previously awarded contract (HQ0147-17-C-0032) for the acquisition of the Terminal High Altitude Area Defense (THAAD) Configuration 3.1 Part B2 Ground Modernization equipment to support the U.S. government. The THAAD Configuration 3.1 Part B2, and associated labor and material, will be procured under a firm-fixed-price contract line item. The total value of this contract is increased from $9,085,427,667 to $9,095,419,862. The work will be performed in Dallas, Texas; Sunnyvale, California; Troy, Alabama; Huntsville, Alabama; and Camden, Arkansas, with an expected completion date Jan. 31, 2029. Fiscal 2026 procurement funds in the amount of $9,992,195 are being obligated at time of award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HQ014717C0032"
+        ],
+        "modification_numbers": [
+          "P00124"
+        ],
+        "is_modification": true,
+        "value_usd": 9992195.0,
+        "cumulative_value_usd": 9085427667.0,
+        "obligated_usd": 9992195.0,
+        "funding_text": "Fiscal 2026 procurement funds in the amount of $9,992,195 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Missiles and Fire Control",
+            "location": "Dallas, Texas",
+            "contract_number": "HQ0147-17-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price contract line item",
+        "description": "THAAD Configuration 3.1 Part B2 Ground Modernization equipment; total contract value raised to $9,095,419,862",
+        "base_contract_number": "HQ0147-17-C-0032",
+        "order_number": null,
+        "modification_number": "P00124",
+        "value_usd": 9992195,
+        "cumulative_value_usd": 9095419862,
+        "obligated_usd": 9992195,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-04-21.html"
+  "source": "file:2026-04-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:27:07Z"
+  }
 }

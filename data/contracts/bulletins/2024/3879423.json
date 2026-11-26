@@ -11,63 +11,673 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Oshkosh Defense LLC, Oshkosh, Wisconsin, was awarded a $1,541,861,429 fixed-price with economic-price-adjustment contract for the Family of Heavy Tactical Vehicles. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 19, 2029. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-24-D-0008).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912CH24D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1541861429.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-08-19",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-24-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Oshkosh Defense LLC",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "W912CH-24-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Family of Heavy Tactical Vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1541861429,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "J&J Worldwide Services, Austin, Texas (W91278-24-D-0055); Facility Services Management Inc., Clarksville, Tennessee (W91278-24-D-0056); Korte Construction Co., St. Louis, Missouri (W91278-24-D-0057); Johnson Controls Building Automation Systems, Huntsville, Alabama (W91278-24-D-0058); NAN Inc., Honolulu, Hawaii (W91278-24-D-0059); Valiant Government Services, Fayetteville, North Carolina (W91278-24-D-0060); 2A LLC,* Aberdeen, Maryland (W91278-24-D-0061); Bering-J&J JV,* Anchorage, Alaska (W91278-24-D-0062); Global Engineering & Construction LLC,* Renton, Washington (W91278-24-D-0063); Strategic Industry,* Kingsburg, California (W91278-24-D-0064); and Su-Mo Builders,* Honolulu, Hawaii (W91278-24-D-0065), will compete for each order of the $99,000,000 firm-fixed-price contract for design-build construction. Bids were solicited via the internet with 15 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 19, 2029. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127824D0055",
+          "W9127824D0056",
+          "W9127824D0057",
+          "W9127824D0058",
+          "W9127824D0059",
+          "W9127824D0060",
+          "W9127824D0061",
+          "W9127824D0062",
+          "W9127824D0063",
+          "W9127824D0064",
+          "W9127824D0065"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-08-19",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "J&J Worldwide Services",
+            "location": "Austin, Texas",
+            "contract_number": "W91278-24-D-0055",
+            "markers": null
+          },
+          {
+            "name": "Facility Services Management Inc.",
+            "location": "Clarksville, Tennessee",
+            "contract_number": "W91278-24-D-0056",
+            "markers": null
+          },
+          {
+            "name": "Korte Construction Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W91278-24-D-0057",
+            "markers": null
+          },
+          {
+            "name": "Johnson Controls Building Automation Systems",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W91278-24-D-0058",
+            "markers": null
+          },
+          {
+            "name": "NAN Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W91278-24-D-0059",
+            "markers": null
+          },
+          {
+            "name": "Valiant Government Services",
+            "location": "Fayetteville, North Carolina",
+            "contract_number": "W91278-24-D-0060",
+            "markers": null
+          },
+          {
+            "name": "2A LLC",
+            "location": "Aberdeen, Maryland",
+            "contract_number": "W91278-24-D-0061",
+            "markers": "*"
+          },
+          {
+            "name": "Bering-J&J JV",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W91278-24-D-0062",
+            "markers": "*"
+          },
+          {
+            "name": "Global Engineering & Construction LLC",
+            "location": "Renton, Washington",
+            "contract_number": "W91278-24-D-0063",
+            "markers": "*"
+          },
+          {
+            "name": "Strategic Industry",
+            "location": "Kingsburg, California",
+            "contract_number": "W91278-24-D-0064",
+            "markers": "*"
+          },
+          {
+            "name": "Su-Mo Builders",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W91278-24-D-0065",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build construction",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 15 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Great Lakes Dock and Dredge Co. LLC, Houston, Texas, was awarded a $65,875,022 firm-fixed-price contract to deepen and widen Mobile Harbor. Bids were solicited via the internet with three received. Work will be performed in Irvington, Alabama, with an estimated completion date of April 27, 2025. Fiscal 2020 civil construction funds and fiscal 2024 civil operation and maintenance funds in the amount of $65,875,022 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-24-C-0044).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9127824C0044"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 65875022.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65875022.0,
+        "funding_text": "Fiscal 2020 civil construction funds and fiscal 2024 civil operation and maintenance funds in the amount of $65,875,022 were obligated at the time of the award",
+        "completion_date": "2025-04-27",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-24-C-0044"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Great Lakes Dock and Dredge Co. LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W91278-24-C-0044",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Deepen and widen Mobile Harbor",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 65875022,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65875022,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Avalon Contracting Inc.,* Tacoma, Washington (W911S8-24-D-0003); CMEC LLC,* Post Falls, Idaho (W911S8-24-D-0004); Cannon Constructors LLC,* Milton, Washington (W911S8-24-D-0005); M.J. Takisaki Inc.,* Seattle, Washington (W911S8-24-D-0006); and F.L. Pinto Companies LLC,* McLean, Virginia (W911S8-24-D-0007), will compete for each order of the $24,000,000 firm-fixed-price contract for minor maintenance, repair and construction work. Bids were solicited via the internet with 10 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 18, 2029. 418th Contracting Support Brigade, Joint Base Lewis McChord, Washington, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911S824D0003",
+          "W911S824D0004",
+          "W911S824D0005",
+          "W911S824D0006",
+          "W911S824D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-08-18",
+        "contracting_activity": {
+          "name": "Work locations and funding will be determined with each order, with an estimated completion date of Aug. 18, 2029. 418th Contracting Support Brigade, Joint Base Lewis McChord, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Avalon Contracting Inc.",
+            "location": "Tacoma, Washington",
+            "contract_number": "W911S8-24-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "CMEC LLC",
+            "location": "Post Falls, Idaho",
+            "contract_number": "W911S8-24-D-0004",
+            "markers": "*"
+          },
+          {
+            "name": "Cannon Constructors LLC",
+            "location": "Milton, Washington",
+            "contract_number": "W911S8-24-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "M.J. Takisaki Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "W911S8-24-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "F.L. Pinto Companies LLC",
+            "location": "McLean, Virginia",
+            "contract_number": "W911S8-24-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Minor maintenance, repair and construction work",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 10 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Carahsoft Technology Corp., Reston, Virginia (N66001-24-A-0056); TD Synnex, Greenville, South Carolina (N66001-24-A-0057); and EC America, Mclean, Virginia (N66001-24-A-0058), are awarded a multiple award, firm-fixed-price, blanket purchase agreement (BPA), with an estimated value of $848,400,000, using the General Services Administration (GSA) Federal Supply Schedule. The Department of Defense Enterprise Software Initiative (DOD ESI) BPAs will provide Red Hat subscription software licenses for on-premises and cloud environments. Red Hat software products are required by the DOD to support warfighting operations and missions, protect against network vulnerabilities, ensure compatibility across network systems, and reduce costs. Additionally, Red Hat software products are required as the Linux operating system is used extensively on a range of workloads in physical, virtual, and cloud environments. Red Hat Enterprise Linux editions are available for servers, mainframe, SAP applications, OpenStack platforms, desktops, data centers, and edge servers. These agreements are issued under DOD ESI in accordance with the policy and guidelines in the Defense Federal Acquisition Regulation Supplement Section 208.74. The ordering period will be for five years, base ordering period of three years and one option period of two years. No funds will be obligated at the time of award. Funds will be obligated as task orders are issued using primarily operations and maintenance funds. This contract was competitively procured via publication on the GSA E-Buy web site with 990 vendors solicited, three responses received, and three selected for award. Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6600124A0056",
+          "N6600124A0057",
+          "N6600124A0058"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 848400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated as task orders are issued using primarily operations and maintenance funds",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Pacific, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Carahsoft Technology Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N66001-24-A-0056",
+            "markers": null
+          },
+          {
+            "name": "TD Synnex",
+            "location": "Greenville, South Carolina",
+            "contract_number": "N66001-24-A-0057",
+            "markers": null
+          },
+          {
+            "name": "EC America",
+            "location": "Mclean, Virginia",
+            "contract_number": "N66001-24-A-0058",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price blanket purchase agreement",
+        "description": "Red Hat subscription software licenses for on-premises and cloud environments under DOD ESI",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 848400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitively procured via GSA E-Buy; 990 vendors solicited, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "AIM Engineering K.K., Iwakuni, Japan (N40084-24-D-0076); American Engineering Corp., Ginowan-shi, Japan (N40084-24-D-0077); Kikkawa Co. Ltd. Kurashiki-shi, Japan (N40084-24-D-0078); Maeda Road Construction Co. Ltd., Shinagawa-ku, Japan (N40084-24-D-0079); MECCS Mitomo JV, Chuo-ku, Japan (N40084-24-D-0080); Oshima Shokai Co. Ltd., Iwakuni-shi, Japan (N40084-24-D-0081); Sankyo Reinetsu Co. Ltd., Fukuyama, Japan (N40084-24-D-0082); Seiki Tokyu Kogyo Co. Ltd., Akishima, Japan (N40084-24-D-0083); and TECC Corp., Yokohama, Japan (N40084-24-D-0084), are awarded a combined $250,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity, multiple award, design-bid-build construction contact for repairs, alternation, construction, and demolition work to shore facilities at Marine Corps Air Station Iwakuni, Japan. TECC Corp. will be awarded $113,650 for the seed project. All remaining awardees will be awarded $3,039 each for the minimum contract guarantee at contract award. The maximum dollar value, including the base period and one option period, is $250,000,000. Work will be performed at various locations in Iwakuni, Japan, and is expected to be completed by August 2032. Fiscal 2024 operation and maintenance (Marine Corps) funding in the amount of $137,962 will be obligated at time of award and will expire at the end of the current fiscal year. The contract was competitively procured via the sam.gov website, with nine offers received. Naval Facilities Engineering Systems Command Far East, Yokosuka Naval Base, Japan, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008424D0076",
+          "N4008424D0077",
+          "N4008424D0078",
+          "N4008424D0079",
+          "N4008424D0080",
+          "N4008424D0081",
+          "N4008424D0082",
+          "N4008424D0083",
+          "N4008424D0084"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 250000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 137962.0,
+        "funding_text": "Fiscal 2024 operation and maintenance (Marine Corps) funding in the amount of $137,962 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2032-08",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Far East, Yokosuka Naval Base, Japan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "AIM Engineering K.K.",
+            "location": "Iwakuni, Japan",
+            "contract_number": "N40084-24-D-0076",
+            "markers": null
+          },
+          {
+            "name": "American Engineering Corp.",
+            "location": "Ginowan-shi, Japan",
+            "contract_number": "N40084-24-D-0077",
+            "markers": null
+          },
+          {
+            "name": "Kikkawa Co. Ltd.",
+            "location": "Kurashiki-shi, Japan",
+            "contract_number": "N40084-24-D-0078",
+            "markers": null
+          },
+          {
+            "name": "Maeda Road Construction Co. Ltd.",
+            "location": "Shinagawa-ku, Japan",
+            "contract_number": "N40084-24-D-0079",
+            "markers": null
+          },
+          {
+            "name": "MECCS Mitomo JV",
+            "location": "Chuo-ku, Japan",
+            "contract_number": "N40084-24-D-0080",
+            "markers": null
+          },
+          {
+            "name": "Oshima Shokai Co. Ltd.",
+            "location": "Iwakuni-shi, Japan",
+            "contract_number": "N40084-24-D-0081",
+            "markers": null
+          },
+          {
+            "name": "Sankyo Reinetsu Co. Ltd.",
+            "location": "Fukuyama, Japan",
+            "contract_number": "N40084-24-D-0082",
+            "markers": null
+          },
+          {
+            "name": "Seiki Tokyu Kogyo Co. Ltd.",
+            "location": "Akishima, Japan",
+            "contract_number": "N40084-24-D-0083",
+            "markers": null
+          },
+          {
+            "name": "TECC Corp.",
+            "location": "Yokohama, Japan",
+            "contract_number": "N40084-24-D-0084",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity, design-bid-build construction",
+        "description": "Repairs, alteration, construction and demolition work to shore facilities at MCAS Iwakuni, Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 250000000,
+        "cumulative_value_usd": 250000000,
+        "obligated_usd": 137962,
+        "fms_countries": [],
+        "competition": "Competitively procured via sam.gov, nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin, Rotary and Missions Systems, Liverpool, New York, is awarded a $113,643,908 firm-fixed-price modification to a previously awarded contract (N00024-20-C-5503) for option exercise of full rate production Surface Electronic Warfare Improvement Program AN/SLQ-32(V)6 and AN/SLQ-32C(V) six systems. This contract combines purchases for the Navy (80%), and the government of Japan (20%), under the Foreign Military Sales (FMS) program. Work will be performed in Liverpool, New York (78%); and Lansdale, Pennsylvania (22%), and is expected to be completed by October 2026. Fiscal 2024 shipbuilding and conversion (Navy) in the amount of $86,926,728 (76%); fiscal 2024 FMS in the amount of $21,731,682 (20%); and fiscal 2024 other procurement (Navy) funds in the amount of $4,985,498 (4%), will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C5503"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 113643908.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113643908.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) in the amount of $86,926,728 (76%); fiscal 2024 FMS in the amount of $21,731,682 (20%); and fiscal 2024 other procurement (Navy) funds in the amount of $4,985,498 (4%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-10",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin, Rotary and Missions Systems",
+            "location": "Liverpool, New York",
+            "contract_number": "N00024-20-C-5503",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for full rate production of Surface Electronic Warfare Improvement Program AN/SLQ-32(V)6 and AN/SLQ-32C(V) six systems",
+        "base_contract_number": "N00024-20-C-5503",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 113643908,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113643908,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Design Partners Inc., Honolulu, Hawaii, is awarded an $80,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity modification to a previously awarded contract (N62478-19-D-5029) for architect-engineer services. This award brings the total cumulative face value of the contract to $210,000,000. Work will be performed at various locations within the Naval Facilities Engineering Systems Command (NAVFAC) Hawaii area of responsibility, including Hawaii (95%); and other South Pacific Islands (5%), with an expected completion date of August 2024. No funds will be obligated at time of award. Task orders will be primarily funded by operation and maintenance, Navy, and military construction funds. NAVFAC Hawaii, Joint Base Pearl Harbor Hickam, Hawaii, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6247819D5029"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 80000000.0,
+        "cumulative_value_usd": 210000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award",
+        "completion_date": "2024-08",
+        "contracting_activity": {
+          "name": "NAVFAC Hawaii, Joint Base Pearl Harbor Hickam, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Design Partners Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62478-19-D-5029",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Architect-engineer services under NAVFAC Hawaii",
+        "base_contract_number": "N62478-19-D-5029",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 80000000,
+        "cumulative_value_usd": 210000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Innovative Defense Technologies LLC,* Arlington, Virginia, is awarded a $39,683,997 cost-plus-fixed-fee modification to previously awarded contract (N00024-21-C-5100) to increase engineering labor and support for Automated Test and Analysis requirements. Work will be performed in Arlington, Virginia (63%); Mount Laurel, New Jersey (21%); San Diego, California (8%); and Boston, Massachusetts (8%). Work is expected to be completed by November 2025. Fiscal 2024 research, development, test, and evaluation (Navy) funding in the amount of $10,232,288 (82%); fiscal 2024 Defense-wide research, development, test and evaluation funding in the amount of $1,000,000 (8%); fiscal 2024 research, development, test and evaluation (Army) funding in the amount of $688,000 (5%); and fiscal 2024 operations and maintenance (Navy) funding in the amount of $577,059 (5%), will be obligated at time of award, of which $577,059 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C5100"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 39683997.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12497347.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation (Navy) funding in the amount of $10,232,288 (82%); fiscal 2024 Defense-wide research, development, test and evaluation funding in the amount of $1,000,000 (8%); fiscal 2024 research, development, test and evaluation (Army) funding in the amount of $688,000 (5%); and fiscal 2024 operations and maintenance (Navy) funding in the amount of $577,059 (5%), will be obligated at time of award, of which $577,059 will expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Innovative Defense Technologies LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "N00024-21-C-5100",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Increase engineering labor and support for Automated Test and Analysis requirements",
+        "base_contract_number": "N00024-21-C-5100",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39683997,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Dunlop Aircraft Tyres Inc., Mocksville, North Carolina, has been awarded an estimated $7,640,593 firm-fixed-price requirements contract for aircraft tires. This was competitive acquisition with three responses received. This is a three-year contract with no option periods. The performance completion date is Aug. 19, 2027. Using military services are Air Force, Navy, and Marine Corps. Type of appropriation is fiscal 2024 through 2027 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7LX-24-D-0083).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX24D0083"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7640593.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7LX-24-D-0083"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Dunlop Aircraft Tyres Inc.",
+            "location": "Mocksville, North Carolina",
+            "contract_number": "SPE7LX-24-D-0083",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Aircraft tires",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7640593,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with three responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-08-20.html"
+  "source": "file:2024-08-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:37:53Z"
+  }
 }

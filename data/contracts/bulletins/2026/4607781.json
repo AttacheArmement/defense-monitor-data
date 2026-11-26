@@ -11,93 +11,774 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "GM Defense LLC, Warren, Michigan, was awarded a $697,686,693 modification (P00053) to contract (W56HZV-20-D-0066) for engineering change proposals for the Infantry Squad Vehicle Utility and Infantry Squad Vehicle Utility Winch Kit. This modification brings the total cumulative face value to $915,597,166. One bid was solicited with one received. Work locations and funding will be determined with each order, with an estimated completion date of June 25, 2028. U.S. Army Contracting Command-Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV20D0066"
+        ],
+        "modification_numbers": [
+          "P00053"
+        ],
+        "is_modification": true,
+        "value_usd": 697686693.0,
+        "cumulative_value_usd": 915597166.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-06-25",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command-Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "GM Defense LLC",
+            "location": "Warren, Michigan",
+            "contract_number": "W56HZV-20-D-0066",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Engineering change proposals for the Infantry Squad Vehicle Utility and Infantry Squad Vehicle Utility Winch Kit",
+        "base_contract_number": "W56HZV-20-D-0066",
+        "order_number": null,
+        "modification_number": "P00053",
+        "value_usd": 697686693,
+        "cumulative_value_usd": 915597166,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Kesser International Inc.,* North Little Rock, Arkansas, was awarded a $15,533,425 firm-fixed-price contract for the initial phase of restoring Deer Island by extending the Katrina Key rock breakwater structure to reduce wave erosion and help return the island to its historical dimensions. Bids were solicited via the internet with six received. Work will be performed in Biloxi, Mississippi, with an estimated completion date of Sept. 21, 2027. Fiscal 2014 civil flood control and coastal emergencies funds in the amount of $15,533,425 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-26-C-A019).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127826CA019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15533425.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15533425.0,
+        "funding_text": "Fiscal 2014 civil flood control and coastal emergencies funds in the amount of $15,533,425 were obligated at the time of the award",
+        "completion_date": "2027-09-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-26-C-A019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Kesser International Inc.",
+            "location": "North Little Rock, Arkansas",
+            "contract_number": "W91278-26-C-A019",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Initial phase of restoring Deer Island by extending Katrina Key rock breakwater structure",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15533425,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15533425,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "K & K Industries Inc.,* Windsor, Missouri, was awarded a $13,649,923 firm-fixed-price contract, with a total cumulative face value of $14,993,485, for construction of a weapons release system storage facility to support the B-21 program at Whiteman Air Force Base. Bids were solicited via the internet with three received. Work will be performed in Knob Noster, Missouri, with an estimated completion date of March 31, 2028. Fiscal 2026 military construction, defense-wide funds in the amount of $13,649,923 were obligated at the time of the award. U.S. Army Corps of Engineers, Kansas City, Missouri, is the contracting activity (W912DQ-26-C-A049).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912DQ26CA049"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13649923.0,
+        "cumulative_value_usd": 14993485.0,
+        "obligated_usd": 13649923.0,
+        "funding_text": "Fiscal 2026 military construction, defense-wide funds in the amount of $13,649,923 were obligated at the time of the award",
+        "completion_date": "2028-03-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Kansas City, Missouri",
+          "code": "W912DQ-26-C-A049"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "K & K Industries Inc.",
+            "location": "Windsor, Missouri",
+            "contract_number": "W912DQ-26-C-A049",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of weapons release system storage facility supporting the B-21 program at Whiteman Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13649923,
+        "cumulative_value_usd": 14993485,
+        "obligated_usd": 13649923,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Affolter Contracting Co. Inc.,* La Marque, Texas, was awarded an $11,756,279 firm-fixed-price contract for Corpus Christi Ship Channel placement area inner harbor improvements. Bids were solicited via the internet with six received. Work will be performed in Corpus Christi, Texas, with an estimated completion date of Dec. 22, 2027. Fiscal 2026 and 2027 civil construction, funds in the amount of $11,756,279 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-26-C-A028).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912HY26CA028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11756279.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11756279.0,
+        "funding_text": "Fiscal 2026 and 2027 civil construction, funds in the amount of $11,756,279 were obligated at the time of the award",
+        "completion_date": "2027-12-22",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston, Texas",
+          "code": "W912HY-26-C-A028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Affolter Contracting Co. Inc.",
+            "location": "La Marque, Texas",
+            "contract_number": "W912HY-26-C-A028",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Corpus Christi Ship Channel placement area inner harbor improvements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11756279,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11756279,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Dayton T. Brown Inc., Bohemia, New York, is awarded a $55,838,189 modification (P00029) to an order (N0042124F0184) against basic ordering agreement (N0042123G0005). This modification establishes a new material contract line item within the existing scope of the order for the procurement of five P-8 Ground Systems and 21 Fly-Away Kits in support of the P-8A Poseidon Mobile Mission Systems (MMS) mission. The materials will support system and subsystem modifications, upgrades, integration, and capability and capacity growth. Additionally, this modification exercises options for continued MMS support. Work will be performed in Hollywood, Maryland and is expected to be completed in March 2027. Fiscal 2024 aircraft procurement (Navy) funds in the amount of $55,684,474; fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $152,215; and fiscal 2026 operations and maintenance (Navy) funds in the amount of $1,500 will be obligated at the time of award. This modification was not competitively procured. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0042124F0184",
+          "N0042123G0005"
+        ],
+        "modification_numbers": [
+          "P00029"
+        ],
+        "is_modification": true,
+        "value_usd": 55838189.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 55838189.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Navy) funds in the amount of $55,684,474; fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $152,215; and fiscal 2026 operations and maintenance (Navy) funds in the amount of $1,500 will be obligated at the time of award",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Dayton T. Brown Inc.",
+            "location": "Bohemia, New York",
+            "contract_number": "N0042124F0184",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "order against basic ordering agreement",
+        "description": "Procurement of five P-8 Ground Systems and 21 Fly-Away Kits for P-8A Mobile Mission Systems; exercises options for MMS support",
+        "base_contract_number": "N0042123G0005",
+        "order_number": "N0042124F0184",
+        "modification_number": "P00029",
+        "value_usd": 55838189,
+        "cumulative_value_usd": null,
+        "obligated_usd": 55838189,
+        "fms_countries": [],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Poplicus Inc., Arlington, Virginia, is awarded a $41,550,000 firm-fixed-price contract, (N0003026C7003), to provide operational Ark SaaS capability to support recurring industrial base monitoring, acquisition decision support, production readiness analysis, supplier risk management, and software operations. This value includes all optional line items. Work will be performed in Arlington, Virginia (50%), and Pittsburgh, Pennsylvania (50%). Work is expected to be completed on Sept. 30, 2029. Fiscal 2025 One Big Beautiful Bill Authorization (OBBBA) funding in the amount of $5,550,000 and fiscal 2026 Operation & Maintenance, Navy, in the amount of $5,550,000, will be obligated at the time of award. $5,500,000 of fiscal 2026 Operation & Maintenance, Navy will expire at the end of the current fiscal year. This contract was awarded as a sole source acquisition pursuant to 10 U.S. Code 3204 (a)(1) and was previously synopsized on the System for Award Management (SAM.gov) online portal. Strategic Systems Programs, Washington, D.C., is the contracting activity. The information contained in the announcement is unclassified.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0003026C7003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41550000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11100000.0,
+        "funding_text": "Fiscal 2025 One Big Beautiful Bill Authorization (OBBBA) funding in the amount of $5,550,000 and fiscal 2026 Operation & Maintenance, Navy, in the amount of $5,550,000, will be obligated at the time of award. $5,500,000 of fiscal 2026 Operation & Maintenance, Navy will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Poplicus Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "N0003026C7003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Operational Ark SaaS capability for industrial base monitoring, acquisition decision support, production readiness analysis, supplier risk management, and software operations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41550000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11100000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Indianapolis, Indiana, is awarded a $34,364,909 cost-plus-fixed-fee order (N0001926F1166) against previously issued basic ordering agreement (N0001925G0009). This order provides engineering, management, technical, and acquisition support to sustain the V-22 Tactical Software Suite in support of maintaining the operational readiness of the V-22 fleet for the Air Force, Marine Corps, and Navy. Work will be performed in Indianapolis, Indiana and is expected to be completed in August 2028. Fiscal 2025 aircraft procurement (Air Force) funds in the amount of $309,895; fiscal 2025 procurement (Defense-Wide) funds in the amount of $294,947; fiscal 2026 aircraft procurement (Air Force) funds in the amount of $8,230,418; fiscal 2026 procurement (Defense-Wide) funds in the amount of $2,090,824; fiscal 2026 aircraft procurement (Navy) funds in the amount of $6,109,935; fiscal 2026 operations and maintenance (Air Force) funds in the amount of $4,818,482; fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $6,541,169; and fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,969,238 will be obligated at the time of award. This order was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001926F1166",
+          "N0001925G0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34364909.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34364908.0,
+        "funding_text": "Fiscal 2025 aircraft procurement (Air Force) funds in the amount of $309,895; fiscal 2025 procurement (Defense-Wide) funds in the amount of $294,947; fiscal 2026 aircraft procurement (Air Force) funds in the amount of $8,230,418; fiscal 2026 procurement (Defense-Wide) funds in the amount of $2,090,824; fiscal 2026 aircraft procurement (Navy) funds in the amount of $6,109,935; fiscal 2026 operations and maintenance (Air Force) funds in the amount of $4,818,482; fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $6,541,169; and fiscal 2026 operations and maintenance (Navy) funds in the amount of $5,969,238 will be obligated at the time of award",
+        "completion_date": "2028-08",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N0001926F1166",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Engineering, management, technical, and acquisition support to sustain the V-22 Tactical Software Suite",
+        "base_contract_number": "N0001925G0009",
+        "order_number": "N0001926F1166",
+        "modification_number": null,
+        "value_usd": 34364909,
+        "cumulative_value_usd": null,
+        "obligated_usd": 34364909,
+        "fms_countries": [],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell Boeing Joint Project Office, Amarillo, Texas, is awarded a $29,674,990 cost-plus-fixed-fee order (N0001926F2168) against previously issued basic ordering agreement (N0001922G0002). This order provides loads and dynamics model data for all V-22 variants prior to and concurrent with V-22 production cessation. The technical data will support future sustainment decisions, mishap investigations, transition to post-production sustainment, and Fleet Support Team repair and maintenance of V-22 aircraft. Work will be performed in Ridley Park, Pennsylvania (60%); Fort Worth, Texas (30%); and Amarillo, Texas (10%), and is expected to be completed in March 2030. Fiscal 2025 procurement (Navy) funds in the amount of $10,310,866; and fiscal 2026 procurement (Navy) funds in the amount of $19,364,124 will be obligated at the time of award. This order was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001926F2168",
+          "N0001922G0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29674990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29674990.0,
+        "funding_text": "Fiscal 2025 procurement (Navy) funds in the amount of $10,310,866; and fiscal 2026 procurement (Navy) funds in the amount of $19,364,124 will be obligated at the time of award",
+        "completion_date": "2030-03",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Bell Boeing Joint Project Office",
+            "location": "Amarillo, Texas",
+            "contract_number": "N0001926F2168",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Loads and dynamics model data for all V-22 variants prior to and concurrent with V-22 production cessation",
+        "base_contract_number": "N0001922G0002",
+        "order_number": "N0001926F2168",
+        "modification_number": null,
+        "value_usd": 29674990,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29674990,
+        "fms_countries": [],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Information Technology Inc., Falls Church, Virginia, is awarded a $22,401,925 cost-plus-fixed-fee modification to previously awarded contract (N6339423C0009) to exercise options for engineering services to upgrade, inspect, test, and deliver components of the MK 41 Vertical Launching System. Work will be performed in Chesapeake, Virginia (80%); Norfolk, Virginia (5%); Mayport, Florida (5%); San Diego, California (5%); and Pearl Harbor, Hawaii (5%) and is expected to be completed by October 2027. Fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $10,821,834 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6339423C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22401925.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10821834.0,
+        "funding_text": "Fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $10,821,834 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-10",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Falls Church, Virginia",
+            "contract_number": "N6339423C0009",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Engineering services to upgrade, inspect, test, and deliver components of the MK 41 Vertical Launching System",
+        "base_contract_number": "N6339423C0009",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22401925,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10821834,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded an $11,812,176 modification (P00016) to previously awarded cost-plus-fixed-fee contract (N0001923C0008). This modification extends services for six months to provide logistics, management, and maintenance support for Kuwait F/A-18E/F Super Hornet aircraft prior to ferry to Kuwait. Support includes general logistics, aircraft pilot and maintenance support, aircraft and equipment logistics, engine support, and ferry support, including packaging, handling, storage, and transportation. Work will be performed in New Orleans, Louisiana (70%) and Jacksonville, Florida (30%), and is expected to be completed in March 2027. Foreign Military Sales customer funds in the amount of $11,812,176 will be obligated at the time of award. This modification was not competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001923C0008"
+        ],
+        "modification_numbers": [
+          "P00016"
+        ],
+        "is_modification": true,
+        "value_usd": 11812176.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11812176.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $11,812,176 will be obligated at the time of award",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001923C0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Six-month services extension for logistics, management, and maintenance support for Kuwait F/A-18E/F Super Hornet aircraft prior to ferry",
+        "base_contract_number": "N0001923C0008",
+        "order_number": null,
+        "modification_number": "P00016",
+        "value_usd": 11812176,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11812176,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Simulation & Training Solutions LLC, Cedar Rapids, Iowa, is awarded a $10,721,245 modification (P00002) to a previously awarded firm-fixed-price contract (N6134026C1001). This modification establishes new contract line items to procure fifteen Special Programs Advanced Readiness Trainers Afloat/Ashore, along with associated technical data, computer software, and computer software documentation, in support of the E-2D Hawkeye Integrated Training Systems V. Work will be performed in Sterling, Virginia, and is expected to be completed in November 2027. Fiscal 2026 aircraft procurement (Navy) funds in the amount of $10,721,245 will be obligated at the time of award. This modification was not competitively procured. Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6134026C1001"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 10721245.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10721245.0,
+        "funding_text": "Fiscal 2026 aircraft procurement (Navy) funds in the amount of $10,721,245 will be obligated at the time of award",
+        "completion_date": "2027-11",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Simulation & Training Solutions LLC",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N6134026C1001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price contract",
+        "description": "New CLINs to procure fifteen Special Programs Advanced Readiness Trainers Afloat/Ashore for E-2D Hawkeye Integrated Training Systems V",
+        "base_contract_number": "N6134026C1001",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 10721245,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10721245,
+        "fms_countries": [],
+        "competition": "not competitively procured",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "IERUS Technologies Inc.,* Huntsville, Alabama, is awarded a $10,712,914 firm-fixed-price Small Business Innovation Research Phase III contract (N68335-26-C-1067) under Small Business Innovation Research Topic AF141-154, titled “Conformal Conductivity Probe,” for the procurement of 190 electromagnetically hardened Compact Electromagnetic Nondestructive Assessment probes in support of the F-35 Joint Strike Fighter program. This effort transitions the probe systems developed, tested, and validated under preceding Small Business Innovation Research Phase I and Phase II efforts into full-scale production. Work will be performed in Fort Worth, Texas and is expected to be completed in January 2027. Foreign Military Sales customer funds in the amount of $10,712,914 will be obligated at the time of award. This contract was not competed. Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833526C1067).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6833526C1067"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10712914.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10712914.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $10,712,914 will be obligated at the time of award",
+        "completion_date": "2027-01",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833526C1067"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "IERUS Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N68335-26-C-1067",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price SBIR Phase III contract",
+        "description": "Procurement of 190 electromagnetically hardened Compact Electromagnetic Nondestructive Assessment probes for F-35 under SBIR Topic AF141-154 'Conformal Conductivity Probe'",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10712914,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10712914,
+        "fms_countries": [
+          "Foreign Military Sales customer"
+        ],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Prak Industries LLC,* Camuy, Puerto Rico, has been awarded a maximum $25,134,375 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for cold weather shipboard jackets. This was a competitive acquisition with twelve responses received. This is a three-year contract with no option periods. The ordering period end date is Sept. 20, 2029. Using military service is Navy. Type of appropriation is fiscal 2026 through 2029 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-26-D-0089).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0089"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25134375.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-26-D-0089"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Prak Industries LLC",
+            "location": "Camuy, Puerto Rico",
+            "contract_number": "SPE1C1-26-D-0089",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Cold weather shipboard jackets",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25134375,
+        "cumulative_value_usd": 25134375,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, twelve responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Hydro-Aire Aerospace Corp., doing business as Crane Aerospace & Electronics, Elyria, Ohio, has been awarded a maximum $11,841,845 firm-fixed-price contract for J85 rotary pumps. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a four-year contract with no option periods. The performance completion date is Oct. 31,2030. Using military service is Air Force. Type of appropriation is fiscal 2026 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Tinker Air Force Base, Oklahoma (SPRTA1-26-C-0102).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA126C0102"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11841845.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Tinker Air Force Base, Oklahoma",
+          "code": "SPRTA1-26-C-0102"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Hydro-Aire Aerospace Corp., doing business as Crane Aerospace & Electronics",
+            "location": "Elyria, Ohio",
+            "contract_number": "SPRTA1-26-C-0102",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "J85 rotary pumps",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11841845,
+        "cumulative_value_usd": 11841845,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S. Code 3204 (a)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Soie Clothing LLC,* Astoria, New York (SPE1C1-26-D-0093, $16,874,887) has been added as an awardee to the multiple award contract for lot two men’s long sleeve dress shirts, issued against solicitation (SPE1C1-26-R-0027) and awarded May 27, 2026. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0093",
+          "SPE1C126R0027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16874887.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Soie Clothing LLC",
+            "location": "Astoria, New York",
+            "contract_number": "SPE1C1-26-D-0093",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for lot two men's long sleeve dress shirts",
+        "base_contract_number": "SPE1C1-26-R-0027",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16874887,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2026-05-27"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:59Z",
-  "source": "file:2026-09-21.html"
+  "source": "file:2026-09-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:07:04Z"
+  }
 }

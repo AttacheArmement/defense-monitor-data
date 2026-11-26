@@ -11,45 +11,351 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AMI Industries Inc., Colorado Springs, Colorado, has been awarded a $700,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the delta qualification, production and fielding of a next generation ejection seat for various Air Force Mission Defense systems. Work will be performed in Colorado Springs, Colorado, and is expected to be completed Oct. 22, 2030. This award is the result of a sole-source acquisition. Fiscal 2020 research, development, test and evaluation funds in the amount of $5,200,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8606-21-D-0001)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA860621D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 700000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5200000.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation funds in the amount of $5,200,000 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8606-21-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "AMI Industries Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8606-21-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Delta qualification, production and fielding of a next generation ejection seat for Air Force Mission Defense systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 700000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5200000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L-3 Technologies, Greenville, Texas, has been awarded a $9,090,496 firm-fixed-price modification (P00008) to contract FA8620-18-F-4816 for management support services. The contract modification provides for the exercise of a pre-priced option for additional management support services. Work will be performed in Greenville, Texas, and is expected to be completed Dec. 31, 2021. This contract involves 100% Foreign Military Sales (FMS), and is the result of a sole-source acquisition. The total face value of the contract is $40,316,767. FMS funds in the full amount are being obligated at the time of the award. The 645th Aeronautical Systems Group, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA862018F4816"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 9090496.0,
+        "cumulative_value_usd": 40316767.0,
+        "obligated_usd": 0.0,
+        "funding_text": "FMS funds in the full amount are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 645th Aeronautical Systems Group, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "L-3 Technologies",
+            "location": "Greenville, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of pre-priced option for management support services",
+        "base_contract_number": "FA8620-18-F-4816",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 9090496,
+        "cumulative_value_usd": 40316767,
+        "obligated_usd": 9090496,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Posts LLC,* Toledo, Ohio, has been awarded a maximum $30,000,000 firm-fixed price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for fence posts in various sizes. This was a competitive acquisition with one response received. This is a two-year base contract with three one-year option periods. Location of performance is Ohio, with an Oct. 23, 2022, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2021 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E6-21-D-0025).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E621D0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E6-21-D-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "American Posts LLC",
+            "location": "Toledo, Ohio",
+            "contract_number": "SPE8E6-21-D-0025",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Fence posts in various sizes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bell Boeing Joint Project Office, California, Maryland, has been awarded an estimated $27,897,619 firm-fixed-price requirements contract for removal, repair and replacement of V-22 spindle bearings. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a four-year contract with no option periods. Locations of performance are Maryland and Texas, with an Oct. 23, 2024, performance completion date. Using military services are Marine Corps, Navy and Air Force. Type of appropriation is fiscal 2021 through 2025 Navy and Special Operations Command operations and maintenance funding. The contracting activity is the Defense Logistics Agency, Aviation, Philadelphia, Pennsylvania (SPRPA1-17-D-009U).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA117D009U"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27897619.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency, Aviation, Philadelphia, Pennsylvania",
+          "code": "SPRPA1-17-D-009U"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Bell Boeing Joint Project Office",
+            "location": "California, Maryland",
+            "contract_number": "SPRPA1-17-D-009U",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Removal, repair and replacement of V-22 spindle bearings",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27897619,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Federal Contracts Corp., Tampa, Florida (SPE8EC-21-D-0070), has been added as an awardee to the multiple award contract for agricultural equipment, issued against solicitation SPE8EC-17-R-0007, and was awarded June 12, 2020.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC21D0070",
+          "SPE8EC17R0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Federal Contracts Corp.",
+            "location": "Tampa, Florida",
+            "contract_number": "SPE8EC-21-D-0070",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as an awardee to multiple award contract for agricultural equipment (solicitation SPE8EC-17-R-0007)",
+        "base_contract_number": "SPE8EC-17-R-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2020-06-12"
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Guidehouse LLP, McLean, Virginia, has been awarded a $15,697,724 firm-fixed-price, labor-hours, and time and material contract. The operation support services contract provides audit and data analytics support to the deputy chief financial officer of the Office of the Under Secretary of Defense (Comptroller). Fiscal 2021 operations and maintenance funds in the amount of $15,697,724 are being obligated at the time of award. The expected completion date is Oct. 25, 2025. Washington Headquarters Services, Arlington, Virginia, is the contracting activity (HQ0034-19-A-0017).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "HQ003419A0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15697724.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15697724.0,
+        "funding_text": "Fiscal 2021 operations and maintenance funds in the amount of $15,697,724 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": "HQ0034-19-A-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Guidehouse LLP",
+            "location": "McLean, Virginia",
+            "contract_number": "HQ0034-19-A-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, labor-hours, and time and material contract",
+        "description": "Operation support services providing audit and data analytics support to the deputy CFO of OUSD(Comptroller)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15697724,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15697724,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mississippi State University, Mississippi State, Mississippi, was awarded an $11,131,723 modification (P00030) to contract W56HZV-17-C-0095 for simulation-based reliability and safety virtual prototyping of autonomy-enabled ground systems. Work will be performed in Mississippi State, Mississippi, with an estimated completion date of Oct. 22, 2022. Fiscal 2020 research, development, test and evaluation (Army) funds in the amount of $11,131,723 were obligated at the time of the award. The U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV17C0095"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 11131723.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11131723.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation (Army) funds in the amount of $11,131,723 were obligated at the time of the award",
+        "completion_date": "2022-10-22",
+        "contracting_activity": {
+          "name": "The U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Mississippi State University",
+            "location": "Mississippi State, Mississippi",
+            "contract_number": "W56HZV-17-C-0095",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Simulation-based reliability and safety virtual prototyping of autonomy-enabled ground systems",
+        "base_contract_number": "W56HZV-17-C-0095",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 11131723,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11131723,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:44Z",
-  "source": "file:2020-10-23.html"
+  "source": "file:2020-10-23.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:19:41Z"
+  }
 }

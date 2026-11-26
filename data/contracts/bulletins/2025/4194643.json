@@ -11,69 +11,566 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Palantir USG Inc., Palo Alto, California, was awarded a $795,000,000 modification (P00005) to contract W911QX-24-D-0012 for Maven Smart System software licenses. Work locations and funding will be determined with each order, with an estimated completion date of May 28, 2029. Army Contracting Command Aberdeen Proving Ground, Maryland, is the contracting activity. (Awarded May 20, 2025)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W911QX24D0012"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 795000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-05-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Palantir USG Inc.",
+            "location": "Palo Alto, California",
+            "contract_number": "W911QX-24-D-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maven Smart System software licenses",
+        "base_contract_number": "W911QX-24-D-0012",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 795000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2025-05-20"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land and Armaments L.P., York, Pennsylvania, was awarded an undefinitized, cost-no-fee contract action not-to-exceed $423,347,466 for Self-Propelled Howitzer Systems production. Bids were solicited via the internet with one received. Work will be performed in York, Pennsylvania; Sterling Heights, Michigan; Aiken, South Carolina; Elgin, Oklahoma; and Anniston, Alabama, with an estimated completion date of July 31, 2028. Fiscal 2024 and 2025 weapons and tracked combat vehicle procurement, Army funds in the amount of $214,484,323 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-25-F-0270).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912CH25F0270"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 423347466.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 214484323.0,
+        "funding_text": "Fiscal 2024 and 2025 weapons and tracked combat vehicle procurement, Army funds in the amount of $214,484,323 were obligated at the time of the award",
+        "completion_date": "2028-07-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W912CH-25-F-0270"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems Land and Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W912CH-25-F-0270",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action, cost-no-fee",
+        "description": "Self-Propelled Howitzer Systems production",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 423347466,
+        "cumulative_value_usd": null,
+        "obligated_usd": 214484323,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CACI Inc. - Federal, Chantilly, Virginia, was awarded a $147,508,174 cost-plus-fixed-fee contract for intelligence, logistics and engineering services. Bids were solicited via the internet with three received. Work will be performed at Fort Belvoir, Virginia, with an estimated completion date of May 23, 2030. Fiscal 2010 operation and maintenance, Army funds in the amount of $1,099,583 were obligated at the time of the award. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W50NH9-25-C-0007).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W50NH925C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 147508174.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1099583.0,
+        "funding_text": "Fiscal 2010 operation and maintenance, Army funds in the amount of $1,099,583 were obligated at the time of the award",
+        "completion_date": "2030-05-23",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W50NH9-25-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "CACI Inc. - Federal",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W50NH9-25-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Intelligence, logistics and engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 147508174,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1099583,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Forte & Tablada Inc.,* Baton Rouge, Louisiana (W912P8-25-D-0011); EMC Inc.,* Grenada, Mississippi (W912P8-25-D-0012); and Chustz + ES2 JV LLC,* Denham Springs, Louisiana (W912P8-25-D-0013), will compete for each order of the $24,000,000 firm-fixed-price contract for surveying, mapping and other related services. Bids were solicited via the internet with 13 received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2030. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912P825D0011",
+          "W912P825D0012",
+          "W912P825D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Forte & Tablada Inc.",
+            "location": "Baton Rouge, Louisiana",
+            "contract_number": "W912P8-25-D-0011",
+            "markers": "*"
+          },
+          {
+            "name": "EMC Inc.",
+            "location": "Grenada, Mississippi",
+            "contract_number": "W912P8-25-D-0012",
+            "markers": "*"
+          },
+          {
+            "name": "Chustz + ES2 JV LLC",
+            "location": "Denham Springs, Louisiana",
+            "contract_number": "W912P8-25-D-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Surveying, mapping and other related services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 13 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The University of Dayton Research Institute, Dayton, Ohio, was awarded a $499,999,000 cost-plus fixed-fee, indefinite-delivery/indefinite-quantity contract for pervasive research and evaluation for complex-solutions in operational and urgent systems. This contract provides for research, assessment, development, testing, evaluation, prototyping, demonstration, and transition of technologies to improve operational effectiveness through improved energy technology and reducing the manufacturing and life cycle sustainment burden of coatings, materials, inspections, repairs, energy and resource technologies and processes. Work will be performed at Wright-Patterson Air Force Base, Ohio; and Dayton, Ohio, and is expected to be completed May 17, 2032. This contract was a competitive 2-step acquisition, with seven white paper offers resulting in a down-selection that resulted in one offer. Fiscal 2025 research, development, test and evaluation funds in the amount of $18,860,089 are being obligated at the time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA2394-25-D-B007).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA239425DB007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 499999000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18860089.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $18,860,089 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA2394-25-D-B007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "The University of Dayton Research Institute",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA2394-25-D-B007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract",
+        "description": "Pervasive research and evaluation for complex-solutions in operational and urgent systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 499999000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18860089,
+        "fms_countries": [],
+        "competition": "Competitive 2-step acquisition, seven white paper offers, one offer after down-selection",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon, Aurora, Colorado, has been awarded a $379,779,763 contract modification (P00454) to previously awarded (FA8807-10-C-0001) for global positioning system next generation operational control system and pre-operational acceptance support and post-operational acceptance interim contractor support. This modification brings the total cumulative face value of the contract is $4,511,067,078 and the option value is $162,584,179. This modification definitizes previously awarded undefinitized change order (P00439), extending the base period from 12 to 16 months and adds an additional 12-month option period. Work will be performed at Aurora, Colorado; Schriever Space Force Base, Colorado; Vandenberg SFB, California; and other locations. The base period of performance is expected to be completed by March 31, 2026, and the option period of performance is expected is expected to be completed by March 31, 2027. No funds are being obligated at the time of award as the contract continues to be incrementally funded. The Space Systems Command, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA880710C0001"
+        ],
+        "modification_numbers": [
+          "P00454",
+          "P00439"
+        ],
+        "is_modification": true,
+        "value_usd": 379779763.0,
+        "cumulative_value_usd": 4511067078.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award as the contract continues to be incrementally funded",
+        "completion_date": "2026-03-31",
+        "contracting_activity": {
+          "name": "The Space Systems Command, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Raytheon",
+            "location": "Aurora, Colorado",
+            "contract_number": "FA8807-10-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Global positioning system next generation operational control system and pre-operational acceptance support and post-operational acceptance interim contractor support",
+        "base_contract_number": "FA8807-10-C-0001",
+        "order_number": null,
+        "modification_number": "P00454",
+        "value_usd": 379779763,
+        "cumulative_value_usd": 4511067078,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Jacobs Technology Inc., Tullahoma, Tennessee, is awarded a $51,243,930 firm-fixed-price indefinite-delivery/indefinite-quantity modification to previously awarded contract (N69450-20-D-0045) for base operations support services at Naval Submarine Base Kings Bay; and outlying areas. This award brings the total cumulative face value of the contract to $259,898,991. The contract modification is for the exercise of Option Period Four for base operations support services under the basic contract. Work will be performed in Kings Bay, Georgia (99%); and outlying areas (1%). No funds will be obligated at time of award. Future task orders in the amount of $41,730,488 will be funded for recurring work by fiscal 2025 operation and maintenance, (Navy) (O&M,N) funds; fiscal 2025 Defense health program funds; and fiscal 2025 family housing O&M,N funds. The Naval Facilities Engineering Systems Command, Southeast, Jacksonville, Florida, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6945020D0045"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 51243930.0,
+        "cumulative_value_usd": 259898991.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Southeast, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Jacobs Technology Inc.",
+            "location": "Tullahoma, Tennessee",
+            "contract_number": "N69450-20-D-0045",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Base operations support services at Naval Submarine Base Kings Bay and outlying areas; exercise of Option Period Four",
+        "base_contract_number": "N69450-20-D-0045",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 51243930,
+        "cumulative_value_usd": 259898991,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Microwave Power Products Inc., Woodland, California, is being awarded a $23,455,500 firm-fixed-price commercial requirements contract for the procurement of electron tube double duty switch tubes in support of the AEGIS Combat System. The contract does not include an option provision. All work will be performed in Woodland, California, and is expected to be completed by May 20, 2030. Navy working capital funds in the full amount of $23,455,500 will be obligated throughout the five-year term of the award and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement under authority 10 U.S. Code 3204 (a)(1) with one offer received. Naval Supply Systems Command Weapon Systems Support in Mechanicsburg, Pennsylvania, is the contracting activity (N00104-25-D-D003).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0010425DD003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23455500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23455500.0,
+        "funding_text": "Navy working capital funds in the full amount of $23,455,500 will be obligated throughout the five-year term of the award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2030-05-20",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support in Mechanicsburg, Pennsylvania",
+          "code": "N00104-25-D-D003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Microwave Power Products Inc.",
+            "location": "Woodland, California",
+            "contract_number": "N00104-25-D-D003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price commercial requirements contract",
+        "description": "Electron tube double duty switch tubes in support of the AEGIS Combat System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23455500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23455500,
+        "fms_countries": [],
+        "competition": "Sole source, one offer received (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, was awarded a $16,000,000 modification to previously awarded contract (N00024-15-C-2114) to support Navy Sailor Readiness and Shipbuilder Workforce Improvement. This modification will support sailors stationed at Newport News Shipbuilding and the shipbuilding workforce. Work will be performed in Newport News, Virginia, and is expected to be completed by December 2026. No funds will be obligated at time of award. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(1) (only one responsible source and no other supplies or services will satisfy agency requirements). The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C2114"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award",
+        "completion_date": "2026-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-15-C-2114",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Navy Sailor Readiness and Shipbuilder Workforce Improvement",
+        "base_contract_number": "N00024-15-C-2114",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Not competitively procured, 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Ports America, Chandler, Arizona (HTC71125DE114), has been awarded an indefinite-delivery/indefinite-quantity contract with a face value of $11,863,942. This contract provides stevedoring and related terminal services at Port of Gulfport, Mississippi. The base period of performance is from Jun. 1, 2025, through May 31, 2030. Working capital (Transportation) funds will be obligated for fiscal 2025, 2026, 2027, 2028, and 2029. The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HTC71125DE114"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11863942.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Working capital (Transportation) funds will be obligated for fiscal 2025, 2026, 2027, 2028, and 2029",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Ports America",
+            "location": "Chandler, Arizona",
+            "contract_number": "HTC71125DE114",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Stevedoring and related terminal services at Port of Gulfport, Mississippi",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11863942,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Genesis Vision Inc.,* Rochester, New York (SPE2DE-25-D-0010, $29,250,000), has been awarded as an awardee to the multiple award contract for optical frames, issued against solicitation SPE2DE-25-D-0010 and awarded Aug. 29, 2024. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE25D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29250000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Genesis Vision Inc.",
+            "location": "Rochester, New York",
+            "contract_number": "SPE2DE-25-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Awardee to multiple award contract for optical frames (update)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29250000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-08-29"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:56Z",
-  "source": "file:2025-05-21.html"
+  "source": "file:2025-05-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:04:34Z"
+  }
 }

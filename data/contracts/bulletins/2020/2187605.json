@@ -11,99 +11,827 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Owego, New York, is awarded a $904,800,000 modification (P00011) to a previously awarded firm-fixed-price, cost-plus-fixed-fee contract N00019-19-C-0013. This modification provides for the production and delivery of three MH-60R Seahawk maritime aircraft for the Navy and 21 MH-60Rs for the government of India. Work will be performed at Owego, New York (52%); Stratford, Connecticut (40%); and Troy, Alabama (8%), and is expected to be complete by September 2024. Fiscal 2020 aircraft procurement (Navy) funds in the amount of $113,100,000 and Foreign Military Sales funds in the amount of $791,700,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C0013"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 904800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 904800000.0,
+        "funding_text": "Fiscal 2020 aircraft procurement (Navy) funds in the amount of $113,100,000 and Foreign Military Sales funds in the amount of $791,700,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Owego, New York",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Production and delivery of three MH-60R Seahawk maritime aircraft for the Navy and 21 MH-60Rs for India",
+        "base_contract_number": "N00019-19-C-0013",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 904800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 904800000,
+        "fms_countries": [
+          "India"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hunter Pacific Group,* San Diego, California, is awarded a $30,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity, architect-engineering contract for cost engineering, value engineering and scheduling services in the Naval Facilities Engineering Command (NAVFAC), Southwest Area of Responsibility (AOR). Work will be performed at various Navy and Marine Corps facilities and other government facilities within the NAVFAC Southwest AOR including, but not limited to: California (87%); Arizona (5%); Nevada (5%); Colorado (1%); New Mexico (1%); and Utah (1%). Work provides for cost estimates and other cost engineering services in support of analyses, reports, designs and change orders. Cost engineering services may include construction cost reduction evaluations and recommendations, bid analyses and verifications, validations of DD Form 1391 scope/cost estimate, peer review of cost estimates, review and technical analysis of contractor change order cost proposals and assistance with claims, litigations and negotiations with boards/committees. Value engineering services shall include facilitating and forming multi-discipline technical teams to conduct value engineering and/or function analysis concept development (FACD) workshops for a variety of projects. Services in support of value engineering and FACD workshops may include site investigations, preparation and/or review of engineering studies/reports, cost estimates, facility and infrastructure assessments, risk assessments, life cycle cost engineering and/or total ownership cost analyses, and schematic layouts/sketches. Scheduling shall be in support of analyses and change orders and may include preparation of schedules and construction cost loaded schedules, review/analysis of base line contractor schedules and schedule updates, review/analysis of contractor change orders, time impact analysis and assistance with claims, litigations and negotiations with boards/committees. Work is expected to be complete by April 2025. No task orders are being issued at this time. Fiscal 2020 operations and maintenance (O&M) (Navy) contract funds in the amount of $5,000 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by O&M (Navy) and O&M (Marine Corps). This contract was competitively procured via the Navy Electronic Commerce Online website and four proposals were received. The Naval Facilities Engineering Command Southwest, San Diego, California, is the contracting activity (N62473-20-D-0614).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6247320D0614"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2020 operations and maintenance (O&M) (Navy) contract funds in the amount of $5,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2025-04",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command Southwest, San Diego, California",
+          "code": "N62473-20-D-0614"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Hunter Pacific Group",
+            "location": "San Diego, California",
+            "contract_number": "N62473-20-D-0614",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity, architect-engineering",
+        "description": "Cost engineering, value engineering and scheduling services for NAVFAC Southwest AOR",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "competitive, Navy Electronic Commerce Online website; four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "PSI Pax Inc.,* California, Maryland, is awarded a $29,286,410 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. Work will be performed in Patuxent River, Maryland, and provides administrative, business and financial services such as data entry accounting processes, interface error research and analysis, process management, deficiency identification, testing of system changes, professional and analytical support, liaison support, funds management, financial tracking, internal and external data calls, document and records management, specialized analytical support in meeting financial systems requirements, assessing financial systems relative to data integrity, corporate and user reporting requirements as well as centralized support of travel related processes to include help desk support for the entire Naval Air Systems Command. Work is expected to be complete by June 2025. No funds will be obligated at the time of award. Funds will be obligated on individual orders as they are issued. This contract was competitively procured as a small business set-aside via an electronic request for proposal; five offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-20-D-0073).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0042120D0073"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29286410.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated on individual orders as they are issued",
+        "completion_date": "2025-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00421-20-D-0073"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "PSI Pax Inc.",
+            "location": "California, Maryland",
+            "contract_number": "N00421-20-D-0073",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Administrative, business and financial services for Naval Air Systems Command, Patuxent River",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29286410,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive small business set-aside, electronic request for proposal; five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Mustang Technology Group LP, doing business as L3 Mustang Technology, Plano, Texas, is awarded a $19,082,000 fixed-price-incentive-firm-target modification to previously awarded contract N00024-19-C-5313 for 658 rounds of 57mm MK 332 High Explosive-4 Bolt Guided (HE-4G) Cartridge ammunition. Work will be performed in Plano, Texas (78%), and Cincinnati, Ohio (22%), and is expected to be complete by September 2021. Fiscal 2020 and 2019 procurement of ammunition, (Navy and Marine Corp) funding in the amount of $19,082,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5313"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 19082000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19082000.0,
+        "funding_text": "Fiscal 2020 and 2019 procurement of ammunition, (Navy and Marine Corp) funding in the amount of $19,082,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Mustang Technology Group LP, doing business as L3 Mustang Technology",
+            "location": "Plano, Texas",
+            "contract_number": "N00024-19-C-5313",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm-target",
+        "description": "658 rounds of 57mm MK 332 HE-4G Cartridge ammunition",
+        "base_contract_number": "N00024-19-C-5313",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19082000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19082000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L3 Harris Technologies Inc., Anaheim, California, is awarded a $12,732,754 cost-plus-fixed-fee contract modification (P00030) to exercise options under previously awarded and announced contract N00030-18-C-0001. Work will be performed in Anaheim, California (71%); Cape Canaveral, Florida (23%); Washington, D.C. (3%); Bremerton, Washington (1%); Norfolk, Virginia (1%), and Kings Bay, Georgia (1%). Work will provide services and support for Flight Test Instrumentation and is expected to be complete by August 2022. Fiscal 2020 operations and maintenance (Navy) funds in the amount of $2,968,016; fiscal 2020 weapons procurement (Navy) funds in the amount of $9,332,143; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $200,000 are obligated on this award. Fiscal 2020 operations and maintenance (Navy) funds in the amount of $2,968,016 will expire at the end of the current fiscal year. This contract modification is awarded to the contractor on a sole-source basis under 10 U.S. Code 2304(c)(1) and was previously synopsized on the Federal Business Opportunities website. The Strategic Systems Programs, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0003018C0001"
+        ],
+        "modification_numbers": [
+          "P00030"
+        ],
+        "is_modification": true,
+        "value_usd": 12732754.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12500159.0,
+        "funding_text": "Fiscal 2020 operations and maintenance (Navy) funds in the amount of $2,968,016; fiscal 2020 weapons procurement (Navy) funds in the amount of $9,332,143; and fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $200,000 are obligated on this award",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "The Strategic Systems Programs, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L3 Harris Technologies Inc.",
+            "location": "Anaheim, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Services and support for Flight Test Instrumentation",
+        "base_contract_number": "N00030-18-C-0001",
+        "order_number": null,
+        "modification_number": "P00030",
+        "value_usd": 12732754,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12100159,
+        "fms_countries": [],
+        "competition": "sole source under 10 U.S.C. 2304(c)(1); previously synopsized on FBO website",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "IDSC Holdings LLC, Snap-on Industrial, Kenosha, Wisconsin, is awarded an $11,088,933 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures up to 2,064 toolboxes containing 1.423 different types of commercial tools in support of initial outfitting associated with F-35 low rate initial production and maintenance. Work will be performed in Kenosha, Wisconsin, and is expected to be complete by September 2021. No funds will be obligated at the time of award. Funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal and four offers were received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N68335-20-D-0025).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6833520D0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11088933.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated on individual orders as they are issued",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N68335-20-D-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "IDSC Holdings LLC, Snap-on Industrial",
+            "location": "Kenosha, Wisconsin",
+            "contract_number": "N68335-20-D-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Up to 2,064 toolboxes with 1,423 types of commercial tools for F-35 low rate initial production and maintenance initial outfitting",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11088933,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded a $9,162,847 modification (P00002) to cost-plus-fixed-fee order N00019-19-F-0280 against previously issued basic ordering agreement N00019-15-G-0026. This modification provides systems engineering and program management support for the development, integration, test and delivery of two radar altimeters and two integrated avionics units in support of the BQM-34S Firebee High Performance Aerial Target System, BQM-74E target drones and the Aerial Targets Program Office. Work will be performed in Endicott, New York (62%); San Diego, California (37%); and Clearwater, Florida (1%). Work is expected to be complete by January 2022. Fiscal 2018 weapons procurement (Navy) funds in the amount of $4,472,396 and fiscal 2019 weapons procurement (Navy) funds in the amount of $4,690,451 will be obligated at time of award, $4,472,396 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001919F0280",
+          "N0001915G0026"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 9162847.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9162847.0,
+        "funding_text": "Fiscal 2018 weapons procurement (Navy) funds in the amount of $4,472,396 and fiscal 2019 weapons procurement (Navy) funds in the amount of $4,690,451 will be obligated at time of award, $4,472,396 of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Systems engineering and program management support for radar altimeters and avionics units for BQM-34S Firebee and BQM-74E target drones",
+        "base_contract_number": "N00019-15-G-0026",
+        "order_number": "N00019-19-F-0280",
+        "modification_number": "P00002",
+        "value_usd": 9162847,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9162847,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Independent RT Center LLC, Cibolo, Texas, is awarded $8,029,638 for firm-fixed-price delivery order M67854-20-F-5018 under previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract M67854-20-D-5000 with a maximum ceiling of $62,500,000, for the Rough Terrain Container Handlers Service Life Extension Program. Work will be performed in Cibolo, Texas, and is expected to be complete by January 2030. Fiscal 2019 Congressional funds in the amount of $3,066,228 and fiscal 2020 procurement (Marine Corps) funds in the amount of $4,963,410 are being obligated and will expire Sept. 30, 2021. This contract was competitively procured via the Federal Business Opportunities website and two offers were received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-20-D-5000).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "M6785420F5018",
+          "M6785420D5000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8029638.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8029638.0,
+        "funding_text": "Fiscal 2019 Congressional funds in the amount of $3,066,228 and fiscal 2020 procurement (Marine Corps) funds in the amount of $4,963,410 are being obligated and will expire Sept. 30, 2021",
+        "completion_date": "2030-01",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": "M67854-20-D-5000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Independent RT Center LLC",
+            "location": "Cibolo, Texas",
+            "contract_number": "M67854-20-F-5018",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order under IDIQ",
+        "description": "Rough Terrain Container Handlers Service Life Extension Program",
+        "base_contract_number": "M67854-20-D-5000",
+        "order_number": "M67854-20-F-5018",
+        "modification_number": null,
+        "value_usd": 8029638,
+        "cumulative_value_usd": 62500000,
+        "obligated_usd": 8029638,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is awarded a $7,400,000 not-to-exceed, fixed-price incentive, undefinitized change order modification to contract N00024-15-C-2114 for the installation of Consolidated Afloat Networks and Enterprise Services AN/USQ-208B (V) 5 Local Area Network drops. Work will be performed in Newport News, Virginia, and is expected to be complete by May 2022. Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $3,700,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Supervisor of Shipbuilding, Conversion and Repair, Newport News, Virginia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C2114"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3700000.0,
+        "funding_text": "Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $3,700,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-05",
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding, Conversion and Repair, Newport News, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive, undefinitized change order",
+        "description": "Installation of Consolidated Afloat Networks and Enterprise Services AN/USQ-208B (V) 5 Local Area Network drops",
+        "base_contract_number": "N00024-15-C-2114",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3700000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Perspecta Enterprise Solutions LLC, Herndon, Virginia, was awarded an Other Transaction Authority agreement with a ceiling of $237,243,000 to develop, integrate, deliver, operate and maintain an enterprise capability for Army training and education information. Bids were solicited via the internet with three received. Work will be performed in Herndon, Virginia, with an estimated completion date of May 17, 2024. Fiscal 2020 research, development, test and evaluation (Army) funds in the amount of $14,500,000 were obligated at the time of the award. U.S. Army Contracting Command, Newark, New Jersey, is the contracting activity (W15QKN-20-9-1118).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN2091118"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 237243000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14500000.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation (Army) funds in the amount of $14,500,000 were obligated at the time of the award",
+        "completion_date": "2024-05-17",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Newark, New Jersey",
+          "code": "W15QKN-20-9-1118"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Perspecta Enterprise Solutions LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "W15QKN-20-9-1118",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "other transaction agreement",
+        "description": "Enterprise capability for Army training and education information",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 237243000,
+        "cumulative_value_usd": 237243000,
+        "obligated_usd": 14500000,
+        "fms_countries": [],
+        "competition": "internet solicitation; three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Charles River Laboratories, Wilmington, Massachusetts (W81XWH-20-A-0003); Envigo RMS LLC, Indianapolis, Indiana (W81XWH-20-A-0004); and The Jackson Laboratory, Bar Harbor, Maine (W81XWH-20-A-0005), will compete for each order of the $25,000,000 firm-fixed-price contract to supply small laboratory research animals and related services. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of July 8, 2025. U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W81XWH20A0003",
+          "W81XWH20A0004",
+          "W81XWH20A0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-07-08",
+        "contracting_activity": {
+          "name": "U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Charles River Laboratories",
+            "location": "Wilmington, Massachusetts",
+            "contract_number": "W81XWH-20-A-0003",
+            "markers": null
+          },
+          {
+            "name": "Envigo RMS LLC",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "W81XWH-20-A-0004",
+            "markers": null
+          },
+          {
+            "name": "The Jackson Laboratory",
+            "location": "Bar Harbor, Maine",
+            "contract_number": "W81XWH-20-A-0005",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Supply of small laboratory research animals and related services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Quantitech Inc., Huntsville, Alabama, was awarded a $17,686,572 modification (000237) to contract W31P4Q-16-A-0010 for programmatic support for the Utility Helicopters Project Manager's Office. Work will be performed in Huntsville, Alabama, with an estimated completion date of May 14, 2021. Fiscal 2020 Foreign Military Sales (Australia); other procurement (Army); and research, development, test and evaluation (Army) funds in the amount of $17,686,572 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q16A0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17686572.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17686572.0,
+        "funding_text": "Fiscal 2020 Foreign Military Sales (Australia); other procurement (Army); and research, development, test and evaluation (Army) funds in the amount of $17,686,572 were obligated at the time of the award",
+        "completion_date": "2021-05-14",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Quantitech Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-16-A-0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Programmatic support for the Utility Helicopters Project Manager's Office",
+        "base_contract_number": "W31P4Q-16-A-0010",
+        "order_number": null,
+        "modification_number": "000237",
+        "value_usd": 17686572,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17686572,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mantle-Plocher JV,* Worden, Illinois, was awarded a $14,793,000 firm-fixed-price contract for placement and leasing of modular facilities to support approximately 450 personnel at Scott Air Force Base. Bids were solicited via the internet with four received. Work will be performed at Scott Air Force Base, Illinois, with an estimated completion date of May 13, 2025. Fiscal 2020 operations and maintenance (Air Force) funds in the amount of $14,793,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-20-C-0021).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W912QR20C0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14793000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14793000.0,
+        "funding_text": "Fiscal 2020 operations and maintenance (Air Force) funds in the amount of $14,793,000 were obligated at the time of the award",
+        "completion_date": "2025-05-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-20-C-0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Mantle-Plocher JV",
+            "location": "Worden, Illinois",
+            "contract_number": "W912QR-20-C-0021",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Placement and leasing of modular facilities to support approximately 450 personnel at Scott Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14793000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14793000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dawson Enterprises LLC,* Honolulu, Hawaii, was awarded a $10,431,915 firm-fixed-price contract for construction of utility infrastructure to support the installation of a modular paint booth and personnel building. Bids were solicited via the internet with one received. Work will be performed in Tucson, Arizona, with an estimated completion date of Nov. 5, 2021. Fiscal 2019 civil operations and maintenance funds in the amount of $10,431,915 were obligated at the time of the award. U.S. Army Corps of Engineers, Los Angeles, California, is the contracting activity (W912PL-20-C-0017).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912PL20C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10431915.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10431915.0,
+        "funding_text": "Fiscal 2019 civil operations and maintenance funds in the amount of $10,431,915 were obligated at the time of the award",
+        "completion_date": "2021-11-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Los Angeles, California",
+          "code": "W912PL-20-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Dawson Enterprises LLC",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W912PL-20-C-0017",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of utility infrastructure to support installation of a modular paint booth and personnel building (Tucson, Arizona)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10431915,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10431915,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Braxton Technologies LLC, Colorado Springs, Colorado, has been awarded a $31,399,226 cost-plus-fixed-fee contract modification (P00012) to contract FA8806-19-C-0003 for support and delivery network, infrastructure, hardware and architecture solutions under the Cross Mission Ground Communications Enterprise Corps (ECX). This contract award provides for cross-domain solutions, design, integration and rapid delivery team services. Work will be performed in Colorado Springs, Colorado, and is expected to be completed by May 17, 2021. This award is the result of a sole-source acquisition under the Small Business Innovation Research Program. The total cumulative face value of the contract is $55,387,870. Fiscal 2020 research, development, test and evaluation funds in the amount of $8,507,999 are being obligated at the time of award. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "FA880619C0003"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 31399226.0,
+        "cumulative_value_usd": 55387870.0,
+        "obligated_usd": 8507999.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation funds in the amount of $8,507,999 are being obligated at the time of award",
+        "completion_date": "2021-05-17",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Braxton Technologies LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8806-19-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee contract modification",
+        "description": "Support and delivery network, infrastructure, hardware and architecture solutions under the Cross Mission Ground Communications Enterprise Corps (ECX); cross-domain solutions, design, integration and rapid delivery team services",
+        "base_contract_number": "FA8806-19-C-0003",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 31399226,
+        "cumulative_value_usd": 55387870,
+        "obligated_usd": 8507999,
+        "fms_countries": [],
+        "competition": "Sole source (Small Business Innovation Research Program)",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Corporation of Mercer University, Warner Robins, Georgia, has been awarded a $9,039,309 task order (FA8523-20-F-0029) on basic contract FA8523-20-D-0001 to provide Laboratory Intelligence Validated Emulators-Virtual-Constructive (LVC) closed-loop engineering test and evaluation of newly developed electronic warfare (EW) systems. This order provides integration of gold-standard Intelligence Community threat definitions into the Electronic Warfare and Avionics Integrated Support Facility, where LVC closed loop operational test – vertical testability demonstration simulations and testing will be conducted to inform the baseline capability and to identify growth areas for improving operational survivability, reliability and mission success of fielded EW systems in support of airborne U.S. warfighting elements. Work will be performed in Warner Robins, Georgia, and is expected to be completed by May 13, 2022. Fiscal 2020 operations and maintenance funds in the amount of $4,140,106 are being obligated at the time of award. The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "FA852320F0029",
+          "FA852320D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9039309.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4140106.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the amount of $4,140,106 are being obligated at the time of award",
+        "completion_date": "2022-05-13",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "The Corporation of Mercer University",
+            "location": "Warner Robins, Georgia",
+            "contract_number": "FA8523-20-F-0029",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Laboratory Intelligence Validated Emulators-Virtual-Constructive (LVC) closed-loop engineering test and evaluation of electronic warfare (EW) systems",
+        "base_contract_number": "FA8523-20-D-0001",
+        "order_number": "FA8523-20-F-0029",
+        "modification_number": null,
+        "value_usd": 9039309,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4140106,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:42Z",
-  "source": "file:2020-05-14.html"
+  "source": "file:2020-05-14.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:45:14Z"
+  }
 }

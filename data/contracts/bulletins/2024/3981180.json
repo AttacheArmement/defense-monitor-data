@@ -11,39 +11,323 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Street Legal Industries Inc.,* Oak Ridge, Tennessee, was awarded a $16,150,550 firm-fixed-price contract for refuse collection and waste management services. Bids were solicited via the internet with five received. Work will be performed at Fort Moore, Georgia, with an estimated completion date of Nov. 30, 2029. Fiscal 2025 operation and maintenance, Army funds in the amount of $1,577,448 were obligated at the time of the award. U.S. Army Field Directorate Office, Fort Eustis, Virginia, is the contracting activity (W911SF-25-C-0002).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W911SF25C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16150550.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1577448.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $1,577,448 were obligated at the time of the award",
+        "completion_date": "2029-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Field Directorate Office, Fort Eustis, Virginia",
+          "code": "W911SF-25-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Street Legal Industries Inc.",
+            "location": "Oak Ridge, Tennessee",
+            "contract_number": "W911SF-25-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Refuse collection and waste management services at Fort Moore, Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16150550,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1577448,
+        "fms_countries": [],
+        "competition": "5 offers received, solicited via internet",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Caelum Research Corp.,* Rockville, Maryland, was awarded an $11,894,009 firm-fixed-price contract for information management support. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2028. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9124P-25-F-0042).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9124P25F0042"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11894009.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9124P-25-F-0042"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Caelum Research Corp.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W9124P-25-F-0042",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Information management support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11894009,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "4 offers received, solicited via internet",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Lion Vallen Industries, Pendergrass, Georgia, has been awarded an estimated $9,513,479 modification (P00019) exercising the third one‐year option period of a two‐year base contract (SPE1C1‐21‐D‐1417) with five one‐year option periods for warehousing, storage, logistics and distribution functions. This is a firm-fixed‐price with economic‐price‐adjustment, indefinite-delivery/indefinite-quantity contract. The ordering period end date is Dec.1, 2025. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 9513479.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lion Vallen Industries",
+            "location": "Pendergrass, Georgia",
+            "contract_number": "SPE1C1-21-D-1417",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Warehousing, storage, logistics and distribution functions; third one-year option period",
+        "base_contract_number": "SPE1C1-21-D-1417",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 9513479,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M M Manufacturing LLC,* Lajas, Puerto Rico, has been awarded a maximum $8,476,200 modification (P00015) exercising the third one‐year option period of a one‐year base contract (SPE1C1‐22‐D‐1519) with three one‐year option periods for trousers. This is a firm‐fixed‐price, indefinite‐delivery/indefinite‐quantity contract. The ordering period end date is Nov. 28, 2025. Using military services are Army and Air Force. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 8476200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "M M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-22-D-1519",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Trousers; third one-year option period",
+        "base_contract_number": "SPE1C1-22-D-1519",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 8476200,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bethel Industries Inc.,* Jersey City, New Jersey, has been awarded a maximum $8,040,600 modification (P00011) exercising the third one-year option period of a one-year base contract (SPE1C1-22-D-1559) with three one-year option periods for trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Locations of performance are Kentucky and Mississippi, with a Nov. 28, 2025, ordering period end date. Using military services are Army and Air Force. Type of appropriation is fiscal 2025 through 2026 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1559"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 8040600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Bethel Industries Inc.",
+            "location": "Jersey City, New Jersey",
+            "contract_number": "SPE1C1-22-D-1559",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Trousers; third one-year option period; performance in Kentucky and Mississippi",
+        "base_contract_number": "SPE1C1-22-D-1559",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 8040600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The Nov. 19, 2024, contract announcement for Rotair Aerospace Corp.,* Bridgeport, Connecticut, for $8,644,958 included an incorrect award date and incorrect contract number. The correct award date is Nov. 25, 2024, and the correct contract number is SPRRA1-25-D-0001. The contracting activity is the Defense Logistics Agency Aviation, Huntsville, Alabama.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA125D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8644958.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Rotair Aerospace Corp.",
+            "location": "Bridgeport, Connecticut",
+            "contract_number": "SPRRA1-25-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Nov. 19, 2024 announcement of $8,644,958 award: correct award date and contract number",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8644958,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-11-25"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-11-29.html"
+  "source": "file:2024-11-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:22:30Z"
+  }
 }

@@ -11,99 +11,800 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pfizer Inc., New York, New York, is awarded a $3,200,000,000 firm-fixed-price contract to manufacture, store and deliver mRNA COVID-19 vaccines. Work will be performed in Kalamazoo, Michigan, with an estimated completion date of May 31, 2023. Fiscal 2022 American Rescue Plan Act, Defense Production Act funds in the amount of $3,200,000,000 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W58P05-22-C-0016).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58P0522C0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 3200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3200000000.0,
+        "funding_text": "Fiscal 2022 American Rescue Plan Act, Defense Production Act funds in the amount of $3,200,000,000 were obligated at the time of the award",
+        "completion_date": "2023-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W58P05-22-C-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Pfizer Inc.",
+            "location": "New York, New York",
+            "contract_number": "W58P05-22-C-0016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Manufacture, storage and delivery of mRNA COVID-19 vaccines (Kalamazoo, Michigan)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 3200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3200000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corporation, Stratford, Connecticut, is awarded a $429,174,259 firm-fixed-price contract for maintenance and overhaul of UH-60 Black Hawk helicopters. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of June 28, 2027. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-22-D-0002).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ22D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 429174259.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-06-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-22-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corporation",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-22-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance and overhaul of UH-60 Black Hawk helicopters",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 429174259,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land System Inc., Sterling Heights, Michigan, is awarded a $320,325,338 modification (P00050) to contract W56HZV-19-C-0036 for low-rate initial production and system technical services for the Mobile Protected Firepower. Work will be performed in Sterling Heights, Michigan; Anniston, Alabama; and Lima, Ohio, with an estimated completion date of Oct. 24, 2024. Fiscal 2022 research, development, test and evaluation, Army funds in the amount of $31,310,306 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity. (Awarded June 28, 2022)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV19C0036"
+        ],
+        "modification_numbers": [
+          "P00050"
+        ],
+        "is_modification": true,
+        "value_usd": 320325338.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31310306.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation, Army funds in the amount of $31,310,306 were obligated at the time of the award",
+        "completion_date": "2024-10-24",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Land System Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-19-C-0036",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Low-rate initial production and system technical services for the Mobile Protected Firepower",
+        "base_contract_number": "W56HZV-19-C-0036",
+        "order_number": null,
+        "modification_number": "P00050",
+        "value_usd": 320325338,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31310306,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-06-28"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bechtel National Incorporation, Reston, Virginia, is awarded a $71,121,288 modification (P00237) to contract W52P1J-09-C-0012 to extend the period of performance by five months at the Pueblo Chemical Agent-Destruction Pilot Plant. Work will be performed in Pueblo, Colorado, with an estimated completion date of Sept. 30, 2023. Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $0 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island, Illinois, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J09C0012"
+        ],
+        "modification_numbers": [
+          "P00237"
+        ],
+        "is_modification": true,
+        "value_usd": 71121288.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation, Army funds in the amount of $0 were obligated at the time of the award",
+        "completion_date": "2023-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Bechtel National Incorporation",
+            "location": "Reston, Virginia",
+            "contract_number": "W52P1J-09-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Five-month period of performance extension at the Pueblo Chemical Agent-Destruction Pilot Plant",
+        "base_contract_number": "W52P1J-09-C-0012",
+        "order_number": null,
+        "modification_number": "P00237",
+        "value_usd": 71121288,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "FLIR Unmanned Ground Systems Inc. Chelmsford, Massachusetts, is awarded a $62,068,240 firm-fixed-price contract for the Man Transportable Robotic System Increment II. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 2, 2023. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-22-F-0282).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22F0282"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 62068240.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-10-02",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-22-F-0282"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "FLIR Unmanned Ground Systems Inc.",
+            "location": "Chelmsford, Massachusetts",
+            "contract_number": "W56HZV-22-F-0282",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Man Transportable Robotic System Increment II",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 62068240,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Main Building Maintenance Inc., San Antonio, Texas, is awarded a $41,858,003 firm-fixed-price contract for healthcare environmental cleaning and related services at William Beaumont Army Medical Center. Bids were solicited via the internet with 13 received. Work locations and funding will be determined with each order, with an estimated completion date of June 30, 2027. U.S. Army Health Contracting Activity, San Antonio, Texas, is the contracting activity (W81K04-22-D-0008).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W81K0422D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41858003.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Health Contracting Activity, San Antonio, Texas",
+          "code": "W81K04-22-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Main Building Maintenance Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "W81K04-22-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Healthcare environmental cleaning and related services at William Beaumont Army Medical Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41858003,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 13 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hewlett Packard Enterprise Company, Spring, Texas, was awarded a $25,480,000 firm-fixed-price contract for one base system and one test and development system super computer system. Bids were solicited via the internet with three received. Work will be performed in Vicksburg, Mississippi, with an estimated completion date of Jan. 25, 2028. Fiscal 2022 other procurement, Army funds in the amount of $25,480,000 were obligated at the time of the award. U.S. Army Corps of Engineers' Engineer Research and Development Center, Vicksburg, Mississippi, is the contracting activity (W912DY-22-F-0248).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912DY22F0248"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25480000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25480000.0,
+        "funding_text": "Fiscal 2022 other procurement, Army funds in the amount of $25,480,000 were obligated at the time of the award",
+        "completion_date": "2028-01-25",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers' Engineer Research and Development Center, Vicksburg, Mississippi",
+          "code": "W912DY-22-F-0248"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Hewlett Packard Enterprise Company",
+            "location": "Spring, Texas",
+            "contract_number": "W912DY-22-F-0248",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "One base system and one test and development system super computer system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25480000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25480000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Spider Strategies Inc.,* Arlington, Virginia, was awarded a $16,426,741 firm-fixed-price contract for strategic management system support services. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 2, 2024. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-22-D-0010).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB22D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16426741.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-07-02",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-22-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Spider Strategies Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W91CRB-22-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Strategic management system support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16426741,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Reliance Test and Technology LLC, Crestview, Florida, is awarded an $80,831,607 cost-plus-fixed-fee, cost modification (P00019) to a previously awarded contract (N0042120C0033). This modification exercises an option to provide research, development, test, evaluation, engineering, fleet and management support services required to perform aircraft engineering and developmental flight test, as well as fleet training events for Navy and Marine Corps air vehicle systems and trainers in support of the Atlantic Ranges and Targets Department. Work will be performed in Patuxent River, Maryland (99%); and various locations within the continental U.S. (1%), and is expected to be completed in June 2023. Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $8,362,250; fiscal 2022 operation and maintenance (Navy) in the amount of $2,176,482; fiscal 2022 research, development, test, and evaluation (Department of Defense) funds in the amount of $507,554; and fiscal 2022 working capital (Navy) funds in the amount of $155,000 will be obligated at time of award, $2,176,482 of which will expire at the end of the current fiscal year. The Naval Air Warfare Command, Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0042120C0033"
+        ],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 80831607.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11201286.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $8,362,250; fiscal 2022 operation and maintenance (Navy) in the amount of $2,176,482; fiscal 2022 research, development, test, and evaluation (Department of Defense) funds in the amount of $507,554; and fiscal 2022 working capital (Navy) funds in the amount of $155,000 will be obligated at time of award, $2,176,482 of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Command, Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Reliance Test and Technology LLC",
+            "location": "Crestview, Florida",
+            "contract_number": "N0042120C0033",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Option exercise for research, development, test, evaluation, engineering, fleet and management support services for Atlantic Ranges and Targets Department (Patuxent River, Maryland)",
+        "base_contract_number": "N0042120C0033",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 80831607,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11202288,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded a $57,850,697 fixed-price-incentive-fee and cost-plus-incentive-fee modification to previously awarded contract N0002419C5412 to exercise options and incrementally fund existing contract line items for fiscal 2022 Standard Missile-2 Block IIIC low rate initial production and spares. Work will be performed in Huntsville, Alabama (73%); and Tucson, Arizona, (27%), and is expected to be completed by December 2024. Fiscal 2022 weapons procurement (Navy) funds in the amount of $55,582,089 (96%); and fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $2,268,608 (4%) will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5412"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 57850697.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57850697.0,
+        "funding_text": "Fiscal 2022 weapons procurement (Navy) funds in the amount of $55,582,089 (96%); and fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $2,268,608 (4%) will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N0002419C5412",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-fee and cost-plus-incentive-fee",
+        "description": "Fiscal 2022 Standard Missile-2 Block IIIC low rate initial production and spares (option exercise and incremental funding)",
+        "base_contract_number": "N0002419C5412",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57850697,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57850697,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bechtel Plant Machinery Inc., Monroeville, Pennsylvania, is awarded a $32,658,642 cost-plus-fixed-fee modification to previously awarded contract N00024-19-C-2112 for naval nuclear propulsion components. Work will be performed in Monroeville, Pennsylvania (74%); and Schenectady, New York (26%). Fiscal 2022 other procurement (Navy) funding in the amount of $32,658,642 will be obligated at time of award and funds will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C2112"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 32658642.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32658642.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) funding in the amount of $32,658,642 will be obligated at time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Bechtel Plant Machinery Inc.",
+            "location": "Monroeville, Pennsylvania",
+            "contract_number": "N00024-19-C-2112",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Naval nuclear propulsion components",
+        "base_contract_number": "N00024-19-C-2112",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32658642,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32658642,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Consolidated Analysis Center International (CACI) Inc., Chantilly, Virginia, is awarded a $27,338,600 cost-plus-fixed-fee contract. This contract provides engineering, technical and program management support services and associated supplies to support the development, production and sustainment of intelligence, surveillance, and reconnaissance mission systems. Work will be performed in Austin, Texas (90%); and Patuxent River, Maryland (10%), and is expected to be completed in June 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $100,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(1). The Naval Air Warfare Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042122C0025).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0042122C0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27338600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $100,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042122C0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Consolidated Analysis Center International (CACI) Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N0042122C0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering, technical and program management support for development, production and sustainment of intelligence, surveillance, and reconnaissance mission systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27338600,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": "Not competitively procured, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Mercury Mission Systems LLC, Torrance, California, is awarded a $25,978,018 cost-plus-fixed-fee order (N6833522F0005) against a previously issued basic ordering agreement (N6833519G0041). This order provides non-recurring engineering for the development and delivery of flight qualification units for the Joint Avionics Reconfigurable Visual Information System digital video mapping computer upgrade that will interface with the F/A-18E/F and EA-18G mission computer, data transfer unit and other avionics in support of Small Business Innovation Research Phase III topic #N152-096 titled “Miniaturized, Fault Tolerant Decentralized Mission Processing Architecture for Next Generation Rotorcraft Avionics Environment.” Additionally, this effort will provide high definition video interfaces to two large area displays (LADs) with digital moving maps and other data. This upgrade will provide Aeronautical Radio Incorporated 818 compliant video output over high-speed video network at the full resolution and refresh rate required by the two LADs. Work will be performed in Torrance, California (95.2%); Atlanta, Georgia (2.7%); and Eden Prairie, Minnesota (2.1%), and is expected to be completed in August 2024. Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $16,259,924; and fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $4,381,091 will be obligated at time of award, $4,381,091 of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N6833522F0005",
+          "N6833519G0041"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25978018.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20641015.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $16,259,924; and fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $4,381,091 will be obligated at time of award, $4,381,091 of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-08",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Mercury Mission Systems LLC",
+            "location": "Torrance, California",
+            "contract_number": "N6833522F0005",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Non-recurring engineering for flight qualification units for the Joint Avionics Reconfigurable Visual Information System digital video mapping computer upgrade (F/A-18E/F and EA-18G)",
+        "base_contract_number": "N6833519G0041",
+        "order_number": "N6833522F0005",
+        "modification_number": null,
+        "value_usd": 25978018,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25978018,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L3Technologies Inc., MariPro, Goleta, California, is awarded a $14,492,140 firm-fixed-price modification (P00003) to a previously awarded contract (N6134021C0023). This modification exercises options to procure 180 km Barking Sands Tactical Underwater Range internode cable and 608 km Atlantic Undersea Test and Evaluation Center cable in support of the Under Sea Warfare Training Range Programs training ranges that are being developed off the shores of Hawaii, California and the Bahamas in support of the Navy’s air, surface, and subsurface forces training and assessment in shallow and deep water under adverse conditions. Work will be performed in Tanner Bank, California (30%); San Clemente Island, California (23%); Goleta, California (21%); Kauai, Hawaii (14%); and Andros Island, Bahamas (12%), and is expected to be completed in June 2032. Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $9,973,451; and fiscal 2022 other procurement (Navy) funds in the amount of $4,518,689 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N6134021C0023"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 14492140.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14492140.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $9,973,451; and fiscal 2022 other procurement (Navy) funds in the amount of $4,518,689 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2032-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "L3Technologies Inc., MariPro",
+            "location": "Goleta, California",
+            "contract_number": "N6134021C0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for 180 km Barking Sands Tactical Underwater Range internode cable and 608 km Atlantic Undersea Test and Evaluation Center cable for Under Sea Warfare Training Range Programs",
+        "base_contract_number": "N6134021C0023",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 14492140,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14492140,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SupplyCore Inc.,* Rockford, Illinois, has been awarded a maximum $60,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for facilities maintenance, repair and operations supplies. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in the Federal Acquisition Regulation 6.302-1. This is a 184-day bridge contract with no option periods. Location of performance is South Korea, with a Jan. 15, 2023, ordering period end date. Using customers are Army, Navy, Air Force, Marine Corps and Coast Guard. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-22-D-0011).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E322D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-22-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "SupplyCore Inc.",
+            "location": "Rockford, Illinois",
+            "contract_number": "SPE8E3-22-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Bridge contract for facilities maintenance, repair and operations supplies (South Korea performance; 184-day bridge, sole source)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60000000,
+        "cumulative_value_usd": 60000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Connectec Co., Inc.,* Irvine, California, has been awarded a maximum $59,251,500 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for power distribution. This was a competitive acquisition with two responses received. This is a five-year contract with no option periods. The performance completion date is June 29, 2027. Using military service is Army. Type of appropriation is fiscal 2022 through 2027 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-22-D-0041).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL122D0041"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 59251500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-22-D-0041"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Connectec Co., Inc.",
+            "location": "Irvine, California",
+            "contract_number": "SPRDL1-22-D-0041",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Power distribution supplies contract (five-year, Army working capital funds)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 59251500,
+        "cumulative_value_usd": 59251500,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-06-29.html"
+  "source": "file:2022-06-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:10:11Z"
+  }
 }

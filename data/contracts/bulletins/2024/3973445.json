@@ -12,39 +12,394 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Bionetics Corp., Yorktown, Virginia (FA8224-25-D-0001); Tyonek Technical Services, Madison, Alabama (FA8224-25-D-0002); SkyQuest Aviation, Glendale, Arizona (FA8224-25-D-0003); Strategic Technology Institute, Rockville, Maryland (FA8224-25-D-0004); and Kay and Associates, Buffalo Grove, Illinois (FA8224-25-D-0005), were awarded a $751,000,000 ceiling, indefinite-delivery/indefinite-quantity contract for the fifth generation of the depot on-site contract augmentee teams. This contract provides for modification, maintenance, inspection, corrosion control, overhaul, repair, regeneration, and storage of various aerial weapon systems and related components, missiles, engines, ground support equipment, and vehicles. Work will be performed in Layton, Utah; Davis-Monthan Air Force Base, Arizona; Vandenberg AFB, California; Malmstrom AFB, Montana; Minot AFB, North Dakota; Randolph AFB, Texas; F.E. Warren AFB, Wyoming; Tinker AFB, Oklahoma; and Warner Robins AFB, Georgia, and is expected to be completed by Nov. 19, 2034. This contract was a competitive acquisition, and 22 offers were received. Fiscal 2025 consolidated sustainment activity group—maintenance funds in the amount of $2,500 ($500 per awardee) are being obligated at time of award. The Air Force Sustainment Center, Hill AFB, Utah, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA822425D0001",
+          "FA822425D0002",
+          "FA822425D0003",
+          "FA822425D0004",
+          "FA822425D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 751000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2025 consolidated sustainment activity group—maintenance funds in the amount of $2,500 ($500 per awardee) are being obligated at time of award",
+        "completion_date": "2034-11-19",
+        "contracting_activity": {
+          "name": "The Air Force Sustainment Center, Hill AFB, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Bionetics Corp.",
+            "location": "Yorktown, Virginia",
+            "contract_number": "FA8224-25-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Tyonek Technical Services",
+            "location": "Madison, Alabama",
+            "contract_number": "FA8224-25-D-0002",
+            "markers": null
+          },
+          {
+            "name": "SkyQuest Aviation",
+            "location": "Glendale, Arizona",
+            "contract_number": "FA8224-25-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Strategic Technology Institute",
+            "location": "Rockville, Maryland",
+            "contract_number": "FA8224-25-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Kay and Associates",
+            "location": "Buffalo Grove, Illinois",
+            "contract_number": "FA8224-25-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Fifth generation depot on-site contract augmentee teams for modification, maintenance, inspection, corrosion control, overhaul, repair, regeneration, and storage of aerial weapon systems, missiles, engines, ground support equipment, and vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 751000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 22 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "ELB Services LLC, Columbus, Georgia, was awarded a $600,000,000 ceiling, single award, indefinite-delivery/indefinite-quantity contract for mission planning support services. This contract provides for continued support of multiple mission planning systems. Work will be performed Hill Air Force Base, Utah, and various locations outside the contiguous U.S., and is expected to be completed by Dec. 31, 2034. This contract involves Foreign Military Sales to Australia, Belgium, Canada, Chile, Denmark, Egypt, France, India, Indonesia, Iraq, Japan, Jordan, Korea, Morocco, the North Atlantic Treaty Organization, Netherlands, Norway, Oman, Poland, Portugal, Qatar, Romania, Saudi Arabia, Singapore, Taiwan, Thailand, Turkey, the United Arab Emirates, and the United Kingdom. This contract was a competitive acquisition, and seven offers were received. Fiscal 2025 operation and maintenance funds in the amount of $944,514 are being obligated at the time of award. The Air Force Life Cycle Management Center, Hill AFB, Utah, is the contracting activity (FA8217-25-D-B004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA821725DB004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 600000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 944514.0,
+        "funding_text": "Fiscal 2025 operation and maintenance funds in the amount of $944,514 are being obligated at the time of award",
+        "completion_date": "2034-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hill AFB, Utah",
+          "code": "FA8217-25-D-B004"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia",
+          "Belgium",
+          "Canada",
+          "Chile",
+          "Denmark",
+          "Egypt",
+          "France",
+          "India",
+          "Indonesia",
+          "Iraq",
+          "Japan",
+          "Jordan",
+          "Korea",
+          "Morocco",
+          "North Atlantic Treaty Organization",
+          "Netherlands",
+          "Norway",
+          "Oman",
+          "Poland",
+          "Portugal",
+          "Qatar",
+          "Romania",
+          "Saudi Arabia",
+          "Singapore",
+          "Taiwan",
+          "Thailand",
+          "Turkey",
+          "United Arab Emirates"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "ELB Services LLC",
+            "location": "Columbus, Georgia",
+            "contract_number": "FA8217-25-D-B004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "single award indefinite-delivery/indefinite-quantity contract",
+        "description": "Mission planning support services for multiple mission planning systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 600000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 944514,
+        "fms_countries": [
+          "Australia",
+          "Belgium",
+          "Canada",
+          "Chile",
+          "Denmark",
+          "Egypt",
+          "France",
+          "India",
+          "Indonesia",
+          "Iraq",
+          "Japan",
+          "Jordan",
+          "Korea",
+          "Morocco",
+          "North Atlantic Treaty Organization",
+          "Netherlands",
+          "Norway",
+          "Oman",
+          "Poland",
+          "Portugal",
+          "Qatar",
+          "Romania",
+          "Saudi Arabia",
+          "Singapore",
+          "Taiwan",
+          "Thailand",
+          "Turkey",
+          "United Arab Emirates",
+          "United Kingdom"
+        ],
+        "competition": "competitive acquisition, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "World Wide Technology, St. Louis, Missouri, was awarded a $38,261,555 ceiling under a firm-fixed-price delivery order, excluding unexercised options, for value-added reseller of commercial-off-the-shelf information technology equipment. Fiscal 2025 research, development, test and evaluation funds in the amount of $272,924 are being obligated at time of award. The solicitation was competed on NASA Solutions for Enterprise-Wide Procurement Group D on an unrestricted basis and received one quote. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001125F0456).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "HR001125F0456"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38261555.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 272924.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $272,924 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR001125F0456"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "World Wide Technology",
+            "location": "St. Louis, Missouri",
+            "contract_number": "HR001125F0456",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Value-added reseller of commercial-off-the-shelf information technology equipment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38261555,
+        "cumulative_value_usd": null,
+        "obligated_usd": 272924,
+        "fms_countries": [],
+        "competition": "NASA Solutions for Enterprise-Wide Procurement Group D, unrestricted, one quote received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Oceanetics Inc.,* Annapolis, Maryland, is awarded $15,000,000 for a firm-fixed-price, cost-plus-fixed-fee modification to a previously awarded contract (N39430-23-D-4050). This modification provides for an increase in contract capacity. Work will be performed within the Naval Facilities Engineering and Expeditionary Warfare Center (NAVFAC EXWC) area of operations and is expected to be completed by May 2028. This award brings the total cumulative face value of the contract to $129,989,368. No funds will be obligated at time of award. Future task orders will be primarily funded by operation and maintenance, (Navy); Navy working capital fund; research, development, test and evaluation; and other procurement, (Navy) funds. NAVFAC EXWC, Port Hueneme, California, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3943023D4050"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": 129989368.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award",
+        "completion_date": "2028-05",
+        "contracting_activity": {
+          "name": "NAVFAC EXWC, Port Hueneme, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Oceanetics Inc.",
+            "location": "Annapolis, Maryland",
+            "contract_number": "N39430-23-D-4050",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Increase in contract capacity under a previously awarded contract (NAVFAC EXWC area of operations)",
+        "base_contract_number": "N39430-23-D-4050",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": 129989368,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "UNIFORMED SERVICES UNIVERSITY OF THE HEALTH SCIENCES",
       "kind": "announcement",
       "text": "TekPro Support Services LLC, San Antonio, Texas, was awarded a single award, firm-fixed-price, indefinite-delivery/indefinite-quantity contract (HU000125D0002), with a minimum award amount of $10,000 and a maximum ceiling/face value of $10,000,000, in support of the Uniformed Services University of the Health Sciences’ (USU). This contract has a five-year ordering period from Dec. 1, 2024, to Nov. 30, 2029. Performance will be at, Bethesda, Maryland. This award was issued in accordance with Section 8(a) of the Small Business Act (15 U.S. Code 637(a)) and the Federal Acquisition Regulation Part 19.8, and the executed partnership agreement between the Small Business Administration (SBA) and the Department of Defense. SBA accepted USU’s offer of this requirement for a sole source contract on behalf of TekPro Support Services LLC on Oct. 9, 2024. Operations and maintenance funds will be obligated at the individual task order level. Uniformed Services University of the Health Sciences, Bethesda, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "HU000125D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Operations and maintenance funds will be obligated at the individual task order level",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Uniformed Services University of the Health Sciences, Bethesda, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "TekPro Support Services LLC",
+            "location": "San Antonio, Texas",
+            "contract_number": "HU000125D0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "single award firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Support services for Uniformed Services University of the Health Sciences, Bethesda, Maryland; 8(a) sole source award",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (8(a))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Divine Imaging Inc.,** Malibu, California (SPE2DH-25-D-0004, $24,375,000), has been added as an awardee to the multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-16-R-0002 and awarded Oct. 6, 2016. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH25D0004",
+          "SPE2DH16R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24375000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Women-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Divine Imaging Inc.",
+            "location": "Malibu, California",
+            "contract_number": "SPE2DH-25-D-0004",
+            "markers": "**"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for medical equipment and accessories for the DLA Electronic Catalog (solicitation SPE2DH-16-R-0002)",
+        "base_contract_number": "SPE2DH-16-R-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24375000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-11-20.html"
+  "source": "file:2024-11-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:23:30Z"
+  }
 }

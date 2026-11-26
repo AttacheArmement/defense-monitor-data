@@ -12,81 +12,685 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Ordnance Systems Inc., Radford, Virginia, was awarded a $1,287,655,519 modification (P00023) to contract W52P1J-11-D-0013 for the continued operation of the Radford Army Ammunition Plant in Virginia, and production of nitrocellulose and propellants. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 17, 2022. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J11D0013"
+        ],
+        "modification_numbers": [
+          "P00023"
+        ],
+        "is_modification": true,
+        "value_usd": 1287655519.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-07-17",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BAE Systems Ordnance Systems Inc.",
+            "location": "Radford, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Continued operation of the Radford Army Ammunition Plant in Virginia and production of nitrocellulose and propellants",
+        "base_contract_number": "W52P1J-11-D-0013",
+        "order_number": null,
+        "modification_number": "P00023",
+        "value_usd": 1287655519,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CEMS-RS&H ABQ JV,* San Antonio, Texas (W912PP-22-D-0009); and SMPC P.A.,* Albuquerque, New Mexico (W912PP-19-D-0010), will compete for each order of the $45,000,000 firm-fixed-price contract for architect-engineer vertical design services. Bids were solicited via the internet with 21 received. Work locations and funding will be determined with each order, with an estimated completion date of July 15, 2026. U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912PP22D0009",
+          "W912PP19D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-07-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Albuquerque, New Mexico",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "CEMS-RS&H ABQ JV",
+            "location": "San Antonio, Texas",
+            "contract_number": "W912PP-22-D-0009",
+            "markers": "*"
+          },
+          {
+            "name": "SMPC P.A.",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "W912PP-19-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect-engineer vertical design services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 21 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Inc., McLean, Virginia, is awarded a $171,768,424 cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract. This contract provides technical, analytical, and managerial services to support the Naval Aviation Enterprise for strategic objectives and initiatives in support of its mission to sustain required current readiness and advance future warfighting capabilities. Work will be performed in Norfolk, Virginia (32%); San Diego, California (27%); Patuxent River, Maryland (13%); Arlington, Virginia (7%); Cherry Point, North Carolina (3%); New River, North Carolina (3%); Fort Worth, Texas (2%); Millington, Tennessee (2%); Washington, D.C. (1%); Yuma, Arizona (1%); various locations within the continental U.S. (8%); and various locations outside the continental U.S. (1%), and is expected to be completed in August 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; one offer was received. The Commander, Fleet Readiness Centers, Patuxent River, Maryland, is the contracting activity (N6852022D0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6852022D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 171768424.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2027-08",
+        "contracting_activity": {
+          "name": "The Commander, Fleet Readiness Centers, Patuxent River, Maryland",
+          "code": "N6852022D0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "N6852022D0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity",
+        "description": "Technical, analytical, and managerial services supporting the Naval Aviation Enterprise",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 171768424,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive electronic request for proposal; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Q.E.D Systems Inc.,* Virginia Beach, Virginia (N55236-22-D-0005); South Bay Sand Blasting and Tank Cleaning Inc.,* National City, California (N55236-22-D-0006); and Bay City Marine Inc.,* National City, California (N55236-22-D-0007), are awarded an overall maximum ceiling value $34,625,320 firm-fixed-price, multiple-award, indefinite-delivery/indefinite-quantity contract with a five-year ordering period to provide Commercial Industrial Services (CIS) heat exchangers repairs. The contract will provide labor, services, equipment, and materials for the cleaning (high-pressure water jet, mechanical, and/or acid) of various shell-and-tube type heat exchangers, condensers, and/or coolers onboard Navy ships within a 50-mile radius of San Diego, California. These three companies will have an opportunity to compete for individual delivery orders. Each contract’s ordering period begins July 15, 2022, and completes on July 14, 2027. Contract funds in the amount of $30,000 ($10,000 for minimum guarantee per contract) will be obligated under each contract’s initial delivery order and expires at the end of the current fiscal year. The initial delivery orders are being funded with fiscal 2022 operation and maintenance (Navy) funds. These contracts were competitively procured via the beta.sam.gov website with four offers received. The Southwest Regional Maintenance Center, San Diego, California, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N5523622D0005",
+          "N5523622D0006",
+          "N5523622D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34625320.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000.0,
+        "funding_text": "Contract funds in the amount of $30,000 ($10,000 for minimum guarantee per contract) will be obligated under each contract’s initial delivery order and expires at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Southwest Regional Maintenance Center, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Q.E.D Systems Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N55236-22-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "South Bay Sand Blasting and Tank Cleaning Inc.",
+            "location": "National City, California",
+            "contract_number": "N55236-22-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "Bay City Marine Inc.",
+            "location": "National City, California",
+            "contract_number": "N55236-22-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, multiple-award, indefinite-delivery/indefinite-quantity",
+        "description": "Commercial Industrial Services (CIS) heat exchanger repairs on Navy ships within 50-mile radius of San Diego, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34625320,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30000,
+        "fms_countries": [],
+        "competition": "Competitively procured via beta.sam.gov with four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Baltimore, Maryland, is awarded a $23,368,814 cost-plus-fixed-fee and cost-only modification to previously awarded contract N00024-20-C-5392 to exercise options for the engineering, design, and technical services in support of the MK 41 Vertical Launching System electronic systems and computer programs. This contract combines purchases by the U.S. (76%); and the governments of Japan (15%); Spain (7%); Canada (1%); and Chile (1%) under the Foreign Military Sales (FMS) program. Work will be performed in Baltimore, Maryland (35%); Moorestown, New Jersey (18%); Seattle, Washington (18%); San Diego, California (18%); and Ventura, California (11%), and is expected to be completed by July 2023. Fiscal 2022 research, development, test, and evaluation (defense-wide) funds in the amount of $2,400,000 (73%); FMS (Japan) funds in the amount of $500,000 (15%); FMS (Spain) funds in the amount of $228,311 (7%); operation and maintenance (Navy) funds in the amount of $99,951 (3%); FMS (Canada) funds in the amount of $49,850 (1%); and FMS (Chile) funds in the amount of $19,940 (1%) will be obligated at time of award, and funds in the amount of $99,951 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C5392"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 23368814.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3398003.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation (defense-wide) funds in the amount of $2,400,000 (73%); FMS (Japan) funds in the amount of $500,000 (15%); FMS (Spain) funds in the amount of $228,311 (7%); operation and maintenance (Navy) funds in the amount of $99,951 (3%); FMS (Canada) funds in the amount of $49,850 (1%); and FMS (Chile) funds in the amount of $19,940 (1%) will be obligated at time of award, and funds in the amount of $99,951 will expire at the end of the current fiscal year",
+        "completion_date": "2023-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan",
+          "Spain",
+          "Canada",
+          "Chile"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Baltimore, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee and cost-only modification",
+        "description": "Engineering, design, and technical services for MK 41 Vertical Launching System electronic systems and computer programs",
+        "base_contract_number": "N00024-20-C-5392",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23368814,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2400000,
+        "fms_countries": [
+          "Japan",
+          "Spain",
+          "Canada",
+          "Chile"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Professional Solutions1 LLC,** Alexandria, Virginia, is awarded a $20,000,000 indefinite-delivery/indefinite-quantity contract (M67854-22-D-7904) for Marine Corps communication instructional services. This contract provides for instructional services in Microsoft, Cisco, radio wave, satellite, over-the-air transmissions systems, virtualization, network storage, and information assurance, as well as curriculum management and test administration for that training. Work will be performed at Camp Pendleton, California; Camp Lejeune, Jacksonville, North Carolina; and Marine Corps Base Camp Smedley Butler, Okinawa, Japan with an expected completion date of Jan. 14, 2028. The maximum dollar value is $20,000,000. No funds are obligated at time of award. This contract was a competitive acquisition issued via the beta.sam.gov to all qualified offerors and four offers were received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "M6785422D7904"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are obligated at time of award",
+        "completion_date": "2028-01-14",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Service-Disabled Veteran-Owned Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Professional Solutions1 LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "M67854-22-D-7904",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Marine Corps communication instructional services (Microsoft, Cisco, radio wave, satellite, virtualization, network storage, information assurance training)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": 20000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive via beta.sam.gov; four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Georgia Tech Research Corp., Atlanta, Georgia, was awarded a $9,284,660 cost reimbursement contract to develop and manufacture a point-of-need pathogen detection technology that will identify the underlying pathogens responsible for the human diseases of sepsis (bacteremia) and respiratory infection, as well as meet Food and Drug Administration requirements for regulatory approval. This two-year contract includes five options which, if exercised, would bring the potential value of this contract to $24,582,734 and a period-of-performance of four years. Work will be performed at the contractor’s facilities in Atlanta, Georgia (46%); Boston, Massachusetts (29%); Thurleigh, United Kingdom (19%); and Daresbury, United Kingdom (6%). The period of performance of the base award is from July 18, 2022, through July 17, 2024. If all option periods are exercised, the period of performance would extend through July 17, 2026. Contract funds in the amount of $3,607,000 will be obligated at the time of award. This contract was competitively procured via a Defense Advanced Research Projects Agency broad agency announcement solicitation (HR001120S0016) published on the beta.sam.gov website. Seven proposals were received and two were selected for award. Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity (N66001-22-C-4012). (Awarded July 14, 2022)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "HR001120S0016",
+          "N6600122C4012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9284660.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3607000.0,
+        "funding_text": "Contract funds in the amount of $3,607,000 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Pacific, San Diego, California",
+          "code": "N66001-22-C-4012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Georgia Tech Research Corp.",
+            "location": "Atlanta, Georgia",
+            "contract_number": "N66001-22-C-4012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost reimbursement",
+        "description": "Point-of-need pathogen detection technology for sepsis (bacteremia) and respiratory infection diagnosis",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9284660,
+        "cumulative_value_usd": 24582734,
+        "obligated_usd": 3607000,
+        "fms_countries": [],
+        "competition": "Competitive DARPA broad agency announcement HR001120S0016; seven proposals received, two selected",
+        "award_date": "2022-07-14"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Togiak Management Services LLC, Anchorage Alaska, has been awarded a $49,900,000 indefinite-delivery/indefinite-quantity, firm-fixed-price contract to apply paint; prime and maintain protective coatings on various facilities; provide abatement of lead and asbestos; and perform minor drywall, plumbing and electrical work at Edwards Air Force Base, California. Work will be performed at Edwards AFB, and is expected to be completed by July 12, 2030. This award is the result of a non-competitive 8(a) Direct Award. The seed project is being funded with fiscal 2022 operations and maintenance funds in the amount of $174,181 which are being obligated at the time of award. The Air Force Test Center, Edwards AFB, California, is the contracting activity (FA9301-22-D-0010).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA930122D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 174181.0,
+        "funding_text": "The seed project is being funded with fiscal 2022 operations and maintenance funds in the amount of $174,181 which are being obligated at the time of award",
+        "completion_date": "2030-07-12",
+        "contracting_activity": {
+          "name": "The Air Force Test Center, Edwards AFB, California",
+          "code": "FA9301-22-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Togiak Management Services LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "FA9301-22-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Painting, protective coatings, lead and asbestos abatement, and minor drywall, plumbing and electrical work at Edwards AFB, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 174181,
+        "fms_countries": [],
+        "competition": "Non-competitive 8(a) direct award",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "American Engineering Corp., Oyama Ginowan, Okinawa, Japan, has been awarded a $10,100,964 contract for Kadena Air Base military family housing renovation. This contract provides for plant, supervision, management, quality control, labor, tools, equipment, appliances, materials and performance of all work necessary to construct improvements to family housing consisting of 18 military family housing units. Work will be performed at the North Terrace area of Kadena Air Base, Okinawa, Japan, and is expected to be completed Feb. 25, 2024. This award is the result of a competitive acquisition with six offers received. Fiscal 2018 military construction funds in the amount of $10,100,964 are being obligated at the time of award. The 18th Contracting Squadron, Kadena Air Base, Okinawa, Japan, is the contracting activity (FA5270-22-C-0007).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA527022C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10100964.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10100964.0,
+        "funding_text": "Fiscal 2018 military construction funds in the amount of $10,100,964 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The 18th Contracting Squadron, Kadena Air Base, Okinawa, Japan",
+          "code": "FA5270-22-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "American Engineering Corp.",
+            "location": "Oyama Ginowan, Okinawa, Japan",
+            "contract_number": "FA5270-22-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Kadena Air Base military family housing renovation (18 units)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10100964,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10100964,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded an indefinite-delivery/indefinite-quantity contract with a program ceiling of $37,500,000 for sustainment and engineering services and support for recurring and non-recurring activities relating to the E-3F Airborne Warning and Control System French Republic mid-life upgrade modification. Work will be performed in Oklahoma City, Oklahoma, and is expected to be completed by July 16, 2027. This contract supports Foreign Military Sales (FMS) for the French Republic. This award is the result of a sole source acquisition. FMS French Republic case funds in the amount of $1,522,705 are obligated at the time of award for the first task order. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8102-22-D-0002).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA810222D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1522705.0,
+        "funding_text": "FMS French Republic case funds in the amount of $1,522,705 are obligated at the time of award for the first task order",
+        "completion_date": "2027-07-16",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8102-22-D-0002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "French Republic"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8102-22-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Sustainment and engineering services for E-3F AWACS French Republic mid-life upgrade modification",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37500000,
+        "cumulative_value_usd": 37500000,
+        "obligated_usd": 1522705,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Honeywell International Inc., Tempe, Arizona, has been awarded a $7,520,030 firm-fixed-price modification (P00019) to the previously awarded contract (FA8109-19-D-0001). This is an enterprise level strategic contract for highly specialized repair, overhaul, and engineering services for line replacement units, shop replaceable units, test equipment and individual components. This effort includes requirements from Robins Air Force Base, Georgia; Hill AFB, Utah; and Tinker AFB, Oklahoma. Work will be performed in various U.S. locations, and is expected to be completed by July 18, 2025. Strategic Contracting, Tinker AFB, Oklahoma, is the contracting activity (FA8109-19-D-0001).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA810919D0001"
+        ],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 7520030.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-07-18",
+        "contracting_activity": {
+          "name": "Strategic Contracting, Tinker AFB, Oklahoma",
+          "code": "FA8109-19-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Tempe, Arizona",
+            "contract_number": "FA8109-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Enterprise-level repair, overhaul, and engineering services for LRUs, SRUs, test equipment and components",
+        "base_contract_number": "FA8109-19-D-0001",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 7520030,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Meggitt Defense Systems Inc., Irvine, California, has been awarded a maximum $16,758,848 firm-fixed-price contract for carrier drive assemblies. This was a sole-source acquisition using justification 10 U.S. Code 2301 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a one-time buy with no option periods. The performance completion date is Nov. 2, 2026. Using military service is Army. Type of appropriation is Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-22-C-0009).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL122C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16758848.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-22-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Meggitt Defense Systems Inc.",
+            "location": "Irvine, California",
+            "contract_number": "SPRDL1-22-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Carrier drive assemblies (one-time buy)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16758848,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2301(c)(1); FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: San Bernardino International Airport Authority, San Bernardino, California (SPE607-22-D-0099, $46,986,743), has been added as an awardee to the multiple award contract for fuel support at San Bernardino International Airport, California, issued against solicitation SPE607-22-R-0200 and awarded May 4, 2022.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE60722D0099",
+          "SPE60722R0200"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46986743.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "San Bernardino International Airport Authority",
+            "location": "San Bernardino, California",
+            "contract_number": "SPE607-22-D-0099",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Adds San Bernardino International Airport Authority as an awardee to the multiple award contract for fuel support at San Bernardino International Airport, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46986743,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-05-04"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-07-15.html"
+  "source": "file:2022-07-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:07:51Z"
+  }
 }

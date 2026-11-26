@@ -11,75 +11,656 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dawson Enterprises LLC,* Honolulu, Hawaii (W9128A-21-D-0001); Elite Pacific Construction Inc.,* Kaneohe, Hawaii (W9128A-21-D-0002); Insight Pacific LLC,* Brea, California (W9128A-21-D-0003); Nakasato Contracting LLC,* Honolulu, Hawaii (W9128A-21-D-0004); Niking Corp.,* Wahiawa, Hawaii (W9128A-21-D-0005); and RORE Inc.,* San Diego, California (W9128A-21-D-0006), will compete for each order of the $300,000,000 firm-fixed-price contract for design-bid-build construction services. Bids were solicited via the internet with 11 received. Work locations and funding will be determined with each order, with an estimated completion date of March 16, 2028. U.S. Army Corps of Engineers, Honolulu, Hawaii, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9128A21D0001",
+          "W9128A21D0002",
+          "W9128A21D0003",
+          "W9128A21D0004",
+          "W9128A21D0005",
+          "W9128A21D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 300000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-03-16",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Honolulu, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Dawson Enterprises LLC",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-21-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Elite Pacific Construction Inc.",
+            "location": "Kaneohe, Hawaii",
+            "contract_number": "W9128A-21-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Insight Pacific LLC",
+            "location": "Brea, California",
+            "contract_number": "W9128A-21-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "Nakasato Contracting LLC",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-21-D-0004",
+            "markers": "*"
+          },
+          {
+            "name": "Niking Corp.",
+            "location": "Wahiawa, Hawaii",
+            "contract_number": "W9128A-21-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "RORE Inc.",
+            "location": "San Diego, California",
+            "contract_number": "W9128A-21-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, design-bid-build construction services",
+        "description": "Design-bid-build construction services; multiple-award pool competing for each order",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 300000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 11 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ID Technologies LLC,* Ashburn, Virginia, was awarded a $49,373,940 modification (P00005) to contract W52P1J-16-D-0020 for the purchase of information technology equipment and accessories. Work will be performed in Ashburn, Virginia, with an estimated completion date of March 24, 2022. Fiscal 2021 revolving funds in the amount of $49,373,940 were obligated at the time of the award. U.S. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J16D0020"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 49373940.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 49373940.0,
+        "funding_text": "Fiscal 2021 revolving funds in the amount of $49,373,940 were obligated at the time of the award",
+        "completion_date": "2022-03-24",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "ID Technologies LLC",
+            "location": "Ashburn, Virginia",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Purchase of information technology equipment and accessories",
+        "base_contract_number": "W52P1J-16-D-0020",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 49373940,
+        "cumulative_value_usd": null,
+        "obligated_usd": 49373940,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Davis Constructors & Engineers Inc., Anchorage, Alaska, was awarded a $45,487,063 firm-fixed-price contract for construction of a communications center at Fort Greely, Alaska. Bids were solicited via the internet with three received. Work will be performed in Fort Greely, Alaska, with an estimated completion date of Jan. 31, 2023. Fiscal 2021 military construction (defense-wide) funds in the amount of $45,487,063 were obligated at the time of the award. U.S. Army Corps of Engineers, Anchorage, Alaska, is the contracting activity (W911KB-21-C-0012).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W911KB21C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45487063.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45487063.0,
+        "funding_text": "Fiscal 2021 military construction (defense-wide) funds in the amount of $45,487,063 were obligated at the time of the award",
+        "completion_date": "2023-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Anchorage, Alaska",
+          "code": "W911KB-21-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Davis Constructors & Engineers Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-21-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of a communications center at Fort Greely, Alaska",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45487063,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45487063,
+        "fms_countries": [],
+        "competition": "internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Abbott Rapid DX North America LLC, Orlando, Florida, has been awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the production and delivery of BinaxNOW rapid point-of-care antigen tests for COVID-19. The initial requirement for 50 million tests is estimated to be valued at $255,000,000. This was a limited-source acquisition issued under unusual and compelling urgency using justification 10 U.S. Code 2304 (c)(2), as stated in Federal Acquisition Regulation 6.302-1. This is an eight-month contract with no option periods. Locations of performance are Florida and Maine, with an Oct. 31, 2021, ordering period end date. Using customer is the Department of Health and Human Services. The maximum dollar value on the contract is $766,440,000. The Department of Health and Human Services Office of Assistant Secretary of Health provided the appropriate funding. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-21-D-0023).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE21D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 255000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-21-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Abbott Rapid DX North America LLC",
+            "location": "Orlando, Florida",
+            "contract_number": "SPE2DE-21-D-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Production and delivery of BinaxNOW rapid point-of-care antigen tests for COVID-19; eight-month contract, ordering period ends Oct. 31, 2021",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 255000000,
+        "cumulative_value_usd": 766440000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "limited-source, unusual and compelling urgency (10 U.S.C. 2304(c)(2))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Tucson, Arizona, is awarded a $28,764,014 modification (P00004) to previously awarded, firm-fixed-price, fixed-price incentive (firm target) contract N00019-20-C-0030. This modification adds scope to procure full rate production Lot 17 Block Five Tactical Tomahawk all-up round vertical launch system missiles and associated warranties for the Navy. Work will be performed in Tucson, Arizona (41.6%); Pontiac, Michigan (11.4%); El Segundo, California (10.6%); Gainesville, Virginia (9.7%); Berryville, Arkansas (3.5%); Clearwater, Florida (3.3%); Middletown, Connecticut (3.2%); Glenrothes, Scotland (3.1%); Spanish Fork, Utah (3%); Midland, Ontario, Canada (2.4%); Vergennes, Vermont (1.7%); Camden, Arkansas (1.5%); Anniston, Alabama (1.2%); and various locations within the continental U.S. (3.8%), and is expected to be completed in December 2023. Fiscal 2021 weapons procurement (Navy) funds in the amount of $28,764,014 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001920C0030"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 28764014.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28764014.0,
+        "funding_text": "Fiscal 2021 weapons procurement (Navy) funds in the amount of $28,764,014 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00019-20-C-0030",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, fixed-price incentive (firm target)",
+        "description": "Full rate production Lot 17 Block Five Tactical Tomahawk all-up round VLS missiles and associated warranties",
+        "base_contract_number": "N00019-20-C-0030",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 28764014,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28764014,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Core Tech-HDCC-Kajima LLC, Tamuning, Guam, is awarded a $15,717,985 firm-fixed-price task order N62742-21-F-9928 for construction of a low-rise, reinforced concrete ordnance administrative and operations facility structure in support of Marine Corps ordnance operations within the munitions area at Naval Support Activity, Andersen Air Force Base, Guam. The task order also contains three unexercised options, which if exercised, would increase cumulative task order value to $16,559,776. The work to be performed provides for construction of a new ordnance administrative and operation facility. Facilities will be equipped with exterior lighting, lightning protection systems, ground ring, automatic fire sprinklers and heating, ventilation and air conditioning. In addition to office space, the facility includes waiting area with service counter, breakroom, conference room/classroom, head facilities and showers, personnel lockers and bunkroom and incidental related work. The unexercised options, if exercised, provide for removal and disposal of petroleum-contaminated soil exceeding tropical pacific soil environmental screening levels, disposal of other hazardous waste, furniture, fixtures and equipment. Work will be performed in Yigo, Guam, and is expected to be completed by April 2023. Fiscal 2021 military construction (Navy) contract funds in the amount of $15,717,985 are obligated on this award and will not expire at the end of the current fiscal year. Four proposals were received for this task order. The Naval Facilities Engineering Systems Command, Pacific, Pearl Harbor, Hawaii, is the contracting activity (N62742-19-D-1330).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6274221F9928",
+          "N6274219D1330"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15717985.0,
+        "cumulative_value_usd": 16559776.0,
+        "obligated_usd": 15717985.0,
+        "funding_text": "Fiscal 2021 military construction (Navy) contract funds in the amount of $15,717,985 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Pacific, Pearl Harbor, Hawaii",
+          "code": "N62742-19-D-1330"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Core Tech-HDCC-Kajima LLC",
+            "location": "Tamuning, Guam",
+            "contract_number": "N62742-21-F-9928",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Construction of low-rise reinforced concrete ordnance administrative and operations facility, Naval Support Activity Andersen AFB, Guam",
+        "base_contract_number": "N62742-19-D-1330",
+        "order_number": "N62742-21-F-9928",
+        "modification_number": null,
+        "value_usd": 15717985,
+        "cumulative_value_usd": 16559776,
+        "obligated_usd": 15717985,
+        "fms_countries": [],
+        "competition": "four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KJS Support Services JV LLC,* Fort Worth, Texas, is awarded an $8,701,315 firm-fixed-price, indefinite-delivery/indefinite-quantity modification for the exercise of Option Two for base operating support services at the Naval Air Facility El Centro, California. After award of this option, the total cumulative contract value will be $25,679,303. The work to be performed provides for labor, supervision, materials, equipment, tools, parts, supplies and transportation for various base operating support service functions including facility management, janitorial services, pest control services and grounds maintenance. Work will be performed in El Centro, California, and the option performance period is from April 2021 to March 2022. No funds will be obligated at time of award of the modification. Fiscal 2021 operation and maintenance (Navy) funds; fiscal 2021 Defense Health Program funds; fiscal 2021 Defense Commissary Agency account funds; fiscal 2021 family housing operation and management (Navy) funds; and fiscal 2021 non-appropriated funds in the amount of $5,701,315 for recurring work will be obligated on individual task orders issued during the option period. Naval Facilities Engineering Systems Command, Southwest, San Diego, California, is the contracting activity (N62473-18-D-5606).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6247318D5606"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8701315.0,
+        "cumulative_value_usd": 25679303.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award of the modification Fiscal 2021 operation and maintenance (Navy) funds; fiscal 2021 Defense Health Program funds; fiscal 2021 Defense Commissary Agency account funds; fiscal 2021 family housing operation and management (Navy) funds; and fiscal 2021 non-appropriated funds in the amount of $5,701,315 for recurring work will be obligated on individual task orders issued during the option period",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command, Southwest, San Diego, California",
+          "code": "N62473-18-D-5606"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "KJS Support Services JV LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N62473-18-D-5606",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of Option Two for base operating support services at Naval Air Facility El Centro, California",
+        "base_contract_number": "N62473-18-D-5606",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8701315,
+        "cumulative_value_usd": 25679303,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hornbeck Offshore Operators LLC, Covington, Louisiana, is awarded a $7,510,000 firm-fixed-price contract with reimbursable elements for long-term charter of one U.S. flagged offshore support ship, HOS Red Rock, which will provide support for Navy operations-at-sea. This contract includes a 12-month base period with three 12-month option periods, and one 11-month option period which, if exercised, would bring the cumulative value of this contract to $39,702,000. Work will be performed worldwide and is expected to be completed, if all options are exercised, by March 14, 2026. Operation and maintenance funds in the amount of $7,510,000 are obligated for fiscal 2021 and will expire at the end of the fiscal year. This contract was competitively procured with proposals solicited via the Federal Business Opportunities website and five offers were received. The Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-21-C-2296).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N3220521C2296"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7510000.0,
+        "cumulative_value_usd": 39702000.0,
+        "obligated_usd": 7510000.0,
+        "funding_text": "Operation and maintenance funds in the amount of $7,510,000 are obligated for fiscal 2021 and will expire at the end of the fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Military Sealift Command, Norfolk, Virginia",
+          "code": "N32205-21-C-2296"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Hornbeck Offshore Operators LLC",
+            "location": "Covington, Louisiana",
+            "contract_number": "N32205-21-C-2296",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with reimbursable elements (long-term charter)",
+        "description": "Long-term charter of offshore support ship HOS Red Rock for Navy operations-at-sea",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7510000,
+        "cumulative_value_usd": 39702000,
+        "obligated_usd": 7510000,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "CORRECTION: The $35,702,429 contract announced on March 16, 2021, to Coastal Marine Services Inc.,* San Diego, California (N55236-21-D-0025); and Thermcor Inc.,* Norfolk, Virginia (N55236-21-D-0026), for commercial industrial services and hullboard lagging services on Navy ships and other Navy vessels from Naval Base San Diego to Marine Corps Base Camp Pendleton, California, was actually awarded on March 15, 2021.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N5523621D0025",
+          "N5523621D0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35702429.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Coastal Marine Services Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N55236-21-D-0025",
+            "markers": "*"
+          },
+          {
+            "name": "Thermcor Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N55236-21-D-0026",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: $35,702,429 contract for commercial industrial services and hullboard lagging services on Navy ships, San Diego to Camp Pendleton; actually awarded March 15, 2021, not March 16, 2021",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35702429,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-03-15"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AB International Services, Vienna, Virginia, has been awarded a $177,655,292 firm-fixed-price contract for operation of the Air Force Primary Standards Laboratory. Work will be performed in Heath, Ohio, and is expected to be completed Oct. 31, 2031. This award is the result of a competitive acquisition and five offers were received. Fiscal 2021 operation and maintenance funds in the amount of $45,742 are being obligated at the time of award. Air Force Life Cycle Management Center, Heath, Ohio, is the contracting activity (FA2263-21-C-0003).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA226321C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 177655292.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45742.0,
+        "funding_text": "Fiscal 2021 operation and maintenance funds in the amount of $45,742 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Heath, Ohio",
+          "code": "FA2263-21-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "AB International Services",
+            "location": "Vienna, Virginia",
+            "contract_number": "FA2263-21-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Operation of the Air Force Primary Standards Laboratory, Heath, Ohio",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 177655292,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45742,
+        "fms_countries": [],
+        "competition": "competitive, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Textron Aviation Defense LLC, Wichita, Kansas, has been awarded a $12,548,081 firm-fixed-price modification (P00033) to contract FA8620-17-C-3011 for the Iraq Air Force Peace Dragon Program. This modification adds the six months to Option Year Three of the multi-year basic contract. Work will be performed in Wichita, Kansas, and is expected to be completed March 31, 2021. This modification involves Foreign Military Sales to Iraq. Total cumulative face value of the contract is $99,550,294. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity. (Awarded Jan. 8, 2021)",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA862017C3011"
+        ],
+        "modification_numbers": [
+          "P00033"
+        ],
+        "is_modification": true,
+        "value_usd": 12548081.0,
+        "cumulative_value_usd": 99550294.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Textron Aviation Defense LLC",
+            "location": "Wichita, Kansas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Iraq Air Force Peace Dragon Program; adds six months to Option Year Three",
+        "base_contract_number": "FA8620-17-C-3011",
+        "order_number": null,
+        "modification_number": "P00033",
+        "value_usd": 12548081,
+        "cumulative_value_usd": 99550294,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": null,
+        "award_date": "2021-01-08"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Hill Air Force Base, Utah, has been awarded an $11,387,608 firm-fixed-price modification (P00005) to contract FA8214-15-D-0001 for the exercise of Options Two, Three and Four of the Minuteman III Launch Control Center Block Upgrade production program. Work will be performed in Ogden, Utah, and is expected to be completed July 17, 2023. Fiscal 2021 missile procurement funds in the full amount are being obligated at the time of award. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA821415D0001"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 11387608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2021 missile procurement funds in the full amount are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Hill Air Force Base, Utah",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of Options Two, Three and Four of Minuteman III Launch Control Center Block Upgrade production program",
+        "base_contract_number": "FA8214-15-D-0001",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 11387608,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11387608,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-03-17.html"
+  "source": "file:2021-03-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:04:43Z"
+  }
 }

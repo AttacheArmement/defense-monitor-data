@@ -11,69 +11,591 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell Textron, Inc., Fort Worth, Texas, is awarded a $455,000,000 firm-fixed-price, undefinitized contract for the production and delivery of 12 AH-1Z helicopters for the government of Nigeria, as well as provides associated engineering, program management and logistics support, and non-recurring engineering for obsolescence. Work will be performed in Fort Worth, Texas (80%); and Amarillo, Texas (20%), and is expected to be completed in July 2028. Foreign Military Sales customer funds in the amount of $82,345,771 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 3204(a)(4). Naval Air Systems Command Patuxent River, Maryland, is the contracting activity (N0001924C0030).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001924C0030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 455000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 82345771.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $82,345,771 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-07",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command Patuxent River, Maryland",
+          "code": "N0001924C0030"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bell Textron, Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001924C0030",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, undefinitized contract",
+        "description": "Production and delivery of 12 AH-1Z helicopters for the government of Nigeria, with engineering, program management, logistics support and non-recurring engineering for obsolescence",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 455000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 82345771,
+        "fms_countries": [
+          "Nigeria"
+        ],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 3204(a)(4)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bahfed Corp.,* Portland, Oregon (N6893624D0007); Pacific IC Source,* Yucaipa, California (N6893624D0008); Laguna Components,* Laguna Beach, California (N6893624D0009); and Federal Merchants,* Indianapolis, Indiana (N6893624D0010) are each awarded a firm-fixed-price indefinite-delivery, indefinite-quantity contract. The estimated aggregate ceiling for all contracts is $45,000,000 with the companies having an opportunity to compete for individual orders. These contracts procure various types of instrumentation and electronic components in support of machine shop inventory for the Naval Air Warfare Center Weapons Division (NAWCWD) Applied Manufacturing Technology Division and NAWCWD Propulsion Laboratory. Work will be performed in Portland, Oregon; Yucaipa, California; Laguna Beach, California; and Indianapolis, Indiana (90%) (percentage of work performed at each location is not known until award of individual orders), and China Lake, California (10%), and is expected to be completed in March 2029. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. These contracts were competitively procured as a small business set-aside; five proposals were received. The Naval Air Warfare Center Weapons Division, China Lake, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6893624D0007",
+          "N6893624D0008",
+          "N6893624D0009",
+          "N6893624D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2029-03",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Weapons Division, China Lake, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Bahfed Corp.",
+            "location": "Portland, Oregon",
+            "contract_number": "N6893624D0007",
+            "markers": "*"
+          },
+          {
+            "name": "Pacific IC Source",
+            "location": "Yucaipa, California",
+            "contract_number": "N6893624D0008",
+            "markers": "*"
+          },
+          {
+            "name": "Laguna Components",
+            "location": "Laguna Beach, California",
+            "contract_number": "N6893624D0009",
+            "markers": "*"
+          },
+          {
+            "name": "Federal Merchants",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N6893624D0010",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price indefinite-delivery, indefinite-quantity",
+        "description": "Instrumentation and electronic components for machine shop inventory for NAWCWD Applied Manufacturing Technology Division and Propulsion Laboratory",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, small business set-aside; five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded a $19,227,992 modification (P00038) to a previously awarded cost-plus-fixed-fee contract (N0001921C0060). This modification provides logistics and test support for mission control and operator training systems as well as associated engineering and field service representative technical support to sustain MQ-4C Triton air vehicles, ensuring continued mission-capability for intelligence, surveillance and reconnaissance missions for the Navy and the government of Australia. Work will be performed in Patuxent River, Maryland (37.55%); San Diego, California (23.54%); Jacksonville, Florida (8.75%); Mayport, Florida (7.54%); Baltimore, Maryland (6.34%); Salt Lake City, Utah (1.94%); Sterling, Virginia (1.64%); and various locations outside of the continental U.S. (12.70%) and is expected to be completed in May 2024. Fiscal 2024 operations and maintenance (Navy) funds in the amount of $6,128,638; fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $1,100,000; and Royal Australian Air Force cooperative funds in the amount of $780,402 will be obligated at the time of award, $6,128,638 of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0060"
+        ],
+        "modification_numbers": [
+          "P00038"
+        ],
+        "is_modification": true,
+        "value_usd": 19227992.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8009040.0,
+        "funding_text": "Fiscal 2024 operations and maintenance (Navy) funds in the amount of $6,128,638; fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $1,100,000; and Royal Australian Air Force cooperative funds in the amount of $780,402 will be obligated at the time of award, $6,128,638 of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-05",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N0001921C0060",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Logistics and test support for mission control and operator training systems, and engineering and field service support to sustain MQ-4C Triton air vehicles",
+        "base_contract_number": "N0001921C0060",
+        "order_number": null,
+        "modification_number": "P00038",
+        "value_usd": 19227992,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6128638,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Conrad Shipyard LLC,* Morgan City, Louisiana, is awarded a $18,484,619 firm-fixed-price modification to a previously awarded contract (N00024-22-C-2253) for the detail design and construction of one additional Yard, Repair, Berthing, and Messing craft, with delivery to Norfolk, Virginia. This award also includes exercise of a design changes option. Work will be performed in Amelia, Louisiana, and is expected to be completed by June 2025. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $18,100,763 (98%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $383,856 (2%), will be obligated and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002422C2253"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 18484619.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18484619.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $18,100,763 (98%); and fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $383,856 (2%), will be obligated and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-06",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Conrad Shipyard LLC",
+            "location": "Morgan City, Louisiana",
+            "contract_number": "N00024-22-C-2253",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Detail design and construction of one additional Yard, Repair, Berthing, and Messing craft, including exercise of a design changes option",
+        "base_contract_number": "N00024-22-C-2253",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18484619,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18484619,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sealift Inc. of Delaware, Oyster Bay, New York, is awarded a $16,790,000 firm-fixed-price contract with pass-through elements (N3220524C4029) for a time charter of one U.S. Flag container vessel, Capt David I Lyon, to support the Air Force. This contract includes a 12-month base period with three 12-month option periods and one 11-month option, which, if exercised, would bring the cumulative value of this contract to $71,660,515. Work will be performed in the worldwide and is expected to be completed if all options are exercised, by August 2028. Fiscal 2024 working capital funds (Transportation) in the amount of $16,790,000 are obligated for and will expire at the end of the fiscal year. This contract was competitively procured with proposals solicited via the System Award Management website and one timely offer was received. The Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220524C4029).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220524C4029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16790000.0,
+        "cumulative_value_usd": 71660515.0,
+        "obligated_usd": 16790000.0,
+        "funding_text": "Fiscal 2024 working capital funds (Transportation) in the amount of $16,790,000 are obligated for and will expire at the end of the fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220524C4029"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sealift Inc. of Delaware",
+            "location": "Oyster Bay, New York",
+            "contract_number": "N3220524C4029",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with pass-through elements",
+        "description": "Time charter of one U.S. Flag container vessel, Capt David I Lyon, to support the Air Force",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16790000,
+        "cumulative_value_usd": 71660515,
+        "obligated_usd": 16790000,
+        "fms_countries": [],
+        "competition": "competitive, proposals solicited via SAM; one timely offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., York, Pennsylvania, was awarded a $317,998,029 cost-plus-fixed-fee contract for continuing system technical services for M109 Family of Vehicles. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of March 7, 2029. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-24-D-0020).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV24D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 317998029.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-03-07",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-24-D-0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W56HZV-24-D-0020",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Continuing system technical services for M109 Family of Vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 317998029,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet; one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "WULCO Inc., Cincinnati, Ohio, was awarded a $56,579,967 firm-fixed-price contract to procure armor kits for M109A7 Self-Propelled Howitzer and M992A3 Carrier, Ammunition, Tracked vehicles. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2029. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-24-D-0019).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV24D0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 56579967.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-24-D-0019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "WULCO Inc.",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "W56HZV-24-D-0019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Armor kits for M109A7 Self-Propelled Howitzer and M992A3 Carrier, Ammunition, Tracked vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 56579967,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet; four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a not-to-exceed $250,063,810, undefinitized contract action for Taiwan MQ-9B SkyGuardian procurement. This contract provides four MQ-9B unmanned air vehicles, two certifiable ground control stations, spares, and support equipment. The location of performance is Poway, California, and the work is expected to be complete by Aug. 11, 2027. This award is the result of a sole source acquisition and involves foreign military sales to Taiwan. Foreign military sales funds in the amount of $120,400,030 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA8689-23-C-2018 P00003). (Awarded March 11, 2024)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA868923C2018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 250063810.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 120400030.0,
+        "funding_text": "Foreign military sales funds in the amount of $120,400,030 are being obligated at the time of award",
+        "completion_date": "2027-08-11",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8689-23-C-2018 P00003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Four MQ-9B unmanned air vehicles, two certifiable ground control stations, spares and support equipment for Taiwan MQ-9B SkyGuardian procurement",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 250063810,
+        "cumulative_value_usd": null,
+        "obligated_usd": 120400030,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "sole source",
+        "award_date": "2024-03-11"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Call Henry Inc., Titusville, Florida, has been awarded a $12,069,893, predominantly fixed-price incentive modification (P00010) to previously awarded contract FA4610-23-D-0001, to exercise Option Year 1. This modification provides management and support, maintenance and repair, operations, other services and minor alteration related to launch operations support. This modification brings the total cumulative face value of the contract to $36,064,568. Work will be performed at Vandenberg Space Force Base, California, and is expected to be completed by Mar 31, 2025. Fiscal 2024 operations and maintenance funds in the amount of $12,000,000 will be obligated at the time of award. The 30th Contracting Squadron, Vandenberg SFB, California, is the contracting activity. (Awarded Feb. 17, 2024)",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA461023D0001"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 12069893.0,
+        "cumulative_value_usd": 36064568.0,
+        "obligated_usd": 12000000.0,
+        "funding_text": "Fiscal 2024 operations and maintenance funds in the amount of $12,000,000 will be obligated at the time of award",
+        "completion_date": "2025-03-31",
+        "contracting_activity": {
+          "name": "The 30th Contracting Squadron, Vandenberg SFB, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Call Henry Inc.",
+            "location": "Titusville, Florida",
+            "contract_number": "FA4610-23-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "predominantly fixed-price incentive modification",
+        "description": "Option Year 1 exercise for management, support, maintenance and repair, operations and minor alteration for launch operations support at Vandenberg SFB",
+        "base_contract_number": "FA4610-23-D-0001",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 12069893,
+        "cumulative_value_usd": 36064568,
+        "obligated_usd": 12000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-02-17"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC,* Lajas, Puerto Rico, has been awarded a maximum $8,446,500 modification (P00011) exercising the second one‐year option period of a one‐year base contract (SPE1C1‐22‐D‐1519) with three one‐year option periods for trousers. This is a firm‐fixed‐price, indefinite‐delivery/indefinite‐quantity contract. The ordering period end date is March 11, 2025. Using military services are Army and Air Force. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 8446500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-22-D-1519",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Second one-year option period exercise for trousers",
+        "base_contract_number": "SPE1C1-22-D-1519",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 8446500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bethel Industries Inc.,* Jersey City, New Jersey, has been awarded a maximum $8,040,600 modification (P00010) exercising the second one-year option period of a one-year base contract (SPE1C1-22-D-1559) with three one-year option periods for trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Locations of performance are Kentucky and Mississippi, with a March 11, 2025, ordering period end date. Using military services are Army and Air Force. Type of appropriation is fiscal 2024 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1559"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 8040600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Bethel Industries Inc.",
+            "location": "Jersey City, New Jersey",
+            "contract_number": "SPE1C1-22-D-1559",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Second one-year option period exercise for trousers",
+        "base_contract_number": "SPE1C1-22-D-1559",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 8040600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2024-03-12.html"
+  "source": "file:2024-03-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:57:07Z"
+  }
 }

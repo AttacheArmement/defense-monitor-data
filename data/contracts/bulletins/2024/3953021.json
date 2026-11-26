@@ -11,75 +11,630 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, was awarded an $86,700,000 modification (P00011) to contract W909MY-23-C-0004 for low-rate initial production of Third Generation Forward Looking Infrared B-Kits. Work will be performed in McKinney, Texas, with an estimated completion date of June 30, 2029. Fiscal 2024 other procurement, Army funds were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W909MY23C0004"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 86700000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2024 other procurement, Army funds were obligated at the time of the award",
+        "completion_date": "2029-06-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "W909MY-23-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Low-rate initial production of Third Generation Forward Looking Infrared B-Kits",
+        "base_contract_number": "W909MY-23-C-0004",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 86700000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "UDC USA Inc.,* Tampa, Florida, was awarded a $49,848,683 firm-fixed-price contract for Battlefield Effect Simulators. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 30, 2029. Army Contracting Command, Newark, New Jersey, is the contracting activity (W15QKN-25-D-0005).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN25D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49848683.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-10-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Newark, New Jersey",
+          "code": "W15QKN-25-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "UDC USA Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "W15QKN-25-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Battlefield Effect Simulators",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49848683,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Philadelphia, Pennsylvania, was awarded a $44,305,708 modification (P00001) to contract W58RGZ-23-F-0006 in support of the CH-47F program. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 10, 2025. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity. (Awarded Oct. 24, 2024)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ23F0006"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 44305708.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-11-10",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Philadelphia, Pennsylvania",
+            "contract_number": "W58RGZ-23-F-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "CH-47F program support",
+        "base_contract_number": "W58RGZ-23-F-0006",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 44305708,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-24"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $27,915,370 contract (W911KB-24-C-0023) announced on Sept. 26, 2024, for ARSC Builders LLC,* Anchorage, Alaska, to replace a plumbing system was in fact awarded on Oct. 30, 2024, in the amount of $27,385,160.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911KB24C0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27915370.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "ARSC Builders LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-24-C-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: contract to replace a plumbing system; announced Sept. 26, 2024 as $27,915,370, actually awarded Oct. 30, 2024 at $27,385,160",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27385160,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-30"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $11,895,180 contract (W911KB-24-C-0021) announced on Sept. 26, 2024, for ARSC Builders LLC,* Anchorage, Alaska, to provide electrical power redundancy was in fact awarded on Oct. 30, 2024, in the amount of $12,164,127.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W911KB24C0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11895180.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "ARSC Builders LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-24-C-0021",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: contract to provide electrical power redundancy; announced Sept. 26, 2024 as $11,895,180, actually awarded Oct. 30, 2024 at $12,164,127",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12164127,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-30"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Burlington Apparel Fabrics, Charlotte, North Carolina (SPE1C1-25-D-0017, $74,760,000); and American Woolen Co.,* Stafford Springs, Connecticut (SPE1C1-25-D-0016, $20,565,000), have each been awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE1C1-23-R-0087 for heritage taupe gaberdine cloth. This was a competitive acquisition with two responses received. These are five-year contracts with no option periods. The ordering period end date is Oct. 30, 2029. Using military service is Army. Type of appropriation is fiscal 2025 through 2030 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0017",
+          "SPE1C125D0016",
+          "SPE1C123R0087"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 74760000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Burlington Apparel Fabrics",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "SPE1C1-25-D-0017",
+            "markers": null
+          },
+          {
+            "name": "American Woolen Co.",
+            "location": "Stafford Springs, Connecticut",
+            "contract_number": "SPE1C1-25-D-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Heritage taupe gaberdine cloth",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95325000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, solicitation SPE1C1-23-R-0087, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sawasawa LLC,* Los Angeles, California, has been awarded a maximum $18,822,937 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for physical training uniform trunks. This was a competitive acquisition with 16 responses received. This is a three-year contract with no option periods. The ordering period end date is Oct. 30, 2027. Using military service is Army. Type of appropriation is fiscal 2025 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-0010).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18822937.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-25-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Sawasawa LLC",
+            "location": "Los Angeles, California",
+            "contract_number": "SPE1C1-25-D-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Physical training uniform trunks",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18822937,
+        "cumulative_value_usd": 18822937,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, 16 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Graham Dyeing & Finishing Inc.,* Burlington, North Carolina, has been awarded a maximum $14,737,687 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for cold weather sock system. This was a competitive acquisition with two responses received. This is a three-year contract with no option periods. The ordering period end date is Oct. 30, 2027. Using military services are Army and Air Force. Type of appropriation is fiscal 2025 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-0008).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14737687.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-25-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Graham Dyeing & Finishing Inc.",
+            "location": "Burlington, North Carolina",
+            "contract_number": "SPE1C1-25-D-0008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Cold weather sock system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14737687,
+        "cumulative_value_usd": 14737687,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Apparel Inc.,* Selma, Alabama, has been awarded a maximum $11,115,825 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for tropical combat uniform blouses and trousers. This was a competitive acquisition with four responses received. This is a five-year contract with no option periods. The ordering period end date is Oct. 28, 2029. Using military service is Marine Corps. Type of appropriation is fiscal 2025 through 2030 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-0006).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11115825.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-25-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "American Apparel Inc.",
+            "location": "Selma, Alabama",
+            "contract_number": "SPE1C1-25-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Tropical combat uniform blouses and trousers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11115825,
+        "cumulative_value_usd": 11115825,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is awarded a $58,941,481 cost-plus-fixed-fee modification to previously awarded contract N00024-21-C-2103 to exercise options for engineering and technical design to support research and development concept formulation for current and future submarine platforms. Work will be performed in Groton, Connecticut (95%); Bremerton, Washington (2%); Kings Bay, Georgia (2%); and Newport, Rhode Island (1%), and is expected to be completed by September 2025. Fiscal 2025 research, development, test and evaluation (Navy) funding in the amount of $9,814,000 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Oct. 30, 2024)",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C2103"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 58941481.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9814000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation (Navy) funding in the amount of $9,814,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-21-C-2103",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Exercise options for engineering and technical design supporting R&D concept formulation for current and future submarine platforms",
+        "base_contract_number": "N00024-21-C-2103",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 58941481,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9814000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-30"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is awarded a $55,521,811 cost-plus-fixed-fee modification to previously awarded contract N00024-21-C-2104 to exercise an option to support research and development of advanced submarine technologies for current and future submarine platforms. Work will be performed in Newport News, Virginia, and is expected to be completed by September 2025. Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $15,389,000 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Oct. 30, 2024)",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0002421C2104"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 55521811.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15389000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $15,389,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-21-C-2104",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Exercise option to support R&D of advanced submarine technologies for current and future submarine platforms",
+        "base_contract_number": "N00024-21-C-2104",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 55521811,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15389000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-10-30"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Proferre Inc.,* Tumon, Guam, is awarded a $9,599,264 firm-fixed price, indefinite-delivery/ indefinite-quantity contract for grounds maintenance and tree trimming services at Naval Base (NB) Guam and Andersen Air Force Base (AAFB). The work to be performed provides for all labor, supervision, management, tools, material, equipment, facilities, transportation and incidental engineering, and other items necessary to perform grounds maintenance and tree trimming services on NB Guam and AAFB. The maximum dollar value including the base period, four option years, and a six-month extension period, is $54,552,080. Work will be performed within the Naval Facilities Engineering Systems Command (NAVFAC) Marianas area of operations including, but not limited to Guam, and is expected to be completed by November 2029. No funds will be obligated at time of award. This contract was competitively procured via www.sam.gov, with four offers received. NAVFAC Marianas, Marianas, Guam, is the contracting activity (N40192-25-D-9000). (Awarded Oct. 30, 2024)",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N4019225D9000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9599264.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award",
+        "completion_date": "2029-11",
+        "contracting_activity": {
+          "name": "NAVFAC Marianas, Marianas, Guam",
+          "code": "N40192-25-D-9000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Proferre Inc.",
+            "location": "Tumon, Guam",
+            "contract_number": "N40192-25-D-9000",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Grounds maintenance and tree trimming services at NB Guam and AAFB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9599264,
+        "cumulative_value_usd": 54552080,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive via SAM.gov, four offers received",
+        "award_date": "2024-10-30"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-10-31.html"
+  "source": "file:2024-10-31.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:25:09Z"
+  }
 }

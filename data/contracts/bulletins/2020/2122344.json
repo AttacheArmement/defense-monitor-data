@@ -11,81 +11,658 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Southwest Valley Constructors, Albuquerque, New Mexico, was awarded a $524,000,000 modification (P00011) to contract W912PL-19-C-0015 for design build of the Tucson sector barrier wall replacement project. Work will be performed in Tucson, Arizona, with an estimated completion date of Sept. 7, 2021. Fiscal 2020 operations and maintenance, Army funds in the amount of $524,000,000 were obligated at the time of the award. The U.S. Army Corps of Engineers, Phoenix, Arizona, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912PL19C0015"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 524000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 524000000.0,
+        "funding_text": "Fiscal 2020 operations and maintenance, Army funds in the amount of $524,000,000 were obligated at the time of the award",
+        "completion_date": "2021-09-07",
+        "contracting_activity": {
+          "name": "The U.S. Army Corps of Engineers, Phoenix, Arizona",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Southwest Valley Constructors",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "W912PL-19-C-0015",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Design build of the Tucson sector barrier wall replacement project, Tucson, Arizona",
+        "base_contract_number": "W912PL-19-C-0015",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 524000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 524000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., York, Pennsylvania, was awarded a $339,131,639 modification (P00050) to contract W56HZV-17-C-0001 for 48 vehicle sets of self-propelled howitzer and carrier, ammunition, tracked vehicles and associated support. Work will be performed in York, Pennsylvania, with an estimated completion date of Jan. 31, 2023. Fiscal 2018, 2019 and 2020 other procurement, Army funds in the amount of $339,131,639 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV17C0001"
+        ],
+        "modification_numbers": [
+          "P00050"
+        ],
+        "is_modification": true,
+        "value_usd": 339131639.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 339131639.0,
+        "funding_text": "Fiscal 2018, 2019 and 2020 other procurement, Army funds in the amount of $339,131,639 were obligated at the time of the award",
+        "completion_date": "2023-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W56HZV-17-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "48 vehicle sets of self-propelled howitzer and carrier, ammunition, tracked vehicles and associated support",
+        "base_contract_number": "W56HZV-17-C-0001",
+        "order_number": null,
+        "modification_number": "P00050",
+        "value_usd": 339131639,
+        "cumulative_value_usd": null,
+        "obligated_usd": 339131639,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SGS LLC,* Yukon, Oklahoma, was awarded a $19,940,157 firm-fixed-price contract for design-build construction of a fire rescue center. Bids were solicited via the internet with nine received. Work will be performed in Altus, Oklahoma, with an estimated completion date of April 21, 2022. Fiscal 2020 military construction, Army funds in the amount of $19,940,157 were obligated at the time of the award. U.S. Army Corps of Engineers, Tulsa, Oklahoma, is the contracting activity (W912BV-20-C-0005).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912BV20C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19940157.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19940157.0,
+        "funding_text": "Fiscal 2020 military construction, Army funds in the amount of $19,940,157 were obligated at the time of the award",
+        "completion_date": "2022-04-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa, Oklahoma",
+          "code": "W912BV-20-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SGS LLC",
+            "location": "Yukon, Oklahoma",
+            "contract_number": "W912BV-20-C-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build construction of a fire rescue center, Altus, Oklahoma",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19940157,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19940157,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "PD Systems Inc.,* Springfield, Virginia, was awarded a $14,829,404 firm-fixed-price contract to maintain and sustain equipment assigned to the 63rd Army Reserve Readiness Division. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of March 29, 2025. The 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-20-D-3000).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911SA20D3000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14829404.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-03-29",
+        "contracting_activity": {
+          "name": "The 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-20-D-3000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "PD Systems Inc.",
+            "location": "Springfield, Virginia",
+            "contract_number": "W911SA-20-D-3000",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintain and sustain equipment assigned to the 63rd Army Reserve Readiness Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14829404,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SAWTST LLC,* Newnan, Georgia, was awarded a $10,842,921 firm-fixed-price contract to maintain and sustain equipment assigned to the 63rd Army Reserve Readiness Division. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of March 29, 2025. The 419th Contracting Support Brigade, Fort McCoy, Wisconsin, is the contracting activity (W911SA-20-D-3001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W911SA20D3001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10842921.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-03-29",
+        "contracting_activity": {
+          "name": "The 419th Contracting Support Brigade, Fort McCoy, Wisconsin",
+          "code": "W911SA-20-D-3001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "SAWTST LLC",
+            "location": "Newnan, Georgia",
+            "contract_number": "W911SA-20-D-3001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintain and sustain equipment assigned to the 63rd Army Reserve Readiness Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10842921,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $14,143,940 firm-fixed-price contract announced on March 20, 2020, to Stantec Consulting Services Inc., New Orleans, Louisiana (W912P8-20-D-00004), for the design of pump stations and drainage structures was actually awarded today, March 23, 2020.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912P820D00004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14143940.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Stantec Consulting Services Inc.",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "W912P8-20-D-00004",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "firm-fixed-price",
+        "description": "Correction: design of pump stations and drainage structures; announced March 20, 2020, now awarded March 23, 2020",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14143940,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2020-03-23"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Pratt and Whitney, a United Technologies Corp. company, Hartford, Connecticut, is awarded a $193,780,323 cost-plus-incentive-fee, fixed-price-incentive-firm contract for the procurement of long lead materials for the production of low rate initial production of propulsion systems (Lot 15 F135) for the Air Force, Navy, Marine Corps, non-Department of Defense (DoD) participants and Foreign Military Sales (FMS) customers. Work will be performed in East Hartford, Connecticut (56%); North Berwick, Maine (13%); Indianapolis, Indiana (10%); Jupiter, Florida (7%); Windsor Locks, Connecticut (5%); Bristol, United Kingdom (4%); Rockford, Illinois (2%); Santa Isabel, Puerto Rico (2%); and Phoenix, Arizona (1%), and is expected to be complete by December 2023. Fiscal 2020 aircraft procurement (Air Force) funds in the amount of $66,446,810; fiscal 2020 aircraft procurement (Navy) funds in the amount of $61,396,328; non-DoD participants funds in the amount of $52,153,031; and FMS funds in the amount of $13,784,154 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract combines purchases for the Air Force ($66,446,810; 34.3%); Navy ($30,788,105; 15.9%); Marine Corps ($30,608,223; 15.8%); non-DoD participants ($52,153,031; 26.9%); and FMS customers ($13,784,154; 7.1%). This contract was not competitively procured pursuant to U.S. Code 2304(c)(1). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-20-C-0011).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001920C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 193780323.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 193780323.0,
+        "funding_text": "Fiscal 2020 aircraft procurement (Air Force) funds in the amount of $66,446,810; fiscal 2020 aircraft procurement (Navy) funds in the amount of $61,396,328; non-DoD participants funds in the amount of $52,153,031; and FMS funds in the amount of $13,784,154 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-20-C-0011"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Pratt and Whitney, a United Technologies Corp. company",
+            "location": "Hartford, Connecticut",
+            "contract_number": "N00019-20-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-incentive-fee, fixed-price-incentive-firm",
+        "description": "Procurement of long lead materials for low rate initial production of propulsion systems (Lot 15 F135) for Air Force, Navy, Marine Corps, non-DoD participants and FMS customers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 193780323,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169780323,
+        "fms_countries": [
+          "Foreign Military Sales customers (unnamed)"
+        ],
+        "competition": "not competitively procured pursuant to U.S. Code 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sabre Systems Inc., Warrington, Pennsylvania, is awarded $77,733,927 for a cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. Work will be performed in Patuxent River, Maryland, and is expected to be complete by May 2025. This contract provides digital transformation planning and execution; enterprise alignment; technology exploration; acceleration and integration; digital/information technology (IT) consultation business intelligence; application portfolio management; system integration; enterprise architecture; design and management; web management; Navy Marine Corps Intranet/Next Generation Enterprise Network program management; IT operations; cybersecurity; information assurance; cloud services; maintenance functions; network security; automated data processing support services; digital modeling and virtual environment support; talent change management; data analytics and integration; and business process management and improvement in support for the Naval Air Systems Command Digital Group. No funds will be obligated at the time of award. Funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; three offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-20-D-0072).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0042120D0072"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 77733927.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated on individual orders as they are issued",
+        "completion_date": "2025-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00421-20-D-0072"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Sabre Systems Inc.",
+            "location": "Warrington, Pennsylvania",
+            "contract_number": "N00421-20-D-0072",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "Digital transformation planning, execution and IT support for Naval Air Systems Command Digital Group",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 77733927,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $29,647,813 cost-plus-incentive-fee and cost-only modification to a previously-awarded contract (N00024-18-C-5218) for program management office and engineering services in support of the Surface Ship Undersea Warfare System model AN/SQQ-89(V). Work will be performed in Manassas, Virginia (78%); Syracuse, New York (12%); Lemont Furnace, Pennsylvania (6%); and Liverpool, New York (4%), and is expected to be complete by March 2021. This contract combines purchases for the Navy (90%); and the government of Australia (10%) under the Foreign Military Sales (FMS) program. Fiscal 2016 - 2020 shipbuilding and conversion (Navy); 2018 – 2019 other procurement (Navy); 2020 research, development, test and evaluation (Navy); and FMS Commonwealth of Australia funding in the amount $23,075,308 will be obligated at the time of award. Funds in the amount of $14,387 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C5218"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 29647813.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23075308.0,
+        "funding_text": "Fiscal 2016 - 2020 shipbuilding and conversion (Navy); 2018 – 2019 other procurement (Navy); 2020 research, development, test and evaluation (Navy); and FMS Commonwealth of Australia funding in the amount $23,075,308 will be obligated at the time of award",
+        "completion_date": "2021-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-18-C-5218",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee and cost-only",
+        "description": "Program management office and engineering services for Surface Ship Undersea Warfare System model AN/SQQ-89(V)",
+        "base_contract_number": "N00024-18-C-5218",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29647813,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23075308,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Pave-Tech Inc., Vista, California, is awarded $15,189,633 for a firm-fixed-price task order (N62473-20-F-4372) under a multiple award construction contract for repairs to Taxiway Bravo and Taxiway Golf at Naval Air Station, Fallon, Nevada. Work will be performed in Fallon, Nevada, and is expected to be complete by January 2022. The work will provide for the repair and replacement of deteriorated taxiway conditions, shoulders and associated surfaces. This project will also repair damaged 5kV airfield wire, lighting and ancillary parts and devices associated with Taxiways Bravo and Golf. All airfield lighting and electrical infrastructures shall be repaired to a state that complies with current Naval Air Systems Command, Unified Facilities Criteria and Federal Aviation Administration Airfield Regulations. Fiscal 2020 operations and maintenance (Navy) contract funds in the amount of $15,189,633 are obligated on this award and will not expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command Southwest, San Diego, California, is the contracting activity (N62473-19-D-2440).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6247320F4372",
+          "N6247319D2440"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15189633.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15189633.0,
+        "funding_text": "Fiscal 2020 operations and maintenance (Navy) contract funds in the amount of $15,189,633 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-01",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command Southwest, San Diego, California",
+          "code": "N62473-19-D-2440"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Pave-Tech Inc.",
+            "location": "Vista, California",
+            "contract_number": "N62473-20-F-4372",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Repairs to Taxiway Bravo and Taxiway Golf at Naval Air Station Fallon, Nevada",
+        "base_contract_number": "N62473-19-D-2440",
+        "order_number": "N62473-20-F-4372",
+        "modification_number": null,
+        "value_usd": 15189633,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15189633,
+        "fms_countries": [],
+        "competition": "Three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Rotary and Mission Systems, Liverpool, New York, is awarded a $8,800,000 firm-fixed-price modification to a previously-awarded contract (N00024-20-C-5503) to increase quantities for the full-rate production of the Surface Electronic Warfare Improvement Program and the AN/SLQ-32(V)6, a combat system that provides a full range of undersea warfare functions. Work will be performed in Liverpool, New York (78%); and Lansdale, Pennsylvania (22%), and is expected to be complete by April 2022. Fiscal 2019 shipbuilding and conversion (Navy) funding in the amount of $8,800,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity. (Awarded March 20, 2020)",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C5503"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8800000.0,
+        "funding_text": "Fiscal 2019 shipbuilding and conversion (Navy) funding in the amount of $8,800,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Rotary and Mission Systems",
+            "location": "Liverpool, New York",
+            "contract_number": "N00024-20-C-5503",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Increase quantities for full-rate production of Surface Electronic Warfare Improvement Program and AN/SLQ-32(V)6",
+        "base_contract_number": "N00024-20-C-5503",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8800000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2020-03-20"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KJS Support Services JV LLC,* Fort Worth, Texas, is awarded an $8,594,573 firm-fixed-price, indefinite-delivery/indefinite-quantity modification for the exercise of the first option under the contract for base operating support services at the Naval Air Facility El Centro, California. Work will be performed in El Centro, California, and the option performance period is from April 1, 2020, to March 31, 2021. The work provides for labor, supervision, materials, equipment, tools, parts, supplies and transportation to be used for various base operating support service functions as follows: grounds electronics; airfield facilities; passenger terminal and cargo holding; supply; morale, welfare, and recreation; facility management and investment; janitorial services; pest control services; swimming pools operation and maintenance; grounds maintenance; street sweeping; electrical; gas; wastewater; water; base support vehicles and equipment; and environmental response. After the award of this option, the maximum dollar value including the base period, seven option years and one six-month option will be $74,821,438. No funds will be obligated at time of award of the modification. Fiscal 2020 operations and maintenance (O&M) (Navy); fiscal 2020 Defense Health Program; fiscal 2020 Defense Commissary Agency account; fiscal 2020 family housing (O&M) (Navy); and fiscal 2020 non-appropriated funds in the amount of $5,594,573 for recurring work will be obligated on individual task orders issued during the option period. Naval Facilities Engineering Command Southwest, San Diego, California, is the contracting activity (N62473-18-D-5606).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6247318D5606"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8594573.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award of the modification Fiscal 2020 operations and maintenance (O&M) (Navy); fiscal 2020 Defense Health Program; fiscal 2020 Defense Commissary Agency account; fiscal 2020 family housing (O&M) (Navy); and fiscal 2020 non-appropriated funds in the amount of $5,594,573 for recurring work will be obligated on individual task orders issued during the option period",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Command Southwest, San Diego, California",
+          "code": "N62473-18-D-5606"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "KJS Support Services JV LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N62473-18-D-5606",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of first option for base operating support services at Naval Air Facility El Centro, California",
+        "base_contract_number": "N62473-18-D-5606",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8594573,
+        "cumulative_value_usd": 74821438,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The FlightSafety Services Corp., Centennial, Colorado, has been awarded a not-to-exceed $25,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity, single-award contract for a multi-country KC-46 aircrew and maintenance simulator training. The contractor will provide KC-46 aircrew and maintenance training to support the U.S. government and Air Force Security Assistance Training international partners' mission objectives. Work will be performed at Altus Air Force Base, Oklahoma, and is expected to be completed September 2026. This is a sole-source requirement as the FlightSafety Corp., in accordance with 10 U.S. Code 2304 (c)(1), as implemented by Federal Acquisition Regulation 6.302-1, only one responsible source and no other supplies or services will satisfy agency requirements. Security and Cooperation funds in the amount of $2,500 are being obligated at the time of award. The Air Force Installation Contracting Agency, 338th Specialized Contracting Squadron, Joint Base San Antonio-Randolph, Texas, is the contracting activity (FA3002-20-D-0005). (Awarded March 19, 2020)",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA300220D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Security and Cooperation funds in the amount of $2,500 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Installation Contracting Agency, 338th Specialized Contracting Squadron, Joint Base San Antonio-Randolph, Texas",
+          "code": "FA3002-20-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "The FlightSafety Services Corp.",
+            "location": "Centennial, Colorado",
+            "contract_number": "FA3002-20-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity, single-award",
+        "description": "Multi-country KC-46 aircrew and maintenance simulator training at Altus Air Force Base, Oklahoma",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2020-03-19"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:42Z",
-  "source": "file:2020-03-23.html"
+  "source": "file:2020-03-23.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:52:40Z"
+  }
 }

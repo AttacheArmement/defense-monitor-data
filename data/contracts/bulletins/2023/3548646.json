@@ -11,39 +11,323 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Rocket Center, West Virginia, was awarded a $178,000,000 firm-fixed-price undefinitized contract action for immediate expansion of the Naval Industrial Reserve Ordnance Plant, Allegany Ballistic Laboratory. Work will be performed in Rocket Center, West Virginia, and is expected to be completed by September 2026. Fiscal 2023 weapon procurement (Navy) funds in the amount of $65,276,000 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(7) (public interest). Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Sept. 30, 2023)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 178000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65276000.0,
+        "funding_text": "Fiscal 2023 weapon procurement (Navy) funds in the amount of $65,276,000 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2026-09",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Rocket Center, West Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price undefinitized contract action",
+        "description": "Immediate expansion of the Naval Industrial Reserve Ordnance Plant, Allegany Ballistic Laboratory",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 178000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 65276000,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S. Code 3204(a)(7) (public interest)",
+        "award_date": "2023-09-30"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "EA Engineering, Science, and Technology Inc.,* Hunt Valley, Maryland (N40085-23-D-0105); ITMS-GES JV LLC,* Virginia Beach, Virginia (N40085-23-D-0106); KOMAN Government Solutions LLC,* Marlborough, Massachusetts (N40085-23-D-0107); Meadows CMPG Inc.,* Norfolk, Virginia (N40085-23-D-0108); RHEA Engineers and Consultants Inc.,* Wilmington, North Carolina (N40085-23-D-0109); and TWSC JV,* Elkridge, Maryland (N40085- 23-D-0110), were awarded a combined $30,000,000 indefinite-delivery/indefinite-quantity, multiple award contract for remedial action operations predominately located within the Hampton Roads, Virginia, area. RHEA Engineers and Consultants were awarded the initial seed project task order in the amount of $14,807 for Site 1 monitoring, well rehab, and resurvey at Naval Station Norfolk. Work for this task order is expected to be completed by September 2024. Five awardees were awarded $5,000 each (the minimum contract guarantee per awardee) at contract award. The maximum dollar value, including the base period and four option years for all six contracts combined, is $30,000,000. Work will be performed in Virginia (50%); and North Carolina (50%). Fiscal 2023 operation and maintenance, Navy contract funds in the amount of $39,807 were obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operation and maintenance, Navy contract funds. The term of the contract is not to exceed 60 months, with an expected completion of September 2028. This contract was competitively procured via the www.sam.gov website with 12 proposals received. These six contractors may compete for task orders under the terms and conditions of the awarded contract. Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity. (Awarded Sept. 29, 2023)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N4008523D0105",
+          "N4008523D0106",
+          "N4008523D0107",
+          "N4008523D0108",
+          "N4008523D0109"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39807.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Navy contract funds in the amount of $39,807 were obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "EA Engineering, Science, and Technology Inc.",
+            "location": "Hunt Valley, Maryland",
+            "contract_number": "N40085-23-D-0105",
+            "markers": "*"
+          },
+          {
+            "name": "ITMS-GES JV LLC",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N40085-23-D-0106",
+            "markers": "*"
+          },
+          {
+            "name": "KOMAN Government Solutions LLC",
+            "location": "Marlborough, Massachusetts",
+            "contract_number": "N40085-23-D-0107",
+            "markers": "*"
+          },
+          {
+            "name": "Meadows CMPG Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N40085-23-D-0108",
+            "markers": "*"
+          },
+          {
+            "name": "RHEA Engineers and Consultants Inc.",
+            "location": "Wilmington, North Carolina",
+            "contract_number": "N40085-23-D-0109",
+            "markers": "*"
+          },
+          {
+            "name": "TWSC JV",
+            "location": "Elkridge, Maryland",
+            "contract_number": "N40085-23-D-0110",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, multiple award contract",
+        "description": "Remedial action operations predominately in the Hampton Roads, Virginia, area; RHEA awarded seed task order for Site 1 monitoring, well rehab, and resurvey at Naval Station Norfolk",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": 30000000,
+        "obligated_usd": 39807,
+        "fms_countries": [],
+        "competition": "competitive, sam.gov, 12 proposals received",
+        "award_date": "2023-09-29"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is awarded a $10,682,315 cost-plus-fixed-fee modification to a previously awarded contract (N00024-20-C-2120) to support the detailed design, prototyping, and qualification of Virginia Class submarine capabilities. Work will be performed in Groton, Connecticut, and is expected to be completed by Nov. 30, 2025. Fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $5,341,158 (100%) will be obligated at the time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C2120"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10682315.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5341158.0,
+        "funding_text": "Fiscal 2021 shipbuilding and conversion, Navy funds in the amount of $5,341,158 (100%) will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-11-30",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-20-C-2120",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Detailed design, prototyping, and qualification of Virginia Class submarine capabilities",
+        "base_contract_number": "N00024-20-C-2120",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10682315,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5341158,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Co., El Segundo, California, was awarded a firm-fixed-price, five-year, indefinite-delivery/indefinite-quantity contract at a maximum dollar value of $60,427,336 for the procurement of space communication security flight products. This contract provides for the procurement and delivery of an Advanced Encryption Standard (AES-256) Crypographic Engine and ancillary items. Work will be performed at El Segundo, California, and is expected to be completed by Dec. 31, 2027. This contract was a sole source acquisition. Fiscal 2023 Space Force procurement funds in the amount of $2,465,784 are being obligated at time of award. The Air Force Life Cycle Management Center, Lackland Air Force Base, Texas, is the contracting activity (FA8307-23-D-B006). (Awarded Sept. 28, 2023)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA830723DB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60427336.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2465784.0,
+        "funding_text": "Fiscal 2023 Space Force procurement funds in the amount of $2,465,784 are being obligated at time of award",
+        "completion_date": "2027-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Lackland Air Force Base, Texas",
+          "code": "FA8307-23-D-B006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "El Segundo, California",
+            "contract_number": "FA8307-23-D-B006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, five-year, indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of AES-256 Cryptographic Engine and ancillary items for space communication security flight products",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 60427336,
+        "obligated_usd": 2465784,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2023-09-28"
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Space, Huntsville, Alabama, is being awarded a $10,883,962 modification (P00057) to previously awarded contract HQ0147-18-C-0007. The value of this contract is increased from $153,746,151 to $164,630,113. Under this modification, the contractor will continue performing unanticipated engineering services for the remaining target development. The work will be performed in Huntsville, Alabama. The performance period is from January",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "HQ014718C0007"
+        ],
+        "modification_numbers": [
+          "P00057"
+        ],
+        "is_modification": true,
+        "value_usd": 10883962.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Space",
+            "location": "Huntsville, Alabama",
+            "contract_number": "HQ0147-18-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Unanticipated engineering services for the remaining target development",
+        "base_contract_number": "HQ0147-18-C-0007",
+        "order_number": null,
+        "modification_number": "P00057",
+        "value_usd": 10883962,
+        "cumulative_value_usd": 164630113,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "2024 through January 2027. No funding is being added at this time. Fiscal 2024 research, development, test and evaluation funding has been authorized and will be available for use. The Missile Defense Agency, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Continuation of seq 5 announcement (Lockheed Martin Space, HQ0147-18-C-0007 P00057): performance period January 2024 through January 2027; no funding added; Fiscal 2024 RDT&E funding authorized",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-10-04.html"
+  "source": "file:2023-10-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:11:05Z"
+  }
 }

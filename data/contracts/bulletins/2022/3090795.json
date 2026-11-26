@@ -11,57 +11,462 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Vectrus Mission Solutions Corp., Alexandria, Virginia, was awarded a $264,931,907 modification (P00010) to contract W52P1J-21-F-0035 for the Fort Benning Enhanced Army Global Logistic Enterprise. Work will be performed at Fort Benning, Georgia, with an estimated completion date of Dec. 10, 2022. Fiscal 2022 operation and maintenance, Army funds in the amount of $13,048,380 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J21F0035"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 264931907.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13048380.0,
+        "funding_text": "Fiscal 2022 operation and maintenance, Army funds in the amount of $13,048,380 were obligated at the time of the award",
+        "completion_date": "2022-12-10",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Vectrus Mission Solutions Corp.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W52P1J-21-F-0035",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Fort Benning Enhanced Army Global Logistic Enterprise work at Fort Benning, Georgia",
+        "base_contract_number": "W52P1J-21-F-0035",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 264931907,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13048380,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "B.L. Harbert International LLC, Birmingham, Alabama, was awarded a $189,075,790 firm-fixed-price contract for the design and construction of the 53rd Weapons Evaluation Group headquarters and maintenance hangar, as well as apron facilities. Bids were solicited via the internet with three received. Work will be performed at Tyndall Air Force Base, Florida, with an estimated completion date of Nov. 18, 2024. Fiscal 2020 military construction, Air Force funds in the amount of $189,075,790 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-22-C-0012).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127822C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 189075790.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 189075790.0,
+        "funding_text": "Fiscal 2020 military construction, Air Force funds in the amount of $189,075,790 were obligated at the time of the award",
+        "completion_date": "2024-11-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-22-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "B.L. Harbert International LLC",
+            "location": "Birmingham, Alabama",
+            "contract_number": "W91278-22-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design and construction of 53rd Weapons Evaluation Group headquarters and maintenance hangar, and apron facilities at Tyndall Air Force Base, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 189075790,
+        "cumulative_value_usd": null,
+        "obligated_usd": 189075790,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., York, Pennsylvania, was awarded a $40,573,195 firm-fixed-price contract for M88 recovery vehicles. Bids were solicited via the internet with one received. Work will be performed in York, Pennsylvania, with an estimated completion date of April 30, 2024. Fiscal 2020 Foreign Military Sales (Taiwan) funds in the amount of $40,573,195 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W56HZV-22-C-0049).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV22C0049"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40573195.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40573195.0,
+        "funding_text": "Fiscal 2020 Foreign Military Sales (Taiwan) funds in the amount of $40,573,195 were obligated at the time of the award",
+        "completion_date": "2024-04-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": "W56HZV-22-C-0049"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "York, Pennsylvania",
+            "contract_number": "W56HZV-22-C-0049",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "M88 recovery vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40573195,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40573195,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Delta Solutions & Strategies LLC, Colorado Springs, Colorado, has been awarded a $186,663,348 cost-plus-fixed-fee task order (FA2518-22-F-0030) to previously awarded contract 47QRAD19D1002. This task order is for Headquarters U.S. Space Command consolidated advisory and assistance services support. The acquisition was competed using the General Services Administration’s One Acquisition Solution for Integrated Services Small Business Pool 1 contracts, and 11 proposals were received. Work will be performed in Colorado Springs, Colorado, and is expected to end Aug. 21, 2027. Fiscal 2022 operations and maintenance funds will be obligated at the time of award. The Space Acquisition Management Delta, Peterson Space Force Base, Colorado, is the contracting activity (FA2518-22-F-0030).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA251822F0030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 186663348.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Space Acquisition Management Delta, Peterson Space Force Base, Colorado",
+          "code": "FA2518-22-F-0030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Delta Solutions & Strategies LLC",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA2518-22-F-0030",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee task order",
+        "description": "Headquarters U.S. Space Command consolidated advisory and assistance services support",
+        "base_contract_number": "47QRAD19D1002",
+        "order_number": "FA2518-22-F-0030",
+        "modification_number": null,
+        "value_usd": 186663348,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "GSA One Acquisition Solution for Integrated Services Small Business Pool 1; 11 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Bering Global Solutions LLC, Anchorage, Alaska, has been awarded a $17,100,000 firm-fixed-price modification (P00010) to previously awarded contract FA4887-19-D-A005 for the Human Performance Optimization program in support of the Comprehensive Readiness for Aircrew Flying Training program design and support. Work will be performed in various U.S. locations and is expected to be completed by Aug. 31, 2023. The 56th Contracting Squadron Services Flight, Luke Air Force Base, Arizona, is the contracting activity (FA4887-19-D-A005).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA488719DA005"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 17100000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-08-31",
+        "contracting_activity": {
+          "name": "The 56th Contracting Squadron Services Flight, Luke Air Force Base, Arizona",
+          "code": "FA4887-19-D-A005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Bering Global Solutions LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "FA4887-19-D-A005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Human Performance Optimization program in support of Comprehensive Readiness for Aircrew Flying Training program design and support",
+        "base_contract_number": "FA4887-19-D-A005",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 17100000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Management Services Group Inc.,* Virginia Beach, Virginia, is awarded a $27,919,743 firm-fixed-price modification to previously awarded contract N00024-20-C-5608 to exercise options for Network, Processing, and Storage Technical Insertion 16, Modification 1 production equipment, spares, and engineering services. Work will be performed in Virginia Beach, Virginia, and is expected to be completed by February 2025. This contract combines purchases for the U.S. government (78%) and the government of Australia (22%) under the Foreign Military Sales (FMS) program. Fiscal 2022 other procurement (Navy) funds in the amount of $12,688,709 (44%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $8,378,147 (30%); FMS (Australia) funds in the amount of $6,152,185 (22%); fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $299,727 (1%); fiscal 2021 other procurement (Navy) funds in the amount of $286,651 (1%); fiscal 2019 shipbuilding and conversion (Navy) funds in the amount of $94,513 (1%); and fiscal 2020 other procurement (Navy) funds in the amount of $19,811 (1%) will be obligated at time of award, and $19,811 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C5608"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 27919743.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27919743.0,
+        "funding_text": "Fiscal 2022 other procurement (Navy) funds in the amount of $12,688,709 (44%); fiscal 2022 shipbuilding and conversion (Navy) funds in the amount of $8,378,147 (30%); FMS (Australia) funds in the amount of $6,152,185 (22%); fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $299,727 (1%); fiscal 2021 other procurement (Navy) funds in the amount of $286,651 (1%); fiscal 2019 shipbuilding and conversion (Navy) funds in the amount of $94,513 (1%); and fiscal 2020 other procurement (Navy) funds in the amount of $19,811 (1%) will be obligated at time of award, and $19,811 will expire at the end of the current fiscal year",
+        "completion_date": "2025-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Management Services Group Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N00024-20-C-5608",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for Network, Processing, and Storage Technical Insertion 16, Modification 1 production equipment, spares, and engineering services",
+        "base_contract_number": "N00024-20-C-5608",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27919743,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27919743,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Wyle Services LLC, Lexington Park, Maryland, is awarded a cost-plus-fixed-fee, cost-reimbursable $9,578,933 modification (P00008) to a previously awarded contract (N0042120C0032). This modification exercises an option to provide F/A-18 program management, engineering, financial and logistics support for the governments of Finland and Kuwait. Work will be performed in Kuwait City, Kuwait (75%); and Patuxent River, Maryland (25%), and is expected to be completed in August 2023. Foreign Military Sales funds in the amount of $8,975,346 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0042120C0032"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 9578933.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8975346.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $8,975,346 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-08",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "KBR Wyle Services LLC",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N0042120C0032",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, cost-reimbursable",
+        "description": "Exercise of option for F/A-18 program management, engineering, financial and logistics support for governments of Finland and Kuwait",
+        "base_contract_number": "N0042120C0032",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 9578933,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8975346,
+        "fms_countries": [
+          "Finland",
+          "Kuwait"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Chenega Services & Federal Solutions LLC, Chesapeake, Virginia, was awarded an indefinite-delivery/indefinite-quantity single award contract (HT001422D0001) with firm-fixed-price ordering provisions with an estimated value of $15,786,586. The contract provides Integrated Referral Management and Appointing Center (IRMAC) support for the National Capital Region (NCR) Market Military Medical Treatment Facilities (MTFs). The IRMAC is an on-demand call center providing referral management and appointing services for the entire market and serves as the point of contact for TRICARE beneficiaries in the NCR Market seeking health care at NCR MTFs. The IRMAC assists beneficiaries with appointments, navigating the military hospitals or clinics, and providing referral management oversight. This effort has a one-year base period with four one-year option periods with an estimated completion date of July 11, 2028 if all options are exercised. Task orders will be funded by fiscal 2022 operations and maintenance funds. This contract was competitively solicited via the SAM.gov Contracting Opportunities website, with 21 offers received. Defense Health Agency Northeastern Markets Contracting Division, Falls Church, Virginia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HT001422D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15786586.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-07-11",
+        "contracting_activity": {
+          "name": "Defense Health Agency Northeastern Markets Contracting Division, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Chenega Services & Federal Solutions LLC",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "HT001422D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity single award contract with firm-fixed-price ordering provisions",
+        "description": "Integrated Referral Management and Appointing Center (IRMAC) support for National Capital Region Market Military Medical Treatment Facilities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15786586,
+        "cumulative_value_usd": 15786586,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitively solicited via SAM.gov; 21 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Hutchinson Industries Inc., Trenton, New Jersey, has been awarded a maximum $10,942,290 firm-fixed-price, requirements contract for tire and wheel assemblies. This was a competitive acquisition with two responses received. This is a three-year contract with no option periods. The ordering period end date is July 12, 2025. Using military service is Army. Type of appropriation is fiscal 2022 through 2025 Army working capital funds. Defense Logistics Agency, Land and Maritime, Warren, Michigan, is the contracting activity (SPRDL1-22-D-0027).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL122D0027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10942290.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency, Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-22-D-0027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Hutchinson Industries Inc.",
+            "location": "Trenton, New Jersey",
+            "contract_number": "SPRDL1-22-D-0027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Tire and wheel assemblies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10942290,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; two responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-07-12.html"
+  "source": "file:2022-07-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:08:15Z"
+  }
 }

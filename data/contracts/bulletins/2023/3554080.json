@@ -9,9 +9,84 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Services LLC, Houston, Texas (N62742-16-D-3551); Vectrus Systems Corp., Colorado Springs, Colorado (N62742-16-D-3552); IAP-ECC LLC, Cape Canaveral, Florida (N62742-16-D-3553); FLUOR Intercontinental Inc., Greenville, South Carolina (N62742-16-D-3554); and AECOM Technical Services Inc., Los Angeles, California (N62742-16-D-3555), are awarded a combined, maximum-value $98,000,000 firm-fixed-price, cost-plus-award-fee modification to previously awarded contracts to increase the combined maximum value for providing global contingency services to $1,097,000,000. The work to be performed provides for incidental construction to quickly provide short-term facility support services related to natural and manmade disasters, humanitarian assistance, the full range of military operations, and projects with similar characteristics. No task orders are being issued at this time. Work will be performed worldwide and is expected to be completed by September 2024. No funding will be obligated at time of award. Funds will be obligated on individual task orders as they are issued. Naval Facilities Engineering Systems Command Pacific, Pearl Harbor, Hawaii, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6274216D3551",
+          "N6274216D3552",
+          "N6274216D3553",
+          "N6274216D3554",
+          "N6274216D3555"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 98000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award Funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2024-09",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Pacific, Pearl Harbor, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "KBR Services LLC",
+            "location": "Houston, Texas",
+            "contract_number": "N62742-16-D-3551",
+            "markers": null
+          },
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "N62742-16-D-3552",
+            "markers": null
+          },
+          {
+            "name": "IAP-ECC LLC",
+            "location": "Cape Canaveral, Florida",
+            "contract_number": "N62742-16-D-3553",
+            "markers": null
+          },
+          {
+            "name": "FLUOR Intercontinental Inc.",
+            "location": "Greenville, South Carolina",
+            "contract_number": "N62742-16-D-3554",
+            "markers": null
+          },
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "N62742-16-D-3555",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-award-fee modification",
+        "description": "Global contingency services (incidental construction for short-term facility support after disasters, humanitarian assistance, and military operations); raises combined maximum value to $1,097,000,000",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 98000000,
+        "cumulative_value_usd": 1097000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:51Z",
-  "source": "file:2023-10-11.html"
+  "source": "file:2023-10-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:10:43Z"
+  }
 }

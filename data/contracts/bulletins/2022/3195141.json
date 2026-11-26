@@ -11,51 +11,413 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Johnson & Johnson Health Care Systems DePuy Synthes Mitek, Piscataway, New Jersey, has been awarded a maximum $244,308,143 fixed-price, indefinite-delivery/indefinite-quantity contract for orthopedic procedural packages and supplies. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(2), as stated in Federal Acquisition Regulation 6.302-2. This is a one-year base contract with four one-year option periods. The ordering period end date is Oct. 19, 2023. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-23-D-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE23D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 244308143.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-23-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Johnson & Johnson Health Care Systems DePuy Synthes Mitek",
+            "location": "Piscataway, New Jersey",
+            "contract_number": "SPE2DE-23-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Orthopedic procedural packages and supplies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 244308143,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(2)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Peckham Vocational Industries Inc.,* Lansing, Michigan, has been awarded a maximum $11,483,880 modification (P00006) exercising the second one-year option period of a one-year base contract (SPE1C1-21-D-N143) with two one-year option periods for GEN III, Layer II, mid-weight drawers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is Oct. 24, 2023. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121DN143"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 11483880.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Mandatory source"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Peckham Vocational Industries Inc.",
+            "location": "Lansing, Michigan",
+            "contract_number": "SPE1C1-21-D-N143",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract",
+        "description": "Exercise of second one-year option period for GEN III, Layer II, mid-weight drawers",
+        "base_contract_number": "SPE1C1-21-D-N143",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 11483880,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Owego, New York, is awarded a not-to-exceed $49,664,990 undefinitized firm-fixed-price modification (P00001) to an order (N0001922F2291) against a previously issued basic ordering agreement (N0001921G0017). This modification provides non-recurring engineering and add/delete efforts to bring 12 MH-60R aircraft from standard Foreign Military Sales configuration to a unique configuration for the government of Australia. Additionally, this modification procures 12 Australian unique modification one kits and 10 embedded Global Positioning System Inertial Navigation Systems spares. Work will be performed in Owego, New York (87%); Stratford, Connecticut (12%); and Troy, Alabama (1%), and is expected to be completed in December 2026. Foreign Military Sales funds in the amount of $16,554,999 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F2291",
+          "N0001921G0017"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 49664990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16554999.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $16,554,999 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Owego, New York",
+            "contract_number": "N0001922F2291",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized firm-fixed-price modification to an order",
+        "description": "Non-recurring engineering and add/delete efforts to bring 12 MH-60R aircraft from standard FMS configuration to a unique configuration for Australia",
+        "base_contract_number": "N0001921G0017",
+        "order_number": "N0001922F2291",
+        "modification_number": "P00001",
+        "value_usd": 49664990,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16554999,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Aerospace Systems, Melbourne, Florida, is awarded a $31,622,092 cost-plus-fixed-fee order (N0001923F0029) against a previously issued basic ordering agreement (N0001920G0005). This order provides for the inspection and teardown of the E-2D Advanced Hawkeye fatigue test article to identify fatigue critical locations and demonstrate that the E-2D aircraft structure satisfy the program's service life requirement. Work will be performed in Melbourne, Florida (45%); Bethpage, New York (40%); and El Segundo, California (15%), and is expected to be completed in June 2027. Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $2,500,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001923F0029",
+          "N0001920G0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31622092.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500000.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $2,500,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2027-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp., Aerospace Systems",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001923F0029",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Inspection and teardown of the E-2D Advanced Hawkeye fatigue test article",
+        "base_contract_number": "N0001920G0005",
+        "order_number": "N0001923F0029",
+        "modification_number": null,
+        "value_usd": 31622092,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, is awarded a $15,055,417 cost-plus-fixed-fee order (N0001923F0030) against a previously issued basic ordering agreement (N0001919G0029). This order provides for non-recurring engineering for the design, development, and fabrication of the Infrared Search and Track (IRST) Block II Integrated Detector Assembly (IDA) obsolescence redesign. Additionally, this order procures material to build three of the redesigned IDAs in support of the F/A-18 IRST program. Work will be performed in Santa Barbara, California (51.3%); Orlando, Florida (48.2%); and Ocala, Florida (0.5%), and is expected to be completed in October 2024. Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $15,055,417 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001923F0030",
+          "N0001919G0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15055417.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15055417.0,
+        "funding_text": "Fiscal 2022 research, development, test, and evaluation (Navy) funds in the amount of $15,055,417 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "N0001923F0030",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Non-recurring engineering and fabrication of IRST Block II Integrated Detector Assembly obsolescence redesign for F/A-18 IRST program",
+        "base_contract_number": "N0001919G0029",
+        "order_number": "N0001923F0030",
+        "modification_number": null,
+        "value_usd": 15055417,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15055417,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Technology Solutions and Services Inc., Rockville, Maryland, is awarded an $8,577,568 cost-plus-fixed-fee modification (P00116) to a previously awarded contract (N0042115C0008) to provide engineering and technical services to support the Integrated Communications and Information Systems radio communications for Navy ships. Work will be performed in St. Inigoes, Maryland, and is expected to be completed in October 2023. Fiscal 2023 working capital (Navy) funds in the amount of $181,908 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042115C0008"
+        ],
+        "modification_numbers": [
+          "P00116"
+        ],
+        "is_modification": true,
+        "value_usd": 8577568.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 181908.0,
+        "funding_text": "Fiscal 2023 working capital (Navy) funds in the amount of $181,908 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-10",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "BAE Systems Technology Solutions and Services Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N0042115C0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Engineering and technical services for Integrated Communications and Information Systems radio communications for Navy ships",
+        "base_contract_number": "N0042115C0008",
+        "order_number": null,
+        "modification_number": "P00116",
+        "value_usd": 8577568,
+        "cumulative_value_usd": null,
+        "obligated_usd": 181908,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Sept. 30, 2022 for Maritime Power & Energy Solutions Inc., a subsidiary of L3 Harris Technologies Inc., Anaheim, California (N6339422D0001), for $56,911,091 was announced with an incorrect expected performance completion date. The correct expected performance completion date is October 2027.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6339422D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 56911091.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Maritime Power & Energy Solutions Inc.",
+            "location": "Anaheim, California",
+            "contract_number": "N6339422D0001",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to expected performance completion date (now October 2027) for a $56,911,091 contract announced Sept. 30, 2022; subsidiary of L3 Harris Technologies Inc.",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 56911091,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gilbane Building Co., Providence, Rhode Island, was awarded a $26,396,962 firm-fixed-price contract to renovate Building 2814 at Camp Hansen. Work will be performed in Okinawa, Japan, with an estimated completion date of June 14, 2025. Bids were solicited via the internet with three received. Fiscal 2023 operation and maintenance, Marine Corps funds in the amount of $26,396,962 were obligated at the time of the award. U.S. Army Corps of Engineers, Japan District, is the contracting activity (W912HV-23-C-0001).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912HV23C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26396962.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26396962.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Marine Corps funds in the amount of $26,396,962 were obligated at the time of the award",
+        "completion_date": "2025-06-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Japan District",
+          "code": "W912HV-23-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Gilbane Building Co.",
+            "location": "Providence, Rhode Island",
+            "contract_number": "W912HV-23-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Renovation of Building 2814 at Camp Hansen, Okinawa, Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26396962,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26396962,
+        "fms_countries": [],
+        "competition": "internet solicitation, three bids received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2022-10-20.html"
+  "source": "file:2022-10-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:52:38Z"
+  }
 }

@@ -12,45 +12,441 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is awarded a $327,822,562 cost-plus-fixed-fee modification to previously awarded contract N00024-20-C-2120 for lead yard support and development studies and design efforts related to Virginia class submarines. Work will be performed in Groton, Connecticut (92%); Newport News, Virginia (7%); and Newport and Quonset Point, Rhode Island (1%), and is expected to be completed by April 2021. Fiscal 2020 research, development, test and engineering (Navy) (41%); and fiscal 2020 (25%); 2019 (12%); 2014 (9%); 2017 (7%); 2015 (3%); and 2018 (3%) shipbuilding and conversion (Navy) funding in the amount of $134,585,918 will be obligated at time of award. Fiscal 2020 research, development, test and engineering (Navy) funds in the amount of $55,000,000; and fiscal 2014 shipbuilding and conversion (Navy) funds in the amount of $11,792,469 will expire at the end of the current fiscal year. This contract was not competitively procured. The statutory authority for this sole-source award is in accordance with Federal Acquisition Regulation 6.302-1(a)(2)(iii); only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002420C2120"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 327822562.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 134585918.0,
+        "funding_text": "Fiscal 2020 research, development, test and engineering (Navy) (41%); and fiscal 2020 (25%); 2019 (12%); 2014 (9%); 2017 (7%); 2015 (3%); and 2018 (3%) shipbuilding and conversion (Navy) funding in the amount of $134,585,918 will be obligated at time of award",
+        "completion_date": "2021-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-20-C-2120",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Lead yard support and development studies and design efforts for Virginia class submarines",
+        "base_contract_number": "N00024-20-C-2120",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 327822562,
+        "cumulative_value_usd": null,
+        "obligated_usd": 134585918,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "D Square LLC & AU Authum KI,* Tucson, Arizona (N62478-17-D-4018); Hawk-Niking LLC,* Wahiawa, Hawaii (N62478-17-D-4019); MACNAK-BCP JV,* Lakewood, Washington (N62478-17-D-4020); and Tokunaga Elite JV LLC,* Pearl City, Hawaii (N62478-17-D-4021), are each awarded an $80,000,000 firm-fixed-price modification to their respective previously awarded indefinite-delivery/indefinite-quantity, multiple-award, design-build/design-bid-build construction contracts for construction projects located primarily within the Naval Facilities Engineering Command (NAVFAC), Hawaii area of responsibility (AOR). The work to be performed provides for, but is not limited to, labor, supervision, tools, materials and equipment necessary to perform new construction, repair, alteration and related demolition of existing infrastructure based on design-build or design-bid-build (full plans and specifications) for infrastructure within the state of Hawaii. This modification increases the total cumulative value of the combined contracts to $178,000,000. No task orders are being awarded at this time. Work will be performed at various Navy, Marine Corps, Air Force and miscellaneous federal and other facilities in the NAVFAC Hawaii AOR and is expected to be completed by July 2022. No funds will be obligated at time of award; funds will be obligated on individual task orders as they are issued. Task orders will be primarily funded by operations and maintenance (Navy); and Navy working capital funds. The Naval Facilities Engineering Command, Hawaii, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6247817D4018",
+          "N6247817D4019",
+          "N6247817D4020",
+          "N6247817D4021"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 80000000.0,
+        "cumulative_value_usd": 178000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2022-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "D Square LLC & AU Authum KI",
+            "location": "Tucson, Arizona",
+            "contract_number": "N62478-17-D-4018",
+            "markers": "*"
+          },
+          {
+            "name": "Hawk-Niking LLC",
+            "location": "Wahiawa, Hawaii",
+            "contract_number": "N62478-17-D-4019",
+            "markers": "*"
+          },
+          {
+            "name": "MACNAK-BCP JV",
+            "location": "Lakewood, Washington",
+            "contract_number": "N62478-17-D-4020",
+            "markers": "*"
+          },
+          {
+            "name": "Tokunaga Elite JV LLC",
+            "location": "Pearl City, Hawaii",
+            "contract_number": "N62478-17-D-4021",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price modification to IDIQ multiple-award design-build/design-bid-build construction contracts",
+        "description": "Each awardee receives $80,000,000 modification for construction projects in NAVFAC Hawaii AOR; combined cumulative value of the contracts $178,000,000",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 80000000,
+        "cumulative_value_usd": 178000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Tekla Research Inc.,* Fredericksburg, Virginia, is awarded a $24,405,000 commercial firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide test and evaluation support services for Commander, Operational Test and Evaluation Force Expeditionary Warfare Division. The contract will include a 60-month base ordering period with an additional six-month ordering period option pursuant of Federal Acquisition Regulation 52.217-8 – to extend services, which if exercised, will bring the total value to $27,000,000. The base ordering period is expected to begin November 2020, and be completed by November 2025; if the option is exercised, the ordering period will be completed by May 2026. All work will be performed in Norfolk, Virginia. Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $2,500 will be obligated to fund the contract’s minimum amount and funds will expire at the end of the current fiscal year. Individual task orders will be subsequently funded with appropriate fiscal year appropriations at the time of their issuance. This contract was competitively procured with the solicitation posted on beta.SAM.gov as a service-disabled, veteran-owned small business set-aside using commercial items procedures, with two offers received. The Naval Supply Systems Command, Fleet Logistics Center Norfolk, Contracting Department, Norfolk, Virginia, is the contracting activity (N00189-21-D-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0018921D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24405000.0,
+        "cumulative_value_usd": 27000000.0,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2020 research, development, test and evaluation (Navy) funds in the amount of $2,500 will be obligated to fund the contract’s minimum amount and funds will expire at the end of the current fiscal year",
+        "completion_date": "2025-11",
+        "contracting_activity": {
+          "name": "The Naval Supply Systems Command, Fleet Logistics Center Norfolk, Contracting Department, Norfolk, Virginia",
+          "code": "N00189-21-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Tekla Research Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "N00189-21-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "commercial firm-fixed-price IDIQ",
+        "description": "Test and evaluation support services for Commander, Operational Test and Evaluation Force Expeditionary Warfare Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24405000,
+        "cumulative_value_usd": 27000000,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive, service-disabled veteran-owned small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SKE Support Services Gmbh, Goldbach, Germany (W912GB-21-D-0001); Sociedad Espanola De Montajes Industriales, Madrid, Spain (W912GB-21--D-0002); RCI Gulbene SIA, Gulbene, Latvia (W912GB-21-D-0003); Relyant Global LLC, Maryville, Tennessee (W912GB-21-D-0004); Tartu Bryan JV, Colorado Springs, Colorado (W912GB-21-D-0005); Infes UAB, Vilnius, Lithuania (W912GB-21-D-0006); and Mitnija UAB, Kaunas, Lithuania (W912GB-21-D-0007), will compete for each order of the $49,950,000 firm-fixed-price contract to provide design-build and design-bid-build construction services in Latvia and Lithuania. Bids were solicited via the internet with 24 received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 8, 2025. U.S. Army Corps of Engineers, Europe District, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912GB21D0001",
+          "W912GB21D0003",
+          "W912GB21D0004",
+          "W912GB21D0005",
+          "W912GB21D0006",
+          "W912GB21D0007",
+          "W912GB21D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-10-08",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Europe District",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "SKE Support Services Gmbh",
+            "location": "Goldbach, Germany",
+            "contract_number": "W912GB-21-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Sociedad Espanola De Montajes Industriales",
+            "location": "Madrid, Spain",
+            "contract_number": "W912GB-21-D-0002",
+            "markers": null
+          },
+          {
+            "name": "RCI Gulbene SIA",
+            "location": "Gulbene, Latvia",
+            "contract_number": "W912GB-21-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Relyant Global LLC",
+            "location": "Maryville, Tennessee",
+            "contract_number": "W912GB-21-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Tartu Bryan JV",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W912GB-21-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Infes UAB",
+            "location": "Vilnius, Lithuania",
+            "contract_number": "W912GB-21-D-0006",
+            "markers": null
+          },
+          {
+            "name": "Mitnija UAB",
+            "location": "Kaunas, Lithuania",
+            "contract_number": "W912GB-21-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build and design-bid-build construction services in Latvia and Lithuania",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 24 received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bren-Tronics Inc.,* Commack, New York (SPE7LX-21-D-0009, $14,817,852); and Mathews Associates Inc.,** Sanford, Florida (SPE7LX-21-D-0010, $9,758,182), have each been awarded a firm-fixed-price, indefinite-quantity contract under solicitation SPE7MX-20-R-0106 for lithium-ion batteries used in multiple communications platforms. These were competitive acquisitions with five responses received. These are three-year base contracts with two one-year option periods. Locations of performance are New York and Florida, with an Oct. 8, 2023, performance completion date. Using military services are Army, Navy and Marine Corps. Type of appropriation is fiscal 2021 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX21D0009",
+          "SPE7LX21D0010",
+          "SPE7MX20R0106"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14817852.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          },
+          {
+            "marker": "**",
+            "meaning": "Woman-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Bren-Tronics Inc.",
+            "location": "Commack, New York",
+            "contract_number": "SPE7LX-21-D-0009",
+            "markers": "*"
+          },
+          {
+            "name": "Mathews Associates Inc.",
+            "location": "Sanford, Florida",
+            "contract_number": "SPE7LX-21-D-0010",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-quantity",
+        "description": "Lithium-ion batteries used in multiple communications platforms (solicitation SPE7MX-20-R-0106)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, five responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Belleville Shoe Co.,* Belleville, Illinois, has been awarded a maximum $9,939,099 modification (P00004) exercising the first one-year option period of one-year base contract (SPE1C1-20-D-1208) with three one-year option periods for temperate weather men’s and women’s coyote boots. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is Illinois, with an Oct. 10, 2021, ordering period end date. Using military service is Air Force. Type of appropriation is fiscal 2021 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C120D1208"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 9939099.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Belleville Shoe Co.",
+            "location": "Belleville, Illinois",
+            "contract_number": "SPE1C1-20-D-1208",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "First one-year option exercise for temperate weather men's and women's coyote boots",
+        "base_contract_number": "SPE1C1-20-D-1208",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 9939099,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Arcticom LLC, Anchorage, Alaska, was awarded a $9,950,000 maximum single award, indefinite-delivery/indefinite-quantity contract (H92240-21-D-0002) with an ordering period of up to five years for contractor-provided non-personal services for Basic Underwater Demolition/SEAL (BUD/S) training support. Fiscal 2021 operations and maintenance funds in the amount of $2,500 are being obligated at the time of award. The work will be performed in various locations inside and outside the U.S. and may continue through fiscal 2025 depending on timing of orders placed by Naval Special Warfare Command (NSWC). The contract was awarded competitively with four proposals received. NSWC, Coronado, California, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "H9224021D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9950000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2021 operations and maintenance funds in the amount of $2,500 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "NSWC, Coronado, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Arcticom LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "H92240-21-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Contractor-provided non-personal services for BUD/S training support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9950000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive, four proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:44Z",
-  "source": "file:2020-10-09.html"
+  "source": "file:2020-10-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T22:20:28Z"
+  }
 }

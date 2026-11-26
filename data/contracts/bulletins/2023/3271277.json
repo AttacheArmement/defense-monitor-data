@@ -11,45 +11,355 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., Minneapolis, Minnesota, is awarded a $71,909,045 definite-quantity, fixed-price incentive, firm-fixed-price, fixed-price economic price adjustment contract for the manufacture and delivery of five Columbia-class submarine components. Work will be performed in Louisville, Kentucky (100%), and is expected to be completed by May 2030. Fiscal 2023 National Sea-Based Deterrence Fund funds in the amount of $7,075,000 (100%) will be obligated at time of award, of which none will expire at the end of the current fiscal year. This contract was competitively procured via the System for Award Management website, with three offers received. The Naval Surface Warfare Center Carderock Division, Bethesda, Maryland, is the contracting activity (N00167-23-D-0004).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0016723D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 71909045.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7075000.0,
+        "funding_text": "Fiscal 2023 National Sea-Based Deterrence Fund funds in the amount of $7,075,000 (100%) will be obligated at time of award, of which none will expire at the end of the current fiscal year",
+        "completion_date": "2030-05",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Carderock Division, Bethesda, Maryland",
+          "code": "N00167-23-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": "N00167-23-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "definite-quantity, fixed-price incentive, firm-fixed-price, fixed-price economic price adjustment contract",
+        "description": "Manufacture and delivery of five Columbia-class submarine components",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 71909045,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7075000,
+        "fms_countries": [],
+        "competition": "competitively procured via SAM website, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Marlborough, Massachusetts, is awarded an $8,596,129 firm-fixed-price and cost-plus-fixed-fee term modification to previously awarded contract N6339421C0004 to exercise options for ordnance alteration installation services and engineering and technical services in support of the MK99 Fire Control and AN/SPY-1 Radar Transmitter systems. Work will be performed in Yokosuka, Japan (25%); Moorestown, New Jersey (25%); Marlborough, Massachusetts (20%); Norfolk, Virginia (14%); Everett, Washington (12%); Mayport, Florida (2%); Philadelphia, Pennsylvania (1%); and San Diego, California (1%), and is expected to be completed by February 2024. Fiscal 2023 Foreign Military Sales funds in the amount of $708,466 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6339421C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8596129.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 708466.0,
+        "funding_text": "Fiscal 2023 Foreign Military Sales funds in the amount of $708,466 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Marlborough, Massachusetts",
+            "contract_number": "N6339421C0004",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price and cost-plus-fixed-fee term modification",
+        "description": "Exercise of options for ordnance alteration installation and engineering/technical services for MK99 Fire Control and AN/SPY-1 Radar Transmitter systems",
+        "base_contract_number": "N6339421C0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8596129,
+        "cumulative_value_usd": null,
+        "obligated_usd": 708466,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "City Light & Power Inc.,* Greenwood Village, Colorado, has been awarded a maximum $39,532,350 modification (P00049) to a 50-year contract (SP0600-14-C-8291) with no option periods for the electric operation and maintenance and the renewal and replacement monthly utility service charge. This is a fixed-price with economic-price-adjustment contract. Location of performance is Utah, with a Nov. 30, 2064, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2023 Air Force operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SP060014C8291"
+        ],
+        "modification_numbers": [
+          "P00049"
+        ],
+        "is_modification": true,
+        "value_usd": 39532350.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "City Light & Power Inc.",
+            "location": "Greenwood Village, Colorado",
+            "contract_number": "SP0600-14-C-8291",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Electric operation and maintenance and renewal and replacement monthly utility service charge (50-year contract, Utah)",
+        "base_contract_number": "SP0600-14-C-8291",
+        "order_number": null,
+        "modification_number": "P00049",
+        "value_usd": 39532350,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Hampton Roads Produce Distributors Inc., Virginia Beach, Virginia, has been awarded a maximum $15,125,975 indefinite-delivery/indefinite-quantity contract to provide cross-docking and transportation for the East Coast Export Mission which consists of shipping fresh fruits and vegetables, frozen meats, baked goods and dairy products. This was a competitive acquisition with one response received. This is a five-year contract with no option periods. The ordering period end date is Jan. 18, 2028. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2023 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Distribution, New Cumberland, Pennsylvania (SP3300-23-D-0003).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SP330023D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15125975.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Distribution, New Cumberland, Pennsylvania",
+          "code": "SP3300-23-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Hampton Roads Produce Distributors Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "SP3300-23-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Cross-docking and transportation for the East Coast Export Mission (fresh fruits and vegetables, frozen meats, baked goods, dairy products)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15125975,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Granite Construction, Watsonville, California, was awarded a $16,309,990 firm-fixed-price contract for the replacement of existing hydraulic cylinders and rods for flood protection spillway gates. Bids were solicited via the internet with three received. Work will be performed in Folsom, California, with an estimated completion date of Feb. 16, 2028. Fiscal 2018 civil works funds in the amount of $16,309,990 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-23-C-0006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9123823C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16309990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16309990.0,
+        "funding_text": "Fiscal 2018 civil works funds in the amount of $16,309,990 were obligated at the time of the award",
+        "completion_date": "2028-02-16",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-23-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Granite Construction",
+            "location": "Watsonville, California",
+            "contract_number": "W91238-23-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Replacement of existing hydraulic cylinders and rods for flood protection spillway gates (Folsom, California)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16309990,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16309990,
+        "fms_countries": [],
+        "competition": "solicited via internet, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Doyon Management Services LLC, Federal Way, Washington, was awarded a $10,077,044 firm-fixed-price contract to replace six existing 35-ft. x 85-ft. wooden framed screenhouses with three 35-ft. x 85-ft. gutter-connected screenhouses and a single 35-ft. x 85-ft. screenhouse. Bids were solicited via the internet with three received. Work will be performed in Corvallis, Oregon, with an estimated completion date of July 8, 2024. Fiscal 2023 other procurement, Army funds in the amount of $10,077,044 were obligated at the time of the award. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity (W912DW-23-C-0006).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912DW23C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10077044.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10077044.0,
+        "funding_text": "Fiscal 2023 other procurement, Army funds in the amount of $10,077,044 were obligated at the time of the award",
+        "completion_date": "2024-07-08",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": "W912DW-23-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Doyon Management Services LLC",
+            "location": "Federal Way, Washington",
+            "contract_number": "W912DW-23-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Replace six wooden framed screenhouses with three gutter-connected screenhouses and one screenhouse (Corvallis, Oregon)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10077044,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10077044,
+        "fms_countries": [],
+        "competition": "solicited via internet, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Tapestry Solutions Inc., San Diego, California, has been awarded an $8,376,510 contract modification (P00002) to previously awarded contract FA2860-22-C-0011 for executive airlift flight dispatch services. Work will be performed at Joint Base Andrews-Naval Air Facility Washington and is expected to be completed by Jan. 31, 2027. The modification brings the total cumulative face value of the contract to $41,977,632. Fiscal 2023 operations and maintenance funds in the amount of $5,776,947 are being obligated at the time of modification. The 316th Contracting Squadron, Joint Base Andrews, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA286022C0011"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 8376510.0,
+        "cumulative_value_usd": 41977632.0,
+        "obligated_usd": 5776947.0,
+        "funding_text": "Fiscal 2023 operations and maintenance funds in the amount of $5,776,947 are being obligated at the time of modification",
+        "completion_date": "2027-01-31",
+        "contracting_activity": {
+          "name": "The 316th Contracting Squadron, Joint Base Andrews, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Tapestry Solutions Inc.",
+            "location": "San Diego, California",
+            "contract_number": "FA2860-22-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Executive airlift flight dispatch services at Joint Base Andrews-Naval Air Facility Washington",
+        "base_contract_number": "FA2860-22-C-0011",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 8376510,
+        "cumulative_value_usd": 41977632,
+        "obligated_usd": 5776947,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:49Z",
-  "source": "file:2023-01-18.html"
+  "source": "file:2023-01-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:44:13Z"
+  }
 }

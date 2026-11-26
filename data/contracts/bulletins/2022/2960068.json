@@ -11,51 +11,432 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "VSE Corp., Alexandria, Virginia, is awarded a $99,999,923 indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee contract for Foreign Military Sales (FMS) supportability follow-on technical support (FOTS) to provide eligible foreign navies access to a broad range of life cycle support, systems upgrades, systems integration, and other related efforts associated with the transfer and acquisition, operation, and maintenance of naval vessels and systems within their inventory. The purpose of this gap-period contract is to provide continuation of mission critical support until the follow-on FMS FOTS contract solicited under N00024-18-R-4200 is awarded. This contract involves Foreign Military Sales to various foreign navies. No initial funding will be provided at contract award. Funding will be made at the delivery order level. Work is anticipated to be performed outside the continental U.S. (OCONUS) (80%); and within the continental U.S. (20%). Of the work performed OCONUS, countries include Iraq (25%), Egypt (25%), the Philippines (10%), and various other countries to be determined at the delivery order level (20%). Work is expected to be completed by March 2023. This contract was not competitively procured via the beta.sam.gov website. This sole-source award is justified pursuant to 10 U.S. Code 2304(c)(1), only one responsible source and no other supplies or services will satisfy agency requirements, and in accordance with Defense Federal Acquisition Regulation 6.302-1(a)(2)(iii)(B), requirements may be deemed to be available only from the original source in the case of follow-on contracts for the continued provision of highly specialized requirements when it is likely that award to any other source would result in unacceptable delays in fulfilling the agency’s requirements. The Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-22-D-4205).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002418R4200",
+          "N0002422D4205"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99999923.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-22-D-4205"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "VSE Corp.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "N00024-22-D-4205",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "FMS supportability follow-on technical support (FOTS) gap-period contract for eligible foreign navies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99999923,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Iraq",
+          "Egypt",
+          "Philippines"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman System Corp., San Diego, California, is awarded a $97,314,948 modification (P00007) to a previously awarded cost-plus-fixed-fee contract (N0001921C0060). This modification exercises options to provide continued test, maintenance, logistics and sustainment engineering support for MQ-4C Triton air vehicles, mission control and operator training systems. This modification also provides continued field service representative’s technical support to ensure that the MQ-4C Triton unmanned aerial system (UAS) aircraft are mission-capable for intelligence, surveillance and reconnaissance missions supporting aircraft early operational capability and initial operating capability. Additionally, this modification provides continued reach-back engineering support for both the Navy and the government of Australia MQ-4C Triton UAS assets. Work will be performed in Patuxent River, Maryland (36.5%); San Diego, California (22.5%); Jacksonville, Florida (7.7%); Mayport, Florida (6.5%); Baltimore, Maryland (5.3%); various locations outside the continental U.S. (12.7%); and various locations within the continental U.S. (8.8%), and is expected to be completed in March 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $40,000,000; fiscal 2022 operations and maintenance (Navy) funds in the amount of $2,976,100; fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $1,000; fiscal 2021 aircraft procurement (Navy) funds in the amount of $3,000,000; and foreign cooperative project funds in the amount of $238,232 will be obligated at the time of award, $2,976,100 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001921C0060"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 97314948.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 46215332.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $40,000,000; fiscal 2022 operations and maintenance (Navy) funds in the amount of $2,976,100; fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $1,000; fiscal 2021 aircraft procurement (Navy) funds in the amount of $3,000,000; and foreign cooperative project funds in the amount of $238,232 will be obligated at the time of award, $2,976,100 of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman System Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N0001921C0060",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "MQ-4C Triton test, maintenance, logistics and sustainment engineering support, exercising options",
+        "base_contract_number": "N0001921C0060",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 97314948,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43238232,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bering Global Solutions LLC,* Anchorage, Alaska, is awarded an $88,586,784 firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N62473-22-D-3609) for base operating support (BOS) services at Marine Corps Air Ground Combat Center and Naval Hospital Twentynine Palms. The work to be performed provides for labor, supervision, management, and materials (except those specified as government-furnished), to perform the following BOS service functions: facility investment, custodial, pest control, integrated solid waste management, grounds maintenance, pavement clearance, water (operation and maintenance), and environmental services. The maximum dollar value including the base period, seven option years, and a six-month extension is $88,586,784. Work will be performed in Twentynine Palms, California, and is expected to be completed by September 2030. Fiscal 2022 operation and maintenance (Marine Corps); and Defense Health Program (Defense) contract funds in the amount of $6,207,153 for recurring work will be obligated on individual task orders issued during the base period. No funds will be obligated at time of award. This contract was competitively procured as an 8(a) small business set-aside via contract opportunity located on the beta.sam.gov website with nine proposals received. Naval Facilities Engineering Systems Command Southwest, San Diego, California, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6247322D3609"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 88586784.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Marine Corps); and Defense Health Program (Defense) contract funds in the amount of $6,207,153 for recurring work will be obligated on individual task orders issued during the base period No funds will be obligated at time of award",
+        "completion_date": "2030-09",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Systems Command Southwest, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Bering Global Solutions LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N62473-22-D-3609",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Base operating support services at Marine Corps Air Ground Combat Center and Naval Hospital Twentynine Palms",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 88586784,
+        "cumulative_value_usd": 88586784,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive 8(a) small business set-aside, nine proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Astro Machine Works Inc.* Ephrata, Pennsylvania (N0017822D4401); M&S Machining Inc.* Winchester, Kentucky (N0017822D4402); and Military Systems Group Inc.,* Nashville, Tennessee (N0017822D4403), are awarded a combined $72,600,000 firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award contract for the manufacture, assembly, inspection, and delivery of Gun Weapon Systems components. Each awardee will be awarded $500 (minimum contract guarantee per awardee) at contract award. Work will be performed in the states of Winchester, Kentucky; Ephrata, Pennsylvania; Nashville, Tennessee; and Pulaski, Tennessee. Work is expected to be completed by March 2027. Fiscal 2020 Department of Defense (DoD) procurement funding in the amount of $1,000; and fiscal 2022 research, development, test and evaluation (DoD) funding in the amount of $500 will be obligated at the time of award. The fiscal 2020 DoD procurement funding will expire at the end of the current fiscal year. All other funding will be made available at the delivery order level as contracting actions occur. This contract was competitively procured via the Federal Business Opportunities website, with four complete offers received. The Naval Surface Warfare Center Dahlgren Division, Dahlgren, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0017822D4401",
+          "N0017822D4402",
+          "N0017822D4403"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 72600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1500.0,
+        "funding_text": "Fiscal 2020 Department of Defense (DoD) procurement funding in the amount of $1,000; and fiscal 2022 research, development, test and evaluation (DoD) funding in the amount of $500 will be obligated at the time of award",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Dahlgren Division, Dahlgren, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Astro Machine Works Inc.",
+            "location": "Ephrata, Pennsylvania",
+            "contract_number": "N0017822D4401",
+            "markers": "*"
+          },
+          {
+            "name": "M&S Machining Inc.",
+            "location": "Winchester, Kentucky",
+            "contract_number": "N0017822D4402",
+            "markers": "*"
+          },
+          {
+            "name": "Military Systems Group Inc.",
+            "location": "Nashville, Tennessee",
+            "contract_number": "N0017822D4403",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Manufacture, assembly, inspection, and delivery of Gun Weapon Systems components",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 72600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1500,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, four complete offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "AVIAN Inc.,* Lexington Park, Maryland, is awarded a $12,077,437 cost-plus-fixed-fee, cost reimbursable contract. This contract provides engineering, program management and administrative support for the design, execution, analysis, evaluation, and reporting of tests and experiments for various aircraft, unmanned air systems, weapons, and weapons systems in support of the Test and Evaluation Program Leadership Division within the Naval Test Wing Atlantic at the Naval Air Warfare Center Aircraft Division. Work will be performed in Patuxent River, Maryland, and is expected to be completed in April 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $210,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was competitively procured via a small business set aside, three offers were received. The Naval Air Warfare Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042122C0020).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0042122C0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12077437.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 210000.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $210,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042122C0020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "AVIAN Inc.",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N0042122C0020",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering, program management and administrative support for tests and experiments at Naval Test Wing Atlantic",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12077437,
+        "cumulative_value_usd": null,
+        "obligated_usd": 210000,
+        "fms_countries": [],
+        "competition": "competitive small business set-aside, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Concurrent Technologies Corp., Johnstown, Pennsylvania, is awarded an $8,095,879 modification to exercise Option Period Four under previously awarded contract GS00Q14-OA-D-U112, task order M95494-18-F-0016. This modification provides for support services in efforts to meet Marine Corps’ energy reliability and resilience requirements for utility distribution systems and various energy security positions supporting headquarters, regions and installations. Work will be performed in Arlington, Virginia (40%); Lejeune, North Carolina (12%); Okinawa Prefecture, Japan (12%); San Diego, California (11%); Quantico, Virginia (10%); Bridgeport, California (4%); New River, North Carolina (3%); Cherry Point, North Carolina (3%); Barstow, California (3%); Shizuoka Prefecture, Japan (1%); and Pohang, Republic of Korea (1%). Work under this option period is expected to be completed March 2023. Fiscal 2022 operations and maintenance (Marine Corps) funds in the amount of $8,095,879 will be obligated at the time of award and will expire at the end of the current fiscal year. The Marine Corps Installations Command, Headquarters Contracting Office, Arlington, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "M9549418F0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8095879.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8095879.0,
+        "funding_text": "Fiscal 2022 operations and maintenance (Marine Corps) funds in the amount of $8,095,879 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Marine Corps Installations Command, Headquarters Contracting Office, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Concurrent Technologies Corp.",
+            "location": "Johnstown, Pennsylvania",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option Period Four support for Marine Corps energy reliability and resilience requirements",
+        "base_contract_number": "GS00Q14-OA-D-U112",
+        "order_number": "M95494-18-F-0016",
+        "modification_number": null,
+        "value_usd": 8095879,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8095879,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, has been awarded a $10,232,796 cost-plus-fixed-fee modification (P00043) to previously awarded contract FA8810-19-F0001 for systems engineering and integration for remote sensing mission programs. This contract modification provides for continued systems engineering and integration support for remote sensing mission capabilities. Work will be performed in El Segundo, California, and is expected to be completed by May 31, 2022. Fiscal 2022 Space Force research, development, test, and evaluation; space procurement; and operations and maintenance funds are being obligated at the time of award. The total cumulative face value of the contract is $117,148,053. Space Systems Command, Los Angeles Space Force Base, California, is the contracting activity. (Awarded March 3, 2022)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA881019F0001"
+        ],
+        "modification_numbers": [
+          "P00043"
+        ],
+        "is_modification": true,
+        "value_usd": 10232796.0,
+        "cumulative_value_usd": 117148053.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 Space Force research, development, test, and evaluation; space procurement; and operations and maintenance funds are being obligated at the time of award",
+        "completion_date": "2022-05-31",
+        "contracting_activity": {
+          "name": "Space Systems Command, Los Angeles Space Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8810-19-F0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Systems engineering and integration for remote sensing mission programs",
+        "base_contract_number": "FA8810-19-F0001",
+        "order_number": null,
+        "modification_number": "P00043",
+        "value_usd": 10232796,
+        "cumulative_value_usd": 117148053,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-03-03"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Torch Technologies Inc., Huntsville, Alabama, was awarded an $8,635,515 modification (P00131) to contract W31P4Q-18-F-B002 for aviation and missile research, development and engineering. Work will be performed in Redstone Arsenal, Alabama, with an estimated completion date of March 1, 2023. Fiscal 2022 research, development, test and evaluation, Army funds in the amount of $8,635,515 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q18FB002"
+        ],
+        "modification_numbers": [
+          "P00131"
+        ],
+        "is_modification": true,
+        "value_usd": 8635515.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8635515.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation, Army funds in the amount of $8,635,515 were obligated at the time of the award",
+        "completion_date": "2023-03-01",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Torch Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-18-F-B002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation and missile research, development and engineering",
+        "base_contract_number": "W31P4Q-18-F-B002",
+        "order_number": null,
+        "modification_number": "P00131",
+        "value_usd": 8635515,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8635515,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-03-08.html"
+  "source": "file:2022-03-08.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:22:40Z"
+  }
 }

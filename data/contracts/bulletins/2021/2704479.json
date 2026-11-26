@@ -11,45 +11,397 @@
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Raytheon Missiles and Defense, Tucson, Arizona, is being awarded a $90,232,182 modification to the previously awarded HQ0276-15-C-0003 contract. The value of this contract is increased from $2,646,169,912 to $2,736,402,094. Under this modification, the contractor will complete transition to production activities for previously awarded Guidance Electronic Unit engineering development activities. The transition to production activities include: (1) perform test, development and systems engineering tasks; (2) develop software load capability; (3) convert legacy test equipment to test configured-hardware; and (4) develop new common platform test equipment. The work will be performed in Tucson, Arizona. The performance period is from July 22, 2021, to July 31, 2023. Fiscal 2021 research and development funds in the amount of $25,899,535 are being obligated on this award. The Missile Defense Agency, Dahlgren, Virginia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HQ027615C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 90232182.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25899535.0,
+        "funding_text": "Fiscal 2021 research and development funds in the amount of $25,899,535 are being obligated on this award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Dahlgren, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles and Defense",
+            "location": "Tucson, Arizona",
+            "contract_number": "HQ0276-15-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Transition to production activities for Guidance Electronic Unit engineering development (Missile Defense Agency)",
+        "base_contract_number": "HQ0276-15-C-0003",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90232182,
+        "cumulative_value_usd": 2736402094,
+        "obligated_usd": 25899535,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Serrano Proano Diseno y Construccion, Quito, Ecuador (W91278-21-D-0074); Empresa de Construccion y Transporte Eterna S.A. DE, Cortes, Honduras (W91278-21-D-0075); Bonatti Ingenieros y Arquitectos Sociedad Anonima, Guatemala City, Guatemala (W91278-21-D-0076); SLSCO Ltd.,* Galveston, Texas (W91278-21-D-0077); DFS Construction LLC, Annapolis, Maryland (W91278-21-D-0078); Futron Inc.,* Woodbridge, Virginia (W91278-21-D-0079); and Relyant Global LLC,* Maryville, Tennessee (W91278-21-D-0080), will compete for each order of the $49,000,000 firm-fixed-price contract for construction requirements in Central America. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of July 14, 2026. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127821D0074",
+          "W9127821D0075",
+          "W9127821D0076",
+          "W9127821D0077",
+          "W9127821D0078",
+          "W9127821D0079",
+          "W9127821D0080"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-07-14",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Serrano Proano Diseno y Construccion",
+            "location": "Quito, Ecuador",
+            "contract_number": "W91278-21-D-0074",
+            "markers": null
+          },
+          {
+            "name": "Empresa de Construccion y Transporte Eterna S.A. DE",
+            "location": "Cortes, Honduras",
+            "contract_number": "W91278-21-D-0075",
+            "markers": null
+          },
+          {
+            "name": "Bonatti Ingenieros y Arquitectos Sociedad Anonima",
+            "location": "Guatemala City, Guatemala",
+            "contract_number": "W91278-21-D-0076",
+            "markers": null
+          },
+          {
+            "name": "SLSCO Ltd.",
+            "location": "Galveston, Texas",
+            "contract_number": "W91278-21-D-0077",
+            "markers": "*"
+          },
+          {
+            "name": "DFS Construction LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "W91278-21-D-0078",
+            "markers": null
+          },
+          {
+            "name": "Futron Inc.",
+            "location": "Woodbridge, Virginia",
+            "contract_number": "W91278-21-D-0079",
+            "markers": "*"
+          },
+          {
+            "name": "Relyant Global LLC",
+            "location": "Maryville, Tennessee",
+            "contract_number": "W91278-21-D-0080",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction requirements in Central America (multiple-award pool)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Joeris General Contractors LTD, San Antonio, Texas, was awarded a $27,589,000 firm-fixed-price contract to construct a two-story facility to expand the Air Force Personnel Center at Joint Base San Antonio-Randolph. Bids were solicited via the internet with eight received. Work will be performed at Joint Base San Antonio-Randolph, Texas, with an estimated completion date of Jan. 13, 2023. Fiscal 2020 military construction, Army funds in the amount of $27,589,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Fort Worth, Texas, is the contracting activity (W9126G-21-C-0016).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9126G21C0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27589000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27589000.0,
+        "funding_text": "Fiscal 2020 military construction, Army funds in the amount of $27,589,000 were obligated at the time of the award",
+        "completion_date": "2023-01-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Fort Worth, Texas",
+          "code": "W9126G-21-C-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Joeris General Contractors LTD",
+            "location": "San Antonio, Texas",
+            "contract_number": "W9126G-21-C-0016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of two-story facility to expand the Air Force Personnel Center at Joint Base San Antonio-Randolph",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27589000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27589000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hourigan Construction Corp., Virginia Beach, Virginia, is awarded a $27,246,319 firm-fixed-price task order (N4008521F5720) under previously-awarded multiple-award construction contract N40085-19-D-9068 for design-bid-build restoration and modernization repair to Chamberlain Hall (Building 102), Dam Neck Annex, Virginia Beach, Virginia. Work will be performed in Virginia Beach, Virginia, and is expected to be completed by June 2023. Fiscal 2021 operation and maintenance (Navy) funds in the amount of $27,246,319 will be obligated at time of award and will expire at the end of the current fiscal year. Four proposals were received for this task order. The Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N4008521F5720",
+          "N4008519D9068"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27246319.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27246319.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funds in the amount of $27,246,319 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Hourigan Construction Corp.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N4008521F5720",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Design-bid-build restoration and modernization repair to Chamberlain Hall (Building 102), Dam Neck Annex",
+        "base_contract_number": "N40085-19-D-9068",
+        "order_number": "N4008521F5720",
+        "modification_number": null,
+        "value_usd": 27246319,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27246319,
+        "fms_countries": [],
+        "competition": "Four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "East Coast Landscaping & Construction Inc., Portsmouth, Rhode Island, is awarded a maximum-value $25,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for asphalt paving and paving-related services and minor concrete maintenance and repairs for Naval Station Newport, Rhode Island. Work will be performed in Newport, Rhode Island, and is expected to be completed by July 2026. An initial task order in the amount of $5,000 is being issued at time of award in order to fulfill the minimum guarantee. Fiscal 2021 Navy working capital funds in the amount of $5,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the sam.gov website, with three proposals received. The Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity (N40085-21-D-0159).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N4008521D0159"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2021 Navy working capital funds in the amount of $5,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Mid-Atlantic, Norfolk, Virginia",
+          "code": "N40085-21-D-0159"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "East Coast Landscaping & Construction Inc.",
+            "location": "Portsmouth, Rhode Island",
+            "contract_number": "N40085-21-D-0159",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Asphalt paving and paving-related services and minor concrete maintenance and repairs for Naval Station Newport",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "Competitive, sam.gov, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Stratus Systems Inc.,* Belle Chasse, Louisiana, is awarded a $22,036,558 firm-fixed price, indefinite-delivery/indefinite-quantity contract for engineering, technical, administrative and programmatic management support for total life cycle management of the various aircrew escape systems managed under the Joint Program Office for Cartridge Actuated Device/Propellant Actuated Device Tri-Service Charter. Work will be performed in Belle Chasse, Louisiana, and is expected to be completed by September 2025. Fiscal 2021 Navy working capital funding of $500 will be obligated on the first task order at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured and in accordance with 10 U.S. Code 2304(c)(1) — only limited number of responsible sources will satisfy agency requirements. The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland, is the contracting activity (N00174-21-D-0023).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0017421D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22036558.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500.0,
+        "funding_text": "Fiscal 2021 Navy working capital funding of $500 will be obligated on the first task order at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-09",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland",
+          "code": "N00174-21-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Stratus Systems Inc.",
+            "location": "Belle Chasse, Louisiana",
+            "contract_number": "N00174-21-D-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Engineering, technical, administrative and programmatic management support for aircrew escape systems under the Joint Program Office for Cartridge Actuated Device/Propellant Actuated Device Tri-Service Charter",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22036558,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500,
+        "fms_countries": [],
+        "competition": "Not competitively procured, 10 U.S.C. 2304(c)(1) only limited number of responsible sources",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods, Bismarck, North Dakota, has been awarded a maximum $27,000,000 fixed-price with economic-price-adjustment, indefinite-quantity contract for full-line food distribution. This was a competitive acquisition with one response received. This is a five-year contract with no option periods. Location of performance is North Dakota, with a Sept. 21, 2026, ordering period end date. Using customers are Air Force, Army, Marine Corps, Navy and federal civilian agencies. Type of appropriation is fiscal 2021 through 2026 defense working capital funds. The contracting agency is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-21-D-3304).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE30021D3304"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-21-D-3304"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "US Foods",
+            "location": "Bismarck, North Dakota",
+            "contract_number": "SPE300-21-D-3304",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity",
+        "description": "Full-line food distribution",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, one response received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:46Z",
-  "source": "file:2021-07-22.html"
+  "source": "file:2021-07-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:49:44Z"
+  }
 }

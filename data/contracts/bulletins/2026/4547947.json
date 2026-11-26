@@ -11,93 +11,774 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hensel Phelps Construction Co., Greeley, Colorado, was awarded a $120,209,500 firm-fixed-price contract for facilities sustainment, restoration and modernization. Bids were solicited via the internet with four received. Work will be performed at the U.S. Air Force Academy, Colorado, with an estimated completion date of July 31, 2028. Fiscal 2026 operations and maintenance, defense-wide funds in the amount of $120,209,500 were obligated at the time of the award. U.S. Army Corps of Engineers, Omaha, Nebraska, is the contracting activity (W9128F-26-C-A044).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9128F26CA044"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 120209500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 120209500.0,
+        "funding_text": "Fiscal 2026 operations and maintenance, defense-wide funds in the amount of $120,209,500 were obligated at the time of the award",
+        "completion_date": "2028-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Omaha, Nebraska",
+          "code": "W9128F-26-C-A044"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Hensel Phelps Construction Co.",
+            "location": "Greeley, Colorado",
+            "contract_number": "W9128F-26-C-A044",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Facilities sustainment, restoration and modernization at the U.S. Air Force Academy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 120209500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 120209500,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "G & G Steel Inc.,* Russellville, Alabama, was awarded a $14,609,132 firm-fixed-price contract for fabrication and delivery of one replacement miter gate for the Poe Lock at the Soo Locks Complex. Bids were solicited via the internet with five received. Work will be performed in Sault Ste. Marie, Michigan, with an estimated completion date of July 31, 2029. Fiscal 2025 civil operation and maintenance funds in the amount of $14,609,132 were obligated at the time of the award. U.S. Army Corps of Engineers, Detroit, Michigan, is the contracting activity (W911XK-26-C-A020).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911XK26CA020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14609132.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14609132.0,
+        "funding_text": "Fiscal 2025 civil operation and maintenance funds in the amount of $14,609,132 were obligated at the time of the award",
+        "completion_date": "2029-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Detroit, Michigan",
+          "code": "W911XK-26-C-A020"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "G & G Steel Inc.",
+            "location": "Russellville, Alabama",
+            "contract_number": "W911XK-26-C-A020",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Fabrication and delivery of one replacement miter gate for the Poe Lock at the Soo Locks Complex",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14609132,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14609132,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; five received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SupplyCore Inc.,* Rockford, Illinois, has been awarded a maximum $112,500,000 modification (P00009) exercising the second 18-month option period of a two-year base contract (SPE8E3-23-D-0005) with two 18-month option periods for commercial maintenance, repair and operations products. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is South Korea and Japan, with a Jan. 26, 2028, ordering period end date. Using military services are Army, Navy, Air Force, and Marine Corps. Type of appropriation is fiscal 2026 through 2028 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E323D0005"
+        ],
+        "modification_numbers": [
+          "P00009"
+        ],
+        "is_modification": true,
+        "value_usd": 112500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SupplyCore Inc.",
+            "location": "Rockford, Illinois",
+            "contract_number": "SPE8E3-23-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Second 18-month option period exercise for commercial maintenance, repair and operations products (South Korea and Japan)",
+        "base_contract_number": "SPE8E3-23-D-0005",
+        "order_number": null,
+        "modification_number": "P00009",
+        "value_usd": 112500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Belleville Shoe Manufacturing Co.,* Belleville, Illinois (SPE1C1-26-D-0063, $37,447,003); and McRae Industries Inc.,* Mount Gilead, North Carolina (SPE1C1-26-D-0064, $32,998,023), have each been awarded a fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE1C1-24-R-0070 for general purpose and flight deck boots. This was a competitive acquisition with three responses received. These are three-year contracts with no option periods. The ordering period end date is July 15, 2029. Using military service is Navy. Type of appropriation is fiscal 2026 through 2029 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C126D0063",
+          "SPE1C126D0064",
+          "SPE1C124R0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 37447003.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Belleville Shoe Manufacturing Co.",
+            "location": "Belleville, Illinois",
+            "contract_number": "SPE1C1-26-D-0063",
+            "markers": "*"
+          },
+          {
+            "name": "McRae Industries Inc.",
+            "location": "Mount Gilead, North Carolina",
+            "contract_number": "SPE1C1-26-D-0064",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "General purpose and flight deck boots (solicitation SPE1C1-24-R-0070); three-year contracts, no options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37447003,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Sierra Nevada Co. LLC, Sparks, Nevada, has been awarded a maximum $12,012,815 firm-fixed-price contract for P-8 aircraft signal data processor depot level repairable spares. This was a sole-source acquisition using justification 10 U.S. Code 3204 (a)(1), as stated by Federal Acquisition Regulation 6.302-1. This is a two-year six-month contract with no option periods. The performance completion date is Jan. 16, 2029. Using customers are Navy and Royal Australian Air Force. Type of appropriation is fiscal 2026 Navy aircraft procurement funds. The contracting activity is Defense Logistics Agency Weapons Support, Philadelphia, Pennsylvania (SPRPA1-26-C-UA14).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA126CUA14"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12012815.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Philadelphia, Pennsylvania",
+          "code": "SPRPA1-26-C-UA14"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sierra Nevada Co. LLC",
+            "location": "Sparks, Nevada",
+            "contract_number": "SPRPA1-26-C-UA14",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "P-8 aircraft signal data processor depot level repairable spares; two-year six-month contract, no options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12012815,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Royal Australian Air Force"
+        ],
+        "competition": "Sole source, 10 U.S.C. 3204(a)(1) (FAR 6.302-1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "GSMS Inc.,* Camarillo, California, has been awarded a maximum $26,636,088 firm-fixed-price contract for Duloxetine HCL DR capsules. This was a competitive acquisition with one response received. This is a one-year base contract with four one-year option periods. Location of performance is India with a July 12, 2027, performance completion date. Using customers are War Department, Department of Veterans Affairs, Indian Health Services, and Federal Bureau of Prisons. Type of appropriation is fiscal 2026 through 2027 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D2-26-D-0008). (Awarded July 13, 2026)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D226D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26636088.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D2-26-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "GSMS Inc.",
+            "location": "Camarillo, California",
+            "contract_number": "SPE2D2-26-D-0008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Duloxetine HCL DR capsules; one-year base with four one-year options; performance in India",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26636088,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; one response received",
+        "award_date": "2026-07-13"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Verathon Inc., Bothell, Washington (SPE2DH-26-D-0016, $19,800,000), has been added as an awardee to the multiple award contract for airway and urology visualization equipment for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-21-R-0002 and awarded Feb. 10, 2022. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH26D0016",
+          "SPE2DH21R0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Verathon Inc.",
+            "location": "Bothell, Washington",
+            "contract_number": "SPE2DH-26-D-0016",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for airway and urology visualization equipment for DLA Electronic Catalog (solicitation SPE2DH-21-R-0002, awarded Feb. 10, 2022)",
+        "base_contract_number": "SPE2DH-21-R-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-02-10"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary & Mission Systems, Colorado Springs, Colorado, has been awarded a $101,750,347 hybrid cost-plus-fixed-fee and firm-fixed-price contract for Republic of Korea Peace Krypton Prime Mission Equipment sustainment. This contract provides for the maintenance, repair, and sustainment of an integrated suite of mission equipment and aircraft systems. Work will be performed at Colorado Springs, Colorado, and is expected to be completed by Dec. 31, 2030. This contract involves Foreign Military Sales (FMS) to the Republic of Korea. This contract was a sole source acquisition. FMS funds in the amount of $11,710,478 are being obligated at the time of award. The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8691-26-C-B010).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA869126CB010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 101750347.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11710478.0,
+        "funding_text": "FMS funds in the amount of $11,710,478 are being obligated at the time of award",
+        "completion_date": "2030-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8691-26-C-B010"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Republic of Korea"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary & Mission Systems",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8691-26-C-B010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid cost-plus-fixed-fee and firm-fixed-price",
+        "description": "Republic of Korea Peace Krypton Prime Mission Equipment sustainment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 101750347,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11710478,
+        "fms_countries": [
+          "Republic of Korea"
+        ],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Environmental Systems Research Institute Inc., Redlands, California, has been awarded a ceiling $62,058,967 firm-fixed-price contract for software and support. This contract provides for ArcGIS software licenses and embedded innovation engineers. Work will be performed across multiple locations globally and is expected to be completed July 27, 2031. This contract was a sole source acquisition. Fiscal 2026 operations and maintenance funds in the amount of $4,693,375; fiscal 2026 operations and maintenance funds (Air National Guard) in the amount of $758,000; and fiscal 2026 research, development, test and evaluation funds in the amount of $407,562, are being obligated at the time of award. The Air Force Lifecycle Management Center, Warner Robins, Georgia, is the contracting activity (FA8527-26-F-B024).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA852726FB024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 62058967.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5858937.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds in the amount of $4,693,375; fiscal 2026 operations and maintenance funds (Air National Guard) in the amount of $758,000; and fiscal 2026 research, development, test and evaluation funds in the amount of $407,562, are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Warner Robins, Georgia",
+          "code": "FA8527-26-F-B024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Environmental Systems Research Institute Inc.",
+            "location": "Redlands, California",
+            "contract_number": "FA8527-26-F-B024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "ArcGIS software licenses and embedded innovation engineers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 62058967,
+        "cumulative_value_usd": 62058967,
+        "obligated_usd": 5858937,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Next Semiconductor Technologies Inc., San Diego, California, has been awarded a $34,142,054 cost-plus-fixed-fee completion contract for Heterogenous Microelectronics for Assured Non-Kinetics. This contract provides for developing heterogeneous microelectronics components. Work will be performed at San Diego, California, and is expected to be completed by Sept. 13, 2031. This contract was a competitive acquisition, and two offers were received. Fiscal 2025 research, development, test and evaluation funds in the amount of $4,250,000; and fiscal 2026 research, development, test and evaluation funds in the amount of $1,000, are being obligated at time of award. The Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-26-C-B021).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA875026CB021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34142054.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4251000.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $4,250,000; and fiscal 2026 research, development, test and evaluation funds in the amount of $1,000, are being obligated at time of award",
+        "completion_date": "2031-09-13",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-26-C-B021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Next Semiconductor Technologies Inc.",
+            "location": "San Diego, California",
+            "contract_number": "FA8750-26-C-B021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion",
+        "description": "Heterogenous Microelectronics for Assured Non-Kinetics",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34142054,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4251000,
+        "fms_countries": [],
+        "competition": "Competitive; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Inc., McLean, Virginia, has been awarded a $23,536,582 firm-fixed-price, cost-plus-fixed-fee, and cost reimbursable contract for technical security team support services. This contract provides for program management, end-use monitoring, technology security support, food services support, and facilities management. Work will be performed in Pakistan and is expected to be completed by July 18, 2027. This contract involves Foreign Military Sales to Pakistan. This contract was a sole-source acquisition. Foreign Military Financing funds in the amount of $23,536,582 are being obligated at the time of award. The Air Force Life Cycle Management Center, Air Force Security Assistance and Cooperation Directorate, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8630-26-C-B004).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA863026CB004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23536582.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23536582.0,
+        "funding_text": "Foreign Military Financing funds in the amount of $23,536,582 are being obligated at the time of award",
+        "completion_date": "2027-07-18",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Air Force Security Assistance and Cooperation Directorate, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8630-26-C-B004"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Pakistan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "FA8630-26-C-B004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, and cost reimbursable",
+        "description": "Technical security team support services in Pakistan (program management, end-use monitoring, technology security, food services, facilities management)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23536582,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23536582,
+        "fms_countries": [
+          "Pakistan"
+        ],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The $9,996,111 contract modification awarded to General Atomics Integrated Intelligence Inc., Charlottesville, Virginia (FA8750-24-F-B008, P00023), incorrectly listed the fiscal year for obligated funds. The correct year for obligated funds is fiscal 2026.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA875024FB008"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9996111.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9996111.0,
+        "funding_text": "CORRECTION: The $9,996,111 contract modification awarded to General Atomics Integrated Intelligence Inc., Charlottesville, Virginia (FA8750-24-F-B008, P00023), incorrectly listed the fiscal year for obligated funds The correct year for obligated funds is fiscal 2026.",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "General Atomics Integrated Intelligence Inc.",
+            "location": "Charlottesville, Virginia",
+            "contract_number": "FA8750-24-F-B008",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to fiscal year of obligated funds on $9,996,111 modification (P00023)",
+        "base_contract_number": "FA8750-24-F-B008",
+        "order_number": null,
+        "modification_number": "P00023",
+        "value_usd": 9996111,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded a $25,058,195 modification (P00005) to a cost-plus-fixed-fee order (N0001925F0085) against a previously issued basic ordering agreement (N0001921G0006). This modification adds scope to provide non-recurring engineering, final design, fabrication, and delivery of Advanced Electronic Warfare A-kits for integration on Block III F/A-18E/F Super Hornet aircraft. The effort includes A-kits configured for aircraft with and without the wide band radar system, installation verification and checkout, modification instructions, and delivery of four flight test A-kits in support of developmental testing and fielding of the enhanced electronic warfare capability and future fleet modernization for the Navy. Work will be performed in St. Louis, Missouri (55%); Patuxent River, Maryland (20%); China Lake, California (15%); and El Segundo, California (10%), and is expected to be completed by December 2028. Fiscal 2026 research, development, test and evaluations (Navy) funds in the amount of $10,066,704 will be obligated at the time of award. This contract was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0001925F0085",
+          "N0001921G0006"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 25058195.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10066704.0,
+        "funding_text": "Fiscal 2026 research, development, test and evaluations (Navy) funds in the amount of $10,066,704 will be obligated at the time of award",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Non-recurring engineering, final design, fabrication, and delivery of Advanced Electronic Warfare A-kits for Block III F/A-18E/F Super Hornet aircraft",
+        "base_contract_number": "N0001921G0006",
+        "order_number": "N0001925F0085",
+        "modification_number": "P00005",
+        "value_usd": 25058195,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10066704,
+        "fms_countries": [],
+        "competition": "not competed",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Serco Inc., Herndon, Virginia, is awarded a $25,000,000 modification to a previously awarded, indefinite-delivery/indefinite-quantity contract (N0017422D0006) to increase the ceiling for support to field additional Close-In Weapon Systems and Counter Unmanned Aerial Systems. Work will be performed in Norfolk, Virginia (41%); San Diego, California (30%); Everett, Washington (6%); Mayport, Florida (6%); Pearl Harbor, Hawaii (5%); and various overseas ports (12%), and is expected to be completed by January 2027. No funding will be obligated at time of award. The Navy Surface Warfare Center Indian Head Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0017422D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award",
+        "completion_date": "2027-01",
+        "contracting_activity": {
+          "name": "The Navy Surface Warfare Center Indian Head Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Serco Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "N0017422D0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Ceiling increase to support fielding of additional Close-In Weapon Systems and Counter Unmanned Aerial Systems",
+        "base_contract_number": "N0017422D0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, is awarded $13,522,168 for a firm-fixed-price delivery order (N00383-26-F-SV0B) under previously awarded basic ordering agreement N00383-23-G-SV01 for the procurement of four different weapon repairable assembly types (for a total quantity of 50) in support of the P-8A Poseidon aircraft. The contract’s period of performance runs July 2026 through September 2029 and does not include any option periods. All work will be performed in McKinney, Texas. This contract involves Foreign Military Sales (FMS) to Germany (2%). Fiscal 2026 working capital funds (Navy) in the amount of $13,308,427 (98%); and FMS funds (Germany) in the amount of $213,741 (2%), will be obligated at time of award and funds will not expire at the end of fiscal 2026. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1) with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "N0038326FSV0B",
+          "N0038323GSV01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13522168.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13522168.0,
+        "funding_text": "Fiscal 2026 working capital funds (Navy) in the amount of $13,308,427 (98%); and FMS funds (Germany) in the amount of $213,741 (2%), will be obligated at time of award and funds will not expire at the end of fiscal 2026",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Germany"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "N00383-26-F-SV0B",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of four weapon repairable assembly types (total quantity 50) for the P-8A Poseidon aircraft",
+        "base_contract_number": "N00383-23-G-SV01",
+        "order_number": "N00383-26-F-SV0B",
+        "modification_number": null,
+        "value_usd": 13522168,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13522168,
+        "fms_countries": [
+          "Germany"
+        ],
+        "competition": "sole source; one offer received from one company solicited",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:58Z",
-  "source": "file:2026-07-16.html"
+  "source": "file:2026-07-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:16:57Z"
+  }
 }

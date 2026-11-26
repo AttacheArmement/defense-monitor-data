@@ -11,51 +11,407 @@
       "agency": "DEFENSE INTELLIGENCE AGENCY",
       "kind": "announcement",
       "text": "Cape Fox Facilities Services LLC, Manassas, Virginia, was awarded a $148,265,686 time and material, single-award blanket purchase agreement (BPA) for construction security and escort services. This contract provides for the full range of construction security and escort services, including program management, administrative support, and oversight. Work will be performed in the continental U.S. at government work locations inside and outside the National Capital Region, with an expected completion date of April 30, 2028. The first call order against this BPA using fiscal 2023 operations and management funds in the amount of $2,037,974 for the base year is being awarded and obligated immediately following this BPA award. This contract was a competitive acquisition and three offers were received. The Virginia Contracting Activity, Washington, D.C., is the contracting activity (HHM402-23-A-004).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HHM40223A004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 148265686.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2037974.0,
+        "funding_text": "The first call order against this BPA using fiscal 2023 operations and management funds in the amount of $2,037,974 for the base year is being awarded and obligated immediately following this BPA award",
+        "completion_date": "2028-04-30",
+        "contracting_activity": {
+          "name": "The Virginia Contracting Activity, Washington, D.C.",
+          "code": "HHM402-23-A-004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Cape Fox Facilities Services LLC",
+            "location": "Manassas, Virginia",
+            "contract_number": "HHM402-23-A-004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "time and material, single-award blanket purchase agreement (BPA)",
+        "description": "Construction security and escort services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 148265686,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2037974,
+        "fms_countries": [],
+        "competition": "competitive acquisition, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "KPMG LLP, McLean, Virginia, has been awarded an estimated $82,421,953 firm-fixed-price blanket purchase agreement (SP4704-23-A-0506) against a multiple-award schedule contract (GS-00F-275CA) for strategic audit integrator and advisor services and audit response and sustainment services in support of financial improvement and the audit readiness program. This was a competitive acquisition with four responses received. This is a one‐year agreement with four one-year option periods. Location of performance is Washington, D.C., with an April 30, 2024, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Contracting Services Office, Richmond, Virginia.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SP470423A0506"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 82421953.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office, Richmond, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "KPMG LLP",
+            "location": "McLean, Virginia",
+            "contract_number": "SP4704-23-A-0506",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price blanket purchase agreement against a multiple-award schedule contract",
+        "description": "Strategic audit integrator and advisor services and audit response and sustainment services supporting financial improvement and audit readiness program",
+        "base_contract_number": "GS-00F-275CA",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 82421953,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC,* Lajas, Puerto Rico, has been awarded a maximum $8,416,800 modification (P00003) exercising the first one-year option period of a one-year base contract (SPE1C1-22-D-1519) with three one-year option periods for trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. The ordering period end date is April 14, 2024. Using military services are Army and Air Force. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1519"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 8416800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-22-D-1519",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Trousers; exercise of first one-year option period",
+        "base_contract_number": "SPE1C1-22-D-1519",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 8416800,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bell Textron Inc., Fort Worth, Texas, has been awarded an estimated $7,960,693 modification (P00043) against a five-year contract (SPE4AX-17-D-9410) with one five-year option period for H-1 consumables. This is a firm-fixed-price requirements contract. The performance completion date is April 13, 2025. Using military service is Marine Corps. Type of appropriation is fiscal 2023 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE4AX17D9410"
+        ],
+        "modification_numbers": [
+          "P00043"
+        ],
+        "is_modification": true,
+        "value_usd": 7960693.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Bell Textron Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "SPE4AX-17-D-9410",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "H-1 consumables",
+        "base_contract_number": "SPE4AX-17-D-9410",
+        "order_number": null,
+        "modification_number": "P00043",
+        "value_usd": 7960693,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded a $20,000,000 firm-fixed-price contract for dredging projects. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of June 11, 2024. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-23-D-0057).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9127823D0057"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-06-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-23-D-0057"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W91278-23-D-0057",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dredging projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, was awarded a $10,959,072 modification (P00060) to contract W31P4Q-21-F-0095 for hardware-in-the-loop modeling and simulation, and development engineering services. Work will be performed at Redstone Arsenal, Alabama, with an estimated completion date of April 11, 2027. Fiscal 2010 Foreign Military Sales (Australia); and fiscal 2023 other procurement, Army funds in the amount of $10,959,072 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q21F0095"
+        ],
+        "modification_numbers": [
+          "P00060"
+        ],
+        "is_modification": true,
+        "value_usd": 10959072.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10959072.0,
+        "funding_text": "Fiscal 2010 Foreign Military Sales (Australia); and fiscal 2023 other procurement, Army funds in the amount of $10,959,072 were obligated at the time of the award",
+        "completion_date": "2027-04-11",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "W31P4Q-21-F-0095",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Hardware-in-the-loop modeling and simulation, and development engineering services",
+        "base_contract_number": "W31P4Q-21-F-0095",
+        "order_number": null,
+        "modification_number": "P00060",
+        "value_usd": 10959072,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10959072,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Textron Systems, Hunt Valley, Maryland, is awarded an $18,675,412 fixed-price incentive (firm target) modification to previously awarded contract N00024-14-C-6322 for retrofit of the Unmanned Influence Sweep System (UISS) Unmanned Surface Vehicle (USV). Work will be performed in Hunt Valley, Maryland (70%); and San Diego, California (30%), and is expected to be completed by June 2024. Fiscal 2023 other procurement (Navy) funds in the amount of $18,675,412 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C6322"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 18675412.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18675412.0,
+        "funding_text": "Fiscal 2023 other procurement (Navy) funds in the amount of $18,675,412 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Textron Systems",
+            "location": "Hunt Valley, Maryland",
+            "contract_number": "N00024-14-C-6322",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm target)",
+        "description": "Retrofit of the Unmanned Influence Sweep System (UISS) Unmanned Surface Vehicle (USV)",
+        "base_contract_number": "N00024-14-C-6322",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18675412,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18675412,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "U.S. Marine Management Inc., Norfolk, Virginia, is being awarded a $17,650,840 firm-fixed-price contract with reimbursable elements (N3220523C4223) for time charter of one U.S. Flag, double hull tanker Yosemite Trader with an Inert Gas System and Segregated Ballast Tanks that is capable of carrying a minimum of 300,000 barrels of clean petroleum products (intention JP8, JAA, or F76) within the vessel’s natural segregation in designated cargo tanks with double valve isolation. This contract includes a 12-month base period with two 12-month option periods, which, if exercised, would bring the cumulative value of this contract to $52,558,626. Work will be performed in Hawaii and worldwide, and is expected to be completed if all options are exercised by April 2026. Working capital funds (Transportation) in the amount of $17,650,840 are obligated for fiscal 2023, and will expire at the end of the fiscal year. This contract was competitively procured with proposals solicited via the System Award Management website and four offers were received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N3220523C4223"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17650840.0,
+        "cumulative_value_usd": 52558626.0,
+        "obligated_usd": 17650840.0,
+        "funding_text": "Working capital funds (Transportation) in the amount of $17,650,840 are obligated for fiscal 2023, and will expire at the end of the fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "U.S. Marine Management Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N3220523C4223",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with reimbursable elements (time charter)",
+        "description": "Time charter of one U.S. Flag double hull tanker Yosemite Trader",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17650840,
+        "cumulative_value_usd": 52558626,
+        "obligated_usd": 17650840,
+        "fms_countries": [],
+        "competition": "competitive, proposals solicited via SAM website, four offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-04-12.html"
+  "source": "file:2023-04-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:34:56Z"
+  }
 }

@@ -9,99 +9,801 @@
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "The Boeing Co., Ridley Park, Pennsylvania, was awarded a $877,742,891 firm-fixed-price delivery order (W9121516G0001 and H9224122F0073) for procurement of MH-47G rotary wing aircraft in support of U.S. Special Operations Command (USSOCOM). Most of the work will be performed in Ridley Park, Pennsylvania, and is expected to be completed by November 2030. U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9121516G0001",
+          "H9224122F0073"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 877742891.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-11",
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, MacDill Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Ridley Park, Pennsylvania",
+            "contract_number": "W9121516G0001 and H9224122F0073",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Procurement of MH-47G rotary wing aircraft for U.S. Special Operations Command (USSOCOM)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 877742891,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Applied Physics Laboratory, University of Washington, Seattle, Washington, was awarded a $474,319,378 cost-plus-fixed-fee modification to a previously awarded contract (N00024-21-D-6400) to exercise an option for research, development, engineering, and test and evaluation in support of programs throughout the Department of War (DOW) and other government agencies within its core competency areas including: experimental oceanography, acoustic propagation, underwater instrumentation and equipment, marine corrosion, acoustic and related systems, simulations and signal processing, mission-related and public services quick response research, development, and/or engineering. Work will be performed in Seattle, Washington, and is expected to be completed by October 2030. Funds of multiple different appropriation types and years from program offices and components throughout the DOW may be obligated on individual task orders for efforts that fall within the core competency areas. This contract is awarded pursuant to 10 U.S. Code 3204(a)(3), as implemented in FAR 6.302-3; Industrial mobilization; engineering, developmental, or research capability; or expert services. The Naval Sea Systems Command, Washington Navy Yard, D.C., is the contracting activity (N00024-21-D-6400) (Awarded Oct. 24, 2025).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002421D6400"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 474319378.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Funds of multiple different appropriation types and years from program offices and components throughout the DOW may be obligated on individual task orders for efforts that fall within the core competency areas",
+        "completion_date": "2030-10",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, D.C.",
+          "code": "N00024-21-D-6400"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Applied Physics Laboratory, University of Washington",
+            "location": "Seattle, Washington",
+            "contract_number": "N00024-21-D-6400",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Option exercise for research, development, engineering, and test and evaluation across DOW and other government agencies within core competency areas (experimental oceanography, acoustics, etc.)",
+        "base_contract_number": "N00024-21-D-6400",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 474319378,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Awarded pursuant to 10 U.S.C. 3204(a)(3) / FAR 6.302-3 (industrial mobilization; engineering, developmental, or research capability; or expert services)",
+        "award_date": "2025-10-24"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Walsh Federal LLC, Chicago, Illinois is awarded a $165,770,097 fixed-price-award-fee contract for a naval ordinance engineering test facility at Cape Canaveral Space Force Station, Florida. Work will be performed in Brevard County, Florida, and is expected to be completed by January 2028. Fiscal 2025 military construction (Navy) funds in the amount of $165,770,097, are obligated on this award and will not expire at the end of the current fiscal year. The contract also contains two unexercised options which, if exercised, would increase the cumulative contract value to $168,240,876. This contract was competitively procured via the sam.gov website, with two offers received. The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida, is the contracting activity (N69450-26-C-0010). (Awarded Nov. 18, 2025)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6945026C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 165770097.0,
+        "cumulative_value_usd": 168240876.0,
+        "obligated_usd": 165770097.0,
+        "funding_text": "Fiscal 2025 military construction (Navy) funds in the amount of $165,770,097, are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-01",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida",
+          "code": "N69450-26-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Walsh Federal LLC",
+            "location": "Chicago, Illinois",
+            "contract_number": "N69450-26-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-award-fee contract",
+        "description": "Naval ordinance engineering test facility at Cape Canaveral Space Force Station, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 165770097,
+        "cumulative_value_usd": 168240876,
+        "obligated_usd": 165770097,
+        "fms_countries": [],
+        "competition": "Competitive, sam.gov, two offers received",
+        "award_date": "2025-11-18"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Programs Management Analytics & Technologies Inc.,* Norfolk, Virginia, is being awarded an $89,000,000, firm-fixed-price, cost, and cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for production, repairs, engineering services, installation, and integration of the Tactical Edge Nodes (TEN) system to include small tactical edge nodes, TENs, servers, cross domain solutions, workstations, and switches, as well as maintenance, training, travel, incidentals, and logistics product data in support of the Maritime Targeting Cell-Afloat/eXpeditionary, and Program Executive Office-Integrated Warfare Systems. Work will be performed in Centennial, Colorado, and is expected to be completed by November 2030. Fiscal 2026 working capital funds (Navy) in the amount of $23,245 will be obligated at time of award. This contract action was not competitively procured via the SAM.gov website pursuant of the signed determination and findings from the other transaction authority in accordance with 10 U.S. Code 4022 (f)(2), that allows for the award of a follow-on production contract or other transaction without the use of competitive procedures when competitive procedures are utilized for selection of the parties to the prototype project other transaction and the participants in the transaction successfully completed the prototype project provided for in the other transaction. Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N0016426DJW79).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0016426DJW79"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23245.0,
+        "funding_text": "Fiscal 2026 working capital funds (Navy) in the amount of $23,245 will be obligated at time of award",
+        "completion_date": "2030-11",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Crane Division, Crane, Indiana",
+          "code": "N0016426DJW79"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Programs Management Analytics & Technologies Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N0016426DJW79",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost, and cost-plus-fixed-fee indefinite-delivery/indefinite-quantity contract",
+        "description": "Production, repairs, engineering services, installation, and integration of the Tactical Edge Nodes (TEN) system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 89000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23245,
+        "fms_countries": [],
+        "competition": "Not competitively procured via SAM.gov; follow-on production under 10 U.S.C. 4022(f)(2) other transaction authority",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Manassas, Virginia, is awarded a $68,711,261 cost-plus-fixed-fee, term, and cost-only modification to a previously awarded contract (N00024-25-C-6108) for systems engineering and integration on Navy submarines. Work will be performed in Manassas, Virginia (68%); Waterford Connecticut (10%); Groton Connecticut (10%); Middletown, Rhode Island (7%); and Newport, Rhode Island (5%), and is expected to be completed by November 2026. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $3,500,000 will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002425C6108"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 68711261.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $3,500,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-11",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-25-C-6108",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, term, and cost-only",
+        "description": "Systems engineering and integration on Navy submarines",
+        "base_contract_number": "N00024-25-C-6108",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 68711261,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Systems Application & Technologies Inc.,* Upper Marlboro, Maryland, was awarded a $117,751,620 cost-plus-fixed-fee contract for providing contractor support for field, chamber, laboratory, and range developmental and operational testing. The amount of this action is. Bids were solicited via the internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Nov. 30, 2032. Army Mission Installation Contracting Command, Fort Sam Houston, Texas, is the contracting activity (W51EW7-26-D-A001).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W51EW726DA001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 117751620.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2032-11-30",
+        "contracting_activity": {
+          "name": "Army Mission Installation Contracting Command, Fort Sam Houston, Texas",
+          "code": "W51EW7-26-D-A001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Systems Application & Technologies Inc.",
+            "location": "Upper Marlboro, Maryland",
+            "contract_number": "W51EW7-26-D-A001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Contractor support for field, chamber, laboratory, and range developmental and operational testing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 117751620,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Solicited via internet, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, was awarded a $100,000,000 firm-fixed-price contract for a family of radios, ancillary, and spare items. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2030. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-26-D-5000).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB26D5000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2030-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-26-D-5000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "W91CRB-26-D-5000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Family of radios, ancillary, and spare items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Southeast Asia Systems Co., Tewksbury, Massachusetts, was awarded a $57,700,859 modification (P00007) to contract W31P4Q-24-C-0005 for Phased Array Tracking Radar to Intercept of Target depot operations, technical assistance, and new equipment training. The modification brings the total cumulative face value of the contract to $200,096,762. Work will be performed in Doha, Qatar, with an estimated completion date of Dec. 31, 2026. Fiscal 2026 Foreign Military Sales (Qatar) funds in the amount of $57,700,859 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q24C0005"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 57700859.0,
+        "cumulative_value_usd": 200096762.0,
+        "obligated_usd": 57700859.0,
+        "funding_text": "Fiscal 2026 Foreign Military Sales (Qatar) funds in the amount of $57,700,859 were obligated at the time of the award",
+        "completion_date": "2026-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Raytheon Southeast Asia Systems Co.",
+            "location": "Tewksbury, Massachusetts",
+            "contract_number": "W31P4Q-24-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Phased Array Tracking Radar to Intercept of Target depot operations, technical assistance, and new equipment training",
+        "base_contract_number": "W31P4Q-24-C-0005",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 57700859,
+        "cumulative_value_usd": 200096762,
+        "obligated_usd": 57700859,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Amentum Services, Chantilly, Virginia, was awarded a $26,856,358 modification (P00062) to contract W58RGZ-25-C-0003 to provide global aviation maintenance services. The modification brings the total cumulative face value of the contract to $234,547,115. Work will be performed in Chantilly, Virginia, with an estimated completion date of June 12, 2026. Fiscal 2026 operation and maintenance, Army funds in the amount of $26,856,358 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ25C0003"
+        ],
+        "modification_numbers": [
+          "P00062"
+        ],
+        "is_modification": true,
+        "value_usd": 26856358.0,
+        "cumulative_value_usd": 234547115.0,
+        "obligated_usd": 26856358.0,
+        "funding_text": "Fiscal 2026 operation and maintenance, Army funds in the amount of $26,856,358 were obligated at the time of the award",
+        "completion_date": "2026-06-12",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Amentum Services",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W58RGZ-25-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Global aviation maintenance services",
+        "base_contract_number": "W58RGZ-25-C-0003",
+        "order_number": null,
+        "modification_number": "P00062",
+        "value_usd": 26856358,
+        "cumulative_value_usd": 234547115,
+        "obligated_usd": 26856358,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Callan Marine Ltd., Galveston, Texas, was awarded a $21,420,562 firm-fixed-price contract for maintenance dredging with beneficial use placement. Bids were solicited via the internet with four received. Work will be performed in Port Mansfield, Texas, with an estimated completion date of July 31, 2026. Fiscal 2025 operation and maintenance, Army funds in the amount of $21,420,562 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston District, is the contracting activity (W912HY-26-C-A001).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912HY26CA001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21420562.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21420562.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $21,420,562 were obligated at the time of the award",
+        "completion_date": "2026-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston District",
+          "code": "W912HY-26-C-A001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Callan Marine Ltd.",
+            "location": "Galveston, Texas",
+            "contract_number": "W912HY-26-C-A001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging with beneficial use placement",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21420562,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21420562,
+        "fms_countries": [],
+        "competition": "Solicited via internet, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Great Lakes Dredge & Dock Co. LLC, Houston, Texas, was awarded a $20,244,400 firm-fixed-price contract for beach renourishment. Bids were solicited via the internet with one received. Work will be performed in Palm Beach, Florida, with an estimated completion date of May 8, 2026. Fiscal 2023 and 2025 civil construction funds in the amount of $20,244,400 were obligated at the time of the award. U.S. Army Corps of Engineers, Jacksonville District, is the contracting activity (W912EP-26-C-A005).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W912EP26CA005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20244400.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20244400.0,
+        "funding_text": "Fiscal 2023 and 2025 civil construction funds in the amount of $20,244,400 were obligated at the time of the award",
+        "completion_date": "2026-05-08",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Jacksonville District",
+          "code": "W912EP-26-C-A005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge & Dock Co. LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W912EP-26-C-A005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Beach renourishment in Palm Beach, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20244400,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20244400,
+        "fms_countries": [],
+        "competition": "Solicited via internet, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "KBR Services LLC, Houston, Texas, was awarded a cost-plus-fixed-fee contract for Enhanced Army Global Logistics Enterprise Army Prepositioned Stocks-3 afloat maintenance, supply, and transportation logistics support services at Joint Base Charleston, South Carolina. The amount of this action is $14,753,434, with a total cumulative face value of $503,064,064. Bids were solicited via the internet with 11 received. Work locations and funding will be determined with each order, with an estimated completion date of June 1, 2026. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-12-G-0061).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J12G0061"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14753434.0,
+        "cumulative_value_usd": 503064064.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-06-01",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-12-G-0061"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "KBR Services LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W52P1J-12-G-0061",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Enhanced Army Global Logistics Enterprise Army Prepositioned Stocks-3 afloat maintenance, supply, and transportation logistics support at Joint Base Charleston, South Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14753434,
+        "cumulative_value_usd": 503064064,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Solicited via internet, 11 received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "ASRC Federal Facilities Logistics LLC, doing business as AFFL, Fairfield, New Jersey, has been awarded an estimated $12,760,488 fixed-price with economic-price-adjustment, indefinite-quantity contract for logistics and total supply chain management support at Red River Army Depot, New Boston, Texas. This was a competitive acquisition with three responses received. This is a three-year base contract with two two-year option periods and six 30-day extensions. The performance completion date is Nov. 19, 2028. Using military service is Army. Type of appropriation is fiscal 2026 through 2028 defense working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Columbus, Ohio (SPE7LX-26-D-0010).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX26D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12760488.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Columbus, Ohio",
+          "code": "SPE7LX-26-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "ASRC Federal Facilities Logistics LLC, doing business as AFFL",
+            "location": "Fairfield, New Jersey",
+            "contract_number": "SPE7LX-26-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity contract",
+        "description": "Logistics and total supply chain management support at Red River Army Depot, New Boston, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12760488,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "LOC Performance Products LLC, Plymouth, Michigan, has been awarded a maximum $10,163,794 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for vehicular final drives. This was a competitive acquisition with four responses received. This is a five-year contract with no option periods. The ordering period end date is Nov. 18, 2030. Using military service is Army. Type of appropriation is fiscal 2026 Army working capital funds. The contracting activity is Defense Logistics Agency Weapons Support, Warren, Michigan (SPRDL1-26-D-0010).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL126D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10163794.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Weapons Support, Warren, Michigan",
+          "code": "SPRDL1-26-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "LOC Performance Products LLC",
+            "location": "Plymouth, Michigan",
+            "contract_number": "SPRDL1-26-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Vehicular final drives",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10163794,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, four responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Network Management Resources Inc., Huntsville, Alabama is being awarded a $47,108,811 noncompetitive cost-plus-incentive modification (P00155) to the Research and Development for Enterprise Collaboration Services contract. Under this modification, the contractor will continue to provide video teleconferencing, audiovisual support, portal development and management, data and business automation services, and end-user training under the 8000 series contract line-item numbers. The work will be performed in Fort Belvoir, Virginia; Huntsville, Alabama; Colorado Springs, Colorado; and Dahlgren, Virginia. The performance period is from November 2025 to October 2027. One offer was solicited, and one offer was received. Fiscal 2025 research, development, test and evaluation funds in the amount of $1,168,535 are being obligated on this award and will expire at the end of the current fiscal year. The Missile Defense Agency, Colorado Springs, Colorado, is the contracting activity HQ0796-18-C-0001. (Awarded Oct. 30, 2025)",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HQ079618C0001"
+        ],
+        "modification_numbers": [
+          "P00155"
+        ],
+        "is_modification": true,
+        "value_usd": 47108811.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1168535.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation funds in the amount of $1,168,535 are being obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Colorado Springs, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Network Management Resources Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "HQ0796-18-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive",
+        "description": "Enterprise Collaboration Services support (video teleconferencing, audiovisual, portal development and management, data and business automation, end-user training) under Research and Development for Enterprise Collaboration Services contract",
+        "base_contract_number": "HQ0796-18-C-0001",
+        "order_number": null,
+        "modification_number": "P00155",
+        "value_usd": 47108811,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1168535,
+        "fms_countries": [],
+        "competition": "noncompetitive; one offer solicited, one received",
+        "award_date": "2025-10-30"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, was awarded a ceiling $9,687,497 cost-plus-fixed-fee and firm-fixed-price, indefinite contract for Kingdom of Spain Air and Space Force MQ-9A remotely piloted aircraft systems contract logistics support this contract provides logistics support activities including depot repair, engineering services, field team support and software maintenance services for the Spanish Air and Space Force. Work will be performed at Poway, California, and is expected to be completed by Aug. 31, 2026. This contract involves Foreign Military Sales (FMS) to Spain. This contract was a sole source acquisition. FMS funds in the amount of $4,746,874 will be obligated at the time of award. The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA8689-26-C-B002).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "FA868926CB002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9687497.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4746874.0,
+        "funding_text": "FMS funds in the amount of $4,746,874 will be obligated at the time of award",
+        "completion_date": "2026-08-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": "FA8689-26-C-B002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Spain"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8689-26-C-B002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and firm-fixed-price, indefinite contract",
+        "description": "Kingdom of Spain MQ-9A remotely piloted aircraft systems contract logistics support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9687497,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4746874,
+        "fms_countries": [
+          "Spain"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:57Z",
-  "source": "file:2025-11-20.html"
+  "source": "file:2025-11-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T18:42:41Z"
+  }
 }

@@ -11,99 +11,834 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, has been awarded a $325,000,000 ceiling increase modification (P00010) to previously awarded contract FA8672-19-D-0001 for the StormBreaker® Small Diameter Bomb Increment II (SDB II, GBU-53/B). The modification brings the total cumulative face value of the contract from $275,000,000 to $600,000,000. Work will be performed in Tucson, Arizona, and is expected to be completed by Dec. 31, 2026. No funds are being obligated at the time of award. The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA867219D0001"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 325000000.0,
+        "cumulative_value_usd": 275000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2026-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8672-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Ceiling increase modification for StormBreaker Small Diameter Bomb Increment II (SDB II, GBU-53/B)",
+        "base_contract_number": "FA8672-19-D-0001",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 325000000,
+        "cumulative_value_usd": 600000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "North Star Construction And Engineering Inc., Yuba City, California (FA4686-24-D-0002); Martin Brothers Construction, Sacramento, California (FA4686-24-D-0003); West Point Contractors Inc., Tucson, Arizona (FA4686-24-D-0004); Central Environmental Inc., Anchorage, Alaska (FA4686-24-D-0005); Goodfellow Mountain Methods JV LLC, Tuolumne, California (FA4686-24-D-0006); AHTSWP LLC, Irvine, California (FA4686-24-D-0007); and, S.T. Rhoades Construction Inc., Redding, California (FA4686-24-D-0008), were awarded an indefinite-delivery/indefinite-quantality contract with a total ceiling of $70,000,000 for construction work. This contract provides for construction work on real property at Beale Air Force Base, California. Work will be performed at Beale AFB, California, and is expected to be completed by June 30, 2029. This contract was a competitive acquisition, and seven offers were received. Fiscal 2024 operation and maintenance funds in the amount of $12,000 are being obligated at time of award. The 9th Contracting Squadron, Beale AFB, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA468624D0002",
+          "FA468624D0003",
+          "FA468624D0004",
+          "FA468624D0005",
+          "FA468624D0006",
+          "FA468624D0007",
+          "FA468624D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12000.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $12,000 are being obligated at time of award",
+        "completion_date": "2029-06-30",
+        "contracting_activity": {
+          "name": "The 9th Contracting Squadron, Beale AFB, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "North Star Construction And Engineering Inc.",
+            "location": "Yuba City, California",
+            "contract_number": "FA4686-24-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Martin Brothers Construction",
+            "location": "Sacramento, California",
+            "contract_number": "FA4686-24-D-0003",
+            "markers": null
+          },
+          {
+            "name": "West Point Contractors Inc.",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA4686-24-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Central Environmental Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "FA4686-24-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Goodfellow Mountain Methods JV LLC",
+            "location": "Tuolumne, California",
+            "contract_number": "FA4686-24-D-0006",
+            "markers": null
+          },
+          {
+            "name": "AHTSWP LLC",
+            "location": "Irvine, California",
+            "contract_number": "FA4686-24-D-0007",
+            "markers": null
+          },
+          {
+            "name": "S.T. Rhoades Construction Inc.",
+            "location": "Redding, California",
+            "contract_number": "FA4686-24-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Construction work on real property at Beale Air Force Base, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12000,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CAE USA Inc., Arlington, Texas, has been awarded a $35,167,362 definitization modification (PZ0005) to previously awarded contract FA8621-23-C-0023 to provide F-16 Block 70 training simulators program for the Taiwan Air Force. The modification brings the total cumulative face value of the contract to $58,290,077. Work will be performed at Arlington, Texas, and is expected to be completed by April 30, 2026. This contract involves Foreign Military Sales to the Taiwan Air Force. Foreign Military Sales funds in the amount of $35,167,362 are being obligated at the time of award. The Air Force Life Cycle Management Center, Agile Combat Support Directorate, Simulators Division, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA862123C0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 35167362.0,
+        "cumulative_value_usd": 58290077.0,
+        "obligated_usd": 35167362.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $35,167,362 are being obligated at the time of award",
+        "completion_date": "2026-04-30",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Agile Combat Support Directorate, Simulators Division, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Taiwan Air Force"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "CAE USA Inc.",
+            "location": "Arlington, Texas",
+            "contract_number": "FA8621-23-C-0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "definitization modification",
+        "description": "F-16 Block 70 training simulators program for the Taiwan Air Force",
+        "base_contract_number": "FA8621-23-C-0023",
+        "order_number": null,
+        "modification_number": "PZ0005",
+        "value_usd": 35167362,
+        "cumulative_value_usd": 58290077,
+        "obligated_usd": 35167362,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "EDL Construction Inc., Henderson, Nevada, was awarded a $16,692,313 firm-fixed-price task order for a reginal base cluster prepositioning kit. This contract provides for three pre-engineered buildings and one wash rack pre-engineered building. Work will be performed at Joint Base Elmendorf-Richardson, Alaska, and is expected to be completed by Sept. 30, 2025. This contract was a competitive acquisition, and two offers were received. Fiscal 2024 operation and maintenance funds in the amount of $16,692,313 are being obligated at the time of award. The 673rd Contracting Squadron, JBER, Alaska, is the contracting activity (FA5000-24-F-0077).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA500024F0077"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16692313.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16692313.0,
+        "funding_text": "Fiscal 2024 operation and maintenance funds in the amount of $16,692,313 are being obligated at the time of award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "The 673rd Contracting Squadron, JBER, Alaska",
+          "code": "FA5000-24-F-0077"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "EDL Construction Inc.",
+            "location": "Henderson, Nevada",
+            "contract_number": "FA5000-24-F-0077",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Regional base cluster prepositioning kit (three pre-engineered buildings and one wash rack pre-engineered building) at JBER, Alaska",
+        "base_contract_number": null,
+        "order_number": "FA5000-24-F-0077",
+        "modification_number": null,
+        "value_usd": 16692313,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16692313,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sonalysts Inc., Waterford, Connecticut, has been awarded a $15,642,067 contract change proposal modification (P00122) to previously awarded contract FA8806-19-C-0002 for operational test and training infrastructure capabilities development. The modification brings the total cumulative face value of the contract $189,557,169. Work will be performed at Waterford, Connecticut, and is expected to be completed by Jan. 26, 2026. Fiscal 2024 research, development, test, and evaluation funds in the amount of $1,629,000 are being obligated at the time of award. Space Systems Command, Peterson Space Force Base, Colorado, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA880619C0002"
+        ],
+        "modification_numbers": [
+          "P00122"
+        ],
+        "is_modification": true,
+        "value_usd": 15642067.0,
+        "cumulative_value_usd": 189557169.0,
+        "obligated_usd": 1629000.0,
+        "funding_text": "Fiscal 2024 research, development, test, and evaluation funds in the amount of $1,629,000 are being obligated at the time of award",
+        "completion_date": "2026-01-26",
+        "contracting_activity": {
+          "name": "Space Systems Command, Peterson Space Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sonalysts Inc.",
+            "location": "Waterford, Connecticut",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Contract change proposal for operational test and training infrastructure capabilities development",
+        "base_contract_number": "FA8806-19-C-0002",
+        "order_number": null,
+        "modification_number": "P00122",
+        "value_usd": 15642067,
+        "cumulative_value_usd": 189557169,
+        "obligated_usd": 1629000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, was awarded a $191,162,557 cost-plus-fix-fee contract for software sustainment services. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of July 25, 2029. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W15P7T-24-D-0007).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W15P7T24D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 191162557.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-07-25",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W15P7T-24-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W15P7T-24-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Software sustainment services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 191162557,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "McCarthy Building Companies Inc., St. Louis, Missouri, was awarded a $169,455,196 firm-fixed-price contract for ship channel improvement. Bids were solicited via the internet with four received. Work will be performed in Houston, Texas, with an estimated completion date of July 29, 2026. Fiscal 2024 civil construction funds in the amount of $169,455,196 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-24-C-0006).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912HY24C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 169455196.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169455196.0,
+        "funding_text": "Fiscal 2024 civil construction funds in the amount of $169,455,196 were obligated at the time of the award",
+        "completion_date": "2026-07-29",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Galveston, Texas",
+          "code": "W912HY-24-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "McCarthy Building Companies Inc.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W912HY-24-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Ship channel improvement in Houston, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 169455196,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169455196,
+        "fms_countries": [],
+        "competition": "internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Swinerton Builders, Concord, California, was awarded a $54,910,000 firm-fixed-price contract to construct a United States Department of Agriculture research and development center. Bids were solicited via the internet with three received. Work will be performed in Davis, California, with an estimated completion date of Nov. 13, 2026. Fiscal 2024 civil construction funds in the amount of $54,910,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-24-C-0017).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9123824C0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54910000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54910000.0,
+        "funding_text": "Fiscal 2024 civil construction funds in the amount of $54,910,000 were obligated at the time of the award",
+        "completion_date": "2026-11-13",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-24-C-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Swinerton Builders",
+            "location": "Concord, California",
+            "contract_number": "W91238-24-C-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Construction of a USDA research and development center in Davis, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54910000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 54910000,
+        "fms_countries": [],
+        "competition": "internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "J&J Maintenance Inc., Austin, Texas, was awarded a $15,384,439 modification (P00016) to contract W91278-22-C-0027 for operations and maintenance at Brooke Army Medical Center and Fisher House facilities. Work will be performed in San Antonio, Texas, with an estimated completion date of July 28, 2025. Fiscal 2024 Defense Health Program funds in the amount of $15,384,439 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W9127822C0027"
+        ],
+        "modification_numbers": [
+          "P00016"
+        ],
+        "is_modification": true,
+        "value_usd": 15384439.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15384439.0,
+        "funding_text": "Fiscal 2024 Defense Health Program funds in the amount of $15,384,439 were obligated at the time of the award",
+        "completion_date": "2025-07-28",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "J&J Maintenance Inc.",
+            "location": "Austin, Texas",
+            "contract_number": "W91278-22-C-0027",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Operations and maintenance at Brooke Army Medical Center and Fisher House facilities",
+        "base_contract_number": "W91278-22-C-0027",
+        "order_number": null,
+        "modification_number": "P00016",
+        "value_usd": 15384439,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15384439,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics One Source LLC, Falls Church, Virginia, is awarded a $70,691,796 cost-plus-fixed-fee contract. This contract procures transitional information technology (IT) and information assurance and cybersecurity services to include program and performance management, enterprise architecture, documentation management, emerging capabilities and requirements implementation, life cycle management, operations and maintenance, enterprise data management, service desk support, IT training, application and software licensure management which are critical to the successful fielding of mission capabilities in support of Virtual Enterprise network and standalone workstations for the F-35 Joint Strike Fighter aircraft. Work will be performed in Arlington, Virginia (79.9%); Edwards Air Force Base, California (5.5%); Patuxent River, Maryland (3.7%); Fort Worth, Texas (3%); Eglin AFB, Florida (2.4%); China Lake, California (1.2%); Wright Patterson AFB, Ohio (1.2%); and other various locations within the continental U.S. (3%) and is expected to be completed January 2026. Fiscal 2024 aircraft procurement (Air Force) funds in the amount of $37,597,870; fiscal 2023 aircraft procurement (Air Force) funds in the amount of $5,990,962; fiscal 2024 operations and maintenance (Air Force) funds in the amount of $256,519; fiscal 2024 operations and maintenance (Navy) funds in the amount of $128,260; fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $128,260 and Foreign Military Sales customer funds in the amount $800,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 2304(C)(1). Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001924C0057).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001924C0057"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70691796.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 44101871.0,
+        "funding_text": "Fiscal 2024 aircraft procurement (Air Force) funds in the amount of $37,597,870; fiscal 2023 aircraft procurement (Air Force) funds in the amount of $5,990,962; fiscal 2024 operations and maintenance (Air Force) funds in the amount of $256,519; fiscal 2024 operations and maintenance (Navy) funds in the amount of $128,260; fiscal 2024 operations and maintenance (Marine Corps) funds in the amount of $128,260 and Foreign Military Sales customer funds in the amount $800,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001924C0057"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "General Dynamics One Source LLC",
+            "location": "Falls Church, Virginia",
+            "contract_number": "N0001924C0057",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Transitional IT, information assurance and cybersecurity services supporting Virtual Enterprise network and standalone workstations for the F-35 Joint Strike Fighter",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70691796,
+        "cumulative_value_usd": null,
+        "obligated_usd": 44,
+        "fms_countries": [],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "CAE USA Inc., Tampa, Florida, is awarded a $57,125,186 firm-fixed-price contract to procure one Tactical Operational Flight Trainer and one Avionics Maintenance and Weapons Load Trainer to include associated requisite hardware, courseware, network components, training, and documentation, as well as provide upgrades with unique modification to include identification friend or foe (IFF) interrogator, IFF transponder, traffic collision avoidance system, anti-ship missile, and depth charge in support of training for MH-60R helicopter pilots and mission crew for the government of India. Work will be performed in Tampa, Florida (65%); and Kochi, India (35%), and expected to be completed in August 2028. Foreign Military Sales customer funds in the amount of $57,125,186 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 3204 (c)(4). Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity (N6134024C0013).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6134024C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 57125186.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57125186.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $57,125,186 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2028-08",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": "N6134024C0013"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "CAE USA Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "N6134024C0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "One Tactical Operational Flight Trainer and one Avionics Maintenance and Weapons Load Trainer for MH-60R training, government of India",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57125186,
+        "cumulative_value_usd": null,
+        "obligated_usd": 57125186,
+        "fms_countries": [
+          "India"
+        ],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 3204(c)(4)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded $49,753,000 for ceiling-priced delivery order (N00383-24-F-YY2E) under a previously awarded basic ordering agreement (N00383-22-G-YY01) for the procurement of 11 inner wing assembly spares in support of the F/A-18 E/F aircraft. The delivery order does not include an option provision. Work will be performed in Hazelwood, Missouri (80%); and St. Louis, Missouri (20%). Work is expected to be completed by December 2027. Working capital funds (Navy) in the amount of $24,378,970 will be obligated at time of award as an undefinitized contract action, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0038324FYY2E",
+          "N0038322GYY01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49753000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24378970.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $24,378,970 will be obligated at time of award as an undefinitized contract action, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2027-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00383-24-F-YY2E",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "ceiling-priced delivery order, undefinitized contract action",
+        "description": "11 inner wing assembly spares for F/A-18 E/F aircraft",
+        "base_contract_number": "N00383-22-G-YY01",
+        "order_number": "N00383-24-F-YY2E",
+        "modification_number": null,
+        "value_usd": 49753000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24378970,
+        "fms_countries": [],
+        "competition": "sole source, one offer received pursuant to 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded $17,286,000 for ceiling-priced delivery order (N00383-24-F-YY2A) under previously awarded basic ordering agreement (N00383-22-G-YY01) for the procurement of 12 outer wing assembly spares in support of the F/A-18 E/F aircraft. The delivery order does not include an option provision. Work will be performed in Hazelwood, Missouri (80%); and St. Louis, Missouri (20%). Work is expected to be completed by June 2028. Working capital funds (Navy) in the amount of $8,470,140 will be obligated at time of award as an undefinitized contract action, and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 3204 (a)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0038324FYY2A",
+          "N0038322GYY01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17286000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8470140.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $8,470,140 will be obligated at time of award as an undefinitized contract action, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2028-06",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "ceiling-priced delivery order (undefinitized contract action)",
+        "description": "Procurement of 12 outer wing assembly spares for the F/A-18 E/F aircraft",
+        "base_contract_number": "N00383-22-G-YY01",
+        "order_number": "N00383-24-F-YY2A",
+        "modification_number": null,
+        "value_usd": 17286000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8470140,
+        "fms_countries": [],
+        "competition": "sole source; one company solicited, one offer received (10 U.S.C. 3204(a)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Vectrus Systems Corp., Colorado Springs, Colorado, is awarded $10,066,378 for firm-fixed-price, indefinite-delivery/indefinite-quantity modification to previously awarded contract (N62470-20-D-0004). This modification provides for the exercise of Option Four for base operating support services at Naval Support Facility Deveselu. Work will be performed in Deveselu, Romania, and is expected to be completed by July 2025. This award brings the total cumulative face value to $50,477,836. Fiscal 2024 operation and maintenance (Navy) funds will be obligated on individual task orders, subject to the availability of funds. No funds will be obligated at time of award. The Naval Facilities Engineering Systems Command, Europe, Africa, Central, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N6247020D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10066378.0,
+        "cumulative_value_usd": 50477836.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2024 operation and maintenance (Navy) funds will be obligated on individual task orders, subject to the availability of funds No funds will be obligated at time of award",
+        "completion_date": "2025-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Europe, Africa, Central",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "N62470-20-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of Option Four for base operating support services at Naval Support Facility Deveselu, Romania",
+        "base_contract_number": "N62470-20-D-0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10066378,
+        "cumulative_value_usd": 50477836,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Intellect Solutions LLC, Alexandria, Virginia, is awarded a $34,996,813 firm-fixed-price task order (HT942524F0213) to provide services and material to support the Uniform Business Office and the Data Quality Management Control office within the Cost Accounting Division, Revenue Cycle Management Branch, Defense Health Agency. The award is the result of a competitive Women-Owned Small Business set aside through the General Services Administration One Acquisition Solution for Integrated Services Small Business Pool 1. Place of performance is Falls Church, Virginia. Period of performance is Aug. 1, 2024, to Jan. 31, 2028. The award consists of one six-month period of performance with three one-year option periods. Fiscal year 2024 operations and maintenance funds were obligated at time of award for the base period of performance. The U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland, is the contracting activity. (Awarded July 19, 2024.)",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HT942524F0213"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34996813.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal year 2024 operations and maintenance funds were obligated at time of award for the base period of performance",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Intellect Solutions LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "HT942524F0213",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Services and material to support the Uniform Business Office and Data Quality Management Control office, Defense Health Agency Revenue Cycle Management Branch",
+        "base_contract_number": null,
+        "order_number": "HT942524F0213",
+        "modification_number": null,
+        "value_usd": 34996813,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive Women-Owned Small Business set aside via GSA One Acquisition Solution for Integrated Services Small Business Pool 1",
+        "award_date": "2024-07-19"
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp. Missiles and Fire Control, Dallas, Texas, is being awarded a $10,608,744 modification (P00084) to a previously awarded contract (HQ0147-17-C-0032) for the acquisition of Terminal High Altitude Area Defense (THAAD) Interceptors Life of Need (LON)/Bridge Buy #10 Obsolescence equipment to support the U.S. government. The THAAD Interceptors associated LON equipment will be procured under a firm-fixed-price contract line item. The value of this contract is increased from $8,323,293,818 to $8,333,902,562. The work will be performed in Dallas, Texas; Sunnyvale, California; Huntsville, Alabama; Camden, Arkansas; and Troy, Alabama, with an expected completion date of Jan. 7, 2025. Fiscal 2023 and 2024 U.S. government procurement funds in the amount of $10,608,744 are being obligated at time of award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "HQ014717C0032"
+        ],
+        "modification_numbers": [
+          "P00084"
+        ],
+        "is_modification": true,
+        "value_usd": 10608744.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10608744.0,
+        "funding_text": "Fiscal 2023 and 2024 U.S. government procurement funds in the amount of $10,608,744 are being obligated at time of award",
+        "completion_date": "2025-01-07",
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp. Missiles and Fire Control",
+            "location": "Dallas, Texas",
+            "contract_number": "HQ0147-17-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price contract line item",
+        "description": "Terminal High Altitude Area Defense (THAAD) Interceptors Life of Need/Bridge Buy #10 Obsolescence equipment",
+        "base_contract_number": "HQ0147-17-C-0032",
+        "order_number": null,
+        "modification_number": "P00084",
+        "value_usd": 10608744,
+        "cumulative_value_usd": 8333902562,
+        "obligated_usd": 10608744,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:53Z",
-  "source": "file:2024-07-26.html"
+  "source": "file:2024-07-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:41:10Z"
+  }
 }

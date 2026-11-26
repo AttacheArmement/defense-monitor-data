@@ -12,27 +12,207 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Technica LLC, Charleston, South Carolina, was awarded a $21,676,680 cost-plus-fixed-fee contract for logistics support services. Bids were solicited via the internet with six received. Work will be performed at Fort Liberty, North Carolina, with an estimated completion date of Dec. 31, 2029. Fiscal 2025 operation and maintenance, Army funds in the amount of $367,605 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-25-F-0040).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W519TC25F0040"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21676680.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 367605.0,
+        "funding_text": "Fiscal 2025 operation and maintenance, Army funds in the amount of $367,605 were obligated at the time of the award",
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-25-F-0040"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Technica LLC",
+            "location": "Charleston, South Carolina",
+            "contract_number": "W519TC-25-F-0040",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Logistics support services at Fort Liberty, North Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21676680,
+        "cumulative_value_usd": null,
+        "obligated_usd": 367605,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation with six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Global Ground Support, Olathe, Kansas, was awarded a $10,886,946 firm-fixed-price delivery order for deicer trucks. This contract provides for truck-mounted and extended reach deicers. Work will be performed in Olathe, Kansas, and is expected to be completed by July 31, 2025. This contract was a competitive small business set-aside, and three offers were received. Fiscal 2023 procurement funds in the amount of $4,226,918; and fiscal 2025 procurement funds in the amount of $6,660,028 will be obligated at the time of award. The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8534-25-F-0023).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA853425F0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10886946.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10886946.0,
+        "funding_text": "Fiscal 2023 procurement funds in the amount of $4,226,918; and fiscal 2025 procurement funds in the amount of $6,660,028 will be obligated at the time of award",
+        "completion_date": "2025-07-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8534-25-F-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Global Ground Support",
+            "location": "Olathe, Kansas",
+            "contract_number": "FA8534-25-F-0023",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Truck-mounted and extended reach deicer trucks",
+        "base_contract_number": null,
+        "order_number": "FA8534-25-F-0023",
+        "modification_number": null,
+        "value_usd": 10886946,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10886948,
+        "fms_countries": [],
+        "competition": "competitive small business set-aside, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, has been awarded an $8,952,601 firm-fixed-price modification (P00007) to previously awarded task order FA8553-21-F-0006 for C-130J MissionCare propulsion support. This modification provides for the exercise of Option Period Four for an additional 12 months of performance. The modification brings the total cumulative face value of the task order to $84,219,803. Work will be performed in Norway and is expected to be completed by Dec. 31, 2025. This contract involves Foreign Military Sales (FMS) to Norway. FMS funds in the amount of $8,714,189 are being obligated at the time of the award. The Air Force Lifecycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA855321F0006"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 8952601.0,
+        "cumulative_value_usd": 84219803.0,
+        "obligated_usd": 8714189.0,
+        "funding_text": "FMS funds in the amount of $8,714,189 are being obligated at the time of the award",
+        "completion_date": "2025-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Lifecycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Norway"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "FA8553-21-F-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "C-130J MissionCare propulsion support; exercise of Option Period Four for 12 months",
+        "base_contract_number": "FA8553-21-F-0006",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 8952601,
+        "cumulative_value_usd": 84219803,
+        "obligated_usd": 8714189,
+        "fms_countries": [
+          "Norway"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: The Akana Group Inc., Houston, Texas (SPE8EC-25-D-0049, $157,000,000), has been added as an awardee to the multiple award contract for commercial cranes, issued against solicitation SPE8EC-21-R-0003 and awarded Aug. 25, 2022. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC25D0049",
+          "SPE8EC21R0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 157000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "The Akana Group Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "SPE8EC-25-D-0049",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": null,
+        "description": "Added as awardee to multiple award contract for commercial cranes (solicitation SPE8EC-21-R-0003)",
+        "base_contract_number": "SPE8EC-21-R-0003",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 157000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-08-25"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:55Z",
-  "source": "file:2024-12-26.html"
+  "source": "file:2024-12-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:18:46Z"
+  }
 }

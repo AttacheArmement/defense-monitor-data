@@ -11,75 +11,623 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Korean Airlines Co. Ltd., Aerospace Division, Seoul, South Korea, has been awarded a $213,000,000 ceiling indefinite-delivery/indefinite-quantity contract for A-10 Pacific Air Force depot support. This contract provides depot support for A-10 aircraft that are stationed in South Korea. Work will be performed in Buson, South Korea, and is expected to be complete by Dec. 31, 2029. This award is the result of a competitive acquisition and one offer was received. Fiscal 2020 operations and maintenance funds in the amount of $166,361 are being obligated at the time of award. The Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity (FA8202-20-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA820220D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 213000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166361.0,
+        "funding_text": "Fiscal 2020 operations and maintenance funds in the amount of $166,361 are being obligated at the time of award",
+        "completion_date": "2029-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": "FA8202-20-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Korean Airlines Co. Ltd., Aerospace Division",
+            "location": "Seoul, South Korea",
+            "contract_number": "FA8202-20-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity (ceiling)",
+        "description": "A-10 Pacific Air Force depot support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 213000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 166361,
+        "fms_countries": [],
+        "competition": "competitive acquisition, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "LOC Performance,* Plymouth, Michigan, was awarded a $70,987,890 firm-fixed-price contract for Bradley Engineering Change Proposal kits, spare parts and installation. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 3, 2024. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-20-F-0014).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV20F0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70987890.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-07-03",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-20-F-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "LOC Performance",
+            "location": "Plymouth, Michigan",
+            "contract_number": "W56HZV-20-F-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Bradley Engineering Change Proposal kits, spare parts and installation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70987890,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Woburn, Massachusetts, was awarded a $26,000,840 firm-fixed-price Foreign Military Sales (Poland and Romania) contract for field artillery C3, Advanced Field Artillery Tactical Data System. One bid was solicited via the internet with one bid received. Work will be performed in Woburn, Massachusetts, with an estimated completion date of Dec. 19, 2021. Fiscal 2020 Foreign Military Sales funds in the amount of $9,235,884 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-20-C-5008).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB20C5008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26000840.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9235884.0,
+        "funding_text": "Fiscal 2020 Foreign Military Sales funds in the amount of $9,235,884 were obligated at the time of the award",
+        "completion_date": "2021-12-19",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-20-C-5008"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Poland",
+          "Romania"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "W91CRB-20-C-5008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Field artillery C3, Advanced Field Artillery Tactical Data System (FMS Poland and Romania)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26000840,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9235884,
+        "fms_countries": [
+          "Poland",
+          "Romania"
+        ],
+        "competition": "internet solicitation, one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "HNTB Corp., Kansas City, Missouri, was awarded a $10,213,080 modification (P00007) to contract W91236-17-F-0012 for architect and engineer services. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 10, 2022. U.S. Army Corps of Engineers, Norfolk, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9123617F0012"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 10213080.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-09-10",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "HNTB Corp.",
+            "location": "Kansas City, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Architect and engineer services",
+        "base_contract_number": "W91236-17-F-0012",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 10213080,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Chustz Surveying LLC,* New Roads, Louisiana (W912EE-20-D-0001); Johnson-McAdams Surveying and Mapping LLC,* Greenwood, Mississippi (W912EE-20-D-0002); and Seaside Engineering & Surveying LLC,* Baker, Florida (W912EE-20-D-0003), will compete for each order of the $10,000,000 firm-fixed-price contract for surveying and mapping services. Bids were solicited via the internet with 10 received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 9, 2024. U.S. Army Corps of Engineers, Vicksburg, Mississippi, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912EE20D0001",
+          "W912EE20D0002",
+          "W912EE20D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-12-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Vicksburg, Mississippi",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Chustz Surveying LLC",
+            "location": "New Roads, Louisiana",
+            "contract_number": "W912EE-20-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Johnson-McAdams Surveying and Mapping LLC",
+            "location": "Greenwood, Mississippi",
+            "contract_number": "W912EE-20-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Seaside Engineering & Surveying LLC",
+            "location": "Baker, Florida",
+            "contract_number": "W912EE-20-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Surveying and mapping services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 10 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CACI Inc. – Federal, Chantilly, Virginia, was awarded a $9,908,767 cost-plus-fixed-fee contract for design, development and to validate system prototypes for a combined arms squad. Bids were solicited via the internet with one received. Work will be performed in Chantilly, Virginia, with an estimated completion date of Dec. 30, 2020. Fiscal 2019 Defense Advanced Research Projects Agency funds in the amount of $5,668,581 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W912CG-20-C-0004).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912CG20C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9908767.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5668581.0,
+        "funding_text": "Fiscal 2019 Defense Advanced Research Projects Agency funds in the amount of $5,668,581 were obligated at the time of the award",
+        "completion_date": "2020-12-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W912CG-20-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "CACI Inc. – Federal",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W912CG-20-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Design, development and validation of system prototypes for a combined arms squad",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9908767,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5668581,
+        "fms_countries": [],
+        "competition": "internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "PAE Applied Technologies Inc., Fort Worth, Texas, is awarded a $47,364,653 modification (P00088) to a previously awarded cost-plus-fixed-fee, cost reimbursable contract (N00019-14-C-0038). This modification extends the period of performance and increases the ceiling to continue providing services in support of range engineering, operations and maintenance support to the Atlantic Test Range and the Atlantic Targets and Marine Operations Division of the Naval Air Warfare Center Aircraft Division. This work will employ disciplines embracing various types of system operations, laboratory and field testing, marine operations and target support services, engineering, range sustainability, maintenance, data reduction and analysis. Work will be performed in Patuxent River, Maryland, and is expected to be completed in June 2020. Fiscal 2020 research, development, test, evaluation; and working capital (Navy) funds for $12,645,500 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0038"
+        ],
+        "modification_numbers": [
+          "P00088"
+        ],
+        "is_modification": true,
+        "value_usd": 47364653.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12645500.0,
+        "funding_text": "Fiscal 2020 research, development, test, evaluation; and working capital (Navy) funds for $12,645,500 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "PAE Applied Technologies Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, cost reimbursable",
+        "description": "Range engineering, operations and maintenance support to the Atlantic Test Range and Atlantic Targets and Marine Operations Division",
+        "base_contract_number": "N00019-14-C-0038",
+        "order_number": null,
+        "modification_number": "P00088",
+        "value_usd": 47364653,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12645500,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Konecranes Nuclear Equipment and Services LLC, New Berlin, Wisconsin, is awarded a $46,014,523 firm-fixed-price contract to provide one 175-ton portal crane at Puget Sound Naval Shipyard. The work to be performed provides for the contractor to design, fabricate, assemble, shop test, deliver, install, inspect, field test and make ready for use one 175-ton heavy-lift portal crane to be installed at Puget Sound Naval Shipyard. The crane shall be a portal type with a rotating superstructure, luffing boom, main hoist and an auxiliary hoist designed to meet the dimensional and functional requirements of the specification. The contract also contains six unexercised options, which if exercised, would increase cumulative contract value to $329,923,447. Work will be performed in New Berlin, Wisconsin, and is expected to be completed by November 2023. Fiscal 2020 other procurement, (Navy) funds in the amount of $46,014,523 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online and Federal Business Opportunities websites with two proposals received. The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia, is the contracting activity (N62470-20-C-0002).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6247020C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 46014523.0,
+        "cumulative_value_usd": 329923447.0,
+        "obligated_usd": 46014523.0,
+        "funding_text": "Fiscal 2020 other procurement, (Navy) funds in the amount of $46,014,523 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia",
+          "code": "N62470-20-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Konecranes Nuclear Equipment and Services LLC",
+            "location": "New Berlin, Wisconsin",
+            "contract_number": "N62470-20-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "One 175-ton portal crane at Puget Sound Naval Shipyard; includes six unexercised options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46014523,
+        "cumulative_value_usd": 329923447,
+        "obligated_usd": 46014523,
+        "fms_countries": [],
+        "competition": "competitive, two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alion – IPS Corp., Burr Ridge, Illinois, is awarded a $44,721,438 cost-plus-fixed-fee and cost-only modification to a previously awarded contract N00024-18-C-0015 to procure professional support services for the Naval Sea System Command's Deputy Commander for Surface Warfare. This procurement is for professional support services in the areas of program management, administrative support, surface ship modernization, inactive ships, surface ships readiness, surface training systems, business and financial management, records management and information technology support. Work will be performed in Washington, District of Columbia (54.7%); Norfolk, Virginia (19%); San Diego, California (17.3%); Mayport, Florida (2.1%); Yokosuka, Japan (1.5%); Sasebo, Japan (1.2%); Manama, Bahrain (1.2%); and various locations of less than 1% each in the U.S. and Europe (3%), and is expected to be complete by August 2020. Fiscal 2020 operations and maintenance (Navy) funding for $5,300,000 will be obligated at time of award and funds for $5,300,000 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 44721438.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10600000.0,
+        "funding_text": "Fiscal 2020 operations and maintenance (Navy) funding for $5,300,000 will be obligated at time of award and funds for $5,300,000 will expire at the end of the current fiscal year",
+        "completion_date": "2020-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Alion – IPS Corp.",
+            "location": "Burr Ridge, Illinois",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and cost-only",
+        "description": "Professional support services for Naval Sea Systems Command's Deputy Commander for Surface Warfare",
+        "base_contract_number": "N00024-18-C-0015",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44721438,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5300000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Fincantieri Marine Systems North America Inc., Chesapeake, Virginia, is awarded an $18,006,438 contract modification to exercise Option Year Three of a previously awarded firm-fixed price, indefinite-delivery/indefinite-quantity N55236-17-D-0009 contract to provide maintenance support for the Mine Countermeasure-1 Class main propulsion diesel engine and ship service diesel generator. Work will be performed in the homeports of San Diego, California; Sasebo, Japan; Manama, Bahrain; and ports-of-call as required, and work is scheduled to be completed by January 2021. No funding is being obligated at time of award. In accordance with 10 U.S. Code 2304(c)(1), this contract was not competitively procured. The independent contractor, under the direction of the Regional Maintenance Center and not as an agent of the government, shall provide diesel engine technical, engineering, and field service support for Mine Countermeasure-1 Class ships homeported in San Diego, California; and forward deployed in Japan and Bahrain. Obligated funding will cover preventive maintenance services and travel in the base year and subsequent option years in accordance with work item specifications and work item plans, drawings, other references, the delivery schedule and all other terms and conditions set forth in the contract. The Southwest Regional Maintenance Center, San Diego, California, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N5523617D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 18006438.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding is being obligated at time of award Obligated funding will cover preventive maintenance services and travel in the base year and subsequent option years in accordance with work item specifications and work item plans, drawings, other references, the delivery schedule and all other terms and conditions set forth in the contract",
+        "completion_date": "2021-01",
+        "contracting_activity": {
+          "name": "The Southwest Regional Maintenance Center, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Fincantieri Marine Systems North America Inc.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of Option Year Three for maintenance support of Mine Countermeasure-1 Class main propulsion diesel engine and ship service diesel generator",
+        "base_contract_number": "N55236-17-D-0009",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18006438,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Fort Worth, Texas, is awarded an $11,548,231 cost-plus-fixed-fee, firm-fixed-price modification (P00025) to a previously awarded fixed-price incentive firm contract (N00019-18-C-1048) to provide work and training necessary for the Autonomic Logistics Information System 3.5 software rollout to the fleet under the low rate initial production Lot XI. Work will be performed in Orlando, Florida (57%); and Fort Worth, Texas (43%), and is expected to be completed in January 2021. Fiscal 2018 aircraft procurement (Air Force, Marine Corps and Navy); non-Department of Defense (DoD) participants; and Foreign Military Sales (FMS) funds in the amount of $11,548,231 are being obligated at time of award, $6,498,614 of which will expire at the end of the current fiscal year. This contract modification combines purchases for the Air Force ($3,043,659; 26%); Marine Corps ($1,476,651; 13%); Navy ($1,978,304; 17%); non-DoD participants ($3,060,938; 27%); and FMS ($1,988,680; 17%). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1048"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 11548231.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11548231.0,
+        "funding_text": "Fiscal 2018 aircraft procurement (Air Force, Marine Corps and Navy); non-Department of Defense (DoD) participants; and Foreign Military Sales (FMS) funds in the amount of $11,548,231 are being obligated at time of award, $6,498,614 of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-18-C-1048",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price",
+        "description": "Autonomic Logistics Information System 3.5 software rollout to the fleet under low rate initial production Lot XI",
+        "base_contract_number": "N00019-18-C-1048",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 11548231,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11548231,
+        "fms_countries": [
+          "Foreign Military Sales (country not named)"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded a $9,140,087 cost-plus-fixed-fee delivery order (N00019-20-F-0457) against a previously issued basic ordering agreement (N00019-15-G-0026) in support of the MQ-8C Firescout unmanned aircraft system. This order is for the production and delivery of eight AN/ZPY-8 radar modification kits, eight forward access panel modification kits and all associated non-recurring engineering and qualification efforts in support of mission processor unit upgrades. Work will be performed in Santa Clarita, California (38%); San Diego, California (37%); Fort Worth, Texas (22%); and Lititz, Philadelphia (3%). Work is expected to be completed in April 2021. Fiscal 2018 and 2019 aircraft procurement (Navy) funds for $9,140,087 are being obligated at time of award, $3,921,389 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0001920F0457",
+          "N0001915G0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9140087.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13061476.0,
+        "funding_text": "Fiscal 2018 and 2019 aircraft procurement (Navy) funds for $9,140,087 are being obligated at time of award, $3,921,389 of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N00019-20-F-0457",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "MQ-8C Firescout radar modification kits and forward access panel modification kits",
+        "base_contract_number": "N00019-15-G-0026",
+        "order_number": "N00019-20-F-0457",
+        "modification_number": null,
+        "value_usd": 9140087,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9140087,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:41Z",
-  "source": "file:2019-12-09.html"
+  "source": "file:2019-12-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T23:04:32Z"
+  }
 }

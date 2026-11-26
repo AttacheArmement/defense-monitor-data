@@ -11,87 +11,719 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Insight Pacific JV,* Brea, California (W912DW-23-D-1002); Macro-Z-Technology,* Santa Ana, California (W912DW-23-D-1003); and Sealaska Constructors,* Seattle, Washington (W912DW-23-D-1005), will compete for each order of the $95,000,000 firm-fixed-price contract for a broad range of new construction, repair and renovation task orders. Bids were solicited via the internet with 38 received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 1, 2028. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DW23D1002",
+          "W912DW23D1003",
+          "W912DW23D1005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-09-01",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Insight Pacific JV",
+            "location": "Brea, California",
+            "contract_number": "W912DW-23-D-1002",
+            "markers": "*"
+          },
+          {
+            "name": "Macro-Z-Technology",
+            "location": "Santa Ana, California",
+            "contract_number": "W912DW-23-D-1003",
+            "markers": "*"
+          },
+          {
+            "name": "Sealaska Constructors",
+            "location": "Seattle, Washington",
+            "contract_number": "W912DW-23-D-1005",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Broad range of new construction, repair and renovation task orders (U.S. Army Corps of Engineers, Seattle)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 38 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Canadian Commercial Corp., doing business as General Dynamics – Canada, Repentigny, Quebec, Canada, was awarded a $78,704,160 firm-fixed-price contract for the production of M67 propelling charges. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 27, 2028. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W519TC-23-D-0018).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W519TC23D0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 78704160.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-02-27",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W519TC-23-D-0018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Canadian Commercial Corp., doing business as General Dynamics – Canada",
+            "location": "Repentigny, Quebec, Canada",
+            "contract_number": "W519TC-23-D-0018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production of M67 propelling charges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 78704160,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded a $15,542,933 modification (P00069) to contract W56HZV-19-C-0036 for the Mobile Protected Firepower program. Work will be performed in Sterling Heights, Michigan, with an estimated completion date of Oct. 31, 2023. Fiscal 2023 research, development, test and evaluation, Army funds in the amount of $15,542,933 were obligated at the time of the award. U.S. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV19C0036"
+        ],
+        "modification_numbers": [
+          "P00069"
+        ],
+        "is_modification": true,
+        "value_usd": 15542933.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15542933.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation, Army funds in the amount of $15,542,933 were obligated at the time of the award",
+        "completion_date": "2023-10-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Detroit Arsenal, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-19-C-0036",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Mobile Protected Firepower program",
+        "base_contract_number": "W56HZV-19-C-0036",
+        "order_number": null,
+        "modification_number": "P00069",
+        "value_usd": 15542933,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15542933,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "IAP-Design Build LLC,* Columbus, Ohio, was awarded a $13,873,153 firm-fixed-price contract for full facility restoration of a reserve training center. Bids were solicited via the internet with six received. Work will be performed in Columbus, Ohio, with an estimated completion date of Jan. 29, 2025. Fiscal 2023 operation and maintenance, Army Reserve funds in the amount of $13,873,153 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-23-C-0007).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912QR23C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13873153.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13873153.0,
+        "funding_text": "Fiscal 2023 operation and maintenance, Army Reserve funds in the amount of $13,873,153 were obligated at the time of the award",
+        "completion_date": "2025-01-29",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-23-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "IAP-Design Build LLC",
+            "location": "Columbus, Ohio",
+            "contract_number": "W912QR-23-C-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Full facility restoration of a reserve training center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13873153,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13873153,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, six received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded a $70,704,608 cost-plus-fixed-fee, firm-fixed-price, cost reimbursable contract to provide integrated logistics support for the government of Kuwait in support of preparing Kuwait pilots for delivery of the Kuwait F/A-18E/F Super Hornets. The support will include general logistics support; logistics program management; logistics support to aircraft during pilot training within the continental U.S. (CONUS); maintenance of aircraft, aircraft armament equipment, F414 engines, and Sniper pods; logistics representative support within the CONUS, as well as both within the CONUS and outside the CONUS ferry support; packaging, handling, storage, and transportation; and program security tasks. Work will be performed in New Orleans, Louisiana (90%); St. Louis, Missouri (8%); various locations within the CONUS (1%); and various locations outside the CONUS (1%), and is expected to be completed in September 2026. Foreign Military Sales funds in the amount of $70,704,608 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code Section 2304(f)(2)(E). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001923C0008).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001923C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70704608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70704608.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $70,704,608 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001923C0008"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001923C0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, cost reimbursable contract",
+        "description": "Integrated logistics support for Kuwait F/A-18E/F Super Hornets (Foreign Military Sales, Kuwait)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70704608,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70704608,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": "not competitively procured, 10 U.S.C. 2304(f)(2)(E)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Annapolis, Maryland, is being awarded a $14,845,901 modification to previously-awarded, indefinite-delivery/indefinite-quantity requirements contract N61331-22-D-0001 to exercise an option for depot level repair, maintenance and modifications in support for the AN/AQS-24 Sonar Mine Detecting Set (all variants), Common Post Mission Analysis and Intermediate Level Test Equipment to support the Navy for the currently deployed airborne mine countermeasures legacy systems. Work will be performed in Annapolis, Maryland, and is expected to be completed by March 2024. There will be no funding assigned at the time of this modification. The Naval Surface Warfare Center Panama City Division, Panama City, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6133122D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14845901.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Panama City Division, Panama City, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Annapolis, Maryland",
+            "contract_number": "N61331-22-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Depot level repair, maintenance and modifications for AN/AQS-24 Sonar Mine Detecting Set and related test equipment",
+        "base_contract_number": "N61331-22-D-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14845901,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Seqirus Inc., Summit, New Jersey, has been awarded a maximum $30,821,648 firm-fixed-price, indefinite-quantity contract for the injectable influenza vaccine. This was a competitive acquisition with three responses received. This is a one-year contract with no option periods. Location of performance is Pennsylvania, with a March 1, 2023, ordering period end date. Using customers are Army, Air Force, Navy, Marine Corps and Coast Guard. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DP-23-D-0002).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DP23D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30821648.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DP-23-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Seqirus Inc.",
+            "location": "Summit, New Jersey",
+            "contract_number": "SPE2DP-23-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-quantity",
+        "description": "Injectable influenza vaccine (one-year contract, no options; DLA Troop Support)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30821648,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Goodrich Corp., Westford, Massachusetts, was awarded a maximum $29,885,260 firm‐fixed‐price, cost reimbursable, cost-plus-fixed-fee, indefinite‐delivery/indefinite‐quantity, single‐award contract for a multi‐country training on the DB-110/MS-110 RECCE Pod System and all associated systems. The contractor will provide the DB-110/MS-110 RECCE Pod System training to support the U.S. government and Air Force Security Assistance Training international partners’ mission objectives. The initial airborne and ground segment training will occur at the contractor’s Westford, Massachusetts; and Malvern, United Kingdom, training facilities. Follow-on and advanced training will be executed at designated training locations as outlined in the applicable task orders through 2026. This contract is the result of a sole‐source acquisition. Security and cooperation funds in the amount of $2,500 are being obligated at the time of award. The Air Force Installation Contracting Agency, 338th Specialized Contracting Squadron, Joint Base San Antonio‐Randolph, Texas, is the contracting activity (FA300223D0003). (Awarded Feb. 27, 2023)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA300223D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29885260.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Security and cooperation funds in the amount of $2,500 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Air Force Installation Contracting Agency, 338th Specialized Contracting Squadron, Joint Base San Antonio‐Randolph, Texas",
+          "code": "FA300223D0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Goodrich Corp.",
+            "location": "Westford, Massachusetts",
+            "contract_number": "FA300223D0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity, single-award",
+        "description": "Multi-country training on DB-110/MS-110 RECCE Pod System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29885260,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2023-02-27"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sonalysts Inc., Waterford, Connecticut, has been awarded a $9,885,351, cost-plus-fixed-fee contract modification (P00075) to the previously awarded Standard Space Trainer contract (FA8806-19-C-0002) for support and delivery, network, infrastructure, hardware, and architecture solutions. The modification brings the total cumulative face value of the contract to $123,768,076. Work will be performed in Colorado Springs, Colorado, and is expected to be completed by Sept. 1, 2024. Fiscal 2023 research, development, test and evaluation funds in the amount of $747,000 are being obligated at the time of award. Space Systems Command, Los Angeles Air Force Base, El Segundo, California, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA880619C0002"
+        ],
+        "modification_numbers": [
+          "P00075"
+        ],
+        "is_modification": true,
+        "value_usd": 9885351.0,
+        "cumulative_value_usd": 123768076.0,
+        "obligated_usd": 747000.0,
+        "funding_text": "Fiscal 2023 research, development, test and evaluation funds in the amount of $747,000 are being obligated at the time of award",
+        "completion_date": "2024-09-01",
+        "contracting_activity": {
+          "name": "Space Systems Command, Los Angeles Air Force Base, El Segundo, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Sonalysts Inc.",
+            "location": "Waterford, Connecticut",
+            "contract_number": "FA8806-19-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Standard Space Trainer support and delivery, network, infrastructure, hardware and architecture solutions",
+        "base_contract_number": "FA8806-19-C-0002",
+        "order_number": null,
+        "modification_number": "P00075",
+        "value_usd": 9885351,
+        "cumulative_value_usd": 123768076,
+        "obligated_usd": 747000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Feb. 28, 2023, to Carahsoft Technology Corp, Reston, Virginia, for a $23,751,296 firm-fixed price task order for salesforce and third-party licenses and support, does not include foreign military sales to multiple countries. The contract announced on Feb. 28, 2023, to Pacific Propeller International LLC, Kent, Washington, for a $50,900,000 indefinite-delivery/indefinite-quantity contract for the overhaul support for the C-130 54H60 series propeller, does include foreign military sales to multiple countries.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23751296.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Carahsoft Technology Corp",
+            "location": "Reston, Virginia",
+            "contract_number": null,
+            "markers": null
+          },
+          {
+            "name": "Pacific Propeller International LLC",
+            "location": "Kent, Washington",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Feb. 28, 2023 announcements: Carahsoft $23,751,296 firm-fixed-price task order for salesforce and third-party licenses (no FMS to multiple countries); Pacific Propeller $50,900,000 IDIQ for C-130 54H60 propeller overhaul support (includes FMS to multiple countries)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Textainer Equipment Management (U.S.) Ltd., San Francisco, California, was awarded a modification (P00011) on indefinite-delivery/indefinite-quantity, fixed-price contract HTC711-19-D-R009 in the amount of $20,053,557. This modification provides intermodal equipment leasing and transportation services, and related container support functions, to include interfacing with government systems to meet the government missions and exercises. Work will be performed on a global basis. The period of performance is from March 1, 2023, to Feb. 29, 2024. Fiscal 2022 and 2023 operations and maintenance funds were obligated at award. This modification brings the total cumulative face value of the contract from $70,709,209 to $90,762,767. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DR009"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 20053557.0,
+        "cumulative_value_usd": 70709209.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 and 2023 operations and maintenance funds were obligated at award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Textainer Equipment Management (U.S.) Ltd.",
+            "location": "San Francisco, California",
+            "contract_number": "HTC711-19-D-R009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Intermodal equipment leasing and transportation services and container support",
+        "base_contract_number": "HTC711-19-D-R009",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 20053557,
+        "cumulative_value_usd": 90762767,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "SeaCube Leasing International Inc., Woodcliff Lake, New Jersey, was awarded a modification (P00011) on indefinite-delivery/indefinite-quantity, fixed-price contract HTC711-19-D-R008 in the amount of $19,310,574. This modification provides intermodal equipment leasing and transportation services, and related container support functions, to include interfacing with government systems to meet the government missions and exercises. Work will be performed on a global basis. The period of performance is from March 1, 2023, to Feb. 29, 2024. Fiscal 2022 and 2023 operations and maintenance funds were obligated at award. This modification brings the total cumulative face value of the contract from $68,555,684 to $87,866,259. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DR008"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 19310574.0,
+        "cumulative_value_usd": 68555684.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 and 2023 operations and maintenance funds were obligated at award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "SeaCube Leasing International Inc.",
+            "location": "Woodcliff Lake, New Jersey",
+            "contract_number": "HTC711-19-D-R008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Intermodal equipment leasing and transportation services and container support",
+        "base_contract_number": "HTC711-19-D-R008",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 19310574,
+        "cumulative_value_usd": 87866259,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Triton Container International Ltd., Hamilton, Bermuda, was awarded a modification (P00011) on indefinite-delivery/indefinite-quantity, fixed-price contract HTC711-19-D-R010 in the amount of $19,212,216. This modification provides intermodal equipment leasing and transportation services, and related container support functions, to include interfacing with government systems to meet the government missions and exercises. Work will be performed on a global basis. The period of performance is from March 1, 2023, to Feb. 29, 2024. Fiscal 2022 and 2023 operations and maintenance funds were obligated at award. This modification brings the total cumulative face value of the contract from $69,760,383 to $88,972,600. U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HTC71119DR010"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 19212216.0,
+        "cumulative_value_usd": 69760383.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 and 2023 operations and maintenance funds were obligated at award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Triton Container International Ltd.",
+            "location": "Hamilton, Bermuda",
+            "contract_number": "HTC711-19-D-R010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity, fixed-price",
+        "description": "Intermodal equipment leasing and transportation services, and related container support functions, with interfacing with government systems",
+        "base_contract_number": "HTC711-19-D-R010",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 19212216,
+        "cumulative_value_usd": 88972600,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HUMAN RESOURCES ACTIVITY",
       "kind": "announcement",
       "text": "MullenLowe U.S. Inc., Boston, Massachusetts, is awarded a $19,641,340 firm-fixed-price modification (P00006) to previously awarded, firm-fixed-price, indefinite-delivery/indefinite-quantity contract H98210-19-D-0001 with reimbursable elements for the Office of People Analytics marketing and advertising services. The modification increases the total contract ceiling to $216,343,743 from $196,702,403 in order to execute additional quantity requirements for digital media including streaming video/radio and social media placements in support of the Department of Defense and the All-Volunteer Force. This contract includes a five-year base period and one 12-month option period. Work will be performed at the contractor’s facility with an expected completion date of Feb. 14, 2024. This contract was competitively procured with proposals solicited via the government-wide point of entry and three offers received. No funds are being obligated at the time of award. Defense Human Resources Activity Acquisition Management Division, Alexandria, Virginia, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "H9821019D0001"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 19641340.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2024-02-14",
+        "contracting_activity": {
+          "name": "Defense Human Resources Activity Acquisition Management Division, Alexandria, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "MullenLowe U.S. Inc.",
+            "location": "Boston, Massachusetts",
+            "contract_number": "H98210-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Office of People Analytics marketing and advertising services, including digital media placements",
+        "base_contract_number": "H98210-19-D-0001",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 19641340,
+        "cumulative_value_usd": 216343743,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, proposals solicited via government-wide point of entry, three offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:50Z",
-  "source": "file:2023-03-01.html"
+  "source": "file:2023-03-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T20:39:53Z"
+  }
 }

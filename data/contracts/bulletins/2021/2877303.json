@@ -11,99 +11,830 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "M1 Support Services LP, Denton, Texas, was awarded a $522,650,736 modification (P00100) to contract W9124G-17-C-0104 for aviation maintenance. Work will be performed in Fort Rucker, Alabama, with an estimated completion date of Jan. 15, 2023. Fiscal 2020 operation and maintenance, Army funds in the amount of $522,650,736 were obligated at the time of the award. U.S. Army Field Directorate Office, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W9124G17C0104"
+        ],
+        "modification_numbers": [
+          "P00100"
+        ],
+        "is_modification": true,
+        "value_usd": 522650736.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 522650736.0,
+        "funding_text": "Fiscal 2020 operation and maintenance, Army funds in the amount of $522,650,736 were obligated at the time of the award",
+        "completion_date": "2023-01-15",
+        "contracting_activity": {
+          "name": "U.S. Army Field Directorate Office, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "M1 Support Services LP",
+            "location": "Denton, Texas",
+            "contract_number": "W9124G-17-C-0104",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation maintenance at Fort Rucker, Alabama",
+        "base_contract_number": "W9124G-17-C-0104",
+        "order_number": null,
+        "modification_number": "P00100",
+        "value_usd": 522650736,
+        "cumulative_value_usd": null,
+        "obligated_usd": 522650736,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mahaffey Tent & Awning Co. Inc.,* Memphis, Tennessee, was awarded a $9,823,049 modification (P00011) to contract W9124E-16-D-0006 for furnishing and maintenance of generators, and providing potable water, portable light sets, sleep and dining facilities, tents, hygiene units, tables, chairs and hand wash stations. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 20, 2022. U.S. Army 418th Contracting Support Brigade, Fort Polk, Bragg, Louisiana, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9124E16D0006"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 9823049.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-12-20",
+        "contracting_activity": {
+          "name": "U.S. Army 418th Contracting Support Brigade, Fort Polk, Bragg, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Mahaffey Tent & Awning Co. Inc.",
+            "location": "Memphis, Tennessee",
+            "contract_number": "W9124E-16-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Furnishing and maintenance of generators, potable water, portable light sets, sleep and dining facilities, tents, hygiene units, tables, chairs and hand wash stations",
+        "base_contract_number": "W9124E-16-D-0006",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 9823049,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cubic Defense Applications Inc., San Diego, California, was awarded a $9,703,612 firm-fixed-price contract to upgrade, procure, produce, integrate, test, deliver, install, train, and sustain player units to Instrumentable-Multiple Integrated Laser Engagement System Individual Weapon Systems and Tactical Vehicle Systems. Bids were solicited via the internet with one received. 2021 Foreign Military Sales (Latvia) funds in the amount of $9,703,612 were obligated at the time of the award. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-22-C-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W900KK22C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9703612.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9703612.0,
+        "funding_text": "Bids were solicited via the internet with one received. 2021 Foreign Military Sales (Latvia) funds in the amount of $9,703,612 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-22-C-0002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Latvia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Cubic Defense Applications Inc.",
+            "location": "San Diego, California",
+            "contract_number": "W900KK-22-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Upgrade, procure, produce, integrate, test, deliver, install, train and sustain player units for Instrumentable-Multiple Integrated Laser Engagement System Individual Weapon Systems and Tactical Vehicle Systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9703612,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9703612,
+        "fms_countries": [
+          "Latvia"
+        ],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $397,921,549 firm-fixed-price contract for the Royal Saudi Air Force (RSAF) Airborne Warning and Control System (AWACS) Modernization Program, Phase 2. This contract provides for production, training and installation and checkout, in order to keep the RSAF E-3 AWACS fleet interoperable with the U.S. Air Force and functionally viable through its expected end of life in 2040. Work will be performed in Oklahoma City, Oklahoma; and Al Kharj, Kingdom of Saudi Arabia, and is expected to be completed by Feb. 21, 2026. This contract involves 100% Foreign Military Sales (FMS) to the Kingdom of Saudi Arabia. This award is the result of a sole source acquisition. FMS funds in the amount of $397,921,549 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA8730-22-C-0011).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA873022C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 397921549.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 397921549.0,
+        "funding_text": "FMS funds in the amount of $397,921,549 are being obligated at the time of award",
+        "completion_date": "2026-02-21",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": "FA8730-22-C-0011"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Kingdom of Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8730-22-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Royal Saudi Air Force AWACS Modernization Program, Phase 2: production, training, installation and checkout",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 397921549,
+        "cumulative_value_usd": null,
+        "obligated_usd": 397921549,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "JJEX Construction JV LLC, Austin, Texas (FA557522D0001); Eiffage Infraestructuras S.A., Dos Hermanas, Spain (FA557522D0002); Sociedad Española De Montajes Industriales S.A., Jerez de la Frontera, Spain (FA557522D0003); and Elecnor Infraestructuras S.A., Alcalá de Guadaira, Spain (FA557522D0004), have been awarded a $45,000,000 indefinite-delivery/indefinite-quantity multiple award construction contract. This contract provides for a broad range of design-build, sustainment, maintenance, repair, alteration, renovation and minor construction projects to include residential and commercial work for Morón Air Base, Spain. Work will be performed at Morón Air Base, Spain, and is expected to be completed by Dec. 15, 2026. This contract is the result of a competitive acquisition and eight offers were received. Fiscal 2020 operation and maintenance funds in the amount of $500 are being obligated for each awardee at the time of the award. The 496th Air Base Squadron, Contracting Flight, Morón Air Base, Spain, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA557522D0001",
+          "FA557522D0002",
+          "FA557522D0003",
+          "FA557522D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500.0,
+        "funding_text": "Fiscal 2020 operation and maintenance funds in the amount of $500 are being obligated for each awardee at the time of the award",
+        "completion_date": "2026-12-15",
+        "contracting_activity": {
+          "name": "The 496th Air Base Squadron, Contracting Flight, Morón Air Base, Spain",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "JJEX Construction JV LLC",
+            "location": "Austin, Texas",
+            "contract_number": "FA557522D0001",
+            "markers": null
+          },
+          {
+            "name": "Eiffage Infraestructuras S.A.",
+            "location": "Dos Hermanas, Spain",
+            "contract_number": "FA557522D0002",
+            "markers": null
+          },
+          {
+            "name": "Sociedad Española De Montajes Industriales S.A.",
+            "location": "Jerez de la Frontera, Spain",
+            "contract_number": "FA557522D0003",
+            "markers": null
+          },
+          {
+            "name": "Elecnor Infraestructuras S.A.",
+            "location": "Alcalá de Guadaira, Spain",
+            "contract_number": "FA557522D0004",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award construction contract",
+        "description": "Design-build, sustainment, maintenance, repair, alteration, renovation and minor construction projects for Morón Air Base, Spain",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500,
+        "fms_countries": [],
+        "competition": "competitive, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Telos Corp., Ashburn, Virginia, has been awarded a $34,310,531 modification (P00019) to previously awarded contract FA489017F0025 for defensive cyber operations whitespace support. The modification exercises the final option year. Work will be performed at Beale Air Force Base, California; Davis Monthan AFB, Arizona; Offutt AFB, Nebraska; Hill AFB, Utah; Tinker AFB, Oklahoma; Mountain Home AFB, Idaho; Shaw AFB, South Carolina; Grand Forks AFB, North Dakota; Moody AFB, Georgia; Joint Base Langley-Eustis, Virginia; Seymour Johnson AFB, North Carolina; Eglin AFB, Florida; Robins AFB, Georgia; Hurlburt Field, Florida; Creech AFB, Nevada; Tyndall AFB, Florida; Patrick AFB, Florida; Rome, New York; Joint Base Lewis-McChord, Washington; Joint Base Elmendorf Richardson, Alaska; Wheeler Army Air Field, Hawaii; Ramstein Air Base, Germany; Osan Air Base, Republic of Korea; Barksdale AFB, Louisiana; Scott AFB, Illinois; and Vandenburg AFB, California. Work is expected to be completed by Jan. 1, 2023. Fiscal 2022 operations and maintenance funds in the amount of $17,579,105 are being obligated at the time of award. The total cumulative face value of the contract is $103,935,688. Air Combat Command, Joint Base Langley-Eustis, Virginia, is the contracting activity. (Awarded Dec. 15, 2021)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA489017F0025"
+        ],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 34310531.0,
+        "cumulative_value_usd": 103935688.0,
+        "obligated_usd": 17579105.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds in the amount of $17,579,105 are being obligated at the time of award",
+        "completion_date": "2023-01-01",
+        "contracting_activity": {
+          "name": "Air Combat Command, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Telos Corp.",
+            "location": "Ashburn, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Defensive cyber operations whitespace support; exercises the final option year",
+        "base_contract_number": "FA489017F0025",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 34310531,
+        "cumulative_value_usd": 103935688,
+        "obligated_usd": 17579105,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-12-15"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3 Technologies Inc., Communication Systems West, Salt Lake City, Utah, has been awarded a $9,536,068 Joint Air to Surface Standoff Missile (JASSM) Weapon Data Link (WDL) other transaction agreement. This agreement provides for the prototype of a WDL to be integrated into the JASSM weapon system. Work will be performed in Salt Lake City, Utah, and is expected to be completed by July 1, 2022. This award is the result of a competitive acquisition and four offers received. Fiscal 2021 research and development funds in the amount of $9,526,086 are being obligated at the time of award. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity (FA8682-22-9-0023).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA86822290023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9536068.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9526086.0,
+        "funding_text": "Fiscal 2021 research and development funds in the amount of $9,526,086 are being obligated at the time of award",
+        "completion_date": "2022-07-01",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": "FA8682-22-9-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "L3 Technologies Inc., Communication Systems West",
+            "location": "Salt Lake City, Utah",
+            "contract_number": "FA8682-22-9-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "other transaction agreement",
+        "description": "Prototype Joint Air to Surface Standoff Missile (JASSM) Weapon Data Link (WDL)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9536068,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9526086,
+        "fms_countries": [],
+        "competition": "competitive, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp. Missiles and Fire Control, Dallas, Texas, is being awarded a $286,466,778 modification to previously awarded Phase II contract HQ0835-21-C-0002 under a Foreign Military Sales (FMS) case to the Kingdom of Saudi Arabia (KSA). The contract type will be a hybrid firm-fixed-price, cost-plus-incentive-fee, and cost reimbursement contract. Under this modification, the contractor will provide equipment and continued efforts in support of Phase I contract HQ0147-19-C-0007 and additional efforts related to ground production, training, spares, spares consolidation, software support, facility support, engineering services, obsolescence (pop-up), outside the continental U.S. and continental U.S. system integration and check-out, maintenance, urgent software updates, system integration lab and testbed maintenance, field surveillance program and contractor logistics support. This work will be performed in various locations to include primarily Dallas, Texas; and Sunnyvale, California. The performance period is from Dec. 16, 2021, through Aug. 31, 2027. KSA FMS funds in the amount of $286,466,778 will be used to fund this effort. The Missile Defense Agency, Redstone Arsenal, Alabama, is the contracting activity (HQ0853-21-C-0002).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HQ083521C0002",
+          "HQ014719C0007",
+          "HQ085321C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 286466778.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Redstone Arsenal, Alabama",
+          "code": "HQ0853-21-C-0002"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp. Missiles and Fire Control",
+            "location": "Dallas, Texas",
+            "contract_number": "HQ0853-21-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "hybrid firm-fixed-price, cost-plus-incentive-fee, and cost reimbursement",
+        "description": "Equipment and support under Phase II contract for Saudi Arabia FMS case",
+        "base_contract_number": "HQ0835-21-C-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 286466778,
+        "cumulative_value_usd": null,
+        "obligated_usd": 286466778,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Goodyear Tire and Rubber Co., Akron, Ohio, has been awarded an estimated $50,901,001 fixed-price requirements contract under solicitation SPE7LX-21-R-0033, providing tires for various ground tactical vehicles. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a three-year contract with no option periods. Location of performance is Ohio, with a Dec. 15, 2024, performance completion date. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7LX-22-D-0048).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX21R0033",
+          "SPE7LX22D0048"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 50901001.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7LX-22-D-0048"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Goodyear Tire and Rubber Co.",
+            "location": "Akron, Ohio",
+            "contract_number": "SPE7LX-22-D-0048",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price requirements contract",
+        "description": "Tires for various ground tactical vehicles (solicitation SPE7LX-21-R-0033)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 50901001,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Grasmick Produce Co. Inc.,* Boise, Idaho, has been awarded a maximum $18,000,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for fresh fruits and vegetables. This was a competitive acquisition with one response received. This is a five-year contract with no option periods. Locations of performance are Idaho, Montana and Wyoming, with a Dec. 15, 2026, performance completion date. Using customers are Department of Agriculture schools and tribal reservations. Type of appropriation is fiscal 2022 through 2027 defense working capital funds. The contracting agency is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-22-D-S752).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE30022DS752"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-22-D-S752"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Grasmick Produce Co. Inc.",
+            "location": "Boise, Idaho",
+            "contract_number": "SPE300-22-D-S752",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Fresh fruits and vegetables for Department of Agriculture schools and tribal reservations in Idaho, Montana and Wyoming",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Crown Clothing Co., Vineland, New Jersey, has been awarded a maximum $8,486,208 modification (P00003) exercising the first one-year option period of a one-year base contract (SPE1C1-22-D-1432) with four one-year option periods for men’s green dress coats, belts and keepers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is New Jersey, with a Dec. 18, 2022, ordering period end date. Using military service is Marine Corps. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1432"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 8486208.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Crown Clothing Co.",
+            "location": "Vineland, New Jersey",
+            "contract_number": "SPE1C1-22-D-1432",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Men's green dress coats, belts and keepers; exercises first one-year option period",
+        "base_contract_number": "SPE1C1-22-D-1432",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 8486208,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Jacobs Technology Inc., Tullahoma, Tennessee, is awarded a $30,384,218 firm-fixed-price, indefinite-delivery/indefinite-quantity modification to exercise Option Three to extend services for base operations support services at Naval Station Mayport, Marine Corps Support Facility Blount Island, Florida, and outlying areas. Award of this option brings the total cumulative contract value to $117,390,473. Work will be performed in Jacksonville, Florida (62%); Blount Island, Florida (37%); and outlying areas (1%), and is expected to be completed by December 2022. No funds will be obligated at time of award. Fiscal 2022 operation and maintenance (Navy); fiscal 2022 operation and maintenance (Marine Corps); fiscal 2022 working capital (Navy) funds; and fiscal 2022 family housing operation and maintenance (Navy) funds in the amount of $24,629,181 for recurring work will be obligated on individual task orders issued during the option period. The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida, is the contracting activity (N69450-18-D-1800).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N6945018D1800"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 30384218.0,
+        "cumulative_value_usd": 117390473.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Fiscal 2022 operation and maintenance (Navy); fiscal 2022 operation and maintenance (Marine Corps); fiscal 2022 working capital (Navy) funds; and fiscal 2022 family housing operation and maintenance (Navy) funds in the amount of $24,629,181 for recurring work will be obligated on individual task orders issued during the option period",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida",
+          "code": "N69450-18-D-1800"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Jacobs Technology Inc.",
+            "location": "Tullahoma, Tennessee",
+            "contract_number": "N69450-18-D-1800",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Base operations support services at Naval Station Mayport, Marine Corps Support Facility Blount Island, Florida; exercises Option Three",
+        "base_contract_number": "N69450-18-D-1800",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30384218,
+        "cumulative_value_usd": 117390473,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "RELYANT Global LLC, Maryville, Tennessee, is awarded a $28,999,210 firm-fixed-price contract for design and construction of eight new earth-covered munitions storage magazines at Andersen Air Force Base, Guam. The contract also contains four options which will be exercised at time of award. Work will be performed in Yigo, Guam, and is expected to be completed by February 2025. Fiscal 2020 military construction (Air Force) funds in the amount of $28,999,210 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the beta.sam.gov website, with four proposals received. The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-22-C-1320).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N6274222C1320"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28999210.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28999210.0,
+        "funding_text": "Fiscal 2020 military construction (Air Force) funds in the amount of $28,999,210 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-02",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-22-C-1320"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "RELYANT Global LLC",
+            "location": "Maryville, Tennessee",
+            "contract_number": "N62742-22-C-1320",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design and construction of eight new earth-covered munitions storage magazines at Andersen Air Force Base, Guam (contract includes four options exercised at award)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28999210,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28999210,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Orion Government Services LLC, Houston, Texas, is awarded a $28,293,111 firm-fixed-price contract for the repair of Atlantic Undersea Test and Evaluation Center (AUTEC) Facility 1902 pier at Andros Island, Bahamas. Work will be performed in Andros Island, Bahamas, and is expected to be completed by July 2024. Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $28,293,111 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the beta.sam.gov website, with three proposals received. The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida, is the contracting activity (N69450-22-C-0006).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N6945022C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28293111.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28293111.0,
+        "funding_text": "Fiscal 2022 research, development, test and evaluation (Navy) funds in the amount of $28,293,111 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southeast, Jacksonville, Florida",
+          "code": "N69450-22-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Orion Government Services LLC",
+            "location": "Houston, Texas",
+            "contract_number": "N69450-22-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair of AUTEC Facility 1902 pier at Andros Island, Bahamas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28293111,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28293111,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Melbourne, Florida, is awarded a $21,477,974 modification to a firm-fixed-price order (N0001921F0064) against a previously issued basic ordering agreement (N0001920G0005). This modification exercises an option to provide installation of five aerial refueling retrofit kits on the E-2D Advanced Hawkeye. Work will be performed in Ronkonkoma, New York (44.53%); Baltimore, Maryland (16.62%); Irvine, California (6.48%); Hauppauge, New York (5.85%); Columbia, Maryland (4.75%); Dorset, England (3.17%); East Aurora, New York (2.64%); North Hollywood, California (2.02%); and various locations within the continental U.S. (13.94%), and is expected to be completed in May 2023. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $21,477,974 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "N0001921F0064",
+          "N0001920G0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 21477974.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21477974.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $21,477,974 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Melbourne, Florida",
+            "contract_number": "N0001921F0064",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price order",
+        "description": "Option exercise for installation of five aerial refueling retrofit kits on the E-2D Advanced Hawkeye",
+        "base_contract_number": "N0001920G0005",
+        "order_number": "N0001921F0064",
+        "modification_number": null,
+        "value_usd": 21477974,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21477974,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Nan Inc., Honolulu, Hawaii, is awarded an $18,416,100 firm-fixed-price task order (N6247822F4009) under previously-awarded multiple-award construction contract N62478-20-D-4014 for replacement of the low pressure air system at Joint Base Pearl Harbor-Hickam, Hawaii. Work will be performed in Honolulu, Hawaii, and is expected to be completed by February 2024. Fiscal 2022 operation and maintenance (Navy) funds in the amount of $18,416,100 will be obligated at time of award and will expire at the end of the current fiscal year. Four proposals were received for this task order. The Naval Facilities Engineering Systems Command Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "N6247822F4009",
+          "N6247820D4014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18416100.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18416100.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) funds in the amount of $18,416,100 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-02",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Nan Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N6247822F4009",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Replacement of the low pressure air system at Joint Base Pearl Harbor-Hickam, Hawaii",
+        "base_contract_number": "N62478-20-D-4014",
+        "order_number": "N6247822F4009",
+        "modification_number": null,
+        "value_usd": 18416100,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18416100,
+        "fms_countries": [],
+        "competition": "four proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2021-12-16.html"
+  "source": "file:2021-12-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:29:53Z"
+  }
 }

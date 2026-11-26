@@ -11,99 +11,813 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BC Customs LLC, Clearfield, Utah, has been awarded a ceiling $70,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a five-year ordering period for the Search and Rescue Tactical Vehicle (SKTV) – Side by Vehicle (SXV). This contract provides SKTV-SXV, training and accessories for special warfare. Work will be performed at Clearfield, Utah, and is expected to be completed May 31, 2026. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8629-21-D-5000).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA862921D5000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 70000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8629-21-D-5000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "BC Customs LLC",
+            "location": "Clearfield, Utah",
+            "contract_number": "FA8629-21-D-5000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Search and Rescue Tactical Vehicle (SKTV) – Side by Vehicle (SXV), training and accessories for special warfare",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Symetrics Industries LLC, doing business as Extant Aerospace, Melbourne, Florida, has been awarded a $39,701,664 indefinite-delivery/indefinite-quantity contract to fabricate, integrate, test and deliver line replaceable units (LRUs) and shop replaceable units (SRUs) in accordance with the technical data package (TDP) and contract schedule for the ALE-47 Counter Measure Dispenser System (CMDS). This contract is to fabricate, integrate, test and deliver LRUs and SRUs in accordance with the TDP and contract schedule. LRUs and SRUs consist of multiple national stock numbers. Work will be performed in Melbourne, Florida, and is expected to be completed May 21, 2024. No funds are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8523-21-D-0008).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA852321D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39701664.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8523-21-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Symetrics Industries LLC, doing business as Extant Aerospace",
+            "location": "Melbourne, Florida",
+            "contract_number": "FA8523-21-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "IDIQ",
+        "description": "Fabricate, integrate, test and deliver LRUs and SRUs for ALE-47 Counter Measure Dispenser System (CMDS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39701664,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Hazelwood, Missouri, has been awarded a not-to-exceed $20,000,000 indefinite-delivery/indefinite-quantity modification (P00003) to contract FA8650-19-D-2055 for the Advanced Turbine Technology for Affordable Mission-Capability (ATTAM). The mission of the ATTAM program is to develop, demonstrate, and transition advanced turbine propulsion, power and thermal technologies that provide a disruptive improvement in affordable mission capability. Work will primarily be performed in Hazelwood, Missouri, and is expected to be completed March 22, 2027. No funds being obligated at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity. (Awarded April 15, 2021)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA865019D2055"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 20000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Hazelwood, Missouri",
+            "contract_number": "FA8650-19-D-2055",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Advanced Turbine Technology for Affordable Mission-Capability (ATTAM)",
+        "base_contract_number": "FA8650-19-D-2055",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 20000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2021-04-15"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Garcia and Associates, San Anselmo, California (N62742-21-D-1800); International Archaeology LLC,* Honolulu, Hawaii (N62742-21-D-1801); and Pacific Consulting Services Inc.,* Honolulu, Hawaii (N62742-21-D-1802), are awarded an indefinite-delivery/indefinite-quantity multiple award contract for cultural resource management services located primarily within the Naval Facilities Engineering Systems Command (NAVFAC) Pacific area of operations (AO). The maximum dollar value including the base period and four option years for all three contracts combined is $49,000,000. No task orders are being issued at this time. Work will be performed primarily within the NAVFAC Pacific AO, which includes Guam (70%); Hawaii (25%); and the Commonwealth of the Northern Mariana Islands (5%). The work to be performed provides for cultural resource management services. The term of each contract is not to exceed 60 months, with an expected completion date of May 2026. Fiscal 2021 operation and maintenance (Navy) contract funds in the amount of $15,000 are obligated on this award and will not expire at the end of the current fiscal year. Future task orders will be primarily funded by operation and maintenance (Navy) military construction, Navy, and government of Japan direct cash contributions. This contract was competitively procured via the beta.sam.gov with five proposals received. These three contractors may compete for task orders under the terms and conditions of the awarded contracts. NAVFAC Pacific, Pearl Harbor, Hawaii, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6274221D1800",
+          "N6274221D1801",
+          "N6274221D1802"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) contract funds in the amount of $15,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "NAVFAC Pacific, Pearl Harbor, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Garcia and Associates",
+            "location": "San Anselmo, California",
+            "contract_number": "N62742-21-D-1800",
+            "markers": null
+          },
+          {
+            "name": "International Archaeology LLC",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62742-21-D-1801",
+            "markers": "*"
+          },
+          {
+            "name": "Pacific Consulting Services Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62742-21-D-1802",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "IDIQ multiple award",
+        "description": "Cultural resource management services in NAVFAC Pacific area of operations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": 49000000,
+        "obligated_usd": 15000,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "COLSA Corp., Huntsville, Alabama, is awarded a $33,961,328 indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee contract to provide engineering services supporting development, maintenance, interoperability and operations of the data link tactical tool, gateway systems, and mini-rack systems. This three-year contract includes two one-year options which, if exercised, would bring the potential value of this contract to an estimated $55,160,719. Work will be performed at government facilities in San Diego, California (90%); and at the contractor’s facilities in Huntsville, Alabama (10%). The period of performance is from May 30, 2021, through May 29, 2024. If the options are exercised the period of performance would extend through May 29, 2026. Fiscal 2021 funds will be obligated using research, development, test and evaluation (Navy) funds. Funds in the amount of $10,000 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via publication on the Naval Information Warfare Systems Command e-Commerce Central and beta.sam.gov. One offer was received and one was selected for award. Naval Information Warfare Center Pacific, San Diego, California, is the contracting activity (N66001-21-D-3428).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6600121D3428"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33961328.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2021 funds will be obligated using research, development, test and evaluation (Navy) funds Funds in the amount of $10,000 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Naval Information Warfare Center Pacific, San Diego, California",
+          "code": "N66001-21-D-3428"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "COLSA Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N66001-21-D-3428",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "Engineering services for data link tactical tool, gateway systems, and mini-rack systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33961328,
+        "cumulative_value_usd": 55160719,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive, Naval Information Warfare Systems Command e-Commerce Central and beta.sam.gov, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Wyle Services LLC, Lexington Park, Maryland, is awarded a $28,918,883, cost reimbursable, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. This contract provides field maintenance services in support of fleet area controls and surveillance facility air control tracking systems and AN/FYK-39(V) radar warning receivers. Additionally, this contract provides an automated air traffic control and surveillance capability relying on digitized radar data and utilizing color graphic displays OJ-753U(V)2, stand-alone radar console OJ-753U(V)1, integrated range status system, a variant of the AN/FYK-39 radar warning receivers, specifically adapted for use at Marine Corps range facilities; and standard terminal automation replacement system, for use at Navy facilities. Work will be performed in Jacksonville, Florida (30%); San Diego, California (15%); Virginia Beach, Virginia (15%); Pearl Harbor, Hawaii (10%); St. Inigoes, Maryland (6%); Twentynine Palms, California (4%); Okinawa, Japan (4%); Townsend, Georgia (4%); Camp Pendleton, California (4%); Jacksonville, North Carolina (2%); Cherry Point, North Carolina (2%); Yuma, Arizona (1%); Bridgeport, California (1%); Quantico, Virginia (1%); and Fort Bragg, North Carolina (1%), and is expected to be completed in June 2026. No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; two offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N0042121D0022).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042121D0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28918883.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2026-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N0042121D0022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "KBR Wyle Services LLC",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N0042121D0022",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "Field maintenance services for fleet area controls and surveillance facility air control tracking systems and AN/FYK-39(V) radar warning receivers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28918883,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, is awarded a $17,688,078 modification (P00026) to a previously awarded firm-price-incentive-fee, firm-fixed-price contract (N6134017C0007). This modification exercises options to procure 30 airborne subsystem pods; two remote range units; one common ground system; two site surveys; and one portable support equipment subsystem in support of Tactical Combat Training System II low rate initial production. Work will be performed in Cedar Rapids, Iowa (55%); Fort Walton Beach, Florida (38%); and Richardson, Texas (7%), and is expected to be completed in October 2022. Fiscal 2021 aircraft procurement (Navy) funds in the amount of $16,040,994; and fiscal 2021 other procurement (Navy) funds in the amount of $1,647,084 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6134017C0007"
+        ],
+        "modification_numbers": [
+          "P00026"
+        ],
+        "is_modification": true,
+        "value_usd": 17688078.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17688078.0,
+        "funding_text": "Fiscal 2021 aircraft procurement (Navy) funds in the amount of $16,040,994; and fiscal 2021 other procurement (Navy) funds in the amount of $1,647,084 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-10",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N6134017C0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-price-incentive-fee, firm-fixed-price",
+        "description": "Options for 30 airborne subsystem pods, remote range units, ground system, site surveys and support equipment for Tactical Combat Training System II low rate initial production",
+        "base_contract_number": "N6134017C0007",
+        "order_number": null,
+        "modification_number": "P00026",
+        "value_usd": 17688078,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17688078,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "TLD America, Windsor, Connecticut, is awarded a not-to-exceed $11,266,204 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures a maximum quantity of 21 Diesel/Electric Polyalphaolefin Cooling Carts in support of aircraft avionics and radar systems during testing and maintenance in support of the MQ-4C Triton program for Navy, Foreign Military Sales customers and international partners. Work will be performed in Windsor, Connecticut, and is expected to be completed in May 2026. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(1). The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833521D0061).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6833521D0061"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11266204.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N6833521D0061"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "TLD America",
+            "location": "Windsor, Connecticut",
+            "contract_number": "N6833521D0061",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Maximum of 21 Diesel/Electric Polyalphaolefin Cooling Carts for MQ-4C Triton program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11266204,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Empire Hospitality LLC,* Vancouver, Washington, is awarded a $7,633,440 firm-fixed-price contract N39040-21-P-0080 for rental of single-occupancy efficiency lodging to accommodate members of a Portsmouth Naval Shipyard project team assigned to temporary duty for docking selected restricted availability. This contract includes options up to $2,213,400 which, if exercised, would bring the cumulative value of this contract to $9,846,840. Work will be performed in San Diego, California, and is expected to be completed by December 2021. If all options are exercised, work will continue through April 2022. Fiscal 2021 operation and maintenance (Navy) funds in the amount of $7,633,440 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was competitively procured via beta.sam.gov with 21 offers received. The Portsmouth Naval Shipyard, Kittery, Maine, is the contracting activity (N39040-21-P-0080).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N3904021P0080"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7633440.0,
+        "cumulative_value_usd": 9846840.0,
+        "obligated_usd": 7633440.0,
+        "funding_text": "Fiscal 2021 operation and maintenance (Navy) funds in the amount of $7,633,440 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2021-12",
+        "contracting_activity": {
+          "name": "The Portsmouth Naval Shipyard, Kittery, Maine",
+          "code": "N39040-21-P-0080"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Empire Hospitality LLC",
+            "location": "Vancouver, Washington",
+            "contract_number": "N39040-21-P-0080",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Rental of single-occupancy efficiency lodging for Portsmouth Naval Shipyard project team on temporary duty",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7633440,
+        "cumulative_value_usd": 9846840,
+        "obligated_usd": 7633440,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, 21 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE INFORMATION SYSTEMS AGENCY",
       "kind": "announcement",
       "text": "Peraton Inc., Herndon, Virginia, was awarded a competitive firm-fixed-price, single-award, indefinite-delivery/indefinite-quantity contract for electromagnetic spectrum services applied engineering, spectrum and electromagnetic environmental effects engineering analysis support in support of the Defense Information Systems Agency (DISA)/Defense Spectrum Organization. The ceiling value is $36,692,424, with the $500 minimum guarantee funded by fiscal 2021 operation and maintenance funds. Primary performance will be at DISA Headquarters, Fort Meade, Maryland; and the Mission Partner Defense Spectrum Organization (DSO), Annapolis, Maryland. Proposals were solicited via the beta.sam.gov, and four proposals were received. The period of performance is May 19, 2021, to May 18, 2026. The Defense Information Technology Contracting Organization, National Capital Region, is the contracting activity (HC1047-21-D-0002).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HC104721D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36692424.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Information Technology Contracting Organization, National Capital Region",
+          "code": "HC1047-21-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Peraton Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "HC1047-21-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price single-award IDIQ",
+        "description": "Electromagnetic spectrum services applied engineering and spectrum/electromagnetic environmental effects analysis for DISA/Defense Spectrum Organization",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36692424,
+        "cumulative_value_usd": null,
+        "obligated_usd": 500,
+        "fms_countries": [],
+        "competition": "competitive, beta.sam.gov, four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Inland Service Corporation LLC,* Fort Hood, Texas, was awarded a $34,399,308 firm-fixed-price contract for solid waste management services. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2026. U.S. Army 418th Contracting Support Brigade, Fort Hood, Texas, is the contracting activity (W91151-21-D-0006).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W9115121D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34399308.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army 418th Contracting Support Brigade, Fort Hood, Texas",
+          "code": "W91151-21-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Inland Service Corporation LLC",
+            "location": "Fort Hood, Texas",
+            "contract_number": "W91151-21-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Solid waste management services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34399308,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Boeing Co., Mesa, Arizona, was awarded a $7,674,185 modification (P00080) to contract W58RGZ-16-C-0023 for integration of the legacy strap pack assembly for remanufactured AH-64E aircraft. Work will be performed in Mesa, Arizona, with an estimated completion date of Jan. 31, 2024. Fiscal 2021 aircraft procurement, Army funds in the amount of $7,674,185 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16C0023"
+        ],
+        "modification_numbers": [
+          "P00080"
+        ],
+        "is_modification": true,
+        "value_usd": 7674185.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7674185.0,
+        "funding_text": "Fiscal 2021 aircraft procurement, Army funds in the amount of $7,674,185 were obligated at the time of the award",
+        "completion_date": "2024-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-16-C-0023",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Integration of legacy strap pack assembly for remanufactured AH-64E aircraft",
+        "base_contract_number": "W58RGZ-16-C-0023",
+        "order_number": null,
+        "modification_number": "P00080",
+        "value_usd": 7674185,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7674185,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "West Star Aviation Holding LLC, Grand Junction, Colorado, has been awarded a minimum $17,049,548 fixed-price with economic-price-adjustment contract for fuel. This was a competitive acquisition with 66 responses received. This is a 42-month base contract with one six-month option period. Location of performance is Colorado, with a Sept. 30, 2024, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2021 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE607-21-D-0052).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE60721D0052"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17049548.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE607-21-D-0052"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "West Star Aviation Holding LLC",
+            "location": "Grand Junction, Colorado",
+            "contract_number": "SPE607-21-D-0052",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Minimum-value fuel contract (42-month base with one six-month option)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17049548,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 66 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods Inc., Salem, Missouri, has been awarded a maximum $16,450,000 fixed-price with economic-price-adjustment, indefinite-quantity contract for full-line food distribution. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 125-day bridge contract with no option periods. Locations of performance are Missouri and Illinois, with a Sept. 25, 2021, ordering period date. Using customers are Army, Air Force, Navy, Marine Corps and Coast Guard. Type of appropriation is fiscal 2021 defense working capital funds. The contracting agency is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-21-D-3320).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE30021D3320"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16450000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-21-D-3320"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "US Foods Inc.",
+            "location": "Salem, Missouri",
+            "contract_number": "SPE300-21-D-3320",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity contract",
+        "description": "Full-line food distribution bridge contract (125-day, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16450000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Propper International Inc., Cabo Rojo, Puerto Rico, has been awarded a maximum $12,369,016 modification (P00013) exercising the second one-year option period of a one-year base contract (SPE1C1-19-D-1168) with two one-year option periods for hydration system and corpsman assault packs. This is a firm-fixed price, indefinite-quantity contract. Location of performance is Puerto Rico, with a May 31, 2022, ordering period end date. Using military service is Marine Corps. Type of appropriation is fiscal 2021 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D1168"
+        ],
+        "modification_numbers": [
+          "P00013"
+        ],
+        "is_modification": true,
+        "value_usd": 12369016.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Propper International Inc.",
+            "location": "Cabo Rojo, Puerto Rico",
+            "contract_number": "SPE1C1-19-D-1168",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-quantity contract",
+        "description": "Second one-year option exercise for hydration system and corpsman assault packs",
+        "base_contract_number": "SPE1C1-19-D-1168",
+        "order_number": null,
+        "modification_number": "P00013",
+        "value_usd": 12369016,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Federal Prison Industries, doing business as UNICOR, Washington, D.C., has been awarded a maximum $9,723,120 fixed-price, indefinite-delivery/indefinite-quantity contract for physical fitness uniform trunks. This was a competitive procurement with seven responses received. This is a one-year base contract with two one-year option periods. Locations of performance are New Jersey, Illinois, Minnesota, Colorado and Washington, D.C., with a May 18, 2022, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2021 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-21-D-1472).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C121D1472"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9723120.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-21-D-1472"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Federal Prison Industries, doing business as UNICOR",
+            "location": "Washington, D.C.",
+            "contract_number": "SPE1C1-21-D-1472",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Physical fitness uniform trunks (one-year base with two one-year options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9723120,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive procurement, seven responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:45Z",
-  "source": "file:2021-05-19.html"
+  "source": "file:2021-05-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:57:02Z"
+  }
 }

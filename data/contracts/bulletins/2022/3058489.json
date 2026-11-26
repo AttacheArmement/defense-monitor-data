@@ -11,75 +11,597 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Vangarde LLC, Clearfield, Utah, has been awarded a $45,500,000 ceiling, indefinite-delivery/indefinite-quantity contract for special missions. The contract provides for system administration, desktop engineering, network and server support, contractor program management, content and configuration management, software development, BMC remedy administration and development, Oracle architecture database support, Structured Query Language database administration and development support and information technology software testing support. Work will be performed at Hill Air Force Base, Utah, and is expected to be completed by March 26, 2030. This award is the result of a competitive acquisition and 11 offers were received. Fiscal 2022 operations and maintenance funds in the amount of $2,500 will be obligated at the time of award. Air Force Sustainment Center, Hill Air Force Base, Utah, is the contracting activity (FA8201-22-D-0017).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA820122D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds in the amount of $2,500 will be obligated at the time of award",
+        "completion_date": "2030-03-26",
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Hill Air Force Base, Utah",
+          "code": "FA8201-22-D-0017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Vangarde LLC",
+            "location": "Clearfield, Utah",
+            "contract_number": "FA8201-22-D-0017",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract (ceiling)",
+        "description": "Special missions IT support: system administration, desktop engineering, network/server support, software development, database support, and software testing at Hill AFB, Utah",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 11 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Grand Prairie, Texas, was awarded a $32,979,835 modification (P00034) to contract W31P4Q-19-C-0077 to recapitalize the Multiple Launch Rocket System into the M270A2 configuration. Work will be performed in Grand Prairie, Texas; New Boston, Texas; and Camden, Arkansas, with an estimated completion date of May 31, 2026. Fiscal 2022 Foreign Military Sales (United Kingdom) funds in the amount of $32,979,835 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q19C0077"
+        ],
+        "modification_numbers": [
+          "P00034"
+        ],
+        "is_modification": true,
+        "value_usd": 32979835.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32979835.0,
+        "funding_text": "Fiscal 2022 Foreign Military Sales (United Kingdom) funds in the amount of $32,979,835 were obligated at the time of the award",
+        "completion_date": "2026-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Grand Prairie, Texas",
+            "contract_number": "W31P4Q-19-C-0077",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Recapitalization of Multiple Launch Rocket System into M270A2 configuration",
+        "base_contract_number": "W31P4Q-19-C-0077",
+        "order_number": null,
+        "modification_number": "P00034",
+        "value_usd": 32979835,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32979835,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Torch Technologies Inc., Huntsville, Alabama, was awarded a $14,215,323 modification (P00045) to contract W31P4Q-21-F-0038 for engineering services for the Aviation and Missile Center. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of June 9, 2023. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q21F0038"
+        ],
+        "modification_numbers": [
+          "P00045"
+        ],
+        "is_modification": true,
+        "value_usd": 14215323.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-06-09",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Torch Technologies Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-21-F-0038",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Engineering services for the Aviation and Missile Center",
+        "base_contract_number": "W31P4Q-21-F-0038",
+        "order_number": null,
+        "modification_number": "P00045",
+        "value_usd": 14215323,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "bids solicited via internet, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "L.S. Black Constructors LLC, Saint Paul, Minnesota, was awarded an $11,964,433 firm-fixed-price contract for the new construction of Transient Training Brigade Headquarters at Fort McCoy. Bids were solicited via the internet with two received. Work will be performed at Fort McCoy, Wisconsin, with an estimated completion date of Dec. 1, 2023. Fiscal 2022 military construction, Army Reserve funds in the amount of $11,964,433 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-22-C-0025).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912QR22C0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11964433.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11964433.0,
+        "funding_text": "Fiscal 2022 military construction, Army Reserve funds in the amount of $11,964,433 were obligated at the time of the award",
+        "completion_date": "2023-12-01",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-22-C-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "L.S. Black Constructors LLC",
+            "location": "Saint Paul, Minnesota",
+            "contract_number": "W912QR-22-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "New construction of Transient Training Brigade Headquarters at Fort McCoy, Wisconsin",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11964433,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11964433,
+        "fms_countries": [],
+        "competition": "bids solicited via internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Missile and Fire Control, Orlando, Florida, is awarded a $31,993,851 cost-plus-fixed-fee order (N0001922F0010) against a previously issued basic ordering agreement (N0001919G0011). This order provides for Long Range Anti-Ship Missile (LRASM) AGM-158C-2 development, integration, and testing in support of providing a combined Anti-Surface Warfare (ASuW), LRASM, and Joint Air-to-Surface Standoff Missile (JASSM) strike capability for the Navy. Work will be performed in Orlando, Florida (90%); and Troy, Alabama (10%), and is expected to be completed in July 2024. Fiscal 2022 research, development, test and development (Navy) funds in the amount of $11,400,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001922F0010",
+          "N0001919G0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31993851.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11400000.0,
+        "funding_text": "Fiscal 2022 research, development, test and development (Navy) funds in the amount of $11,400,000 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "N0001922F0010",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee order",
+        "description": "Long Range Anti-Ship Missile (LRASM) AGM-158C-2 development, integration, and testing",
+        "base_contract_number": "N0001919G0011",
+        "order_number": "N0001922F0010",
+        "modification_number": null,
+        "value_usd": 31993851,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11400000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Insitu Inc., Bingen, Washington, is awarded a $15,762,976 firm-fixed-price modification (P00004) to an order (N0001921F0854) against a previously issued basic ordering agreement (N0001921G0007). This modification adds scope to increase situational awareness relative to the electronic warfare payload capability spectrum and operating environment. Additionally, this modification exercises an option to provide continued unmanned aircraft systems intelligence, surveillance, and reconnaissance data collection support services for the Department of Defense, other government agencies, and domestic and overseas contingency operations. Work will be performed in Bingen, Washington (20%); and various undisclosed locations outside the continental U.S. (80%), and is expected to be completed in October 2023. Fiscal 2022 operation and maintenance (Navy) funds in the amount of $15,762,976 will be obligated at time of award, all of which will expire at the end of the fiscal year. The Naval Air System Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001921F0854",
+          "N0001921G0007"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 15762976.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15762976.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) funds in the amount of $15,762,976 will be obligated at time of award, all of which will expire at the end of the fiscal year",
+        "completion_date": "2023-10",
+        "contracting_activity": {
+          "name": "The Naval Air System Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Insitu Inc.",
+            "location": "Bingen, Washington",
+            "contract_number": "N0001921F0854",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price modification to order",
+        "description": "Adds electronic warfare payload scope and exercises option for unmanned aircraft systems ISR data collection support services",
+        "base_contract_number": "N0001921G0007",
+        "order_number": "N0001921F0854",
+        "modification_number": "P00004",
+        "value_usd": 15762976,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15762976,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lyon Shipyard Inc.,* Norfolk, Virginia, is awarded a $13,489,440 firm-fixed-price contract to provide the management, technical, procurement, production, testing and quality assurance necessary to plan, prepare and execute all maintenance, repair, and alterations required to complete the docking phased maintenance availability onboard the USNS Narragansett (TSV-4). Work will be performed in Norfolk, Virginia, and is expected to be completed by April 2023. Fiscal 2022 operation and maintenance (Navy) funds in the amount of $13,489,440 will be obligated at time of award, of which $13,489,440 will expire at the end of the current fiscal year. This contract was competitively procured as a small business set-aside via the beta.sam.gov website with two offers received. The Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13489440.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13489440.0,
+        "funding_text": "Fiscal 2022 operation and maintenance (Navy) funds in the amount of $13,489,440 will be obligated at time of award, of which $13,489,440 will expire at the end of the current fiscal year",
+        "completion_date": "2023-04",
+        "contracting_activity": {
+          "name": "The Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lyon Shipyard Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Docking phased maintenance availability onboard USNS Narragansett (TSV-4)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13489440,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13489440,
+        "fms_countries": [],
+        "competition": "small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Venturedyne Ltd., Pewaukee, Wisconsin, is awarded a $9,995,971 firm-fixed price, indefinite-delivery/indefinite-quantity five-year contract for environmental conditioning testing chambers in support of the Navy’s energetic/explosive material division. The work will be performed in Holland, Michigan, and is expected to be completed by June 2027. Fiscal 2022 capital improvement program funding of $447,700 will be obligated on the first task order at time of award and will not expire at the end of the current fiscal year. This contract is being awarded on a sole-source basis in accordance with 10 U.S. Code 3204(a)(1) — only one responsible source will satisfy agency requirements. The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland, is the contracting activity (N00174-22–D-0008).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9995971.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 447700.0,
+        "funding_text": "Fiscal 2022 capital improvement program funding of $447,700 will be obligated on the first task order at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-06",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Venturedyne Ltd.",
+            "location": "Pewaukee, Wisconsin",
+            "contract_number": "N00174-22-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity five-year contract",
+        "description": "Environmental conditioning testing chambers for Navy energetic/explosive material division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9995971,
+        "cumulative_value_usd": null,
+        "obligated_usd": 447700,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 3204(a)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Inc., McLean, Virginia, is awarded a $9,182,160 cost-plus-fixed-fee term contract (N0003922C0009) for program support services. This contract will provide program management, administrative support, acquisition management, contracts management, business and financial management, logistics, cyber and engineering management support services for the Maritime Surveillance Systems program office. Fiscal 2022 research, development, test and evaluation (Navy); fiscal 2022 operation and maintenance (Navy); and Foreign Military Sales funds are being used to fund this award. The contract includes a one-year base period and a four one-year option periods. The option periods, if exercised, would bring the cumulative value of this contract to an estimated $49,477,627. Work will be performed in San Diego, California. Work is expected to be completed in June 2023. If options are exercised, work could continue until June 2027. This action is a result of a justification and approval that authorizes a sole source award under the authority of 10 U.S. Code 2304(c)(1) — only one responsible source (Defense Federal Acquisition Regulation subpart 6.302-1). The Naval Information Warfare System Command, San Diego, California, awarded the contract on behalf of the Navy Program Executive Office for Undersea Warfare Systems, Maritime Surveillance Systems.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0003922C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9182160.0,
+        "cumulative_value_usd": 49477627.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-06",
+        "contracting_activity": null,
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "N0003922C0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee term contract",
+        "description": "Program support services for Maritime Surveillance Systems program office",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9182160,
+        "cumulative_value_usd": 49477627,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Solpac Construction Inc., doing business as Soltek Pacific Construction Co., San Diego, California, is awarded a $7,990,000 task order (N6247322F4109) for a firm-fixed-price modification to previously awarded contract N62473-18-D-5855. This modification is a planned option that provides for the modification and remodel of Building 3 North Clinic by upgrading the installation with seismic dampers throughout the building structure at Naval Medical Center San Diego, California. Work will be performed in San Diego, California, and is expected to be completed by April 2024. The total cumulative face value of the contract is $20,970,000. Fiscal 2022 Defense Health Program funds in the amount of $7,990,000 are obligated on this award and will expire at the end of the current fiscal year. The Naval Facilities Engineering Systems Command Southwest, San Diego, California, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6247322F4109",
+          "N6247318D5855"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7990000.0,
+        "cumulative_value_usd": 20970000.0,
+        "obligated_usd": 7990000.0,
+        "funding_text": "Fiscal 2022 Defense Health Program funds in the amount of $7,990,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command Southwest, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Solpac Construction Inc., doing business as Soltek Pacific Construction Co.",
+            "location": "San Diego, California",
+            "contract_number": "N6247322F4109",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Modification and remodel of Building 3 North Clinic with seismic dampers at Naval Medical Center San Diego",
+        "base_contract_number": "N62473-18-D-5855",
+        "order_number": "N6247322F4109",
+        "modification_number": null,
+        "value_usd": 7990000,
+        "cumulative_value_usd": 20970000,
+        "obligated_usd": 7990000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "American Water Operations & Maintenance LLC, Camden, New Jersey, has been awarded a $25,220,160 modification (P00028) to contract (SP0600-19-C-8325) for water and wastewater utility services at Joint Base San Antonio, Texas. This is a fixed-price with economic-price-adjustment contract. Location of performance is Texas, with a May 31, 2070, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2019 through 2070 Air Force operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SP060019C8325"
+        ],
+        "modification_numbers": [
+          "P00028"
+        ],
+        "is_modification": true,
+        "value_usd": 25220160.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "American Water Operations & Maintenance LLC",
+            "location": "Camden, New Jersey",
+            "contract_number": "SP0600-19-C-8325",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Water and wastewater utility services at Joint Base San Antonio, Texas",
+        "base_contract_number": "SP0600-19-C-8325",
+        "order_number": null,
+        "modification_number": "P00028",
+        "value_usd": 25220160,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "L3Harris Aviation Products, Grand Rapids, Michigan, has been awarded a maximum $13,000,000 firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for Army Chinook CH-47 helicopter spare parts production and repair. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year base contract with one five-year option period. Performance completion date is June 8, 2027. Using military service is Army. Type of appropriation is fiscal 2022 through 2026 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-22-D-0009).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL122D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-22-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "L3Harris Aviation Products",
+            "location": "Grand Rapids, Michigan",
+            "contract_number": "SPRBL1-22-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract",
+        "description": "Army Chinook CH-47 helicopter spare parts production and repair",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:48Z",
-  "source": "file:2022-06-09.html"
+  "source": "file:2022-06-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T21:11:52Z"
+  }
 }

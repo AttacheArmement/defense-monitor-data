@@ -11,45 +11,358 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Y. Hata & Co., Ltd.,* Honolulu, Hawaii, has been awarded a maximum $260,000,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for subsistence prime vendor support. This was a competitive acquisition with one response received. This is a five-year contract with no option periods. The ordering period end date is Oct. 23, 2029. Using customers are Army, Navy, Air Force, Marine Corps, Coast Guard, and federal civilian agencies. Type of appropriation is fiscal 2025 through 2030 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-25-D-4001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE30025D4001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 260000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-25-D-4001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Y. Hata & Co., Ltd.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "SPE300-25-D-4001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Subsistence prime vendor support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 260000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Travis Association for the Blind,** Austin, Texas, has been awarded a maximum $15,425,410 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for riggers belts. This is a five-year contract with no option periods. The ordering period end date is Sept. 12, 2029. Using customers are Army, Air Force, Space Force, and Coast Guard. Type of appropriation is fiscal 2025 through 2029 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-B027). (Awarded Sept. 13, 2024)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C125DB027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15425410.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-25-D-B027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Travis Association for the Blind",
+            "location": "Austin, Texas",
+            "contract_number": "SPE1C1-25-D-B027",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Riggers belts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15425410,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-09-13"
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Cherokee CRC LLC, Tulsa, Oklahoma, is awarded an option (P00001) valued at $30,000,000 on a firm-fixed-price, indefinite/delivery-indefinite/quantity contract (HQ003422D0017). No funds are being obligated at the time of the award. The cumulative total of all prior actions on this contract is $75,010,000. The purpose of this contract is design-build and design-bid-build construction in the National Capitol Region. The work will be performed at Washington, D.C.; Arlington, Virginia; Alexandria, Virginia; Fairfield, Pennsylvania; and Frederick, Maryland. The estimated completion date is May 23, 2032. Washington Headquarter Services, Arlington, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "HQ003422D0017"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarter Services, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Cherokee CRC LLC",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "HQ003422D0017",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Design-build and design-bid-build construction in the National Capitol Region",
+        "base_contract_number": "HQ003422D0017",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 30000000,
+        "cumulative_value_usd": 75010000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alabama Shipyard LLC, Mobile, Alabama, was awarded a $24,527,535 firm-fixed-price contract (N3220525C4153) to perform the Post-Shakedown Availability on Military Sealift Command’s fleet replenishment oiler the USNS Harvey Milk (T-AO 206). This contract includes a base period and five unexercised options for additional work and time, which if exercised, would bring the cumulative value of this contract to $25,675,005. Work will be performed in Mobile, Alabama, beginning Jan. 9, 2025, and is expected to be completed by June 22, 2025. Working capital funds (Navy) in the amount of $24,527,535 are obligated for fiscal 2025 and will not expire at the end of the fiscal year. This contract was solicited via the sam.gov website and four offers received. Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3220525C4153"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24527535.0,
+        "cumulative_value_usd": 25675005.0,
+        "obligated_usd": 24527535.0,
+        "funding_text": "Working capital funds (Navy) in the amount of $24,527,535 are obligated for fiscal 2025 and will not expire at the end of the fiscal year",
+        "completion_date": "2025-06-22",
+        "contracting_activity": {
+          "name": "Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Alabama Shipyard LLC",
+            "location": "Mobile, Alabama",
+            "contract_number": "N3220525C4153",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Post-Shakedown Availability for USNS Harvey Milk (T-AO 206)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24527535,
+        "cumulative_value_usd": 25675005,
+        "obligated_usd": 24527535,
+        "fms_countries": [],
+        "competition": "solicited via sam.gov, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded a $15,902,690 cost-plus-fixed-fee modification to a previously awarded contract (N00024-23-C-5401) to exercise options for design agent and engineering support services for the Rolling Airframe Missile (RAM). Work will be performed in Tucson, Arizona, and is expected to be completed by March 2028. Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $2,374,750 (67%); fiscal 2023 weapons procurement (Navy) funds in the amount of $650,000 (18%); and fiscal 2025 operation and maintenance (Navy) funds in the amount of $520,000 (15%), will be obligated at time of award of which $1,170,000 will expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002423C5401"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15902690.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3544750.0,
+        "funding_text": "Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $2,374,750 (67%); fiscal 2023 weapons procurement (Navy) funds in the amount of $650,000 (18%); and fiscal 2025 operation and maintenance (Navy) funds in the amount of $520,000 (15%), will be obligated at time of award of which $1,170,000 will expire at the end of the current fiscal year",
+        "completion_date": "2028-03",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00024-23-C-5401",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Design agent and engineering support services for the Rolling Airframe Missile (RAM)",
+        "base_contract_number": "N00024-23-C-5401",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15902690,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3545000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Science Applications International Corp., Reston, Virginia, is awarded a $13,396,629 modification (P00021) to a previously awarded cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract (N0042118D0017). This modification increases the contract ceiling to provide engineering support, to include multi-discipline, integrated technical baseline evaluations, developmental progress assessments, cost, schedule, emerging technology, and maturity of design assessments for all Naval Air Systems Command (NAVAIR) acquisition programs in support of the NAVAIR Systems Engineering Department. Work will be performed in Patuxent River, Maryland (95%); various locations within the continental U.S. (CONUS) (4%); and various locations outside the CONUS (1%), and is expected to be completed in April 2025. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The contract being modified was competed on a full and open basis with four offers received. Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042118D0017"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 13396629.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2025-04",
+        "contracting_activity": {
+          "name": "Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N0042118D0017",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Increases contract ceiling for engineering support for NAVAIR acquisition programs (systems engineering)",
+        "base_contract_number": "N0042118D0017",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 13396629,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "full and open competition, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "LIB SRC INC, Myersville, Maryland, was awarded a $24,065,707 cost-plus-fixed-fee completion contract for radio frequency networked edge for resilient defenses and systems. This contract provides for the development technology for building flexible software-defined radio-based computational environments for digital signal processing applications and distributing a set of advanced computational software tools, based on this technology, that will enable rapid development of next generation radio frequency collection and analysis systems. Work will be performed at Myersville, Maryland, and is expected to be complete by Oct. 23, 2029. This award is the result of a competitive acquisition, offers were solicited electronically via an open Broad Agency Announcement and two offers were received. Fiscal 2024 research, development, test and evaluation funds in the amount of $26,000 are being obligated at time of award. The Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-25-C-B015).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA875025CB015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24065707.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26000.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation funds in the amount of $26,000 are being obligated at time of award",
+        "completion_date": "2029-10-23",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-25-C-B015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "LIB SRC INC",
+            "location": "Myersville, Maryland",
+            "contract_number": "FA8750-25-C-B015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion contract",
+        "description": "Radio frequency networked edge for resilient defenses and systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24065707,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26000,
+        "fms_countries": [],
+        "competition": "competitive, open Broad Agency Announcement, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:54Z",
-  "source": "file:2024-10-24.html"
+  "source": "file:2024-10-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-26T19:25:40Z"
+  }
 }
