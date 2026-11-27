@@ -9,15 +9,104 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Lions Services, Charlotte, North Carolina, has been awarded a maximum $11,104,800 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Army combat helmet chin straps. This was a mandatory acquisition with Ability One. This is a one-year base contract with two one-year option periods. Locations of performance are North Carolina and Texas, with a Feb. 17, 2018, performance completion date. Using military service is Army. Type of appropriation is fiscal 2017 through 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-17-D-B008).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C117DB008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11104800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-17-D-B008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lions Services",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "SPE1C1-17-D-B008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Army combat helmet chin straps (mandatory acquisition with Ability One)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11104800,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "mandatory acquisition with Ability One",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Guidance and Electronics Co., Laser Systems (NGLS), Apopka, Florida, was awarded a $16,959,520 cost-plus-fixed-fee contract for five years to procure depot level sustainment maintenance and repair services for Lightweight Laser Designator Range Finder (LLDR) systems: Target Locator Module, Target Locator Module II, Target Locator Module IIH, Laser Designator Module, Diode Laser Designator Module, and Range Finder-Target Designators. Bids were solicited via the Internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Feb. 16, 2022. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W56JSR-17-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56JSR17D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16959520.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-02-16",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W56JSR-17-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Guidance and Electronics Co., Laser Systems (NGLS)",
+            "location": "Apopka, Florida",
+            "contract_number": "W56JSR-17-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Depot level sustainment maintenance and repair services for Lightweight Laser Designator Range Finder (LLDR) systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16959520,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with one received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2017-02-17.html"
+  "source": "file:2017-02-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:53:43Z"
+  }
 }

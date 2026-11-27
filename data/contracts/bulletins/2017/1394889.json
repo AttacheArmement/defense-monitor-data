@@ -11,45 +11,357 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Missile Systems, Tucson, Arizona, is being awarded a not-to-exceed $302,439,830 for modification P00001 to a previously awarded undefinitized contract (N00019-18-C-1002). This modification is for the procurement of 618 Joint Standoff Weapon (JSOW) air-to-ground missiles (AGM-154 Block III C), containers, component parts/support equipment (spares) and engineering technical assistance for the government of Saudi Arabia, under the Foreign Military Sales program. Work will be performed in Tucson, Arizona (36.6 percent); Glascoed, Wales, United Kingdom (15.6 percent); Dallas, Texas (11.7 percent); Glasgow, Scotland, United Kingdom (6.2 percent); Vergennes, Vermont (5.3 percent); Minneapolis, Minnesota (3.4 percent); Richardson, Texas (2.9 percent); Andover, Massachusetts (2.5 percent); McAlester, Oklahoma (2.0 percent); Joplin, Missouri (2.0 percent); Tulsa, Oklahoma (1.9 percent); Goleta, California (1.6 percent); Williamsport, Pennsylvania (1.5 percent); Berryville, Arkansas (1.1 percent); Bohemia, New York (1.1 percent); Orchard Park, New York (1.0 percent); Pinellas Park, Florida (0.8 percent); Boulder, Colorado (0.7 percent); Valencia, California (0.4 percent); and other U.S. locations (1.6 percent), and is expected to be completed in June 2022. Foreign military sales funds in the amount of $148,195,517 are being obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1002"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 302439830.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 148195517.0,
+        "funding_text": "Foreign military sales funds in the amount of $148,195,517 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Missile Systems",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00019-18-C-1002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action",
+        "description": "Procurement of 618 JSOW AGM-154 Block III C air-to-ground missiles, containers, spares and engineering technical assistance for Saudi Arabia (FMS)",
+        "base_contract_number": "N00019-18-C-1002",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 302439830,
+        "cumulative_value_usd": null,
+        "obligated_usd": 148195517,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "KBR Wyle Technology Solutions LLC, Columbia, Maryland, is being awarded a $69,301,409 indefinite-delivery/indefinite-quantity contract for the procurement of installation, systems integration, test and evaluation, in-service engineering, logistics, repair and validation, training, lab maintenance, quality assurance, and technical management services for the Multi-Mission Datalink System. These services are in support of the Naval Air Warfare Center Aircraft Division’s Combat Integrated and Identification Systems Division for Systems Engineering and Technical Services Department (AIR-4.11.2). Work will be performed in St. Inigoes, Maryland (50 percent); and various ship/shore locations (50 percent), and is expected to be completed in January 2023. No funds will be obligated at time of award. Funds will be obligated on individual task orders as they are issued. This contract was competitively procured via an electronic request for proposal, one offer was received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-18-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0042118D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 69301409.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2023-01",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00421-18-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "KBR Wyle Technology Solutions LLC",
+            "location": "Columbia, Maryland",
+            "contract_number": "N00421-18-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Installation, systems integration, test and evaluation, in-service engineering, logistics, training and technical management services for the Multi-Mission Datalink System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 69301409,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Centurum Information Technology Inc., Marlton, New Jersey, is being awarded a $54,306,493 cost-plus-fixed-fee contract to provide depot level repair and restoration support to include fabrication, manufacturing, re-manufacturing, restoration, repair, overhaul, and calibration of electro-mechanical and mechanical units both on ground and airborne; assemblies, subassemblies, and test equipment; and worldwide technical support to the fleet, shore facilities and government agencies. This three-year contract includes two, 12-month option periods which, if exercised, would bring the cumulative value of this contract to an estimated $90,699,373. Work will be performed in San Diego, California, and is expected to be completed Dec. 11, 2020. If options are exercised, work will continue through Dec. 11, 2022.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 54306493.0,
+        "cumulative_value_usd": 90699373.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Centurum Information Technology Inc.",
+            "location": "Marlton, New Jersey",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Depot level repair and restoration support of electro-mechanical and mechanical units, assemblies, subassemblies and test equipment, plus worldwide technical support to the fleet",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54306493,
+        "cumulative_value_usd": 90699373,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "No funds will be obligated at the time of award. Fiscal 2018 operations and maintenance (Navy) are primarily anticipated to be obligated as individual orders are issued. Contract funds will not expire at the end of the current fiscal year. This contract was competitively procured via a request for proposal published on the Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website. Three offers were received and one was selected for award. The Space and Naval Warfare Systems Center Pacific, San Diego, California, is the contracting activity (N66001-18-D-0153).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6600118D0153"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Fiscal 2018 operations and maintenance (Navy) are primarily anticipated to be obligated as individual orders are issued",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Center Pacific, San Diego, California",
+          "code": "N66001-18-D-0153"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "<UNKNOWN>",
+            "location": null,
+            "contract_number": "N66001-18-D-0153",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Unidentified contract announcement (text covers only funding and competition details)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, request for proposal; three offers received, one selected",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Layton, Utah, has been awarded a $40,612,956 modification (P00054) to a previously awarded contract (FA8214-15-C-0001) for mod 7 wafer instrumentation support kits in support of the minuteman force development evaluation test flight program at Vandenberg Air Force Base, California. Work will be performed at Boeing Defense, Space, and Security, Layton, Utah, with an expected completion date of May 11, 2022. Fiscal 2016 and 2017 missile procurement funds are being obligated at the time of award. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA821415C0001"
+        ],
+        "modification_numbers": [
+          "P00054"
+        ],
+        "is_modification": true,
+        "value_usd": 40612956.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2016 and 2017 missile procurement funds are being obligated at the time of award",
+        "completion_date": "2022-05-11",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Layton, Utah",
+            "contract_number": "FA8214-15-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Mod 7 wafer instrumentation support kits for the Minuteman force development evaluation test flight program at Vandenberg AFB",
+        "base_contract_number": "FA8214-15-C-0001",
+        "order_number": null,
+        "modification_number": "P00054",
+        "value_usd": 40612956,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Magpul Industries Corp.,* Austin, Texas, has been awarded a $12,792,000 firm-fixed-price, definite-quantity contract for magazine cartridges. This was a competitive acquisition with three responses received. This is a one-time buy with no option periods. Locations of performance are Texas and Wyoming, with a Sept. 10, 2018, performance completion date. Using military services are Army, Air Force and Marine Corps. Type of appropriation is fiscal 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7L4-18-C-0028).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE7L418C0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12792000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7L4-18-C-0028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Magpul Industries Corp.",
+            "location": "Austin, Texas",
+            "contract_number": "SPE7L4-18-C-0028",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, definite-quantity",
+        "description": "Magazine cartridges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12792000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Heart & Core LLC,* Minnetonka, Minnesota, has been awarded a maximum $7,920,000 modification (P00004) exercising the first one-year option of a one-year base contract (SPE1C1-17-D-1018) with four one-year option periods for tan and brown moisture-wicking t-shirts. The modification brings the maximum dollar value of the contract to $11,381,418 from $3,461,418. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Locations of performance are Minnesota and California, with a Dec. 15, 2018, performance completion date. Using military services are Army, Air Force, Navy and Coast Guard. Type of appropriation is fiscal 2018 through 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C117D1018"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 7920000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Heart & Core LLC",
+            "location": "Minnetonka, Minnesota",
+            "contract_number": "SPE1C1-17-D-1018",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "First one-year option exercise for tan and brown moisture-wicking t-shirts",
+        "base_contract_number": "SPE1C1-17-D-1018",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 7920000,
+        "cumulative_value_usd": 11381418,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2017-12-12.html"
+  "source": "file:2017-12-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:15:21Z"
+  }
 }

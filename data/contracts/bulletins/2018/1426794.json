@@ -9,51 +9,461 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Missiles Systems, Tucson, Arizona, was awarded a $95,000,000 hybrid (cost-plus-fixed-fee and firm-fixed-price) contract for engineering services to support the 155mm Excalibur program. One bid was solicited with one bid received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 25, 2023. U.S. Army Contracting Command – New Jersey, is the contracting activity (W15QKN-18-D-0002).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN18D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-01-25",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command – New Jersey",
+          "code": "W15QKN-18-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon Missiles Systems",
+            "location": "Tucson, Arizona",
+            "contract_number": "W15QKN-18-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Engineering services to support the 155mm Excalibur program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited with one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Ordnance and Tactical Systems, St. Petersburg, Florida, was awarded a $13,548,167 modification (P00005) to contract W52P1J-17-C-0024 to procure 120mm M865 recap cartridges for 120mm tank training ammunition. Work will be performed in St. Petersburg, Florida, with an estimated completion date of Dec. 31, 2019. Fiscal 2018 other procurement (Army) funds in the amount of $13,548,167 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J17C0024"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 13548167.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13548167.0,
+        "funding_text": "Fiscal 2018 other procurement (Army) funds in the amount of $13,548,167 were obligated at the time of the award",
+        "completion_date": "2019-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Dynamics Ordnance and Tactical Systems",
+            "location": "St. Petersburg, Florida",
+            "contract_number": "W52P1J-17-C-0024",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Procurement of 120mm M865 recap cartridges for 120mm tank training ammunition",
+        "base_contract_number": "W52P1J-17-C-0024",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 13548167,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13548167,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Orbital Alliant Techsystems Operations LLC, Plymouth, Minnesota, was awarded a $10,452,069 modification (P00003) to contract W52P1J-17-C-0025 to procure 13,990 120mm tank training ammunition M865 recapitalized cartridges. Work will be performed in Plymouth, Minnesota, with an estimated completion date of Jan. 29, 2018. Fiscal 2018 other procurement (Army) funds in the amount of $10,452,069 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J17C0025"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 10452069.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10452069.0,
+        "funding_text": "Fiscal 2018 other procurement (Army) funds in the amount of $10,452,069 were obligated at the time of the award",
+        "completion_date": "2018-01-29",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Orbital Alliant Techsystems Operations LLC",
+            "location": "Plymouth, Minnesota",
+            "contract_number": "W52P1J-17-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Procurement of 13,990 120mm tank training ammunition M865 recapitalized cartridges",
+        "base_contract_number": "W52P1J-17-C-0025",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 10452069,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10452069,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Billy W. Jarrett Construction Co. Inc.,* Auburn, Alabama, was awarded an $8,503,506 firm-fixed-price contract for Dorn Veterans Affairs Medical Center parking deck construction. Bids were solicited via the Internet with two received. Work will be performed in Columbia, South Carolina, with an estimated completion date of Jan. 26, 2018. Fiscal 2018 operations and maintenance (Army) funds in the amount of $8,503,506 were obligated at the time of the award. U.S. Army Corps of Engineers, Charleston, South Carolina, is the contracting activity (W912HP-18-C-4000).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912HP18C4000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8503506.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8503506.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Army) funds in the amount of $8,503,506 were obligated at the time of the award",
+        "completion_date": "2018-01-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Charleston, South Carolina",
+          "code": "W912HP-18-C-4000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Billy W. Jarrett Construction Co. Inc.",
+            "location": "Auburn, Alabama",
+            "contract_number": "W912HP-18-C-4000",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dorn Veterans Affairs Medical Center parking deck construction",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8503506,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8503506,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tetra Tech-Maytag JV, Pasadena, California, was awarded a $7,938,253 firm-fixed-price contract for recurring maintenance and minor/emergency repair of Defense Logistics Agency fuel systems. Bids were solicited via the Internet with two received. Work will be performed in Pendleton, Oregon; Boone, Iowa; Fort Bliss, Texas, Johnston, Iowa; San Miguel, California; Warrenton, Oregon; Dugway, Utah; Davenport, Iowa; Cheyenne, Wyoming; Fort Hunter Liggett, California; Fort Hood, Texas; Fort Huachuca, Arizona; Fort Irwin, California; West Jordan, Utah; Los Alamitos, California; Joint Base Lewis-McChord, Washington; Mather, California; Marana, Arizona; Fort McCoy, Wisconsin; Bellemont, Arizona; Pinon Canyon, Colorado; Pueblo, Colorado; Phoenix, Arizona; Rock Island, Illinois; Little Falls, North Carolina; Herlong, California; Salem, Oregon; San Luis Obispo, California; St. Cloud, Minnesota; St. Paul, Minnesota; Tooele, Utah; White Sands Missile Range, New Mexico; Clackamas, Oregon; Waterloo, Iowa; Yakima, Washington; and Yuma, Arizona, with an estimated completion date of Jan. 27, 2019. Fiscal 2018 defense working capital funds in the amount of $7,938,235 were obligated at the time of the award. U.S. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity (W912DY-18-F-0087).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912DY18F0087"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7938253.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7938235.0,
+        "funding_text": "Fiscal 2018 defense working capital funds in the amount of $7,938,235 were obligated at the time of the award",
+        "completion_date": "2019-01-27",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Huntsville, Alabama",
+          "code": "W912DY-18-F-0087"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Tetra Tech-Maytag JV",
+            "location": "Pasadena, California",
+            "contract_number": "W912DY-18-F-0087",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Recurring maintenance and minor/emergency repair of Defense Logistics Agency fuel systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7938253,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7938235,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Brinkerhoff Excavating and Construction Inc., Ogden, Utah (FA8201-18-D-0001); Consolidated Paving and Concrete Inc., Ogden, Utah (FA8201-18-D-0002); and Mountain West Precast LLC., Brigham City, Utah (FA8201-18-D-0003), have been awarded a combined, not-to-exceed $85,000,000 multiple award indefinite-delivery/indefinite-quantity contract for paving construction services. Work will be performed at Hill Air Force Base, Utah; and additional areas under Hill Air Force Base jurisdiction, and is expected to be complete by July 28, 2024. This multiple award is the result of a competitive acquisition and seven offers were received. Fiscal 2018 operations and maintenance funds will be obligated at the task order level. Air Force Sustainment Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA820118D0001",
+          "FA820118D0002",
+          "FA820118D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 85000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2018 operations and maintenance funds will be obligated at the task order level",
+        "completion_date": "2024-07-28",
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Brinkerhoff Excavating and Construction Inc.",
+            "location": "Ogden, Utah",
+            "contract_number": "FA8201-18-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Consolidated Paving and Concrete Inc.",
+            "location": "Ogden, Utah",
+            "contract_number": "FA8201-18-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Mountain West Precast LLC.",
+            "location": "Brigham City, Utah",
+            "contract_number": "FA8201-18-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award indefinite-delivery/indefinite-quantity",
+        "description": "Paving construction services at Hill Air Force Base, Utah",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 85000000,
+        "cumulative_value_usd": 85000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Honeywell Defense & Space, Tempe, Arizona, has been awarded a not-to-exceed $42,636,136 undefintized contract modification (P00132) to previously awarded contract FA8208-07-C-0001 for secondary power logistics solution increment one. This modification provides for the performance-based logistical support of ground carts, auxiliary power units, and secondary power for B-2 and C-130 weapon systems. Work will be performed at Hill Air Force Base, Utah; and Tempe, Arizona, and is expected to be complete by Nov. 30 2018. This contract involves foreign military sales to the Republic of Korea, Germany, Egypt, Greece, Saudi Arabia, Romania, Israel, Bahrain, the Netherlands, Japan, Mexico, Taiwan, Jordan, Australia, NATO, Argentina, Kuwait, Pakistan, Turkey and Poland. This award is the result of a sole-source acquisition. Air Force Working Capital funds in the amount of $31,977,102 are being obligated at the time of award. Air Force Sustainment Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA820807C0001"
+        ],
+        "modification_numbers": [
+          "P00132"
+        ],
+        "is_modification": true,
+        "value_usd": 42636136.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31977102.0,
+        "funding_text": "Air Force Working Capital funds in the amount of $31,977,102 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "Republic of Korea",
+          "Germany",
+          "Egypt",
+          "Greece",
+          "Saudi Arabia",
+          "Romania",
+          "Israel",
+          "Bahrain",
+          "Netherlands",
+          "Japan",
+          "Mexico",
+          "Taiwan",
+          "Jordan",
+          "Australia",
+          "NATO",
+          "Argentina",
+          "Kuwait",
+          "Pakistan",
+          "Turkey",
+          "Poland"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Honeywell Defense & Space",
+            "location": "Tempe, Arizona",
+            "contract_number": "FA8208-07-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action",
+        "description": "Secondary power logistics solution increment one; performance-based logistical support of ground carts, auxiliary power units, and secondary power for B-2 and C-130 weapon systems",
+        "base_contract_number": "FA8208-07-C-0001",
+        "order_number": null,
+        "modification_number": "P00132",
+        "value_usd": 42636136,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31977102,
+        "fms_countries": [
+          "Republic of Korea",
+          "Germany",
+          "Egypt",
+          "Greece",
+          "Saudi Arabia",
+          "Romania",
+          "Israel",
+          "Bahrain",
+          "Netherlands",
+          "Japan",
+          "Mexico",
+          "Taiwan",
+          "Jordan",
+          "Australia",
+          "NATO",
+          "Argentina",
+          "Kuwait",
+          "Pakistan",
+          "Turkey",
+          "Poland"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L-3 Link Simulation and Training, Arlington, Texas, has been awarded an $8,177,812 modification (P00143) to previously awarded FA8621-13-C-6323 for the Predator Mission Aircrew Training System (PMATS) Block 30 retrofit communication kits and simulator seats. This modification brings the total cumulative face value of the contract to $120,753,927, and provides for the shipment and installation of 40 communication kits to fielded PMATS, and the purchase and installation of 40 sets of simulator seats. Work will be performed in Arlington, Texas, and is expected to be complete by June 30, 2020. Fiscal 2017 procurement funds are being obligated at the time of award. Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA862113C6323"
+        ],
+        "modification_numbers": [
+          "P00143"
+        ],
+        "is_modification": true,
+        "value_usd": 8177812.0,
+        "cumulative_value_usd": 120753927.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2017 procurement funds are being obligated at the time of award",
+        "completion_date": "2020-06-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "L-3 Link Simulation and Training",
+            "location": "Arlington, Texas",
+            "contract_number": "FA8621-13-C-6323",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Predator Mission Aircrew Training System (PMATS) Block 30 retrofit communication kits and simulator seats",
+        "base_contract_number": "FA8621-13-C-6323",
+        "order_number": null,
+        "modification_number": "P00143",
+        "value_usd": 8177812,
+        "cumulative_value_usd": 120753927,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2018-01-29.html"
+  "source": "file:2018-01-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:10:13Z"
+  }
 }

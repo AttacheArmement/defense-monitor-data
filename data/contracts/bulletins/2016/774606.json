@@ -11,63 +11,505 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SRA International Inc., Chantilly, Virginia, was awarded a $34,590,000 cost-plus-fixed-fee contract with options for biomedical research, with an estimated completion date of May 16, 2021. Bids were solicited via the Internet with two received. Funding and work location will be determined with each order. Army Medical Research Acquisition Activity, Frederick, Maryland, is the contracting activity (W81XWH-16-D-0010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W81XWH16D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34590000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-05-16",
+        "contracting_activity": {
+          "name": "Army Medical Research Acquisition Activity, Frederick, Maryland",
+          "code": "W81XWH-16-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "SRA International Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W81XWH-16-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract with options",
+        "description": "Biomedical research contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34590000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "URS Federal Services, Annapolis Junction, Maryland, was awarded a $27,611,794 modification (P000126) to contract W52P1J-12-G-0028 for maintenance, supply, and transportation service to the Logistics Readiness Center, Ft. Polk, Louisiana, with an estimated completion date of May 18, 2020. Fiscal 2016 operations and maintenance (Army) funds in the amount of $27,611,794 were obligated at the time of the award. Army Contracting Command, Ft. Polk, Louisiana, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J12G0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 27611794.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27611794.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $27,611,794 were obligated at the time of the award",
+        "completion_date": "2020-05-18",
+        "contracting_activity": {
+          "name": "Polk, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "URS Federal Services",
+            "location": "Annapolis Junction, Maryland",
+            "contract_number": "W52P1J-12-G-0028",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Maintenance, supply, and transportation service to the Logistics Readiness Center, Ft. Polk, Louisiana",
+        "base_contract_number": "W52P1J-12-G-0028",
+        "order_number": null,
+        "modification_number": "P000126",
+        "value_usd": 27611794,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27611794,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Swinerton Builders, Arvada, Colorado, was awarded a $26,084,000 firm-fixed-price contract for a health clinic parking structure, with an estimated completion date of Nov. 30, 2017. Bids were solicited via the Internet with seven received. Work will be performed at Schofield Barracks, Hawaii. Fiscal 2016 other procurement funds in the amount of $26,084,000 were obligated at the time of the award. Army Corps of Engineers, Ft. Shafter, Hawaii, is the contracting activity (W9128A-16-C-0004).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9128A16C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26084000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26084000.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $26,084,000 were obligated at the time of the award",
+        "completion_date": "2017-11-30",
+        "contracting_activity": {
+          "name": "Shafter, Hawaii",
+          "code": "W9128A-16-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Swinerton Builders",
+            "location": "Arvada, Colorado",
+            "contract_number": "W9128A-16-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Health clinic parking structure at Schofield Barracks, Hawaii",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26084000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26084000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Siler Excavating LLC,* Clairfield, Tennessee, was awarded a $10,999,949 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with options for a pavement contract, with an estimated completion date of Dec. 30, 2020. Bids were solicited via the Internet with five received. Funding and work location will be determined with each order. Army Contracting Command, Ft. Bragg, North Carolina, is the contracting activity (W9124M-16-D-0006).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9124M16D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10999949.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-12-30",
+        "contracting_activity": {
+          "name": "Bragg, North Carolina",
+          "code": "W9124M-16-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Siler Excavating LLC",
+            "location": "Clairfield, Tennessee",
+            "contract_number": "W9124M-16-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract with options",
+        "description": "Pavement contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10999949,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with five received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "University of Dayton Research Institute, Dayton, Ohio (FA8650-12-D-2224, P00006); and UES Inc., Dayton, Ohio (FA8650-12-D-2225, P00004), have been awarded a combined, not-to-exceed $20,800,000 modification for additional research in the areas of power, energy and thermal technologies. Work will be performed at Dayton, Ohio, for both companies, and is expected to be complete by May 31, 2019. No funds are being obligated at the time of award. The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA865012D2224",
+          "FA865012D2225"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 20800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2019-05-31",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "University of Dayton Research Institute",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-12-D-2224, P00006",
+            "markers": null
+          },
+          {
+            "name": "UES Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-12-D-2225, P00004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Additional research in power, energy and thermal technologies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Entwistle Co., Danville, Virginia, has been awarded a $19,641,231 delivery order (FA8532-16-F-0018) to previously awarded contract FA8533-12-D-0005 for fuels operational readiness capability equipment. Work will be performed at Danville, Virginia, and is expected to be completed by Sept. 30, 2019. Fiscal 2016 other procurement funds in the amount of $19,641,231 are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA853216F0018",
+          "FA853312D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19641231.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19641231.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $19,641,231 are being obligated at the time of award",
+        "completion_date": "2019-09-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Entwistle Co.",
+            "location": "Danville, Virginia",
+            "contract_number": "FA8532-16-F-0018",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Fuels operational readiness capability equipment",
+        "base_contract_number": "FA8533-12-D-0005",
+        "order_number": "FA8532-16-F-0018",
+        "modification_number": null,
+        "value_usd": 19641231,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19641231,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Technical Services, Herndon, Virginia, has been awarded a $17,542,565 delivery order (P00001) to previously awarded contract FA8105-16-F-0011 for four engine overhauls in support of the KC-10 program. Work will be performed at Vancouver, Canada, and is expected to be complete by April 30, 2018. Fiscal 2016 operations and maintenance funds in the amount of $17,542,565 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA810516F0011"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": false,
+        "value_usd": 17542565.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17542565.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $17,542,565 are being obligated at the time of award",
+        "completion_date": "2018-04-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Technical Services",
+            "location": "Herndon, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Four engine overhauls in support of the KC-10 program",
+        "base_contract_number": "FA8105-16-F-0011",
+        "order_number": "P00001",
+        "modification_number": null,
+        "value_usd": 17542565,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17542565,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Redondo Beach, California, has been awarded a $13,501,251 cost-plus-fixed-fee contract for the On-Orbit Reprogrammable Digital Waveform Generator (ORDWG) program. Contractor will perform the research and development activities necessary to define and validate an ORDWG design and architecture that is capable of all current and projected navigation signals and modulations, and will operate securely in a contested cyber environment. Work will be performed at Redondo Beach, California, and is expected to be complete by Nov. 24, 2020. This award is the result of a competitive acquisition with nine offers received. Fiscal 2015 and 2016 research, development, test and evaluation funds in the amount of $3,840,769 are being obligated at the time of award. The Air Force Research Laboratory, Kirtland Air Force Base, New Mexico, is the contracting activity (FA9453-16-C-0010).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA945316C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13501251.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3840769.0,
+        "funding_text": "Fiscal 2015 and 2016 research, development, test and evaluation funds in the amount of $3,840,769 are being obligated at the time of award",
+        "completion_date": "2020-11-24",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Kirtland Air Force Base, New Mexico",
+          "code": "FA9453-16-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Redondo Beach, California",
+            "contract_number": "FA9453-16-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "On-Orbit Reprogrammable Digital Waveform Generator (ORDWG) program research and development",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13501251,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3840769,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Exelis Inc., a wholly-owned subsidiary of Harris Corp., Herndon, Virginia, has been awarded a $10,357,560 modification (P00003) to previously awarded contract FA8730-16-C-0009 for the Air Force Distributed Common Ground System (DCGS). Contractor will provide use of InfiniBand Wide Area Network high-speed transport layer and data usage and dissemination capabilities. This effort provides direct feed of information without going through a third party, increased speed for data collection/processing, and cloud computing architecture, while supporting growing technologies. Work will be performed at DCGS locations, and is expected to be complete by July 31, 2017. Fiscal 2016 other procurement funds in the amount of $10,357,560 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA873016C0009"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 10357560.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10357560.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $10,357,560 are being obligated at the time of award",
+        "completion_date": "2017-07-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Exelis Inc., a wholly-owned subsidiary of Harris Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Air Force Distributed Common Ground System (DCGS) InfiniBand Wide Area Network high-speed transport and data dissemination capabilities",
+        "base_contract_number": "FA8730-16-C-0009",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 10357560,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10357560,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE INFORMATION SYSTEMS AGENCY",
       "kind": "announcement",
       "text": "By Light Professional IT Services Inc., Arlington, Virginia, was awarded a competitive firm-fixed-price contract for a 10-year indefeasible right-of-use dark fiber, equipment, and operations and maintenance support. The face value of this action is $10,077,852 funded by fiscal 2015 and 2016 procurement appropriation. The total cumulative face value of the contract is $15,042,715. The period of performance of this contract consists of a base period of one-year with nine one-year option periods. Performance will be at two locations in Georgia, two locations in Alabama, and one location in Florida. Proposals were solicited via the Federal Business Opportunities (FedBizOpps) webpage at fedbizopps.gov, and four proposals were received. The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois, is the contracting activity (HC1013-16-C-0005).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "HC101316C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10077852.0,
+        "cumulative_value_usd": 15042715.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois",
+          "code": "HC1013-16-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "By Light Professional IT Services Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "HC1013-16-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "10-year indefeasible right-of-use dark fiber, equipment, and operations and maintenance support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10077852,
+        "cumulative_value_usd": 15042715,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; four proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-05-17.html"
+  "source": "file:2016-05-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:26:48Z"
+  }
 }

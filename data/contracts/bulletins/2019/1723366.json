@@ -11,69 +11,593 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Risk Mitigation Consulting Inc.,* Destin, Florida, is awarded a maximum amount $95,000,000 indefinite-delivery/indefinite-quantity contract for mission assurance assessments of installation/facilities infrastructure and facility-related control systems for the Department of the Navy. The work includes, but is not limited to the collection and evaluation of data concerning the criticality of facilities, utilities, industrial control systems, and supporting infrastructure based on mission impacts, probable threats and hazards, and degrees of vulnerability to determine the overall risk posture of the asset. Work will be performed at various Navy and Marine Corps installations at various locations within the Naval Facilities Engineering Command, Atlantic area of responsibility, both inside and outside the continentalU.S., including, but not limited to, California (24.6 percent); Virginia (13.0 percent); Florida (10.1 percent); Maryland (7.2 percent); Washington (5.8 percent); Hawaii (4.3 percent); Texas (4.3 percent); South Carolina (4.3 percent); Washington, District of Columbia (2.9 percent); North Carolina (2.9 percent); Mississippi (2.9 percent); Georgia (2.9 percent); Tennessee (1.5 percent); Rhode Island (1.5 percent); Pennsylvania (1.5 percent); New York (1.5 percent); New Jersey (1.5 percent); Louisiana (1.5 percent); Indiana (1.5 percent); Illinois (1.5 percent); Connecticut (1.4 percent); and Arizona (1.4 percent). The term of the contract is not to exceed 60 months with an expected completion date of January 1, 2024. Fiscal 2019 operations and maintenance (Navy) funds in the amount of $10,000 are obligated on this award, and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operations and maintenance (Navy and Marine Corps). This contract was competitively procured via the Navy Electronic Commerce Online website and Federal Business Opportunities website, with six proposals received. The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia, is the contracting activity (N62470-19-D-2002).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6247019D2002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) funds in the amount of $10,000 are obligated on this award, and will expire at the end of the current fiscal year",
+        "completion_date": "2024-01-01",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Atlantic, Norfolk, Virginia",
+          "code": "N62470-19-D-2002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Risk Mitigation Consulting Inc.",
+            "location": "Destin, Florida",
+            "contract_number": "N62470-19-D-2002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Mission assurance assessments of installation/facilities infrastructure and facility-related control systems for the Department of the Navy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": 95000000,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive, six proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., El Segundo, California, was awarded $81,224,627 for modification P00007 to a previously awarded fixed-price-incentive=-firm-target contract ( N00019-17-C-0042). This modification provides for the procurement of 228 configuration components required for completion of Configuration D Retrofit Component engineering change proposals for the F/A-18E/F and EA-18G aircraft for the Navy and the government of Australia. Work will be performed in Forest, Mississippi (53 percent); Andover, Massachusetts (36 percent); and El Segundo, California (11 percent), and is expected to be completed in February 2022. Fiscal 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds in the amount of $81,224,627 will be obligated at time of award. No funds will expire at the end of the current fiscal year. This modification combines purchases for the Navy ($80,692,484; 99 percent) and the government of Australia ($532,143; 1 percent) under the FMS program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0042"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 81224627.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81224627.0,
+        "funding_text": "Fiscal 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds in the amount of $81,224,627 will be obligated at time of award",
+        "completion_date": "2022-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "El Segundo, California",
+            "contract_number": "N00019-17-C-0042",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm-target",
+        "description": "Procurement of 228 Configuration D Retrofit Component engineering change proposals for F/A-18E/F and EA-18G aircraft",
+        "base_contract_number": "N00019-17-C-0042",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 81224627,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81224627,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin, Rotary and Mission Systems, Moorestown, New Jersey, is awarded a $28,882,337 cost-plus-incentive-fee modification to previously awarded contract N00024-16-C-5102 for AEGIS Baseline 9 Integration and Delivery, TI-08 CG Upgrade, AEGIS Baseline 9 Capability Development, Capability Improvements, Baseline 9 Sea Based Non-Cooperative Target Recognition Development and Radar Engineering. Work will be performed in Moorestown, New Jersey, and is expected to be complete by July 2019. Fiscal 2019 research, development, test and evaluation (Navy); fiscal 2013 shipbuilding and conversion (Navy); fiscal 2019 other procurement (Navy); 2019 operations and maintenance (Navy); and 2019 weapons procurement (Navy), funding in the amount of $28,882,337 will be obligated at time of award and funds in the amount of $1,530,764 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C5102"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 28882337.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 30413101.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy); fiscal 2013 shipbuilding and conversion (Navy); fiscal 2019 other procurement (Navy); 2019 operations and maintenance (Navy); and 2019 weapons procurement (Navy), funding in the amount of $28,882,337 will be obligated at time of award and funds in the amount of $1,530,764 will expire at the end of the current fiscal year",
+        "completion_date": "2019-07",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin, Rotary and Mission Systems",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-16-C-5102",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "AEGIS Baseline 9 Integration and Delivery, TI-08 CG Upgrade, and related AEGIS development work",
+        "base_contract_number": "N00024-16-C-5102",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28882337,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28882337,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell-Boeing JPO, Amarillo, Texas, is being awarded $23,325,145 for cost-plus- fixed-fee delivery order N0001918F5004 against a previously issued basic ordering agreement (N00019-17-G-0002) in support of the V-22. This order provides support of ongoing flight test and evaluation of the V-22 test aircraft. Work will be performed at Naval Air Station Patuxent River, Maryland (90 percent); and Marine Corps Air Station Yuma, Arizona (10 percent), and is expected to be completed in December 2018. Fiscal 2018 aircraft procurement (Navy); and fiscal 2018 research, development, test and evaluation (Navy) funds in the amount of $23,325,145 will be obligated at time of award; none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001918F5004",
+          "N0001917G0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23325145.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23325145.0,
+        "funding_text": "Fiscal 2018 aircraft procurement (Navy); and fiscal 2018 research, development, test and evaluation (Navy) funds in the amount of $23,325,145 will be obligated at time of award; none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Bell-Boeing JPO",
+            "location": "Amarillo, Texas",
+            "contract_number": "N0001918F5004",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "Support of ongoing flight test and evaluation of the V-22 test aircraft",
+        "base_contract_number": "N00019-17-G-0002",
+        "order_number": "N0001918F5004",
+        "modification_number": null,
+        "value_usd": 23325145,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23325145,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "SRA International Inc., Chantilly, Virginia, was awarded an $11,336,940 firm-fixed-price contract for command, control, communications, and computer system afloat operations and sustainment support for capabilities aboard the Military Sealift Command (MSC) fleet of ships, and the MSC network operations centers. This contract includes a six-month period of performance. Work will be performed in Norfolk, Virginia, and work is scheduled to commence Jan. 1, 2019, and is scheduled to be completed June 30, 2019. This contract will be funded with Navy working capital funds; and U.S. Transportation Command working capital funds. Funds will expire at the end of the current fiscal year. This contract was awarded as an other than full and open requirement under unusual and compelling urgency procedures. Only one offer was solicited and received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity. (N3220519C1000) (Awarded Dec. 31, 2018)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3220519C1000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11336940.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "SRA International Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N3220519C1000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Command, control, communications, and computer system afloat operations and sustainment support for Military Sealift Command fleet and network operations centers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11336940,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "other than full and open, unusual and compelling urgency; one offer received",
+        "award_date": "2018-12-31"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Structural Associates Inc., * East Syracuse, New York, is awarded $10,008,000 for firm-fixed-price task order N4008519F4299 under a previously awarded multiple award construction contract (N40085-17-D-5048) for repairs for insulator shop relocation Building 166 at Portsmouth Naval Shipyard. The work to be performed provides building repairs and modernization to the historic 1941 Building 166. Exterior envelope repairs and replacement will include, but are not be limited to, roofing and wall systems, trim, windows and window systems, skylights, door repairs, concrete, the installation of roof and wall insulation, and reconfiguration of the building entrance to provide accessibility. Interior repair and renovation includes, but is not limited to, reconfiguration of existing toilet facilities, the renovation of electrical and plumbing systems, the replacement of deteriorated heating ventilation and air conditioning equipment and controls, and the modernization of fire protection systems. Work will include egress paths in order to improve space utilization, accessibility and life safety. The task order also contains five unexercised options, which, if exercised, would increase cumulative task order value to $10,691,110. Work will be performed in Kittery, Maine, and is expected to be completed by March 2020. Fiscal 2019 operations and maintenance (Navy) contract funds in the amount of $10,008,000 are obligated on this award and will expire at the end of the current fiscal year. Four proposals were received for this task order. The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008519F4299",
+          "N4008517D5048"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10008000.0,
+        "cumulative_value_usd": 10691110.0,
+        "obligated_usd": 10008000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) contract funds in the amount of $10,008,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Structural Associates Inc.",
+            "location": "East Syracuse, New York",
+            "contract_number": "N4008519F4299",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Repairs for insulator shop relocation Building 166 at Portsmouth Naval Shipyard",
+        "base_contract_number": "N40085-17-D-5048",
+        "order_number": "N4008519F4299",
+        "modification_number": null,
+        "value_usd": 10008000,
+        "cumulative_value_usd": 10691110,
+        "obligated_usd": 10008000,
+        "fms_countries": [],
+        "competition": "multiple award construction contract; four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "Correction: Contract awarded on Dec. 27, 2018 to Bell Boeing JPO, Amarillo, Texas, was announced with the incorrect award amount and contracting activity. The contract should have stated the award amount of $ $24,448,390 and that the contracting activity is the Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey. All other contract information is correct.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24448390.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Bell Boeing JPO",
+            "location": "Amarillo, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Dec. 27, 2018 Bell Boeing JPO contract award: corrected award amount and contracting activity (Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24448390,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2018-12-27"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "O'gara-Hess & Eisenhardt Armoring Co. LLC,* Fairfield, Ohio, was awarded a $60,736,752 firm-fixed-price contract to procure Family of Medium Tactical Vehicles protection kits. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of Dec. 31, 2023. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-19-D-0041).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV19D0041"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60736752.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-19-D-0041"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "O'gara-Hess & Eisenhardt Armoring Co. LLC",
+            "location": "Fairfield, Ohio",
+            "contract_number": "W56HZV-19-D-0041",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Family of Medium Tactical Vehicles protection kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60736752,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Endeavor Robotics Inc., Chelmsford, Massachusetts, was awarded a $32,400,000 firm-fixed-price contract for reset, sustainment, maintenance, and recap parts for Robot Logistics Support Center technicians to support the overall sustainment actions of the entire Endeavor family of small, medium, and large robots. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 2, 2024. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-19-D-0031).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV19D0031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-01-02",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-19-D-0031"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Endeavor Robotics Inc.",
+            "location": "Chelmsford, Massachusetts",
+            "contract_number": "W56HZV-19-D-0031",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Reset, sustainment, maintenance, and recap parts for Robot Logistics Support Center technicians supporting Endeavor robots",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation; one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: An $89,520,585 modification (0053 09) to contract W52P1J-11-G-0053 awarded to BAE Systems Ordnance Systems Inc., Radford, Virginia, announced Dec. 31, 2018, listed the wrong amount of funds obligated. The correct amount of obligated funds is $7,895,422. All other information in the announcement was correct.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J11G0053"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 89520585.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 97416007.0,
+        "funding_text": "CORRECTION: An $89,520,585 modification (0053 09) to contract W52P1J-11-G-0053 awarded to BAE Systems Ordnance Systems Inc., Radford, Virginia, announced Dec. 31, 2018, listed the wrong amount of funds obligated The correct amount of obligated funds is $7,895,422",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "BAE Systems Ordnance Systems Inc.",
+            "location": "Radford, Virginia",
+            "contract_number": "W52P1J-11-G-0053",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Dec. 31, 2018 announcement of $89,520,585 modification (0053 09): correct obligated funds amount",
+        "base_contract_number": "W52P1J-11-G-0053",
+        "order_number": null,
+        "modification_number": "0053 09",
+        "value_usd": 89520585,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7895422,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2018-12-31"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems Information and Electronics Systems Integration, Nashua, New Hampshire (FA8604-19-D-4021); The Boeing Co., Defense, Space & Security, St. Louis, Missouri (FA8604-19-D-4022); General Atomics Aeronautical Systems Inc.(GS-ASI), Poway, California (FA8604-19-D-4020); Goodrich Corp., UTC Aerospace Systems, ISR Systems, Westford, Massachusetts (FA8604-19-D-4023); Harris Corp., Electronic Systems, Integrated Electronic Warfare Systems, Clifton, New Jersey (FA8604-19-D-4027); Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas (FA8604-19-D-4026); Northrop Grumman Systems Corp., Northrop Grumman Aerospace Systems, Melbourne, Florida (FA8604-19-D-4024); and Raytheon Co., Raytheon, El Segundo, California (FA8604-19-D-40250), have been awarded $22,500,000 ceiling indefinite-delivery/indefinite-quantity contracts for the formation of a collaborative working group of various industry partners to work as single extended entity to develop, evolve, update via pre-planned product improvement initiatives, as well as manage and provide configuration control of the open mission systems and universal command and control interface standards, collectively referred to as the Open Architecture Standards. These contracts provide for the development, updating and management of the above standards with the following business goals, promote adaptability, flexibility, and expandability; support a variety of missions and domains; simplify integration; reduce technical risk and overall cost of ownership of weapon system programs; enable affordable technology refresh and capability evolution; enable reuse; enable independent development and deployment of system elements; and accommodate a range of cybersecurity approaches. Work will be performed at the industry partner facilities in Nashua, New Hampshire; St. Louis, Poway, California; Westford Massachusetts; Clifton New Hampshire; Fort Worth, Texas; and Melbourne, Florida, and is expected to be complete by December 31, 2022. This award is the result of a sole-source acquisition. Air Force Life Cycle Management, Wright Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA860419D4021",
+          "FA860419D4022",
+          "FA860419D4020",
+          "FA860419D4023",
+          "FA860419D4027",
+          "FA860419D4026",
+          "FA860419D4024",
+          "FA860419D40250"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "BAE Systems Information and Electronics Systems Integration",
+            "location": "Nashua, New Hampshire",
+            "contract_number": "FA8604-19-D-4021",
+            "markers": null
+          },
+          {
+            "name": "The Boeing Co., Defense, Space & Security",
+            "location": "St. Louis, Missouri",
+            "contract_number": "FA8604-19-D-4022",
+            "markers": null
+          },
+          {
+            "name": "General Atomics Aeronautical Systems Inc.(GS-ASI)",
+            "location": "Poway, California",
+            "contract_number": "FA8604-19-D-4020",
+            "markers": null
+          },
+          {
+            "name": "Goodrich Corp., UTC Aerospace Systems, ISR Systems",
+            "location": "Westford, Massachusetts",
+            "contract_number": "FA8604-19-D-4023",
+            "markers": null
+          },
+          {
+            "name": "Harris Corp., Electronic Systems, Integrated Electronic Warfare Systems",
+            "location": "Clifton, New Jersey",
+            "contract_number": "FA8604-19-D-4027",
+            "markers": null
+          },
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8604-19-D-4026",
+            "markers": null
+          },
+          {
+            "name": "Northrop Grumman Systems Corp., Northrop Grumman Aerospace Systems",
+            "location": "Melbourne, Florida",
+            "contract_number": "FA8604-19-D-4024",
+            "markers": null
+          },
+          {
+            "name": "Raytheon Co., Raytheon",
+            "location": "El Segundo, California",
+            "contract_number": "FA8604-19-D-40250",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Formation of collaborative industry working group to develop, update and manage Open Architecture Standards (open mission systems and universal command and control interface)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:39Z",
-  "source": "file:2019-01-02.html"
+  "source": "file:2019-01-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:20:32Z"
+  }
 }

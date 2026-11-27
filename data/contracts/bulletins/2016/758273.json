@@ -11,81 +11,660 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Vectrus Systems Corp., Colorado Springs, Colorado, was awarded a $173,756,967 modification (P00027) to contract W91RUS-13-C-0006 for enterprise network capabilities and support to U.S. Central Command. Work will be performed in Kuwait, Qatar, Afghanistan, Iraq, Bahrain, United Arab Emirates, and Jordan, with an estimated completion date of May 31, 2018. Fiscal 2016 operations and maintenance (Army) funds in the amount of $173,756,967 were obligated at the time of the award. Army Contracting Command, Ft. Huachuca, Arizona, North Carolina, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W91RUS13C0006"
+        ],
+        "modification_numbers": [
+          "P00027"
+        ],
+        "is_modification": true,
+        "value_usd": 173756967.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 173756967.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $173,756,967 were obligated at the time of the award",
+        "completion_date": "2018-05-31",
+        "contracting_activity": {
+          "name": "Huachuca, Arizona, North Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W91RUS-13-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enterprise network capabilities and support to U.S. Central Command",
+        "base_contract_number": "W91RUS-13-C-0006",
+        "order_number": null,
+        "modification_number": "P00027",
+        "value_usd": 173756967,
+        "cumulative_value_usd": null,
+        "obligated_usd": 173756967,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Logicore,* Huntsville, Alabama, was awarded a $16,349,623 modification (000714) to contract W31P4Q-09-A-0010 for logistics support to Headquarters, Army Material Command. Work will be performed in Huntsville, Alabama, with an estimated completion date of May 11, 2017. Fiscal 2016 operations and maintenance (Army); and other procurement funds in the amount of $$16,349,623 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q09A0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16349623.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16349623.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army); and other procurement funds in the amount of $$16,349,623 were obligated at the time of the award",
+        "completion_date": "2017-05-11",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Logicore",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-09-A-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Logistics support to Headquarters, Army Material Command",
+        "base_contract_number": "W31P4Q-09-A-0010",
+        "order_number": null,
+        "modification_number": "000714",
+        "value_usd": 16349623,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16349623,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Dulles, Virginia, was awarded a $14,251,726 firm-fixed-price, multi-year contract with options for multinational information sharing services. One bid was solicited with one received. Work will be performed in Kuwait, Jordan, Qatar, Iraq, and at Shaw Air Force Base, South Carolina, with an estimated completion date of Feb. 15, 2017. Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,000,000 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-16-C-0046).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J16C0046"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14251726.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7000000.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,000,000 were obligated at the time of the award",
+        "completion_date": "2017-02-15",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-16-C-0046"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Dulles, Virginia",
+            "contract_number": "W52P1J-16-C-0046",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, multi-year contract with options",
+        "description": "Multinational information sharing services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14251726,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7000000,
+        "fms_countries": [],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Rockwell Collins Simulation and Training Solutions, Cedar Rapids, Iowa, was awarded a $12,087,181 multi-year, firm-fixed-price, foreign military sales contract (Mexico) for a transportable Blackhawk Operations Simulator for the Mexican navy. One bid was solicited with one received. Work will be performed in Mexico, with an estimated completion date of Sept. 11, 2018. Fiscal 2016 other procurement funds in the amount of $12,087,181 were obligated at the time of the award. Army Program Executive Office Simulation, Training and Instrumentation, Orlando, Florida, is the contracting activity (W900KK-16-C-0015).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W900KK16C0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12087181.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12087181.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $12,087,181 were obligated at the time of the award",
+        "completion_date": "2018-09-11",
+        "contracting_activity": {
+          "name": "Army Program Executive Office Simulation, Training and Instrumentation, Orlando, Florida",
+          "code": "W900KK-16-C-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Simulation and Training Solutions",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "W900KK-16-C-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "multi-year, firm-fixed-price, foreign military sales contract",
+        "description": "Transportable Blackhawk Operations Simulator for the Mexican navy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12087181,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12087181,
+        "fms_countries": [
+          "Mexico"
+        ],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SAIC, McLean, Virginia, was awarded a $9,853,488 modification (000207) to contract W31P4Q-15-A-0024 for systems and computer resource support for the Aviation and Missile, Development and Engineering Center, Software Engineering Directorate. Work will be performed in Huntsville, Alabama, with an estimated completion date of May 11, 2017. Fiscal 2014 and 2016 other procurement (Army); operations and maintenance (Army); and research, development, testing, and evaluation funds in the amount of $9,853,488 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q15A0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9853488.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9853488.0,
+        "funding_text": "Fiscal 2014 and 2016 other procurement (Army); operations and maintenance (Army); and research, development, testing, and evaluation funds in the amount of $9,853,488 were obligated at the time of the award",
+        "completion_date": "2017-05-11",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "SAIC",
+            "location": "McLean, Virginia",
+            "contract_number": "W31P4Q-15-A-0024",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Systems and computer resource support for the Aviation and Missile, Development and Engineering Center, Software Engineering Directorate",
+        "base_contract_number": "W31P4Q-15-A-0024",
+        "order_number": null,
+        "modification_number": "000207",
+        "value_usd": 9853488,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9853488,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aerial Machine and Tools Corp.,* Meadows of Dan, Virginia, was awarded a $7,999,620 firm-fixed-price contract for 4500 Generation 3 primary survival gear carriers, 4500 universal holsters, 4500 body armor shells and 3280 body armor overlays. Bids were solicited via the Internet with two received. Work will be performed in Meadows of Dan, Virginia, with an estimated completion date of Dec. 31, 2017. Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,999,620 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-16-F-0004).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16F0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7999620.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7999620.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,999,620 were obligated at the time of the award",
+        "completion_date": "2017-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-16-F-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Aerial Machine and Tools Corp.",
+            "location": "Meadows of Dan, Virginia",
+            "contract_number": "W58RGZ-16-F-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "4500 Generation 3 primary survival gear carriers, 4500 universal holsters, 4500 body armor shells and 3280 body armor overlays",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7999620,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7999620,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Centerra Group LLC, Palm Beach Gardens, Florida, has been awarded a $55,201,371 firm-fixed-price contract, with one cost reimbursable contract line item number for fire protection, emergency management and emergency medical services. Work will be performed at Cape Canaveral Air Force Station, Florida, and is expected to be complete by Sept. 30, 2021. This award is the result of a competitive acquisition with six offers received. Fiscal 2016 operation and maintenance funds in the amount of $299,404 are being obligated at the time of award. The 45th Contracting Squadron, Patrick Air Force Base, Florida, is the contracting activity (FA2521-16-C-0004).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA252116C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55201371.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 299404.0,
+        "funding_text": "Fiscal 2016 operation and maintenance funds in the amount of $299,404 are being obligated at the time of award",
+        "completion_date": "2021-09-30",
+        "contracting_activity": {
+          "name": "The 45th Contracting Squadron, Patrick Air Force Base, Florida",
+          "code": "FA2521-16-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Centerra Group LLC",
+            "location": "Palm Beach Gardens, Florida",
+            "contract_number": "FA2521-16-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Fire protection, emergency management and emergency medical services at Cape Canaveral Air Force Station",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 55201371,
+        "cumulative_value_usd": null,
+        "obligated_usd": 299404,
+        "fms_countries": [],
+        "competition": "competitive, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Praxis Engineering Technologies Inc., Annapolis Junction, Maryland, has been awarded a $12,555,564 cost-plus-fixed-fee contract for research and development in Leveraging the Analog Domain for Security program. Contractor will provide multi-model analog sensing to adaptively determine what features to compute from signals emitted by a device during training and testing, extracting sub-bands of interest, de-noising the individual signals, and removing interfering transmission by other devices in the vicinity. Work will be performed at Annapolis Junction, Maryland, and is expected to be complete by July 15, 2020. This award is the result of a competitive acquisition with 45 offers received. Fiscal 2015 and 2016 research, development, test and evaluation funds in the amount of $3,619,969 are being obligated at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-16-C-7628).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA865016C7628"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12555564.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3619969.0,
+        "funding_text": "Fiscal 2015 and 2016 research, development, test and evaluation funds in the amount of $3,619,969 are being obligated at the time of award",
+        "completion_date": "2020-07-15",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-16-C-7628"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Praxis Engineering Technologies Inc.",
+            "location": "Annapolis Junction, Maryland",
+            "contract_number": "FA8650-16-C-7628",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Research and development in Leveraging the Analog Domain for Security program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12555564,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3619969,
+        "fms_countries": [],
+        "competition": "competitive, 45 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a $31,100,000 fixed-price, incentive (firm target) modification to a previously awarded advance acquisition contract (N00019-16-C-0033). This modification provides for long lead time materials, parts, components and effort required to maintain the planned production schedule for eight F-35A low-rate initial production Lot 12 F-35A air vehicles for The Netherlands. Work will be performed in Fort Worth, Texas (55 percent); El Segundo, California (15 percent); Warton, United Kingdom (10 percent); Orlando, Florida (5 percent); Nashua, New Hampshire (5 percent); Baltimore, Maryland (5 percent); and Cameri, Italy (5 percent), and is expected to be completed in March 2021. Non-U.S. Department of Defense participant funds in the amount of $31,100,000 will be obligated at time of award, none of which will expire at the end of the fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001916C0033"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 31100000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31100000.0,
+        "funding_text": "Non-U.S. Department of Defense participant funds in the amount of $31,100,000 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2021-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-16-C-0033",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm target)",
+        "description": "Long lead time materials, parts, components and effort for eight F-35A Lot 12 air vehicles for The Netherlands",
+        "base_contract_number": "N00019-16-C-0033",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31100000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31100000,
+        "fms_countries": [
+          "The Netherlands"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Cypher Analytics Inc., doing business as Crown Point Systems,* San Diego, California, is being awarded a $28,785,751 indefinite-delivery/indefinite-quantity, firm-fixed-price contract for next generation enclave commercial off-the-shelf technology, specifically a hyper-converged computing platform that utilizes commodity hardware and software-defined storage mechanisms to combine traditional computing and storage resources into a single source. This contract has a five-year ordering period up to the contract award amount. There are no options. Work will be performed in San Diego, California, and is expected to be completed by May 12, 2021. No funds will be obligated at the time of award. Funds will be obligated as individual delivery orders are issued. This contract was competed as a small business set-aside. The Space and Naval Warfare Systems Command, San Diego, California, is the contracting activity (N00039-16-D-0063).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0003916D0063"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28785751.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated as individual delivery orders are issued",
+        "completion_date": "2021-05-12",
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Command, San Diego, California",
+          "code": "N00039-16-D-0063"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Cypher Analytics Inc., doing business as Crown Point Systems",
+            "location": "San Diego, California",
+            "contract_number": "N00039-16-D-0063",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price",
+        "description": "Next generation enclave commercial off-the-shelf hyper-converged computing platform",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28785751,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "small business set-aside",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a $10,559,065 modification to exercise an option on delivery order (5500) that was previously issued against basic ordering agreement N00019-14-G-0020. This option procures 61 retrofit kits to correct deficiencies that preclude aircraft mission readiness in support of the Marine F-35 Strike Fighter aircraft initial operating capabilities. Work will be performed in Fort Worth, Texas (45 percent); Ogden, Utah (20 percent); Cherry Point, North Carolina (20 percent); Yuma, Arizona (5 percent); Eglin Air Force Base (AFB), Florida (5 percent); and Edwards AFB, California (5 percent), and is expected to be completed in January 2019. Fiscal 2015 aircraft procurement (Air Force, Marine Corps, Navy); and 2016 aircraft procurement (Air Force, Navy) funds in the amount of $10,559,065 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract combines purchases of the Air Force ($6,251,922; 59.2 percent); Marine Corps ($2,336,937; 22.1 percent), and Navy ($1,970,206; 18.7 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10559065.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10559065.0,
+        "funding_text": "Fiscal 2015 aircraft procurement (Air Force, Marine Corps, Navy); and 2016 aircraft procurement (Air Force, Navy) funds in the amount of $10,559,065 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Option exercise on delivery order (5500) for 61 retrofit kits to correct F-35 Marine deficiencies",
+        "base_contract_number": "N00019-14-G-0020",
+        "order_number": "5500",
+        "modification_number": null,
+        "value_usd": 10559065,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10559065,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Brad Hall and Associates Inc.,* Idaho Falls, Idaho, has been awarded a minimum $16,188,757 modification (P00002) to a 40-month contract (SPE600-16-D-4547) adding an additional line item for fuel. This is a fixed-price with economic price adjustment contract. Locations of performance are Idaho and Arizona, with a Sept. 30, 2019, performance completion date. Using customers are federal civilian agencies. Type of appropriation is fiscal 2016 through fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE60016D4547"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 16188757.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Brad Hall and Associates Inc.",
+            "location": "Idaho Falls, Idaho",
+            "contract_number": "SPE600-16-D-4547",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic price adjustment",
+        "description": "Adds an additional line item for fuel to a 40-month contract",
+        "base_contract_number": "SPE600-16-D-4547",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 16188757,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE FINANCE AND ACCOUNTING SERVICE",
       "kind": "announcement",
       "text": "PricewaterhouseCoopers Public Sector LLP, McLean, Virginia, has been awarded a not-to-exceed $13,027,725.57 modification (P04) to previously awarded contract HQ0423-15-F-5002 for audit readiness, audit liaison, and systems support for the Office of the Under Secretary of Defense (Comptroller). This modification exercises Option Year 1, with a period of performance of May 26, 2016 through May 25, 2017. The modification brings the total cumulative face value of the contract to $20,797,798 from $7,770,073. Work will be performed at the Pentagon and other locations within the National Capital Region, with an expected completion date of May 25, 2017. Department of Defense operations and maintenance funds in the amount of $13,027,726 are being obligated at time of award. The Defense Finance and Accounting Service, Columbus, Ohio, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HQ042315F5002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13027725.57,
+        "cumulative_value_usd": 20797798.0,
+        "obligated_usd": 13027726.0,
+        "funding_text": "Department of Defense operations and maintenance funds in the amount of $13,027,726 are being obligated at time of award",
+        "completion_date": "2017-05-25",
+        "contracting_activity": {
+          "name": "The Defense Finance and Accounting Service, Columbus, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "PricewaterhouseCoopers Public Sector LLP",
+            "location": "McLean, Virginia",
+            "contract_number": "HQ0423-15-F-5002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Audit readiness, audit liaison, and systems support for the Office of the Under Secretary of Defense (Comptroller); exercises Option Year 1 (May 26, 2016 - May 25, 2017)",
+        "base_contract_number": "HQ0423-15-F-5002",
+        "order_number": null,
+        "modification_number": "P04",
+        "value_usd": 13027725.57,
+        "cumulative_value_usd": 20797798,
+        "obligated_usd": 13027726,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-05-12.html"
+  "source": "file:2016-05-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:27:08Z"
+  }
 }

@@ -9,15 +9,109 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Harris Corp., Clifton, New Jersey, is being awarded $24,503,472 for modification P00003 to a previously awarded firm-fixed-price contract (N00019-17-C-0090) to exercise an option to procure 14 full-rate production lot 15 Integrated Defensive Electronic Countermeasures AN/ALQ-214 A(V)4/5 onboard jammer systems in support of the Advanced Tactical Aircraft Protection Systems Program Office for the government of Kuwait. Work will be performed in Clifton, New Jersey (59 percent); San Jose, California (14 percent); San Diego, California (7 percent); Rancho Cordova, California (5 percent); Mountain View, California (3 percent); and various locations within the continental U.S. (12 percent), and is expected to be completed in May 2021. Foreign military sales funds in the amount of $24,503,472 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0090"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 24503472.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24503472.0,
+        "funding_text": "Foreign military sales funds in the amount of $24,503,472 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Harris Corp.",
+            "location": "Clifton, New Jersey",
+            "contract_number": "N00019-17-C-0090",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise option for 14 full-rate production lot 15 Integrated Defensive Electronic Countermeasures AN/ALQ-214 A(V)4/5 onboard jammer systems for Kuwait (Advanced Tactical Aircraft Protection Systems)",
+        "base_contract_number": "N00019-17-C-0090",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 24503472,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24503472,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell Helicopter Textron Inc., Fort Worth, Texas, is being awarded $8,583,966 for cost-plus - fixed-fee delivery order N0001918F2388 against a previously issued basic ordering agreement (N00019-16-G-0012) to procure non-recurring engineering and logistics in support of the H-1 rotor brake redesign effort. In addition, this order requires delivery of three validation/verification kits and associated technical support. Work will be performed in Fort Worth, Texas and is expected to be completed in October 2020. Fiscal 2017 aircraft procurement (Navy) funds in the amount of $8,583,966 are being obligated at time of award; none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001918F2388",
+          "N0001916G0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8583966.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8583966.0,
+        "funding_text": "Fiscal 2017 aircraft procurement (Navy) funds in the amount of $8,583,966 are being obligated at time of award; none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Bell Helicopter Textron Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001918F2388",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "Non-recurring engineering and logistics for H-1 rotor brake redesign, plus three validation/verification kits and technical support",
+        "base_contract_number": "N00019-16-G-0012",
+        "order_number": "N0001918F2388",
+        "modification_number": null,
+        "value_usd": 8583966,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8583966,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:37Z",
-  "source": "file:2018-03-26.html"
+  "source": "file:2018-03-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:04:06Z"
+  }
 }

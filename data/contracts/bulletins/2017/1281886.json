@@ -11,105 +11,885 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin, Fort Worth, Texas, is the third company awarded a previously announced $499,000,000 indefinite-delivery/indefinite-quantity shared ceiling contract for six companies for the Aerospace Systems Air Platform Technology Research program. These contracts provide research for affordable, revolutionary capabilities for the warfighter. Work will be performed in Fort Worth, Texas, and is expected to be completed by 2025. This award is the result of competitive acquisition and six offers were received. Fiscal 2017 research and development funds in the amount of $100,000 are being obligated at time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting office (FA8650-17-D-2718).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA865017D2718"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 499000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2017 research and development funds in the amount of $100,000 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8650-17-D-2718",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity shared ceiling contract",
+        "description": "Aerospace Systems Air Platform Technology Research program; third awardee of six-company shared ceiling contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 499000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": "competitive acquisition, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Missile Systems, Tucson, Arizona, has been awarded a $104,860,386 firm-fixed-price, cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for Griffin Missiles. This contract provides for delivery of all variants of Griffin standoff precision guided munitions and corresponding production, test and engineering support. Work will be performed in Tucson, Arizona, and is expected to be completed by Dec. 31, 2018. This award is the result of a sole-source acquisition. Fiscal 2016 and 2017 procurement funds in the amount of $24,071,072 are being obligated at time of award. The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity (FA8656-17-D-0005).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865617D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 104860386.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24071072.0,
+        "funding_text": "Fiscal 2016 and 2017 procurement funds in the amount of $24,071,072 are being obligated at time of award",
+        "completion_date": "2018-12-31",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": "FA8656-17-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Missile Systems",
+            "location": "Tucson, Arizona",
+            "contract_number": "FA8656-17-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee indefinite-delivery/indefinite-quantity",
+        "description": "Griffin Missiles: delivery of all variants of Griffin standoff precision guided munitions and production, test and engineering support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 104860386,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24071072,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Boeing Co., Layton, Utah, has been awarded a $17,415,508 modification (P00036) to a previously awarded contract for sustaining engineering and program management support for the intercontinental ballistic missile guidance subsystem. The contract modification is for engineering and manufacturing development and production of a Pendulous Integrating Gyroscopic Accelerometer. Work will be performed in Layton, Utah, and is expected to be completed by Oct. 31, 2020. Fiscal 2017 research and development, test and evaluation funds, in the amount of $766,800 are being obligated at the time of award. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity (FA8214-15-C-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA821415C0001"
+        ],
+        "modification_numbers": [
+          "P00036"
+        ],
+        "is_modification": true,
+        "value_usd": 17415508.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 766800.0,
+        "funding_text": "Fiscal 2017 research and development, test and evaluation funds, in the amount of $766,800 are being obligated at the time of award",
+        "completion_date": "2020-10-31",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": "FA8214-15-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Boeing Co.",
+            "location": "Layton, Utah",
+            "contract_number": "FA8214-15-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Sustaining engineering and program management support for intercontinental ballistic missile guidance subsystem (Pendulous Integrating Gyroscopic Accelerometer)",
+        "base_contract_number": "FA8214-15-C-0001",
+        "order_number": null,
+        "modification_number": "P00036",
+        "value_usd": 17415508,
+        "cumulative_value_usd": null,
+        "obligated_usd": 766800,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Blacksky Geospatial Solutions Inc., Herndon, Virginia, has been awarded a $16,430,993 cost-plus-fixed-fee completion contract for software, technical reports, and a demonstration model. This contract is to design, develop, and evaluate a geospatial intelligence broker development platform feasibility demonstration model that contains components, modules, or services of this model in a cloud environment. Work will be performed in Herndon, Virginia, and is expected to be completed by Aug. 16, 2019. This award is the result of a competitive acquisition and two offers were received. Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-17-C-0128).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA875017C0128"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16430993.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-08-16",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-17-C-0128"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Blacksky Geospatial Solutions Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "FA8750-17-C-0128",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion contract",
+        "description": "Design, develop and evaluate geospatial intelligence broker development platform feasibility demonstration model in a cloud environment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16430993,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CACI-INC, Chantilly, Virginia, has been awarded a $14,940,526 face value contract for the modification and configuration on new commercial software for NexGen requirements. Fiscal 2017 operations and maintenance funds in the amount of $7,654,981 will be obligated at time of award. Work will be performed in Panama City, Florida; Beavercreek, Ohio; San Antonio, Texas; Niceville, Florida; Raleigh, North Carolina; Palm City, Florida; Fair Haven, New Jersey; and is expected to be completed March 12, 2019. Air Force Life Cycle Management Center, Maxwell Air Force Base, Gunter Annex, Montgomery, Alabama, is the contracting activity (FA8771-17-F-0024). (Awarded Aug. 16, 2017)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA877117F0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14940526.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7654981.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $7,654,981 will be obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Maxwell Air Force Base, Gunter Annex, Montgomery, Alabama",
+          "code": "FA8771-17-F-0024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "CACI-INC",
+            "location": "Chantilly, Virginia",
+            "contract_number": "FA8771-17-F-0024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "face value contract",
+        "description": "Modification and configuration of new commercial software for NexGen requirements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14940526,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7654981,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2017-08-16"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L.B. Civil Construction Inc., Escondido, California, has been awarded a $9,900,000 two-year ordering period, indefinite-delivery/requirements, firm-fixed-price contract, for natural gas system repair requirements. This contract provides a vehicle for the execution of a broad range of gas maintenance/construction requirements. Work will be performed at Travis Air Force Base, California, and is expected to be completed by Aug. 16, 2019. This award is the result of a competitive acquisition and two offers were received. The 60th Contracting Squadron, Travis Air Force Base, California, is the contracting activity (FA4427-17-D-0003).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA442717D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-08-16",
+        "contracting_activity": {
+          "name": "The 60th Contracting Squadron, Travis Air Force Base, California",
+          "code": "FA4427-17-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "L.B. Civil Construction Inc.",
+            "location": "Escondido, California",
+            "contract_number": "FA4427-17-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "two-year ordering period, indefinite-delivery/requirements, firm-fixed-price",
+        "description": "Natural gas system repair requirements at Travis Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bering Sea Eccotech Inc.,* Anchorage, Alaska (N62742-17-D-1809); BERS-Weston Services JVC LLC,* Anchorage, Alaska (N62742-17-D-1810); Engineering/Remediation Resources Group Inc.,* Martinez, California (N62742-17-D-1811); and USA Environmental Inc.,* Oldsmar, Florida (N62742-17-D-1812), are each being awarded an indefinite-delivery/indefinite-quantity, multiple award contract with the capability to issue cost-plus-fixed-fee and firm-fixed-price task orders for munitions response actions, range sustainment, other munitions and environmental related services for projects located in the continental U.S. (CONUS) and outside continental U.S. (OCONUS), including international operations supporting the Navy and Marine Corps within the Naval Facilities Engineering Command Pacific and Atlantic areas of responsibility. The maximum dollar value including the base period and four option years for all four contracts combined is $235,000,000. The work to be performed provides for remediation services that include clearance of munitions and explosives of concern and munitions residue from munitions response sites and operational ranges followed by demilitarization, mutilation, certification/verification, and disposal and recycling. Remediation services will also include maintenance of operational small arms ranges. These four contractors may compete for task orders under the terms and conditions of the awarded contracts. No task orders are being issued at this time. Work will be performed at Navy and Marine Corps installations and other government agencies in CONUS (79 percent); and OCONUS (21 percent). The term of the contract is not to exceed 60 months, with an expected completion date of August 2022. Fiscal 2017 environmental restoration (Navy) contract funds in the amount of $20,000 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by environmental restoration (Navy); and operations and maintenance (Navy). These contracts were competitively procured via the Navy Electronic Commerce Online website, with ten proposals received. The Naval Facilities Engineering Command, Pacific, Pearl Harbor, Hawaii, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6274217D1809",
+          "N6274217D1810",
+          "N6274217D1811",
+          "N6274217D1812"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 235000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20000.0,
+        "funding_text": "Fiscal 2017 environmental restoration (Navy) contract funds in the amount of $20,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Pacific, Pearl Harbor, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Bering Sea Eccotech Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N62742-17-D-1809",
+            "markers": "*"
+          },
+          {
+            "name": "BERS-Weston Services JVC LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N62742-17-D-1810",
+            "markers": "*"
+          },
+          {
+            "name": "Engineering/Remediation Resources Group Inc.",
+            "location": "Martinez, California",
+            "contract_number": "N62742-17-D-1811",
+            "markers": "*"
+          },
+          {
+            "name": "USA Environmental Inc.",
+            "location": "Oldsmar, Florida",
+            "contract_number": "N62742-17-D-1812",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award contract with cost-plus-fixed-fee and firm-fixed-price task orders",
+        "description": "Munitions response actions, range sustainment, and environmental related services in CONUS and OCONUS",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 235000000,
+        "cumulative_value_usd": 235000000,
+        "obligated_usd": 20000,
+        "fms_countries": [],
+        "competition": "competitive, ten proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Jacobs Government Services Co., Fort Worth, Texas, was awarded a maximum amount $30,000,000 indefinite-delivery/indefinite-quantity contract for architect-engineer services for design, engineering, specification writing, cost estimating, and related services at various locations under the cognizance of Naval Facilities Engineering Command (NAVFAC) Pacific area of responsibility (AOR). Work will be performed at various Navy and Marine Corps facilities and other government facilities within the NAVFAC Pacific AOR including, but not limited to Guam (80 percent); and Hawaii (20 percent). The term of this contract is not to exceed 60 months with an expected completion date of August 2022. Fiscal 2015 military construction (planning and design) contract funds in the amount of $10,000 are obligated on this award and will not expire at the end of the current fiscal year. Future task orders will be primarily funded by military construction (planning and design). This contract was competitively procured via the Navy Electronic Commerce Online website, with eight proposals received. The Naval Facilities Engineering Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-17-D-0003). (Awarded Aug. 16, 2017)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N6274217D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2015 military construction (planning and design) contract funds in the amount of $10,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-17-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Jacobs Government Services Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N62742-17-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity architect-engineer contract",
+        "description": "Architect-engineer services for design, engineering, specification writing, cost estimating at NAVFAC Pacific AOR (Guam, Hawaii)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive, eight proposals received",
+        "award_date": "2017-08-16"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Bath Iron Works, Bath, Maine, is being awarded a $24,481,878 cost-plus-award-fee modification to previously awarded contract (N00024-14-C-4313) to exercise option year two to provide Littoral Combat Ship (LCS) planning yard services in support of Littoral Combat Ship class in-service ships. This option is for planning yard services for Freedom- and Independence-variant LCS in-service ships. Bath Iron Works will provide engineering, planning, ship configuration, material and logistics support to maintain and modernize both variants of the LCS class. Work will be performed in Bath, Maine, and is expected to be completed by August 2018. Fiscal 2017 operations and maintenance (Navy) funding in the amount of $9,091,375 will be obligated at time of award and will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-14-C-4313).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C4313"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 24481878.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9091375.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funding in the amount of $9,091,375 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2018-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-14-C-4313"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "General Dynamics Bath Iron Works",
+            "location": "Bath, Maine",
+            "contract_number": "N00024-14-C-4313",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Exercise of option year two for Littoral Combat Ship planning yard services for in-service ships",
+        "base_contract_number": "N00024-14-C-4313",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24481878,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9091375,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bristol General Construction LLC, Anchorage, Alaska, is being awarded $13,379,398 for firm-fixed-price task order N6247317F4334 under a previously awarded multiple award construction contract (N62473-15-D-2404) for design and construction of a Naval Operational Support Center at Naval Air Station, Fallon. This project constructs a new, steel framed, multi-story reserve center to include a pile foundation, reinforced concrete masonry unit walls and standing seam metal roof. Project will provide administrative space, medical unit areas and drill hall. Information systems included secret internet protocol router network, non-secure internet router network, basic telephone, computer network, fiber optic, cable television, security and fire alarm systems and infrastructure. The task order also contains one unexercised option and two planned modifications, which if exercised would increase cumulative task order value to $15,966,899. Work will be performed in Fallon, Nevada, and is expected to be completed by August 2019. Fiscal 2016 military construction (Navy Reserve) contract funds in the amount of $13,379,398 are obligated on this award and will not expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command, Southwest, San Diego, California, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6247317F4334",
+          "N6247315D2404"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13379398.0,
+        "cumulative_value_usd": 15966899.0,
+        "obligated_usd": 13379398.0,
+        "funding_text": "Fiscal 2016 military construction (Navy Reserve) contract funds in the amount of $13,379,398 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2019-08",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southwest, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Bristol General Construction LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N6247317F4334",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Design and construction of Naval Operational Support Center at Naval Air Station Fallon",
+        "base_contract_number": "N62473-15-D-2404",
+        "order_number": "N6247317F4334",
+        "modification_number": null,
+        "value_usd": 13379398,
+        "cumulative_value_usd": 15966899,
+        "obligated_usd": 13379398,
+        "fms_countries": [],
+        "competition": "three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "MinXray Inc., Northbrook, Illinois, has been awarded a maximum $100,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for radiology systems, accessories and training. This is a five-year base contract with one five-year option period. This was a competitive acquisition with 27 responses received. Location of performance is Illinois, with an Aug. 16, 2022, performance completion date. Using customers are Air Force, Army, Navy, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2017 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D1-17-D-0036).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D117D0036"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D1-17-D-0036"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "MinXray Inc.",
+            "location": "Northbrook, Illinois",
+            "contract_number": "SPE2D1-17-D-0036",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Radiology systems, accessories and training; five-year base with one five-year option",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 27 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "PAS Technologies Inc., Kansas City, Missouri, has been awarded a $7,021,603 firm-fixed-price, fixed-quantity contract for TF33 aircraft turbine engine cases. This was a competitive acquisition with two offers received. This is a definitive contract with no option periods. Locations of performance are Missouri, and Ohio, with an Aug. 1, 2019, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7021603.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "PAS Technologies Inc.",
+            "location": "Kansas City, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, fixed-quantity",
+        "description": "TF33 aircraft turbine engine cases",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7021603,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bristol Engineering Services Corp.,* Anchorage, Alaska (W912DW-13-D-1015); Nordic Industries Inc.,* Olivehurst, California (W912DW-13-D-1019); CKY Inc.,* San Pedro, California (W912DW-13-D-1017); and Macro-Z Technology Co.,* Santa Ana, California, will share in a $9,800,000 contract modification (P00005) for design-build and horizontal construction work for U.S. Army Corps of Engineers Seattle District. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 4, 2018. U.S. Army Corps of Engineers, Seattle, Washington, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W912DW13D1015",
+          "W912DW13D1019",
+          "W912DW13D1017"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 9800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-09-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Seattle, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Bristol Engineering Services Corp.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W912DW-13-D-1015",
+            "markers": "*"
+          },
+          {
+            "name": "Nordic Industries Inc.",
+            "location": "Olivehurst, California",
+            "contract_number": "W912DW-13-D-1019",
+            "markers": "*"
+          },
+          {
+            "name": "CKY Inc.",
+            "location": "San Pedro, California",
+            "contract_number": "W912DW-13-D-1017",
+            "markers": "*"
+          },
+          {
+            "name": "Macro-Z Technology Co.",
+            "location": "Santa Ana, California",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Design-build and horizontal construction work for U.S. Army Corps of Engineers Seattle District",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 9800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BWSC Emersion Design JV, Nashville, Tennessee, was awarded a $9,000,000 firm-fixed-price contract for architect and engineer services for Army, Air Force, other military, and civil works projects. Bids were solicited via the Internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 16, 2022. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-17-D-0038).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912QR17D0038"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-08-16",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-17-D-0038"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "BWSC Emersion Design JV",
+            "location": "Nashville, Tennessee",
+            "contract_number": "W912QR-17-D-0038",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Architect and engineer services for Army, Air Force, other military, and civil works projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Science Applications International Corp., McLean, Virginia, was awarded a $7,638,798 modification (000277) to contract W31P4Q-15-A-0024 for engineering and test support of enhancing counter-rockets, artillery, and mortars and forward area air defense capabilities. Work will be performed in McLean, Virginia, with an estimated completion date of July 9, 2018. Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,638,798 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q15A0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7638798.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7638798.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,638,798 were obligated at the time of the award",
+        "completion_date": "2018-07-09",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Science Applications International Corp.",
+            "location": "McLean, Virginia",
+            "contract_number": "W31P4Q-15-A-0024",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Engineering and test support for enhancing counter-rockets, artillery, and mortars and forward area air defense capabilities",
+        "base_contract_number": "W31P4Q-15-A-0024",
+        "order_number": null,
+        "modification_number": "000277",
+        "value_usd": 7638798,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7638798,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Curtin Maritime,* Long Beach, California, was awarded a $7,556,430 firm-fixed-price contract for maintenance dredging of the Richmond Inner Harbor Channel. Bids were solicited via the Internet with two received. Work will be performed in Richmond, California, with an estimated completion date of Dec. 21, 2017. Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,556,430 were obligated at the time of the award. U.S. Army Corps of Engineers, San Francisco, California, is the contracting activity (W912P7-17-C-0010).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "W912P717C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7556430.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7556430.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,556,430 were obligated at the time of the award",
+        "completion_date": "2017-12-21",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, San Francisco, California",
+          "code": "W912P7-17-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Curtin Maritime",
+            "location": "Long Beach, California",
+            "contract_number": "W912P7-17-C-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging of the Richmond Inner Harbor Channel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7556430,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7556430,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Benaka Inc.,* New Brunswick, New Jersey, was awarded a $7,198,200 firm-fixed-price contract for alterations to Squad Operations Facility (Bldg. B-140) and Automated Logistics Information Systems at the Vermont Air National Guard’s 158th Fighter Wing. Bids were solicited via the Internet with two received. Work will be performed in South Burlington, Vermont, with an estimated completion date of Oct. 31, 2018. Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,198,200 were obligated at the time of the award. National Guard Bureau, Burlington, Vermont, is the contracting activity (W912LN-17-C-1000).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "W912LN17C1000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7198200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7198200.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $7,198,200 were obligated at the time of the award",
+        "completion_date": "2018-10-31",
+        "contracting_activity": {
+          "name": "National Guard Bureau, Burlington, Vermont",
+          "code": "W912LN-17-C-1000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Benaka Inc.",
+            "location": "New Brunswick, New Jersey",
+            "contract_number": "W912LN-17-C-1000",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Alterations to Squad Operations Facility (Bldg. B-140) and Automated Logistics Information Systems at the Vermont Air National Guard's 158th Fighter Wing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7198200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7198200,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:35Z",
-  "source": "file:2017-08-17.html"
+  "source": "file:2017-08-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:34:05Z"
+  }
 }

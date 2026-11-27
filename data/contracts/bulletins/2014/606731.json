@@ -11,39 +11,305 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded a $194,775,798 modification to a previously awarded fixed-price-incentive contract (N00019-14-C-0032) for the procurement of 21 Lot 38 full rate production EA-18G airborne electronic attack kits. Work will be performed in Baltimore, Maryland (51 percent); Bethpage, New York (33 percent); St. Louis, Missouri (12 percent); and Fort Wayne, Indiana (4 percent), and is expected to be completed in December 2016. Fiscal 2014 aircraft procurement (Navy) funds in the amount of $194,775,798 are being obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 194775798.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 194775798.0,
+        "funding_text": "Fiscal 2014 aircraft procurement (Navy) funds in the amount of $194,775,798 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-14-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive",
+        "description": "Lot 38 full rate production EA-18G airborne electronic attack kits (21 kits)",
+        "base_contract_number": "N00019-14-C-0032",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 194775798,
+        "cumulative_value_usd": null,
+        "obligated_usd": 194775798,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "TEST, LLC, Herndon, Virginia, was awarded a $44,451,927 cost-plus-fixed-fee, multi-year contract for threat systems operations and maintenance integrated support to the test and evaluation, and training communities, to maintain ground and airborne threat systems within the Threat Systems Management Office inventory. Funding and work location will be determined with each order, with an estimated completion date of Nov. 18, 2019. Bids were solicited via the Internet, with two received. Army Program Executive Office Simulation, Training, & Instrumentation, Orlando, Florida, is the contracting activity (W900KK-15-D-0002).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W900KK15D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 44451927.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-11-18",
+        "contracting_activity": {
+          "name": "Army Program Executive Office Simulation, Training, & Instrumentation, Orlando, Florida",
+          "code": "W900KK-15-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "TEST, LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "W900KK-15-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, multi-year contract",
+        "description": "Threat systems operations and maintenance integrated support for test and evaluation and training communities",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44451927,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Onsite, Arlington, Virginia (W912L1-15-D-0001), and Dentrust Dental Texas P.C., Warrington, Pennsylvania (W912L1-15-D-0002), were awarded a $30,000,000 ($15,000,000 each) firm-fixed-price, indefinite-delivery/indefinite-quantity contract for non-personal services for mobile medical/dental services for the Texas Army National Guard. Funding and work location will be determined with each order, with an estimated completion date of Oct. 31, 2017. Bids were solicited via the Internet, with four received. National Guard Bureau - Texas, Austin, Texas, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912L115D0001",
+          "W912L115D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2017-10-31",
+        "contracting_activity": {
+          "name": "National Guard Bureau - Texas, Austin, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Onsite",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912L1-15-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Dentrust Dental Texas P.C.",
+            "location": "Warrington, Pennsylvania",
+            "contract_number": "W912L1-15-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Mobile medical/dental services for the Texas Army National Guard",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Carson, California, was awarded a $7,245,956 modification (P00092) to cost-plus-incentive-fee contract W31P4Q-07-C-0335 to provide continuing supplies, services, and maintenance for the counter-rocket artillery mortar command and control system. Fiscal 2015 research, development, test and evaluation funds, and operations and maintenance (Army) funds in the amount of $6,745,956, were obligated at the time of the award. Estimated completion date is Feb. 9, 2015. Work will be performed in Carson, California. Army Contracting Command, Redstone Arsenal (Missile), Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q07C0335"
+        ],
+        "modification_numbers": [
+          "P00092"
+        ],
+        "is_modification": true,
+        "value_usd": 7245956.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6745956.0,
+        "funding_text": "Fiscal 2015 research, development, test and evaluation funds, and operations and maintenance (Army) funds in the amount of $6,745,956, were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal (Missile), Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Carson, California",
+            "contract_number": "W31P4Q-07-C-0335",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Continuing supplies, services, and maintenance for the counter-rocket artillery mortar command and control system",
+        "base_contract_number": "W31P4Q-07-C-0335",
+        "order_number": null,
+        "modification_number": "P00092",
+        "value_usd": 7245956,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6745956,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Constellation NewEnergy, Inc., Baltimore, Maryland, has been awarded a maximum $167,905,405 firm-fixed-price contract for electricity and ancillary services. This contract was a competitive acquisition, and six offers were received. This is a two-year base contract. Location of performance is Maryland with a Jan. 31, 2017 performance completion date. Using military services are Army, Navy, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 service funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE600-15-D-8003). (Awarded Sept. 18, 2014)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE60015D8003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 167905405.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE600-15-D-8003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Constellation NewEnergy, Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "SPE600-15-D-8003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Electricity and ancillary services (Maryland performance)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 167905405,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, six offers received",
+        "award_date": "2014-09-18"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Washington Gas Energy Services, Inc., Herndon, Virginia, has been awarded a maximum $28,500,495 firm-fixed-price contract for electricity and ancillary services. This contract was a competitive acquisition, and six offers were received. This is a two-year base contract. Location of performance is Virginia with a Dec. 31, 2016 performance completion date. Using military services are Army, Navy, and federal civilian agencies. Type of appropriation is fiscal year 2015 service funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE600-15-D-8003). (Awarded Sept. 18, 2014)",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE60015D8003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28500495.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE600-15-D-8003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Washington Gas Energy Services, Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "SPE600-15-D-8003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Electricity and ancillary services (Virginia performance)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28500495,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, six offers received",
+        "award_date": "2014-09-18"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2014-11-19.html"
+  "source": "file:2014-11-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:25:15Z"
+  }
 }

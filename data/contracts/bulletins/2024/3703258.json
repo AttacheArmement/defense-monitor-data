@@ -11,51 +11,413 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lexicon Consulting Inc.,* El Cajon, California (W900KK-24-D-0019); and Lukos LLC,* Tampa, Florida (W900KK-24-D-0017), will compete for each order of the $610,000,000 firm-fixed-price contract for mission support services for the Army Training Support Center. Bids were solicited via the internet with 16 received. Work locations and funding will be determined with each order, with an estimated completion date of July 6, 2028. Army Contracting Command, Orlando, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W900KK24D0019",
+          "W900KK24D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 610000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-07-06",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lexicon Consulting Inc.",
+            "location": "El Cajon, California",
+            "contract_number": "W900KK-24-D-0019",
+            "markers": "*"
+          },
+          {
+            "name": "Lukos LLC",
+            "location": "Tampa, Florida",
+            "contract_number": "W900KK-24-D-0017",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Mission support services for the Army Training Support Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 610000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, 16 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "R.J. Zavoral & Sons Inc., East Grand Forks, Minnesota, was awarded a $23,872,642 firm-fixed-price contract for a dam embankment. Bids were solicited via the internet with seven received. Work will be performed in Fargo, North Dakota, with an estimated completion date of Aug. 31, 2027. Fiscal 2024 civil construction funds in the amount of $23,872,642 were obligated at the time of the award. U.S. Army Corps of Engineers, St. Paul, Minnesota, is the contracting activity (W912ES-24-C-0009).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912ES24C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23872642.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23872642.0,
+        "funding_text": "Fiscal 2024 civil construction funds in the amount of $23,872,642 were obligated at the time of the award",
+        "completion_date": "2027-08-31",
+        "contracting_activity": {
+          "name": "Paul, Minnesota",
+          "code": "W912ES-24-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "R.J. Zavoral & Sons Inc.",
+            "location": "East Grand Forks, Minnesota",
+            "contract_number": "W912ES-24-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dam embankment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23872642,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23872642,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, seven received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Teledyne FLIR, North Billerica, Massachusetts, was awarded a $14,968,625 firm-fixed-price contract for clip-on thermal weapon sights. Bids were solicited via the internet with one received. Work will be performed in North Billerica, Massachusetts, with an estimated completion date of Jan. 31, 2025. Fiscal 2010 other procurement, Army funds in the amount of $14,968,625 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-24-C-5009).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB24C5009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14968625.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14968625.0,
+        "funding_text": "Fiscal 2010 other procurement, Army funds in the amount of $14,968,625 were obligated at the time of the award",
+        "completion_date": "2025-01-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-24-C-5009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Teledyne FLIR",
+            "location": "North Billerica, Massachusetts",
+            "contract_number": "W91CRB-24-C-5009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Clip-on thermal weapon sights",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14968625,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14968625,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington-Ingalls Industries-Newport News Shipbuilding, Newport News, Virginia, was awarded a $37,544,972 fixed-price incentive (firm-target) modification to a previously awarded contract (N00024-15-C-2114) for the detail design and construction of Consolidated Afloat Networks and Enterprise Services outfitting effort onboard CVN-79. Work will be performed in Newport News, Virginia, and is expected to be completed by July 2025. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $24,395,466 (65%); and fiscal 2018 shipbuilding and conversion (Navy) funds in the amount of $13,149,506 (35%), will be obligated at time of award and will not expire at the end of the current fiscal year. The Supervisor of Shipbuilding Newport News, Virginia, is the contracting activity. (Awarded March 8, 2024)",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C2114"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37544972.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37544972.0,
+        "funding_text": "Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $24,395,466 (65%); and fiscal 2018 shipbuilding and conversion (Navy) funds in the amount of $13,149,506 (35%), will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2025-07",
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding Newport News, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Huntington-Ingalls Industries-Newport News Shipbuilding",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-15-C-2114",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm-target)",
+        "description": "Detail design and construction of Consolidated Afloat Networks and Enterprise Services outfitting effort onboard CVN-79",
+        "base_contract_number": "N00024-15-C-2114",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37544972,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37544972,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2024-03-08"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Information Technology Inc., Falls Church, Virginia, is receiving modification P00014 to a previously awarded contract (N0003922C0001) issued by the Naval Information Warfare Systems Command. This modification increases the value of the contract by $18,805,426; the new total value is $70,125,518. The modification is for the extension of Enterprise Authoritative Data Environment (eADE) development and sustainment services. eADE is an enterprise information management system that is migrating existing MyNavy HR legacy data warehouses into a central data repository. It provides the authoritative data sharing framework, leveraging business intelligence and data analytics capabilities to support other MyNavy HR transactional business systems. Fiscal 2024 research, development, test and evaluation (Navy) funds; and fiscal 2024 operation and maintenance (Navy) funds are being used to fund this award. The modification includes up to an additional eight months of services. Work will be performed mainly in Falls Church, Virginia (38%); and New Orleans, Louisiana (21%). Approximately 41% of work will be performed in Florida, Illinois, New Jersey, New York, Pennsylvania, Missouri, Tennessee, West Virginia, Oklahoma, Texas, Kansas, Alabama, and Arizona. Work is expected to be completed by Sept. 30, 2024. This modification was not competitively procured, it is a sole source acquisition pursuant to the authority of 10 U.S. Code 3204(a)(2)–Unusual and Compelling Urgency (Federal Acquisition Regulation subpart 6.302-2). The information provided in this announcement is Unclassified. Naval Information Warfare Systems Command, San Diego, California, is the contracting activity (N0003922C0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0003922C0001"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 18805426.0,
+        "cumulative_value_usd": 70125518.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-09-30",
+        "contracting_activity": {
+          "name": "Naval Information Warfare Systems Command, San Diego, California",
+          "code": "N0003922C0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Falls Church, Virginia",
+            "contract_number": "N0003922C0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Extension of Enterprise Authoritative Data Environment (eADE) development and sustainment services",
+        "base_contract_number": "N0003922C0001",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 18805426,
+        "cumulative_value_usd": 70125518,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, unusual and compelling urgency (10 U.S.C. 3204(a)(2))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., RMS Niagara, Niagara Falls, New York, is awarded a $12,961,925 cost-plus-fixed-fee contract for the Gravity Aided Navigation System Phase Two. This contract provides for the development of a gravity-aided navigation solution for the Trident Navigation Subsystem. The efforts described herein include the appropriate sensors and algorithms to achieve two new capabilities: gravity sensor passive navigation, and vertical deflection verification and refinement. Work will be performed in Niagara Falls, New York, and is expected to be completed in March 2027. The total cumulative value of this contract, including a 36-month base period with no option periods, is $12,961,925. Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $2,000,000 are obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured under (N00014-23-S-B001) entitled \"Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology.\" Since proposals are received throughout the year under the Long-Range BAA, the number of proposals received in response to the solicitation is unknown. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N0001424C1102).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001423SB001",
+          "N0001424C1102"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12961925.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000000.0,
+        "funding_text": "Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $2,000,000 are obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2027-03",
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": "N0001424C1102"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., RMS Niagara",
+            "location": "Niagara Falls, New York",
+            "contract_number": "N0001424C1102",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Gravity Aided Navigation System Phase Two for the Trident Navigation Subsystem",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12961925,
+        "cumulative_value_usd": 12961925,
+        "obligated_usd": 2000000,
+        "fms_countries": [],
+        "competition": "Competitive, Long Range BAA N00014-23-S-B001",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "PCX Aerosystems-Manchester LLC, Manchester, Connecticut, has been awarded a maximum $22,099,593 firm-fixed-price, indefinite-delivery requirements contract for main extension assemblies. This was a limited competitive acquisition with one response received. This is a five-year contract with no option periods. The performance completion date is Sept. 15, 2029. Using military service is Army. Type of appropriation is fiscal 2024 through 2029 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22099593.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "PCX Aerosystems-Manchester LLC",
+            "location": "Manchester, Connecticut",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery requirements contract",
+        "description": "Main extension assemblies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22099593,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Limited competitive, one response received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Electric Co., Lynn, Massachusetts (SPRTA1-24-F-0114, $14,471,128); and C.F. Roark Welding & Engineering Co., Inc., Brownsburg, Indiana (SPRTA1-24-C-0025, $7,618,881), have each been awarded a firm-fixed-price contract under solicitation (SPE4A1-22-G-0010) for J-85 engine flameholders. This was a competitive acquisition with two offers received. This is a one-time-buy contract with a May 31, 2028, and a March 31, 2028, performance completion date, respectively. Using military service is Air Force. Type of appropriation is fiscal 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Oklahoma City, Oklahoma.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA124F0114",
+          "SPRTA124C0025",
+          "SPE4A122G0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14471128.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Oklahoma City, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "SPRTA1-24-F-0114",
+            "markers": null
+          },
+          {
+            "name": "C.F. Roark Welding & Engineering Co., Inc.",
+            "location": "Brownsburg, Indiana",
+            "contract_number": "SPRTA1-24-C-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "J-85 engine flameholders (one-time-buy contracts under solicitation SPE4A1-22-G-0010)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:52Z",
-  "source": "file:2024-03-11.html"
+  "source": "file:2024-03-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:49:14Z"
+  }
 }

@@ -11,45 +11,360 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Jones Lang LaSalle Americas Inc., Washington, District of Columbia, has been awarded an $88,000,000 indefinite-delivery/indefinite-quantity contract. Contractor will provide advisory and assistance services for long-term post-closing management services in support of the Air Force's privatization of military housing, enhanced use leasing, and other contracts actions as determined. Work will be performed at Washington, District of Columbia, and various Air Force installations, and is expected to be complete by Aug. 9, 2021. This award is the result of a competitive acquisition with two offers received. Fiscal 2015 operation and maintenance funds in the amount of $3,000 are being obligated at the time of award. The 772nd Enterprise Sourcing Squadron, Joint Base San Antonio, Lackland, Texas, is the contracting activity (FA8903-15-D-0035).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA890315D0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 88000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000.0,
+        "funding_text": "Fiscal 2015 operation and maintenance funds in the amount of $3,000 are being obligated at the time of award",
+        "completion_date": "2021-08-09",
+        "contracting_activity": {
+          "name": "The 772nd Enterprise Sourcing Squadron, Joint Base San Antonio, Lackland, Texas",
+          "code": "FA8903-15-D-0035"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Jones Lang LaSalle Americas Inc.",
+            "location": "Washington, District of Columbia",
+            "contract_number": "FA8903-15-D-0035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Advisory and assistance services for long-term post-closing management of Air Force military housing privatization, enhanced use leasing, and other contract actions",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 88000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3 Communications Corp., Arlington, Texas, has been awarded a $12,900,000 cost-plus, fixed-fee modification (P00122) to previously awarded contract FA8621-09-C-6292 for the award of the M7.1 operational flight program for the F16 Mission Training Center. Work will be performed at Arlington, Texas, and is expected to be complete by Aug. 31, 2017. Fiscal 2015 research and development funds in the amount of $4,061,069 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA862109C6292"
+        ],
+        "modification_numbers": [
+          "P00122"
+        ],
+        "is_modification": true,
+        "value_usd": 12900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4061069.0,
+        "funding_text": "Fiscal 2015 research and development funds in the amount of $4,061,069 are being obligated at the time of award",
+        "completion_date": "2017-08-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "L3 Communications Corp.",
+            "location": "Arlington, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "M7.1 operational flight program for the F16 Mission Training Center",
+        "base_contract_number": "FA8621-09-C-6292",
+        "order_number": null,
+        "modification_number": "P00122",
+        "value_usd": 12900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4061069,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Golden Manufacturing Co. Inc.,* Golden, Mississippi, has been awarded a maximum $37,458,912 modification (P00121) exercising the second one-year option period of a one-year base contract (SPM1C1-13-D-1063) with four one-year option periods for Army combat uniform coats. This is a firm-fixed-price contract. Locations of performance are Mississippi, New Jersey, North Carolina and Georgia, with an Aug. 14, 2016, performance completion date. Using military service is Army. Type of appropriation is fiscal 2015 through fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1063"
+        ],
+        "modification_numbers": [
+          "P00121"
+        ],
+        "is_modification": true,
+        "value_usd": 37458912.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Golden Manufacturing Co. Inc.",
+            "location": "Golden, Mississippi",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Second one-year option period for Army combat uniform coats",
+        "base_contract_number": "SPM1C1-13-D-1063",
+        "order_number": null,
+        "modification_number": "P00121",
+        "value_usd": 37458912,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Puerto Rico Apparel Manufacturing Corp.,* Mayaguez, Puerto Rico, has been awarded a maximum $15,882,075 modification (P00120) exercising the second one-year option period of a one-year base contract (SPM1C1-13-D-1065) with four one-year option periods for Army combat uniforms. This is a firm-fixed-price contract. Locations of performance are Puerto Rico and Mississippi, with an Aug. 14, 2016, performance completion date. Using military services are Army and Navy. Type of appropriation is fiscal 2015 through fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1065"
+        ],
+        "modification_numbers": [
+          "P00120"
+        ],
+        "is_modification": true,
+        "value_usd": 15882075.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Puerto Rico Apparel Manufacturing Corp.",
+            "location": "Mayaguez, Puerto Rico",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Second one-year option period for Army combat uniforms",
+        "base_contract_number": "SPM1C1-13-D-1065",
+        "order_number": null,
+        "modification_number": "P00120",
+        "value_usd": 15882075,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "M.A. Mortenson Co., Minneapolis, Minnesota, is being awarded $17,972,000 for firm-fixed-price task order 0002 under a previously awarded multiple award construction contract (N69450-14-D-1270) for construction of Waterfront Restricted Area South, land-water interface at Naval Submarine Base Kings Bay. The work to be performed provides for construction of a land-to-water interface in the waterfront restricted area of the base that connects the south end of the enclave fencing system to the floating port security barriers. Work will be performed in Kings Bay, Georgia, and is expected to be completed by October 2017. Fiscal 2012 military construction (Navy) contract funds in the amount of $17,972,000 are being obligated on this award and will not expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6945014D1270"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17972000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17972000.0,
+        "funding_text": "Fiscal 2012 military construction (Navy) contract funds in the amount of $17,972,000 are being obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-10",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "M.A. Mortenson Co.",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": "N69450-14-D-1270",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Construction of Waterfront Restricted Area South land-water interface at Naval Submarine Base Kings Bay",
+        "base_contract_number": "N69450-14-D-1270",
+        "order_number": "0002",
+        "modification_number": null,
+        "value_usd": 17972000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17972000,
+        "fms_countries": [],
+        "competition": "three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Progeny Systems Corp., Manassas, Virginia, is being awarded a $10,926,568 modification to previously awarded contract N00024-13-C-6283 for continued support of the integrated shipboard and shore-based maintenance decision tool. The contractor will build upon the investments made under the Small Business Innovation Research Topic N05-051 Phase I and II contracts for an integrated shipboard and shore-based maintenance management decision tool, and extend the work under the N03-049 Phase III contract for information automation and manning reduction in maintenance planning and operations. The contractor will continue to develop and integrate required software applications, hardware components, and overall system-level functionality to achieve manpower reduction aboard Navy submarines and ships. This effort shall advance the currently installed temporary alteration (TEMPALT) for the wireless sensor network (WSN). This tasking shall produce an engineering development model of the WSN that incorporates the latest features of TEMPALT revisions. Also under this tasking, the WSN will be engineered for production with two ship sets developed and delivered for incorporation into the Virginia-class baseline. Work will be performed in Manassas, Virginia, and is expected to be completed by August 2016. Fiscal 2015 other procurement (Navy) and fiscal 2015 research, development, test and evaluation contract funds in the amount of $4,823,555 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C6283"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10926568.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4823555.0,
+        "funding_text": "Fiscal 2015 other procurement (Navy) and fiscal 2015 research, development, test and evaluation contract funds in the amount of $4,823,555 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2016-08",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Progeny Systems Corp.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-13-C-6283",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Continued support of integrated shipboard and shore-based maintenance decision tool (wireless sensor network)",
+        "base_contract_number": "N00024-13-C-6283",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10926568,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4823555,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "GeoDecisions, a division of Gannett Fleming, Camp Hill, Pennsylvania, is being awarded a $6,848,430 hybrid contract (HTC711-15-C-D003) consisting of cost reimbursement and firm-fixed-price contract line items for a transportation geospatial information system. This contract provides a geospatial service and a common set of information technology tools and applications for execution, reporting, visualization, collaboration and dissemination of geospatial information. Work will be performed at Scott Air Force Base, Illinois, with an expected completion date of Sept. 30, 2019. Fiscal 2015 capital funds in the amount of $6,848,430 are being obligated at time of award. This contract was a competitive acquisition, and three offers were received. The contracting activity is the U.S. Transportation Command Directorate of Acquisition, Scott Air Force Base, Illinois.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "HTC71115CD003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 6848430.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6848430.0,
+        "funding_text": "Fiscal 2015 capital funds in the amount of $6,848,430 are being obligated at time of award",
+        "completion_date": "2019-09-30",
+        "contracting_activity": {
+          "name": "U.S",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "GeoDecisions, a division of Gannett Fleming",
+            "location": "Camp Hill, Pennsylvania",
+            "contract_number": "HTC711-15-C-D003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid contract (cost reimbursement and firm-fixed-price contract line items)",
+        "description": "Transportation geospatial information system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6848430,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6848430,
+        "fms_countries": [],
+        "competition": "competitive acquisition, three offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-08-10.html"
+  "source": "file:2015-08-10.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:57:12Z"
+  }
 }

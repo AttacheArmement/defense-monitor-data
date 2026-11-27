@@ -12,81 +12,669 @@
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "International Auto Logistics LLC, Brunswick, Georgia, has been awarded a $175,900,833 modification (P00014) exercising the second option period on base contract HTC711-14-D-R025 for transportation and storage services of privately owned vehicles. The modification brings the total cumulative face value of the contract to $583,839,814 from $407,938,981. This is an indefinite-delivery, requirements-type, fixed-price with economic price adjustment contract. Work will be performed at multiple continental U.S. and outside the continental U.S. locations, with an expected completion date of Sept. 30, 2017. Funds will be obligated on individual task orders, and are fiscal 2017 transportation working capital funds. The contracting activity is the U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HTC71114DR025"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 175900833.0,
+        "cumulative_value_usd": 583839814.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Funds will be obligated on individual task orders, and are fiscal 2017 transportation working capital funds",
+        "completion_date": "2017-09-30",
+        "contracting_activity": {
+          "name": "U.S",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "International Auto Logistics LLC",
+            "location": "Brunswick, Georgia",
+            "contract_number": "HTC711-14-D-R025",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery, requirements-type, fixed-price with economic price adjustment",
+        "description": "Exercise of second option period for transportation and storage services of privately owned vehicles",
+        "base_contract_number": "HTC711-14-D-R025",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 175900833,
+        "cumulative_value_usd": 583839814,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics, Marietta, Georgia, has been awarded a $132,600,829 modification (P00577) to previously awarded contract FA8625-11-C-6597 for two U.S. government-configured KC-130J aircraft. The location of performance is Marietta, Georgia. This modification is 100 percent foreign military sales to France. The work is expected to be completed by April 30, 2020. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6597"
+        ],
+        "modification_numbers": [
+          "P00577"
+        ],
+        "is_modification": true,
+        "value_usd": 132600829.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-04-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "France"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8625-11-C-6597",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Two U.S. government-configured KC-130J aircraft",
+        "base_contract_number": "FA8625-11-C-6597",
+        "order_number": null,
+        "modification_number": "P00577",
+        "value_usd": 132600829,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "UES Inc., Dayton, Ohio, has been awarded a $42,000,000 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for Nanoelectronic Materials Optimization. This contract provides for research and development on a broad range of advanced materials for magnetic, electronic, and electro-optical materials applications leading to improved nanomaterials, material processes, and devices for digital, radio frequency, radar, infrared detector, opto-electronic, secure communication, power generation, sensing, and control applications. The location of performance is Dayton, Ohio; and Wright-Patterson Air Force Base, Ohio. The work is expected to be complete by Sept. 30, 2022. This award is the result of a competitive acquisition with nine offers received. Fiscal 2016 research, development, test and evaluation funds in the amount of $137,807 are being obligated for the first order (FA8650-16-F-5416) at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-16-D-5408).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA865016F5416",
+          "FA865016D5408"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 137807.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $137,807 are being obligated for the first order (FA8650-16-F-5416) at the time of award",
+        "completion_date": "2022-09-30",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-16-D-5408"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "UES Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-16-D-5408",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Nanoelectronic Materials Optimization research and development",
+        "base_contract_number": null,
+        "order_number": "FA8650-16-F-5416",
+        "modification_number": null,
+        "value_usd": 42000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 137807,
+        "fms_countries": [],
+        "competition": "competitive acquisition with nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Mission Systems and Training, Orlando, Florida, has been awarded a $39,500,000 firm-fixed-price contract for production and sustainment of two F-16 air combat training centers. Contractor will provide acquisition of up to two air combat training centers, and contractor logistic support. Work will be performed in Jordan, and is expected to be complete by Sept. 15, 2020. This contract is 100 percent foreign military sales to Jordan. This award is the result of a sole-source acquisition. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8621-16-C-6336).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA862116C6336"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-09-15",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8621-16-C-6336"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Jordan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Mission Systems and Training",
+            "location": "Orlando, Florida",
+            "contract_number": "FA8621-16-C-6336",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production and sustainment of two F-16 air combat training centers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Jordan"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is being awarded a $109,917,238 cost-plus-fixed-fee modification to previously awarded contract N00024-15-C-2105 to exercise options for engineering, technical, and design services; configuration management; integrated logistics Support; database management; research and development; modernization; and industrial support for nuclear submarines. This contract will also support special mission submersible interfaces and submarine support facilities. Work will be performed in Newport News, Virginia, and is expected to be completed by September 2018. Fiscal 2016 other procurement (Navy); and fiscal 2014 shipbuilding and conversion (Navy) funding in the amount of $7,420,958 will be obligated at the time of award and funds will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C2105"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 109917238.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7420958.0,
+        "funding_text": "Fiscal 2016 other procurement (Navy); and fiscal 2014 shipbuilding and conversion (Navy) funding in the amount of $7,420,958 will be obligated at the time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2018-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-15-C-2105",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Options for engineering, technical, design, logistics and industrial support for nuclear submarines",
+        "base_contract_number": "N00024-15-C-2105",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 109917238,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7420958,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Milpower Inc., Nampa, Idaho, is being awarded a $29,541,187 indefinite-delivery/indefinite- quantity, firm-fixed-price, cost-plus-fixed-fee line item contract for the production of 100 watt and 200 watt power amplifiers, and engineering services. The power amplifiers are used by the Digital Modular Radio program to meet Mobile User Objective System fleet modernization and Shipbuilding and Conversion, Navy requirements. This contract includes options which, if exercised, would bring the cumulative value of this contract to an estimated $66,127,472. Work will be performed in San Diego, California, and is expected to be completed by September 2021. If all options are exercised, work could continue until September 2026. Fiscal 2015 and 2016 shipbuilding and conversion (Navy) funds in the amount of $7,079,512 will be placed on contract and obligated at the time of award. Contract funds will not expire at the end of the current fiscal year. This contract was competitively procured with proposals solicited via the Commerce Business Daily’s Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website, with three offers received. The Space and Naval Warfare Systems Command, San Diego, California, is the contracting activity (N00039-16-D-0078).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0003916D0078"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29541187.0,
+        "cumulative_value_usd": 66127472.0,
+        "obligated_usd": 7079512.0,
+        "funding_text": "Fiscal 2015 and 2016 shipbuilding and conversion (Navy) funds in the amount of $7,079,512 will be placed on contract and obligated at the time of award",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Command, San Diego, California",
+          "code": "N00039-16-D-0078"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Milpower Inc.",
+            "location": "Nampa, Idaho",
+            "contract_number": "N00039-16-D-0078",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price, cost-plus-fixed-fee line item contract",
+        "description": "Production of 100 watt and 200 watt power amplifiers and engineering services for Digital Modular Radio program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29541187,
+        "cumulative_value_usd": 66127472,
+        "obligated_usd": 7079512,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "SNC Manufacturing LLC,* Orocovis, Puerto Rico, has been awarded a maximum $102,199,560 modification (P00143) exercising the fourth one-year option of a one-year base contract (SPM1C1-12-D-1063) with four one-year option periods for various types of coats. The modification brings the maximum dollar value of the contract to $216,775,063 from $114,575,503. This is an indefinite-delivery/indefinite-quantity contract. Locations of performance are Puerto Rico, Alabama, Texas, North Carolina, Illinois, New York and Maryland, with a Sept. 11, 2017, ordering period end date, and an estimated performance completion date of Sept. 11, 2018. Using customers are the Army and the Afghanistan government. Types of appropriation are fiscal 2016 through fiscal 2017 defense working capital and foreign military sales funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C112D1063"
+        ],
+        "modification_numbers": [
+          "P00143"
+        ],
+        "is_modification": true,
+        "value_usd": 102199560.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-09-11",
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business in historically underutilized business zone"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "SNC Manufacturing LLC",
+            "location": "Orocovis, Puerto Rico",
+            "contract_number": "SPM1C1-12-D-1063",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Fourth one-year option exercise for various types of coats",
+        "base_contract_number": "SPM1C1-12-D-1063",
+        "order_number": null,
+        "modification_number": "P00143",
+        "value_usd": 102199560,
+        "cumulative_value_usd": 216775063,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CWI-Orascom JV, McLean, Virginia, was awarded a $29,827,190 firm-fixed-price contract to design-build restoration of Biomedical Research Laboratory, Building 67; and repair and renovation on the navy Medical Research Unit 3 campus in Cairo, Egypt. Bids were solicited via the Internet with four received. Work will be performed in Egypt, with an estimated completion date of Nov. 16, 2019. Fiscal 2016 operations and maintenance (Army) funds in the amount of $29, 827,190 were awarded at the time of the contract. Army Corps of Engineers Transatlantic Program Center, Winchester, Virginia, is the contracting activity (W912ER-16-C0010).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912ER16C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29827190.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-11-16",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers Transatlantic Program Center, Winchester, Virginia",
+          "code": "W912ER-16-C0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "CWI-Orascom JV",
+            "location": "McLean, Virginia",
+            "contract_number": "W912ER-16-C0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build restoration of Biomedical Research Laboratory, Building 67, and repair of Navy Medical Research Unit 3 campus in Cairo, Egypt",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29827190,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29827190,
+        "fms_countries": [],
+        "competition": "Internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Precon Marine Inc.,** Chesapeake, Virginia, was awarded a $28,647,733 firm-fixed-price contract for the lateral expansion of the Paul S. Sarbanes Ecosystem Restoration Project in Poplar Island, Talbot County, Maryland. Bids were solicited via the Internet with two received. Work with be performed in Poplar Island, Maryland, with an estimated completion date of Oct. 24, 2017. Fiscal 2016 other funds in the amount of $ 28, 647, 733 were awarded at the time of the contract. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity (W912DR-16-C-0032).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912DR16C0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28647733.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2017-10-24",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Baltimore, Maryland",
+          "code": "W912DR-16-C-0032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Precon Marine Inc.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "W912DR-16-C-0032",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Lateral expansion of the Paul S. Sarbanes Ecosystem Restoration Project, Poplar Island, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28647733,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28647733,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Integrico Composities of Louisiana LLC,** Cullen, Louisiana, was awarded an $11,851,500 firm-fixed-price contract with options to replace wooden railroad ties with composite plastic ties. Funding and work location will be determined with each order, with an estimated completion date of Sept. 6, 2019. Bids were solicited via the Internet with three received. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-16-D-3022).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J16D3022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11851500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-09-06",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-16-D-3022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Integrico Composities of Louisiana LLC",
+            "location": "Cullen, Louisiana",
+            "contract_number": "W52P1J-16-D-3022",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with options",
+        "description": "Replacement of wooden railroad ties with composite plastic ties",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11851500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Calibre Systems Inc., Alexandria, Virginia, was awarded a $9,434,384 cost-plus-fixed-fee contract with options for operating and support management information system technical support services. Bids were solicited via the Internet with one received. Fiscal 2016 operations and maintenance (Army) funds in the amount of $9,434,384 were awarded at the time of the contract. Work will be performed at Ft. Belvoir, Virginia, with an estimated completion date of Sept. 22, 2020. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W91CRB-16-C-0054).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB16C0054"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9434384.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-09-22",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W91CRB-16-C-0054"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Calibre Systems Inc.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W91CRB-16-C-0054",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee with options",
+        "description": "Operating and support management information system technical support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9434384,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9434384,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tabcon Inc.,** Queen Creek, Arizona, was awarded a $9,000,000 firm-fixed-price contract for roof repair and replacement at Fort Riley, Kansas. Bids were solicited via the Internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 5, 2019. Army Corps of Engineers, Kansas City, Missouri, is the contracting activity (W912DQ-16-D-4002).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W912DQ16D4002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-09-05",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Kansas City, Missouri",
+          "code": "W912DQ-16-D-4002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Tabcon Inc.",
+            "location": "Queen Creek, Arizona",
+            "contract_number": "W912DQ-16-D-4002",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Roof repair and replacement at Fort Riley, Kansas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Garney Companies Inc., Kansas City, Missouri, was awarded an $8,997,997 firm-fixed-price contract for designing and constructing a Mud Mountain Dam nine-foot tunnel. Bids were solicited via the Internet with 10 received. Work will be performed in Enumclaw, Washington, with an estimated completion date of April 5, 2019. Fiscal 2016 other funds in the amount of $4,100,000 were obligated at the time of the award. Army Corps of Engineers, Seattle, Washington, is the contracting activity (W912DW-16-C-0019).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W912DW16C0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8997997.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4100000.0,
+        "funding_text": "Fiscal 2016 other funds in the amount of $4,100,000 were obligated at the time of the award",
+        "completion_date": "2019-04-05",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Seattle, Washington",
+          "code": "W912DW-16-C-0019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Garney Companies Inc.",
+            "location": "Kansas City, Missouri",
+            "contract_number": "W912DW-16-C-0019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design and construction of Mud Mountain Dam nine-foot tunnel, Enumclaw, Washington",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8997997,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4100000,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet; 10 received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:32Z",
-  "source": "file:2016-09-07.html"
+  "source": "file:2016-09-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:12:21Z"
+  }
 }

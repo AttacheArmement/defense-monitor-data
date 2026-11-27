@@ -9,9 +9,58 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded $7,473,573 for delivery order 0057 against a previously issued Basic Ordering Agreement (N68335-10-G-0012) for peculiar support equipment and spares for initial outfitting emerging squadron stand-ups of the extended deployment of EA-18G and F/A-18 aircraft in support of the government of Australia under the Foreign Military Sales program. In addition, this order includes a support equipment integrated logistics support package. Work will be performed in St. Louis, Missouri, and is expected to be completed in October 2016. Foreign military sales funds in the amount of $7,473,573 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6833510G0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7473573.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7473573.0,
+        "funding_text": "Foreign military sales funds in the amount of $7,473,573 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Peculiar support equipment and spares for initial outfitting of EA-18G and F/A-18 emerging squadron stand-ups for Australia (FMS), with support equipment integrated logistics support package",
+        "base_contract_number": "N68335-10-G-0012",
+        "order_number": "0057",
+        "modification_number": null,
+        "value_usd": 7473573,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7473573,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:27Z",
-  "source": "file:2014-10-08.html"
+  "source": "file:2014-10-08.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:27:48Z"
+  }
 }

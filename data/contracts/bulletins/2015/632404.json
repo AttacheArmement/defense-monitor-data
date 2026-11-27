@@ -11,45 +11,362 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Siemens Government Technologies Inc., Arlington, Virginia, was awarded a $200,000,000 firm-fixed-price contract with options for the expansion and upgrading Desigo/Apogee® building automation systems with an estimated completion date of Dec. 1, 2020. One bid was solicited with one received. Funding and work location will be determined with each order. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity (W912DY-16-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DY16D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-12-01",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": "W912DY-16-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Siemens Government Technologies Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912DY-16-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with options",
+        "description": "Expansion and upgrading of Desigo/Apogee building automation systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Technical Services Co., Indianapolis, Indiana, is being awarded $52,902,881 for firm-fixed-price delivery order 7004 under previously awarded basic ordering agreement N00383-14-G-006D for the repair of 41 different part numbers, with various quantities of repairs used in support of the F-18 aircraft. Work will be performed in Jacksonville, Florida, and is expected to be completed by December 2017. Fiscal 2015 working capital funds (Navy) in the amount of $25,922,412 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with Federal Acquisition Regulation 6.302-1, with one offer received in response to this solicitation. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0038314G006D"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 52902881.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25922412.0,
+        "funding_text": "Fiscal 2015 working capital funds (Navy) in the amount of $25,922,412 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Technical Services Co.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Repair of 41 different part numbers in support of the F-18 aircraft",
+        "base_contract_number": "N00383-14-G-006D",
+        "order_number": "7004",
+        "modification_number": null,
+        "value_usd": 52902881,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25922412,
+        "fms_countries": [],
+        "competition": "Not competitively procured per FAR 6.302-1; one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land and Armaments LP, Minneapolis, Minnesota, is being awarded an $8,929,876 modification to previously awarded contract N00024-12-C-5316 for the production of a MK 110 Mod 0 gun weapon system (MK110). The MK 110 Mod 0 gun mount consists of a 57mm gun, ammunition hoists, power distribution panels, muzzle velocity radar, barrel-mounted television camera, and a ruggedized laptop computer gun control panel. The MK 110 Mod 0 gun mount is required to defeat medium- and short-range surface targets, and provide warning and disabling fire in support of anti-surface warfare. The weapon system will be installed on Coast Guard national security cutter WMSL 757 upon completion. Work will be performed in Louisville, Kentucky, and is expected to be completed by March 2018. Fiscal 2016 weapons procurement (Navy) funds in the amount of $8,929,876 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002412C5316"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8929876.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8929876.0,
+        "funding_text": "Fiscal 2016 weapons procurement (Navy) funds in the amount of $8,929,876 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2018-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "BAE Systems Land and Armaments LP",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Production of MK 110 Mod 0 57mm gun weapon systems for Coast Guard national security cutter WMSL 757",
+        "base_contract_number": "N00024-12-C-5316",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8929876,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8929876,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Boeing Co., Seattle, Washington, has been awarded a $41,444,960 delivery order (0393) on previously awarded contract F33657-01-D-0013 to extend the integrated fleet support for the C-32 and C-40 aircraft for six-months. Work will be performed at Oklahoma City, Oklahoma, and is expected to be complete by June 30, 2016. Fiscal 2016 operations and maintenance funds in the amount of $41,444,960 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "F3365701D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41444960.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 41444960.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $41,444,960 are being obligated at the time of award",
+        "completion_date": "2016-06-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "F33657-01-D-0013",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "delivery order",
+        "description": "Six-month extension of integrated fleet support for C-32 and C-40 aircraft",
+        "base_contract_number": "F33657-01-D-0013",
+        "order_number": "0393",
+        "modification_number": null,
+        "value_usd": 41444960,
+        "cumulative_value_usd": null,
+        "obligated_usd": 41444960,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "US Foods Inc., Oklahoma City, Oklahoma, has been awarded a maximum $38,404,244 fixed-price with economic-price-adjustment, indefinite-quantity extension contract for prime vendor food service support for customers in Texas and Oklahoma. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). This contract is an extension of a two-year base contract (SPM300-09-D-3272) with three one-year option periods. Location of performance is Oklahoma, with a Nov. 5, 2016, performance completion date. Using military services are Army and Air Force. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-16-D-3162). (Awarded on Nov. 13, 2015)",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPM30009D3272",
+          "SPE30016D3162"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38404244.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-16-D-3162"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "US Foods Inc.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "SPE300-16-D-3162",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity extension contract",
+        "description": "Prime vendor food service support for customers in Texas and Oklahoma (extension of base contract SPM300-09-D-3272)",
+        "base_contract_number": "SPM300-09-D-3272",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38404244,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": "2015-11-13"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The L.C. Doane Co.,* Ivoryton, Connecticut (SPE8E7-16-D-0001); and Atlantic Diving Supply Inc., doing business as ADS Inc.,* Virginia Beach, Virginia (SPE8E7-16-D-0002), will share a maximum $35,000,000 firm-fixed-price contract for lighting fixtures. This was a competitive acquisition with two responses received. This is a two-year base contract with three one-year option periods. The maximum dollar amount is for the life of the contract. Locations of performance are Connecticut and Virginia, with a Dec. 1, 2021, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2016 through fiscal 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E716D0001",
+          "SPE8E716D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "The L.C. Doane Co.",
+            "location": "Ivoryton, Connecticut",
+            "contract_number": "SPE8E7-16-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Atlantic Diving Supply Inc., doing business as ADS Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "SPE8E7-16-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Lighting fixtures",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35000000,
+        "cumulative_value_usd": 35000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Doubleday Acquisitions LLC, doing business as Acutemp,* Dayton, Ohio, has been awarded a maximum $13,070,025 fixed-price with economic-price-adjustment contract for medical and hospital equipment and accessories. This was a competitive acquisition with 85 responses received. This is a five-year contract with no option periods. Location of performance is Ohio, with a Dec. 2, 2020, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2016 through fiscal 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DH-16-D-0006).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH16D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13070025.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DH-16-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Doubleday Acquisitions LLC, doing business as Acutemp",
+            "location": "Dayton, Ohio",
+            "contract_number": "SPE2DH-16-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Medical and hospital equipment and accessories",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13070025,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, 85 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-12-02.html"
+  "source": "file:2015-12-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:42:19Z"
+  }
 }

@@ -11,105 +11,919 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is awarded a $2,458,707,154 modification to a previously awarded firm-fixed-price, cost-plus-fixed-fee contract (N00019-14-C-0067). This modification provides for the production and delivery of 19 P-8A lot 10 aircraft to include 10 for the Navy, four for the government of the U.K. and five for the government of Norway. In addition, this modification includes engineering change proposal 4 SilverBlock for the government of the U.K. and Lot 10 segregable efforts consisting of unknown obsolescence, Class I change assessments and obsolescence monitoring. Work will be performed in Seattle, Washington (80.6 percent); Baltimore, Maryland (2.6 percent); Greenlawn, New York (2.4 percent); Cambridge, U.K. (1.6 percent); and various locations within and outside the continental U.S. (12.8 percent), and is expected to be completed in March 2022. Fiscal 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds in the amount of $2,458,707,154 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This modification combines purchases for the Navy ($1,256,865,203; 51 percent); the government of Norway ($694,971,086; 28 percent); and the government of the U.K. ($506,870,865; 21 percent), under the FMS program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0067"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 2458707154.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2458707154.0,
+        "funding_text": "Fiscal 2019 aircraft procurement (Navy); and Foreign Military Sales (FMS) funds in the amount of $2,458,707,154 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N00019-14-C-0067",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee contract",
+        "description": "Production and delivery of 19 P-8A lot 10 aircraft for the Navy, U.K. and Norway, plus ECP 4 SilverBlock and Lot 10 segregable efforts",
+        "base_contract_number": "N00019-14-C-0067",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2458707154,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2458707154,
+        "fms_countries": [
+          "United Kingdom",
+          "Norway"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems San Diego Ship Repair, San Diego, California (N00024-16-D-4416); Huntington Ingalls Industries Inc., San Diego, California (N00024-16-D-4417); and General Dynamics, National Steel and Shipbuilding Co., San Diego, California (N00024-16-D-4418), are each awarded firm-fixed-price modifications under previously-awarded indefinite-delivery/indefinite-quantity multiple-award contracts to exercise Option Period Three for complex, emergent and continuous maintenance and Chief of Naval Operations (CNO) availabilities on surface combatants (DDG and CG) homeported in San Diego, California. These three contractors will have the opportunity to provide offers for individual delivery orders during option period three, with an estimated cumulative value of $90,275,086. Exercising these options ensures continued facilities and human resources capable of completing complex, emergent and continuous maintenance, repair, modernization and CNO availabilities on surface combatant ships assigned to or visiting the port of San Diego, California. Work will be performed in San Diego, California, and is expected to be completed by March 2020. No funding will be obligated at time of award. Operations and maintenance (Navy) funds will be obligated as the delivery orders are issued. The Southwest Regional Maintenance Center, San Diego, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0002416D4416",
+          "N0002416D4417",
+          "N0002416D4418"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 90275086.0,
+        "cumulative_value_usd": 90275086.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award Operations and maintenance (Navy) funds will be obligated as the delivery orders are issued",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Southwest Regional Maintenance Center, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems San Diego Ship Repair",
+            "location": "San Diego, California",
+            "contract_number": "N00024-16-D-4416",
+            "markers": null
+          },
+          {
+            "name": "Huntington Ingalls Industries Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N00024-16-D-4417",
+            "markers": null
+          },
+          {
+            "name": "General Dynamics, National Steel and Shipbuilding Co.",
+            "location": "San Diego, California",
+            "contract_number": "N00024-16-D-4418",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity multiple-award",
+        "description": "Exercise of Option Period Three for complex, emergent and continuous maintenance and CNO availabilities on surface combatants (DDG and CG) homeported in San Diego",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 90275086,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, is awarded a $26,332,225 firm-fixed-price requirements contract for the depot repair of T56-A-427 engines, utilized on E-2 Hawkeye aircraft, including the repair of the power section, torque meter, gearbox, and accessories in accordance with Navy depot manuals and approved repair practices. Work will be performed in San Antonio, Texas (55 percent); Winnipeg, Canada (25 percent); Indianapolis, Indiana (15 percent); and Oakland, California (5 percent), and is expected to be completed in January 2020. No funds will be obligated at time of award; funds will be issued against individual task orders as they are issued. This contract was competitively procured via an electronic request for proposals; two offers were received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-19-D-0024).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26332225.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be issued against individual task orders as they are issued",
+        "completion_date": "2020-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-19-D-0024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N00019-19-D-0024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Depot repair of T56-A-427 engines used on E-2 Hawkeye aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26332225,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposals; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ocean Ships Inc., Houston, Texas, is awarded a $20,800,875 firm-fixed-price contract for the operation and maintenance of Expeditionary Transfer Dock (ESD) vessels. This contract includes a 12-month base period, four 12-month option periods and a six-month option under Federal Acquistion Regulation 52.217-8, which, if exercised, would bring the cumulative value of this contract to $118,985,659. Work will be performed at sea worldwide and is expected to be completed, if all options are exercised, by November 2024. Working capital contract funds in the amount of $20,800,875 are obligated for the base period, and will not expire. The Navy’s Military Sealift Command, headquartered in Norfolk, Virginia, is the contracting activity (N3220519C3003).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3220519C3003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20800875.0,
+        "cumulative_value_usd": 118985659.0,
+        "obligated_usd": 20800875.0,
+        "funding_text": "Working capital contract funds in the amount of $20,800,875 are obligated for the base period, and will not expire",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, headquartered in Norfolk, Virginia",
+          "code": "N3220519C3003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Ocean Ships Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "N3220519C3003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Operation and maintenance of Expeditionary Transfer Dock (ESD) vessels",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20800875,
+        "cumulative_value_usd": 118985659,
+        "obligated_usd": 20800875,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded a $19,590,756 modification (P00020) to a previously awarded cost-plus-fixed-fee contract (N00019-17-C-0033). This modification provides for the procurement of software design and system integration, qualification testing, and cybersecurity activities as well as engineering services in support the MQ-8 Fire Scout Unmanned Air System. Work will be performed in San Diego, California, and is expected to be completed in December 2019. Fiscal 2019 operations and maintenance; and aircraft procurement (Navy) funds in the amount of $19,590,756 will be obligated at time of award, $12,080,557 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0033"
+        ],
+        "modification_numbers": [
+          "P00020"
+        ],
+        "is_modification": true,
+        "value_usd": 19590756.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19590756.0,
+        "funding_text": "Fiscal 2019 operations and maintenance; and aircraft procurement (Navy) funds in the amount of $19,590,756 will be obligated at time of award, $12,080,557 of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N00019-17-C-0033",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Software design and system integration, qualification testing, cybersecurity and engineering services for MQ-8 Fire Scout",
+        "base_contract_number": "N00019-17-C-0033",
+        "order_number": null,
+        "modification_number": "P00020",
+        "value_usd": 19590756,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19590756,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded a $13,930,396 cost-plus-fixed-fee, cost indefinite-delivery, indefinite-quantity contract for engineering, training, integrated logistics support, installation/checkout of developed systems and support services for Harpoon Ship Command Launch Control Set, Encapsulated Harpoon Command and Launch Systems, and Advanced Harpoon Weapon Control System, Standoff Land Attack Missile Expanded Response, and Harpoon missiles. These efforts are in support of the Navy and the governments of Brazil, Chile, Israel, Korea, Japan, Australia, Canada, Turkey, U.K., Malaysia, Taiwan, Singapore, Bahrain, Egypt, Kuwait, Oman, Saudi Arabia, United Arab Emirates, Denmark, Germany, India, Netherlands, Portugal, Spain, Mexico, Thailand, Greece, Qatar, and Belgium. Work will be performed in St. Charles, Missouri, and locations inside and outside the continental U.S., and is expected to be completed in December 2021. No funds will be obligated at time of award; funds will be issued against individual task orders as they are issued. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-19-D-0010).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13930396.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be issued against individual task orders as they are issued",
+        "completion_date": "2021-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-19-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-19-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost indefinite-delivery, indefinite-quantity",
+        "description": "Engineering, training, ILS, installation/checkout and support services for Harpoon systems and missiles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13930396,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Brazil",
+          "Chile",
+          "Israel",
+          "Korea",
+          "Japan",
+          "Australia",
+          "Canada",
+          "Turkey",
+          "United Kingdom",
+          "Malaysia",
+          "Taiwan",
+          "Singapore",
+          "Bahrain",
+          "Egypt",
+          "Kuwait",
+          "Oman",
+          "Saudi Arabia",
+          "United Arab Emirates",
+          "Denmark",
+          "Germany",
+          "India",
+          "Netherlands",
+          "Portugal",
+          "Spain",
+          "Mexico",
+          "Thailand",
+          "Greece",
+          "Qatar",
+          "Belgium"
+        ],
+        "competition": "not competitively procured pursuant to FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Joyce & Associates Construction Inc.,* Newport, North Carolina, is awarded $9,058,945 for firm-fixed-price task order N4008519F4580 under a previously awarded multiple award construction contract ( N40085-16-D-6302) for repairs to waste water collection system core area at Marine Corps Air Station Cherry Point, North Carolina. The work to be performed provides for various repairs to the sanitary and industrial waste water system including gravity lines, force mains, lift stations and appurtenances and incidental related work. Work will be performed in Havelock, North Carolina, and is expected to be completed by April 2020. Fiscal 2019 operations and maintenance, (Marine Corps) contract funds in the amount of $9,058,945 are obligated on this award and will expire at the end of the current fiscal year. Five proposals were received for this task order. Naval Facilities Engineering Command Mid-Atlantic, Norfolk, Virginia, is the contracting activity (N40085-16-D-6302).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N4008519F4580",
+          "N4008516D6302"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9058945.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9058945.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, (Marine Corps) contract funds in the amount of $9,058,945 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2020-04",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Command Mid-Atlantic, Norfolk, Virginia",
+          "code": "N40085-16-D-6302"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Joyce & Associates Construction Inc.",
+            "location": "Newport, North Carolina",
+            "contract_number": "N4008519F4580",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Repairs to waste water collection system core area at MCAS Cherry Point, North Carolina",
+        "base_contract_number": "N40085-16-D-6302",
+        "order_number": "N4008519F4580",
+        "modification_number": null,
+        "value_usd": 9058945,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9058945,
+        "fms_countries": [],
+        "competition": "five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lyon Shipyard, Inc.,* Norfolk, Virginia, is awarded a $7,994,140 firm-fixed-price, single-award contract for the repair, maintenance and modernization of USNS Prevail (TSV 1) during the ship’s docking phased maintenance availability. The work of this contract consists of temporary services, structural repairs, hull gauging, electrical, mechanical, piping and other miscellaneous repair work. Work will be performed in Norfolk, Virginia, and is expected to be completed by July 2019. Fiscal 2019 operations and maintenance (Navy) funding in the amount of $7,994,140 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with two offers received. This contract was procured as a competitive small business set-aside under the North American Industry Classification 336611 for shipbuilding and repair. The Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia, is the contracting activity (N50054-19-C-0002).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N5005419C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7994140.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7994140.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) funding in the amount of $7,994,140 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2019-07",
+        "contracting_activity": {
+          "name": "The Mid-Atlantic Regional Maintenance Center, Norfolk, Virginia",
+          "code": "N50054-19-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lyon Shipyard, Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N50054-19-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, single-award",
+        "description": "Repair, maintenance and modernization of USNS Prevail (TSV 1) during docking phased maintenance availability",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7994140,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7994140,
+        "fms_countries": [],
+        "competition": "competitive small business set-aside via Federal Business Opportunities website; two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE COMMISSARY AGENCY",
       "kind": "announcement",
       "text": "Military Produce Group LLC, Norfolk, Virginia, is being awarded an indefinite-delivery, requirements type contract to provide fresh fruits and vegetable products for commissaries located in the east areas of the continental U.S. The award amount is estimated at $146,066,237 for the base year. Actual obligations using Resale Stock Activity Group, Defense Working Capital Funds will occur upon issuance of delivery orders during the period of performance. Contract funds will not expire at the end of the current fiscal year. The contract is for a 24-month base period beginning Feb. 11, 2019, through Feb. 7, 2021. The contract includes three one-year option periods. If all three option periods are exercised, the contract will be completed Feb. 4, 2024. The Defense Commissary Agency, Fort Lee, Virginia, is the contracting activity (HDEC02-19-D-0001).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "HDEC0219D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 146066237.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Actual obligations using Resale Stock Activity Group, Defense Working Capital Funds will occur upon issuance of delivery orders during the period of performance",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Commissary Agency, Fort Lee, Virginia",
+          "code": "HDEC02-19-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Military Produce Group LLC",
+            "location": "Norfolk, Virginia",
+            "contract_number": "HDEC02-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery, requirements type",
+        "description": "Fresh fruits and vegetable products for commissaries in the east areas of the continental U.S.",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 146066237,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Robbins-Gioia LLC, Alexandria, Virginia (FA7014-19-D-5001); and Synergy Solutions and Innovations, Arlington, Virginia (FA7014-19-D-5000), have been awarded a ceiling $50,000,000 indefinite-delivery/indefinite-quantity, firm-fixed-priced with time and material elements, multiple award contract for the Business Capability Lifecycle Management Projects. This contract is for exploring more effective and efficient ways to support Air Force business operations and refine the development of Defense Business System requirements supporting the business mission area information technology by leveraging existing technologies owned by the Air Force, streamlining and standardizing business processes across the Air Force, and developing integrated solutions that are achievable in a constrained fiscal environment. This contract shall also be used for technical and engineering; information and data management, process engineering, performance assessment, change management, facilitation, project management, and scheduling. Work will be performed primarily in Washington, District of Columbia., and is expected to be completed Jan. 24, 2024. This award is the result of a competitive acquisition and seven offers were received. A total of two task orders using fiscal 2019 operations and maintenance funds in the amount of $27,405 are being obligated at the time of award. Air Force District of Washington, Joint Base Andrews, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA701419D5001",
+          "FA701419D5000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 50000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27405.0,
+        "funding_text": "A total of two task orders using fiscal 2019 operations and maintenance funds in the amount of $27,405 are being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force District of Washington, Joint Base Andrews, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Robbins-Gioia LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "FA7014-19-D-5001",
+            "markers": null
+          },
+          {
+            "name": "Synergy Solutions and Innovations",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA7014-19-D-5000",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price with time and material elements, indefinite-delivery/indefinite-quantity",
+        "description": "Business Capability Lifecycle Management Projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": 50000000,
+        "obligated_usd": 27405,
+        "fms_countries": [],
+        "competition": "competitive acquisition; seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Corp., Marietta, Georgia, has been awarded a $33,732,110 ceiling requirements contract for C-130J long-term sustainment support for the Royal Norwegian Air Force. The estimated value of the first order is $6,155,584. Contractor will provide the Royal Norwegian Air Force with return and repair support, spares support, engineering support, and in-country representative support for their C-130J aircraft platform. Work will be performed in Marietta, Georgia, and Gardermoen Air Station, Norway, and is expected to be completed by Dec. 31, 2019. This award is the result of a sole-source acquisition and is 100 percent Foreign Military Sales for Norway. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8553-19-D-0001).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA855319D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33732110.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8553-19-D-0001"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Norway"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Corp.",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8553-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "ceiling requirements contract",
+        "description": "C-130J long-term sustainment support for the Royal Norwegian Air Force",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33732110,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Norway"
+        ],
+        "competition": "sole source; 100 percent FMS for Norway",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Gulfstream Aerospace Corp., Savannah, Georgia, has been awarded a maximum $18,728,697 modification (P00007) to exercise an option on contract FA8106-16-D-0006 for engineering services to provide support the C-20 and C-37 fleet for Air Force, Army, Navy, and Marine Corps. This modification adds the third increment of the five-year, multi-year basic contract. Work will be performed in Savannah, Georgia, and is expected to be completed by Jan. 31, 2020. Fiscal 2019 Air Force, Army, and Navy operations and maintenance funds in the amount of $10,495,503 are being obligated at the time of award. Total cumulative face value of the contract is $83,700,000. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA810616D0006"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 18728697.0,
+        "cumulative_value_usd": 83700000.0,
+        "obligated_usd": 10495503.0,
+        "funding_text": "Fiscal 2019 Air Force, Army, and Navy operations and maintenance funds in the amount of $10,495,503 are being obligated at the time of award",
+        "completion_date": "2020-01-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Gulfstream Aerospace Corp.",
+            "location": "Savannah, Georgia",
+            "contract_number": "FA8106-16-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "option exercise / multi-year basic contract",
+        "description": "Engineering services supporting the C-20 and C-37 fleet, third increment of five-year multi-year contract",
+        "base_contract_number": "FA8106-16-D-0006",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 18728697,
+        "cumulative_value_usd": 83700000,
+        "obligated_usd": 10495503,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Space Dynamics Laboratory, North Logan, Utah, has been awarded a not-to-exceed $18,295,163 undefinitized contract action for the tasking, collecting, processing, exploitation, and dissemination (TCPED) capability to support the Republic of Korea Global Hawk program. This contract provides for the procurement of the TCPED system, spares and support equipment, sustainment support, and system familiarization. Work will be performed at North Logan, Utah, and is expected to be completed by May 2020. This contract involves Foreign Military Sales to the Republic of Korea. This award is the result of a sole-source acquisition. Foreign Military Sales funds in the amount of $9,000,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8620-19-C-1002).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA862019C1002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18295163.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9000000.0,
+        "funding_text": "Foreign Military Sales funds in the amount of $9,000,000 are being obligated at the time of award",
+        "completion_date": "2020-05",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8620-19-C-1002"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Republic of Korea"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Space Dynamics Laboratory",
+            "location": "North Logan, Utah",
+            "contract_number": "FA8620-19-C-1002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "TCPED (tasking, collecting, processing, exploitation, and dissemination) capability for the Republic of Korea Global Hawk program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18295163,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9000000,
+        "fms_countries": [
+          "Republic of Korea"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pate Construction Company Inc.,* Pueblo West, Colorado, was awarded a $23,978,896 firm-fixed-price contract for a procurement project consisting of 8,100 feet of reinforced concrete lined channel or concrete box culvert for the existing McKinley ditch. Bids were solicited via the internet with four received. Work will be performed in Alamogordo, New Mexico, with an estimated completion date of Nov. 15, 2020. Fiscal 2019 operations and maintenance, Army funds in the amount of $23,978,896 were obligated at the time of the award. U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting activity (W912PP-19-C-0014).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912PP19C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23978896.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23978896.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $23,978,896 were obligated at the time of the award",
+        "completion_date": "2020-11-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Albuquerque, New Mexico",
+          "code": "W912PP-19-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Pate Construction Company Inc.",
+            "location": "Pueblo West, Colorado",
+            "contract_number": "W912PP-19-C-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of 8,100 feet of reinforced concrete lined channel or concrete box culvert for the existing McKinley ditch, Alamogordo, New Mexico",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23978896,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23978896,
+        "fms_countries": [],
+        "competition": "4 offers received, solicited via internet",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Vertex Aerospace, Madison, Mississippi, was awarded a $9,086,502 modification (P00300) to contract W58RGZ-13-C-0044 for aviation field maintenance services. Work will be performed in Fort Rucker, Alabama, with an estimated completion date of July 31, 2019. Fiscal 2019 operations and maintenance, Army funds in the amount of $9,086,502 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ13C0044"
+        ],
+        "modification_numbers": [
+          "P00300"
+        ],
+        "is_modification": true,
+        "value_usd": 9086502.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9086502.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $9,086,502 were obligated at the time of the award",
+        "completion_date": "2019-07-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Vertex Aerospace",
+            "location": "Madison, Mississippi",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation field maintenance services at Fort Rucker, Alabama (modification P00300 to contract W58RGZ-13-C-0044)",
+        "base_contract_number": "W58RGZ-13-C-0044",
+        "order_number": null,
+        "modification_number": "P00300",
+        "modification_number_note": null,
+        "value_usd": 9086502,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9086502,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Shilog LTD,* McAlester, Oklahoma, was awarded a $7,777,536 firm-fixed-price contract for Polybutadiene, Liquid, Hydroxyl-Terminated, Type II. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 31, 2022. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-19-D-3015).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J19D3015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7777536.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-19-D-3015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Shilog LTD",
+            "location": "McAlester, Oklahoma",
+            "contract_number": "W52P1J-19-D-3015",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Polybutadiene, Liquid, Hydroxyl-Terminated, Type II",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7777536,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "4 offers received, solicited via internet",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bren-Tronics Inc.,* Commack, New York, has been awarded a maximum $9,832,972 firm-fixed-price contract for storage batteries. This is a six-month base contract with a five-month option that is being exercised at the time of award. This was a competitive acquisition with three responses received. Location of performance is New York, with a Dec. 23, 2019, performance completion date. Using military services are Army and Navy. Type of appropriation is fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7L719C0005).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "SPE7L719C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9832972.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7L719C0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Bren-Tronics Inc.",
+            "location": "Commack, New York",
+            "contract_number": "SPE7L719C0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Storage batteries; six-month base contract with five-month option exercised at award",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9832972,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 3 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:39Z",
-  "source": "file:2019-01-25.html"
+  "source": "file:2019-01-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:18:56Z"
+  }
 }

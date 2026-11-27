@@ -11,63 +11,541 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Electric, Cincinnati, Ohio, has been awarded a $643,000,000 indefinite-delivery/indefinite-quantity undefinitized contract action to provide F110-GE-129 install engines, spare engines, modernized engine monitoring system computers, over-and-above repair for government furnished property, and technical data reports. Work will be performed in Cincinnati, Ohio, with an expected completion date of Nov. 8, 2024. This contract involves 100 percent foreign military sales to Qatar, Saudi Arabia and Bahrain. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8626-18-D-0029).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA862618D0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 643000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-11-08",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8626-18-D-0029"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Qatar",
+          "Saudi Arabia",
+          "Bahrain"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Electric",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "FA8626-18-D-0029",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity undefinitized contract action",
+        "description": "F110-GE-129 install engines, spare engines, modernized engine monitoring system computers, over-and-above repair, and technical data reports",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 643000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Qatar",
+          "Saudi Arabia",
+          "Bahrain"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Ball Aerospace & Technologies Corp., Boulder, Colorado, has been awarded a $93,713,423 firm-fixed-price contract for weather system follow-on microwave and will provide for system design and risk reduction of a low earth orbit satellite with a passive microwave imaging radiometer instrument and hosted government furnished energetic charged particles sensor. Work will be performed in Boulder, Colorado, with an expected completion date of Nov. 15, 2019. Fiscal 2017 research, development, test, and evaluation funds in the amount of $45,843,000 will be obligated at time of award. This contract was a competitive acquisition and two offers were received. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity (FA8810-18-C-0002).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA881018C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 93713423.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45843000.0,
+        "funding_text": "Fiscal 2017 research, development, test, and evaluation funds in the amount of $45,843,000 will be obligated at time of award",
+        "completion_date": "2019-11-15",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": "FA8810-18-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Ball Aerospace & Technologies Corp.",
+            "location": "Boulder, Colorado",
+            "contract_number": "FA8810-18-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Weather system follow-on microwave; system design and risk reduction of a low earth orbit satellite with passive microwave imaging radiometer",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93713423,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45843000,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "SiCore Technologies Inc., Farmingdale, New York, has been awarded a $47,900,000 modification (P00002) to a previously awarded contract (FA8650-16-D-1712) for research and development, to provide the investigation and development of methodologies, tools, techniques, and innovative solutions to identify susceptibilities and mitigate vulnerabilities in Air Force weapon systems, and protect those systems against cyber-attack. Work will be performed at Wright-Patterson Air Force Base, Ohio, with an expected completion date of March 29, 2023. This contract was a competitive acquisition and 23 offers were received. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity. (Awarded Nov. 8, 2017)",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA865016D1712"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 47900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-03-29",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SiCore Technologies Inc.",
+            "location": "Farmingdale, New York",
+            "contract_number": "P00002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Research and development to identify susceptibilities and mitigate vulnerabilities in Air Force weapon systems and protect against cyber-attack",
+        "base_contract_number": "FA8650-16-D-1712",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 47900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 23 offers received",
+        "award_date": "2017-11-08"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Artel LLC, Herndon, Virginia, has been awarded an $18,917,600 firm-fixed-price contract for one pre-launch 108MHz transponder. Work will be performed at a location to be determined, with an expected completion date of Dec. 31, 2022. This award is the result of a competitive acquisition, and two offers were received. Space and Missiles Systems Center, Los Angeles Air Force Base, California, is the contracting activity (FA8808-18-C-0003).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA880818C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18917600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-12-31",
+        "contracting_activity": {
+          "name": "Space and Missiles Systems Center, Los Angeles Air Force Base, California",
+          "code": "FA8808-18-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Artel LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "FA8808-18-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "One pre-launch 108MHz transponder",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18917600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Atlantic Diving Supply, doing business as ADS,* Virginia Beach, Virginia (SPE8EG-16-D-0023); Berger Cummins JV, Washington, District of Columbia (SPE8EG-16-D-0024); Caterpillar, Mossville, Illinois (SPE8EG-16-D-0025); Inglett and Stubbs International,* Atlanta, Georgia (SPE8EG-16-D-0026); and Texas Power and Associates,* Dallas, Texas (SPE8EG-16-D-0027), are sharing a maximum $90,000,000 modification (P0002) for generators and associated supplies. These are firm-fixed-price, indefinite-delivery/indefinite-quantity, 312 day bridge contracts. Locations of performance are Virginia, Washington, District of Columbia, Illinois, Georgia and Texas, with a Sept. 18, 2018, performance completion date. Using customer is Federal Emergency Management Agency. Type of appropriation is fiscal 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EG16D0023",
+          "SPE8EG16D0024",
+          "SPE8EG16D0025",
+          "SPE8EG16D0026",
+          "SPE8EG16D0027"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Atlantic Diving Supply, doing business as ADS",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "SPE8EG-16-D-0023",
+            "markers": "*"
+          },
+          {
+            "name": "Berger Cummins JV",
+            "location": "Washington, District of Columbia",
+            "contract_number": "SPE8EG-16-D-0024",
+            "markers": null
+          },
+          {
+            "name": "Caterpillar",
+            "location": "Mossville, Illinois",
+            "contract_number": "SPE8EG-16-D-0025",
+            "markers": null
+          },
+          {
+            "name": "Inglett and Stubbs International",
+            "location": "Atlanta, Georgia",
+            "contract_number": "SPE8EG-16-D-0026",
+            "markers": "*"
+          },
+          {
+            "name": "Texas Power and Associates",
+            "location": "Dallas, Texas",
+            "contract_number": "SPE8EG-16-D-0027",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity bridge contracts",
+        "description": "Generators and associated supplies; shared maximum modification (P0002), 312-day bridge contracts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": "P0002",
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a $34,622,661 cost-plus-fixed-fee contract for weapons capabilities technology maturation and risk reduction pre-engineering, manufacturing and development activities for dual-capability F-35 Lightning II joint strike fighter aircraft and small-diameter bomb 2 (SDB-II) in support of the Marine Corps and Air Force. Work will be performed in Fort Worth, Texas, and is expected to be completed in July 2018. Fiscal 2017 research, development, test and evaluation ( Marine Corps and Air Force) funds in the amount of $6,000,000 are being obligated at the time of award, all of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-18-C-1004).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34622661.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6000000.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation ( Marine Corps and Air Force) funds in the amount of $6,000,000 are being obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-07",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-18-C-1004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-18-C-1004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Weapons capabilities technology maturation and risk reduction for dual-capability F-35 and small-diameter bomb 2 (SDB-II) for Marine Corps and Air Force",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34622661,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6000000,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "HDR Engineering Inc., Honolulu, Hawaii, is being awarded a maximum amount $30,000,000 indefinite-delivery/indefinite-quantity, architect-engineering contract for design services for projects at various locations within the Naval Facilities Engineering Command (NAVFAC) Hawaii area of responsibility (AOR). Work will be performed at various Navy and Marine Corps facilities and other government facilities within the NAVFAC Hawaii AOR. The term of the contract is not to exceed 60 months, with an expected completion date of November 2022. Navy working capital funds in the amount of $10,000 are obligated on this award and will not expire at the end of the current fiscal year. No task orders are being issued at this time. Future task orders will be primarily funded by operations and maintenance (Navy); operations and maintenance (Marine Corps); and Navy working capital contract funds. This contract was competitively procured via the Navy Electronic Commerce Online website with, nine proposals received. The Naval Facilities Engineering Command, Hawaii, Pearl Harbor, Hawaii, is the contracting activity (N62478-18-D-5027).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6247818D5027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Navy working capital funds in the amount of $10,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Hawaii, Pearl Harbor, Hawaii",
+          "code": "N62478-18-D-5027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62478-18-D-5027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity architect-engineering",
+        "description": "Design services for projects within NAVFAC Hawaii area of responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive, nine proposals received via Navy Electronic Commerce Online",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Detyens Shipyards Inc., North Charleston, South Carolina, is being awarded a $7,785,371 firm-fixed-price contract for 42-calendar day shipyard availability for the regular overhaul and dry docking of USNS Big Horn (T-AO 189). Work will include general services, clean and gas free tanks, ultrasonic thickness gauging of steel throughout the vessel, miscellaneous steel replacement, overhaul circuit breakers, antenna and television direct to sailor maintenance, ship service diesel generator overhaul, install new fuel oil meters, install new lifeboats, ventilation repairs, flight deck non-skid renewal, flight deck safety nets, and sliding block sprockets and lower pillow block bearings. The contract includes options which, if exercised, would bring the total contract value to $8,053,661. Work will be performed in North Charleston, South Carolina, and is expected to be completed by Feb. 14, 2018. Fiscal 2018 operations and maintenance (Navy) funds in the amount of $7,785,381 will be obligated at the time of award and funds will expire at the end of the current fiscal year. This contract was competitively procured, with proposals solicited via the Federal Business Opportunities website, with one offer received. The U. S. Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-18-C-4014).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N3220518C4014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7785371.0,
+        "cumulative_value_usd": 8053661.0,
+        "obligated_usd": 7785381.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy) funds in the amount of $7,785,381 will be obligated at the time of award and funds will expire at the end of the current fiscal year",
+        "completion_date": "2018-02-14",
+        "contracting_activity": {
+          "name": "The U. S. Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N32205-18-C-4014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Detyens Shipyards Inc.",
+            "location": "North Charleston, South Carolina",
+            "contract_number": "N32205-18-C-4014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "42-day shipyard availability for regular overhaul and dry docking of USNS Big Horn (T-AO 189)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7785371,
+        "cumulative_value_usd": 8053661,
+        "obligated_usd": 7785381,
+        "fms_countries": [],
+        "competition": "competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cox Construction Co.,* Vista, California, was awarded a $21,180,000 firm-fixed-price contract for design, bid, build construction of a 400-member Army Reserve Center in Miramar, California. Bids were solicited via the Internet with six received. Work will be performed in San Diego, California, with an estimated completion date of Nov. 7, 2019. Fiscal 2014 and 2016 military construction funds in the amount of $21,180,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-18-C-0003).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912QR18C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21180000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21180000.0,
+        "funding_text": "Fiscal 2014 and 2016 military construction funds in the amount of $21,180,000 were obligated at the time of the award",
+        "completion_date": "2019-11-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-18-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Cox Construction Co.",
+            "location": "Vista, California",
+            "contract_number": "W912QR-18-C-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-bid-build construction of a 400-member Army Reserve Center in Miramar, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21180000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21180000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cox Construction Co.,* Vista, California, was awarded a $7,784,000 firm-fixed-price contract to replace the vehicle maintenance facility located at Moffett Field, California. Bids were solicited via the Internet with three received. Work will be performed in Moffett Field, California, with an estimated completion date of Jan. 5, 2019. Fiscal 2016 and 2017 military construction funds in the amount of $7,784,000 were obligated at the time of the award. U.S. Property and Fiscal Office, California, is the contracting activity (W912LA-17-C-0001).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912LA17C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7784000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7784000.0,
+        "funding_text": "Fiscal 2016 and 2017 military construction funds in the amount of $7,784,000 were obligated at the time of the award",
+        "completion_date": "2019-01-05",
+        "contracting_activity": {
+          "name": "U.S. Property and Fiscal Office, California",
+          "code": "W912LA-17-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Cox Construction Co.",
+            "location": "Vista, California",
+            "contract_number": "W912LA-17-C-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Replacement of vehicle maintenance facility at Moffett Field, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7784000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7784000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2017-11-09.html"
+  "source": "file:2017-11-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:18:29Z"
+  }
 }

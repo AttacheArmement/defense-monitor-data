@@ -9,9 +9,56 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "S4 Inc., Colorado Springs, Colorado, has been awarded a $99,000,000 indefinite-delivery/indefinite-quantity, firm-fixed-price contract with cost reimbursement line items for North American Aerospace Defense Command and U.S. Northern Command information technology systems management. Contractor will provide information technology services management to include classified and unclassified data, voice, and video networks. Work will be performed at Peterson Air Force Base, Colorado; and Mexico, and is expected to be complete by Nov. 27, 2021. This award is the result of a competitive acquisition with seven proposals received. Fiscal 2017 operations and maintenance funds in the amount of $3,392,600 are being obligated at the time of award. The 21st Contracting Squadron, Peterson AFB, Colorado, is the contracting activity (FA2517-17-D-7000).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA251717D7000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3392600.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $3,392,600 are being obligated at the time of award",
+        "completion_date": "2021-11-27",
+        "contracting_activity": {
+          "name": "The 21st Contracting Squadron, Peterson AFB, Colorado",
+          "code": "FA2517-17-D-7000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "S4 Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA2517-17-D-7000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price contract with cost reimbursement line items",
+        "description": "North American Aerospace Defense Command and U.S. Northern Command information technology systems management (IT services management for classified and unclassified data, voice, and video networks)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3392600,
+        "fms_countries": [],
+        "competition": "competitive acquisition, seven proposals received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2016-11-25.html"
+  "source": "file:2016-11-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:01:39Z"
+  }
 }

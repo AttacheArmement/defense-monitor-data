@@ -12,99 +12,799 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Boeing Co., Mesa, Arizona, was awarded a $922,628,257 modification (PZ0011) to contract W58RGZ-14-C-0018 for 117 AH-64E remanufactured Apache helicopters. Work will be performed in Mesa, Arizona, with an estimated completion date of May 31, 2018. Fiscal 2015 and 2016 other procurement (Army) funds in the amount of $922,628,257 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ14C0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 922628257.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 922628257.0,
+        "funding_text": "Fiscal 2015 and 2016 other procurement (Army) funds in the amount of $922,628,257 were obligated at the time of the award",
+        "completion_date": "2018-05-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-14-C-0018",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "117 AH-64E remanufactured Apache helicopters",
+        "base_contract_number": "W58RGZ-14-C-0018",
+        "order_number": null,
+        "modification_number": "PZ0011",
+        "value_usd": 922628257,
+        "cumulative_value_usd": null,
+        "obligated_usd": 922628257,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems Inc., Sterling Heights, Michigan, was awarded a $47,858,415 cost-plus-fixed-fee, multi-year contract for retrofitting the Stryker fleet to maintain the appropriate vehicles’ configuration. One bid was solicited with one received, with an estimated completion date of Feb. 28, 2019. Funding and work location will be determined with each order. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-16-D-0035).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV16D0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47858415.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-02-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-16-D-0035"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems Inc.",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-16-D-0035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee multi-year contract",
+        "description": "Stryker fleet retrofit to maintain vehicle configuration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47858415,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Netcentrics Corp.,* Herndon, Virginia, was awarded a $17,142,286 modification (ZW0104) to contract W91QUZ-11-D-0011 for information technology hardware. Work will be performed in Herndon, Virginia, with an estimated completion date of Aug. 11, 2017. Fiscal 2015 other procurement funds in the amount of $17,142,286 were obligated at the time of the award. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W91QUZ11D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17142286.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17142286.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $17,142,286 were obligated at the time of the award",
+        "completion_date": "2017-08-11",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Netcentrics Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": "W91QUZ-11-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Information technology hardware",
+        "base_contract_number": "W91QUZ-11-D-0011",
+        "order_number": null,
+        "modification_number": "ZW0104",
+        "value_usd": 17142286,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17142286,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded an $11,062,320 modification (P00342) to contract W58RGZ-12-C-0008 for one UH-60M helicopter. Work will be performed in Stratford, Connecticut, with an estimated completion date of July 31, 2017. Fiscal 2016 other procurement funds in the amount of $11,062,320 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ12C0008"
+        ],
+        "modification_numbers": [
+          "P00342"
+        ],
+        "is_modification": true,
+        "value_usd": 11062320.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11062320.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $11,062,320 were obligated at the time of the award",
+        "completion_date": "2017-07-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-12-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "One UH-60M helicopter",
+        "base_contract_number": "W58RGZ-12-C-0008",
+        "order_number": null,
+        "modification_number": "P00342",
+        "value_usd": 11062320,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11062320,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SSK Industries Inc.,* Lebanon, Ohio, was awarded a $10,372,061 firm-fixed-price, multi-year contract with options for electronic automatic activation devices. Bids were solicited via the Internet with one received, with an estimated completion date of April 7, 2021. Funding and work location will be determined with each order. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-16-D-0059).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV16D0059"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10372061.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-04-07",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-16-D-0059"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "SSK Industries Inc.",
+            "location": "Lebanon, Ohio",
+            "contract_number": "W56HZV-16-D-0059",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multi-year contract with options",
+        "description": "Electronic automatic activation devices",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10372061,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE THREAT REDUCTION AGENCY",
       "kind": "announcement",
       "text": "Engility Corp., Andover, Massachusetts, has been awarded a cost-plus-fixed-fee contract to provide advisory and assistance services for the Defense Threat Reduction Agency in support of the Research and Development Directorate. The base award contract value is $42,039,869, with a total value of $247,906,685 including the base and all options. Work will be performed at Fort Belvoir, Virginia (85 percent); Kirtland Air Force Base, New Mexico (10 percent); and Eglin Air Force Base, Florida (5 percent), and is expected to be completed in April 2017, with options through April 2021. The award was a best-value competitive procurement; however, only one offer was received so the source selection was dissolved and the contracting activity entered negotiations with the sole offeror. Fiscal 2016 research, development, test and evaluation funds in the amount of $15,937,764; operation and maintenance funds in the amount of $2,969,653; and chemical-biological research, development, test and evaluation funds in the amount of $11,300,000 were obligated at the time of award. The Defense Threat Reduction Agency, Fort Belvoir, Virginia, is the contracting activity (HDTRA1-16-C-0023).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "HDTRA116C0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42039869.0,
+        "cumulative_value_usd": 247906685.0,
+        "obligated_usd": 30207417.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $15,937,764; operation and maintenance funds in the amount of $2,969,653; and chemical-biological research, development, test and evaluation funds in the amount of $11,300,000 were obligated at the time of award",
+        "completion_date": "2017-04",
+        "contracting_activity": {
+          "name": "The Defense Threat Reduction Agency, Fort Belvoir, Virginia",
+          "code": "HDTRA1-16-C-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Engility Corp.",
+            "location": "Andover, Massachusetts",
+            "contract_number": "HDTRA1-16-C-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Advisory and assistance services for DTRA Research and Development Directorate",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42039869,
+        "cumulative_value_usd": 247906685,
+        "obligated_usd": 30207417,
+        "fms_countries": [],
+        "competition": "Best-value competitive; only one offer received, negotiated with sole offeror",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics, Electric Boat Corp., Groton, Connecticut, is being awarded a $31,798,708 modification to a previously awarded contract (N00024-13-C-4311) for repair tasks in support of nuclear maintenance, modernization, and repair of operational nuclear powered submarines, floating dry docks, support and service craft, and plant equipment assigned to the Naval Submarine Support Facility, New London, Connecticut. Work will be performed in Groton, Connecticut, and is expected to be completed by April 2017. Fiscal 2016 operation and maintenance (Navy) funding in the amount of $15,341,513 will be obligated at time of award and will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C4311"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 31798708.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15341513.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Navy) funding in the amount of $15,341,513 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "General Dynamics, Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-13-C-4311",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Repair tasks supporting nuclear maintenance, modernization and repair of submarines, floating dry docks, and craft at Naval Submarine Support Facility, New London",
+        "base_contract_number": "N00024-13-C-4311",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31798708,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15341513,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded a $19,900,000 cost reimbursement contract to provide for the preliminary work associated with the engineering change proposal 6472 integration of the Next Generation Jammer Pod onto the EA-18G aircraft. This effort will ensure the development, preparation, and delivery of the aircraft modification design is suitable for the engineering and manufacturing development stage of the Next Generation Jammer Pod program. Work will be performed in St. Louis, Missouri (80 percent); and Bethpage, New York (20 percent), and is expected to be completed in September 2016. Fiscal 2016 research, development, testing and evaluation (Navy) funds in the amount of $19,900,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6 302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-16-C-0032).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001916C0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 19900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19900000.0,
+        "funding_text": "Fiscal 2016 research, development, testing and evaluation (Navy) funds in the amount of $19,900,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-16-C-0032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-16-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost reimbursement contract",
+        "description": "Preliminary work for engineering change proposal 6472 integrating Next Generation Jammer Pod onto EA-18G aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19900000,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Aechelon Technology,* San Francisco, California, is being awarded an $11,907,930 firm-fixed-price contract for the procurement of 14 visual image generators in support of joint simulation environment for the F-35 Lightning II aircraft. Work will be performed in San Francisco, California, and is expected to be completed in April 2017. Fiscal 2016 working capital (Navy) funds in the amount of $11,907,930 are being obligated at time of award, none of which will expire at the end of the fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N68335-16-D-0188).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6833516D0188"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11907930.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11907930.0,
+        "funding_text": "Fiscal 2016 working capital (Navy) funds in the amount of $11,907,930 are being obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2017-04",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey",
+          "code": "N68335-16-D-0188"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Aechelon Technology",
+            "location": "San Francisco, California",
+            "contract_number": "N68335-16-D-0188",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Procurement of 14 visual image generators for joint simulation environment for F-35 Lightning II",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11907930,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11907930,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Chesapeake Sciences Corp., Millersville, Maryland, is being awarded an $11,889,610 cost-plus-fixed-fee, firm-fixed-price contract for the development and production of a first article TB-34X fat line towed array, tow cable, test set, receivers and provisioned items orders. The TB-34X is a fat line towed array passive sonar receiver installed aboard Navy submarines. The TB-34X array is in the same form factor as the TB-34 array; however, it affords increased capability, greater reliability and reduced obsolescence. This contract includes options which, if exercised, would bring the cumulative value of this contract to $60,642,677. Work will be performed in Millersville, Maryland (68 percent); Liverpool, New York (29 percent); and Manassas, Virginia (3 percent), and is expected to be completed by December 2017. Fiscal 2014 and 2015 other procurement (Navy) funding in the amount of $7,214,610 will be obligated at time of award, and funding in the amount of $4,756,224 will expire at the end of the current fiscal year. This contract was competitively procured on the basis of full and open competition via the Federal Business Opportunities website, with two offers received. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-16-C-6239).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C6239"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11889610.0,
+        "cumulative_value_usd": 60642677.0,
+        "obligated_usd": 11970834.0,
+        "funding_text": "Fiscal 2014 and 2015 other procurement (Navy) funding in the amount of $7,214,610 will be obligated at time of award, and funding in the amount of $4,756,224 will expire at the end of the current fiscal year",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-16-C-6239"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "L-3 Chesapeake Sciences Corp.",
+            "location": "Millersville, Maryland",
+            "contract_number": "N00024-16-C-6239",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price contract",
+        "description": "Development and production of first article TB-34X fat line towed array, tow cable, test set, receivers and provisioned items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11889610,
+        "cumulative_value_usd": 60642677,
+        "obligated_usd": 7214610,
+        "fms_countries": [],
+        "competition": "Full and open competition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "Correction: The contract awarded on April 4, 2016, to Mercury Defense Systems, Cypress, California, $15,430,634 (N68335-12-G-0059), should not have been annotated as a small business.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6833512G0059"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15430634.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Mercury Defense Systems",
+            "location": "Cypress, California",
+            "contract_number": "N68335-12-G-0059",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: contract awarded April 4, 2016 ($15,430,634) should not have been annotated as a small business",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15430634,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2016-04-04"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Unison Industries LLC, Jacksonville, Florida, has been awarded a maximum $31,657,979 modification (P00011) to a one-year base contract (SPE4A5-14-D-0019) with four one-year option years adding additional money and items in support of aircraft engines. This is a firm-fixed-price, indefinite-delivery contract. Location of performance is Florida, with a June 2, 2019, performance completion date. Maximum dollar amount is for the life of the contract. Using military services are Army, Navy and Air Force. Type of appropriation is fiscal 2016 through fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A514D0019"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 31657979.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Unison Industries LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "SPE4A5-14-D-0019",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery contract",
+        "description": "Additional money and items for aircraft engines",
+        "base_contract_number": "SPE4A5-14-D-0019",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 31657979,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "National Industries for the Blind,** Alexandria, Virginia, has been awarded a maximum $8,400,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for physical fitness uniform pants. This was a mandatory set-aside acquisition. This is a one-year base contract with four one-year option periods. Locations of performance are Virginia, North Carolina and Tennessee, with an April 6, 2017, performance completion date. Using military service is Army. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-16-D-B006).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C116DB006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8400000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-16-D-B006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Mandatory set-aside"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "National Industries for the Blind",
+            "location": "Alexandria, Virginia",
+            "contract_number": "SPE1C1-16-D-B006",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Physical fitness uniform pants",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8400000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "mandatory set-aside",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Lockheed Martin Mission Systems and Training, Moorestown, New Jersey, has been awarded a $20,184,053 modification (P00201) to previously awarded contract HQ0276-10-C-0001 for contract line item numbers 0042 and 0062. This effort will provide material and labor for additional enhanced modeling and simulation capabilities along with Ballistic Missile Defense integration and flight test support. The modification brings the total cumulative face value of the contract to $2,219,457,520 from $2,199,273,467. Work will be performed in Moorestown, New Jersey, with an expected completion date of Dec. 25, 2016. Fiscal 2016 research and development funds in the amount of $9,348,146 are being obligated at the time of award. The Missile Defense Agency, Dahlgren, Virginia, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "HQ027610C0001"
+        ],
+        "modification_numbers": [
+          "P00201"
+        ],
+        "is_modification": true,
+        "value_usd": 20184053.0,
+        "cumulative_value_usd": 2219457520.0,
+        "obligated_usd": 9348146.0,
+        "funding_text": "Fiscal 2016 research and development funds in the amount of $9,348,146 are being obligated at the time of award",
+        "completion_date": "2016-12-25",
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Dahlgren, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Mission Systems and Training",
+            "location": "Moorestown, New Jersey",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Material and labor for enhanced modeling and simulation capabilities, Ballistic Missile Defense integration and flight test support",
+        "base_contract_number": "HQ0276-10-C-0001",
+        "order_number": null,
+        "modification_number": "P00201",
+        "value_usd": 20184053,
+        "cumulative_value_usd": 2219457520,
+        "obligated_usd": 9348146,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "University Of Dayton Research Institute, Dayton, Ohio, has been awarded a $17,457,232 indefinite-delivery/indefinite-quantity contract for research and development. Contractor will research many capabilities including development in synthesizing organic matrix composites constituents, new integrated composite materials, computational tools for processing science, data management and multiscale modeling. Work will be performed at Wright-Patterson Air Force Base, Ohio, and is expected to be complete by July 20, 2023. This award is the result of a competitive acquisition with two offers received. Fiscal 2016 research, development, test and evaluation funds in the amount of $50,000 are being obligated at the time of award for task order 0001. Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio, is the contracting activity (FA8650-16-D-5243).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "FA865016D5243"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17457232.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 50000.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $50,000 are being obligated at the time of award for task order 0001",
+        "completion_date": "2023-07-20",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio",
+          "code": "FA8650-16-D-5243"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "University Of Dayton Research Institute",
+            "location": "Dayton, Ohio",
+            "contract_number": "FA8650-16-D-5243",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Research and development in synthesizing organic matrix composites constituents, new integrated composite materials, computational tools for processing science, data management and multiscale modeling",
+        "base_contract_number": null,
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 17457232,
+        "cumulative_value_usd": null,
+        "obligated_usd": 50000,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems, Burlington, Massachusetts, has been awarded an $8,790,765 cost-plus-fixed-fee contract for Anti-Access Real-Time Mission Management System - Contested Environment Networked Situation Understanding System (ARMS-CONSENSUS) software. Contractor will work to implement an integrated end-to-end Distributed Battle Management system, and to test and evaluate the system in large-scale simulations and in live fly demonstrations. This will be accomplished through the development of appropriately automated decision aids to assist air battle managers and pilots with managing air-to-air and air-to-ground combat. The decision aids will be software tools integrated into the aircraft's onboard systems to provide distributed adaptive planning and control and distributed situation understanding. Work will be performed at Burlington, Massachusetts, and is expected to be complete by Oct. 3, 2018. This award is the result of a competitive acquisition with two offers received. Fiscal 2016 research, development, test and evaluation funds in the amount of $3,194,437 are being obligated at the time of award. Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-16-C-0002).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "FA875016C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8790765.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3194437.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $3,194,437 are being obligated at the time of award",
+        "completion_date": "2018-10-03",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-16-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "BAE Systems",
+            "location": "Burlington, Massachusetts",
+            "contract_number": "FA8750-16-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Anti-Access Real-Time Mission Management System - Contested Environment Networked Situation Understanding System (ARMS-CONSENSUS) software",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8790765,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3194437,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-04-07.html"
+  "source": "file:2016-04-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:30:21Z"
+  }
 }

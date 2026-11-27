@@ -11,99 +11,868 @@
       "agency": null,
       "kind": "announcement",
       "text": "Great Lakes Dredge and Dock, Oak Brook, Illinois, was awarded a $134,486,950 firm-fixed-price incrementally funded contract for the Savannah, Georgia, harbor expansion project involving new dredging for the entrance channel with an estimated completion date of June 16, 2018. Bids were solicited via the Internet with three received. Fiscal 2015 other procurement funds in the amount of $35,000,000 are being obligated at the time of the award. Army Corps of Engineers, Savannah, Georgia, is the contracting activity (W912HN-15-C-0005).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912HN15C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 134486950.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35000000.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $35,000,000 are being obligated at the time of the award",
+        "completion_date": "2018-06-16",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Savannah, Georgia",
+          "code": "W912HN-15-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge and Dock",
+            "location": "Oak Brook, Illinois",
+            "contract_number": "W912HN-15-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price incrementally funded contract",
+        "description": "Savannah, Georgia, harbor expansion project with new dredging for the entrance channel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 134486950,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35000000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "BAE Systems Information Solutions Inc., San Diego, California (N00019-15-D-0010); DCS Corp., Alexandria, Virginia (N00019-15-D-0011); Dynetics Inc., Huntsville, Alabama (N00019-15-D 0012); Progeny Systems Corp., Manassas, Virginia (N00019-15-D-0013); Raytheon Co. Intelligence, Information and Services, Dulles, Virginia (N00019-15-D-0014); Tapestry Solutions Inc., a Boeing Co., San Diego, California (N00019-15-D 0015); Northrop Grumman Systems Corp. Northrop Grumman Information Systems, Herndon, Virginia (N00019-15-D-0016); QinetiQ North America Inc., Reston, Virginia (N00019-15-D-0017); and Lockheed Martin Corp., IS&GS Development Segment, Information Systems & Global Solutions Business Area, King of Prussia, Pennsylvania (N00019-15-D-0018); are each being awarded indefinite-delivery/indefinite-quantity multiple award contracts for the software development, test and evaluation, maintenance, integration, training, and fielding of Strike Planning and Execution Systems. The aggregate not-to-exceed amount for these multiple award contracts is $98,960,000 and each contractor will be provided a fair opportunity to compete for individual task orders. Work will be performed at each contractor’s facility in San Diego, California; Alexandria, Virginia; Huntsville, Alabama; Manassas, Virginia; Dulles, Virginia; San Diego, California; Herndon, Virginia; Reston, Virginia; and King of Prussia, Pennsylvania. Work performed under these contracts is expected to be completed in February 2020. No contract funds will be obligated at the time of award. Funds will be obligated as task orders are issued. No funds will expire at the end of the current fiscal year. These contracts were solicited via a multiple award request for proposals and nine offers were received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D0010",
+          "N0001915D0011",
+          "N0001915D0013",
+          "N0001915D0014",
+          "N0001915D0016",
+          "N0001915D0017",
+          "N0001915D0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 98960000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No contract funds will be obligated at the time of award Funds will be obligated as task orders are issued",
+        "completion_date": "2020-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems Information Solutions Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N00019-15-D-0010",
+            "markers": null
+          },
+          {
+            "name": "DCS Corp.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "N00019-15-D-0011",
+            "markers": null
+          },
+          {
+            "name": "Dynetics Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N00019-15-D 0012",
+            "markers": null
+          },
+          {
+            "name": "Progeny Systems Corp.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00019-15-D-0013",
+            "markers": null
+          },
+          {
+            "name": "Raytheon Co. Intelligence, Information and Services",
+            "location": "Dulles, Virginia",
+            "contract_number": "N00019-15-D-0014",
+            "markers": null
+          },
+          {
+            "name": "Tapestry Solutions Inc., a Boeing Co.",
+            "location": "San Diego, California",
+            "contract_number": "N00019-15-D 0015",
+            "markers": null
+          },
+          {
+            "name": "Northrop Grumman Systems Corp. Northrop Grumman Information Systems",
+            "location": "Herndon, Virginia",
+            "contract_number": "N00019-15-D-0016",
+            "markers": null
+          },
+          {
+            "name": "QinetiQ North America Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00019-15-D-0017",
+            "markers": null
+          },
+          {
+            "name": "Lockheed Martin Corp., IS&GS Development Segment, Information Systems & Global Solutions Business Area",
+            "location": "King of Prussia, Pennsylvania",
+            "contract_number": "N00019-15-D-0018",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award",
+        "description": "Software development, test and evaluation, maintenance, integration, training, and fielding of Strike Planning and Execution Systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 98960000,
+        "cumulative_value_usd": 98960000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "multiple award request for proposals, nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "L-3 National Security Solutions Inc., Reston, Virginia, is being awarded a $54,518,564 modification to a previously awarded indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee contract (with provisions for firm-fixed-price orders) (N65236-11-D-4805). This ceiling increase is to provide for continued engineering and technical support services for command, control, communications and computer (C4) exercise planning and evaluation, integration, systems integration, operational systems, fielding, training, certification, maintenance, logistics, configuration management, systems engineering, network engineering, software engineering, documentation/graphics support, program management, quality assurance and life-cycle sustainment management support. This contract included four options which, as a result of this modification, would bring the cumulative ceiling value of this contract to $136,247,954. Work will be performed in Fayetteville, North Carolina, (84 percent) and Tampa, Florida, (16 percent) and is expected to be completed by September 2016. No contract funds will be obligated at the time of award. Contract funds will not expire at the end of the current fiscal year. This contract was previously competitively procured with proposals solicited via the Commerce Business Daily’s Federal Business Opportunities website, and the Space and Naval Warfare Systems Command e-Commerce Central website, with three offers received. Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina, is the contracting activity (N65236-11-D-4805).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6523611D4805"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 54518564.0,
+        "cumulative_value_usd": 136247954.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No contract funds will be obligated at the time of award",
+        "completion_date": "2016-09",
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina",
+          "code": "N65236-11-D-4805"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "L-3 National Security Solutions Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N65236-11-D-4805",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee (with provisions for firm-fixed-price orders)",
+        "description": "Ceiling increase for engineering and technical support services for C4 exercise planning and evaluation, integration, and life-cycle sustainment",
+        "base_contract_number": "N65236-11-D-4805",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54518564,
+        "cumulative_value_usd": 136247954,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "L-3 Fuzing and Ordnance Systems, Cincinnati, Ohio, is being awarded a $22,018,632 modification to a previously awarded firm-fixed-price contract (N00019-14-C-0073) to exercise an option for FMU-139 C/B electronic bomb fuze and accessories. This includes 8,073 FMU 139 C/B electronic bomb fuzes (9 pack) for the U.S. Navy (5,924) and the Foreign Military Sales program (2,149) for the governments of Canada, Malaysia, Kuwait, and Italy; 2,038 FMU 139C/B electronic bomb fuzes (6 pack) for the government of Turkey; 100 accessory kits for the government of Italy; and 12 dummy fuzes for the government of Finland. Work will be performed in Cincinnati, Ohio (65 percent), and Orlando, Florida (35 percent), and is expected to be completed in March 2018. Fiscal 2014 procurement ammunition Navy-Marine Corps, (Navy) and 2015 overseas contingency operations, procurement ammunition Navy-Marine Corps, (Navy) funds in the amount of $12,009,192 are being obligated on this award, none of which will expire at the end of the current fiscal year. This contract combines purchases for the U.S. Navy (54.54 percent) and the governments of Turkey (25.28 percent); Finland (0.03 percent); Italy (4.02 percent); Kuwait (3.91 percent); Malaysia (5.84 percent); and Canada (6.38 percent) under the Foreign Military Sales program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0073"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22018632.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12009192.0,
+        "funding_text": "Fiscal 2014 procurement ammunition Navy-Marine Corps, (Navy) and 2015 overseas contingency operations, procurement ammunition Navy-Marine Corps, (Navy) funds in the amount of $12,009,192 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "L-3 Fuzing and Ordnance Systems",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "N00019-14-C-0073",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for FMU-139 C/B electronic bomb fuzes and accessories for U.S. Navy, FMS customers, and Turkey",
+        "base_contract_number": "N00019-14-C-0073",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22018632,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12009192,
+        "fms_countries": [
+          "Canada",
+          "Malaysia",
+          "Kuwait",
+          "Italy",
+          "Turkey",
+          "Finland"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Computer Sciences Corp., Washington, District of Columbia, is being awarded an $8,343,366 cost-plus-fixed-fee modification to previously awarded contract (N00024-14-C-2307) to exercise an option for professional services in support of the Littoral Combat Ship program. This contract is for professional support services in the areas of test and evaluation, lifecycle engineering and support, logistics and operational readiness, program management, business and financial management, systems engineering, production planning and production engineering, manning, personnel and training, human systems integration analysis and engineering, data management engineering, and combat systems development. Work will be performed in Washington, District of Columbia, and is expected to be completed by June 2015. Fiscal 2013 shipbuilding and conversion (Navy) and fiscal 2015 operations and maintenance (Navy) funding in the amount of $8,343,366 will be obligated at time of award and funds in the amount of $1,296,522 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C2307"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8343366.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9639888.0,
+        "funding_text": "Fiscal 2013 shipbuilding and conversion (Navy) and fiscal 2015 operations and maintenance (Navy) funding in the amount of $8,343,366 will be obligated at time of award and funds in the amount of $1,296,522 will expire at the end of the current fiscal year",
+        "completion_date": "2015-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Computer Sciences Corp.",
+            "location": "Washington, District of Columbia",
+            "contract_number": "N00024-14-C-2307",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Option for professional services in support of the Littoral Combat Ship program",
+        "base_contract_number": "N00024-14-C-2307",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8343366,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8343366,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded an $8,225,563 modification to a previously awarded fixed-price-incentive-firm contract (N00019-12-C-0004) for the procurement and delivery of electronic components to support low-rate initial production Lot VII F-35 Lightning II Joint Strike Fighter aircraft for the U.S. Air Force, Marine Corps, Navy and international partners. Work will be performed in Fort Worth, Texas, and is expected to be completed in March 2016. Fiscal 2014 aircraft procurement (Air Force); fiscal 2013 aircraft procurement (Marine Corps and Navy) and international partner funds in the amount of $8,225,563 will be obligated at time of award, none of which will expire this fiscal year. This contract combines purchases for the U.S. Air Force ($4,883,926; 59.4 percent); the U.S. Navy ($1,542,294; 18.7 percent); U.S. Marine Corps ($1,028,196; 12.5 percent); and international partners ($771,147; 9.4 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001912C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8225563.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8225563.0,
+        "funding_text": "Fiscal 2014 aircraft procurement (Air Force); fiscal 2013 aircraft procurement (Marine Corps and Navy) and international partner funds in the amount of $8,225,563 will be obligated at time of award, none of which will expire this fiscal year",
+        "completion_date": "2016-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-12-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm",
+        "description": "Procurement and delivery of electronic components for low-rate initial production Lot VII F-35 Lightning II aircraft",
+        "base_contract_number": "N00019-12-C-0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8225563,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8225563,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Progeny Systems Corp.,* Manassas, Virginia, is being awarded a $6,839,124 modification to previously awarded contract (N00024-14-C-6220) for the production of the AN/WLY-1 System, AN/WSQ-9 Interface Kits, Intercept and Ranging Systems, Archival Media Center Kit(s) and Swinger Kit(s) systems and spares. Work will be performed in Manassas, Virginia, and is expected to be completed by June 2016. Fiscal 2015 other procurement (Navy), fiscal 2015 research, development, test and evaluation, and fiscal 2015 shipbuilding and conversion (Navy) funding in the amount of $6,839,124 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was awarded under the authority of 10 U.S.C. 2304(c)(5), authorized or required by statue 15 U.S.C. 638 (r) - aid to small business. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C6220"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 6839124.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6839124.0,
+        "funding_text": "Fiscal 2015 other procurement (Navy), fiscal 2015 research, development, test and evaluation, and fiscal 2015 shipbuilding and conversion (Navy) funding in the amount of $6,839,124 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2016-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Progeny Systems Corp.",
+            "location": "Manassas, Virginia",
+            "contract_number": "N00024-14-C-6220",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Production of AN/WLY-1 System, AN/WSQ-9 Interface Kits, Intercept and Ranging Systems, Archival Media Center Kits and Swinger Kits systems and spares",
+        "base_contract_number": "N00024-14-C-6220",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6839124,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6839124,
+        "fms_countries": [],
+        "competition": "authority of 10 U.S.C. 2304(c)(5), aid to small business (15 U.S.C. 638(r))",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Boeing Aerospace Operations, Oklahoma City, Oklahoma, has been awarded a $52,805,008 modification (P00228) to previously awarded contract FA8106-07-C-0001. Contractor will provide Avionics Modernization Program Phase II effort for the VC-25A aircraft to include Federal Aviation Administration approved avionics modification engineering services to manufacture or procure, install, and test one prototype. Work will be performed at Oklahoma City, Oklahoma, and is expected to be complete by May 30, 2018. Fiscal year 2015 research, development, test and evaluation funds in the amount of $10,300,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA810607C0001"
+        ],
+        "modification_numbers": [
+          "P00228"
+        ],
+        "is_modification": true,
+        "value_usd": 52805008.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10300000.0,
+        "funding_text": "Fiscal year 2015 research, development, test and evaluation funds in the amount of $10,300,000 are being obligated at the time of award",
+        "completion_date": "2018-05-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Boeing Aerospace Operations",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8106-07-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Avionics Modernization Program Phase II effort for the VC-25A aircraft",
+        "base_contract_number": "FA8106-07-C-0001",
+        "order_number": null,
+        "modification_number": "P00228",
+        "value_usd": 52805008,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10300000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, has been awarded a $25,341,311 modification (P00014) to previously awarded contract FA8807-14-C-0005 for up to 6-months extension for systems engineering and integration. Contractor will provide systems engineering and integration support for the Global Positioning Systems program. Work will be performed at Los Angeles Air Force Base, California, and is expected to be complete by Sept. 2, 2015. Fiscal year 2015 research, development, test and evaluation and missile procurement funds in the amount of $8,382,670 are being obligated at the time of award. The Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA880714C0005"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 25341311.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8382670.0,
+        "funding_text": "Fiscal year 2015 research, development, test and evaluation and missile procurement funds in the amount of $8,382,670 are being obligated at the time of award",
+        "completion_date": "2015-09-02",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA8807-14-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Up to 6-month extension for systems engineering and integration for the Global Positioning Systems program",
+        "base_contract_number": "FA8807-14-C-0005",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 25341311,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8382670,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Chattanooga Metropolitan Airport Authority, Chattanooga, Tennessee, has been awarded a maximum $38,441,312 fixed-price with economic-price-adjustment contract for jet fuel. This contract was a sole-source acquisition. This is a four-year base contract. Location of performance is Tennessee with a Mar. 31, 2019, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38441312.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Chattanooga Metropolitan Airport Authority",
+            "location": "Chattanooga, Tennessee",
+            "contract_number": "SP0600-15-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Jet fuel supply, four-year base contract, DLA Energy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38441312,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "GE Datex Ohmeda Inc., Madison, Wisconsin, has been awarded a maximum $19,847,688 modification (P00104) exercising the sixth one-year option period of a one-year base contract (SPM2D1-09-D-8348) with nine one-year option periods for patient monitoring systems, subsystems, accessories, consumables, spare and repair parts, and training. This is a fixed-price with economic-price-adjustment contract. Location of performance is Wisconsin with a March 5, 2016, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPM2D109D8348"
+        ],
+        "modification_numbers": [
+          "P00104"
+        ],
+        "is_modification": true,
+        "value_usd": 19847688.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "GE Datex Ohmeda Inc.",
+            "location": "Madison, Wisconsin",
+            "contract_number": "SPM2D1-09-D-8348",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Sixth one-year option period for patient monitoring systems, subsystems, accessories, consumables, spare and repair parts, and training",
+        "base_contract_number": "SPM2D1-09-D-8348",
+        "order_number": null,
+        "modification_number": "P00104",
+        "value_usd": 19847688,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "DeRossi & Son Company Inc.,* Vineland, New Jersey, has been awarded a maximum $10,479,672 firm-fixed-price contract for men's coats. This contract was a competitive acquisition and three offers were received. This is a one-year base contract. Location of performance is New Jersey with a March 3, 2016, performance completion date. Using military service is Army. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-15-D-1033).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C115D1033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10479672.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-15-D-1033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "DeRossi & Son Company Inc.",
+            "location": "Vineland, New Jersey",
+            "contract_number": "SPE1C1-15-D-1033",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Men's coats, one-year base contract, DLA Troop Support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10479672,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Piedmont Hawthorne Aviation LLC, doing business as Landmark Aviation, San Antonio, Texas, has been awarded a maximum $8,920,514 fixed-price with economic-price-adjustment, into-plane requirement contract for jet fuel. This contract was a sole-source acquisition. This is a four-year base contract. Location of performance is Texas with a March 31, 2019, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0040).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0040"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8920514.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0040"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Piedmont Hawthorne Aviation LLC, doing business as Landmark Aviation",
+            "location": "San Antonio, Texas",
+            "contract_number": "SP0600-15-D-0040",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, into-plane requirement contract",
+        "description": "Into-plane requirement contract for jet fuel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8920514,
+        "cumulative_value_usd": 8920514,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Blu Pharmaceuticals LLC,* Franklin, Kentucky, has been awarded a maximum $7,648,841 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for various pharmaceutical products. This contract was a sole-source acquisition. This is a one-year base contract with seven one-year option periods. Location of performance is Kentucky with a March 4, 2016, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 war-stopper funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D0-15-D-0001).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D015D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7648841.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D0-15-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Blu Pharmaceuticals LLC",
+            "location": "Franklin, Kentucky",
+            "contract_number": "SPE2D0-15-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract",
+        "description": "Various pharmaceutical products",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7648841,
+        "cumulative_value_usd": 7648841,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Jaise Inc.,* doing business as Servion of Waco, Waco, Texas, has been awarded a maximum $7,177,505 fixed-price with economic-price-adjustment contract for jet fuel. This contract was a sole-source acquisition. This is a four-year base contract. Location of performance is Texas with a March 31, 2019, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0036).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0036"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7177505.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0036"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Jaise Inc., doing business as Servion of Waco",
+            "location": "Waco, Texas",
+            "contract_number": "SP0600-15-D-0036",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Jet fuel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7177505,
+        "cumulative_value_usd": 7177505,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Top Gun Aviation Inc.,* Hammond, Louisiana, has been awarded a maximum $6,651,482 fixed-price with economic-price-adjustment contract for jet fuel. This contract was a sole-source acquisition. This is a four-year base contract. Location of performance is Louisiana with a March 31, 2019, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps, and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0038).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0038"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 6651482.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0038"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Top Gun Aviation Inc.",
+            "location": "Hammond, Louisiana",
+            "contract_number": "SP0600-15-D-0038",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Jet fuel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6651482,
+        "cumulative_value_usd": 6651482,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-03-04.html"
+  "source": "file:2015-03-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:15:21Z"
+  }
 }

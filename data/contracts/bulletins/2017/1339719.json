@@ -9,9 +9,56 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Electric Boat Corp., Groton, Connecticut, is being awarded a $20,596,056 cost-plus-fixed-fee modification to a previously awarded contract (N00024-09-C-2104) for planning and execution of USS Washington (SSN 787) post-delivery work period. Electric Boat will perform planning and execution efforts including long-lead-time material procurement in preparation to accomplish the maintenance, repair, alterations, testing and other work on USS Washington during its scheduled post-delivery work period. Work will be performed in Newport News, Virginia (99 percent); and Groton, Connecticut (1 percent), and is expected to be completed by February, 2018. Fiscal 2015, 2016, and 2017 shipbuilding and conversion funds in the amount of $20,596,056 will be obligated at time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding, Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002409C2104"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 20596056.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20596056.0,
+        "funding_text": "Fiscal 2015, 2016, and 2017 shipbuilding and conversion funds in the amount of $20,596,056 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding, Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Dynamics Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-09-C-2104",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Planning and execution of USS Washington (SSN 787) post-delivery work period, including long-lead-time material procurement",
+        "base_contract_number": "N00024-09-C-2104",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20596056,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20596056,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:35Z",
-  "source": "file:2017-10-11.html"
+  "source": "file:2017-10-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:21:33Z"
+  }
 }

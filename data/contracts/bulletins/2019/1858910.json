@@ -11,57 +11,563 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Kihomac Inc.,* Reston, Virginia (N68335-19-D-0063); CACI Inc.-Federal, Chantilly, Virginia (N68335-19-D-0064); KDY Automation Solutions Inc.,* Morrisville, North Carolina (N68335-19-D-0065); Willerding Acquisition Corp., doing business as WB Industries,* O’Fallon, Missouri (N68335-19-D-0066); Orbis Sibro Inc.,* Mount Pleasant, North Carolina (N68335-19-D-0067); Science Applications International Corp., Reston, Virginia (N68335-19-D-0068); Engineering and Software Systems Solutions Inc.,* Midwest City, Oklahoma (N68335-19-D-0069); Atec Inc.,* Stafford, Texas (N68335-19-D-0070); Bauer Inc.,* Bristol, Connecticut (N68335-19-D-0071); Power Test Inc.,* Sussex, Wisconsin (N68335-19-D-0072); Artemis Electronics LLC,* Prospect, Kentucky (N68335-19-D-0073); Lockheed Martin Corp. Rotary & Mission Systems Div., Orlando, Florida (N68335-19-D-0075); Atlantic Diving and Supply Inc., doing business as ADS Inc., Virginia Beach, Virginia (N68335-19-D-0077); RG Industries Inc.,* York, Pennsylvania (N68335-19-D-0078); Hawk Enterprises LLC,* Huntsville, Alabama (N68335-19-D-0080); Teradyne, Reading, Massachusetts (N68335-19-D-0081); and Testek,* Wixom, Michigan (N68335-19-D-0082), are each being awarded indefinite-delivery/indefinite-quantity contracts. These contracts provide for sustainment equipment procured under 14 functional areas in support of Navy Fleet Readiness Centers (FRCs). The functional areas being awarded include ancillary equipment, balancing test equipment; test equipment, blasting and sanding equipment, coating equipment, fall protection equipment, measurement equipment, test equipment, welding equipment and wet processing equipment. The estimated cumulative aggregate ceiling for all contracts is $248,940,660, with the companies having an opportunity to compete for individual orders under the individual functional areas for which they competed. Work will be performed at various contractor facilities and FRC locations inside the continental U.S., and is expected to be completed in May 2024. Fiscal 2019 working capital funds (Navy) in the amount of $17,000 ($1,000 per company to satisfy the minimum guarantee amount) are being obligated at time of award, none of which will expire at the end of the current fiscal year. These contracts were competitively procured via an electronic request for proposals with a total of 28 offers received for the functional areas discussed above. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6833519D0063",
+          "N6833519D0064",
+          "N6833519D0065",
+          "N6833519D0066",
+          "N6833519D0067",
+          "N6833519D0068",
+          "N6833519D0069",
+          "N6833519D0070",
+          "N6833519D0071",
+          "N6833519D0072",
+          "N6833519D0073",
+          "N6833519D0075",
+          "N6833519D0077",
+          "N6833519D0078",
+          "N6833519D0080",
+          "N6833519D0081",
+          "N6833519D0082"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 248940660.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17000.0,
+        "funding_text": "Fiscal 2019 working capital funds (Navy) in the amount of $17,000 ($1,000 per company to satisfy the minimum guarantee amount) are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Kihomac Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N68335-19-D-0063",
+            "markers": "*"
+          },
+          {
+            "name": "CACI Inc.-Federal",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N68335-19-D-0064",
+            "markers": null
+          },
+          {
+            "name": "KDY Automation Solutions Inc.",
+            "location": "Morrisville, North Carolina",
+            "contract_number": "N68335-19-D-0065",
+            "markers": "*"
+          },
+          {
+            "name": "Willerding Acquisition Corp., doing business as WB Industries",
+            "location": "O'Fallon, Missouri",
+            "contract_number": "N68335-19-D-0066",
+            "markers": "*"
+          },
+          {
+            "name": "Orbis Sibro Inc.",
+            "location": "Mount Pleasant, North Carolina",
+            "contract_number": "N68335-19-D-0067",
+            "markers": "*"
+          },
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N68335-19-D-0068",
+            "markers": null
+          },
+          {
+            "name": "Engineering and Software Systems Solutions Inc.",
+            "location": "Midwest City, Oklahoma",
+            "contract_number": "N68335-19-D-0069",
+            "markers": "*"
+          },
+          {
+            "name": "Atec Inc.",
+            "location": "Stafford, Texas",
+            "contract_number": "N68335-19-D-0070",
+            "markers": "*"
+          },
+          {
+            "name": "Bauer Inc.",
+            "location": "Bristol, Connecticut",
+            "contract_number": "N68335-19-D-0071",
+            "markers": "*"
+          },
+          {
+            "name": "Power Test Inc.",
+            "location": "Sussex, Wisconsin",
+            "contract_number": "N68335-19-D-0072",
+            "markers": "*"
+          },
+          {
+            "name": "Artemis Electronics LLC",
+            "location": "Prospect, Kentucky",
+            "contract_number": "N68335-19-D-0073",
+            "markers": "*"
+          },
+          {
+            "name": "Lockheed Martin Corp. Rotary & Mission Systems Div.",
+            "location": "Orlando, Florida",
+            "contract_number": "N68335-19-D-0075",
+            "markers": null
+          },
+          {
+            "name": "Atlantic Diving and Supply Inc., doing business as ADS Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N68335-19-D-0077",
+            "markers": null
+          },
+          {
+            "name": "RG Industries Inc.",
+            "location": "York, Pennsylvania",
+            "contract_number": "N68335-19-D-0078",
+            "markers": "*"
+          },
+          {
+            "name": "Hawk Enterprises LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N68335-19-D-0080",
+            "markers": "*"
+          },
+          {
+            "name": "Teradyne",
+            "location": "Reading, Massachusetts",
+            "contract_number": "N68335-19-D-0081",
+            "markers": null
+          },
+          {
+            "name": "Testek",
+            "location": "Wixom, Michigan",
+            "contract_number": "N68335-19-D-0082",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Sustainment equipment across 14 functional areas for Navy Fleet Readiness Centers (FRCs)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 248940660,
+        "cumulative_value_usd": 248940660,
+        "obligated_usd": 17000,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposals, 28 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded $66,274,215 for modification P00007 to a previously awarded cost-plus-fixed-fee contract (N00019-18-C-1009) to exercise an option for operation and maintenance services in support of the Broad Area Maritime Surveillance -Demonstrator Program, including logistics and sustaining engineering support. Work will be performed in Patuxent River, Maryland (70 percent); Rancho Bernardo, California (5 percent), and at forward operating locations (25 percent), is expected to be completed in June 2020. Fiscal 2019 operations and maintenance (Navy) funds in the amount of $66,274,215 are being obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1009"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 66274215.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66274215.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) funds in the amount of $66,274,215 are being obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N00019-18-C-1009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Option exercise for operation and maintenance services for Broad Area Maritime Surveillance-Demonstrator Program, including logistics and sustaining engineering support",
+        "base_contract_number": "N00019-18-C-1009",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 66274215,
+        "cumulative_value_usd": null,
+        "obligated_usd": 66274215,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Compliance Corp.,* Lexington Park, Maryland, is awarded a $39,063,181 indefinite-delivery/indefinite-quantity contract for services in support of the Naval Air Warfare Center Aircraft Division's Engineering, Prototyping, and Fabrication Department. Work will be performed in St. Inigoes, Maryland (95 percent); and Lexington Park, Maryland (5 percent), and is expected to be completed in May 2024. No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposals as a 100 percent small business set-aside; one offer was received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00019-19-D-0043).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39063181.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00019-19-D-0043"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Compliance Corp.",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N00019-19-D-0043",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Services supporting the Naval Air Warfare Center Aircraft Division's Engineering, Prototyping, and Fabrication Department",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39063181,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposals, 100% small business set-aside, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Kratos Unmanned Aerial Systems Inc., Sacramento, California, is awarded a $25,413,946 firm-fixed-price contract to procure 34 low-rate initial production Lot 3 BQM-177A Subsonic Aerial Targets and technical data. Work will be performed in Sacramento, California, and is expected to be completed March 2021. Fiscal 2019 weapons procurement (Navy) funds in the amount of $25,413,946 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-19-C-1024).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C1024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25413946.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25413946.0,
+        "funding_text": "Fiscal 2019 weapons procurement (Navy) funds in the amount of $25,413,946 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-19-C-1024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Kratos Unmanned Aerial Systems Inc.",
+            "location": "Sacramento, California",
+            "contract_number": "N00019-19-C-1024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "34 low-rate initial production Lot 3 BQM-177A Subsonic Aerial Targets and technical data",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25413946,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25413946,
+        "fms_countries": [],
+        "competition": "sole source, not competitively procured pursuant to FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Colonna's Shipyard Inc., Norfolk, Virginia, is awarded a $9,299,760 firm-fixed-price contract to provide demilitarization of the exterior hull, internal equipment, bulkheads, decking, piping, and other fixtures onboard USS San Francisco (SSN-711). Work will be performed in Portsmouth, Virginia, and is expected to be completed by September 2019. Fiscal 2019 operations and maintenance (Navy) funds in the amount of $9,299,760 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website with two offers received. The Norfolk Naval Shipyard, Portsmouth, Virginia, is the contracting activity (N42158-19-S082).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N4215819S082"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9299760.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9299760.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) funds in the amount of $9,299,760 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2019-09",
+        "contracting_activity": {
+          "name": "The Norfolk Naval Shipyard, Portsmouth, Virginia",
+          "code": "N42158-19-S082"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Colonna's Shipyard Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N42158-19-S082",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Demilitarization of exterior hull, internal equipment, bulkheads, decking, piping, and fixtures onboard USS San Francisco (SSN-711)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9299760,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9299760,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon, Tucson, Arizona, was awarded a $38,207,196 cost-plus-fixed-fee contract for engineering services for refinement and maintenance of the Tube-launched, Optically-tracked, Wireless-guided weapon systems including configuration management, fielding service, logistics support, and contractor repair. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2024. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-19-D-0032).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q19D0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38207196.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-19-D-0032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Raytheon",
+            "location": "Tucson, Arizona",
+            "contract_number": "W31P4Q-19-D-0032",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering services for refinement and maintenance of TOW weapon systems (Tube-launched, Optically-tracked, Wireless-guided)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38207196,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Global Connections to Employment, Pensacola, Florida, was awarded a $10,827,053 modification (P00015) to contract W911S8-15-D-0005 for dining facility cook support. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2020. U.S. Army Mission and Installation Contracting Command, Joint Base Lewis-McChord, Washington, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W911S815D0005"
+        ],
+        "modification_numbers": [
+          "P00015"
+        ],
+        "is_modification": true,
+        "value_usd": 10827053.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Joint Base Lewis-McChord, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Global Connections to Employment",
+            "location": "Pensacola, Florida",
+            "contract_number": "W911S8-15-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Dining facility cook support",
+        "base_contract_number": "W911S8-15-D-0005",
+        "order_number": null,
+        "modification_number": "P00015",
+        "value_usd": 10827053,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "L3 Technologies Inc., Muskegon, Michigan, was awarded an $8,017,200 modification (P00074) to contract W56HZV-1-5C-0119 for system technical support. Work will be performed in Muskegon, Michigan, with an estimated completion date of May 31, 2020. Fiscal 2017 and 2019 procurement of weapons and tracked combat vehicles, Army funds in the amount of $8,017,200 were obligated at the time of the award. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00074"
+        ],
+        "is_modification": true,
+        "value_usd": 8017200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8017200.0,
+        "funding_text": "Fiscal 2017 and 2019 procurement of weapons and tracked combat vehicles, Army funds in the amount of $8,017,200 were obligated at the time of the award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "L3 Technologies Inc.",
+            "location": "Muskegon, Michigan",
+            "contract_number": "W56HZV-1-5C-0119",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "System technical support",
+        "base_contract_number": "W56HZV-1-5C-0119",
+        "order_number": null,
+        "modification_number": "P00074",
+        "value_usd": 8017200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8017200,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on May 17, 2019, for Arch Chemicals Inc., Alpharetta, Georgia (SPE601-19-D-1526), was announced with the incorrect award date. The correct award date is May 28, 2019.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE60119D1526"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Arch Chemicals Inc.",
+            "location": "Alpharetta, Georgia",
+            "contract_number": "SPE601-19-D-1526",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to award date of contract announced May 17, 2019 (corrected award date May 28, 2019)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2019-05-28"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-05-28.html"
+  "source": "file:2019-05-28.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:04:06Z"
+  }
 }

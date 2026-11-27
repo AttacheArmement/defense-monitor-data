@@ -11,111 +11,922 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Orlando, Florida, was awarded a $3,531,926,800 firm-fixed-contract for Army training aids, devices, simulators and simulations, maintenance, sustainment, operations and support of instrumentation systems and live-fire ranges. Bids were solicited via the Internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of April 30, 2025. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-18-D-0018).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W900KK18D0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 3531926800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-04-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-18-D-0018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Orlando, Florida",
+            "contract_number": "W900KK-18-D-0018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Army training aids, devices, simulators and simulations, maintenance, sustainment, operations and support of instrumentation systems and live-fire ranges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 3531926800,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Andover, Massachusetts, was awarded a $150,431,534 hybrid (cost-plus-fixed-fee and firm-fixed-price); foreign military sales (Qatar) contract for staffing and training for Qatar depot operations for the Qatar Emiri Air Force Patriot Missile System. One bid was solicited with one bid received. Work will be performed in Doha, Qatar, with an estimated completion date of March 15, 2018. Fiscal 2018 foreign military sales funds in the amount of 150,431,534 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-18-C-0043).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q18C0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 150431534.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2018 foreign military sales funds in the amount of 150,431,534 were obligated at the time of the award",
+        "completion_date": "2018-03-15",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-18-C-0043"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Andover, Massachusetts",
+            "contract_number": "W31P4Q-18-C-0043",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Staffing and training for Qatar depot operations for the Qatar Emiri Air Force Patriot Missile System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 150431534,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150431534,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "competition": "One bid solicited with one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Alloy Surfaces Co. Inc., Chester, Pennsylvania, was awarded a $12,925,902 modification (0004) to domestic and foreign military sales (Qatar, Tokeleau, Slovenia, and Servia) contract W15QKN-15-D-0053 to fabricate, test, inspect, package and deliver the M211 countermeasure decoy. Work will be performed in Chester, Pennsylvania, with an estimated completion date of Nov. 30, 2018. Fiscal 2016 and 2017 other procurement (Army); and foreign military sales funds in the combined amount of $12,925,902 were obligated at the time of the award. U.S. Army Contracting Command, New Jersey, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN15D0053"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12925902.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12925902.0,
+        "funding_text": "Fiscal 2016 and 2017 other procurement (Army); and foreign military sales funds in the combined amount of $12,925,902 were obligated at the time of the award",
+        "completion_date": "2018-11-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "Qatar",
+          "Tokeleau",
+          "Slovenia",
+          "Servia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Alloy Surfaces Co. Inc.",
+            "location": "Chester, Pennsylvania",
+            "contract_number": "W15QKN-15-D-0053",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Fabricate, test, inspect, package and deliver the M211 countermeasure decoy",
+        "base_contract_number": "W15QKN-15-D-0053",
+        "order_number": null,
+        "modification_number": "0004",
+        "value_usd": 12925902,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12925902,
+        "fms_countries": [
+          "Qatar",
+          "Tokeleau",
+          "Slovenia",
+          "Servia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "ECS Federal LLC, Fairfax, Virginia, was awarded a $9,529,017 modification (P00003) to contract W911QX-17-C-0045 to provide analysis of large structured and unstructured data sets in order to provide insight to the warfigher on the tactical edge using modern computational and algorithmic techniques through creation of a prototype environment with prototype technologies to uncover key insights with large data sets using robust ontologies created through data science partnership with the Department of Defense research laboratories and universities. Work will be performed in Fairfax, Virginia, with an estimated completion date of Sept. 28, 2019. Fiscal 2018 research, development, test and evaluation funds in the amount of $9,529,017 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W911QX17C0045"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 9529017.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9529017.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation funds in the amount of $9,529,017 were obligated at the time of the award",
+        "completion_date": "2019-09-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "ECS Federal LLC",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W911QX-17-C-0045",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Analysis of large structured and unstructured data sets to provide insight to the warfighter on the tactical edge via a prototype environment",
+        "base_contract_number": "W911QX-17-C-0045",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 9529017,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9529017,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Stanley-Louis Berger-Urban Collaborative JV, Muscatine, Iowa, was awarded a $9,000,000 firm-fixed-price contract for master planning projects within the Great Lakes and Ohio River division mission boundaries. Bids were solicited via the Internet with 10 received. Work funding and locations will be determined with each order, with an estimated completion date of March 15, 2023. U.S. Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-18-D-0015).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912QR18D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-03-15",
+        "contracting_activity": {
+          "name": "U.S. Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-18-D-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Stanley-Louis Berger-Urban Collaborative JV",
+            "location": "Muscatine, Iowa",
+            "contract_number": "W912QR-18-D-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Master planning projects within the Great Lakes and Ohio River division mission boundaries",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 10 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a not-to-exceed $481,954,000 for firm-fixed-price, cost-plus-fixed fee delivery order 0584 against a previously issued basic ordering agreement (N00019-14-G-0020). This order provides for the procurement of initial air vehicle spares in support of the F-35 Lightning II for the Air Force, Marine Corps, Navy; non-U.S. Department of Defense (DoD) participants, and foreign military sales (FMS) customers. Work will be performed in Fort Worth, Texas (24.4 percent); El Segundo, California (9.1 percent); Owego, New York (8.6 percent); Samlesbury, United Kingdom (7.2 percent); Cheltenham, United Kingdom (6.2 percent); Nashua, New Hampshire (5.8 percent); Torrance, California (5.5 percent); Orlando, Florida (4.9 percent); Cedar Rapids, Iowa (3.7 percent); San Diego, California (3.6 percent); Phoenix, Arizona (3.1 percent); Melbourne, Florida (3.1 percent); Irvine, California (2.5 percent); North Amityville, New York (2.4 percent); Windsor Locks, Connecticut (2.2 percent); Baltimore, Maryland (2.2 percent); Papendrect, Netherlands (1.9 percent); Rolling Meadows, Illinois (1.8 percent); and Alpharetta, Georgia (1.8 percent). Work is expected to be completed in June 2022. Fiscal 2018 aircraft procurement (Air Force, Marine Corps, and Navy); non-U.S. DoD participant; and FMS funds in the amount of $481,954,000 are being obligated on this award, none of which will expire at the end of the current fiscal year. This order combines purchases for the Air Force ($ 163,472,564; 33.92 percent); Marine Corps ($ 64,737,655; 13.43 percent); Navy ($ 45,543,621; 9.45 percent); non-U.S. DoD participants ($142,554,368; 29.58 percent); and FMS customers ($65,645,792; 13.62 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 481954000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 481954000.0,
+        "funding_text": "Fiscal 2018 aircraft procurement (Air Force, Marine Corps, and Navy); non-U.S. DoD participant; and FMS funds in the amount of $481,954,000 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-14-G-0020",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee delivery order",
+        "description": "Initial air vehicle spares in support of the F-35 Lightning II for Air Force, Marine Corps, Navy, non-U.S. DoD participants, and FMS customers",
+        "base_contract_number": "N00019-14-G-0020",
+        "order_number": "0584",
+        "modification_number": null,
+        "value_usd": 481954000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 481954000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "United Technologies Corp., Pratt & Whitney Military Engines, East Hartford, Connecticut, is being awarded $21,631,613 for firm-fixed-price-incentive-fee, cost-plus-fixed-fee task order N00019-18-F-2412 against a previously issued basic ordering agreement (N00019-17-G-0005). This task order provides for non-recurring engineering for early identification, development, and qualification of corrections to potential and actual operational issues, including safety and reliability and maintainability problems identified through fleet usage, Accelerated Mission Testing, and Lead-the-Fleet programs. This task order will also provide support for continued engine maturation, evaluation of component life limits based on operational experience, operational readiness improvements, and efforts to reduce maintenance and of life cycle support costs for the Air Force, Navy, non-U.S. Department of Defense (non- U.S.DoD) participants, and foreign military sales (FMS) customers in support of the F-35 Lightning II, F135 Propulsion System Component Improvement program. Work will be performed in East Hartford, Connecticut (65 percent); and Indianapolis, Indiana (35 percent), and is expected to be completed in March 2020. Fiscal 2017 research, development, test and evaluation (Air Force and Navy); non-U.S. DoD participant; and FMS funds in the amount of $21,631,613 are being obligated at time of award, $12,872,653 of which will expire at the end of the current fiscal year. This order combines purchases for the Navy ($9,872,653; 45.6 percent); Air Force ($3,000,000; 13.9 percent); non-U.S. DoD participants ($4,927,687; 22.8 percent); and FMS ($3,831,273; 17.7 percent), under the Foreign Military Sales program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001918F2412",
+          "N0001917G0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21631613.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21631613.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation (Air Force and Navy); non-U.S. DoD participant; and FMS funds in the amount of $21,631,613 are being obligated at time of award, $12,872,653 of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "United Technologies Corp., Pratt & Whitney Military Engines",
+            "location": "East Hartford, Connecticut",
+            "contract_number": "N00019-17-G-0005",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price-incentive-fee, cost-plus-fixed-fee task order",
+        "description": "Non-recurring engineering for F135 Propulsion System Component Improvement program for F-35 Lightning II",
+        "base_contract_number": "N00019-17-G-0005",
+        "order_number": "N00019-18-F-2412",
+        "modification_number": null,
+        "value_usd": 21631613,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21631613,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Black Hills Ammunition Inc.,* Rapid City, South Dakota, is being awarded a $20,530,600 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for production of 5.56mm reduced-ricochet limited-penetration ammunition in support of Special Operations forces. Work will be performed in Rapid City, South Dakota, and is expected to be completed by September 2028. Fiscal 2018 defense-wide procurement funding in the amount of $1,700,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with two offers received. The Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N00164-18-D-JN54).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0016418DJN54"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20530600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1700000.0,
+        "funding_text": "Fiscal 2018 defense-wide procurement funding in the amount of $1,700,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2028-09",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Crane Division, Crane, Indiana",
+          "code": "N00164-18-D-JN54"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Black Hills Ammunition Inc.",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "N00164-18-D-JN54",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Production of 5.56mm reduced-ricochet limited-penetration ammunition for Special Operations forces",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20530600,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1700000,
+        "fms_countries": [],
+        "competition": "Competitive, Federal Business Opportunities website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Alion Science and Technology Corp., McLean, Virginia, is being awarded a $13,549,993 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for development, integration, testing and evaluation of prototype systems for existing or emerging unmanned vehicles, unmanned weapons and unmanned weapons control systems related to mine warfare, amphibious warfare, surface warfare, diving and life support, coastal and underwater intelligence, surveillance and reconnaissance, and other missions in the littoral and riverine environments. This contract includes options which, if exercised, would bring the cumulative value of this contract to $72,974,234. Work performance locations will be determined with each order and will be completed by March 2023. Fiscal 2018 Navy working capital funding in the amount of $10,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with one offer received. The Naval Surface Warfare Center Panama City Division, Panama City, Florida, is the contracting activity (N61331-18-D-0007).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6133118D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13549993.0,
+        "cumulative_value_usd": 72974234.0,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2018 Navy working capital funding in the amount of $10,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-03",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Panama City Division, Panama City, Florida",
+          "code": "N61331-18-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Alion Science and Technology Corp.",
+            "location": "McLean, Virginia",
+            "contract_number": "N61331-18-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee IDIQ",
+        "description": "Development, integration, testing and evaluation of prototype systems for unmanned vehicles, weapons and control systems for mine, amphibious, surface warfare, diving, and ISR missions",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13549993,
+        "cumulative_value_usd": 72974234,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "Competitive, Federal Business Opportunities website, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Cabrillo Enterprises doing business as R.W. Little,* National City, California (N55236-16-D-0005); South Bay Sand Blasting and Tank Cleaning Inc.,* San Diego, California (N55236-16-D-0006); and Surface Technologies Corp.,* Atlantic Beach, Florida (N55236-16-D-0007), are each being awarded contract modifications of $10,000,000 under a previously awarded indefinite-delivery/indefinite-quantity, multiple-award contracts to exercise option year two for deck covering removal and non-skid installation services on board Navy ships. Each contractor shall provide all management, administrative services, materials, tools, equipment, labor, rigging, scaffolding, utilities (i.e. air, water and electricity, etc.) and required services/support to accomplish deck covering removal and non-skid installation on board Navy ships within a 50-mile radius of San Diego. Work will be performed in San Diego, California, and is expected to be completed by April 2018. No funding is being obligated at time of award. The Southwest Regional Maintenance Center, San Diego, California, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N5523616D0005",
+          "N5523616D0006",
+          "N5523616D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding is being obligated at time of award",
+        "completion_date": "2018-04",
+        "contracting_activity": {
+          "name": "The Southwest Regional Maintenance Center, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Cabrillo Enterprises doing business as R.W. Little",
+            "location": "National City, California",
+            "contract_number": "N55236-16-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "South Bay Sand Blasting and Tank Cleaning Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N55236-16-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "Surface Technologies Corp.",
+            "location": "Atlantic Beach, Florida",
+            "contract_number": "N55236-16-D-0007",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery/indefinite-quantity, multiple-award",
+        "description": "Option year two exercise for deck covering removal and non-skid installation services on Navy ships within 50-mile radius of San Diego",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Aerospace Corp., El Segundo, California, has been awarded a $26,427,243 modification (P00091) to previously awarded contract FA8802-14-C-0001 for Federally Funded Research and Development Center support. This modification brings the total cumulative face value of the contract to $4,300,000,000. Work will be performed in El Segundo, California, and is expected to be complete by Sept. 30, 2018. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA880214C0001"
+        ],
+        "modification_numbers": [
+          "P00091"
+        ],
+        "is_modification": true,
+        "value_usd": 26427243.0,
+        "cumulative_value_usd": 4300000000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-09-30",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Aerospace Corp.",
+            "location": "El Segundo, California",
+            "contract_number": "FA8802-14-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Federally Funded Research and Development Center support",
+        "base_contract_number": "FA8802-14-C-0001",
+        "order_number": null,
+        "modification_number": "P00091",
+        "value_usd": 26427243,
+        "cumulative_value_usd": 4300000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Med-Eng LLC, Ogdensburg, New York, has been awarded a $15,000,000 firm-fixed-price indefinite-delivery/indefinite-quantity contract for explosive ordnance disposal bomb suits. This contract provides for the delivery of a full bomb suit ensemble and associated accessories. Work will be performed at Hill Air Force Base, Utah, and is expected to be complete by March 2023. This award is the result of a competitive acquisition and one offer was received. Fiscal 2018 operations and maintenance funds in the amount of $384,800 are being obligated at the time of award. The 772nd Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida, is the contracting activity (FA8051-18-D-0001).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA805118D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 384800.0,
+        "funding_text": "Fiscal 2018 operations and maintenance funds in the amount of $384,800 are being obligated at the time of award",
+        "completion_date": "2023-03",
+        "contracting_activity": {
+          "name": "The 772nd Enterprise Sourcing Squadron, Tyndall Air Force Base, Florida",
+          "code": "FA8051-18-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Med-Eng LLC",
+            "location": "Ogdensburg, New York",
+            "contract_number": "FA8051-18-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Explosive ordnance disposal bomb suits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 384800,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Cherokee Nation Technologies LLC, a native tribe, doing business as CNT, Catoosa, Oklahoma, is being awarded a $55,067,430 firm-fixed-price order, HT0011-18-F-0022. This order provides services to assist the Assistant Secretary of Defense (Health Affairs), the Defense Health Agency’s (DHA) Healthcare Operations Directorate Public Health Division Armed Forces Health Surveillance Branch in its mission to conduct comprehensive health surveillance efforts for the Department of Defense ( DoD). The scope of this award is to maintain established infrastructure and capabilities; respond to inquiries from the DoD medical and health authorities; assist in analyzing, interpreting, and disseminating information regarding the status, trends, and determinants of the health and fitness of Armed Forces and other DoD approved target populations; and enable DoD health surveillance activities to strengthen its global infectious disease reduction efforts through: centralized coordination, improved preventive health programs and epidemiological capabilities, and enhanced involvement with DoD overseas laboratories. CNT will provide on-site scientific, professional, and technical service support, including epidemiology and analysis support, global emerging infections surveillance support; integrated biosurveillance support; Army satellite support; and, Air Force mortality registry support. Work will be performed at the primary location in Silver Spring, Maryland, with some personnel will be located at DHA satellites at Aberdeen, Maryland; and Dayton, Ohio. The estimated completion date is March 2023. The period of performance is one year plus four option periods of one year each with an additional option to extend services up to six months under Federal Acquisition Regulation (FAR) 52.217-8 – extension of services. The award was made on a competitive basis to CNT. This contract was competitively solicited via the General Services Administration (GSA) One Acquisition Solution for Integrated Services Small Business Pool 1 as authorized by FAR 16.505 -- ordering, with three quotations received in response to solicitation HT0011-18-R-0008. Funds in the amount of $9,866,790 are obligated on this award. The type of appropriations are fiscal 2018 operations and maintenance.. The Defense Health Agency, Falls Church, Virginia, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "HT001118F0022",
+          "HT001118R0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55067430.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9866790.0,
+        "funding_text": "Funds in the amount of $9,866,790 are obligated on this award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The type of appropriations are fiscal 2018 operations and maintenance.. The Defense Health Agency, Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Cherokee Nation Technologies LLC, a native tribe, doing business as CNT",
+            "location": "Catoosa, Oklahoma",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price order",
+        "description": "Services to support DHA Armed Forces Health Surveillance Branch health surveillance efforts",
+        "base_contract_number": null,
+        "order_number": "HT0011-18-F-0022",
+        "modification_number": null,
+        "value_usd": 55067430,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9866790,
+        "fms_countries": [],
+        "competition": "3 quotations received via GSA One Acquisition Solution for Integrated Services Small Business Pool 1 (solicitation HT0011-18-R-0008)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "New Balance Athletics Inc., Boston, Massachusetts, has been awarded a maximum $17,325,438 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for athletic shoes. This was a competitive acquisition with six responses received. This is an 18-month base contract with one 18-month option period. Maximum dollar amount is for the life of the contract. Locations of performance are Maine and Massachusetts, with a March 14, 2021, performance completion date. Using customers are Army, Air Force, Navy, Marine Corps and Coast Guard. Type of appropriation is fiscal 2018 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-18-D-1041).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C118D1041"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17325438.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-18-D-1041"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "New Balance Athletics Inc.",
+            "location": "Boston, Massachusetts",
+            "contract_number": "SPE1C1-18-D-1041",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Athletic shoes supply contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17325438,
+        "cumulative_value_usd": 17325438,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 6 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Crowley Fuels LLC, Anchorage, Alaska, has been awarded a maximum $16,928,730 firm-fixed-price contract for alongside aircraft refueling services. This is a four-year base contract with one five-year option period. This was a competitive acquisition with five offers received. Locations of performance are Alaska and Cuba, with a Sept. 30, 2022, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE603-18-C-5010).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE60318C5010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16928730.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE603-18-C-5010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Crowley Fuels LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "SPE603-18-C-5010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Alongside aircraft refueling services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16928730,
+        "cumulative_value_usd": 16928730,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 5 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems, Sterling Heights, Michigan, has been awarded an $11,509,892 firm-fixed-price contract for fire control computers. This is a one-year base contract with a one-year option period that was exercised at time of award. This was a sole source acquisition using justification 10 U.S. Code 2304 (c)(1). Locations of performance are Michigan and Florida, with a Dec. 31, 2020, performance completion date. Using military service is Army. Type of appropriation is fiscal 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-18-C-0014).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL118C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11509892.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-18-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "SPRDL1-18-C-0014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Fire control computers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11509892,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEPARTMENT OF DEFENSE EDUCATION ACTIVITY",
       "kind": "announcement",
       "text": "Benchmark Education Co. LLC, New Rochelle, New York, is being awarded a $16,670,720 firm-fixed-price, requirements contract under solicitation HE125417R0009 for the grades K-5 literacy curriculum resources for the military dependent students attending Department of Defense Education Activity schools. The contract number is HE125418D0001. This was a competitive acquisition posted on Federal Business Opportunities website with seven offers received. This contract is for a base period of five years, followed by up to five one-year option periods. The initial base year ordering period is March 7, 2018, through February 28, 2023. Type of appropriation is fiscal 2018 operations and maintenance funds, which will be used to place delivery orders against this requirements contract for fiscal 2018 and 2019 school year. The contracting activity is the Department of Defense Education Activity Alexandria, Virginia.",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "HE125417R0009",
+          "HE125418D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16670720.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Department of Defense Education Activity Alexandria, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Benchmark Education Co. LLC",
+            "location": "New Rochelle, New York",
+            "contract_number": "HE125418D0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Grades K-5 literacy curriculum resources for DoDEA schools",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16670720,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 7 offers received (solicitation HE125417R0009)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "AeroVironment Inc.,* Monrovia, California, was awarded a cost contract with a not-to-exceed value of $8,838,546 for a Defense Advanced Research Projects Agency research project. Work will be performed in Monrovia, California. Fiscal 2018 research, development, test, and evaluation funds in the amount of $2,000,000 are being obligated at time of award. This contract was a sole-source acquisition. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR0011-18-C-0093).",
-      "seq": 18
+      "seq": 18,
+      "fields": {
+        "contract_numbers": [
+          "HR001118C0093"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8838546.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000000.0,
+        "funding_text": "Fiscal 2018 research, development, test, and evaluation funds in the amount of $2,000,000 are being obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR0011-18-C-0093"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 18,
+        "awardees": [
+          {
+            "name": "AeroVironment Inc.",
+            "location": "Monrovia, California",
+            "contract_number": "HR0011-18-C-0093",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost contract (not-to-exceed)",
+        "description": "DARPA research project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8838546,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2018-03-15.html"
+  "source": "file:2018-03-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:05:06Z"
+  }
 }

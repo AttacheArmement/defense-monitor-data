@@ -11,57 +11,459 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Boeing Co., Mesa, Arizona, was awarded a $667,522,500 undefinitized fixed-price-incentive, foreign military sales contract (Qatar) for 24 AH-64E Apache helicopters, 1 Longbow crew trainer, ground support equipment, and Thales radios. One bid was solicited with one received. Work will be performed in Mesa, Arizona, with an estimated completion date of May 31, 2020. Funds in the amount of $136,132,068 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-16-C-0040).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16C0040"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 667522500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 136132068.0,
+        "funding_text": "Funds in the amount of $136,132,068 were obligated at the time of the award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-16-C-0040"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-16-C-0040",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized fixed-price-incentive",
+        "description": "24 AH-64E Apache helicopters, 1 Longbow crew trainer, ground support equipment, and Thales radios (foreign military sales, Qatar)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 667522500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 136132068,
+        "fms_countries": [
+          "Qatar"
+        ],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AMTEC Corp., Janesville, Wisconsin, was awarded an $84,546,877 firm-fixed-price, foreign military sales contract (Iraq) for 40mm grenade systems. One bid was solicited with one received. Work will be performed in Janesville, Wisconsin, with an estimated completion date of Sept. 30, 2018. Fiscal 2014, 2015 and 2016 other procurement (Army) funds in the amount of $84,546,877 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-16-C-0049).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J16C0049"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 84546877.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 84546877.0,
+        "funding_text": "Fiscal 2014, 2015 and 2016 other procurement (Army) funds in the amount of $84,546,877 were obligated at the time of the award",
+        "completion_date": "2018-09-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-16-C-0049"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "AMTEC Corp.",
+            "location": "Janesville, Wisconsin",
+            "contract_number": "W52P1J-16-C-0049",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "40mm grenade systems (foreign military sales, Iraq)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 84546877,
+        "cumulative_value_usd": null,
+        "obligated_usd": 84546877,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Armtec Countermeasures Co., Coachella, California was awarded a $25,307,185 modification (P00008) to foreign military sales contract W52P1J-15-C-0005 (Pakistan, Romania, UAE, Saudi Arabia) for infrared countermeasure flares. Work will be performed in Coachella, California, with an estimated completion date of Oct. 31, 2017. Fiscal 2015 and 2016 other procurement funds in the amount of $25,307,185 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J15C0005"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 25307185.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25307185.0,
+        "funding_text": "Fiscal 2015 and 2016 other procurement funds in the amount of $25,307,185 were obligated at the time of the award",
+        "completion_date": "2017-10-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Armtec Countermeasures Co.",
+            "location": "Coachella, California",
+            "contract_number": "W52P1J-15-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Infrared countermeasure flares (foreign military sales, Pakistan, Romania, UAE, Saudi Arabia)",
+        "base_contract_number": "W52P1J-15-C-0005",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 25307185,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25307185,
+        "fms_countries": [
+          "Pakistan",
+          "Romania",
+          "United Arab Emirates",
+          "Saudi Arabia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Surdex Corp.,* St. Louis, Missouri, was awarded a $12,500,000 firm-fixed-price, multi-year contract for architectural and engineering services for photogrammetric and LiDAR surveying and mapping. The estimated completion date is May 31, 2021. Funding and work location will be determined with each order. Army Corps of Engineers, St. Louis, Missouri, is the contracting activity (W912P9-16-D-0016).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912P916D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Louis, Missouri",
+          "code": "W912P9-16-D-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Surdex Corp.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W912P9-16-D-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multi-year contract",
+        "description": "Architectural and engineering services for photogrammetric and LiDAR surveying and mapping",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Orion Marine Construction Inc., Tampa, Florida, was awarded a $7,696,600 firm-fixed-price contract with options for pipeline dredging, Matagorda Ship Channel, Matagorda Peninsula, to Point Comfort, Matagorda and Calhoun counties, Texas, with an estimated completion date of Jan. 17, 2017. Bids were solicited via the Internet with five received. Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,696,600 were obligated at the time of the award. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W9126G-16-C-0033).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9126G16C0033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7696600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7696600.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,696,600 were obligated at the time of the award",
+        "completion_date": "2017-01-17",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Galveston, Texas",
+          "code": "W9126G-16-C-0033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Orion Marine Construction Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "W9126G-16-C-0033",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with options",
+        "description": "Pipeline dredging, Matagorda Ship Channel, Matagorda Peninsula to Point Comfort, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7696600,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7696600,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with five received",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Space & Mission Systems Corp., Colorado Springs, Colorado, is being awarded a modification (P00033) to previously awarded cost-plus-award-fee, indefinite-delivery/indefinite-quantity contract H95001-05-D-0002/H95001-10-D-0001, to extend the period of performance of task orders. The value (estimated maximum) of this contract modification is $600,000,000, increasing the total contract value (estimated maximum) from $3,250,000,000 to $3,850,000,000. Under this modification, the contractor will continue to provide Missile Defense Agency and Department of Defense with enterprise-level technical integration and Ballistic Missile Defense System-(BMDS) level operational integration products and services; support the definition, development, and test and evaluation of integrated missile defense capabilities; support warfighters in the exercise of missile defense readiness, wargame command and control procedures, operational concepts, and doctrinal requirements; operational support to the BMDS; and information technology (IT) services to include IT operations, maintenance and infrastructure development in support of the chief information officer. The work will be performed at Schriever Air Force Base, Colorado; Huntsville, Alabama; Ft. Belvoir, Virginia; Dahlgren, Virginia; Kirtland Air Force Base, New Mexico; Elmendorf Air Force Base, Alaska; Fort Greely, Alaska; Vandenberg Air Force Base, California; and Pacific Missile Range Facility Barking Sands, Kehaka, Kauai, Hawaii. The period of performance for task orders under this contract is extended up to 20 months (July 31, 2017) beyond the end of the ordering period. The contract is incrementally funded under each task order/delivery order. Funding is not awarded at the contract level, however, funding types currently awarded under the task orders include research and development; operation and maintenance; and United Arab Emirates foreign military sales funds. The Missile Defense Agency, Schriever Air Force Base, Colorado, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "H9500105D0002",
+          "H9500110D0001"
+        ],
+        "modification_numbers": [
+          "P00033"
+        ],
+        "is_modification": true,
+        "value_usd": 600000000.0,
+        "cumulative_value_usd": 3250000000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Schriever Air Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Space & Mission Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "H95001-05-D-0002/H95001-10-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Extend period of performance of task orders; enterprise-level technical integration and BMDS-level operational integration products and services",
+        "base_contract_number": "H95001-05-D-0002/H95001-10-D-0001",
+        "order_number": null,
+        "modification_number": "P00033",
+        "value_usd": 600000000,
+        "cumulative_value_usd": 3850000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Meggitt Safety Systems, Simi Valley, California, has been awarded a maximum $21,488,710 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for two-seat canopy actuators for the F-16. This was a competitive acquisition with two responses received. This is a five-year contract with no option periods. Location of performance is California, with a June 6, 2021, performance completion date. Using military service is the Air Force, and countries in the foreign military sales program. Types of appropriation are fiscal 2016 through fiscal 2021 defense working capital funds and foreign military sales funds. The contracting activity is the Defense Logistics Agency Aviation, Hill Air Force Base, Utah (SPRHA4-16-D-0001).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPRHA416D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21488710.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Hill Air Force Base, Utah",
+          "code": "SPRHA4-16-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Meggitt Safety Systems",
+            "location": "Simi Valley, California",
+            "contract_number": "SPRHA4-16-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Two-seat canopy actuators for the F-16",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21488710,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Renew Group, Lawrence, Kansas, has been awarded a $9,000,000 indefinite-delivery/indefinite-quantity contract for base pavements. Contractor will provide maintenance and repair of asphalt and concrete parking lots and roadwork. Work will be performed at Altus Air Force Base, Oklahoma, and is expected to be complete by May 31, 2020. This award is the result of a competitive acquisition with 11 offers received. Fiscal 2016 operation and maintenance funds will be used to meet the minimum guarantee of $2,000 and are being obligated on the first task order at the time of award. The 97th Contracting Flight, Altus Air Force Base, Oklahoma, is the contracting activity (FA4419-16-D-0104). (Awarded on June 1, 2016)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA441916D0104"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000.0,
+        "funding_text": "Fiscal 2016 operation and maintenance funds will be used to meet the minimum guarantee of $2,000 and are being obligated on the first task order at the time of award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "The 97th Contracting Flight, Altus Air Force Base, Oklahoma",
+          "code": "FA4419-16-D-0104"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Renew Group",
+            "location": "Lawrence, Kansas",
+            "contract_number": "FA4419-16-D-0104",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Base pavements maintenance and repair of asphalt and concrete parking lots and roadwork, Altus AFB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000,
+        "fms_countries": [],
+        "competition": "Competitive acquisition with 11 offers received",
+        "award_date": "2016-06-01"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is being awarded a $7,285,000 not-to-exceed, undefinitized contract action against a previously awarded contract (N00024-10-C-2118) for designing Virginia class submarine – Virginia payload module prototype and tactical integrated tube and hull forgings. The work will be performed in Groton, Connecticut, and is scheduled to be completed by July 2018. Fiscal 2016 research, development, test and evaluation (Navy) funding in the amount of $3,643,000 will be obligated at time of award and will not expire at the end of this fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002410C2118"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7285000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3643000.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation (Navy) funding in the amount of $3,643,000 will be obligated at time of award and will not expire at the end of this fiscal year",
+        "completion_date": "2018-07",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-10-C-2118",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action, not-to-exceed",
+        "description": "Designing Virginia class submarine Virginia payload module prototype and tactical integrated tube and hull forgings",
+        "base_contract_number": "N00024-10-C-2118",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7285000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3643000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:32Z",
-  "source": "file:2016-06-07.html"
+  "source": "file:2016-06-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:24:53Z"
+  }
 }

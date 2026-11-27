@@ -11,9 +11,62 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "NAVMAR Applied Sciences Corp.,* Warminster, Pennsylvania, is awarded $7,707,370 for cost-plus-fixed-fee delivery order N6833519F0432 against a previously issued basic ordering agreement (N68335-15-G-0013). This delivery order provides for the Small Business Innovative Research (SBIR) Phase III work that derives from, extends, or completes an effort performed under SBIR Topics N08-008 entitled “Commandable Mobile Anti-Submarine Warfare Sensor,” N08-023 titled “Precision High Altitude Sonobuoy Emplacement,” and N101-042 titled “Environmental Wideband Acoustic Receiver and Source.” The tasks include performance modeling and simulation, fabrication, component integration, test, training, and prototype procurement activities in support of the Extended Life Sonobuoy/Automated Extended Life Sonobuoy program. Work will be performed in Warminster, Pennsylvania, and is expected to be completed in October 2022. Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,690,000 will be obligated at time of award, none of which will expire at the end of the fiscal year. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6833519F0432",
+          "N6833515G0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7707370.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1690000.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,690,000 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2022-10",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "NAVMAR Applied Sciences Corp.",
+            "location": "Warminster, Pennsylvania",
+            "contract_number": "N6833519F0432",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "SBIR Phase III Extended Life Sonobuoy/Automated Extended Life Sonobuoy work (performance modeling, fabrication, integration, test, training, prototype procurement)",
+        "base_contract_number": "N68335-15-G-0013",
+        "order_number": "N6833519F0432",
+        "modification_number": null,
+        "value_usd": 7707370,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1690000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:38Z",
-  "source": "file:2018-10-09.html"
+  "source": "file:2018-10-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:30:57Z"
+  }
 }

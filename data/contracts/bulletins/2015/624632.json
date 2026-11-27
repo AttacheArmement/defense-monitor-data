@@ -11,27 +11,205 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "CPI Econco, Woodland, California, has been awarded a maximum $9,699,200 firm-fixed-price contract for weapon system electron tubes. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). Location of performance is California, with an Aug. 21, 2017, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2016 through fiscal 2017 Navy working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Mechanicsburg, Pennsylvania (SPRMM1-16-C-WA08).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPRMM116CWA08"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9699200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Mechanicsburg, Pennsylvania",
+          "code": "SPRMM1-16-C-WA08"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "CPI Econco",
+            "location": "Woodland, California",
+            "contract_number": "SPRMM1-16-C-WA08",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maximum-value contract for weapon system electron tubes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9699200,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Oct. 15, 2015, for Aloha Petroleum Ltd.,* Honolulu, Hawaii, (SPE600-16-D-4000), for $17,302,637 was announced with an incorrect estimated contract value. The correct estimated contract value is $23,214,071.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE60016D4000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17302637.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Aloha Petroleum Ltd.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "SPE600-16-D-4000",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to estimated contract value of Oct. 15, 2015 award to Aloha Petroleum Ltd.; correct estimated value is $23,214,071 (previously announced as $17,302,637)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23214071,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Missiles and Fire Control, Orlando, Florida, is being awarded a $9,638,771 cost-plus-fixed-fee modification to previously awarded basic order agreement N00164-11-G-JQ97-0015 for the procurement of the turret electronic unit (TEU) versatile performance switching production requirements, including test equipment station development and validation; circuit card assembly manufacture; test requirement document production; and engineering drawing consolidation, review and release. The TEU is a component of the Target Sight System (TSS) that is integrated into the Marine Corps AH-1Z Cobra attack helicopter. The TSS provides target identification and tracking, passive targeting for integrated weapons, including Hellfire missiles, and a laser-designation capability supporting friendly laser-guided weapons. The TSS integration into AH-1Z Cobra attack helicopters is part of the Marine Corps H-1 upgrades program for the remanufacture of legacy aircraft with state of the art designs incorporated into the existing fleet of AH-1Ws, converting them to AH-1Zs. Work will be performed in Orlando, Florida (94 percent); and Ocala, Florida (six percent), and is expected to be completed by June 2017. Fiscal 2014 and 2015 aircraft procurement (Navy) funding in the amount of $9,638,771 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Surface Warfare Center, Crane, Indiana, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0016411GJQ97"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9638771.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9638771.0,
+        "funding_text": "Fiscal 2014 and 2015 aircraft procurement (Navy) funding in the amount of $9,638,771 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-06",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Crane, Indiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Missiles and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Production of turret electronic unit (TEU) versatile performance switching for the Target Sight System on Marine Corps AH-1Z Cobra helicopters",
+        "base_contract_number": "N00164-11-G-JQ97-0015",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9638771,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9638771,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Oct. 15, 2015, to BAE Systems Information and Electronic Systems Integration Inc., Greenlawn, New York, should have read the dollar amount as $24,153,704. The contract number should read as N00019-15-D-0004. The combines purchases sentence should read: This modification combines purchases for the Navy ($20,095,882; 83.2 percent);, Army ($2,487,832; 10.3 percent); and the governments of Saudi Arabia ($342,983; 1.42 percent); Philippines ($338,152; 1.40 percent); Japan ($316,414; 1.31 percent); Denmark ($294,675; 1.22 percent); and Indonesia ($277,768; 1.15 percent), under the Foreign Military Sales program.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 24153704.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BAE Systems Information and Electronic Systems Integration Inc.",
+            "location": "Greenlawn, New York",
+            "contract_number": "N00019-15-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to dollar amount (should be $24,153,704) and to purchases breakdown for Navy, Army and Foreign Military Sales customers on contract announced Oct. 15, 2015",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24153704,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Philippines",
+          "Japan",
+          "Denmark",
+          "Indonesia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-10-16.html"
+  "source": "file:2015-10-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:46:13Z"
+  }
 }

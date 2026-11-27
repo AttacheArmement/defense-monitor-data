@@ -9,15 +9,104 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "AMI Metals, Brentwood, Tennessee, has been awarded a maximum $10,000,000 fixed-price with economic-price-adjustment contract for metal sheet plates. This was a competitive acquisition with five responses received. This is a one-year base contract with four one-year option periods. The maximum dollar amount includes the one-year base and four one-year option periods. Location of performance is Tennessee, with a Sept. 21, 2020, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2015 through fiscal 2020 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8EG-15-D-0085). (Awarded Sept. 22, 2015)",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EG15D0085"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8EG-15-D-0085"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "AMI Metals",
+            "location": "Brentwood, Tennessee",
+            "contract_number": "SPE8EG-15-D-0085",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Metal sheet plates supply contract (maximum amount includes one-year base and four one-year options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": 10000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, five responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Syracuse Research Corp. Inc., North Syracuse, New York, was awarded a $7,128,211 firm-fixed-price, incrementally funded 12-month bridge contract with options to continue critical support to the Joint Improvised-Threat Defeat Agency, J3X (Operations-Special Plans) Branch, Sensitive Integrated Office. One bid was solicited with one received. Work will be performed in Reston, Virginia; Tampa, Florida; Virginia Beach, Virginia; Afghanistan, Iraq, and Qatar, with an estimated completion date of Oct. 5, 2016. Fiscal 2016 other procurement funds in the amount of $6,568,324 were obligated at the time of the award. Army Contracting Command, Alexandria, Virginia, is the contracting activity (W909MY-16-C-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W909MY16C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7128211.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6568324.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $6,568,324 were obligated at the time of the award",
+        "completion_date": "2016-10-05",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Alexandria, Virginia",
+          "code": "W909MY-16-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Syracuse Research Corp. Inc.",
+            "location": "North Syracuse, New York",
+            "contract_number": "W909MY-16-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, incrementally funded 12-month bridge contract with options",
+        "description": "Bridge contract for critical support to the Joint Improvised-Threat Defeat Agency, J3X (Operations-Special Plans) Branch, Sensitive Integrated Office",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7128211,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6568324,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-10-06.html"
+  "source": "file:2015-10-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:46:44Z"
+  }
 }

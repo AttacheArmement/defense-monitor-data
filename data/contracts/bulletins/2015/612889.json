@@ -11,69 +11,552 @@
       "agency": null,
       "kind": "announcement",
       "text": "Bell Helicopter Textron Inc., Hurst, Texas, was awarded a $55,600,000 cost-plus-fixed-fee foreign military sales contract (Iraq) for technical advice and maintenance and logistics support for maintenance and logistics for Bell aircraft. Work will be performed in Iraq with an estimated completion date of Aug. 7, 2016. One bid was solicited with one received. Fiscal 2015 other procurement funds in the amount of $29,950,000 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-15-C-0070).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ15C0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29950000.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $29,950,000 were obligated at the time of the award",
+        "completion_date": "2016-08-07",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-15-C-0070"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bell Helicopter Textron Inc.",
+            "location": "Hurst, Texas",
+            "contract_number": "W58RGZ-15-C-0070",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee foreign military sales contract",
+        "description": "Technical advice and maintenance and logistics support for Bell aircraft (Iraq)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 55600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29950000,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Jacobs Fields Services North America Inc., Oak Ridge, Tennessee, was awarded a $29,880,710 modification (P000108) to contract W912WJ-14-D-0002 for project management, engineering services, and technical support for the New Bedford Harbor Superfund Site, New Bedford, Massachusetts. Funding and work location will be determined with each order with an estimated completion date of Dec. 31, 2015. Army Corps of Engineers, Concord, Massachusetts, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912WJ14D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 29880710.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2015-12-31",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Concord, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Jacobs Fields Services North America Inc.",
+            "location": "Oak Ridge, Tennessee",
+            "contract_number": "W912WJ-14-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Project management, engineering services, and technical support for the New Bedford Harbor Superfund Site, New Bedford, Massachusetts",
+        "base_contract_number": "W912WJ-14-D-0002",
+        "order_number": null,
+        "modification_number": "P000108",
+        "value_usd": 29880710,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "MD Helicopters Inc.,* Mesa, Arizona, was awarded a $13,172,766 firm-fixed-price foreign military sales contract (Afghanistan) for the procurement, installation, integration, testing, and Army-approved airworthiness qualification support of M260 rockets and the fixed forward weapon sights on the armed MD530F Mission Equipment Package (MEP) aircraft. Integration on one U.S. government furnished armed MD530F MEP unit will occur at the contractors facility in Mesa, Arizona, as well as the development and shipment of 19 MEP modification kits for installation. Work will be performed in Mesa, Arizona, with an estimated completion date of July 12, 2016. One bid was solicited with one received. Fiscal 2015 other procurement funds in the amount of $6,454,655 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-15-C-0056).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ15C0056"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13172766.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6454655.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $6,454,655 were obligated at the time of the award",
+        "completion_date": "2016-07-12",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-15-C-0056"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "MD Helicopters Inc.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-15-C-0056",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price foreign military sales contract",
+        "description": "Procurement, installation, integration, testing, and airworthiness qualification support of M260 rockets and fixed forward weapon sights on armed MD530F MEP aircraft (Afghanistan)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13172766,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6454655,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "CMC-USA Inc. – LM Heavy Civil Construction LLC -- JV, Quincy, Massachusetts, was awarded a $12,182,675 firm-fixed-price foreign military sales contract (Israel) with options for four new support buildings for the Israel Defense Force. Work will be performed in Israel with an estimated completion date of Nov. 9, 2016. One bid was solicited with one received. Fiscal 2015 other procurement funds in the amount of $12,182,675 were obligated at the time of the award. Army Corps of Engineers, APO AE, is the contracting activity (W912GB-15-C-0009).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912GB15C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12182675.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12182675.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $12,182,675 were obligated at the time of the award",
+        "completion_date": "2016-11-09",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, APO AE",
+          "code": "W912GB-15-C-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "CMC-USA Inc. – LM Heavy Civil Construction LLC -- JV",
+            "location": "Quincy, Massachusetts",
+            "contract_number": "W912GB-15-C-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price foreign military sales contract with options",
+        "description": "Four new support buildings for the Israel Defense Force (Israel)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12182675,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12182675,
+        "fms_countries": [
+          "Israel"
+        ],
+        "competition": "One bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Honeywell Technology Solutions, Columbia, Maryland, was awarded an $8,496,270 modification (P00021) to contract W52P1J-14-C-0058 to support supply, maintenance, and logistics for the Army Prepositioned Stocks-3 at the Charleston Naval Weapons Station, South Carolina, with an estimated completion date of Sept. 14, 2015. Fiscal 2015 operations and maintenance (Army) funds in the amount of $6,341,328 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J14C0058"
+        ],
+        "modification_numbers": [
+          "P00021"
+        ],
+        "is_modification": true,
+        "value_usd": 8496270.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6341328.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Army) funds in the amount of $6,341,328 were obligated at the time of the award",
+        "completion_date": "2015-09-14",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Honeywell Technology Solutions",
+            "location": "Columbia, Maryland",
+            "contract_number": "W52P1J-14-C-0058",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Supply, maintenance, and logistics for Army Prepositioned Stocks-3 at Charleston Naval Weapons Station, South Carolina",
+        "base_contract_number": "W52P1J-14-C-0058",
+        "order_number": null,
+        "modification_number": "P00021",
+        "value_usd": 8496270,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6341328,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Booz Allen & Hamilton, McLean, Virginia, is being awarded $12,386,000 for cost-plus-fixed-fee price modification P00008 to previously awarded contract N00189-14-C-Z039 to exercise the first option for support services in the areas of training and education, engineering, technical and management support services to the Royal Saudi Naval Forces under the Foreign Military Sales program. The exercise of this option will bring the contract value to $24,867,007. Work will be performed in Saudi Arabia (90 percent), and McLean, Virginia (10 percent). The option’s period of performance is expected to be completed by July 2016. If all options on the contract are exercised, work will be completed by July 2017. Foreign military sales contract funds will be obligated at the time of award and funds will not expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Federal Business Opportunities website, with three offers received. Naval Supply Systems Command Fleet Logistics Center Norfolk, Contracting Department Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0018914CZ039"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 12386000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Foreign military sales contract funds will be obligated at the time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2016-07",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center Norfolk, Contracting Department Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Booz Allen & Hamilton",
+            "location": "McLean, Virginia",
+            "contract_number": "N00189-14-C-Z039",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "First option for training, education, engineering, technical and management support services to the Royal Saudi Naval Forces (Foreign Military Sales)",
+        "base_contract_number": "N00189-14-C-Z039",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 12386000,
+        "cumulative_value_usd": 24867007,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "Competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, is being awarded $11,000,076 for firm-fixed-price, cost-plus-fixed-fee delivery order 0067 against a previously issued basic ordering agreement (N00019-10-G-0006) to incorporate the electro-optical daylight operations improvement engineering change proposal into the F/A-18 advanced targeting forward looking infrared, electro-optical sensor unit weapons replaceable assembly. Work will be performed in McKinney, Texas, and is expected to be completed in December 2016. Fiscal 2014 aircraft procurement (Navy) funds in the amount of $11,000,076 are being obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001910G0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11000076.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000076.0,
+        "funding_text": "Fiscal 2014 aircraft procurement (Navy) funds in the amount of $11,000,076 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee delivery order",
+        "description": "Electro-optical daylight operations improvement engineering change proposal for F/A-18 advanced targeting forward looking infrared sensor unit weapons replaceable assembly",
+        "base_contract_number": "N00019-10-G-0006",
+        "order_number": "0067",
+        "modification_number": null,
+        "value_usd": 11000076,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11000076,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "LGS Innovations LLC, High Point, North Carolina, is being awarded a maximum amount $9,520,000 indefinite-delivery/indefinite-quantity contract for the procurement of submarine telecommunication cables. Task order 0001 is being awarded at $9,520,000 for the procurement of submarine telecommunication cable at High Point, North Carolina. The work to be performed provides for the procurement of submarine cables conforming to the Hydro-Acoustic Data Acquisition System – Truck Cable specifications. Cable string assemblies of various attributes will be procured through this contract and shall conform to the above specifications. Work will be performed in High Point, North Carolina, and is expected to be completed by July 2016. Fiscal 2015 research, development, testing, and evaluation (Navy) contract funds in the amount $9,520,000 are being obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with two proposals received. The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California, is the contracting activity (N39430-15-D-1641).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N3943015D1641"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9520000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9520000.0,
+        "funding_text": "Fiscal 2015 research, development, testing, and evaluation (Navy) contract funds in the amount $9,520,000 are being obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2016-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California",
+          "code": "N39430-15-D-1641"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "LGS Innovations LLC",
+            "location": "High Point, North Carolina",
+            "contract_number": "N39430-15-D-1641",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Procurement of submarine telecommunication cables (Hydro-Acoustic Data Acquisition System – Truck Cable); task order 0001",
+        "base_contract_number": null,
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 9520000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9520000,
+        "fms_countries": [],
+        "competition": "Competitive, two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "3 Phoenix Inc., Chantilly, Virginia, is being awarded an $8,634,738 modification to previously awarded contract (N00024-13-C-6264) for continuing engineering services to support software development, procurement of commercial off-the-shelf products, and hardware/software integration required to provide improved technology for Navy open architecture and network centric operations and warfare systems in support of Virginia-class submarines, and other submarine/surface ship systems. 3 Phoenix Inc. shall continue to build upon the previous efforts made under the follow-on Phase III Small Business Innovative Research (SBIR) topic number N04-138 – Real-time Data Fusion and Visualization Interface for Environmental Research Data. These services will be rendered, as needed, to support the Navy’s initiative to maintain the pace of performance improvement through judicious use of lower power electronics, advanced algorithm design, and innovative applications of open software and hardware. Work will be performed in Chantilly, Virginia, and is expected to be completed by May 2016. Fiscal 2011 shipbuilding and conversion (Navy) and fiscal 2015 research, development, test and evaluation funding in the amount of $3,168,000 will be obligated at time of award. Contract funds will not expire at the end of the fiscal year. The Naval Sea Systems Command, Washington Navy Yard, District of Columbia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C6264"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8634738.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3168000.0,
+        "funding_text": "Fiscal 2011 shipbuilding and conversion (Navy) and fiscal 2015 research, development, test and evaluation funding in the amount of $3,168,000 will be obligated at time of award",
+        "completion_date": "2016-05",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington Navy Yard, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "3 Phoenix Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N00024-13-C-6264",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Continuing engineering services for Navy open architecture and network centric operations, Virginia-class submarines (SBIR Phase III topic N04-138)",
+        "base_contract_number": "N00024-13-C-6264",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8634738,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3168000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Marietta, Georgia, has been awarded an $11,023,298 modification (P00309) to previously awarded contract FA8625-11-C-6597 for C-130J large aircraft infrared countermeasures (LAIRCM) Group A kits and jump platform storage assemblies (JPSAs). Contractor will provide an additional 19 LAIRCM Group A kits and 49 JPSAs under the basic contract. Work will be performed at Marietta, Georgia, and is expected to be complete by April 29, 2019. Fiscal 2014 Air Force procurement and Air Force National Guard procurement funds in the amount of $11,023,298 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6597"
+        ],
+        "modification_numbers": [
+          "P00309"
+        ],
+        "is_modification": true,
+        "value_usd": 11023298.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11023298.0,
+        "funding_text": "Fiscal 2014 Air Force procurement and Air Force National Guard procurement funds in the amount of $11,023,298 are being obligated at the time of award",
+        "completion_date": "2019-04-29",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8625-11-C-6597",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "C-130J LAIRCM Group A kits and jump platform storage assemblies (JPSAs)",
+        "base_contract_number": "FA8625-11-C-6597",
+        "order_number": null,
+        "modification_number": "P00309",
+        "value_usd": 11023298,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11023298,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "correction",
       "text": "CORRECTION: The contract awarded to NetCentrics Corp. on July 2, 2015, was actually awarded on July 13, 2015. The amount of the award was $7,629,081. All other contract information is accurate (HQ0034-11-D-0002).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HQ003411D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7629081.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "NetCentrics Corp.",
+            "location": null,
+            "contract_number": "HQ0034-11-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: award to NetCentrics Corp. was made July 13, 2015, not July 2, 2015; amount $7,629,081",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7629081,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2015-07-13"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-07-13.html"
+  "source": "file:2015-07-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:59:58Z"
+  }
 }

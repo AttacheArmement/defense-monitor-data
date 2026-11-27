@@ -11,21 +11,165 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DynCorp International, Ft. Worth, Texas was awarded a $61,054,351 firm-fixed-price foreign military sales (Saudi Arabia) contract with options for maintenance support for the Saudi Land Forces Aviation Command aviation program. Bids were solicited via the internet with four received. Work will be performed in Saudi Arabia with an estimated completion date of Jan. 31, 2021. Fiscal 2016 other procurement funds in the amount of $61,054,351 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama is the contracting activity (W58RGZ-16-C-0016).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ16C0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 61054351.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 61054351.0,
+        "funding_text": "Fiscal 2016 other procurement funds in the amount of $61,054,351 were obligated at the time of the award",
+        "completion_date": "2021-01-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-16-C-0016"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "DynCorp International",
+            "location": "Ft. Worth, Texas",
+            "contract_number": "W58RGZ-16-C-0016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Foreign military sales (Saudi Arabia) contract with options for maintenance support for the Saudi Land Forces Aviation Command aviation program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 61054351,
+        "cumulative_value_usd": null,
+        "obligated_usd": 61054351,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": "Bids solicited via the internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "TRAX International, Las Vegas, Nevada was awarded an $8,192,818 modification (P00162) to contract W9124R-09-C-0003 for test support to the Yuma Proving Ground, Arizona. Work will be performed at the Yuma Proving Ground with an estimated completion date of Dec. 31, 2015. Fiscal 2016 research, development, testing, and evaluation funds in the amount of $8,192,818 were obligated at the time of the award. Army Contracting Command, Yuma, Arizona is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9124R09C0003"
+        ],
+        "modification_numbers": [
+          "P00162"
+        ],
+        "is_modification": true,
+        "value_usd": 8192818.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8192818.0,
+        "funding_text": "Fiscal 2016 research, development, testing, and evaluation funds in the amount of $8,192,818 were obligated at the time of the award",
+        "completion_date": "2015-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Yuma, Arizona",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "TRAX International",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "W9124R-09-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Test support to the Yuma Proving Ground, Arizona",
+        "base_contract_number": "W9124R-09-C-0003",
+        "order_number": null,
+        "modification_number": "P00162",
+        "value_usd": 8192818,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8192818,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The Original Footwear Co.,* Morristown, Tennessee, has been awarded a maximum $10,148,631 modification (P00118) exercising the third one-year option of a one-year base contract (SPM1C1-13-D-1018) with four one-year option years for hot weather combat boots. This is a firm-fixed-price contract. Location of performance is Tennessee, with a Nov. 9, 2016, performance completion date. Using military service is Army. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1018"
+        ],
+        "modification_numbers": [
+          "P00118"
+        ],
+        "is_modification": true,
+        "value_usd": 10148631.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Original Footwear Co.",
+            "location": "Morristown, Tennessee",
+            "contract_number": "SPM1C1-13-D-1018",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Hot weather combat boots; third one-year option exercise",
+        "base_contract_number": "SPM1C1-13-D-1018",
+        "order_number": null,
+        "modification_number": "P00118",
+        "value_usd": 10148631,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-11-27.html"
+  "source": "file:2015-11-27.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:42:52Z"
+  }
 }

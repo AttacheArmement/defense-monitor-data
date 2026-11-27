@@ -9,27 +9,238 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is being awarded $120,063,189 for contract line item number (CLIN) 0003AC firm-fixed-price; and $56,137,263 for CLIN 0004AC cost-plus-fixed-fee modification to a previously awarded contract (N00024-15-C-4300) for the execution of maintenance, repair, alterations, testing and routine work onboard USS Montpelier during its scheduled interim dry docking. The work will be performed in Groton, Connecticut, and is expected to be completed by March 2018. Fiscal 2017 operations and maintenance (Navy) funds in the amount of $176,200,452 will be obligated at time of award and funds will expire at the end of the current fiscal year. The Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C4300"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 120063189.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 176200452.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funds in the amount of $176,200,452 will be obligated at time of award and funds will expire at the end of the current fiscal year",
+        "completion_date": "2018-03",
+        "contracting_activity": {
+          "name": "The Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-15-C-4300",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price and cost-plus-fixed-fee",
+        "description": "Maintenance, repair, alterations, testing and routine work onboard USS Montpelier during interim dry docking",
+        "base_contract_number": "N00024-15-C-4300",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 176200452,
+        "cumulative_value_usd": null,
+        "obligated_usd": 176200452,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Camber Corp., Huntsville, Alabama (N00189-17-D-Z003); URS Federal Services Inc., Germantown, Maryland (N00189-17-D-Z004); General Dynamics Information Technology Inc., Fairfax, Virginia (N00189-17-D-Z005); CACI-CMS Information Systems Inc., Chantilly, Virginia (N00189-17-D-Z006); Salient Federal Solutions Inc., Fairfax, Virginia (N00189-17-D-Z007); and A. Harold and Associates LLC, Jacksonville, Florida (N00189-17-D-Z008), are being awarded an estimated $112,690,718 multiple award, indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, firm-fixed-price task order contracts to provide curriculum maintenance and development services in support of Naval Education Training Command’s Naval Training Products and Services Program. Each contract will run concurrently and includes a 36-month base ordering period and 36-month option period. If all options are exercised, the total estimated value of the contracts combined will be $230,620,020. Work will be performed 100 percent in contractor facilities in response to awarded task orders and cannot be reasonably estimated at the time of contract award. Work is expected to be completed by October 2019; if all options are exercised, work will be completed by October 2022. Fiscal 2017 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated on each of the six contracts to fund the contract's minimum amount and funds will expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Federal Business Opportunities online website, with 14 offers received. Naval Supply Systems Command Fleet Logistics Center Norfolk Contracting Department, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0018917DZ003",
+          "N0018917DZ004",
+          "N0018917DZ005",
+          "N0018917DZ006",
+          "N0018917DZ007",
+          "N0018917DZ008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 112690718.0,
+        "cumulative_value_usd": 230620020.0,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funds in the amount of $5,000 will be obligated on each of the six contracts to fund the contract's minimum amount and funds will expire at the end of the current fiscal year",
+        "completion_date": "2019-10",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center Norfolk Contracting Department, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Camber Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N00189-17-D-Z003",
+            "markers": null
+          },
+          {
+            "name": "URS Federal Services Inc.",
+            "location": "Germantown, Maryland",
+            "contract_number": "N00189-17-D-Z004",
+            "markers": null
+          },
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00189-17-D-Z005",
+            "markers": null
+          },
+          {
+            "name": "CACI-CMS Information Systems Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N00189-17-D-Z006",
+            "markers": null
+          },
+          {
+            "name": "Salient Federal Solutions Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00189-17-D-Z007",
+            "markers": null
+          },
+          {
+            "name": "A. Harold and Associates LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "N00189-17-D-Z008",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award, indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee and firm-fixed-price task order contracts",
+        "description": "Curriculum maintenance and development services for Naval Education Training Command's Naval Training Products and Services Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 112690718,
+        "cumulative_value_usd": 230620020,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, 14 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Aviation Systems Engineering Co, Lexington Park, Maryland, is being awarded a $35,287,138 indefinite-delivery/indefinite-quantity contract, resulting from solicitation N00189-16-R-Z025, that will include terms and conditions for the placement of both cost-plus-fixed-fee and firm-fixed-price task orders to provide technical, analytical, administrative, and material support services to Air Test and Evaluation Squadron One in support of the test mission of Commander, Operational Test and Evaluation Force. Work will be performed in Patuxent River, Maryland, and the ordering period of the contract is expected to be completed by October 2021. Subject to availability of funds, fiscal 2017 research, development, test, and evaluation; and operations and maintenance (Navy) funds in the amount of $635,299 will be obligated to fund the contract's minimum amount and funds will not expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Federal Business Opportunities website, with two offers received. Naval Supply Systems Command Fleet Logistics Center Norfolk Contracting Department, Philadelphia, Pennsylvania, is the contracting activity (N00189-17-D-Z001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0018916RZ025",
+          "N0018917DZ001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35287138.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 635299.0,
+        "funding_text": "Subject to availability of funds, fiscal 2017 research, development, test, and evaluation; and operations and maintenance (Navy) funds in the amount of $635,299 will be obligated to fund the contract's minimum amount and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2021-10",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center Norfolk Contracting Department, Philadelphia, Pennsylvania",
+          "code": "N00189-17-D-Z001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Aviation Systems Engineering Co",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N00189-17-D-Z001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee and firm-fixed-price task orders",
+        "description": "Technical, analytical, administrative and material support services to Air Test and Evaluation Squadron One",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35287138,
+        "cumulative_value_usd": null,
+        "obligated_usd": 635299,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Conti Federal Services Inc., Edison, New Jersey, was awarded a $64,580,000 firm-fixed-price foreign military sales contract (Israel) for site 13414. Bids were solicited via the Internet with two received. Work will be performed in Israel, with an estimated completion date of Nov. 28, 2018. Fiscal 2016 other funds in the amount of $64,580,000 were obligated at the time of the award. Army Corps of Engineers, Europe, is the contracting activity (W912GB-17-C-0001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912GB17C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 64580000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 64580000.0,
+        "funding_text": "Fiscal 2016 other funds in the amount of $64,580,000 were obligated at the time of the award",
+        "completion_date": "2018-11-28",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Europe",
+          "code": "W912GB-17-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Conti Federal Services Inc.",
+            "location": "Edison, New Jersey",
+            "contract_number": "W912GB-17-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Foreign military sales construction for site 13414 in Israel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 64580000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 64580000,
+        "fms_countries": [
+          "Israel"
+        ],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2016-10-18.html"
+  "source": "file:2016-10-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:04:18Z"
+  }
 }

@@ -11,69 +11,556 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman, Huntsville, Alabama, was awarded a $349,377,402 firm-fixed-price, Foreign Military Sales (Poland) contract for the procurement of two complete battery sets of Integrated Air and Missile Defense Battle Command System production hardware and software. One bid was solicited with one bid received. Work will be performed in Huntsville, Alabama, with an estimated completion date of June 30, 2026. Fiscal 2019 foreign military sales funds in the amount of $349,377,402 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-19-C-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q19C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 349377402.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 349377402.0,
+        "funding_text": "Fiscal 2019 foreign military sales funds in the amount of $349,377,402 were obligated at the time of the award",
+        "completion_date": "2026-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-19-C-0003"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Poland"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-19-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of two complete battery sets of Integrated Air and Missile Defense Battle Command System production hardware and software (Poland FMS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 349377402,
+        "cumulative_value_usd": null,
+        "obligated_usd": 349377402,
+        "fms_countries": [
+          "Poland"
+        ],
+        "competition": "One bid solicited, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Intuitive Research and Technology Corp.,* Huntsville, Alabama, was awarded a $36,479,628 modification (0014 45) to Foreign Military Sales (Taiwan) contract W31P4Q-09-A-0016 to provide rapid response and cost effective hardware solutions. Bids were solicited via the internet with six received. Work will be performed in Huntsville, Alabama, with an estimated completion date of March 12, 2020. Fiscal 2019 foreign military sales; research, development, test and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $36,479,628 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q09A0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 36479628.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36479628.0,
+        "funding_text": "Fiscal 2019 foreign military sales; research, development, test and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $36,479,628 were obligated at the time of the award",
+        "completion_date": "2020-03-12",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Intuitive Research and Technology Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Rapid response and cost effective hardware solutions (Taiwan FMS)",
+        "base_contract_number": "W31P4Q-09-A-0016",
+        "order_number": null,
+        "modification_number": "0014 45",
+        "value_usd": 36479628,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36479628,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Manson Construction Co., Seattle, Washington, was awarded an $18,122,000 firm-fixed-price contract for dredging. Bids were solicited via the internet with three received. Work will be performed in Portland, Oregon; and San Francisco, California, with an estimated completion date of Sept. 26, 2019. Fiscal 2019 operations and maintenance, Army funds in the amount of $18,122,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W9127N-19-C-0011).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9127N19C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18122000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18122000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $18,122,000 were obligated at the time of the award",
+        "completion_date": "2019-09-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Portland, Oregon",
+          "code": "W9127N-19-C-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "W9127N-19-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dredging",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18122000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18122000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Zodiac-Poettker HBZ JV LLC,* St. Louis, Missouri, was awarded a $7,330,000 firm-fixed-price contract for Department of Energy Interpretive Center. Bids were solicited via the internet with two received. Work will be performed in St. Charles, Missouri, with an estimated completion date of Aug. 7, 2020. Fiscal 2019 operations and maintenance, Army funds in the amount of $7,330,000 were obligated at the time of the award. U.S. Army Corps of Engineers, St. Louis, Missouri, is the contracting activity (W912P9-19-C-0002).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912P919C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7330000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7330000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $7,330,000 were obligated at the time of the award",
+        "completion_date": "2020-08-07",
+        "contracting_activity": {
+          "name": "Louis, Missouri",
+          "code": "W912P9-19-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Zodiac-Poettker HBZ JV LLC",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W912P9-19-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Department of Energy Interpretive Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7330000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7330000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $250,000,000 indefinite-delivery/indefinite-quantity contract for Long Range Stand-Off Cruise Missile weapon system integration. This contract provides for aircraft and missile carriage equipment development and modification, engineering, testing, software development, training, facilities, and support necessary to fully integrate the Long Range Stand-Off Cruise Missile on the B-52H bomber platform. Work will be performed in Oklahoma City, Oklahoma, and is expected to be complete by Dec. 31, 2024. This award is the result of a sole-source acquisition. Fiscal 2019 research and development funds in the amount of $6,343,893 are being obligated at the time of award. Air Force Nuclear Weapons Center, Eglin Air Force Base, Florida, is the contracting activity (FA2103-19-D-3000).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA210319D3000"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 250000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6343893.0,
+        "funding_text": "Fiscal 2019 research and development funds in the amount of $6,343,893 are being obligated at the time of award",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Eglin Air Force Base, Florida",
+          "code": "FA2103-19-D-3000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA2103-19-D-3000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Long Range Stand-Off Cruise Missile weapon system integration on B-52H",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 250000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6343893,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Schuyler Line Navigation Company LLC, Annapolis, Maryland, has been awarded a not-to-exceed $23,042,991, indefinite‐delivery/indefinite‐quantity contract for the Thule Base Air Base Sea Lift Support contract. This contract provides for all management, labor and services to accomplish the functions and responsibilities of receiving cargo from vendors, providing in‐transit origin storage, loading/offloading and transporting U.S. government and U.S. government-sponsored cargo to and from Denmark and Thule Air Base, Greenland. Work is expected to be complete by Sept. 30, 2023. This award is the result of a competitive acquisition and three offers were received. Fiscal 2019 operations and maintenance funds in the amount of $846,000 are being obligated on the first task order at the time of award. The 21st Contracting Squadron, Detachment 1, Copenhagen, Denmark, is the contracting activity (FA2523‐19‐D‐0001).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23042991.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 846000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance funds in the amount of $846,000 are being obligated on the first task order at the time of award",
+        "completion_date": "2023-09-30",
+        "contracting_activity": {
+          "name": "The 21st Contracting Squadron, Detachment 1, Copenhagen, Denmark",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Schuyler Line Navigation Company LLC",
+            "location": "Annapolis, Maryland",
+            "contract_number": "FA2523-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Thule Base Air Base Sea Lift Support contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23042991,
+        "cumulative_value_usd": null,
+        "obligated_usd": 846000,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Raytheon Co., Aberdeen Proving Ground, Maryland, has been awarded a $21,186,712 firm-fixed-price, cost-plus-fixed-fee, and time-and-materials contract to retrofit the F-15 fleet. This contract provides for retrofitting the F-15 fleets current Identify Friend of Foe units, which provides Mode 5 capability for the APX-114 and APX-119 on the F-15 models C/D/E via a hardware retrofit and software upgrade. These units also provide National Security Agency approved cryptography and robust anti-jam interrogation and reply encryption capabilities. Work will be performed at Aberdeen Proving Grounds, Maryland; and Largo, Florida, and is expected to be complete by August 2022. Fiscal 2018 and 2019 procurement funds in the full amount are being obligated at the time of award. This award is the result of a sole-source acquisition. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8634-19-C-2700).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA863419C2700"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21186712.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2018 and 2019 procurement funds in the full amount are being obligated at the time of award",
+        "completion_date": "2022-08",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8634-19-C-2700"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Raytheon Co.",
+            "location": "Aberdeen Proving Ground, Maryland",
+            "contract_number": "FA8634-19-C-2700",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee, and time-and-materials",
+        "description": "Retrofit of F-15 fleet Identify Friend or Foe units to provide Mode 5 capability",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21186712,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21186712,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Omega Aerial Refueling Services Inc., Alexandria, Virginia, is awarded $92,370,920 for modification P00024 to a previously awarded firm-fixed-price, cost-type contract (N00019-13-D-0010). This modification provides for additional aerial refueling services in support of the Department of the Navy, other Department of Defense agencies, and Foreign Military Sales customers during missions ranging from basic training to multi-national exercises. Work will be performed in Riverside, California (50 percent); Brunswick, Georgia (40 percent); and various locations outside the continental U.S. (10 percent), and is expected to be completed in March 2020. No funds are being obligated at time of award, funds will be obligated on individual delivery orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001913D0010"
+        ],
+        "modification_numbers": [
+          "P00024"
+        ],
+        "is_modification": true,
+        "value_usd": 92370920.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award, funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Omega Aerial Refueling Services Inc.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "N00019-13-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-type",
+        "description": "Additional aerial refueling services for Navy, other DoD agencies and FMS customers",
+        "base_contract_number": "N00019-13-D-0010",
+        "order_number": null,
+        "modification_number": "P00024",
+        "value_usd": 92370920,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "United Technologies Corp., Pratt & Whitney Engines, East Hartford, Connecticut, is awarded $71,407,381 for firm-fixed-price-incentive-fee, cost-plus-fixed-fee task order N0001919F0001 against a previously issued basic ordering agreement (N00019-17-G-0005) in support of the F-35 Lightning II Joint Strike Aircraft for the Navy, Air Force; non- Department of Defense (DoD) participants and Foreign Military Sales (FMS) customers. This order provides for supplies or services for non-recurring engineering for the identification and correction of service safety and durability deficiencies, maintains specification performance, and matures the propulsion system in advance of service operational use. Work will be performed in East Hartford, Connecticut (92 percent); and Indianapolis, Indiana (8 percent), and is expected to be completed in December 2023. Fiscal 2019 research, development, test and evaluation (Navy and Air Force); non-DoD participant; and FMS funds in the amount of $64,600,166 will be obligated at time of award, none of which will expire at the end of the fiscal year. This order combines purchases for the Navy ($25,363,518; 36 percent); Air Force ($24,943,370; 35 percent); non-DoD Participants ($12,930,389; 18 percent); and FMS customers ($8,170,105; 11 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001919F0001",
+          "N0001917G0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 71407381.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 64600166.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy and Air Force); non-DoD participant; and FMS funds in the amount of $64,600,166 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "United Technologies Corp., Pratt & Whitney Engines",
+            "location": "East Hartford, Connecticut",
+            "contract_number": "N0001919F0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price-incentive-fee, cost-plus-fixed-fee",
+        "description": "Non-recurring engineering for F-35 propulsion system under basic ordering agreement",
+        "base_contract_number": "N00019-17-G-0005",
+        "order_number": "N0001919F0001",
+        "modification_number": null,
+        "value_usd": 71407381,
+        "cumulative_value_usd": null,
+        "obligated_usd": 64600166,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Space Ground Systems Solutions LLC, West Melbourne, Florida, is awarded a $19,729,508 modification for task order N00173-17-F-6203 under previously awarded indefinite-delivery/indefinite-quantity contract N00173-15-D-2015 for spacecraft engineering, software, research and development services to the Naval Center for Space Technology. Work will be performed at the Naval Research Laboratory, Washington, District of Columbia (50 percent); and Space Ground Systems Solutions LLC, Melbourne, Florida (50 percent), and is expected to be competed July 1, 2020. Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,796,029 will be obligated at the time of award. These funds will expire at the end of the current fiscal year. The Naval Research Laboratory, Washington, District of Columbia, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0017317F6203",
+          "N0017315D2015"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 19729508.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1796029.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,796,029 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Research Laboratory, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Space Ground Systems Solutions LLC",
+            "location": "West Melbourne, Florida",
+            "contract_number": "N00173-17-F-6203",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Spacecraft engineering, software, research and development services to Naval Center for Space Technology",
+        "base_contract_number": "N00173-15-D-2015",
+        "order_number": "N00173-17-F-6203",
+        "modification_number": null,
+        "value_usd": 19729508,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1796029,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ocean Ships Inc., Houston, Texas, is awarded a $13,097,120 modification under previously awarded firm-fixed-price contract N3220517C3001 to exercise the first one-year option period for operation and maintenance of two USNS Gordon Class Surge Large, Medium-Speed Roll-On/Roll-Off vessels and two USNS Shughart Class Surge Large, Medium-Speed Roll-On/Roll-Off vessels. With all options exercised, it would bring the cumulative value of this contract to $220,028,462. Work will be performed at sea worldwide and is expected to be completed March 2020. If all options are exercised, work will continue through March 2023. Fiscal 2019 and availability of 2020 working capital contract funds in the amount of $13,097,120, and will not expire at the end of the fiscal years. The U.S. Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N3220517C3001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13097120.0,
+        "cumulative_value_usd": 220028462.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The U.S. Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Ocean Ships Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "N3220517C3001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "First one-year option period for operation and maintenance of two USNS Gordon Class and two USNS Shughart Class Surge LMSR vessels",
+        "base_contract_number": "N3220517C3001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13097120,
+        "cumulative_value_usd": 220028462,
+        "obligated_usd": 13097120,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:39Z",
-  "source": "file:2019-03-13.html"
+  "source": "file:2019-03-13.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:13:08Z"
+  }
 }

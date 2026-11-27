@@ -11,99 +11,807 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sevenson Environmental Services Inc.,* Niagara Falls, New York, was awarded a $99,000,000 firm-fixed-price contract for remedial action at the Raymark Superfund Site in Stamford, Connecticut. Bids were solicited via the internet with eight received. Work locations and funding will be determined with each order, with an estimated completion date of March 15, 2024. U.S. Army Corps of Engineers, Concord, Massachusetts, is the contracting activity (W912WJ-19-D-0012).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912WJ19D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-03-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Concord, Massachusetts",
+          "code": "W912WJ-19-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sevenson Environmental Services Inc.",
+            "location": "Niagara Falls, New York",
+            "contract_number": "W912WJ-19-D-0012",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Remedial action at the Raymark Superfund Site in Stamford, Connecticut",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, eight received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hensel Phelps Construction Co., Orlando, Florida, was awarded a $59,456,363 firm-fixed-price contract for construction of Advanced Munitions Technology complex. Bids were solicited via the internet with four received. Work will be performed in Eglin Air Force Base, Florida, with an estimated completion date of Aug. 11, 2021. Fiscal 2017 military construction funds in the amount of $59,456,363 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-19-C-0006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127819C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 59456363.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59456363.0,
+        "funding_text": "Fiscal 2017 military construction funds in the amount of $59,456,363 were obligated at the time of the award",
+        "completion_date": "2021-08-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-19-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Hensel Phelps Construction Co.",
+            "location": "Orlando, Florida",
+            "contract_number": "W91278-19-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of Advanced Munitions Technology complex at Eglin Air Force Base, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 59456363,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59456363,
+        "fms_countries": [],
+        "competition": "internet solicitation, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "SourceAmerica, Vienna, Virginia, was awarded a $24,969,056 firm-fixed-price contract to re-purpose legacy body armor vests into the newly-designed Modular Scalable Vest configuration. One bid was solicited with one bid received. Work will be performed in Lansing, Michigan; Miami, Florida; and Austin, Texas, with an estimated completion date of June, 30, 2020. Fiscal 2019 research, development, test and evaluation funds in the amount of $24,969,056 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QY-19-C-0043).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W911QY19C0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24969056.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24969056.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation funds in the amount of $24,969,056 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QY-19-C-0043"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "SourceAmerica",
+            "location": "Vienna, Virginia",
+            "contract_number": "W911QY-19-C-0043",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Re-purposing legacy body armor vests into the Modular Scalable Vest configuration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24969056,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24969056,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Wara Construction Company LLC, Tustin, California, was awarded a $22,206,641 firm-fixed-price contract for construction of unaccompanied officer's quarters for the Kuwait Ministry of Defense. Bids were solicited via the internet with nine received. Work will be performed in Camp Arifjan, Kuwait, with an estimated completion date of Dec. 9, 2021. Fiscal 2016 military construction funds in the amount of $22,206,641 were obligated at the time of the award. U.S. Army Corps of Engineers, Winchester, Virginia, is the contracting activity (W912ER-19-C-0004).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912ER19C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22206641.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22206641.0,
+        "funding_text": "Fiscal 2016 military construction funds in the amount of $22,206,641 were obligated at the time of the award",
+        "completion_date": "2021-12-09",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Winchester, Virginia",
+          "code": "W912ER-19-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Wara Construction Company LLC",
+            "location": "Tustin, California",
+            "contract_number": "W912ER-19-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of unaccompanied officer's quarters for the Kuwait Ministry of Defense at Camp Arifjan, Kuwait",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22206641,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22206641,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": "internet solicitation, nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "California Department of Rehabilitation, Sacramento, California, was awarded a $19,865,600 firm-fixed-price contract for full food service operations at Fort Irwin, California. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of March 31, 2024. U.S. Army Mission and Installation Contracting Command, Fort Sam Houston, Texas, is the contracting activity (W9124J-19-D-0006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9124J19D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19865600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-03-31",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Fort Sam Houston, Texas",
+          "code": "W9124J-19-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "California Department of Rehabilitation",
+            "location": "Sacramento, California",
+            "contract_number": "W9124J-19-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Full food service operations at Fort Irwin, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19865600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Anthony Allega Cement Contractor Inc., Cleveland, Ohio, was awarded a $13,770,342 firm-fixed-price contract for the repair of airfield paving, taxiways D & B2 and short runway at Wright-Patterson Air Force Base, Ohio. Bids were solicited via the internet with three received. Work will be performed in Fairborn, Ohio, with an estimated completion date of Dec. 3, 2020. Fiscal 2019 operations and maintenance, Army funds in the amount of $13,770,342 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-19-C-0013).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912QR19C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13770342.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13770342.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $13,770,342 were obligated at the time of the award",
+        "completion_date": "2020-12-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-19-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Anthony Allega Cement Contractor Inc.",
+            "location": "Cleveland, Ohio",
+            "contract_number": "W912QR-19-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair of airfield paving, taxiways D & B2 and short runway at Wright-Patterson Air Force Base, Ohio",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13770342,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13770342,
+        "fms_countries": [],
+        "competition": "internet solicitation, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Aerovironment,* Simi Valley, California, was awarded an $11,176,242 modification (P00014) to contract W31P4Q-17-C-0193 for All Up Rounds. Work will be performed in Simi Valley, California, with an estimated completion date of Sept. 30, 2019. Fiscal 2018 other procurement, Army funds in the amount of $11,176,242 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q17C0193"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 11176242.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11176242.0,
+        "funding_text": "Fiscal 2018 other procurement, Army funds in the amount of $11,176,242 were obligated at the time of the award",
+        "completion_date": "2019-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Aerovironment",
+            "location": "Simi Valley, California",
+            "contract_number": "W31P4Q-17-C-0193",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "All Up Rounds",
+        "base_contract_number": "W31P4Q-17-C-0193",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 11176242,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11176242,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sentient Digital Inc., doing business as Entrust Government Solutions,* of New Orleans, Louisiana, is being awarded a $49,000,000 indefinite-delivery/indefinite-quantity contract for information technology (IT) engineering support services. IT services in this contract will assist Military Sealift Command’s (MSC) Command, Control, Communications, And Computer Systems (C4S) Division (N6) in providing and sustaining Department of Defense (DoD) and Department of the Navy (DoN) compliant technical C4S solutions. Additionally, this contract will satisfy emerging requirements, enhance and develop IT capabilities in support of MSC’s mission, and assist in the development of governance to ensure IT capabilities align to MSC N6’s strategic business support plan, MSC N6’s technical architecture road maps, DoD, and DoN mandates. The solutions primarily satisfy emergent cyber security mandates and technical refreshes for end of life hardware and software. Work will be performed at Norfolk, Virginia, and is expected to be completed by April 2024. This contract includes a five-year ordering period. Fiscal 2019 Navy Working Capital funding in the amount of $10,000 will be obligated at the time of award. Funds will not expire at the end of the current fiscal year. This contract was a small business set-aside, with more than 10 companies solicited via the Federal Business Opportunities website, and 10 offers received. The U.S. Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220519D1003).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N3220519D1003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2019 Navy Working Capital funding in the amount of $10,000 will be obligated at the time of award",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The U.S. Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220519D1003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Sentient Digital Inc., doing business as Entrust Government Solutions",
+            "location": "New Orleans, Louisiana",
+            "contract_number": "N3220519D1003",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "IT engineering support services for Military Sealift Command C4S Division (N6)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "small business set-aside, 10 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Bethpage, New York, is being awarded a $45,529,117 cost-plus-fixed-fee and cost-only modification to a previously awarded contract (N00024-17-C-6311) for engineering services to support the Littoral Combat Ship Mission Modules Program. Engineering services will be provided to support the existing efforts of the Littoral Combat Ships Mission Modules Program. Incidental other direct cost items are also provided in support of said engineering services. Work will be performed Bethpage, New York (34 percent); Mayport, Florida (19 percent); San Diego, California (17 percent); Port Hueneme, California (14 percent); Pittsfield, Massachusetts (8 percent); Panama City, Florida (3 percent); Washington, District of Columbia (1 percent); Dahlgren, Virginia (1 percent); Newport, Rhode Island (1 percent); Baltimore, Maryland (1 percent); and various other locations less than one percent (1 percent), and is expected to be completed by March 2020. Fiscal 2019 operations and maintenance (Navy); fiscal 2019 other procurement (Navy); and fiscal 2019 research, development, test, and evaluation (Navy); and weapons procurement (Navy) funding in the amount of $24,194,392 will be obligated at time of award, and funds in the amount of $19,575,683 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C6311"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 45529117.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 43770075.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy); fiscal 2019 other procurement (Navy); and fiscal 2019 research, development, test, and evaluation (Navy); and weapons procurement (Navy) funding in the amount of $24,194,392 will be obligated at time of award, and funds in the amount of $19,575,683 will expire at the end of the current fiscal year",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Bethpage, New York",
+            "contract_number": "N00024-17-C-6311",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee and cost-only",
+        "description": "Engineering services for the Littoral Combat Ship Mission Modules Program",
+        "base_contract_number": "N00024-17-C-6311",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45529117,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24194392,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Ultra Electronics Ocean Systems, Braintree, Massachusetts, is being awarded a $27,978,119 cost-plus-fixed-fee and cost contract for the development and production of Next Generation Surface Search Radar qualification systems (NGSSR). The primary objective of NGSSR is to find a replacement for legacy systems due to current military threats and obsolescence issues. The contract aims to outline the requirements and approach for NGSSR development, production, integration, test, demonstration, product support, and systems engineering. The new NGSSR system will then replace all variants of the current AN/SPS-67, AN/SPS-73, BridgeMaster E series, and commercial-of-the-shelf radar systems. This contract includes options which, if exercised, would bring the cumulative value of this contract to $34,563,961. The primary objective of NGSSR is to find a replacement for legacy systems due to current military threats and obsolescence issues. The contract aims to outline the requirements and approach for NGSSR development, production, integration, test, demonstration, product support, and systems engineering. The new NGSSR system will then replace all variants of the current AN/SPS-67, AN/SPS-73, BridgeMaster E series, and commercial-of-the-shelf RADAR systems. Work will be performed in Chantilly, Virginia (58 percent); Wake Forest, North Carolina (39 percent); Braintree, Massachusetts (3 percent); and is expected to be complete by July 2021. Fiscal 2018 other procurement (Navy) funding in the amount of $5,500,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 15 U.S. Code 638(r)(4) (under the SBIR Phase III program/2018 National Defense Authorization Act). The Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California, is the contracting activity (N6339419C0007).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6339419C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27978119.0,
+        "cumulative_value_usd": 34563961.0,
+        "obligated_usd": 5500000.0,
+        "funding_text": "Fiscal 2018 other procurement (Navy) funding in the amount of $5,500,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-07",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Port Hueneme Division, Port Hueneme, California",
+          "code": "N6339419C0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Ultra Electronics Ocean Systems",
+            "location": "Braintree, Massachusetts",
+            "contract_number": "N6339419C0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and cost contract",
+        "description": "Development and production of Next Generation Surface Search Radar (NGSSR) qualification systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27978119,
+        "cumulative_value_usd": 34563961,
+        "obligated_usd": 5500000,
+        "fms_countries": [],
+        "competition": "not competitively procured (SBIR Phase III)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Linthicum Heights, Maryland, is being awarded an $8,542,569 modification to the cost-plus-fixed-fee portion of a previously awarded contract (M67854-16-C-0211) for software release and advanced electronic protection required to support ongoing Ground/Air Task Oriented Radar (G/ATOR) Gallium Nitride (GaN) efforts in support of Program Executive Office Land Systems, Quantico, Virginia. Work will be performed in Linthicum Heights, Maryland (65 percent); East Syracuse, New York (20 percent); Farmingdale, New York. (14 percent); and New Brighton, Minnesota (one percent), and is expected to be completed by April 22, 2021. Fiscal 2019 research, development, test and evaluation (Marine Corps) funds in the amount of $6,124,095 will be obligated at the time of award and will not expire at the end of the current year. The contract was not competitively procured, in accordance with 10 U.S. Code 2304(c)(1)(B), with only one proposal solicited and one proposal received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "M6785416C0211"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8542569.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6124095.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Marine Corps) funds in the amount of $6,124,095 will be obligated at the time of award and will not expire at the end of the current year",
+        "completion_date": "2021-04-22",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Linthicum Heights, Maryland",
+            "contract_number": "M67854-16-C-0211",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Software release and advanced electronic protection for Ground/Air Task Oriented Radar (G/ATOR) GaN efforts",
+        "base_contract_number": "M67854-16-C-0211",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8542569,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6124095,
+        "fms_countries": [],
+        "competition": "not competitively procured, one proposal solicited and received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Golden Manufacturing Inc.,* Golden, Mississippi, has been awarded a maximum $18,234,851 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Army Combat Uniform coats and the Improved Hot Weather Combat Uniform. This was a competitive acquisition with nine responses received. This is a two-year contract with no option periods. Location of performance is Mississippi, with a Sept. 14, 2021, performance completion date. Using military services are Army and Air Force. Type of appropriation is fiscal 2019 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-19-D-1138).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D1138"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18234851.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-19-D-1138"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Golden Manufacturing Inc.",
+            "location": "Golden, Mississippi",
+            "contract_number": "SPE1C1-19-D-1138",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Army Combat Uniform coats and Improved Hot Weather Combat Uniform",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18234851,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, nine responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Information Systems, Chantilly, Virginia; and Redondo Beach, California, has been awarded a $16,271,270 cost-plus-incentive-fee modification (P00079) to previously awarded contract FA8808-13-C-0001 for post operational support for the Enhanced Polar System Control and Planning Segment. This modification provides for factory expertise/support to ongoing operations, support transition from development to sustainment activities, and the delivery and installation of two software updates. Work will be performed in Redondo Beach, California, and is expected to be complete by January 2020. Fiscal 2019 research, development, test, and evaluation funds in the full amount are being obligated at the time of award. This modification brings the total cumulative face value of the contract to $221,970,679. The Space and Missile Systems Center, Military Satellite Communications Directorate, Los Angeles Air Force Base, California, is the contracting activity. (Awarded Jan. 31, 2019).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA880813C0001"
+        ],
+        "modification_numbers": [
+          "P00079"
+        ],
+        "is_modification": true,
+        "value_usd": 16271270.0,
+        "cumulative_value_usd": 221970679.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2019 research, development, test, and evaluation funds in the full amount are being obligated at the time of award",
+        "completion_date": "2020-01",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Military Satellite Communications Directorate, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp., Information Systems",
+            "location": "Chantilly, Virginia; and Redondo Beach, California",
+            "contract_number": "FA8808-13-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Post operational support for the Enhanced Polar System Control and Planning Segment",
+        "base_contract_number": "FA8808-13-C-0001",
+        "order_number": null,
+        "modification_number": "P00079",
+        "value_usd": 16271270,
+        "cumulative_value_usd": 221970679,
+        "obligated_usd": 16271270,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2019-01-31"
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "B.E.A.T. LLC., San Antonio, Texas, was competitively awarded a firm-fixed-price contract for a potential period of performance of 60 months and a total estimated value of $10,441,035 if all options are exercised. This award provides a non-personal services contract to provide Infrastructure Testing Center (ITC) management services and support for the day-to-day operations of all ITC infrastructure applications, networks, and environments. These services include systems management; system, application, and database administration; environment configuration, monitoring; management; and other support services. The place of performance is Joint Base San Antonio (Ft. Sam Houston), San Antonio, Texas. This contract is an acquisition under GSA’s IT Schedule 70, obligating $1,027,347 in fiscal 2019 operations and maintenance funds at time of award. Six quotes were received in response to the solicitation. The Defense Health Agency, Health Information Technology-Contracting Division, San Antonio, Texas, is the contracting activity (HT0015-19-F- 0038).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10441035.0,
+        "cumulative_value_usd": 10441035.0,
+        "obligated_usd": 1027347.0,
+        "funding_text": "This contract is an acquisition under GSA’s IT Schedule 70, obligating $1,027,347 in fiscal 2019 operations and maintenance funds at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Health Information Technology-Contracting Division, San Antonio, Texas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "B.E.A.T. LLC.",
+            "location": "San Antonio, Texas",
+            "contract_number": "HT0015-19-F- 0038",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Infrastructure Testing Center (ITC) management services and day-to-day operations support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10441035,
+        "cumulative_value_usd": 10441035,
+        "obligated_usd": 1027347,
+        "fms_countries": [],
+        "competition": "competitive; six quotes received; acquisition under GSA IT Schedule 70",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE INFORMATION SYSTEMS AGENCY",
       "kind": "announcement",
       "text": "Siemens Government Technologies Inc., Arlington, Virginia (HC1028-19-C0006), was awarded a competitive, single award, firm-fixed-price contract on March 15, 2019 for commercially available off-the-shelf brand-name Siemens software licenses and support in support of the Navy. The face value (and total cumulative face value) of this action is $8,324,661 funded by fiscal 2019 research, development, test and evaluation funds. Performance will be at a Navy facility in Norfolk, Virginia. Proposals were solicited via Federal Business Opportunities, and two proposals were received. The period of performance is March 15, 2019, through March 14, 2020. The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois, is the contracting activity (HC1028-19-C0006).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HC102819C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8324661.0,
+        "cumulative_value_usd": 8324661.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois",
+          "code": "HC1028-19-C0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Siemens Government Technologies Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "HC1028-19-C0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Commercially available off-the-shelf Siemens software licenses and support for the Navy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8324661,
+        "cumulative_value_usd": 8324661,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, single award; two proposals received via Federal Business Opportunities",
+        "award_date": "2019-03-15"
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Agile Defense Inc.,* Reston, Virginia, has been awarded a $7,157,890 modification (P00042) to previously awarded task order HR0011-15-F-0002 for unclassified information technology services. The modification brings the total cumulative face value of the task order to $139,054,004 from $131,896,114. Work will be performed in Arlington, Virginia, with an expected completion date of June 2019. Fiscal 2019 research and development funds in the amount of $7,157,890 are being obligated at time of award. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity.",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "HR001115F0002"
+        ],
+        "modification_numbers": [
+          "P00042"
+        ],
+        "is_modification": true,
+        "value_usd": 7157890.0,
+        "cumulative_value_usd": 139054004.0,
+        "obligated_usd": 7157890.0,
+        "funding_text": "Fiscal 2019 research and development funds in the amount of $7,157,890 are being obligated at time of award",
+        "completion_date": "2019-06",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Agile Defense Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Unclassified information technology services task order",
+        "base_contract_number": "HR0011-15-F-0002",
+        "order_number": null,
+        "modification_number": "P00042",
+        "value_usd": 7157890,
+        "cumulative_value_usd": 139054004,
+        "obligated_usd": 7157890,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:39Z",
-  "source": "file:2019-03-15.html"
+  "source": "file:2019-03-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:12:45Z"
+  }
 }

@@ -9,15 +9,104 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is being awarded a $13,898,620 cost-plus-fixed-fee modification (contract line item number 2800) to a previously-awarded contract (N00024-09-C-2104) for the planning and execution of USS Illinois (SSN 786) post-delivery work period. Electric Boat Corp. will perform planning and execution efforts including long-lead-time material procurement in preparation for the maintenance, repair, alterations, testing and other work on USS Illinois during its scheduled post-delivery work period. The work will be performed in Groton, Connecticut, and is scheduled to be completed by June 2017. Fiscal 2015 shipbuilding and conversion (Navy) funds in the amount of $9,898,620 will be obligated at the time of award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding, Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002409C2104"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13898620.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9898620.0,
+        "funding_text": "Fiscal 2015 shipbuilding and conversion (Navy) funds in the amount of $9,898,620 will be obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-06",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding, Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-09-C-2104",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Planning and execution of USS Illinois (SSN 786) post-delivery work period (CLIN 2800)",
+        "base_contract_number": "N00024-09-C-2104",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13898620,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9898620,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Tyonek Global Services Inc., Madison, Alabama, has been awarded a $9,071,595 firm-fixed-price contract for cyber operations formal training support. Contractor will provide course planning, technical writing, course development, instructor training and all other support necessary to support the field training unit. Work will be performed at Hurlburt Field, Florida; and Joint Base San Antonio - Lackland, Texas, and is expected to be complete by July 31, 2018. This award is the result of a sole-source acquisition. Fiscal 2017 operation and maintenance funds in the amount of $5,839,683 are being obligated at the time of award. The 38th Contracting Squadron, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8773-17-C-0006).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA877317C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9071595.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5839683.0,
+        "funding_text": "Fiscal 2017 operation and maintenance funds in the amount of $5,839,683 are being obligated at the time of award",
+        "completion_date": "2018-07-31",
+        "contracting_activity": {
+          "name": "The 38th Contracting Squadron, Tinker Air Force Base, Oklahoma",
+          "code": "FA8773-17-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Tyonek Global Services Inc.",
+            "location": "Madison, Alabama",
+            "contract_number": "FA8773-17-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Cyber operations formal training support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9071595,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5839683,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2017-02-15.html"
+  "source": "file:2017-02-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:53:53Z"
+  }
 }

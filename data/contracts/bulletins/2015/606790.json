@@ -11,75 +11,616 @@
       "agency": null,
       "kind": "announcement",
       "text": "Boeing Co., Mesa, Arizona, was awarded a $591,245,165 modification (P00003) to fixed-price-incentive contract W58RGZ-14-C-0018 to acquire 35 AH-64E Apache helicopters under the full rate production of Lot 5. Fiscal 2015 other procurement funds in the amount of $105,616,400 were obligated at the time of the award. Estimated completion date is July 31, 2015. Work will be performed in Mesa, Arizona. Army Contracting Command, Redstone Arsenal (Aviation), Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ14C0018"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 591245165.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 105616400.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $105,616,400 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal (Aviation), Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Boeing Co.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-14-C-0018",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive",
+        "description": "Modification to acquire 35 AH-64E Apache helicopters under the full rate production of Lot 5",
+        "base_contract_number": "W58RGZ-14-C-0018",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 591245165,
+        "cumulative_value_usd": null,
+        "obligated_usd": 105616400,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Coastal Environmental Group, Inc.*, Edgewood, New York (W912DR-15-D-0001); Argo Systems, LLC,* Hanover, Maryland (W912DR-15-D-0002); and the Dawson Charter Group, LLC,* San Antonio, Texas (W912DR-15-D-0003), were awarded a $15,000,000 firm-fixed-price, multi-year, multiple award task order contract for civil works construction projects. Funding and work location will be determined with each order, with an estimated completion date of Feb. 18, 2020. Bids were solicited via the Internet with three received. U.S. Army Corps of Engineers, Baltimore District, Baltimore, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912DR15D0001",
+          "W912DR15D0002",
+          "W912DR15D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-02-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore District, Baltimore, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Coastal Environmental Group, Inc.",
+            "location": "Edgewood, New York",
+            "contract_number": "W912DR-15-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Argo Systems, LLC",
+            "location": "Hanover, Maryland",
+            "contract_number": "W912DR-15-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Dawson Charter Group, LLC",
+            "location": "San Antonio, Texas",
+            "contract_number": "W912DR-15-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, multi-year, multiple award task order contract",
+        "description": "Civil works construction projects multiple award task order contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Great Lakes Dredge & Dock Co., LLC, Oak Brook, Illinois, was awarded a $10,859,800 firm-fixed-price contract for maintenance dredging: Baltimore Harbor and the York Spit Channel, Northampton County, Virginia, with an estimated completion date of July 30, 2015. Work will be performed in Cape Charles, Virginia. Bids were solicited via the Internet with three received. Fiscal 2015 other procurement funds in the amount of $10,859,800 are being obligated at the time of the award. U.S. Army Corps of Engineers, Norfolk District, Norfolk, Virginia, is the contracting activity (W91236-15-C-0033).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9123615C0033"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10859800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10859800.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $10,859,800 are being obligated at the time of the award",
+        "completion_date": "2015-07-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Norfolk District, Norfolk, Virginia",
+          "code": "W91236-15-C-0033"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge & Dock Co., LLC",
+            "location": "Oak Brook, Illinois",
+            "contract_number": "W91236-15-C-0033",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging of Baltimore Harbor and the York Spit Channel, Northampton County, Virginia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10859800,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10859800,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Mennie’s Machine Co.,* Mark, Illinois, was awarded a $9,497,250 firm-fixed-price contract for a maximum of 82,000 M4A1 heavy carbine barrels. Funding and work location will be determined with each order, with an estimated completion date of Feb. 17, 2018. Bids were solicited via the Internet with three received. Army Contracting Command, Tank and Automotive (Warren), Warren, Michigan, is the contracting activity (W56HZV-15-D-0028).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15D0028"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9497250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-02-17",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Tank and Automotive (Warren), Warren, Michigan",
+          "code": "W56HZV-15-D-0028"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Mennie's Machine Co.",
+            "location": "Mark, Illinois",
+            "contract_number": "W56HZV-15-D-0028",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maximum of 82,000 M4A1 heavy carbine barrels",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9497250,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Raytheon Southeast Asia Systems Co., Andover, Massachusetts, was awarded a $7,560,440 modification (P00005) to firm-fixed-price, foreign military sales contract W31P4Q-12-C-0142 (United Arab Emirates) to exercise option 2, technical support services for the Hawk missile program for the UAE. Other procurement funds in the amount of $7,560,440 were obligated at the time of the award. Estimated completion date is Feb. 28, 2016. Work will be performed in Andover, Massachusetts. Army Contracting Command, Redstone Arsenal (Missile), Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q12C0142"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 7560440.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7560440.0,
+        "funding_text": "Raytheon Southeast Asia Systems Co., Andover, Massachusetts, was awarded a $7,560,440 modification (P00005) to firm-fixed-price, foreign military sales contract W31P4Q-12-C-0142 (United Arab Emirates) to exercise option 2, technical support services for the Hawk missile program for the UAE. Other procurement funds in the amount of $7,560,440 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal (Missile), Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Southeast Asia Systems Co.",
+            "location": "Andover, Massachusetts",
+            "contract_number": "W31P4Q-12-C-0142",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, foreign military sales",
+        "description": "Option 2 exercise for technical support services for the Hawk missile program for the UAE",
+        "base_contract_number": "W31P4Q-12-C-0142",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 7560440,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7560440,
+        "fms_countries": [
+          "United Arab Emirates"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "SupplyCore, Inc.,* Rockford, Illinois, has been awarded a maximum $270,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for maintenance, repair and operations for the Tailored Logistics Support Prime Vendor Program for the Southwest Region Zone 1. This contract was a competitive acquisition and eight offers were received. This is a two-year base contract with two 18-month option periods. Location of performance is Illinois, with a Feb. 18, 2020, performance completion date. Using services are Army, Air Force, Navy, Marine Corps and other federal civilian agencies. Types of appropriation are fiscal 2015-2020 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-15-D-0014).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E315D0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 270000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-15-D-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "SupplyCore, Inc.",
+            "location": "Rockford, Illinois",
+            "contract_number": "SPE8E3-15-D-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Maintenance, repair and operations for the Tailored Logistics Support Prime Vendor Program, Southwest Region Zone 1",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 270000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Science Application International, Inc., Fairfield, New Jersey, has been awarded a maximum $247,500,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for maintenance, repair and operations for the Tailored Logistics Support Prime Vendor Program for the Southwest Region Zone 2. This contract was a competitive acquisition and eight offers were received. This is a two-year base contract with two 18-month option periods. Location of performance is New Jersey, with a Feb. 18, 2020, performance completion date. Using services are Army, Air Force, Navy, Marine Corps and other federal civilian agencies. Types of appropriation are fiscal 2015-2020 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-15-D-0015).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E315D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 247500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-15-D-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Science Application International, Inc.",
+            "location": "Fairfield, New Jersey",
+            "contract_number": "SPE8E3-15-D-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Maintenance, repair and operations for the Tailored Logistics Support Prime Vendor Program, Southwest Region Zone 2",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 247500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, eight offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Feb. 13, 2015, for US Foods Lexington, Lexington, South Carolina (SPE300-15-D-3146), for $35,500,000 was announced with an incorrect award amount. The correct dollar amount awarded is $61,500,000.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPE30015D3146"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "US Foods Lexington",
+            "location": "Lexington, South Carolina",
+            "contract_number": "SPE300-15-D-3146",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to the Feb. 13, 2015 announcement of US Foods Lexington contract; corrected award amount",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 61500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Core Tech-AMEC-SKEC, LLC, Honolulu, Hawaii, is being awarded $89,918,305 for firm-fixed-price task order JQ01under a previously awarded multiple award construction contract (N62742-10-D-1307) for construction of a hardened fuel systems maintenance hangar at Andersen Air Force Base, Guam. The facility will house multiple aircraft types and provide repairs, functionality checks, and inspections of aircraft fuel systems, fuel tanks, and related components in support of the Guam Strike mission. The work includes removal of existing pavement, site features, and utility relocation and incidental related work. The task order is incrementally funded with the first increment of $56,000,000 being allotted at the time of award. The second increment will be funded later in fiscal 2015 at $33,918,305. The task order also contains one unexercised option, which, if exercised, would increase cumulative task order value to $90,600,805. Work will be performed in Yigo, Guam, and is expected to be completed by March 2017. Fiscal 2012 military construction (Air Force) contract funds in the amount of $56,000,000 are obligated on this award and will not expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command, Marianas, Guam, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6274210D1307"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89918305.0,
+        "cumulative_value_usd": 90600805.0,
+        "obligated_usd": 56000000.0,
+        "funding_text": "Fiscal 2012 military construction (Air Force) contract funds in the amount of $56,000,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Marianas, Guam",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Core Tech-AMEC-SKEC, LLC",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N62742-10-D-1307",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Construction of hardened fuel systems maintenance hangar at Andersen Air Force Base, Guam (task order JQ01)",
+        "base_contract_number": "N62742-10-D-1307",
+        "order_number": "JQ01",
+        "modification_number": null,
+        "value_usd": 89918305,
+        "cumulative_value_usd": 90600805,
+        "obligated_usd": 56000000,
+        "fms_countries": [],
+        "competition": "three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "QinetiQ North America, Waltham, Massachusetts, is being awarded a $7,074,242 modification to a previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N00174-13-D-0007) to exercise option year two for post-production support under the Man Transportable Robotic System (MTRS) MK2 program. The MTRS MK2 provides the military explosive ordnance disposal technicians with a man-transportable capability to remotely perform reconnaissance. Work will be performed in Waltham, Massachusetts, and is expected to be completed by February 2016. Contract funds will not be obligated at time of award, and no funds will expire at the end of the current fiscal year. The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0017413D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7074242.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Contract funds will not be obligated at time of award, and no funds will expire at the end of the current fiscal year",
+        "completion_date": "2016-02",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "QinetiQ North America",
+            "location": "Waltham, Massachusetts",
+            "contract_number": "N00174-13-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Option year two exercise for post-production support under the Man Transportable Robotic System (MTRS) MK2 program",
+        "base_contract_number": "N00174-13-D-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7074242,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Cobham Life Support Systems, Inc., Davenport, Iowa, is being awarded a $7,000,000 not-to-exceed firm-fixed-price delivery order against a previously issued Basic Ordering Agreement (N00019-124-G-0007). This order provides for the procurement of 180 new carbon monoxide catalyst sieve bed sets; 500 retrofit carbon monoxide catalyst sieve bed Sets; 51 refurbished TTU-520 A/E test sets; and 1,208 labels in support of the F/A-18 C/D (Lot 13 and above), F/A-18 E/F, and EA-18G aircraft, including non-recurring engineering and associated technical data. Work will be performed in Davenport, Iowa, and is expected to be completed in January 2016. Fiscal 2015 aircraft procurement (Navy) and operations and maintenance (Navy) funds in the amount of $3,500,000 are being obligated, $340,769 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N00019124G0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000.0,
+        "funding_text": "Fiscal 2015 aircraft procurement (Navy) and operations and maintenance (Navy) funds in the amount of $3,500,000 are being obligated, $340,769 of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Cobham Life Support Systems, Inc.",
+            "location": "Davenport, Iowa",
+            "contract_number": "N00019-124-G-0007",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, not-to-exceed delivery order",
+        "description": "Carbon monoxide catalyst sieve bed sets, retrofit kits, refurbished TTU-520 test sets and labels for F/A-18 C/D, E/F and EA-18G aircraft",
+        "base_contract_number": "N00019-124-G-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3500000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Atlantic Diving Supply, Inc., Virginia Beach, Virginia, has been awarded an estimated $18,725,093 requirements-type, indefinite-delivery contract for Base Expeditionary Airfield Resources (BEAR) kitchens program. The BEAR kitchens are modular, deployable kitchens with the electrical and water systems to connect to the BEAR power grid and water distribution systems. The kitchens are used in deployed locations to feed military, civilian, and support members. Work will be performed at Virginia Beach, Virginia, and various deployed locations, and is expected to be completed by Feb. 19, 2017. This award is the result of a small business competitive acquisition with four offers received. No funds are being obligated at the time of award. Individual delivery orders will be issued for work required. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8533-15-D-0001).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA853315D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18725093.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2017-02-19",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8533-15-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Atlantic Diving Supply, Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "FA8533-15-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "requirements-type indefinite-delivery contract",
+        "description": "Base Expeditionary Airfield Resources (BEAR) kitchens program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18725093,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "small business competitive acquisition, four offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-02-19.html"
+  "source": "file:2015-02-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:16:44Z"
+  }
 }

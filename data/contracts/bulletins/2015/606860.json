@@ -9,21 +9,154 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "MedImmune Biologics Inc., Gaithersburg, Maryland, has been awarded a maximum $47,600,000 firm-fixed-price contract for influenza vaccine, nasal spray. This was a sole-source acquisition using justification 10 U.S.C. 2304(c)(1), Federal Acquisition Regulation 6.302-1. This is a one-year base contract with one option year. Locations of performance are Maryland and Pennsylvania, with a May 31, 2016, performance completion date. Using services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2015 through fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DP-15-D-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DP15D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DP-15-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "MedImmune Biologics Inc.",
+            "location": "Gaithersburg, Maryland",
+            "contract_number": "SPE2DP-15-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Influenza vaccine, nasal spray (one-year base with one option year)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1), FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Mission Systems and Training, Owego, New York, is being awarded $13,665,494 for cost-plus-fixed-fee delivery order 4010 against a previously issued basic ordering agreement (N00019-14-G-0019) for non-recurring efforts for software product improvement (SWPI) phase III in support of the MH-60S aircraft. This procurement will include integration and test of SWPI products on the Generation III and Generation V mission computers and incorporation of all SWPI requirements into the product line. Work will be performed in Owego, New York, and is expected to be completed in December 2015. Fiscal 2014 aircraft procurement (Navy) funds in the amount of $13,665,494 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13665494.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13665494.0,
+        "funding_text": "Fiscal 2014 aircraft procurement (Navy) funds in the amount of $13,665,494 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2015-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Mission Systems and Training",
+            "location": "Owego, New York",
+            "contract_number": "N00019-14-G-0019",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "Non-recurring software product improvement (SWPI) phase III for MH-60S aircraft",
+        "base_contract_number": "N00019-14-G-0019",
+        "order_number": "4010",
+        "modification_number": null,
+        "value_usd": 13665494,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13665494,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Nolin Rural Electric Cooperative, Elizabethtown, Kentucky, was awarded a $10,774,668 modification (P00099) to contract DABT23-01-C-0030 for electrical distribution system services, Ft. Knox, Kentucky, with an estimated completion date of May 31, 2016. Fiscal 2015 operations and maintenance (Army) funds in the amount of $9,638,075 were obligated at the time of the award. Army Contracting Command, Ft. Knox, Kentucky, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "DABT2301C0030"
+        ],
+        "modification_numbers": [
+          "P00099"
+        ],
+        "is_modification": true,
+        "value_usd": 10774668.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9638075.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Army) funds in the amount of $9,638,075 were obligated at the time of the award",
+        "completion_date": "2016-05-31",
+        "contracting_activity": {
+          "name": "Knox, Kentucky",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Nolin Rural Electric Cooperative",
+            "location": "Elizabethtown, Kentucky",
+            "contract_number": "DABT23-01-C-0030",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Electrical distribution system services, Ft. Knox, Kentucky",
+        "base_contract_number": "DABT23-01-C-0030",
+        "order_number": null,
+        "modification_number": "P00099",
+        "value_usd": 10774668,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9638075,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-06-01.html"
+  "source": "file:2015-06-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:04:32Z"
+  }
 }

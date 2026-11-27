@@ -12,63 +12,511 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Industries, Newport News Shipbuilding (HII-NNS) Inc., Newport News, Virginia, is being awarded a not-to-exceed $148,728,722 undefinitized fixed-price-incentive-firm target modification to previously awarded contract (N00024-16-C-2116) for the purchase of additional long-lead-time material in support of Enterprise (CVN 80). Work will be performed in Newport News, Virginia, and is expected to be completed by January 2024. Fiscal 2017 shipbuilding and conversion (Navy) funding in the amount of $148,728,722 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured, in accordance with Federal Acquisition Regulation 6.302-1(a)(2)(iii) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C2116"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 148728722.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 148728722.0,
+        "funding_text": "Fiscal 2017 shipbuilding and conversion (Navy) funding in the amount of $148,728,722 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2024-01",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Industries, Newport News Shipbuilding (HII-NNS) Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-16-C-2116",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized fixed-price-incentive-firm target modification",
+        "description": "Additional long-lead-time material in support of Enterprise (CVN 80)",
+        "base_contract_number": "N00024-16-C-2116",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 148728722,
+        "cumulative_value_usd": null,
+        "obligated_usd": 148728722,
+        "fms_countries": [],
+        "competition": "not competitively procured; only one responsible source (FAR 6.302-1(a)(2)(iii))",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Trijicon Inc.,* Wixom, Michigan, is being awarded $8,169,996 for delivery order M67854-17-F-1238 under a previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract (M67854-12-D-1000) for 28,092, TA31 rifle combat optics with M855 reticles. Work will be performed in Wixom, Michigan, and is expected to be completed by Sept. 28, 2018. Fiscal 2017 operations and maintenance (Marine Corps) funds in the amount of $8,169,996 will be obligated at the time of award and will expire at the end of the current fiscal year. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "M6785417F1238",
+          "M6785412D1000"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8169996.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8169996.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Marine Corps) funds in the amount of $8,169,996 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2018-09-28",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Trijicon Inc.",
+            "location": "Wixom, Michigan",
+            "contract_number": "M67854-17-F-1238",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "28,092 TA31 rifle combat optics with M855 reticles",
+        "base_contract_number": "M67854-12-D-1000",
+        "order_number": "M67854-17-F-1238",
+        "modification_number": null,
+        "value_usd": 8169996,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8169996,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "Correction: Multiple award contract announced Friday, July 14, listed one of the awardees incorrectly. Contractor's name is Logistics Systems Inc., vice Logistics Center Inc. All other information is correct.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Logistics Systems Inc.",
+            "location": null,
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to multiple award contract announced July 14, 2017: awardee name corrected from Logistics Center Inc. to Logistics Systems Inc.",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Booz Allen Hamilton, McLean, Virginia, has been awarded a $140,000,000 indefinite-delivery/indefinite-quantity, firm-fixed-price contract for Air Force business area process reengineering, performance improvement and change management projects, with shared interest across the Air Force and Department of Defense. Projects will be sponsored by a senior Air Force leader and endorsed by the Air Force Deputy Chief Management Officer. Work will be performed in McLean, Virginia, and is expected to be complete by July 17, 2022. This award is the result of a competitive acquisition, and seven offers were received. Fiscal 2017 funds in the amount of $217,404 are being obligated at time of award. Air Force District of Washington, Joint Base Andrews, Maryland, is the contracting activity (FA7014-17-D-5001).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA701417D5001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 140000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 217404.0,
+        "funding_text": "Fiscal 2017 funds in the amount of $217,404 are being obligated at time of award",
+        "completion_date": "2022-07-17",
+        "contracting_activity": {
+          "name": "Air Force District of Washington, Joint Base Andrews, Maryland",
+          "code": "FA7014-17-D-5001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton",
+            "location": "McLean, Virginia",
+            "contract_number": "FA7014-17-D-5001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Air Force business area process reengineering, performance improvement and change management projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 140000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 217404,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The KeyW Corp., Hanover, Maryland, has been awarded a $23,924,180 cost-plus-fixed-fee contract for the Research to Advance Comprehensive Exploitation of Radio Frequency (RF) Research and Development (R&D) program. This contract provides for the R&D of RF exploitation technology with innovative algorithmic approaches for dynamic and flexible sensing, capable of leveraging all available information to maximize sensing and exploitation performance, to address concurrent detection, tracking, imaging, and classification/identification of targets within contested and challenging environments with singular and distributed sensing architectures. Work will be performed in Severn, Maryland; North Andover, Maryland; and Beavercreek, Ohio. This award is the result of a competitive acquisition, and two offers were received. Fiscal 2017 research, development, test, and evaluation funds in the amount of $119,000 will be obligated at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-17-C-1005).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA865017C1005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 23924180.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 119000.0,
+        "funding_text": "Fiscal 2017 research, development, test, and evaluation funds in the amount of $119,000 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-17-C-1005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "The KeyW Corp.",
+            "location": "Hanover, Maryland",
+            "contract_number": "FA8650-17-C-1005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Research to Advance Comprehensive Exploitation of Radio Frequency (RF) Research and Development program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23924180,
+        "cumulative_value_usd": null,
+        "obligated_usd": 119000,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Textron Aviation Defense LLC, Wichita, Kansas, has been awarded an $8,789,035 undefinitized contract action (UCA) for the reconstitution of 15 aircraft in Iraq. This foreign military sales Acquisition Category III program provides the aforementioned the purchase of long-lead supplies required to reconstitute the aircraft for Iraq training. The work provided for under this UCA must be in place to start training the Iraq T-6A fleet no later than the second quarter of 2018 in order to meet critical F-16 pilot demand in 2019. Work will be performed at Inman Ali Air Base, Iraq. This contract involves foreign military sales to Iraq and is the result of a sole-source acquisition. Funding provided by Iraq in the amount of $8,789,035 is being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8617-17-C-6225).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA861717C6225"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8789035.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8789035.0,
+        "funding_text": "Funding provided by Iraq in the amount of $8,789,035 is being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8617-17-C-6225"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "AIR FORCE",
+        "awardees": [
+          {
+            "name": "Textron Aviation Defense LLC",
+            "location": "Wichita, Kansas",
+            "contract_number": "FA8617-17-C-6225",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Reconstitution of 15 aircraft in Iraq (long-lead supplies for Iraq T-6A training), foreign military sales",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8789035,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8789035,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Xerox Corp., Rosemont, Illinois, has been awarded a maximum $34,000,000 firm ‐ fixed ‐ price, indefinite ‐ delivery/indefinite ‐ quantity contract for black and white production equipment, maintenance, user training and device copy overages. This was a competitive acquisition with three responses received. This is a five ‐ year contract with no option periods. Locations of performance are within the contiguous U.S., with a July 17, 2022, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2017 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Contracting Services Office, Mechanicsburg, Pennsylvania (SP7000 ‐ 17 ‐ D ‐ 0002).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office, Mechanicsburg, Pennsylvania (SP7000 ‐ 17 ‐ D ‐ 0002)",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Xerox Corp.",
+            "location": "Rosemont, Illinois",
+            "contract_number": "SP7000-17-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Black and white production equipment, maintenance, user training and device copy overages",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Numet Machining Techniques,* Orange, Connecticut, has been awarded a maximum $22,635,424 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for F100 aircraft engine air compressor cases. This was a competitive acquisition with one offer received. This is a three-year contract with no option periods. Location of performance is Connecticut, with a July 18, 2020, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Oklahoma City, Oklahoma (SPRTA1-17-D-0005).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA117D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22635424.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Oklahoma City, Oklahoma",
+          "code": "SPRTA1-17-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Numet Machining Techniques",
+            "location": "Orange, Connecticut",
+            "contract_number": "SPRTA1-17-D-0005",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "F100 aircraft engine air compressor cases",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22635424,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Booz Allen Hamilton, McLean, Virginia, was awarded a $ 49,900,000 cost-plus-fixed-fee contract to provide Recovered Chemical Materiel Directorate program management, mission, and operational support. Bids were solicited via the Internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of July 12, 2022. U.S. Army Contracting Command, Aberdeen Proving Ground, is the contracting activity ( W911SR-17-D-0005).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W911SR17D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-07-12",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton",
+            "location": "McLean, Virginia",
+            "contract_number": "W911SR-17-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Recovered Chemical Materiel Directorate program management, mission, and operational support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "L-3 Communications EO/IR Inc.,** Santa Rosa, California, was awarded a $ 7,396,022 firm-fixed-price contract for procurement of six Wescam MX-15D sensor turrets with accessory components and support equipment. Bids were solicited via the Internet with one received. Work will be performed in Canada, with an estimated completion date of April 18, 2018. Fiscal 2017 other funds in the amount of $ 7,396,022 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity ( W58RGZ-17-C-0066).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17C0066"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7396022.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7396022.0,
+        "funding_text": "Fiscal 2017 other funds in the amount of $ 7,396,022 were obligated at the time of the award",
+        "completion_date": "2018-04-18",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Foreign military sales"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "agency": "ARMY",
+        "awardees": [
+          {
+            "name": "L-3 Communications EO/IR Inc.",
+            "location": "Santa Rosa, California",
+            "contract_number": "W58RGZ-17-C-0066",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of six Wescam MX-15D sensor turrets with accessory components and support equipment",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7396022,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7396022,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one bid received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:35Z",
-  "source": "file:2017-07-18.html"
+  "source": "file:2017-07-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:38:05Z"
+  }
 }

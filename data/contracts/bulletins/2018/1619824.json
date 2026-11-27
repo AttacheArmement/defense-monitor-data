@@ -11,99 +11,890 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Sierra Nevada Corp., Centennial, Colorado, has been awarded a ceiling $1,808,000,000 indefinite-delivery/indefinite quantity contract for potential procurement, sustainment, modifications, ferry, and related equipment for the A-29. Work will be performed at Moody Air Force Base, Georgia; and Kabul, Kandahar, and Mazari Sharif Air Bases, Afghanistan. Work is expected to be completed by Dec. 31, 2024. This contract involves foreign military sales to Afghanistan. This award is the result of a sole-source acquisition. This contract is funded by appropriated Afghanistan Security Forces funds. Funds in the amount of $115,478 are being obligated at the time of award on delivery order 0001 for a site survey in Afghanistan. The contracting activity is the Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio (FA8637-18-D-6003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA863718D6003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1808000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 115478.0,
+        "funding_text": "Funds in the amount of $115,478 are being obligated at the time of award on delivery order 0001 for a site survey in Afghanistan",
+        "completion_date": "2024-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8637-18-D-6003"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sierra Nevada Corp.",
+            "location": "Centennial, Colorado",
+            "contract_number": "FA8637-18-D-6003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite quantity contract (ceiling)",
+        "description": "Procurement, sustainment, modifications, ferry, and related equipment for the A-29",
+        "base_contract_number": null,
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 1808000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 115478,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin, Owego, New York, has been awarded an estimated $47,478,899 firm-fixed-price requirements contract for repair and overhaul services for the B-2 digital countermeasure receiver. Work will be performed in Owego, New York, and is expected to be completed Aug. 31, 2023. No funds will be obligated at the time of award, however, working capital funds will be obligated on the subsequent task orders. Air Force Sustainment Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8119-18-D-0004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA811918D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 47478899.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award, however, working capital funds will be obligated on the subsequent task orders",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8119-18-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Lockheed Martin",
+            "location": "Owego, New York",
+            "contract_number": "FA8119-18-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Repair and overhaul services for the B-2 digital countermeasure receiver",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 47478899,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $10,000,000 combination firm-fixed-price and cost-plus fixed-fee contract modification (P00006) to contract FA8119-14-D-0014 for multi-platform engineering services and support. Work will be performed in Oklahoma City, Oklahoma, and is expected to be completed Sept. 29, 2019. This award is the result of a sole-source acquisition. Fiscal 2019 working capital funds are being obligated on an order to take place directly after award of the subject modification. Total cumulative estimated face value of the contract will be $50,000,000. Tinker Air Force Base, Oklahoma City, Oklahoma, is the contracting activity (FA8119-14-D-0014).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA811914D0014"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": 50000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2019 working capital funds are being obligated on an order to take place directly after award of the subject modification",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Tinker Air Force Base, Oklahoma City, Oklahoma",
+          "code": "FA8119-14-D-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8119-14-D-0014",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "combination firm-fixed-price and cost-plus-fixed-fee",
+        "description": "Multi-platform engineering services and support",
+        "base_contract_number": "FA8119-14-D-0014",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 10000000,
+        "cumulative_value_usd": 50000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "360 Patriot Enterprises LLC,* Alexandria, Virginia (W15QKN-18-D-0122); Canvas Inc.,* Huntsville, Alabama (W15QKN-18-D-0123); Contracting Resources Group Inc.,* Baltimore, Maryland (W15QKN-18-D-0124); Quality Innovation Inc.,* Fredericksburg, Virginia (W15QKN-18-D-0125); Management Support Technologies Inc.,* Fredericksburg, Virginia (W15QKN-18-D-0126); CTRMG-GAPSI JV II LLC,* Fairfax, Virginia (W15QKN-18-D-0127); Branden Enterprises Inc.,* Knoxville, Tennessee (W15QKN-18-D-0128); Dynamic Systems Technology Inc.,* Fairfax, Virginia (W15QKN-18-D-0129); Alutiiq Global Solutions LLC,* Anchorage, Alaska (W15QKN-18-D-0130); RiVidium Inc.,* Manassas, Virginia (W15QKN-18-D-0131); Mission Services Inc.,* McLean, Virginia (W15QKN-18-D-0133); and Gemini Tech Services LLC,* Fort Worth, Texas (W15QKN-18-D-0134), will compete for each order of the $1,521,531,661 firm-fixed-price contract for recruiting, management and administrative support services for program executive office enterprise information systems and human resource solutions. Bids were solicited via the internet with 37 received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 3, 2028. U.S. Army Contracting Command, New Jersey, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN18D0122",
+          "W15QKN18D0123",
+          "W15QKN18D0124",
+          "W15QKN18D0125",
+          "W15QKN18D0126",
+          "W15QKN18D0127",
+          "W15QKN18D0128",
+          "W15QKN18D0129",
+          "W15QKN18D0130",
+          "W15QKN18D0131",
+          "W15QKN18D0133",
+          "W15QKN18D0134"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1521531661.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2028-09-03",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "360 Patriot Enterprises LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W15QKN-18-D-0122",
+            "markers": "*"
+          },
+          {
+            "name": "Canvas Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W15QKN-18-D-0123",
+            "markers": "*"
+          },
+          {
+            "name": "Contracting Resources Group Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "W15QKN-18-D-0124",
+            "markers": "*"
+          },
+          {
+            "name": "Quality Innovation Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "W15QKN-18-D-0125",
+            "markers": "*"
+          },
+          {
+            "name": "Management Support Technologies Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "W15QKN-18-D-0126",
+            "markers": "*"
+          },
+          {
+            "name": "CTRMG-GAPSI JV II LLC",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W15QKN-18-D-0127",
+            "markers": "*"
+          },
+          {
+            "name": "Branden Enterprises Inc.",
+            "location": "Knoxville, Tennessee",
+            "contract_number": "W15QKN-18-D-0128",
+            "markers": "*"
+          },
+          {
+            "name": "Dynamic Systems Technology Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W15QKN-18-D-0129",
+            "markers": "*"
+          },
+          {
+            "name": "Alutiiq Global Solutions LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W15QKN-18-D-0130",
+            "markers": "*"
+          },
+          {
+            "name": "RiVidium Inc.",
+            "location": "Manassas, Virginia",
+            "contract_number": "W15QKN-18-D-0131",
+            "markers": "*"
+          },
+          {
+            "name": "Mission Services Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "W15QKN-18-D-0133",
+            "markers": "*"
+          },
+          {
+            "name": "Gemini Tech Services LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W15QKN-18-D-0134",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Recruiting, management and administrative support services for program executive office enterprise information systems and human resource solutions",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1521531661,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 37 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Range Generation Next LLC, Dulles, Virginia, was awarded a $502,224,668 hybrid (cost, cost-plus-fixed-fee, and cost-plus-incentive-fee) contract for engineering and technical services. Bids were solicited via the internet with four received. Work will be performed in Huntsville, Alabama; and Kwajalein Atoll, Republic of the Marshall Islands, with an estimated completion date of Oct. 1, 2028. Fiscal 2018 research, development, test and evaluation funds in the amount of $1,264,665 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W9113M-18-C-0010).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9113M18C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 502224668.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1264665.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation funds in the amount of $1,264,665 were obligated at the time of the award",
+        "completion_date": "2028-10-01",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W9113M-18-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Range Generation Next LLC",
+            "location": "Dulles, Virginia",
+            "contract_number": "W9113M-18-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost, cost-plus-fixed-fee, and cost-plus-incentive-fee)",
+        "description": "Engineering and technical services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 502224668,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1264665,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 4 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "The Solution Foundry LLC,* Woodstock, Georgia, was awarded a $43,000,000 firm-fixed-price contract to provide environmental management system consulting services, training, planning requirements, budgeting, effective implementation, operation, and management review. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Sept. 3, 2023. U.S. Army Corps of Engineers, Tulsa, Oklahoma, is the contracting activity (W912BV-18-D-0015).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912BV18D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 43000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-09-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Tulsa, Oklahoma",
+          "code": "W912BV-18-D-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "The Solution Foundry LLC",
+            "location": "Woodstock, Georgia",
+            "contract_number": "W912BV-18-D-0015",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Environmental management system consulting services, training, planning requirements, budgeting, implementation, operation, and management review",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 2 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Hydraulics International Inc.*, Chatsworth, California, is awarded a $43,599,667 indefinite-delivery/indefinite-quantity contract for the procurement of up to 305 MHU-83D production units, truck, lift, aerial stores loaders for ordnance/store loading operations on AV-8B, F/A-18, AH-1W, AH-1Z, UH-1Y, and F-35 B/C aircraft in support of the Marine Corps. Work will be performed in Chatsworth, California, and is expected to be completed in September 2023. Fiscal 2018 other procurement (Navy) funds in the amount of $3,848,343 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was competitively procured via an electronic request for proposals; one offer was received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N68335-18-D-0009).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6833518D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 43599667.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3848343.0,
+        "funding_text": "Fiscal 2018 other procurement (Navy) funds in the amount of $3,848,343 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-09",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N68335-18-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Hydraulics International Inc.",
+            "location": "Chatsworth, California",
+            "contract_number": "N68335-18-D-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Procurement of up to 305 MHU-83D production units, truck-lift aerial stores loaders for ordnance loading on AV-8B, F/A-18, AH-1W, AH-1Z, UH-1Y, and F-35 B/C aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43599667,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3848343,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposals, 1 offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Fort Worth, Texas, was awarded $39,223,382 for modification P00006 to the previously awarded cost-plus-incentive-fee fiscal 2018 F-35 Lightning II Joint Strike Fighter annual sustainment contract (N00019-18-C-1041). This modification provides for additional software sustainment and flight test support for Air Systems used by theAir Force, Marine Corps, Navy, and non-Department of Defense (DoD) participants. Services to be provided include support to maintain, update, release, and deliver air systems software, as well as support for F-35 flight test operations. Work will be performed in Patuxent River, Maryland (43 percent); Edwards Air Force Base, California (41 percent); and Fort Worth, Texas (16 percent), and is expected to be completed in April 2019. Fiscal 2018 operations and maintenance (Navy, Marine Corps, Air Force) funds; and non-DoD participant funds in the amount of $39,223,382 will be obligated at time of award; $31,429,694 of which will expire at the end of the current fiscal year. This contract combines purchases for the Air Force ($15,714,454; 40.06 percent); Marine Corps ($7,857,620; 20.03 percent); Navy ($7,857,620; 20.03 percent); and non-DoD participants ($7,793,688; 19.88 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity. (Awarded Aug. 31, 2018)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1041"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 39223382.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39223382.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy, Marine Corps, Air Force) funds; and non-DoD participant funds in the amount of $39,223,382 will be obligated at time of award; $31,429,694 of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-18-C-1041",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee annual sustainment contract",
+        "description": "Fiscal 2018 F-35 Lightning II Joint Strike Fighter software sustainment and flight test support",
+        "base_contract_number": "N00019-18-C-1041",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 39223382,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39223382,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2018-08-31"
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Woods Hole Oceanographic Institution, Woods Hole, Massachusetts, is being awarded $37,524,183 for cost reimbursement modification P00001 to its charter party agreement under previously awarded contract N00014-17-L-0354 for research vessel Atlantis (AGOR 25) mid-life re-fit and overhaul. The charter party agreement requires the charterer to perform such major equipment replacement, vessel repair, or upgrade work as may be directed. The charterer will be performing the work and will be obtaining reimbursement pursuant to this modification to the charter party agreement. Work will be performed at a U.S. shipyard yet to be determined (92 percent); and the contractor’s facility at Woods Hole, Massachusetts (8 percent), and is expected to be completed Dec. 31, 2021. Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $19,726,408 will be obligated at the time of award, and will expire at end of current fiscal year. The Office of Naval Research, Arlington, Virginia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001417L0354"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 37524183.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19726408.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $19,726,408 will be obligated at the time of award, and will expire at end of current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Woods Hole Oceanographic Institution",
+            "location": "Woods Hole, Massachusetts",
+            "contract_number": "N00014-17-L-0354",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost reimbursement charter party agreement",
+        "description": "Research vessel Atlantis (AGOR 25) mid-life re-fit and overhaul",
+        "base_contract_number": "N00014-17-L-0354",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 37524183,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19726408,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Integrated Defense Systems, Tewksbury, Massachusetts, is awarded a $17,607,696 firm-fixed-price, cost-plus-fixed-fee modification to a previously awarded contract (N00024-10-C-5126) for AN/SPY-3 (V)1 radar equipment conversion and restoration in support of the Zumwalt class combat systems program office. Work will be performed in Andover, Massachusetts (84 percent); Portsmouth, Rhode Island (13 percent); and McKinney, Texas (3 percent), and is expected to be completed by June 2021. Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $15,000,000 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002410C5126"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17607696.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000000.0,
+        "funding_text": "Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $15,000,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Raytheon Integrated Defense Systems",
+            "location": "Tewksbury, Massachusetts",
+            "contract_number": "N00024-10-C-5126",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "AN/SPY-3 (V)1 radar equipment conversion and restoration for the Zumwalt class combat systems program office",
+        "base_contract_number": "N00024-10-C-5126",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17607696,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DRS Consolidated Controls Inc., Bridgeport, Connecticut, is awarded an $11,844,365 cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the procurement of weapons elevator and stores elevator electromechanical actuator controllers, actuator digital interfaces, associated equipment, and support services in support of the Naval Surface Warfare Center, Philadelphia Division’s Advanced Weapons Elevator program. Work will be performed in Bridgeport, Connecticut, and is expected to be completed by August 2023. Fiscal 2018 other procurement (Navy) funding in the amount of $124,944 will be obligated at time of award via the first delivery order and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity (N64498-18-D-0013).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6449818D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11844365.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 124944.0,
+        "funding_text": "Fiscal 2018 other procurement (Navy) funding in the amount of $124,944 will be obligated at time of award via the first delivery order and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-08",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": "N64498-18-D-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "DRS Consolidated Controls Inc.",
+            "location": "Bridgeport, Connecticut",
+            "contract_number": "N64498-18-D-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Weapons elevator and stores elevator electromechanical actuator controllers, actuator digital interfaces, and support services for the Advanced Weapons Elevator program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11844365,
+        "cumulative_value_usd": null,
+        "obligated_usd": 124944,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Foster-Miller Inc., Waltham, Massachusetts, is awarded a $10,878,416 firm-fixed-price modification to previously awarded contract N00174-16-D-0001 to exercise an option for post-production support under the Man Transportable Robotic System (MTRS) MK2 robotic systems program. Post-production support includes depot level repair services, quality assurance, metrics tracking and reporting, Catalog Ordering Logistics Tracking System data entry and the implementation of configuration management changes and engineering enhancements to support the MTRS MK 2 series. Work will be performed in Waltham, Massachusetts, and is expected to be completed by August 2019. No funding is obligated at time of award. The Naval Surface Warfare Center Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0017416D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10878416.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding is obligated at time of award",
+        "completion_date": "2019-08",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Foster-Miller Inc.",
+            "location": "Waltham, Massachusetts",
+            "contract_number": "N00174-16-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price modification",
+        "description": "Post-production support option exercise for the Man Transportable Robotic System (MTRS) MK2 robotic systems program",
+        "base_contract_number": "N00174-16-D-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10878416,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Advanced Technology International, Summerville, South Carolina (N00174-18-D-0009); and PAE National Security Solutions LLC, Fredericksburg, Virginia (N00174-18-D-0008), are awarded modifications to a previously awarded cost-plus-fixed-fee, indefinite-delivery/indefinite quantity multiple award contract to exercise option one for support services for the Demonstration and Assessment Team. Advanced Technology International will be awarded an $8,613,209 modification, which brings the cumulative value of their contract to $17,070,124. PAE National Security Solutions Inc. will be awarded an $8,170,700 modification, which brings the cumulative value of their contract to $16,185,386. This requirement will provide support services to the Demonstration and Assessment Team for coordination of operation forces to include; warfighter workshops and other engagement activities; preparation and facilitation of technology demonstration and assessment planning and readiness meetings; analysis and reporting of warfighting/warfighter inputs and concepts. Each task order will be competed amongst multiple award contract holders, and locations will be dependent upon each awarded task order. Work is expected to be completed by September 2019. No contract funds are being obligated at the time of this action. The Naval Surface Warfare Center Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0017418D0009",
+          "N0017418D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8613209.0,
+        "cumulative_value_usd": 17070124.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No contract funds are being obligated at the time of this action",
+        "completion_date": "2019-09",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Advanced Technology International",
+            "location": "Summerville, South Carolina",
+            "contract_number": "N00174-18-D-0009",
+            "markers": null
+          },
+          {
+            "name": "PAE National Security Solutions LLC",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "N00174-18-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite quantity multiple award contract",
+        "description": "Option one exercise for support services to the Demonstration and Assessment Team (Naval Surface Warfare Center Indian Head EOD Technology Division)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8613209,
+        "cumulative_value_usd": 17070124,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Serco Inc., Reston, Virginia, is awarded an $8,302,798 cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Close-In Weapons System (CIWS) waterfront installation support. This contract will provide support in performing the functions of an alteration installation team with the installation of ship alterations, ship change documents, and ordnance alterations as related to the CIWS on Navy, Army, Coast Guard and Foreign Military Sales vessels. The contract consists of a one-year base period and four one-year option periods. If all options are exercised, the cumulative contract value will be $51,227,112. Work will be performed in Norfolk, Virginia (41 percent); San Diego, California (30 percent); Everett, Washington (6 percent); Mayport, Florida (6 percent); Yokosuka, Japan (6 percent); Pearl Harbor, Hawaii (5 percent); Jubail & Jeddah, Saudi Arabia (4 percent); Rota, Spain (1 percent); and one location less than one percent, and is expected to be completed by August 2023. Fiscal 2018 working capital (Navy) funding in the amount of $10,000 will be obligated on the first delivery order at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with one offer received. The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity (N00174-18-D-0018).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0017418D0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8302798.0,
+        "cumulative_value_usd": 51227112.0,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2018 working capital (Navy) funding in the amount of $10,000 will be obligated on the first delivery order at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-08",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": "N00174-18-D-0018"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Serco Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00174-18-D-0018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Close-In Weapons System (CIWS) waterfront installation support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8302798,
+        "cumulative_value_usd": 51227112,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc. (GA-ASI), Poway, California, was awarded a $50,000 minimum, $15,000,000 maximum, sole source Indefinite-delivery/indefinite quantity contract (H92403-18-D-0006) with firm-fixed-price and cost-plus-fixed-fee contract line items for integration and testing support for Medium Altitude, Long Endurance Tactical (MALET) MQ-9 and MQ-1C Special Operations Forces peculiar (SOF-p) modifications; procurement of GA-ASI developed and produced aircraft modification kits; and analysis and studies to inform future decisions on potential MALET MQ-9 and MQ-1C SOF-p modifications. Fiscal 2018 operations and maintenance funds in the amount of $482,441 are being obligated at time of award. The work will be performed in Poway, and is expected to be completed by September 2023. U.S. Special Operations Command, Tampa, Florida, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "H9240318D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 50000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 482441.0,
+        "funding_text": "Fiscal 2018 operations and maintenance funds in the amount of $482,441 are being obligated at time of award",
+        "completion_date": "2023-09",
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command, Tampa, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc. (GA-ASI)",
+            "location": "Poway, California",
+            "contract_number": "H92403-18-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite quantity, firm-fixed-price and cost-plus-fixed-fee contract line items",
+        "description": "Integration and testing support, aircraft modification kits, and studies for MALET MQ-9 and MQ-1C SOF-peculiar modifications",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 482441,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Chenega Infinity LLC,* Chantilly, Virginia, was awarded an $8,244,812, firm-fixed-price, cost, labor hour contract, excluding unexercised options, for physical security support services. This contract provides for physical security support services in developing, implementing, maintaining, and continuously improving programs that complement the agency mission; facilitate the secure and successful accomplishments of the Security and Intelligence Directorate mission; and that fully comply with public law, national policy, applicable executive orders, and Department of Defense directives, instructions, and regulations. Work will be performed in Arlington, Virginia, with an expected completion date of December 2019. Fiscal 2018 research and development funds in the amount of $2,400,000 are being obligated at time of award. This contract was a competitive acquisition, and 11 offers were received. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001118C0151).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "HR001118C0151"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8244812.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2400000.0,
+        "funding_text": "Fiscal 2018 research and development funds in the amount of $2,400,000 are being obligated at time of award",
+        "completion_date": "2019-12",
+        "contracting_activity": {
+          "name": "The Defense Advanced Research Projects Agency, Arlington, Virginia",
+          "code": "HR001118C0151"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Chenega Infinity LLC",
+            "location": "Chantilly, Virginia",
+            "contract_number": "HR001118C0151",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost, labor hour contract",
+        "description": "Physical security support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8244812,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2400000,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 11 offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:38Z",
-  "source": "file:2018-09-04.html"
+  "source": "file:2018-09-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:41:50Z"
+  }
 }

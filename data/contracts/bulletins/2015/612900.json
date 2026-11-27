@@ -12,93 +12,787 @@
       "agency": "SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Inc. (H92222-15-D-0022) and CACI-WGI Inc. (H92222-15-D-0025), Tampa, Florida; Raytheon Blackbird Technologies Inc.(H92222-15-D-0023), Herndon, Virginia; and MacAulay-Brown Inc. (H92222-15-D-0024), Dayton, Ohio, were awarded an indefinite-delivery/indefinite-quantity, multiple-award contract with a combined ceiling value of $900,000,000 for Special Operations Command Wide Mission Support services. The place of performance is multiple locations both in the U.S. and overseas. The anticipated period of performance is not to exceed five years. Each company will be awarded a $2,500 minimum guarantee, and additional funding will be obligated on individual task orders. Fiscal 2015 operations and maintenance funds shall be used to satisfy the minimum of the contract The contracts were competitively awarded using Federal Acquisition Regulation Part 15 procedures. Seventeen proposals were received. U.S. Special Operations Command is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "H9222215D0022",
+          "H9222215D0025",
+          "H9222215D0023",
+          "H9222215D0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 900000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2500.0,
+        "funding_text": "Each company will be awarded a $2,500 minimum guarantee, and additional funding will be obligated on individual task orders",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "U.S. Special Operations Command",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "H92222-15-D-0022",
+            "markers": null
+          },
+          {
+            "name": "CACI-WGI Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "H92222-15-D-0025",
+            "markers": null
+          },
+          {
+            "name": "Raytheon Blackbird Technologies Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "H92222-15-D-0023",
+            "markers": null
+          },
+          {
+            "name": "MacAulay-Brown Inc.",
+            "location": "Dayton, Ohio",
+            "contract_number": "H92222-15-D-0024",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, multiple-award contract",
+        "description": "Special Operations Command Wide Mission Support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 900000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, FAR Part 15; 17 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "PAE Applied Technologies LLC, doing business as Defense Support Services LLC, Marlton, New Jersey, is being awarded a $68,351,721 indefinite-delivery/indefinite-quantity contract for organizational, selected intermediate and limited depot level maintenance services for F-5 F/N aircraft. Work will be performed in Naval Air Station (NAS) Key West, Florida (40 percent); NAS Fallon, Nevada (30 percent); and Marine Corps Air Station, Yuma, Arizona (30 percent), and is expected to be completed in July 2016. Fiscal 2015 operations and maintenance (Navy Reserves) funds in the amount of $4,000,000 are being obligated at time of award, all of which will expire at the end of the current fiscal year. This contract was competitively procured via an electronic request for proposals, and six offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-15-C-0007).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N0042115C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 68351721.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4000000.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Navy Reserves) funds in the amount of $4,000,000 are being obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-07",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00421-15-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "PAE Applied Technologies LLC, doing business as Defense Support Services LLC",
+            "location": "Marlton, New Jersey",
+            "contract_number": "N00421-15-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Organizational, selected intermediate and limited depot level maintenance services for F-5 F/N aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 68351721,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4000000,
+        "fms_countries": [],
+        "competition": "Competitive, electronic request for proposals; six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Engineering Services LLC, Linthicum, Maryland (N65236-15-D-4804); CSSI Inc., Washington, District of Columbia (N65236-15-D-4805); and SERCO Inc., Reston, Virginia (N65236-15-D-4806), are each being awarded an indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, with provisions for firm-fixed-price task orders, performance-based multiple award contract. The cumulative, estimated ceiling value of the base year is $38,028,800. The contracts are for the procurement of air traffic control (ATC) engineering and technical support services including specialized ATC engineering, specialized ATC technical and integration support, configuration data management, and systems maintenance for a broad range of complex ATC, meteorology and oceanography and aviation command, control, communications, computers, combat, intelligence, surveillance, and reconnaissance systems. These contracts include options, which if exercised, would bring the cumulative ceiling value of these contracts to an estimated $199,901,400. Work will be performed at multiple locations in the continental U.S., Southwest Asia, Southeast Asia and Africa. Work is expected to be completed by July 2016. If all options are exercised, work could continue until July 2020. Space and Naval Warfare Systems Command Systems Center Atlantic Navy working capital funds in the amount of $25,000 will be obligated at the time of award as the minimum guarantee and will be split among the three awardees; these funds will not expire at the end of the current fiscal year. This contract action establishes a potential ceiling value in which funds are obligated on individual task orders. The multiple award contracts were competitively procured by full and open competition via the Space and Naval Warfare Systems Center e-Commerce Central website and the Federal Business Opportunities website, with six offers received. Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6523615D4804",
+          "N6523615D4805",
+          "N6523615D4806"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38028800.0,
+        "cumulative_value_usd": 38028800.0,
+        "obligated_usd": 25000.0,
+        "funding_text": "Space and Naval Warfare Systems Command Systems Center Atlantic Navy working capital funds in the amount of $25,000 will be obligated at the time of award as the minimum guarantee and will be split among the three awardees; these funds will not expire at the end of the current fiscal year This contract action establishes a potential ceiling value in which funds are obligated on individual task orders",
+        "completion_date": "2016-07",
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Engineering Services LLC",
+            "location": "Linthicum, Maryland",
+            "contract_number": "N65236-15-D-4804",
+            "markers": null
+          },
+          {
+            "name": "CSSI Inc.",
+            "location": "Washington, District of Columbia",
+            "contract_number": "N65236-15-D-4805",
+            "markers": null
+          },
+          {
+            "name": "SERCO Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N65236-15-D-4806",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, with provisions for firm-fixed-price task orders, performance-based multiple award contract",
+        "description": "Air traffic control (ATC) engineering and technical support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38028800,
+        "cumulative_value_usd": 199901400,
+        "obligated_usd": 25000,
+        "fms_countries": [],
+        "competition": "Full and open competition; six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a not-to-exceed $37,538,800 undefinitized contract action modification for a delivery order (5507) against a previously issued basic ordering agreement (N00019-14-G-0020). This modification authorizes engineering change proposals for air vehicle retrofit modifications to be incorporated into designated aircraft and supporting subsystems in support of the F-35 aircraft Block 3F requirements. This modification also includes retrofit modification kits, installation, and labor to incorporate the modification kits. Work will be performed in Fort Worth, Texas (90 percent); Marietta, Georgia (9 percent); and Palmdale, California (1 percent), and is expected to be completed in August 2018. Fiscal 2014 and 2015 aircraft procurement and research, development, test and evaluation (Navy, Marine Corps, and Air Force) funds in the amount of $13,093,580 are being obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37538800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13093580.0,
+        "funding_text": "Fiscal 2014 and 2015 aircraft procurement and research, development, test and evaluation (Navy, Marine Corps, and Air Force) funds in the amount of $13,093,580 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-14-G-0020",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action, delivery order against basic ordering agreement",
+        "description": "Engineering change proposals and retrofit modifications for F-35 aircraft Block 3F requirements",
+        "base_contract_number": "N00019-14-G-0020",
+        "order_number": "5507",
+        "modification_number": null,
+        "value_usd": 37538800,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13093580,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bristol General Contractors LLC,* Anchorage, Alaska, is being awarded a $17,923,026 firm-fixed-price task order 0002 at under a multiple award construction contract for repairs to the aircraft maintenance hangar building 3757, at Naval Air Station, Kingsville, Texas. The work to be performed provides for repair deficiencies in the building. Exterior repairs include replacement of roof, repairs to roof decking, sealing roof penetrations and repair roof drains. The interiors of the hangar bays will be cleaned and painted. Other repairs include structural, plumbing, heating, ventilation and air conditioning, fire protection and electrical system deficiencies in the hangar. Work will be performed in Kingsville, Texas, and is expected to be completed by July 2017. Fiscal 2015 operation and maintenance, (Navy) contract funds in the amount of $17,923,026 are obligated at the time of award and will expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity (N69450-13-D-1771).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6945013D1771"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17923026.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17923026.0,
+        "funding_text": "Fiscal 2015 operation and maintenance, (Navy) contract funds in the amount of $17,923,026 are obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": "N69450-13-D-1771"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Bristol General Contractors LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N69450-13-D-1771",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order under multiple award construction contract",
+        "description": "Repairs to aircraft maintenance hangar building 3757, Naval Air Station Kingsville",
+        "base_contract_number": "N69450-13-D-1771",
+        "order_number": "0002",
+        "modification_number": null,
+        "value_usd": 17923026,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17923026,
+        "fms_countries": [],
+        "competition": "Three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Green Contracting Company Inc.,* Baltimore, Maryland, is being awarded an $8,847,346 firm-fixed-price contract for the replacement of Cooling Tower, Building 77H, at the Philadelphia Naval Business Center. The work to be performed provides for construction that shall provide a 25,000 gallons/minute fiberglass reinforced plastic cooling tower, including cooling water distribution system; process control system; concrete foundations; concrete piles; concrete water basin; steel pipe bridge to support fire suppression system; relocate existing electrical utility duct bank; and site civil/mechanical utilities. Site demolition and improvements include demolition of existing 25,000 gallons/minute wood cooling tower, including concrete foundation, and concrete basin. Work will be performed in Philadelphia, Pennsylvania, and is expected to be completed by September 2016. Fiscal 2015 Navy working capital contract funds in the amount of $8,847,346 will be obligated at time of award and will expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website with three proposals received. The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia, is the contracting activity (N40085-15-C-7516).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008515C7516"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8847346.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8847346.0,
+        "funding_text": "Fiscal 2015 Navy working capital contract funds in the amount of $8,847,346 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2016-09",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia",
+          "code": "N40085-15-C-7516"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Green Contracting Company Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "N40085-15-C-7516",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Replacement of Cooling Tower, Building 77H, Philadelphia Naval Business Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8847346,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8847346,
+        "fms_countries": [],
+        "competition": "Competitive, Navy Electronic Commerce Online; three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "PricewaterhouseCoopers Public Sector LLP, McLean, Virginia, is being awarded a $7,543,502 firm-fixed-price contract for real property audit preparation support. This effort is to provide a review of an estimated 300 properties at Marine Corps Base Camp Mujuk, Korea; and an estimated 6,560 properties within Marine Corps Base Camp Butler’s jurisdiction at Okinawa and Shizuoka (Camp Fuji), Japan, and perform critical corrective actions required to assist the installations to become audit ready. This contract includes options which, if exercised, would bring the cumulative value of this contract to $7,543,502. Work will be performed Shizuoka and Okinawa, Japan (90 percent); and in Mujuk, Korea (10 percent), and work is expected to be completed by February 2017. Fiscal 2015 operation and maintenance funds in the amount of $6,013,762 will be obligated at the time of contract award. Contract funds in the amount of $6,013,762 will expire at the end of the current fiscal year. This contract was competitively procured. Proposals were solicited via the One Acquisition Solution for Integrated Services through the General Service Administration. Three offers were received. The Marine Corps Installation Pacific Regional Contracting Office, Okinawa, Japan, is the contracting activity (M67400-15-F-0105).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "M6740015F0105"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7543502.0,
+        "cumulative_value_usd": 7543502.0,
+        "obligated_usd": 6013762.0,
+        "funding_text": "Fiscal 2015 operation and maintenance funds in the amount of $6,013,762 will be obligated at the time of contract award",
+        "completion_date": "2017-02",
+        "contracting_activity": {
+          "name": "The Marine Corps Installation Pacific Regional Contracting Office, Okinawa, Japan",
+          "code": "M67400-15-F-0105"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "PricewaterhouseCoopers Public Sector LLP",
+            "location": "McLean, Virginia",
+            "contract_number": "M67400-15-F-0105",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Real property audit preparation support, Marine Corps Base Camp Mujuk, Camp Butler Okinawa and Shizuoka, Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7543502,
+        "cumulative_value_usd": 7543502,
+        "obligated_usd": 6013762,
+        "fms_countries": [],
+        "competition": "Competitive via GSA One Acquisition Solution for Integrated Services; three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is being awarded a $6,737,083 cost-plus-fixed-fee task order under previously awarded basic ordering agreement N00024-14-G-2114 for repair of the number two ship’s service turbine generator on USS Nimitz (CVN 68). Huntington Ingalls Inc. will provide management, labor and support services. Work will be performed in Bremerton, Washington, and is expected to be completed by October 2015. Fiscal 2015 operations and maintenance (Navy) funding in the amount of $6,737,083 will be obligated at time of award and will expire at the end of the current fiscal year. Puget Sound Naval Shipyard and Intermediate Maintenance Facility, Bremerton, Washington, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0002414G2114"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 6737083.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6737083.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Navy) funding in the amount of $6,737,083 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2015-10",
+        "contracting_activity": {
+          "name": "Puget Sound Naval Shipyard and Intermediate Maintenance Facility, Bremerton, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-14-G-2114",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee task order under basic ordering agreement",
+        "description": "Repair of number two ship's service turbine generator on USS Nimitz (CVN 68)",
+        "base_contract_number": "N00024-14-G-2114",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 6737083,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6737083,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BAE Systems, Rockville, Maryland, has been awarded a $48,700,246 fixed-price level of effort modification (P00073) to exercise an option on previously awarded contract FA8214-13-C-0001 for integration support. Contractor will provide systems engineering, technical assistance support, training, and development in performing integration, sustaining engineering and program management support functions for the Minuteman III weapon system. Work will be performed at Hill Air Force Base, Utah, and is expected to be complete by July 31, 2016. Fiscal 2015 operations and maintenance and research and development funds in the amount of $16,723,542 are being obligated at the time of award. Air Force Nuclear Weapons Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA821413C0001"
+        ],
+        "modification_numbers": [
+          "P00073"
+        ],
+        "is_modification": true,
+        "value_usd": 48700246.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16723542.0,
+        "funding_text": "Fiscal 2015 operations and maintenance and research and development funds in the amount of $16,723,542 are being obligated at the time of award",
+        "completion_date": "2016-07-31",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "BAE Systems",
+            "location": "Rockville, Maryland",
+            "contract_number": "FA8214-13-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "fixed-price level of effort modification",
+        "description": "Option exercise for integration support on Minuteman III weapon system",
+        "base_contract_number": "FA8214-13-C-0001",
+        "order_number": null,
+        "modification_number": "P00073",
+        "value_usd": 48700246,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16723542,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Aircraft Engineering and Installation Services Inc., Orlando, Florida, has been awarded a $28,593,344 firm-fixed-price, cost-reimbursable no-fee travel contract for the C-130 electronic propeller control system. Contractor will provide manufacture, integration and installation of the C-130 electronic propeller control system on 48 Air Force Reserve Command C-130H aircraft, and modify 25 spare Quick Engine Change (QEC) kits. Work will be performed at Orlando, Florida, and is expected to be complete by May 31, 2016. This award is the result of a competitive acquisition with nine offers received. Fiscal 2013 and 2014 National Guard and Reserve equipment account funds in the amount of $28,593,344 are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8504-15-C-0008).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA850415C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28593344.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28593344.0,
+        "funding_text": "Fiscal 2013 and 2014 National Guard and Reserve equipment account funds in the amount of $28,593,344 are being obligated at the time of award",
+        "completion_date": "2016-05-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8504-15-C-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Aircraft Engineering and Installation Services Inc.",
+            "location": "Orlando, Florida",
+            "contract_number": "FA8504-15-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-reimbursable no-fee travel contract",
+        "description": "C-130 electronic propeller control system for 48 AFRC C-130H aircraft and 25 spare QEC kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28593344,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28593344,
+        "fms_countries": [],
+        "competition": "Competitive; nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Ordnance and Tactical Systems Inc., St. Petersburg, Florida, was awarded a $16,098,186 cost-plus-fixed-fee, incrementally-funded contract with options for the 120mm Advanced Multi-Purpose (AMP), XM1147 High Explosive Multi-Purpose with Tracer (HEMP-T) cartridges, with an estimated completion date of July 28, 2022. Bids were solicited via the Internet with four received. Fiscal 2015 research, development, testing and engineering funds in the amount of $5,345,000 were obligated at the time of the award. Work will be performed in St. Petersburg Florida; Red Lion, Pennsylvania; Hampton, Arizona; New York, New York; Niceville, Florida; Forest Lake, Minnesota; Totowa, New Jersey; North Canton, Ohio; East Camden, Arizona; and Germany. Army Contracting Command, Picatinny Arsenal, New Jersey, is the contracting activity (W15QKN-15-C-0067).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN15C0067"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16098186.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5345000.0,
+        "funding_text": "Fiscal 2015 research, development, testing and engineering funds in the amount of $5,345,000 were obligated at the time of the award",
+        "completion_date": "2022-07-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Picatinny Arsenal, New Jersey",
+          "code": "W15QKN-15-C-0067"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "General Dynamics Ordnance and Tactical Systems Inc.",
+            "location": "St. Petersburg, Florida",
+            "contract_number": "W15QKN-15-C-0067",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, incrementally-funded contract with options",
+        "description": "120mm Advanced Multi-Purpose (AMP) and XM1147 HEMP-T cartridges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16098186,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5345000,
+        "fms_countries": [],
+        "competition": "Internet solicitation; four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Alliant Techsystems Operations, Plymouth, Minnesota, was awarded a $15,997,541 cost-plus-fixed-fee incrementally funded contract with options for the 120mm Advanced Multi-Purpose (AMP), XM1147 High Explosive Multi-Purpose with Tracer (HEMP-T) cartridges, with an estimated completion date of July 28, 2022. Bids were solicited via the Internet with four received. Fiscal 2015 research, development, testing and engineering funds in the amount of $5,345,000 were obligated at the time of the award. Work will be performed in Plymouth, Minnesota; Middletown, Iowa; Mt. Carmel, Tennessee; Louisville, Kentucky; Camden, Arizona; Coachella, California; Rocket Center, West Virginia; Clear Lake, South Dakota; and Germany. Army Contracting Command, Picatinny Arsenal, New Jersey, is the contracting activity (W15QKN-15-C-0066).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN15C0066"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15997541.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5345000.0,
+        "funding_text": "Fiscal 2015 research, development, testing and engineering funds in the amount of $5,345,000 were obligated at the time of the award",
+        "completion_date": "2022-07-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Picatinny Arsenal, New Jersey",
+          "code": "W15QKN-15-C-0066"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Alliant Techsystems Operations",
+            "location": "Plymouth, Minnesota",
+            "contract_number": "W15QKN-15-C-0066",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, incrementally-funded contract with options",
+        "description": "120mm Advanced Multi-Purpose (AMP) and XM1147 HEMP-T cartridges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15997541,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5345000,
+        "fms_countries": [],
+        "competition": "Internet solicitation; four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Critical Solutions International,* Carrollton, Texas, was awarded a $12,702,031 firm-fixed-price foreign military sales contract (Iraq) for Husky Mark III 2-Operator 2G vehicles with manuals and spare parts, with an estimated completion date of Dec. 20, 2015. One bid was solicited with one received. Funding will be determined with each order. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-15-C-0157).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15C0157"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12702031.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2015-12-20",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-15-C-0157"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Critical Solutions International",
+            "location": "Carrollton, Texas",
+            "contract_number": "W56HZV-15-C-0157",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Husky Mark III 2-Operator 2G vehicles with manuals and spare parts (foreign military sales, Iraq)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12702031,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "O.R. Elder Inc.,** New York, New York, has been awarded a maximum $28,800,000 fixed-price with economic-price-adjustment contract for dental and medical equipment. This was a competitive acquisition with 85 responses received. This is a five-year base contract with no option periods. Location of performance is New York, with a July 27, 2020, performance completion date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2015 through fiscal 2020 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DH-15-D-0012).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DH15D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DH-15-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Veteran-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "O.R. Elder Inc.",
+            "location": "New York, New York",
+            "contract_number": "SPE2DH-15-D-0012",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Dental and medical equipment (maximum-value five-year base contract, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, 85 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Honeywell International Inc., Phoenix, Arizona, has been awarded a maximum $7,212,498 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for signal data processors. This was a sole-source acquisition using justification Federal Acquisition Regulation part 6.302-1, 10 U.S.C. 2304 (c)(1). This is a five-year base contract with no option periods. Location of performance is Arizona, with a July 28, 2020, performance completion date. Using military service is Army. Type of appropriation is fiscal 2015 through fiscal 2020 replenishment Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-15-D-0030).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA115D0030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7212498.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-15-D-0030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Phoenix, Arizona",
+            "contract_number": "SPRRA1-15-D-0030",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Signal data processors (five-year base contract, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7212498,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, FAR 6.302-1, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-07-28.html"
+  "source": "file:2015-07-28.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:58:36Z"
+  }
 }

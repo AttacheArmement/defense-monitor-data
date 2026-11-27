@@ -9,15 +9,104 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is being awarded a $60,745,967 modification to a previously awarded fixed-price-incentive-firm contract (N00019-12-C-0112) for the procurement of recurring Advanced Airborne Sensor Capability Platform Integration Kit In-Line modifications in support of the P-8A Poseidon Low Rate Initial Production Lot IV (13 aircraft) and Full Rate Production Lot I (16 aircraft). Work will be performed in Seattle, Washington (78 percent); Glendale, California (14 percent); Greenlawn, New York (4 percent); Torrance, California (3 percent); and Killdeer, North Dakota (1 percent), and is expected to be completed in April 2017. Fiscal 2013 and 2014 aircraft procurement (Navy) funds in the amount of $60,745,967 will be obligated on this award, $30,017,873 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001912C0112"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 60745967.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 60745967.0,
+        "funding_text": "Fiscal 2013 and 2014 aircraft procurement (Navy) funds in the amount of $60,745,967 will be obligated on this award, $30,017,873 of which will expire at the end of the current fiscal year",
+        "completion_date": "2017-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N00019-12-C-0112",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm",
+        "description": "Recurring Advanced Airborne Sensor Capability Platform Integration Kit In-Line modifications for P-8A Poseidon Low Rate Initial Production Lot IV and Full Rate Production Lot I",
+        "base_contract_number": "N00019-12-C-0112",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60745967,
+        "cumulative_value_usd": null,
+        "obligated_usd": 60745967,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Southeast Shipyards Mayport, LLC, Jacksonville, Florida, is being awarded a $14,572,040 modification to a previously awarded contract (N40024-10-C-4406) for the selected restricted availability of USS Roosevelt (DDG-80), to include hull, machinery, electrical, electronics, ship alterations, and piping alteration and repair work. The primary focus of this repair package is to accomplish structural repairs and habitability upgrades. Work will be performed in Jacksonville, Florida, and is expected to be completed by May 2015. Fiscal 2015 operations and maintenance (Navy) and fiscal 2015 other procurement (Navy) funding in the amount of $14,572,040 will be obligated at time of award. Contract funds in the amount of $14,363,237 will expire at the end of the current fiscal year. The Southeast Regional Maintenance Center, Jacksonville, Florida, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N4002410C4406"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14572040.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14572040.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Navy) and fiscal 2015 other procurement (Navy) funding in the amount of $14,572,040 will be obligated at time of award",
+        "completion_date": "2015-05",
+        "contracting_activity": {
+          "name": "The Southeast Regional Maintenance Center, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems Southeast Shipyards Mayport, LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "N40024-10-C-4406",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Selected restricted availability of USS Roosevelt (DDG-80), including hull, machinery, electrical, electronics, ship alterations, and piping alteration and repair work",
+        "base_contract_number": "N40024-10-C-4406",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14572040,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14572040,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-01-02.html"
+  "source": "file:2015-01-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:20:15Z"
+  }
 }

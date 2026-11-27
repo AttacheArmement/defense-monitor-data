@@ -11,75 +11,664 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp. - Northrop Grumman Aerospace Systems, San Diego, California, has been awarded a $203,559,743 modification (P00034) to exercise the option on previously awarded contract FA8528-15-C-0003 for Global Hawk contractor logistic services and sustainment. Contractor will provide additional material and services to include planning, operations support, and maintenance support. Work will be performed at San Diego, California, and is expected to be complete by June 30, 2017. Fiscal 2016 operations and maintenance funds in the amount of $68,855,210 are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA852815C0003"
+        ],
+        "modification_numbers": [
+          "P00034"
+        ],
+        "is_modification": true,
+        "value_usd": 203559743.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 68855210.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $68,855,210 are being obligated at the time of award",
+        "completion_date": "2017-06-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp. - Northrop Grumman Aerospace Systems",
+            "location": "San Diego, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Global Hawk contractor logistics services and sustainment",
+        "base_contract_number": "FA8528-15-C-0003",
+        "order_number": null,
+        "modification_number": "P00034",
+        "value_usd": 203559743,
+        "cumulative_value_usd": null,
+        "obligated_usd": 68855210,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "M1 Support Services, Denton, Texas, has been awarded a $193,770,483 fixed-price incentive fee contract with cost-reimbursable line items for T-38 aircraft maintenance program operations and maintenance services. The contract provides B-2 and U-2 pilots with a companion training capability and adversary air assets for the F-22 community. Work will be performed at Beale Air Force Base, California; Holloman Air Force Base, New Mexico; Langley Air Force Base, Virginia; Tyndall Air Force Base, Florida; and Whiteman Air Force Base, Missouri; and is expected to be complete by Sept. 30, 2025. This award is the result of a competitive acquisition with two offers received. No funds are being obligated at time of award. Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia, is the contracting activity for contract number FA4890-16-C-0012.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA489016C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 193770483.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2025-09-30",
+        "contracting_activity": {
+          "name": "Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "M1 Support Services",
+            "location": "Denton, Texas",
+            "contract_number": "FA4890-16-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price incentive fee contract with cost-reimbursable line items",
+        "description": "T-38 aircraft maintenance program operations and maintenance services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 193770483,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $40,309,890 delivery order (FA8106-16-F-0018) to previously awarded contract FA8106-16-D-0004 for must pay items for C-32 and C-40 aircraft. Contractor will provide contractor logistics support. Work will be performed at Oklahoma City, Oklahoma, and is expected to be complete by June 30, 2017. Fiscal 2016 operations and maintenance; Air National Guard operations and maintenance; and Air Force Reserve Command operations and maintenance funds in the amount of $19,808,494 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA810616F0018",
+          "FA810616D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40309890.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19808494.0,
+        "funding_text": "Fiscal 2016 operations and maintenance; Air National Guard operations and maintenance; and Air Force Reserve Command operations and maintenance funds in the amount of $19,808,494 are being obligated at the time of award",
+        "completion_date": "2017-06-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8106-16-F-0018",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Must pay items for C-32 and C-40 aircraft contractor logistics support",
+        "base_contract_number": "FA8106-16-D-0004",
+        "order_number": "FA8106-16-F-0018",
+        "modification_number": null,
+        "value_usd": 40309890,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19808494,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "BTAS, Beavercreek, Ohio,* has been awarded an $11,786,566 modification (000330) to exercise the option on previously awarded contract FA8721-13-D-0003 for advisory and assistance services knowledge-based, non-engineering support to Hanscom Air Force Base and its geographically separated units. Contractor will provide Professional Acquisition Support Services II program support for development, acquisition, integrations, test, deployment and sustainment in support of research, development and production activities. Work will be performed at Hanscom Air Force Base, Massachusetts; Barksdale Air Force Base, Louisiana; Langley Air Force Base, Virginia; Offutt Air Force Base, Nebraska; Pentagon, Washington District of Columbia; Peterson Air Force Base, Colorado; Bedford, Massachusetts; and Wright Patterson Air Force Base, Ohio, and is expected to be complete by June 17, 2017. This contract involves foreign military sales to the countries of Morocco, Japan, Singapore, Jordan, Germany, Sweden, Thailand, Luxembourg, Romania, Poland, Saudi Arabia, and Pakistan. Fiscal 2015 missile procurement; fiscal 2015 and 2016 aircraft procurement; and 2016 other procurement funds in the amount of $8,566,880 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA872113D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11786566.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8566880.0,
+        "funding_text": "Fiscal 2015 missile procurement; fiscal 2015 and 2016 aircraft procurement; and 2016 other procurement funds in the amount of $8,566,880 are being obligated at the time of award",
+        "completion_date": "2017-06-17",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [
+          "Japan",
+          "Singapore",
+          "Jordan",
+          "Germany",
+          "Sweden",
+          "Thailand",
+          "Luxembourg",
+          "Romania",
+          "Poland",
+          "Saudi Arabia",
+          "Pakistan"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BTAS",
+            "location": "Beavercreek, Ohio",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Professional Acquisition Support Services II advisory and assistance services to Hanscom AFB",
+        "base_contract_number": "FA8721-13-D-0003",
+        "order_number": null,
+        "modification_number": "000330",
+        "value_usd": 11786566,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8566880,
+        "fms_countries": [
+          "Morocco",
+          "Japan",
+          "Singapore",
+          "Jordan",
+          "Germany",
+          "Sweden",
+          "Thailand",
+          "Luxembourg",
+          "Romania",
+          "Poland",
+          "Saudi Arabia",
+          "Pakistan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Airborne Systems North America, Pennsauken, New Jersey, was awarded a $99,000,000 firm-fixed-price contract to purchase the RA-1 Advanced Ram air parachute system (RA-1) and spare parts, with an estimated completion date of April 12, 2016. Bids were solicited via the Internet with one received. Funding and work location will be determined with each order. Army Contracting Command, Natick, Massachusetts, is the contracting activity (W911QY-16-D-0051).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W911QY16D0051"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2016-04-12",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Natick, Massachusetts",
+          "code": "W911QY-16-D-0051"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Airborne Systems North America",
+            "location": "Pennsauken, New Jersey",
+            "contract_number": "W911QY-16-D-0051",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Purchase of RA-1 Advanced Ram air parachute system and spare parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BH Defense LLC,* Jacksonville, Florida, was awarded a $30,933,730 firm-fixed-price, multi-year, foreign military sales contract (Iraq) with options for equipment, training, sustainment, and support to the Iraq International Academy. One bid was solicited with one received, with an estimated completion date of June 20, 2019. Funding and work location will be determined with each order. Army Contracting Command, Ft. Bragg, North Carolina, is the contracting activity (W91247-16-C-0014).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9124716C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30933730.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-06-20",
+        "contracting_activity": {
+          "name": "Bragg, North Carolina",
+          "code": "W91247-16-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "BH Defense LLC",
+            "location": "Jacksonville, Florida",
+            "contract_number": "W91247-16-C-0014",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, multi-year, foreign military sales contract with options",
+        "description": "Equipment, training, sustainment, and support to the Iraq International Academy",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30933730,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Luhr Brothers Inc., Columbia, Illinois, was awarded an $18,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with options for flood control on the Mississippi, Atchafalaya, and Red Rivers, and Old River control channels. Bids were solicited via the Internet with three received. The estimated completion date is June 30, 2017. Funding and work location will be determined with each order. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity (W912P8-16-D-0009).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912P816D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, New Orleans, Louisiana",
+          "code": "W912P8-16-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Luhr Brothers Inc.",
+            "location": "Columbia, Illinois",
+            "contract_number": "W912P8-16-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity contract with options",
+        "description": "Flood control on the Mississippi, Atchafalaya, and Red Rivers, and Old River control channels",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mahaffey Tent & Awning Co. Inc.,* Memphis, Tennessee, was awarded an $8,712,812 firm-fixed-price contract with options for Joint Readiness Training Center rotational life support services. Bids were solicited via the Internet with six received. Work will be performed at Ft. Polk, Louisiana, with an estimated completion date of May 31, 2021. Army Contracting Command, Ft. Bragg, North Carolina, is the contracting activity (W912P8-16-D-0009).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912P816D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8712812.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-05-31",
+        "contracting_activity": {
+          "name": "Bragg, North Carolina",
+          "code": "W912P8-16-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Mahaffey Tent & Awning Co. Inc.",
+            "location": "Memphis, Tennessee",
+            "contract_number": "W912P8-16-D-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with options",
+        "description": "Joint Readiness Training Center rotational life support services at Ft. Polk, Louisiana",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8712812,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Gridiron Construction Co. LLC,* Gallatin, Tennessee (N69450-16-D-0621); K-Barr Group LLC,* Nashville, Tennessee (N69450-16-D-0622); SAF Inc.,* Nashville, Tennessee (N69450-16-D-0623); and Siler Excavating LLC,* Clairfield, Tennessee (N69450-16-D-0624), are each being awarded an indefinite-delivery/indefinite-quantity, multiple award, design-bid-build construction contract for construction projects located primarily within the Naval Facilities Engineering Command (NAVFAC) Southeast area of responsibility (AOR). The maximum dollar value including the base period and four option years for all four contracts combined is $25,000,000. The work to be performed provides for, but is not limited to, new construction, renovation, alteration, demolition, roofing, and repair work for general building types including industrial, infrastructure, administrative, training, dormitory, and community support facilities. SAF Inc. is being awarded task order 0001 at $580,313 for the reroofing of Building 241A at Naval Support Activity Mid-South, Millington, Tennessee. Work for this task order is expected to be completed by October 2016. All work on this contract will be performed primarily within NAVFAC Southeast Mid-South, Tennessee (95 percent); and the remainder within the NAVFAC Southeast AOR (5 percent). The term of the contract is not to exceed 60 months, with an expected completion date of June 2021. Fiscal 2016 operation and maintenance (Navy) contract funds in the amount of $583,313 are obligated on this award and will expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website, with eight proposals received. These four contractors may compete for task orders under the terms and conditions of the awarded contract. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6945016D0621",
+          "N6945016D0622",
+          "N6945016D0623",
+          "N6945016D0624"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 583313.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Navy) contract funds in the amount of $583,313 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2016-10",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Gridiron Construction Co. LLC",
+            "location": "Gallatin, Tennessee",
+            "contract_number": "N69450-16-D-0621",
+            "markers": "*"
+          },
+          {
+            "name": "K-Barr Group LLC",
+            "location": "Nashville, Tennessee",
+            "contract_number": "N69450-16-D-0622",
+            "markers": "*"
+          },
+          {
+            "name": "SAF Inc.",
+            "location": "Nashville, Tennessee",
+            "contract_number": "N69450-16-D-0623",
+            "markers": "*"
+          },
+          {
+            "name": "Siler Excavating LLC",
+            "location": "Clairfield, Tennessee",
+            "contract_number": "N69450-16-D-0624",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, multiple award, design-bid-build construction contract",
+        "description": "NAVFAC Southeast construction projects; SAF Inc. task order 0001 reroofing Building 241A at Naval Support Activity Mid-South, Millington, Tennessee",
+        "base_contract_number": null,
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 580313,
+        "cumulative_value_usd": 25000000,
+        "obligated_usd": 583313,
+        "fms_countries": [],
+        "competition": "competitive, eight proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Missile and Fire Control, Orlando, Florida, is being awarded a $14,296,595 cost-plus-fixed-fee, cost-plus-incentive-fee, cost only contract for SQQ-89 undersea warfare product supportability and installation efforts. The AN/SQQ-89A(V)15 is a surface ship undersea warfare combat system with the capabilities to search, detect, classify, localize and track undersea contacts, and to engage and evade submarines, mine-like small objects and torpedo threats. This contract includes options which, if exercised, would bring the cumulative value of this contract to $169,501,694. This contract combines purchases for the Navy (87 percent); and the government of Japan (13 percent) under the Foreign Military Sales program. Work will be performed in Norfolk, Virginia (43 percent); San Diego, California (28 percent); Yososuka, Japan (9 percent); Bath, Maine (7 percent); Pascagoula, Mississippi (4 percent); Pearl Harbor, Hawaii (3 percent); Everett, Washington (3 percent); Mayport, Florida (2 percent); and Rota, Spain (1 percent), and is expected to be completed by June 2017. Fiscal 2016 operation and maintenance (Navy); fiscal 2016 other procurement (Navy); foreign military sales; and fiscal 2013, 2014, 2015 and 2016 ship conversion (Navy) funding in the amount of $6,726,904 will be obligated at the time of award, and funds in the amount of $296,792 will expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities, with one offer received. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-16-C-5202).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C5202"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14296595.0,
+        "cumulative_value_usd": 169501694.0,
+        "obligated_usd": 7023696.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Navy); fiscal 2016 other procurement (Navy); foreign military sales; and fiscal 2013, 2014, 2015 and 2016 ship conversion (Navy) funding in the amount of $6,726,904 will be obligated at the time of award, and funds in the amount of $296,792 will expire at the end of the current fiscal year",
+        "completion_date": "2017-06",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-16-C-5202"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Missile and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": "N00024-16-C-5202",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost-plus-incentive-fee, cost only contract",
+        "description": "SQQ-89 undersea warfare product supportability and installation efforts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14296595,
+        "cumulative_value_usd": 169501694,
+        "obligated_usd": 6726904,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": "competitive, Federal Business Opportunities, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Arête Associates,* Tucson, Arizona, is being awarded a $7,645,708 cost-plus-fixed-fee modification to previously awarded contract N61331-11-C-0007 to provide Coastal Battlefield Reconnaissance and Analysis (COBRA) program systems support for the AN/DVS-1 COBRA Block 1 system and support equipment. The primary mission of AN/DVS-1 COBRA program is to conduct unmanned aerial tactical reconnaissance in littoral battlespace for detection and localization of mine fields and obstacles in the surf zone and beach zone prior to amphibious assault. Work will be performed in Tucson, Arizona, and is expected to be completed by May 2017. Fiscal 2016 research, development, test and evaluation funding in the amount of $1,091,604 will be obligated at time of award and will not expire at the end of the fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(5). The Naval Surface Warfare Center Panama City Division, Panama City, Florida, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N6133111C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7645708.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1091604.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funding in the amount of $1,091,604 will be obligated at time of award and will not expire at the end of the fiscal year",
+        "completion_date": "2017-05",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Panama City Division, Panama City, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Arête Associates",
+            "location": "Tucson, Arizona",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Coastal Battlefield Reconnaissance and Analysis (COBRA) program systems support for AN/DVS-1 COBRA Block 1",
+        "base_contract_number": "N61331-11-C-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7645708,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1091604,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S.C. 2304(c)(5)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "BAE Systems Information and Electronics, Merrimack, New Hampshire, has been awarded a $13,359,684 modification (P00025) to exercise an option on previously awarded contract HR0011-13-C-0029 for the Adaptive Radar Countermeasures program. The modification brings the total cumulative face value of the contract to $35,530,694. Work will be performed in Nashua, New Hampshire (80 percent); and Burlington, Massachusetts (20 percent), with an expected completion date of June 2018. Fiscal 2016 research and development funds in the amount of $2,000,000 are being obligated at time of award. DARPA, Arlington, Virginia, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HR001113C0029"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 13359684.0,
+        "cumulative_value_usd": 35530694.0,
+        "obligated_usd": 2000000.0,
+        "funding_text": "Fiscal 2016 research and development funds in the amount of $2,000,000 are being obligated at time of award",
+        "completion_date": "2018-06",
+        "contracting_activity": {
+          "name": "DARPA, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "BAE Systems Information and Electronics",
+            "location": "Merrimack, New Hampshire",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Adaptive Radar Countermeasures program option exercise",
+        "base_contract_number": "HR0011-13-C-0029",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 13359684,
+        "cumulative_value_usd": 35530694,
+        "obligated_usd": 2000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:32Z",
-  "source": "file:2016-06-21.html"
+  "source": "file:2016-06-21.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:23:49Z"
+  }
 }

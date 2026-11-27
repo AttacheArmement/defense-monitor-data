@@ -11,75 +11,678 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Massachusetts Institute of Technology Lincoln Laboratory, Lexington, Massachusetts, has been awarded a $2,038,147,146 modification (P00020) to previously awarded contract FA8702-15-D-0001 for the operation of the Lincoln Laboratory Federally Funded Research and Development Center. This modification provides for advanced technology research and development activities that focus on long-term technology development as well as rapid system prototyping and demonstration. Work will be performed in Lexington, Massachusetts, and is expected to be complete by March 31, 2020. This modification brings the total cumulative face value of the contract to $9,600,000,000, and no funds are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA870215D0001"
+        ],
+        "modification_numbers": [
+          "P00020"
+        ],
+        "is_modification": true,
+        "value_usd": 2038147146.0,
+        "cumulative_value_usd": 9600000000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "This modification brings the total cumulative face value of the contract to $9,600,000,000, and no funds are being obligated at the time of award",
+        "completion_date": "2020-03-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Massachusetts Institute of Technology Lincoln Laboratory",
+            "location": "Lexington, Massachusetts",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Operation of the Lincoln Laboratory Federally Funded Research and Development Center; advanced technology R&D and rapid system prototyping",
+        "base_contract_number": "FA8702-15-D-0001",
+        "order_number": null,
+        "modification_number": "P00020",
+        "value_usd": 2038147146,
+        "cumulative_value_usd": 9600000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Dynamics Missions Systems, Scottsdale, Arizona, has been awarded a $20,241,853 requirements contract for Identification Friend or Foe KIV-78 Mode 4/5 Cryptographic Applique production. The contract provides for KIV-78 units, Delorean Circuit Card Assemblies, data and technical support for United States and foreign military sales requirements. Work will be performed in Scottsdale, Arizona, and is expected to be complete by April 24, 2023. No funds are being obligated at the time of award. Air Force Life Cycle Management Center, Cryptologic and Cyber Systems Division, Joint-Base San Antonio, Texas, is the contracting activity (FA8307-19-D-0004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA830719D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20241853.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2023-04-24",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Cryptologic and Cyber Systems Division, Joint-Base San Antonio, Texas",
+          "code": "FA8307-19-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Dynamics Missions Systems",
+            "location": "Scottsdale, Arizona",
+            "contract_number": "FA8307-19-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "requirements contract",
+        "description": "Identification Friend or Foe KIV-78 Mode 4/5 Cryptographic Applique production",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20241853,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin, Orlando, Florida, was awarded a $723,550,174 modification (P00011) to domestic and Foreign Military Sales (Lebanon, Netherlands and France) contract W31P4Q-18-C-0130 to procure a variety of HELLFIRE II missile variants. Work will be performed in Orlando, Florida, with an estimated completion date of Sept. 30, 2022. Fiscal 2017, 2018 and 2019 other procurement, Army funds in the amount of $723,550,174 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q18C0130"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 723550174.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 723550174.0,
+        "funding_text": "Fiscal 2017, 2018 and 2019 other procurement, Army funds in the amount of $723,550,174 were obligated at the time of the award",
+        "completion_date": "2022-09-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Lebanon",
+          "Netherlands",
+          "France"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin",
+            "location": "Orlando, Florida",
+            "contract_number": "W31P4Q-18-C-0130",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "HELLFIRE II missile variants procurement",
+        "base_contract_number": "W31P4Q-18-C-0130",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 723550174,
+        "cumulative_value_usd": null,
+        "obligated_usd": 723550174,
+        "fms_countries": [
+          "Lebanon",
+          "Netherlands",
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Korte Construction Co., St. Louis, Missouri, was awarded a $31,295,038 firm-fixed-price contract to design and build an Integrated Training Center Academics Building at Eglin Air Force Base, Florida. Bids were solicited via the internet with six received. Work will be performed in Okaloosa, Florida, with an estimated completion date of April 30, 2021. Fiscal 2016 and 2019 military construction funds in the amount of $31,295,038 were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-19-C-0013).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W9127819C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31295038.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31295038.0,
+        "funding_text": "Fiscal 2016 and 2019 military construction funds in the amount of $31,295,038 were obligated at the time of the award",
+        "completion_date": "2021-04-30",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-19-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Korte Construction Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "W91278-19-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design and build of Integrated Training Center Academics Building at Eglin Air Force Base, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31295038,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31295038,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; six received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gentex Corp., Simpson, Pennsylvania, was awarded a $27,860,817 firm-fixed-price contract for the Head Gear Unit 56/P Rotary Wing Helmet. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of April 25, 2024. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-19-D-0070).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19D0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27860817.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-04-25",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-19-D-0070"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Gentex Corp.",
+            "location": "Simpson, Pennsylvania",
+            "contract_number": "W58RGZ-19-D-0070",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Head Gear Unit 56/P Rotary Wing Helmet",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27860817,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via internet; one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Yorktown Systems Group Inc.,* Huntsville, Alabama, was awarded a $23,650,768 modification (P00025) to contract W911S0-17-C-0007 for Asymmetric Warfare Group operations support services. Work will be performed in Fort Meade, Maryland, with an estimated completion date of May 14, 2021. Fiscal 2019 operations and maintenance Army funds in the amount of $18,800,000 were obligated at the time of the award. U.S. Army Mission and Installation Contracting Command, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W911S017C0007"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 23650768.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18800000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance Army funds in the amount of $18,800,000 were obligated at the time of the award",
+        "completion_date": "2021-05-14",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Yorktown Systems Group Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": null,
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Asymmetric Warfare Group operations support services",
+        "base_contract_number": "W911S0-17-C-0007",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 23650768,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18800000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "British Aerospace Engineering Systems Technology Solutions and Services, Inc., Rockville, Maryland (N00421-19-D-0045); Booz Allen Hamilton, Inc., McLean, Virginia (N00421-19-D-0048); Coherent Technical Services, Inc., Lexington Park, Maryland (N00421-19-D-0049); Engility Corp., Andover, Maine (N00421-19-D-0050); Gryphon Technologies, LC., Washington, District of Columbia (N00421-19-D-0051); J.F. Taylor, Inc., Lexington Park, Maryland (N00421-19-D-0052) and Valkyrie Enterprises, Inc., Virginia Beach, Virginia (N00421-19-D-0053) are each awarded cost-plus-fixed-fee, multi-award indefinite-delivery, indefinite-quantity contracts to provide engineering support services for Air Traffic Control and Landing Systems as well as developmental programs such as the Joint Precision Approach and Landing Systems (JPALS) and unmanned programs for the U.S. Navy, U.S. Marine Corps, U.S. Air Force and other Department of Defense activities. The estimated aggregate ceiling for all contracts is $98,625,565 with the companies having an opportunity to compete for individual orders. Work will be performed in St. Inigoes, Maryland, and various awardee and customer sites to be determined on individual orders and is expected to be completed in April 2024. Funds will be obligated on individual orders as they are issued. These contracts were competitively procured via an electronic request for proposals, seven offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0042119D0045",
+          "N0042119D0048",
+          "N0042119D0049",
+          "N0042119D0050",
+          "N0042119D0051",
+          "N0042119D0052",
+          "N0042119D0053"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 98625565.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "British Aerospace Engineering Systems Technology Solutions and Services, Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N00421-19-D-0045",
+            "markers": null
+          },
+          {
+            "name": "Booz Allen Hamilton, Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "N00421-19-D-0048",
+            "markers": null
+          },
+          {
+            "name": "Coherent Technical Services, Inc.",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N00421-19-D-0049",
+            "markers": null
+          },
+          {
+            "name": "Engility Corp.",
+            "location": "Andover, Maine",
+            "contract_number": "N00421-19-D-0050",
+            "markers": null
+          },
+          {
+            "name": "Gryphon Technologies, LC.",
+            "location": "Washington, District of Columbia",
+            "contract_number": "N00421-19-D-0051",
+            "markers": null
+          },
+          {
+            "name": "J.F. Taylor, Inc.",
+            "location": "Lexington Park, Maryland",
+            "contract_number": "N00421-19-D-0052",
+            "markers": null
+          },
+          {
+            "name": "Valkyrie Enterprises, Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N00421-19-D-0053",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee multi-award indefinite-delivery, indefinite-quantity",
+        "description": "Engineering support services for Air Traffic Control and Landing Systems, JPALS and unmanned programs",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 98625565,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive electronic request for proposals; seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Fort Worth, Texas, is awarded $90,773,387 for fixed-price-incentive-fee modification P00014 to a previously awarded contract (N0001918C1048). This modification will stand up organic depot repair capabilities for the F-35 integrated core processor. Work will be performed in McKinney, Texas (39.1 percent); Owego, New York (32.7 percent); Fort Worth, Texas (14.5 percent); Camden, New Jersey (5.9 percent); Clearwater, Florida (5 percent) and Melbourne, Florida (2.8 percent), and is expected to be completed in October 2022. Fiscal 2019 aircraft procurement (Air Force, Marine Corps and Navy) funds in the amount of $90,773,387 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This modification combines purchases for the U.S. Air Force ($45,386,693; 50 percent), U.S. Marine Corps ($22,693,347; 25 percent) and the U.S. Navy ($22,693,347; 25 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1048"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 90773387.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90773387.0,
+        "funding_text": "Fiscal 2019 aircraft procurement (Air Force, Marine Corps and Navy) funds in the amount of $90,773,387 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001918C1048",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-fee",
+        "description": "Stand up organic depot repair capabilities for the F-35 integrated core processor",
+        "base_contract_number": "N0001918C1048",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 90773387,
+        "cumulative_value_usd": null,
+        "obligated_usd": 90773387,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded an $89,011,500 indefinite-delivery/indefinite-quantity task order contract for the technical and engineering services to integrate various external stores and alternative mission equipment onto the F/A-18E/F and EA-18G aircraft. Work will be performed in St. Louis, Missouri (40 percent), Patuxent River, Maryland (40 percent); Tullahoma, Tennessee (8 percent); Mountain View, California (8 percent); Philadelphia, Pennsylvania (2 percent); and Buffalo, New York (2 percent), and is expected to be completed in December 2022. Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $482,841 will be obligated at time of award; none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to Federal Acquisition Regulation 6.302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001919D0021).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89011500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 482841.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $482,841 will be obligated at time of award; none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N0001919D0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N0001919D0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity task order contract",
+        "description": "Technical and engineering services to integrate external stores and alternative mission equipment onto F/A-18E/F and EA-18G aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 89011500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 482841,
+        "fms_countries": [],
+        "competition": "Not competitively procured pursuant to FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Amethyst Builders, LLC*, Ewa Beach, Hawaii (N62478-19-D-4029); Concept 2 Completion, LLC*, Kailua, Hawaii (N62478-19-D-4030); D&D Construction, Inc.*, Waipahu, Hawaii (N62478-19-D-4031); and MEI Corp.*, Hauula, Hawaii (N62478-19-D-4032), are each awarded indefinite-delivery/indefinite-quantity multiple award design-bid-build construction contracts for construction projects located primarily within the Naval Facilities Engineering Command (NAVFAC) Hawaii area of responsibility (AOR). The maximum dollar value including the base period and four option years for all four contracts combined is $48,000,000. The work to be performed provides for, but is not limited to, new construction, addition, alteration, maintenance, and repair work by design-bid-build for the Navy, Marine Corps, Air Force and various Federal Agencies located in the State of Hawaii. These four contractors may compete for task orders under the terms and conditions of the awarded contract. No task orders are being issued at this time. All work on the contract will be performed within the NAVFAC Hawaii AOR. The term of the contract is not to exceed 60 months, with an expected completion date of April 2024. Fiscal 2019 Navy working capital funds in the amount of $20,000 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operation and maintenance (Navy). This contract was competitively procured via the Navy Electronic Commerce Online website, with 20 proposals received. The Naval Facilities Engineering Command, Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6247819D4029",
+          "N6247819D4030",
+          "N6247819D4031",
+          "N6247819D4032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 48000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20000.0,
+        "funding_text": "Fiscal 2019 Navy working capital funds in the amount of $20,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Amethyst Builders, LLC",
+            "location": "Ewa Beach, Hawaii",
+            "contract_number": "N62478-19-D-4029",
+            "markers": "*"
+          },
+          {
+            "name": "Concept 2 Completion, LLC",
+            "location": "Kailua, Hawaii",
+            "contract_number": "N62478-19-D-4030",
+            "markers": "*"
+          },
+          {
+            "name": "D&D Construction, Inc.",
+            "location": "Waipahu, Hawaii",
+            "contract_number": "N62478-19-D-4031",
+            "markers": "*"
+          },
+          {
+            "name": "MEI Corp.",
+            "location": "Hauula, Hawaii",
+            "contract_number": "N62478-19-D-4032",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award design-bid-build construction",
+        "description": "Construction projects within NAVFAC Hawaii area of responsibility",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20000,
+        "fms_countries": [],
+        "competition": "Competitive via Navy Electronic Commerce Online website; 20 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Harris Corp., Roanoke, Virginia, has been awarded a maximum $50,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the production of Image Intensifying tubes in support of the AN/AVS-6 and AN/AVS-9 Aviator’s Night Vision Imaging System (ANVIS). This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year base contract with one five-year option period. Location of performance is Virginia, with an April 24, 2024, performance completion date. Using military service is Army. Type of appropriation is fiscal 2019 through 2024 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-19-D-0029).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL119D0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 50000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-19-D-0029"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Harris Corp.",
+            "location": "Roanoke, Virginia",
+            "contract_number": "SPRBL1-19-D-0029",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Production of image intensifying tubes for AN/AVS-6 and AN/AVS-9 ANVIS",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 50000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1); FAR 6.302-1",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Seiler Instrument & Manufacturing Co., Inc.,* St. Louis, Missouri, has been awarded a maximum $11,902,218 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for telescope and quadrant mounts. This was a competitive acquisition with one response received. This is a five-year contract with no option periods. Location of performance is Missouri, with a March 25, 2024, performance completion date. Using military service is Army. Type of appropriation is fiscal 2019 through 2024 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-19-D-0083).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL119D0083"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11902218.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-19-D-0083"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Seiler Instrument & Manufacturing Co., Inc.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "SPRDL1-19-D-0083",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Telescope and quadrant mounts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11902218,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; one response received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-04-25.html"
+  "source": "file:2019-04-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:08:04Z"
+  }
 }

@@ -11,75 +11,638 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Johnson Outdoors Inc., doing business as Eureka Tents, Binghamton, New York, has been awarded a maximum $200,000,000 firm-fixed-price, indefinite-delivery contract for commercial tents. This was a competitive acquisition with 20 responses received. This is a one-year base contract with three one-year option periods. Location of performance is New York, with a Dec. 8, 2016, performance completion date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-16-D-1010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C116D1010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-16-D-1010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Johnson Outdoors Inc., doing business as Eureka Tents",
+            "location": "Binghamton, New York",
+            "contract_number": "SPE1C1-16-D-1010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery contract",
+        "description": "Commercial tents",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 20 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "BAE Systems, Totowa, New Jersey, has been awarded a maximum $62,339,927 firm-fixed-price modification (P00005) adding line items to an existing contract (SPE4AX-14-D-9497) for aircraft advanced radar warning receivers. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). Locations of performance are New Jersey and New York, with a June 15, 2018, performance completion date. Using military service is Air Force and various countries in the Foreign Military Sales program. Type of appropriation is fiscal 2016 through fiscal 2018 Air Force working capital funds and foreign military sales funds. The contracting activity is the Defense Logistics Agency Aviation, Robins Air Force Base, Georgia.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE4AX14D9497"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 62339927.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "BAE Systems",
+            "location": "Totowa, New Jersey",
+            "contract_number": "SPE4AX-14-D-9497",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Aircraft advanced radar warning receivers; adds line items to existing contract",
+        "base_contract_number": "SPE4AX-14-D-9497",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 62339927,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "various countries"
+        ],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Standard Aero Inc., San Antonio, Texas (N68335-16-D-0001); Segers Aero Corp.,* Fairhope, Alabama (N68335-16-D-0002); and Turbopower LLC,* Hialeah, Florida (N68335-16-D-0003), are each being awarded fixed-price, indefinite-delivery/indefinite-quantity multiple award contracts for T56 Series III engine depot-level repair. The aggregate, not-to-exceed amount for these multiple award contracts is $157,075,454. This contract is for the receipt, inspection, disassembly, repair and/or modification, assembly, testing, and preservation of the T56 Series III propulsion system, modules, quick engine change kit, and components. The three major modules of the engine to be maintained and repaired under this contract will be power sections, reduction gear assemblies, and torquemeters, with a maximum quantity of 252 power sections, 285 reduction gear assemblies, and 231 torquemeters. Work will be performed in San Antonio, Texas; Fairhope, Alabama; and Hialeah, Florida. Work is expected to be completed in December 2020. No funds will be obligated at time of award; funds will be obligated on individual task orders as they are issued. Each contractor will be provided a fair opportunity to compete for individual task orders. These contracts were solicited via a multiple award request for proposals and four offers were received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6833516D0001",
+          "N6833516D0002",
+          "N6833516D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 157075454.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2020-12",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Standard Aero Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "N68335-16-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Segers Aero Corp.",
+            "location": "Fairhope, Alabama",
+            "contract_number": "N68335-16-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Turbopower LLC",
+            "location": "Hialeah, Florida",
+            "contract_number": "N68335-16-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity multiple award",
+        "description": "T56 Series III engine depot-level repair",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 157075454,
+        "cumulative_value_usd": 157075454,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "multiple award request for proposals, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "ARGO Systems LLC,* Hanover, Maryland, is being awarded an indefinite-delivery/indefinite-quantity contract with a maximum amount of $90,000,000 for critical power support services at various government installations worldwide. No task orders are being issued at this time. Services include planning, operations training, design, installation, repair, upgrade, renovation and project management. The work to be performed provides for equipment purchase, installation, renovation, alterations and repair of critical power systems, loads, and supporting facilities at various locations worldwide. The term of the contract is not to exceed 60 months with an expected completion date of December 2020. Fiscal 2016 operation and maintenance, (Navy) contract funds in the amount of $10,000 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operations and maintenance, Navy. This contract was competitively procured via the Navy Electronic Commerce Online website with three proposals received. The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California, is the contracting activity (N39430-16-D-1813).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3943016D1813"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2016 operation and maintenance, (Navy) contract funds in the amount of $10,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2020-12",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California",
+          "code": "N39430-16-D-1813"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "ARGO Systems LLC",
+            "location": "Hanover, Maryland",
+            "contract_number": "N39430-16-D-1813",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Critical power support services at various government installations worldwide",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "competitive via Navy Electronic Commerce Online, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "WR Systems Ltd., Norfolk, Virginia, is being awarded an $18,486,771 indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee with provisions for firm-fixed-price task orders, performance-based contract. The contract is for the procurement of navigation systems in-service engineering services. The services required include design development, systems integration, acquisition and prototype engineering, technical documentation, and integrated logistic support in order to support the Navigation Geospatial Information and Services Integrated Product Team. This contract includes options which, if exercised, would bring the cumulative value (ceiling) of this contract to an estimated $97,514,736. Work will be performed in Norfolk, Virginia, and is expected to be completed by December 2016. If all options are exercised, work could continue until December 2020. Fiscal 2016 other procurement (Navy) contract funds in the amount of $25,000 will be obligated at the time of award as the minimum guarantee; these funds will not expire at the end of the current fiscal year. The contract was competitively procured by full and open competition via the Space and Naval Warfare Systems Center e-Commerce Central website and the Federal Business Opportunities website, with two offers received. Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina, is the contracting activity (N65236-16-D-8001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6523616D8001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18486771.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25000.0,
+        "funding_text": "Fiscal 2016 other procurement (Navy) contract funds in the amount of $25,000 will be obligated at the time of award as the minimum guarantee; these funds will not expire at the end of the current fiscal year",
+        "completion_date": "2016-12",
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina",
+          "code": "N65236-16-D-8001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "WR Systems Ltd.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N65236-16-D-8001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity with firm-fixed-price task orders, performance-based",
+        "description": "Navigation systems in-service engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18486771,
+        "cumulative_value_usd": 97514736,
+        "obligated_usd": 25000,
+        "fms_countries": [],
+        "competition": "full and open competition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Electric Boat Corp., Groton, Connecticut, is being awarded a $12,514,958 cost-plus-fixed-fee modification to the previously awarded contract (N00024-09-C-2104) for continued procurement and manufacturing of onboard repair parts to be loaded onto the Virginia-class submarine future USS South Dakota (SSN 790) upon delivery. This modification is option exercise-CLIN 6701. The work will be performed in Groton, Connecticut, and is scheduled to be completed by September 2018. Fiscal 2016 shipbuilding and conversion (Navy) funding in the amount $10,200,000 will be obligated at the time of the award and will not expire at the end of the current fiscal year. Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002409C2104"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12514958.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10200000.0,
+        "funding_text": "Fiscal 2016 shipbuilding and conversion (Navy) funding in the amount $10,200,000 will be obligated at the time of the award and will not expire at the end of the current fiscal year",
+        "completion_date": "2018-09",
+        "contracting_activity": {
+          "name": "Supervisor of Shipbuilding Conversion and Repair, Groton, Connecticut",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Electric Boat Corp.",
+            "location": "Groton, Connecticut",
+            "contract_number": "N00024-09-C-2104",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Procurement and manufacturing of onboard repair parts for Virginia-class submarine future USS South Dakota (SSN 790); option exercise CLIN 6701",
+        "base_contract_number": "N00024-09-C-2104",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12514958,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10200000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Marietta, Georgia, is being awarded a $9,628,307 modification to a previously awarded, indefinite-delivery/indefinite-quantity contract (N00019-14-D-0006) to exercise an option for logistics and engineering services in support of the C/KC-130J aircraft for the Marine Corps and Marine Corps Reserve, the Coast Guard, and the government of Kuwait under the Foreign Military Sales program. Work will be performed at Marietta, Georgia (65.3 percent); Palmdale, California (21.2 percent); Abdullah Al-Mubarak Air Base, Kuwait (3.3 percent); Iwakuni, Japan (3 percent); Miramar, California (1.8 percent); Cherry Point, North Carolina (1.7 percent); Elizabeth City, North Carolina (1.6 percent); Fort Worth, Texas (1.5 percent); and Greenville, South Carolina (0.6 percent). Work is expected to be completed in December 2016. No funds are being obligated at time of award. Funds will be obligated on individual delivery orders as they are issued. This contract combines purchases for the Marine Corps and Marine Corps Reserves (80.3 percent); the Coast Guard (12.9 percent); and the government of Kuwait (6.8 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001914D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9628307.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award Funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2016-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Marietta, Georgia",
+            "contract_number": "N00019-14-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery/indefinite-quantity modification",
+        "description": "Logistics and engineering services in support of C/KC-130J aircraft",
+        "base_contract_number": "N00019-14-D-0006",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9628307,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Aerospace Testing Alliance, Tullahoma, Tennessee, has been awarded an $111,908,775 modification (P00378) to previously awarded contract F40600-03-C-0001. Contractor will provide operation, maintenance, information management and support to the Arnold Engineering Development Complex. Work will be performed at Arnold Air Force Base, Tennessee, and is expected to be complete by March 31, 2016. No funds are being obligated at the time of award. Air Force Test Center, Arnold Air Force Base, Tennessee, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "F4060003C0001"
+        ],
+        "modification_numbers": [
+          "P00378"
+        ],
+        "is_modification": true,
+        "value_usd": 111908775.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2016-03-31",
+        "contracting_activity": {
+          "name": "Air Force Test Center, Arnold Air Force Base, Tennessee",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Aerospace Testing Alliance",
+            "location": "Tullahoma, Tennessee",
+            "contract_number": "F40600-03-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Operation, maintenance, information management and support to the Arnold Engineering Development Complex",
+        "base_contract_number": "F40600-03-C-0001",
+        "order_number": null,
+        "modification_number": "P00378",
+        "value_usd": 111908775,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, has been awarded a $78,969,556 modification (P00606) to previously awarded contract FA8611-08-C-2897 for F-22 air vehicle sustainment. Contractor will provide Ogden Depot throughout, analytical condition inspections, inlet coating repair, and radar cross section marietta turntable support, as well as touch labor and installs. Work will be performed at Fort Worth, Texas, and is expected to be complete by Dec. 31, 2016. Fiscal 2015 aircraft procurement and operations and maintenance funds in the amount of $25,333,767 are being obligated at the time of award. Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA861108C2897"
+        ],
+        "modification_numbers": [
+          "P00606"
+        ],
+        "is_modification": true,
+        "value_usd": 78969556.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25333767.0,
+        "funding_text": "Fiscal 2015 aircraft procurement and operations and maintenance funds in the amount of $25,333,767 are being obligated at the time of award",
+        "completion_date": "2016-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8611-08-C-2897",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "F-22 air vehicle sustainment",
+        "base_contract_number": "FA8611-08-C-2897",
+        "order_number": null,
+        "modification_number": "P00606",
+        "value_usd": 78969556,
+        "cumulative_value_usd": null,
+        "obligated_usd": 25333767,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Oswego, New York, was awarded a $53,000,000 fixed-price-incentive, foreign military sales (Saudi Arabia, Korea, Qatar) contract for Modernized-Radar Frequency Interferometer (M-RFI) Lot 1 production, inclusive of 34 M-RFI kits, three sets of initial spares, and one set of lay-in spares. One bid was solicited with one received. Work will be performed in Oswego, New York, with an estimated completion date of March 3, 2019. Fiscal 2015 other procurement funds in the amount of $53,000,000 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-16-C-0007).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J16C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 53000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 53000000.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $53,000,000 were obligated at the time of the award",
+        "completion_date": "2019-03-03",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-16-C-0007"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Korea",
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Oswego, New York",
+            "contract_number": "W52P1J-16-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price-incentive",
+        "description": "Modernized-Radar Frequency Interferometer (M-RFI) Lot 1 production, 34 M-RFI kits, initial and lay-in spares",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 53000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 53000000,
+        "fms_countries": [
+          "Saudi Arabia",
+          "Korea",
+          "Qatar"
+        ],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Kipper Tool Co.,* Gainesville, Georgia, was awarded a $15,473,475 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for standard automotive tool sets. Bids were solicited via the Internet with two received. Funding and work location will be determined with each order, with an estimated completion date of Dec. 9, 2020. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-16-D-0016).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV16D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15473475.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-12-09",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-16-D-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Kipper Tool Co.",
+            "location": "Gainesville, Georgia",
+            "contract_number": "W56HZV-16-D-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Standard automotive tool sets",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15473475,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Hesco Bastion Inc.,* North Charleston, South Carolina, was awarded a $8,792,000 modification (P00003) to contract W912EK-14-D-0001 for new and refurbished gabion baskets, with an estimated completion date of Dec. 31, 2016. Funding and work location will be determined with each order. Army Corps of Engineers, Rock Island, Illinois, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W912EK14D0001"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 8792000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2016-12-31",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Hesco Bastion Inc.",
+            "location": "North Charleston, South Carolina",
+            "contract_number": "W912EK-14-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "New and refurbished gabion baskets",
+        "base_contract_number": "W912EK-14-D-0001",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 8792000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-12-09.html"
+  "source": "file:2015-12-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:41:42Z"
+  }
 }

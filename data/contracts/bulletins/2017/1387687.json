@@ -9,51 +9,399 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, has been awarded a $58,200,000 requirements-type, firm-fixed-price, cost-reimbursable contract for contractor logistics support, sustainment and site support. Work will be performed in San Diego, California; and Qatar, with an expected completion date of March 10, 2023. This contract was a sole-source acquisition. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8574-18-D-0001).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA857418D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 58200000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-03-10",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8574-18-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "FA8574-18-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "requirements-type, firm-fixed-price, cost-reimbursable contract",
+        "description": "Contractor logistics support, sustainment and site support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 58200000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Arnold Defense and Electronics LLC, Arnold, Missouri, has been awarded a $15,527,336 firm-fixed-price supply contract for 1,254 launcher 12X structural rail sections used on the AIM-120 missile launcher. Work will be performed in Arnold, Missouri, with an expected completion date of Sept. 30, 2023. This contract involves foreign military sales. This contract was a competitive acquisition and three offers were received. Fiscal 2018 aircraft procurement funds in the amount of $72,500 are being obligated at the time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8554-18-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA855418D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15527336.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 72500.0,
+        "funding_text": "Fiscal 2018 aircraft procurement funds in the amount of $72,500 are being obligated at the time of award",
+        "completion_date": "2023-09-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8554-18-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Arnold Defense and Electronics LLC",
+            "location": "Arnold, Missouri",
+            "contract_number": "FA8554-18-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price supply contract",
+        "description": "1,254 launcher 12X structural rail sections used on the AIM-120 missile launcher",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15527336,
+        "cumulative_value_usd": null,
+        "obligated_usd": 72500,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Communications Vertex Aerospace LLC, Madison, Mississippi, is being awarded a $37,606,934 not-to-exceed modification (P00022) to a previously awarded firm-fixed price, indefinite-delivery, requirements contract (N00019-14-D-0011). This modification provides for additional organizational, intermediate, and depot level maintenance, logistics, and engineering services to support and maintain approximately 200 Navy T-45 Goshawk aircraft, aircraft systems, and related support equipment to support flight and test and evaluation operations. In addition, this modification provides for equipment, tools, direct material, and indirect material in support of Navy T-45 aircraft, aircraft systems, and related support equipment. Work will be performed at Naval Air Station (NAS) Kingsville, Texas (45.7 percent); NAS Meridian, Mississippi (41.7 percent); NAS Pensacola, Florida (10.1 percent); and NAS Patuxent River, Maryland (2.5 percent), and is expected to be completed September 2018. No funds will be obligated at time of award. Funds will be obligated on individual task orders as they are issued. The Naval Air Warfare Center Training System Division, Orlando, Florida, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001914D0011"
+        ],
+        "modification_numbers": [
+          "P00022"
+        ],
+        "is_modification": true,
+        "value_usd": 37606934.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Funds will be obligated on individual task orders as they are issued",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training System Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "L-3 Communications Vertex Aerospace LLC",
+            "location": "Madison, Mississippi",
+            "contract_number": "N00019-14-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "not-to-exceed firm-fixed-price, indefinite-delivery, requirements contract",
+        "description": "Additional organizational, intermediate, and depot maintenance, logistics and engineering services for Navy T-45 Goshawk aircraft, plus equipment, tools, and material",
+        "base_contract_number": "N00019-14-D-0011",
+        "order_number": null,
+        "modification_number": "P00022",
+        "value_usd": 37606934,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a $22,999,282 modification (P000012) to a previously awarded cost-plus-fixed-fee contract (N00019-17-C-0045) to procure 53,164 level-of-effort hours to support air system software integration and 53,122 level-of-effort hours to support flight test operations in support of the F-35 aircraft platform for the Air Force, Navy, Marine Corps, and non-U.S. Department of Defense (DoD) participants. Work will be performed in Fort Worth, Texas (40 percent); Palmdale, California (30 percent); and Patuxent River, Maryland (30 percent), and is expected to be completed in in February 2018. Fiscal 2018 operations and maintenance (Air Force, Navy and Marine Corps); and non-U.S. DoD participant funds in the amount of $22,999,282 will be obligated at time of award, $18,392,066 of which will expire at the end of the current fiscal year. This contract combines purchases for the Air Force ($9,196,034; 40 percent); U.S. Navy; ($4,598,016; 20 percent); the Marine Corps ($4,598,016; 20 percent); and non-U.S. DoD participants ($4,607,216; 20 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0045"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22999282.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22999282.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Air Force, Navy and Marine Corps); and non-U.S. DoD participant funds in the amount of $22,999,282 will be obligated at time of award, $18,392,066 of which will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-17-C-0045",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Level-of-effort hours for F-35 air system software integration and flight test operations",
+        "base_contract_number": "N00019-17-C-0045",
+        "order_number": null,
+        "modification_number": "P000012",
+        "value_usd": 22999282,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22999282,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bechtel National Inc., San Francisco, California, has been awarded a $27,209,548 modification (P000151) to contract W52P1J-09-C-0012 for bio treatment area staffing request for equitable adjustment at Pueblo Chemical Agent Destruction Pilot Plant. Work will be performed in Pueblo, Colorado, with an estimated completion date of July 12, 2020. Fiscal 2018 research, development, test and evaluation funds in the amount of $27,209,548 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island, Illinois, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J09C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 27209548.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27209548.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation funds in the amount of $27,209,548 were obligated at the time of the award",
+        "completion_date": "2020-07-12",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Bechtel National Inc.",
+            "location": "San Francisco, California",
+            "contract_number": "W52P1J-09-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Bio treatment area staffing request for equitable adjustment at Pueblo Chemical Agent Destruction Pilot Plant",
+        "base_contract_number": "W52P1J-09-C-0012",
+        "order_number": null,
+        "modification_number": "P000151",
+        "value_usd": 27209548,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27209548,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Goodwill Industries of South Florida Inc.,* Miami, Florida, has been awarded a maximum $18,626,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Army combat uniform coats and trousers. This is a one-year contract with no option periods. Location of performance is Florida, with a May 31, 2019, estimated performance completion date. Using military service is Army. Type of appropriation is fiscal 2018 through fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-18-D-N025).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C118DN025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18626000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-18-D-N025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Goodwill Industries of South Florida Inc.",
+            "location": "Miami, Florida",
+            "contract_number": "SPE1C1-18-D-N025",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Army combat uniform coats and trousers; one-year contract, no options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18626000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Pall Aeropower Corp., New Port Richey, Florida, has been awarded a maximum $9,432,342 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for particle separators, part number CEO116715R. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(2) from Federal Acquisition Regulation 6.302-1, which states that only one responsible source and no other supplies or services will satisfy agency requirements. This is a five-year contract with no option periods. Location of performance is Florida, with a Dec. 1, 2022, performance completion date. Using military service is Army. Type of appropriation is fiscal 2018 through fiscal 2023 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-18-D-0022).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA118D0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9432342.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-18-D-0022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Pall Aeropower Corp.",
+            "location": "New Port Richey, Florida",
+            "contract_number": "SPRRA1-18-D-0022",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Particle separators, part number CEO116715R; five-year contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9432342,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(2))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Pall Aeropower Corp., New Port Richey, Florida, has been awarded a maximum $9,391,218 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for particle separators, part number CEO116715L. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(2) from Federal Acquisition Regulation 6.302-1, which states that only one responsible source and no other supplies or services will satisfy agency requirements. This is a five-year contract with no option periods. Location of performance is Florida, with a Dec. 1, 2022, performance completion date. Using military service is Army. Type of appropriation is fiscal 2018 through fiscal 2023 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-18-D-0021).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA118D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9391218.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-18-D-0021"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Pall Aeropower Corp.",
+            "location": "New Port Richey, Florida",
+            "contract_number": "SPRRA1-18-D-0021",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Particle separators, part number CEO116715L; five-year contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9391218,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(2))",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2017-12-04.html"
+  "source": "file:2017-12-04.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:16:04Z"
+  }
 }

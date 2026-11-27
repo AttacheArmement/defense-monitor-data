@@ -9,9 +9,56 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Communications Corp., Arlington, Texas, is being awarded $10,716,709 for a cost-plus-fixed-fee modification to delivery order 0005 issued previously against basic ordering agreement N61340-12-G-0001 for the procurement of F/A-18C/D tactical operational flight trainer system configuration set (SCS). The SCS will provide upgrades to the mission computer, aircraft and weapons sensors, and human aircraft interaction. Work will be performed at the Naval Air Station (NAS) Oceana, Virginia (25 percent); NAS Lemoore, California (15 percent); Marine Corps Air Station (MCAS) Miramar, California (15 percent); MCAS Beaufort, South Carolina (15 percent); MCAS Iwakuni, Japan (10 percent); Joint Reserve Base (JRB) New Orleans, Louisiana (10 percent); and JRB Fort Worth, Texas (10 percent), and is expected to be completed in March 2018. Fiscal 2014 and 2015 aircraft procurement (Navy); fiscal 2015 weapons procurement (Navy); and fiscal 2015 procurement of ammunition (Navy and Marine Corps) funds in the amount of $10,716,709 will be obligated at time of award, $8,302,166 of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N6134012G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10716709.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10716709.0,
+        "funding_text": "Fiscal 2014 and 2015 aircraft procurement (Navy); fiscal 2015 weapons procurement (Navy); and fiscal 2015 procurement of ammunition (Navy and Marine Corps) funds in the amount of $10,716,709 will be obligated at time of award, $8,302,166 of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-03",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "L-3 Communications Corp.",
+            "location": "Arlington, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "F/A-18C/D tactical operational flight trainer system configuration set (SCS) upgrades (mission computer, aircraft and weapons sensors, human aircraft interaction)",
+        "base_contract_number": "N61340-12-G-0001",
+        "order_number": "0005",
+        "modification_number": null,
+        "value_usd": 10716709,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10716709,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-10-07.html"
+  "source": "file:2015-10-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:46:42Z"
+  }
 }

@@ -11,75 +11,633 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "TransGen Energy Inc., * Rockville, Maryland (W912DY-15-D-0016), and New Generation Power Inc.,* Chicago, Illinois (W912DY-15-D-0002), will share a $7,000,000,000 multiple award indefinite-delivery/indefinite-quantity firm-fixed-price contract for power purchase agreement task orders. The first contracts under this appropriation were awarded in 2013. TransGen Energy and New Generation Power will be awarded funding for biomass technology under this contract. Exact funding and work location will be determined with each order with an estimated completion date of Sept. 22, 2023. Bids were solicited via the Internet with 52received. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912DY15D0016",
+          "W912DY15D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7000000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-09-22",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "TransGen Energy Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W912DY-15-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "New Generation Power Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "W912DY-15-D-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multiple award IDIQ",
+        "description": "Power purchase agreement task orders (biomass technology funding)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7000000000,
+        "cumulative_value_usd": 7000000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 52 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "New Generation Power Inc.,* Chicago, Illinois, is being added to an existing $7,000,000,000 multiple award indefinite-delivery/indefinite-quantity firm-fixed-price contract for power purchase agreement task orders. The first contracts under this appropriation were awarded in 2013. New Generation Power will receive funding for wind technology under this contract. Exact funding amount and work location will be determined with each order with an estimated completion date of Sept. 8, 2023. Army Corps of Engineers is the contracting activity (W912DY-15-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912DY15D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7000000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-09-08",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers",
+          "code": "W912DY-15-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "New Generation Power Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "W912DY-15-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multiple award IDIQ",
+        "description": "Added to existing power purchase agreement task order contract (wind technology funding)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7000000000,
+        "cumulative_value_usd": 7000000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Inland Dredging Co. LLC,* Dyersburg, Tennessee, was awarded a $24,000,000 indefinite-delivery/indefinite-quantity firm-fixed-price contract for rental of a 20-24 inch cutterhead pipeline dredge for dredging in Alabama, Mississippi, and Florida, with an estimated completion date of May 19, 2016. Bids were solicited via the Internet with four received. Funding will be determined with each order. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-15-D-0032).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9127815D0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2016-05-19",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-15-D-0032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Inland Dredging Co. LLC",
+            "location": "Dyersburg, Tennessee",
+            "contract_number": "W91278-15-D-0032",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price IDIQ",
+        "description": "Rental of a 20-24 inch cutterhead pipeline dredge for dredging in Alabama, Mississippi, and Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems, Sterling Heights, Michigan, was awarded a $22,786,250 firm-fixed-price multi-year contract for updates and revisions to all logistic requirements and data, except provisioning, in support of the Buffalo A2 M1272 vehicle, and completion of a total system support package. Work will be performed in Sterling Heights, Michigan, with an estimated completion date of March 10, 2018. One bid was solicited with one received. Fiscal 2015 other procurement (Army) funds in the amount of $22,786,250 are being obligated at the time of the award. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-15-C-0101).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15C0101"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22786250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22786250.0,
+        "funding_text": "Fiscal 2015 other procurement (Army) funds in the amount of $22,786,250 are being obligated at the time of the award",
+        "completion_date": "2018-03-10",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-15-C-0101"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-15-C-0101",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multi-year contract",
+        "description": "Updates and revisions to logistic requirements and data, except provisioning, for Buffalo A2 M1272 vehicle, and total system support package",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22786250,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22786250,
+        "fms_countries": [],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, was awarded a $14,777,064 modification (P00065) to contract W15QKN-08-C-0530 to acquire 209 155mm projectiles and 24 palletized containers for the Army. Fiscal 2015 other procurement funds in the amount of $14,777,064 were obligated at the time of the award. Estimated completion date is Feb. 28, 2017. Work will be performed at Tucson, Arizona (six different subcontractors); McAlester, Oklahoma; Farmington, New Mexico; East Camden, Arizona; Healdsburg, California; Anniston, Alabama; Cincinnati, Ohio; Cedar Rapids, Iowa; Joplin, Missouri; Lowell, Massachusetts; Corona, California; Inglewood, California; Chino, California; Minneapolis, Minnesota; Santa Ana, California; McKinney, Texas; Phoenix, Arizona; Woodridge, Illinois; Valencia, California; Salt Lake City, Utah; Congers, New York; Karlskoga, Sweden; Plymouth, England; and Glenrothes, Scotland. Army Contracting Command, Picatinny Arsenal, New Jersey, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN08C0530"
+        ],
+        "modification_numbers": [
+          "P00065"
+        ],
+        "is_modification": true,
+        "value_usd": 14777064.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14777064.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $14,777,064 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Picatinny Arsenal, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "W15QKN-08-C-0530",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Acquire 209 155mm projectiles and 24 palletized containers for the Army",
+        "base_contract_number": "W15QKN-08-C-0530",
+        "order_number": null,
+        "modification_number": "P00065",
+        "value_usd": 14777064,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14777064,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Intuitive Research and Technology Corp.,* Huntsville, Alabama, was awarded a $14,128,559 modification (000382) to Foreign Military Sales contract W31P4Q-07-A-0015 (Egypt, Korea, Chile, Finland, Netherlands, Oman, Qatar, United Kingdom, Norway) for labor and travel to support the Cruise Missile Defense Systems Project Office. Fiscal 2015 research, development, testing and evaluation, operations and maintenance (Army) and other procurement funds in the amount of $ $14,128,559 were obligated at the time of the award. Estimated completion date is Nov. 23, 2015. Work will be performed in Huntsville, Alabama. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q07A0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14128559.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14128559.0,
+        "funding_text": "Fiscal 2015 research, development, testing and evaluation, operations and maintenance (Army) and other procurement funds in the amount of $ $14,128,559 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Intuitive Research and Technology Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-07-A-0015",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Labor and travel to support the Cruise Missile Defense Systems Project Office",
+        "base_contract_number": "W31P4Q-07-A-0015",
+        "order_number": null,
+        "modification_number": "000382",
+        "value_usd": 14128559,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14128559,
+        "fms_countries": [
+          "Egypt",
+          "Korea",
+          "Chile",
+          "Finland",
+          "Netherlands",
+          "Oman",
+          "Qatar",
+          "United Kingdom",
+          "Norway"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Exp Federal Inc., Chicago, Illinois, was awarded an $8,017,418 firm-fixed-price contract with options to meet the requirements of the congressionally mandated electrical safety program, “Task Force Power.” Work will be performed in Afghanistan with an estimated completion date of March 20, 2017. Bids were solicited via the Internet with two received. Fiscal 2015 operations and maintenance (Army) funds in the amount of $8,017,418 are being obligated at the time of the award. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity (W912DY-15-F-0023).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912DY15F0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8017418.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8017418.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Army) funds in the amount of $8,017,418 are being obligated at the time of the award",
+        "completion_date": "2017-03-20",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": "W912DY-15-F-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Exp Federal Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "W912DY-15-F-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with options",
+        "description": "Electrical safety program 'Task Force Power' in Afghanistan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8017418,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8017418,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Zapata Inc., Charlotte, North Carolina, was awarded a $8,000,000 firm-fixed-price contract with options for miscellaneous architect-engineering services for use on federal projects, primarily at Ft. Bragg, North Carolina, but which may be used on federal projects under the jurisdiction of the Army Corps of Engineers, Savannah District, or if requested, for other Corps of Engineers districts. Funding and work location will be determined with each order with an estimated completion date of March 18, 2019. Bids were solicited via the Internet with 29received. Army Corps of Engineers, Savannah, Georgia, is the contracting activity (W912HN-15-D-0007).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912HN15D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-03-18",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Savannah, Georgia",
+          "code": "W912HN-15-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Zapata Inc.",
+            "location": "Charlotte, North Carolina",
+            "contract_number": "W912HN-15-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with options",
+        "description": "Miscellaneous architect-engineering services, primarily at Ft. Bragg, North Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 29 received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Bell Helicopter Textron Inc., Fort Worth, Texas, has been awarded a maximum $32,493,960 firm-fixed-price contract for rotary wing blades. This contract was a sole-source acquisition. This is a 39-month base contract with no option periods. Location of performance is Texas with a May 30, 2018, performance completion date. Using military service is Navy. Type of appropriation is fiscal year 2015 Navy working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania (W58RGZ-12-G-0001-THGP).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ12G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32493960.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": "W58RGZ-12-G-0001-THGP"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Bell Helicopter Textron Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W58RGZ-12-G-0001-THGP",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Rotary wing blades (Navy, sole source, 39-month base contract, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32493960,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "3PSC LLC, Norfolk, Virginia, is being issued a $23,436,284 modification under a previously awarded firm-fixed-price contract (N00033-09-C-2504) to exercise a 183-day option for the operation and maintenance of five Navy oceanographic survey ships. The ships operate worldwide to support oceanographic surveys for the Naval Oceanographic Office. Work will be performed worldwide and is expected to be completed by September 2015. Fiscal 2015 working capital funds in the amount of $23,436,284 are being obligated at the time of award and will not expire at the end of the current fiscal year. The Navy’s Military Sealift Command, Washington, District of Columbia, is the contracting activity (N00033-09-C-2504).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0003309C2504"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 23436284.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23436284.0,
+        "funding_text": "Fiscal 2015 working capital funds in the amount of $23,436,284 are being obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2015-09",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Washington, District of Columbia",
+          "code": "N00033-09-C-2504"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "3PSC LLC",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00033-09-C-2504",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Operation and maintenance of five Navy oceanographic survey ships (183-day option exercise)",
+        "base_contract_number": "N00033-09-C-2504",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 23436284,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23436284,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Davis Defense Group Inc.,* Fredericksburg, Virginia, is being awarded $14,877,238 for firm-fixed-priced task order MU62 under previously awarded contract (N00178-14-D-7687) for acquisition, logistics, and administration services in support of the program executive officer, land systems; program manager, advanced amphibious assault; and program manager, mine resistant ambush protected (MRAP) vehicle programs. Support includes program and financial management, logistics, engineering, and test and evaluation support to develop, test and deliver amphibious combat vehicles, upgrade and modify the existing fielded assault amphibious vehicles, and sustain and maintain the MRAP family of vehicle platforms: Buffalo, Cougar and M-ATV. Work will be performed in Stafford, Virginia (98 percent), and Albany, Georgia (2 percent), and work is expected to be completed March 19, 2016. If all options are exercised, work will continue through March 2019. Fiscal 2014 and 2015 research, development, test, and evaluation (Marine Corps), and fiscal 2015 operations and maintenance (Marine Corps) funds in the amount of $14,877,238, will be obligated at time of award. Contract funds in the amount of $9,806,826 will expire at the end of the current fiscal year. This contract was competitively awarded via Seaport-e as a small business set-aside, with seven offers received. The Marine Corps Systems Command Quantico, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0017814D7687"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14877238.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14877238.0,
+        "funding_text": "Fiscal 2014 and 2015 research, development, test, and evaluation (Marine Corps), and fiscal 2015 operations and maintenance (Marine Corps) funds in the amount of $14,877,238, will be obligated at time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Davis Defense Group Inc.",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "N00178-14-D-7687",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Acquisition, logistics, and administration services for PEO Land Systems, PM Advanced Amphibious Assault, and PM MRAP programs (task order MU62)",
+        "base_contract_number": "N00178-14-D-7687",
+        "order_number": "MU62",
+        "modification_number": null,
+        "value_usd": 14877238,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14877238,
+        "fms_countries": [],
+        "competition": "Competitive via Seaport-e as small business set-aside, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Physical Optics Corp.,* Torrance, California, is being awarded a $7,117,251 firm-fixed-price contract for the production and delivery of 116 digital data set kits for use on existing T-45 aircraft. This contract also provides for the production and delivery of 240 mission data transfer units in support of the T-45C aircraft. Work will be performed in Torrance, California (77.5 percent), and San Jose, California (22.5 percent), and is expected to be completed in March 2017. Fiscal 2014 and 2015 aircraft procurement (Navy) funds in the amount of $7,117,251 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to the FAR 6.302-1. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-15-C-0039).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0001915C0039"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7117251.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7117251.0,
+        "funding_text": "Fiscal 2014 and 2015 aircraft procurement (Navy) funds in the amount of $7,117,251 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-15-C-0039"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Physical Optics Corp.",
+            "location": "Torrance, California",
+            "contract_number": "N00019-15-C-0039",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Production and delivery of 116 digital data set kits for T-45 aircraft and 240 mission data transfer units",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7117251,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7117251,
+        "fms_countries": [],
+        "competition": "Not competitively procured pursuant to FAR 6.302-1",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-03-19.html"
+  "source": "file:2015-03-19.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:14:05Z"
+  }
 }

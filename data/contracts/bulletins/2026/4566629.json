@@ -11,69 +11,685 @@
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Raytheon, Tucson, Arizona, is being awarded a noncompetitive, undefinitized contract action on a new contract (HQ0851-26-C-E002). The base value of this contract is $745,387,095. Under this contract, the contractor will manufacture and assemble Standard Missile-3 Block IIA All-Up Rounds for the U.S. government and Japan Ministry of Defense (JMOD) Foreign Military Sales (FMS) case requirements. The work will be performed in Tucson, Arizona; and Huntsville, Alabama with an estimated completion date of Feb. 28, 2031. Fiscal 2026 procurement funds in the amount of $275,613,909; and JMOD FMS funds in the amount of $277,688,036, will be obligated at time of award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HQ085126CE002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 745387095.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 553301945.0,
+        "funding_text": "Fiscal 2026 procurement funds in the amount of $275,613,909; and JMOD FMS funds in the amount of $277,688,036, will be obligated at time of award",
+        "completion_date": "2031-02-28",
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon",
+            "location": "Tucson, Arizona",
+            "contract_number": "HQ0851-26-C-E002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Manufacture and assembly of Standard Missile-3 Block IIA All-Up Rounds for U.S. government and Japan MOD FMS case requirements",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 745387095,
+        "cumulative_value_usd": null,
+        "obligated_usd": 549302000,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": "noncompetitive",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, was awarded a $535,975,860 modification (P00025) to contract W31P4Q-23-C-0026 for full rate production and engineering services in support of the TOW Weapon System. The modification brings the total cumulative face value of the contract to $750,818,274. Work will be performed in Tucson, Arizona, with an estimated completion date of Aug. 31, 2027. Fiscal 2026 other procurement, Army funds in the amount of $54,860,567 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q23C0026"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 535975860.0,
+        "cumulative_value_usd": 750818274.0,
+        "obligated_usd": 54860567.0,
+        "funding_text": "Fiscal 2026 other procurement, Army funds in the amount of $54,860,567 were obligated at the time of the award",
+        "completion_date": "2027-08-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "W31P4Q-23-C-0026",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Full rate production and engineering services in support of the TOW Weapon System",
+        "base_contract_number": "W31P4Q-23-C-0026",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 535975860,
+        "cumulative_value_usd": 750818274,
+        "obligated_usd": 54860567,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "University of Alaska Fairbanks, Fairbanks, Alaska, was awarded a $499,000,000 cost-no-fee, cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for essential scientific and engineering capabilities focused on the geophysical detection of nuclear proliferation as part of an approved University Affiliated Research Center. One bid was solicited with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 6, 2031. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911NF-26-D-A013).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W911NF26DA013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 499000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-08-06",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911NF-26-D-A013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "University of Alaska Fairbanks",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "W911NF-26-D-A013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-no-fee, cost-plus-fixed-fee, firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Essential scientific and engineering capabilities for geophysical detection of nuclear proliferation, University Affiliated Research Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 499000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "AECOM Technical Services Inc., Los Angeles, California (W912DQ-26-D-A016); HDR Engineering Inc., Omaha, Nebraska (W912DQ-26-D-A018); HNTB Corp., Kansas City, Missouri (W912DQ-26-D-A021); Affinis Freese and Nichols JV,* Overland Park, Kansas (W912DQ-26-D-A022); Great River Associates Inc.,* Springfield, Missouri (W912DQ-26-D-A023); Prairie-GEO JV,* Columbia, Illinois (W912DQ-26-D-A024); and Water Resources Solutions-Intuition & Logic JV LLC,* Prairie Village, Kansas (W912DQ-26-D-A025), will compete for each order of the $95,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architect-engineer services including civil planning, design, and support during construction for civil works projects and other assigned missions within the U.S. Army Corps of Engineers, Northwestern Division's area of operations. Bids were solicited via the internet with 16 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 6, 2033. U.S. Army Corps of Engineers, Kansas City, Missouri, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912DQ26DA016",
+          "W912DQ26DA018",
+          "W912DQ26DA021",
+          "W912DQ26DA022",
+          "W912DQ26DA023",
+          "W912DQ26DA024",
+          "W912DQ26DA025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2033-08-06",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Kansas City, Missouri",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "W912DQ-26-D-A016",
+            "markers": null
+          },
+          {
+            "name": "HDR Engineering Inc.",
+            "location": "Omaha, Nebraska",
+            "contract_number": "W912DQ-26-D-A018",
+            "markers": null
+          },
+          {
+            "name": "HNTB Corp.",
+            "location": "Kansas City, Missouri",
+            "contract_number": "W912DQ-26-D-A021",
+            "markers": null
+          },
+          {
+            "name": "Affinis Freese and Nichols JV",
+            "location": "Overland Park, Kansas",
+            "contract_number": "W912DQ-26-D-A022",
+            "markers": "*"
+          },
+          {
+            "name": "Great River Associates Inc.",
+            "location": "Springfield, Missouri",
+            "contract_number": "W912DQ-26-D-A023",
+            "markers": "*"
+          },
+          {
+            "name": "Prairie-GEO JV",
+            "location": "Columbia, Illinois",
+            "contract_number": "W912DQ-26-D-A024",
+            "markers": "*"
+          },
+          {
+            "name": "Water Resources Solutions-Intuition & Logic JV LLC",
+            "location": "Prairie Village, Kansas",
+            "contract_number": "W912DQ-26-D-A025",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Architect-engineer services including civil planning, design, and support during construction for civil works projects, USACE Northwestern Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, 16 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Great Lakes Dredge & Dock Co. LLC, Houston, Texas, was awarded a $44,500,000 firm-fixed-price contract for maintenance dredging of the federal navigation channel and deposition basin in Fire Island Inlet, with placement of dredged material as beach nourishment along the feeder beach west of the Fire Island Inlet. The amount of this action is $44,500,000 with a total cumulative face value of $46,310,000. Bids were solicited via the internet with three received. Work will be performed in Babylon, New York, with an estimated completion date of March 11, 2027. Fiscal 2025 civil construction funds in the amount of $44,500,000 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-26-C-A018).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912DS26CA018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 44500000.0,
+        "cumulative_value_usd": 46310000.0,
+        "obligated_usd": 44500000.0,
+        "funding_text": "Fiscal 2025 civil construction funds in the amount of $44,500,000 were obligated at the time of the award",
+        "completion_date": "2027-03-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York, New York",
+          "code": "W912DS-26-C-A018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge & Dock Co. LLC",
+            "location": "Houston, Texas",
+            "contract_number": "W912DS-26-C-A018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance dredging of federal navigation channel and deposition basin, Fire Island Inlet, with beach nourishment placement",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44500000,
+        "cumulative_value_usd": 46310000,
+        "obligated_usd": 44500000,
+        "fms_countries": [],
+        "competition": "internet solicitation, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Southern Contracting LLC,* Biloxi, Mississippi, was awarded a $22,999,774 firm-fixed-price contract for coastwide beach and dune ecosystem restoration. Bids were solicited via the internet with nine received. Work will be performed in Bay St. Louis, Mississippi, with an estimated completion date of May 4, 2027. Fiscal 2022 civil construction, funds in the amount of $14,949,853; and fiscal 2026 cost share with Hancock County Rivers and Harbors contributed funds in the amount of $8,049,921, were obligated at the time of the award. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-26-C-A017).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9127826CA017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22999774.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22999774.0,
+        "funding_text": "Fiscal 2022 civil construction, funds in the amount of $14,949,853; and fiscal 2026 cost share with Hancock County Rivers and Harbors contributed funds in the amount of $8,049,921, were obligated at the time of the award",
+        "completion_date": "2027-05-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-26-C-A017"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Southern Contracting LLC",
+            "location": "Biloxi, Mississippi",
+            "contract_number": "W91278-26-C-A017",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Coastwide beach and dune ecosystem restoration, Bay St. Louis, Mississippi",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22999774,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22999774,
+        "fms_countries": [],
+        "competition": "internet solicitation, nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Engineering Partners Inc.,* Hilo, Hawaii (W9128A-26-D-A019); InSynergy Engineering Inc.,* Honolulu, Hawaii (W9128A-26-D-A020); MK Engineers Ltd.,* Mililani, Hawaii (W9128A-26-D-A021); and Nakamura Oyama & Associates Inc.,* Honolulu, Hawaii (W9128A-26-D-A022), will compete for each order of the $9,900,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architect-engineer services (electrical) for the design of miscellaneous projects in the U.S. Army Corps of Engineers, Pacific Ocean Division’s area of responsibility. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 6, 2031. U.S. Army Corps of Engineers, Honolulu, Hawaii, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9128A26DA019",
+          "W9128A26DA020",
+          "W9128A26DA021",
+          "W9128A26DA022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2031-08-06",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Honolulu, Hawaii",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Engineering Partners Inc.",
+            "location": "Hilo, Hawaii",
+            "contract_number": "W9128A-26-D-A019",
+            "markers": "*"
+          },
+          {
+            "name": "InSynergy Engineering Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-26-D-A020",
+            "markers": "*"
+          },
+          {
+            "name": "MK Engineers Ltd.",
+            "location": "Mililani, Hawaii",
+            "contract_number": "W9128A-26-D-A021",
+            "markers": "*"
+          },
+          {
+            "name": "Nakamura Oyama & Associates Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "W9128A-26-D-A022",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Architect-engineer services (electrical) for design of miscellaneous projects, USACE Pacific Ocean Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, six received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Contrack Watts Inc., McLean, Virginia (N44255-21-D-5003); Manson Construction Co., Seattle, Washington (N44255-21-D-5004); Nova Group Inc., Napa, California (N44255-21-D-5005); Staite Engineering Inc., San Diego, California (N44255-21-D-5006); The Dutra Group, San Rafael, California (N44255-21-D-5007); Triton Marine Construction Group, Bremerton, Washington (N44255-21-D-5008); Western Marine Construction Inc., Seattle, Washington (N44255-21-D-5009); and McMillen Inc., Boise, Idaho (N44255-21-D-5010), are awarded bilateral modifications to their respective waterfront multiple award construction contracts. The modifications revise each contract to reflect an increase in the contract’s shared aggregate maximum ordering capacity from $326,000,000 to $380,000,000, representing a total increase of $54,000,000 across the contract. The contracts provide new construction, repair, alteration, renovation, demolition, dredging, and related construction services for marine waterfront facilities and supporting infrastructure within the Naval Facilities Engineering Systems Command (NAVFAC) Northwest area of responsibility. Work is performed primarily at government installations in Washington, Oregon, Alaska, Idaho, Montana, and Wyoming, with the potential for work throughout the remainder of the U.S. This modification increases the maximum contract value only and no funds are obligated by these modifications. Future task orders will be funded by military construction (Navy) and operations and maintenance (Navy) funds. NAVFAC Northwest, Silverdale, Washington, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N4425521D5003",
+          "N4425521D5004",
+          "N4425521D5005",
+          "N4425521D5006",
+          "N4425521D5007",
+          "N4425521D5008",
+          "N4425521D5009",
+          "N4425521D5010"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 326000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Work is performed primarily at government installations in Washington, Oregon, Alaska, Idaho, Montana, and Wyoming, with the potential for work throughout the remainder of the U.S. This modification increases the maximum contract value only and no funds are obligated by these modifications",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "NAVFAC Northwest, Silverdale, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Contrack Watts Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "N44255-21-D-5003",
+            "markers": null
+          },
+          {
+            "name": "Manson Construction Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N44255-21-D-5004",
+            "markers": null
+          },
+          {
+            "name": "Nova Group Inc.",
+            "location": "Napa, California",
+            "contract_number": "N44255-21-D-5005",
+            "markers": null
+          },
+          {
+            "name": "Staite Engineering Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N44255-21-D-5006",
+            "markers": null
+          },
+          {
+            "name": "The Dutra Group",
+            "location": "San Rafael, California",
+            "contract_number": "N44255-21-D-5007",
+            "markers": null
+          },
+          {
+            "name": "Triton Marine Construction Group",
+            "location": "Bremerton, Washington",
+            "contract_number": "N44255-21-D-5008",
+            "markers": null
+          },
+          {
+            "name": "Western Marine Construction Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "N44255-21-D-5009",
+            "markers": null
+          },
+          {
+            "name": "McMillen Inc.",
+            "location": "Boise, Idaho",
+            "contract_number": "N44255-21-D-5010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "bilateral modification to multiple award construction contracts",
+        "description": "Increase in shared aggregate maximum ordering capacity from $326M to $380M for waterfront construction contracts, NAVFAC Northwest",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 54000000,
+        "cumulative_value_usd": 380000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., San Diego, California, is awarded a $46,089,540 firm-fixed-price modification to a previously awarded contract (N00024-24-C-6400) to procure Joint Counter Radio-Controlled Improvised Explosive Device Electronic Warfare Increment One Block One systems, retrofit kits and spares. This modification also includes $4,199,955 in incremental funding for engineering support services and other direct costs. This contract involves Foreign Military Sales (FMS) to Australia. Work will be performed in Beaverton, Oregon (66%); and San Diego, California (34%), and is expected to be complete by December 2028. FMS (Australia) customer funds in the amount of $15,939,572 (32%); fiscal 2026 other procurement (Navy) funds in the amount of $13,608,567 (27%); fiscal 2026 other procurement (Air Force) funds in the amount of $10,133,080 (20%); fiscal 2026 operations and maintenance (Air Force) funds in the amount of $3,807,104 (7%); fiscal 2025 other procurement (Air Force) funds in the amount of $2,790,248 (6%); fiscal 2026 operations and maintenance (Navy) funds in the amount of $2,174,345 (4%); fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $1,370,014 (3%), and fiscal 2025 other procurement (Navy) funds in the amount of $466,565 (1%), will be obligated at time of award, and funds in the amount of $5,981,449 will expire at the end of the current fiscal year. The Portfolio Acquisition Executive Maritime, Washington, D.C., is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002424C6400"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 46089540.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 56270944.0,
+        "funding_text": "FMS (Australia) customer funds in the amount of $15,939,572 (32%); fiscal 2026 other procurement (Navy) funds in the amount of $13,608,567 (27%); fiscal 2026 other procurement (Air Force) funds in the amount of $10,133,080 (20%); fiscal 2026 operations and maintenance (Air Force) funds in the amount of $3,807,104 (7%); fiscal 2025 other procurement (Air Force) funds in the amount of $2,790,248 (6%); fiscal 2026 operations and maintenance (Navy) funds in the amount of $2,174,345 (4%); fiscal 2026 research, development, test and evaluation (Navy) funds in the amount of $1,370,014 (3%), and fiscal 2025 other procurement (Navy) funds in the amount of $466,565 (1%), will be obligated at time of award, and funds in the amount of $5,981,449 will expire at the end of the current fiscal year",
+        "completion_date": "2028-12",
+        "contracting_activity": {
+          "name": "The Portfolio Acquisition Executive Maritime, Washington, D.C.",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Australia"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "San Diego, California",
+            "contract_number": "N00024-24-C-6400",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Joint Counter Radio-Controlled IED Electronic Warfare Increment One Block One systems, retrofit kits and spares",
+        "base_contract_number": "N00024-24-C-6400",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 46089540,
+        "cumulative_value_usd": null,
+        "obligated_usd": 36,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Syracuse, New York, was awarded a $24,766,887 fixed-price incentive undefinitized contract action for the production of the lightweight low-cost conformal arrays. Work will be performed in Syracuse, New York (70%); La Mesa, Mexico (20%); and Clearwater, Florida (10%), and is expected to be completed by May 2029. Fiscal 2026 other procurement (Navy) funds in the amount of $11,408,444 (61%); fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $5,704,222 (31%); and fiscal 2026 research and development funds in the amount of $1,462,500 (8%), were obligated at the time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 3204(a)(1) (only one responsible source and no other supplies or services will satisfy agency requirements). Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-26-C-6104).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0002426C6104"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24766887.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18575166.0,
+        "funding_text": "Fiscal 2026 other procurement (Navy) funds in the amount of $11,408,444 (61%); fiscal 2026 shipbuilding and conversion (Navy) funds in the amount of $5,704,222 (31%); and fiscal 2026 research and development funds in the amount of $1,462,500 (8%), were obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2029-05",
+        "contracting_activity": {
+          "name": "Naval Sea Systems Command, Washington, D.C.",
+          "code": "N00024-26-C-6104"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-26-C-6104",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price incentive undefinitized contract action",
+        "description": "Production of lightweight low-cost conformal arrays",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24766887,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18575611,
+        "fms_countries": [],
+        "competition": "not competitively procured, 10 U.S.C. 3204(a)(1) only one responsible source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "COWI Greenland Aktieselskab, Nuuk, Greenland (FA252326D0001); ISC Consulting Engineers Aktieselskab, Copenhagen, Denmark (FA252326D0002); and Ramboll Greenland Aktieselskab, Nuuk, Greenland (FA252326D0003), were awarded a maximum $9,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architectural and engineering services. This contract provides for Title I, Title II and other Architectural and engineering services in support of real property at Pituffik Space Base, Greenland. Work will be performed at Pituffik Space Base, Greenland, and is expected to be completed by Aug. 9, 2031. These contracts were competitive acquisitions and five offers were received. Fiscal 2026 operations and maintenance funds in the amount of $15,000 are being obligated at the time of award. The Detachment 1, 21st Contracting Squadron, Copenhagen, Denmark, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA252326D0001",
+          "FA252326D0002",
+          "FA252326D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000.0,
+        "funding_text": "Fiscal 2026 operations and maintenance funds in the amount of $15,000 are being obligated at the time of award",
+        "completion_date": "2031-08-09",
+        "contracting_activity": {
+          "name": "The Detachment 1, 21st Contracting Squadron, Copenhagen, Denmark",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "COWI Greenland Aktieselskab",
+            "location": "Nuuk, Greenland",
+            "contract_number": "FA252326D0001",
+            "markers": null
+          },
+          {
+            "name": "ISC Consulting Engineers Aktieselskab",
+            "location": "Copenhagen, Denmark",
+            "contract_number": "FA252326D0002",
+            "markers": null
+          },
+          {
+            "name": "Ramboll Greenland Aktieselskab",
+            "location": "Nuuk, Greenland",
+            "contract_number": "FA252326D0003",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Architectural and engineering services in support of real property at Pituffik Space Base, Greenland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15000,
+        "fms_countries": [],
+        "competition": "competitive, five offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:59Z",
-  "source": "file:2026-08-07.html"
+  "source": "file:2026-08-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:44:18Z"
+  }
 }

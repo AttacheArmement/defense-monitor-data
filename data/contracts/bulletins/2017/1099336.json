@@ -9,81 +9,692 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Mythics Inc., Virginia Beach, Virginia, has been awarded a $293,247,466 firm-fixed-price contract for an Air Force-wide enterprise software license agreement. Contractor will provide an unlimited license agreement for a core set of Oracle technology products including a catalog which provides price holds with discounted pricing on technology products and continues and consolidates enterprise license agreements (ESLA) for commercial proprietary maintenance support of 745,768 Oracle licenses currently in use. Additionally, this ESLA will allow improvement in Oracle license management, provide access to the MilCloud and other cloud service providers, allow use of Air Force Oracle software in the joint environment, and replace multiple Oracle products approaching end-of-life. Work will be performed at Virginia Beach, Virginia, and is expected to be complete by Feb. 28, 2022. This award is the result of a competitive acquisition amongst Oracle Department of Defense Enterprise Software Initiative blanket purchase agreement holders, with three offers received. Fiscal 2017 operations and maintenance funds in the amount of $17,000,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Maxwell Air Force Base-Gunter Annex, Alabama, is the contracting activity (FA8771-17-F-0008).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA877117F0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 293247466.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17000000.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $17,000,000 are being obligated at the time of award",
+        "completion_date": "2022-02-28",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Maxwell Air Force Base-Gunter Annex, Alabama",
+          "code": "FA8771-17-F-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Mythics Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "FA8771-17-F-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Air Force-wide Oracle enterprise software license agreement (ESLA)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 293247466,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17000000,
+        "fms_countries": [],
+        "competition": "competitive, three offers received among Oracle DoD ESI blanket purchase agreement holders",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "LGC Global Inc., Detroit, Michigan (FA4621-17-D-0001); Comanche Nation Construction, Oklahoma City, Oklahoma (FA4621-17-D-0002); Olgoonik Diversified Services LLC, Anchorage, Alaska (FA4621-17-D-0003); Weldin Construction LLC, Palmer, Alaska (FA4621-17-D-0004); Snodgrass & Sons Construction Co. Inc., Wichita, Kansas (FA4621-17-D-0005); and K & K Industries Inc., Junction City, Kansas (FA4621-17-D-0006), have been awarded a combined, not-to-exceed $60,000,000 indefinite-delivery/indefinite-quantity contract for sustainment, repair, modernization, and construction requirements. Work will be performed at McConnell Air Force Base, Kansas, and is expected to be completed by Feb. 28, 2022. This award is the result of a competitive acquisition with 28 offers received. Fiscal 2017 operations and maintenance funds in the amount of $6,543,597 has been obligated to LGC Global Inc., and $500 each to the other awardees, are being obligated at the time of award. The 22nd Contracting Squadron, McConnell Air Force Base, Kansas, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA462117D0001",
+          "FA462117D0002",
+          "FA462117D0003",
+          "FA462117D0004",
+          "FA462117D0005",
+          "FA462117D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 60000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6543597.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $6,543,597 has been obligated to LGC Global Inc., and $500 each to the other awardees, are being obligated at the time of award",
+        "completion_date": "2022-02-28",
+        "contracting_activity": {
+          "name": "The 22nd Contracting Squadron, McConnell Air Force Base, Kansas",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "LGC Global Inc.",
+            "location": "Detroit, Michigan",
+            "contract_number": "FA4621-17-D-0001",
+            "markers": null
+          },
+          {
+            "name": "Comanche Nation Construction",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA4621-17-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Olgoonik Diversified Services LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "FA4621-17-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Weldin Construction LLC",
+            "location": "Palmer, Alaska",
+            "contract_number": "FA4621-17-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Snodgrass & Sons Construction Co. Inc.",
+            "location": "Wichita, Kansas",
+            "contract_number": "FA4621-17-D-0005",
+            "markers": null
+          },
+          {
+            "name": "K & K Industries Inc.",
+            "location": "Junction City, Kansas",
+            "contract_number": "FA4621-17-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Sustainment, repair, modernization, and construction at McConnell AFB, Kansas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 60000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6547597,
+        "fms_countries": [],
+        "competition": "competitive, 28 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Battlespace Flight Services LLC, Arlington, Virginia, has been awarded an $11,766,078 modification (04) to task order 0014 on previously awarded contract FA4890-13-D-0001 for remotely piloted aircraft operations and maintenance support. Work will be performed at Kandahar Air Field, Afghanistan, and is expected to be complete by March 31, 2018. Fiscal 2017 operations and maintenance; and overseas contingency operations funds in the amount of $11,766,078 are being obligated at the time of award. Acquisition Management and Integration Center, Air Combat Command, Joint Base Langley-Eustis, Virginia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA489013D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11766078.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11766078.0,
+        "funding_text": "Fiscal 2017 operations and maintenance; and overseas contingency operations funds in the amount of $11,766,078 are being obligated at the time of award",
+        "completion_date": "2018-03-31",
+        "contracting_activity": {
+          "name": "Acquisition Management and Integration Center, Air Combat Command, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Battlespace Flight Services LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Modification 04 to task order 0014 for remotely piloted aircraft operations and maintenance support, Kandahar Air Field",
+        "base_contract_number": "FA4890-13-D-0001",
+        "order_number": "0014",
+        "modification_number": "04",
+        "value_usd": 11766078,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11766078,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Battlespace Flight Services, LLC, Arlington, Virginia, has been awarded a $7,007,039 modification (26) to task order 0002 on previously awarded contract FA4890-13-D-0001 for remotely piloted aircraft operations and maintenance support. Work will be performed at Creech Air Force Base, Nevada and Nellis Air Force Base, Nevada, and is expected to be complete by March 31, 2018. Fiscal 2017 operations and maintenance funds in the amount of $7,007,039 are being obligated at the time of award. Acquisition Management and Integration Center, Air Combat Command, Joint Base Langley-Eustis, Virginia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA489013D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7007039.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7007039.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $7,007,039 are being obligated at the time of award",
+        "completion_date": "2018-03-31",
+        "contracting_activity": {
+          "name": "Acquisition Management and Integration Center, Air Combat Command, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Battlespace Flight Services, LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Modification 26 to task order 0002 for remotely piloted aircraft operations and maintenance support, Creech and Nellis AFB, Nevada",
+        "base_contract_number": "FA4890-13-D-0001",
+        "order_number": "0002",
+        "modification_number": "26",
+        "value_usd": 7007039,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7007039,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Dobco Inc., Wayne, New Jersey, was awarded a $48,535,000 firm-fixed-price contract to construct a replacement elementary school at the U.S. Military Academy, West Point, New York. Bids were solicited via the Internet with six received. Work will be performed at West Point, New York, with an estimated completion date of Feb. 28, 2020. Fiscal 2016 military construction funds in the amount of $48,535,000 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-17-C-0005).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W912DS17C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 48535000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 48535000.0,
+        "funding_text": "Fiscal 2016 military construction funds in the amount of $48,535,000 were obligated at the time of the award",
+        "completion_date": "2020-02-28",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New York, New York",
+          "code": "W912DS-17-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Dobco Inc.",
+            "location": "Wayne, New Jersey",
+            "contract_number": "W912DS-17-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of replacement elementary school at U.S. Military Academy, West Point",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 48535000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 48535000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pride Industries, Roseville, California, was awarded an $18,365,033 firm-fixed-price modification (P00064) to contract W9124G-13-C-0002 for base operations (operations, maintenance, repair, and construction of real property facilities). Work will be performed in Fort Rucker, Alabama, with an estimated completion date of Feb. 28, 2018. Fiscal 2017 operations and maintenance (Army) funds in the amount of $2,877,889 were obligated at the time of the award. U.S. Army Contracting Command, Fort Rucker, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9124G13C0002"
+        ],
+        "modification_numbers": [
+          "P00064"
+        ],
+        "is_modification": true,
+        "value_usd": 18365033.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2877889.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $2,877,889 were obligated at the time of the award",
+        "completion_date": "2018-02-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Fort Rucker, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Pride Industries",
+            "location": "Roseville, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Base operations support at Fort Rucker, Alabama",
+        "base_contract_number": "W9124G-13-C-0002",
+        "order_number": null,
+        "modification_number": "P00064",
+        "value_usd": 18365033,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2877889,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DynCorp International LLC, Fort Worth, Texas, was awarded a $14,465,990 cost-plus- incentive-fee foreign military sales modification (P00151) to contract (Netherlands and Egypt) W58RGZ-13-C-0040 for aviation field maintenance services in support of the U.S. Army Aviation and Missile Command, Aviation Field Maintenance Division outside the continental U.S. operations. Work will be performed in Germany, Honduras, and Kuwait, with an estimated completion date of Dec. 31, 2017. Fiscal 2010 and 2017 other; and operations and maintenance (Army) funds in the collective amount of $14,465,990 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ13C0040"
+        ],
+        "modification_numbers": [
+          "P00151"
+        ],
+        "is_modification": true,
+        "value_usd": 14465990.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14465990.0,
+        "funding_text": "Fiscal 2010 and 2017 other; and operations and maintenance (Army) funds in the collective amount of $14,465,990 were obligated at the time of the award",
+        "completion_date": "2017-12-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "DynCorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W58RGZ-13-C-0040",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Aviation field maintenance services for U.S. Army Aviation and Missile Command outside continental U.S. (Germany, Honduras, Kuwait)",
+        "base_contract_number": "W58RGZ-13-C-0040",
+        "order_number": null,
+        "modification_number": "P00151",
+        "value_usd": 14465990,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14465990,
+        "fms_countries": [
+          "Netherlands",
+          "Egypt"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Information Technology Inc., Fairfax, Virginia, is being awarded $44,407,081 for modification P00016 against a previously awarded cost-plus-fixed-fee, cost-reimbursable contract (N00421-16-C-0032) to exercise an option for services in support of the Naval Air Warfare Center Aircraft Division’s Ship and Air Integrated Warfare department. Services will include rapid design, development, customization, manufacturing, fabrication, integration, test and evaluation, installation, certification, maintenance and upgrade, logistic, modernization, and life cycle support of new and/or existing shipboard and airborne systems. Work will be performed in St. Inigoes, Maryland (15 percent); and various locations inside and outside the continental U.S. (85 percent), and is expected to be completed in February 2018. Fiscal 2017 working capital funds (Navy) in the amount of $12,944,206 will be obligated at time of award, none of which will expire at the end of the current year. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0042116C0032"
+        ],
+        "modification_numbers": [
+          "P00016"
+        ],
+        "is_modification": true,
+        "value_usd": 44407081.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12944206.0,
+        "funding_text": "Fiscal 2017 working capital funds (Navy) in the amount of $12,944,206 will be obligated at time of award, none of which will expire at the end of the current year",
+        "completion_date": "2018-02",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "General Dynamics Information Technology Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00421-16-C-0032",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee, cost-reimbursable",
+        "description": "Option exercise for services supporting NAWCAD Ship and Air Integrated Warfare department",
+        "base_contract_number": "N00421-16-C-0032",
+        "order_number": null,
+        "modification_number": "P00016",
+        "value_usd": 44407081,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12944206,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Agiltron Inc.,* Woburn, Massachusetts, is being awarded a $15,699,200 fixed-price, indefinite-delivery/indefinite-quantity contract for the production of the fiber optic repair sets (FORS) in support of the Navy and Marine Corps. The FORS provide the ability to implement low-loss, permanent splices on damaged fiber optic cabling in aircraft avionics bays and compartments. Work will be performed in Woburn, Massachusetts, and is expected to be completed in January 2022. Fiscal 2017 aircraft procurement (Navy) funds in the amount of $2,244,874 are being obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was competitively procured via an electronic request for proposals as a 100 percent small business set-aside; with two offers received. The Naval Air Warfare Center Aircraft, Lakehurst, New Jersey, is the contracting activity (N68335-17-D-0188).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6833517D0188"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15699200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2244874.0,
+        "funding_text": "Fiscal 2017 aircraft procurement (Navy) funds in the amount of $2,244,874 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-01",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft, Lakehurst, New Jersey",
+          "code": "N68335-17-D-0188"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Agiltron Inc.",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "N68335-17-D-0188",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Production of fiber optic repair sets (FORS) for Navy and Marine Corps",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15699200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2244874,
+        "fms_countries": [],
+        "competition": "competitive electronic RFP, 100 percent small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "QED Systems Inc., Virginia Beach, Virginia, is being awarded a $10,153,591 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity modification to a previously awarded contract (N39040-16-D-0001) to exercise options for the accomplishment of non-nuclear production trade touch labor services to support upcoming availabilities aboard Virginia- and Los Angeles-class submarines. The trades include non-nuclear welders, pipefitters, firewatches, outside machinists, shipwrights, shipfitters, painters, electricians and weight handlers. Work will be performed in Kittery, Maine, and is expected to be completed by February 2018. No funds will be obligated at the time of award. Fiscal 2017 and 2018 (planned) operations and maintenance (Navy) funding will be obligated upon award of each task order as they are issued. The Portsmouth Naval Shipyard, Kittery, Maine, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N3904016D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 10153591.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Fiscal 2017 and 2018 (planned) operations and maintenance (Navy) funding will be obligated upon award of each task order as they are issued",
+        "completion_date": "2018-02",
+        "contracting_activity": {
+          "name": "The Portsmouth Naval Shipyard, Kittery, Maine",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "QED Systems Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N39040-16-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of options for non-nuclear production trade touch labor services for submarine availabilities, Kittery, Maine",
+        "base_contract_number": "N39040-16-D-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10153591,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Huntington Beach, California, is being awarded $7,451,147 for firm-fixed-price delivery order 2007 against a previously issued basic ordering agreement (N00019-16-G-0001). This delivery order provides for procurement and installation of 93 Replacement Acoustic Processor Tech Refresh units for the P-8A Multi-mission Maritime Aircraft in support of the Navy and government of Australia. In addition, this order provides for Navy integration laboratories and spares. Work will be performed in Chantilly, Virginia (75 percent); and Huntington Beach, California (25 percent), and is expected to be completed in December 2018. Fiscal 2016 and 2017 aircraft procurement (Navy); 2017 research, development, test and evaluation (Navy); and cooperative agreement funds in the amount of $7,451,147 are being obligated on this award, none of which will expire at the end of the current fiscal year. This order combines purchases for the Navy ($6,891,071; 92.5 percent); and the government of Australia ($560,076; 7.5 percent) under a cooperative agreement. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001916G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7451147.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7451147.0,
+        "funding_text": "Fiscal 2016 and 2017 aircraft procurement (Navy); 2017 research, development, test and evaluation (Navy); and cooperative agreement funds in the amount of $7,451,147 are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Huntington Beach, California",
+            "contract_number": "N00019-16-G-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Procurement and installation of 93 Replacement Acoustic Processor Tech Refresh units for P-8A aircraft (Navy and Australia)",
+        "base_contract_number": "N00019-16-G-0001",
+        "order_number": "2007",
+        "modification_number": null,
+        "value_usd": 7451147,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7451147,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Short Bark Industries Inc., doing business as SBI,** Vonore, Tennessee, has been awarded a maximum $24,561,300 modification (P00128) exercising the fourth one-year option of a one-year base contract (SPM1C1-13-D-1030) with four one-year option periods for various types of coats. The modification brings the maximum dollar value of the contract to $45,001,147 from $20,439,847. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Locations of performance are Puerto Rico, Tennessee and Mississippi, with a Sept. 8, 2018, performance completion date. Using customer is Army. Type of appropriation is fiscal 2017 through 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1030"
+        ],
+        "modification_numbers": [
+          "P00128"
+        ],
+        "is_modification": true,
+        "value_usd": 24561300.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Short Bark Industries Inc., doing business as SBI",
+            "location": "Vonore, Tennessee",
+            "contract_number": "SPM1C1-13-D-1030",
+            "markers": "**"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Fourth one-year option exercise for various types of coats",
+        "base_contract_number": "SPM1C1-13-D-1030",
+        "order_number": null,
+        "modification_number": "P00128",
+        "value_usd": 24561300,
+        "cumulative_value_usd": 45001147,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "GE Datex Ohmeda Inc., Madison, Wisconsin, has been awarded a maximum $19,847,608 modification (P00110) exercising the eighth one-year option period of a one-year base contract (SPM2D1-09-D-8348) with nine one-year option periods for patient monitoring systems, subsystems, accessories, consumables and training. This is a fixed-price with economic-price-adjustment contract. Location of performance is Wisconsin, with a March 5, 2018, performance completion date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2017 through 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPM2D109D8348"
+        ],
+        "modification_numbers": [
+          "P00110"
+        ],
+        "is_modification": true,
+        "value_usd": 19847608.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "GE Datex Ohmeda Inc.",
+            "location": "Madison, Wisconsin",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Exercise of eighth one-year option period for patient monitoring systems, subsystems, accessories, consumables and training",
+        "base_contract_number": "SPM2D1-09-D-8348",
+        "order_number": null,
+        "modification_number": "P00110",
+        "value_usd": 19847608,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:34Z",
-  "source": "file:2017-03-01.html"
+  "source": "file:2017-03-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:52:43Z"
+  }
 }

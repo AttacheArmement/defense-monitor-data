@@ -9,69 +9,549 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Electric Co., Cincinnati, Ohio, has been awarded a $325,000,000 indefinite-delivery/indefinite quantity contract for Versatile Affordable Advanced Turbine Engines (VAATE) III and Beyond. The contractor will develop technologies by the 2017 timeframe that will permit an order of magnitude increase in turbo-propulsion affordability over the year 2000 state-of-the-art technology. Work will be performed at Cincinnati, Ohio, and is expected to be complete by Jan. 27, 2023. This award is the result of a competitive acquisition with 34 offers received. Fiscal year 2014 research, development, test and evaluation funds in the amount of $451,400 are being obligated at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-15-D-2501).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA865015D2501"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 325000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 451400.0,
+        "funding_text": "Fiscal year 2014 research, development, test and evaluation funds in the amount of $451,400 are being obligated at the time of award",
+        "completion_date": "2023-01-27",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-15-D-2501"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "FA8650-15-D-2501",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite quantity contract",
+        "description": "Versatile Affordable Advanced Turbine Engines (VAATE) III and Beyond",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 325000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 451400,
+        "fms_countries": [],
+        "competition": "competitive, 34 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Northrop Grumman Information Systems, Herndon, Virginia, has been awarded a firm-fixed-price $50,304,260 modification (P00024) to exercise the option on previously awarded contract FA8726-13-C-0001 for the Battlefield Airborne Communications Node E-11A platform. The contractor will provide comprehensive tasks and provide personnel, facilities, aircraft subsystems and support equipment. Work will be performed at Kandahar Air Base, Afghanistan and Wichita, Kansas, and is expected to be complete by Jan. 23, 2016. Fiscal year 2015 operations and maintenance funds in the amount of $50,304,260 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA872613C0001"
+        ],
+        "modification_numbers": [
+          "P00024"
+        ],
+        "is_modification": true,
+        "value_usd": 50304260.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 50304260.0,
+        "funding_text": "Fiscal year 2015 operations and maintenance funds in the amount of $50,304,260 are being obligated at the time of award",
+        "completion_date": "2016-01-23",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp., Northrop Grumman Information Systems",
+            "location": "Herndon, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for Battlefield Airborne Communications Node E-11A platform support",
+        "base_contract_number": "FA8726-13-C-0001",
+        "order_number": null,
+        "modification_number": "P00024",
+        "value_usd": 50304260,
+        "cumulative_value_usd": null,
+        "obligated_usd": 50304260,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a not-to-exceed $34,628,216 cost-plus-fixed-fee and firm-fixed-price undefinitized contract action (0137) to previously awarded contract FA8620-10-G-3038. The contractor will support the United Kingdom Contractor Logistics Support program. Work will be performed at Poway, California, and various overseas locations and is expected to be complete by Oct. 31, 2015. This contract is 100 percent foreign military sales. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA862010G3038"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34628216.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2015-10-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee and firm-fixed-price undefinitized contract action",
+        "description": "United Kingdom Contractor Logistics Support program",
+        "base_contract_number": "FA8620-10-G-3038",
+        "order_number": null,
+        "modification_number": "0137",
+        "value_usd": 34628216,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Harris Corp., Government Communications Systems, Palm Bay, Florida, has been awarded a $15,931,358 modification (P00194) to previously awarded contract FA8819-08-C-0001 for Space Control Depot support. The contractor will provide depot and sustainment engineering, repairable and disposable item management, stock, storage and issuance of spares, hardware and software maintenance and other activities. Work will be performed at Palm Bay, Florida, and is expected to be complete by Jan. 31, 2016. Fiscal year 2015 operations and maintenance funds in the amount of $9,730,310 are being obligated at the time of award. Air Force Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA881908C0001"
+        ],
+        "modification_numbers": [
+          "P00194"
+        ],
+        "is_modification": true,
+        "value_usd": 15931358.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9730310.0,
+        "funding_text": "Fiscal year 2015 operations and maintenance funds in the amount of $9,730,310 are being obligated at the time of award",
+        "completion_date": "2016-01-31",
+        "contracting_activity": {
+          "name": "Air Force Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Harris Corp., Government Communications Systems",
+            "location": "Palm Bay, Florida",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Space Control Depot support",
+        "base_contract_number": "FA8819-08-C-0001",
+        "order_number": null,
+        "modification_number": "P00194",
+        "value_usd": 15931358,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9730310,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L-3 National Security Solution Inc., Reston, Virginia, has been awarded a $6,606,907 modification (13) exercising an option to previously awarded task order FA8723-13-D-0001 0002 for mission continuity for Mobile Consolidated Command Center. The contractor will provide operations, maintenance and support to maintain mission integrity for a survivable and endurable Command and Control of U.S. strategic, space and selected non-strategic forces, to include homeland security when directed. Work will be performed at Albuquerque, New Mexico, and F.E. Warren Air Force Base, Wyoming, and is expected to be complete by Jan. 31, 2016. Fiscal year 2015 operations and maintenance funds in the amount of $3,041,016 are being obligated at the time of award. Air Force Life Cycle Management Center, Peterson Air Force Base, Colorado, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA872313D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 6606907.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3041016.0,
+        "funding_text": "Fiscal year 2015 operations and maintenance funds in the amount of $3,041,016 are being obligated at the time of award",
+        "completion_date": "2016-01-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Peterson Air Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L-3 National Security Solution Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Mission continuity for Mobile Consolidated Command Center (option exercise)",
+        "base_contract_number": "FA8723-13-D-0001",
+        "order_number": "0002",
+        "modification_number": "13",
+        "value_usd": 6606907,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3041016,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The General Atomics, Aeronautical Systems Inc. contract awarded on Jan. 6, 2015 was actually awarded on Jan. 16, 2015.No other announcement details were changed (FA8620-10-G-3038 0060).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA862010G3038"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Atomics, Aeronautical Systems Inc.",
+            "location": null,
+            "contract_number": "FA8620-10-G-3038 0060",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: award date of General Atomics contract changed from Jan. 6, 2015 to Jan. 16, 2015; no other details changed",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2015-01-16"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Lockheed Martin, Orlando, Florida, was awarded a $28,246,765 firm-fixed-price foreign military sales (Korea, Indonesia, Qatar, Singapore) multi-year contract with options for 320 Launchers and 4 Launcher Electronic Assembly (LEAs) in support of the Joint Attack Munitions Systems (JAMS) M299 HELLFIRE launchers, spares and engineering support. Work will be performed in Orlando, Florida, with an estimated completion date of Dec. 31, 2017. Bids were solicited via the Internet with one received. Fiscal 2010, 2013, 2014, 2015, 2016 other procurement, other procurement (Army) and research, development, testing, and evaluation funds in the amount of $28,246,765 are being obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-15-C-0043).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q15C0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28246765.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28246765.0,
+        "funding_text": "Fiscal 2010, 2013, 2014, 2015, 2016 other procurement, other procurement (Army) and research, development, testing, and evaluation funds in the amount of $28,246,765 are being obligated at the time of the award",
+        "completion_date": "2017-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-15-C-0043"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Korea",
+          "Indonesia",
+          "Qatar",
+          "Singapore"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Lockheed Martin",
+            "location": "Orlando, Florida",
+            "contract_number": "W31P4Q-15-C-0043",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price multi-year contract with options",
+        "description": "Joint Attack Munitions Systems (JAMS) M299 HELLFIRE launchers, 320 launchers and 4 Launcher Electronic Assembly (LEAs), spares and engineering support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28246765,
+        "cumulative_value_usd": null,
+        "obligated_usd": 28246765,
+        "fms_countries": [
+          "Korea",
+          "Indonesia",
+          "Qatar",
+          "Singapore"
+        ],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Armstrong Marine Inc, Port Angeles, Washington, was awarded a $8,209,717 firm-fixed-price contract for three self-propelled, foil assisted aluminum catamarans, delivery included, for hydrographic surveys. Work will be performed in Port Angeles, Washington, with an estimated completion date of Jan. 15, 2017. Bids were solicited via the Internet with three received. Fiscal 2015 other procurement funds in the amount of $8,209,717 are being obligated at the time of the award. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-15-C-0018).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912BU15C0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8209717.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8209717.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $8,209,717 are being obligated at the time of the award",
+        "completion_date": "2017-01-15",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-15-C-0018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Armstrong Marine Inc",
+            "location": "Port Angeles, Washington",
+            "contract_number": "W912BU-15-C-0018",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Three self-propelled, foil assisted aluminum catamarans with delivery included, for hydrographic surveys",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8209717,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8209717,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Meridian Airport Authority doing business as Meridian Aviation, Meridian, Mississippi, has been awarded a maximum $24,947,557 fixed-price with economic-price-adjustment, into-plane-requirements contract for jet fuel. This was a sole-source acquisition. This is a four-year base contract with no option year periods. The location of performance is Mississippi, with a March 31, 2019 performance completion date. The using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. The type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0011).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24947557.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Meridian Airport Authority doing business as Meridian Aviation",
+            "location": "Meridian, Mississippi",
+            "contract_number": "SP0600-15-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, into-plane-requirements contract",
+        "description": "Jet fuel into-plane requirements contract (four-year base, no options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24947557,
+        "cumulative_value_usd": 24947557,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Graybar Electric Company Inc., St. Louis, Missouri, has been awarded a maximum $17,000,000 firm-fixed-price, bridge contract for prime vendor maintenance, repair and operations support for the Southwest zone two region. This was a sole-source acquisition. The location of performance is Missouri, with an April 20, 2015 performance completion date. The using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. The type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-15-D-0011).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E315D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-15-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Graybar Electric Company Inc.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "SPE8E3-15-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price bridge contract",
+        "description": "Bridge contract for prime vendor maintenance, repair and operations support, Southwest zone two region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17000000,
+        "cumulative_value_usd": 17000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Science Application International Corp., Fairfield, New Jersey, has been awarded a maximum $16,000,000 firm-fixed-price, bridge contract for prime vendor maintenance, repair and operations support for the Southwest zone two region. This was a sole-source acquisition. The location of performance is New Jersey, with an April 20, 2015 performance completion date. The using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. The type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8E3-15-D-0012).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E315D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8E3-15-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Science Application International Corp.",
+            "location": "Fairfield, New Jersey",
+            "contract_number": "SPE8E3-15-D-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price bridge contract",
+        "description": "Bridge contract for prime vendor maintenance, repair and operations support, Southwest zone two region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16000000,
+        "cumulative_value_usd": 16000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-01-20.html"
+  "source": "file:2015-01-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:19:20Z"
+  }
 }

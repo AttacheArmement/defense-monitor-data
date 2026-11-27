@@ -11,99 +11,850 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Orbital ATK Inc., Defense Electronic Systems, Northridge, California, is awarded $171,215,447 for modification P00004 to a previously awarded firm-fixed-price contract (N00019-17-C-0005). This modification exercises an option for the procurement of full-rate Production Lot 7 for the Advanced Anti-Radiation Guided Missile (AARGM) for the Navy and the government of Australia. This option exercise provides for the conversion of 271 Navy provided AGM-88B High Speed Anti-Radiation Missiles into 253 Navy AGM-88E AARGM all-up-rounds (AURs), eight Captive Air Training Missiles and 10 AGM-88E AARGM AURs for foreign military sales (FMS) customers. Additionally, this option exercise procures related supplies and services necessary for AARGM manufacture, sparing, and fleet deployment to include AUR kits, as well as guidance and control section spares. Work will be performed in Northridge, California (90 percent); and Ridgecrest, California (10 percent), and is expected to be completed in March 2020. Fiscal 2016, 2017 and 2018 weapons procurement (Navy); FMS; and other customer funds in the amount of $171,215,447 will be obligated at time of award, $240,288 of which will expire at the end of the current fiscal year. This effort combines purchases for the Navy ($162,837,185; 95 percent); the government of Australia ($6,878,262; 4 percent); and other customer funds from the government of Italy ($1,500,000; 1 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0005"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 171215447.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 171215447.0,
+        "funding_text": "Fiscal 2016, 2017 and 2018 weapons procurement (Navy); FMS; and other customer funds in the amount of $171,215,447 will be obligated at time of award, $240,288 of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Orbital ATK Inc., Defense Electronic Systems",
+            "location": "Northridge, California",
+            "contract_number": "N00019-17-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Full-rate Production Lot 7 of Advanced Anti-Radiation Guided Missile (AARGM) for Navy and Australia (option exercise)",
+        "base_contract_number": "N00019-17-C-0005",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 171215447,
+        "cumulative_value_usd": null,
+        "obligated_usd": 171215447,
+        "fms_countries": [
+          "Australia",
+          "Italy"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "C.E.R. Inc.,* Baltimore, Maryland (N40080-18-D-0016); EGI-HSU JV LLC,* Gaithersburg, Maryland (N40080-18-D-0017); G-W Management Services LLC,* Rockville, Maryland (N40080-18-D-0018); Huang-Gaghan JV,* Alexandria, Virginia (N40080-18-D-0019); Kunj Construction Corp.,* Mechanicsville, Virginia (N40080-18-D-0020); and Ocean Construction Services Inc.;* Virginia Beach, Virginia (N40080-18-D-0021), are each being awarded an indefinite-delivery/indefinite-quantity multiple award construction contract for construction projects located primarily within the Naval Facilities Engineering Command (NAVFAC) Washington area of responsibility (AOR). The maximum dollar value including the base period and one option year for all six contracts combined is $99,000,000. C.E.R. Inc. is being awarded the initial task order at $2,364,000 for Building 210 replacement of chillers, electrical controls, and switches at Naval Research Laboratory, Washington, District of Columbia. Work for this task order is expected to be completed by July 2019. All work on this contract will be performed primarily within the NAVFAC Washington AOR to include District of Columbia (40 percent); Virginia (40 percent); and Maryland (20 percent). The term of the contract is not to exceed 24 months, with an expected completion date of May 2020. Fiscal 2018 supervision, inspection, and overhead; and fiscal 2018 Navy working capital funds in the amount of $2,389,000 are obligated on this award; of which $25,000 will expire at the end of the current fiscal year. Future task orders will be primarily funded by military construction (Navy); operations and maintenance (Navy and Marine Corps); and Navy working capital funds. This contract was competitively procured via the Navy Electronic Commerce Online website, with 50 proposals received. These six contractors may compete for task orders under the terms and conditions of the awarded contract. The Naval Facilities Engineering Command, Washington, Washington, District of Columbia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N4008018D0016",
+          "N4008018D0017",
+          "N4008018D0018",
+          "N4008018D0019",
+          "N4008018D0020",
+          "N4008018D0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 99000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2389000.0,
+        "funding_text": "Fiscal 2018 supervision, inspection, and overhead; and fiscal 2018 Navy working capital funds in the amount of $2,389,000 are obligated on this award; of which $25,000 will expire at the end of the current fiscal year",
+        "completion_date": "2019-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Washington, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "C.E.R. Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "N40080-18-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "EGI-HSU JV LLC",
+            "location": "Gaithersburg, Maryland",
+            "contract_number": "N40080-18-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "G-W Management Services LLC",
+            "location": "Rockville, Maryland",
+            "contract_number": "N40080-18-D-0018",
+            "markers": "*"
+          },
+          {
+            "name": "Huang-Gaghan JV",
+            "location": "Alexandria, Virginia",
+            "contract_number": "N40080-18-D-0019",
+            "markers": "*"
+          },
+          {
+            "name": "Kunj Construction Corp.",
+            "location": "Mechanicsville, Virginia",
+            "contract_number": "N40080-18-D-0020",
+            "markers": "*"
+          },
+          {
+            "name": "Ocean Construction Services Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N40080-18-D-0021",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity multiple award construction contract",
+        "description": "NAVFAC Washington AOR construction projects; initial task order to C.E.R. Inc. for Building 210 chiller/electrical replacement at Naval Research Laboratory",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 99000000,
+        "cumulative_value_usd": 99000000,
+        "obligated_usd": 2389000,
+        "fms_countries": [],
+        "competition": "competitive, Navy Electronic Commerce Online website, 50 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Bath Iron Works (BIW), Bath, Maine, is awarded an $87,218,473 cost-plus-award-fee contract for DDG-51 and FFG-7 class integrated planning yard services. BIW will provide expert design, planning, and material support services for both maintenance and modernization. Work will be performed in Bath, Maine, and is expected to be completed by February 2019. Fiscal 2018 other procurement (Navy) funding in the amount of $5,311,000 will be obligated at contract award and not expire at the end of the current fiscal year. Fiscal 2018 operations and maintenance (Navy) funding in the amount of $112,800 will be obligated at contract award and expire at the end of the current fiscal year. This contract was not competitively procured in accordance with Federal Acquisition Regulation 6.302-1 (a) (2) (III) (B) the requirements may be deemed to be available only from the original source in the case of follow-on contracts for the continued provision of highly specialized requirements when it is likely that award to any other source would result in unacceptable delays in fulfilling the agency’s requirement. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-18-C-4451).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002418C4451"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 87218473.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5423800.0,
+        "funding_text": "Fiscal 2018 other procurement (Navy) funding in the amount of $5,311,000 will be obligated at contract award and not expire at the end of the current fiscal year Fiscal 2018 operations and maintenance (Navy) funding in the amount of $112,800 will be obligated at contract award and expire at the end of the current fiscal year",
+        "completion_date": "2019-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-18-C-4451"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Bath Iron Works (BIW)",
+            "location": "Bath, Maine",
+            "contract_number": "N00024-18-C-4451",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-award-fee contract",
+        "description": "DDG-51 and FFG-7 class integrated planning yard services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 87218473,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5423800,
+        "fms_countries": [],
+        "competition": "not competitively procured, FAR 6.302-1(a)(2)(iii)(B)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded $46,569,974 for cost-plus-fixed-fee delivery order 0097 against a previously issued basic ordering agreement (N00019-14-G-0020). This delivery order provides for non-recurring engineering, the development of design documentation, and the creation of modification instructions. These efforts will support service life extension and enable the developmental test F-35 aircraft to maintain currency with delivered technology. Work will be performed in Fort Worth, Texas, and is expected to be completed in June 2019. Fiscal 2018 research, development, test and evaluation (Navy and Marine Corps); and non-U.S. Department of Defense (DoD) participant funds in the amount of $32,646,275 will be obligated at time of award, none of which will expire at the end of the fiscal year. This delivery order combines purchases for the Navy ($12,375,000; 38 percent); Marine Corps ($12,375,000; 38 percent); and non-U.S. DoD participants ($7,896,275; 24 percent). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 46569974.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32646275.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation (Navy and Marine Corps); and non-U.S. Department of Defense (DoD) participant funds in the amount of $32,646,275 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2019-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-14-G-0020",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "Non-recurring engineering for service life extension of developmental test F-35 aircraft",
+        "base_contract_number": "N00019-14-G-0020",
+        "order_number": "0097",
+        "modification_number": null,
+        "value_usd": 46569974,
+        "cumulative_value_usd": null,
+        "obligated_usd": 32646275,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Simulation & Training Solutions LLC, Cedar Rapids, Iowa, is awarded a $24,722,331 firm-fixed-price contract for the manufacture and delivery of one E-2D weapon system trainer for the government of Japan under the Foreign Military Sales (FMS) program. Work will be performed in Sterling, Virginia (90 percent); and Misawa, Japan (10 percent), and is expected to be completed in January 2021. FMS funding in the amount of $24,722,331 will be obligated at time of award; none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(4). The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity (N61340-18-C-0007).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6134018C0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24722331.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24722331.0,
+        "funding_text": "FMS funding in the amount of $24,722,331 will be obligated at time of award; none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-01",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": "N61340-18-C-0007"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Simulation & Training Solutions LLC",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N61340-18-C-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Manufacture and delivery of one E-2D weapon system trainer for Japan",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24722331,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24722331,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 2304(c)(4)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Synectic Solutions Inc.,* Oxnard, California, is awarded a $12,074,238 cost-plus-fixed-fee contract technical representative services for airborne weapon systems in support of the Naval Air Warfare Center Weapons Division’s Fleet Weapons Support and the Shipboard Weapons Integration teams. Services to be provided include in-service engineering and logistics support; on-site and on-call instruction and training in the installation, operation, maintenance, storage, and modification of weapons ashore and afloat. Additional services to be provided include testing, identification, and documentation of weapon system discrepancies and deficiencies, and associated logistical data management support. Work will be performed in Norfolk, Virginia (12 percent); San Diego, California (12 percent); Patuxent River, Maryland (10 percent); Whidbey Island, Washington (6 percent); Lemoore, California (6 percent); Yuma, Arizona (6 percent); Jacksonville, Florida (6 percent); Cherry Point, North Carolina (6 percent); Okinawa, Japan (6 percent); Iwakuni, Japan (6 percent); and Atsugi, Japan (6 percent), and is expected to be completed in June 2023. Fiscal 2018 operations and maintenance (Navy) funding in the amount of $300,000 will be obligated at time of award; all of which will expire at the end of the current fiscal year. This contract was competitively procured via an electronic request for proposals as a 100 percent small business set-aside; two offers were received. The Naval Air Warfare Center Weapons Division, China Lake, California, is the contracting activity (N68936-18-C-0016).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6893618C0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 12074238.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 300000.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy) funding in the amount of $300,000 will be obligated at time of award; all of which will expire at the end of the current fiscal year",
+        "completion_date": "2023-06",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Weapons Division, China Lake, California",
+          "code": "N68936-18-C-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Synectic Solutions Inc.",
+            "location": "Oxnard, California",
+            "contract_number": "N68936-18-C-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Technical representative services for airborne weapon systems supporting NAWC Weapons Division Fleet Weapons Support and Shipboard Weapons Integration teams",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12074238,
+        "cumulative_value_usd": null,
+        "obligated_usd": 300000,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposals, 100 percent small business set-aside, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Veterans Northwest Construction LLC,* Seattle, Washington, is awarded $9,800,000 for firm-fixed-price task order N4425518F4206 under a previously awarded multiple award construction contract (N44255-17-D-4007) for the construction necessary to overhaul three main dewatering pumps including their check and discharge valves, impellers, motors and controllers which service Dry Dock 4, at Naval Base Kitsap-Bremerton. The work to be performed provides for required repair/overhaul to restore the pumps and motors on Dry Dock 4 to a sustainable operating condition to support docking activities. Work will be performed in Bremerton, Washington, and is expected to be completed by March 2020. Fiscal 2018 operations and maintenance (Navy) contract funds in the amount of $9,800,000 are obligated on this award and will expire at the end of the current fiscal year. Four proposals were received for this task order. The Naval Facilities Engineering Command, Northwest, Silverdale, Washington, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N4425518F4206",
+          "N4425517D4007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9800000.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy) contract funds in the amount of $9,800,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2020-03",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Northwest, Silverdale, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Veterans Northwest Construction LLC",
+            "location": "Seattle, Washington",
+            "contract_number": "N4425518F4206",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Overhaul of three main dewatering pumps and valves servicing Dry Dock 4, Naval Base Kitsap-Bremerton",
+        "base_contract_number": "N44255-17-D-4007",
+        "order_number": "N4425518F4206",
+        "modification_number": null,
+        "value_usd": 9800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9800000,
+        "fms_countries": [],
+        "competition": "four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Space Systems Co., Sunnyvale, California is awarded $8,524,689 for cost-plus-fixed-fee modification P00011 to a previously awarded contract (N00030-17-C-0100) for Trident II (D5) missile production and deployed system support. The work will be performed in Sunnyvale, California (67.12 percent); Clearwater, Florida (23.32 percent); Cape Canaveral, Florida (4.76 percent); Denver, Colorado (2.59 percent); and Titusville, Florida (2.21 percent), with work expected to be completed Sept. 30, 2022. Fiscal 2018 research, development, test, and evaluation (Navy) funds in the amount of $5,729,717 are being obligated on this award, none of which will expire at the end of the current fiscal year. Subject to availability fiscal 2018 research, development, test, and evaluation (Navy) funds in the amount of $2,794,972 will be obligated for the effort awarded and incrementally funded. Contract funds will not expire at the end of the current fiscal year. Strategic Systems Programs, Washington, District of Columbia, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0003017C0100"
+        ],
+        "modification_numbers": [
+          "P00011"
+        ],
+        "is_modification": true,
+        "value_usd": 8524689.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8524689.0,
+        "funding_text": "Fiscal 2018 research, development, test, and evaluation (Navy) funds in the amount of $5,729,717 are being obligated on this award, none of which will expire at the end of the current fiscal year Subject to availability fiscal 2018 research, development, test, and evaluation (Navy) funds in the amount of $2,794,972 will be obligated for the effort awarded and incrementally funded",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Strategic Systems Programs, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Space Systems Co.",
+            "location": "Sunnyvale, California",
+            "contract_number": "N00030-17-C-0100",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Trident II (D5) missile production and deployed system support",
+        "base_contract_number": "N00030-17-C-0100",
+        "order_number": null,
+        "modification_number": "P00011",
+        "value_usd": 8524689,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5729717,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "correction",
       "text": "CORRECTION: The contract awarded on April 18, 2018, to M. A. Mortenson Co., doing business as Mortenson Construction, Minneapolis, Minnesota (N62473-18-D-5850); RQ Construction LLC, Carlsbad, California (N62473-18-D-5851); R. A. Burch Construction Co. Inc.,* Ramona, California (N62473-18-D-5852); Harper Construction Co., Inc., San Diego, California (N62473-18-D-5853); Sundt Construction Inc., Tempe, Arizona (N62473-18-D-5854); Solpac Construction Inc., doing business as Soltek Pacific Construction Co., San Diego, California (N62473-18-D-5855); and Bethel-Webcor Pacific JV,* Anchorage, Alaska (N62473-18-D-5856), for new construction, renovation, and repair of commercial and institutional building projects at various government installations located in California, Arizona, Nevada, Utah, Colorado, and New Mexico, is revised to include The Whiting-Turner Contracting Co., Baltimore, Maryland (N62473-18-D-5858). This contractor is being added to the previously awarded suite of contracts due to a corrective action. The maximum dollar value including the base period and four option years for all eight contracts combined is $750,000,000.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6247318D5850",
+          "N6247318D5851",
+          "N6247318D5852",
+          "N6247318D5853",
+          "N6247318D5854",
+          "N6247318D5855",
+          "N6247318D5856",
+          "N6247318D5858"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 750000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "The Whiting-Turner Contracting Co.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "N62473-18-D-5858",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": "multiple award construction contract",
+        "description": "Correction adding Whiting-Turner Contracting Co. to the April 18, 2018 suite of eight commercial and institutional building construction contracts in CA, AZ, NV, UT, CO, NM",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 750000000,
+        "cumulative_value_usd": 750000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2018-04-18"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "TRAX International Corp., Las Vegas, Nevada, was awarded a $89,048,775 cost-plus-award-fee contract for electronic instrumentation operation; optical, meteorology and geodetic instrumentation operation; metrology and simulation operation; computation and automation; test operations and maintenance; ammunition management operations; technical and engineering services; range management operations; communication and information management operations; and data acquisition and management. Bids were solicited via the Internet with four received. Work will be performed in Yuma, Arizona; and Fort Greely, Alaska, with an estimated completion date of May 31, 2022. Fiscal 2018 research, development, test and evaluation funds in the amount of $5,000,000 were obligated at the time of the award. U.S. Army Mission and Installation Contracting Command, Yuma Proving Ground, Arizona, is the contracting activity (W9124R-18-C-0001).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W9124R18C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 89048775.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000000.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation funds in the amount of $5,000,000 were obligated at the time of the award",
+        "completion_date": "2022-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Yuma Proving Ground, Arizona",
+          "code": "W9124R-18-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "TRAX International Corp.",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "W9124R-18-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-award-fee contract",
+        "description": "Range operations and technical services at Yuma Proving Ground and Fort Greely",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 89048775,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000000,
+        "fms_countries": [],
+        "competition": "solicited via Internet, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Carahsoft Technology Corp., Reston, Virginia, was awarded a $30,900,198 modification (BA01 24) to contract N00104-08-A-ZF43 for Army Enterprise License Agreement for system application and products software. Work will be performed in Fort Belvoir, Virginia, with an estimated completion date of May 31, 2020. Fiscal 2018 operations and maintenance (Army); and research, development, test and evaluation funds in the combined amount of $27,148,501 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island, Illinois, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0010408AZF43"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 30900198.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27148501.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Army); and research, development, test and evaluation funds in the combined amount of $27,148,501 were obligated at the time of the award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Carahsoft Technology Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00104-08-A-ZF43",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Army Enterprise License Agreement for system application and products software (BA01 24)",
+        "base_contract_number": "N00104-08-A-ZF43",
+        "order_number": null,
+        "modification_number": "BA01 24",
+        "value_usd": 30900198,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27148501,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Orlando, Florida, was awarded a $25,302,816 cost-plus-incentive-fee contract for mission support services. Bids were solicited via the Internet with two received. Work will be performed in Fort Irwin, California, with an estimated completion date of June 29, 2023. Fiscal 2018 operations and maintenance (Army) funds in the amount of $1,439,473 were obligated at the time of the award. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-18-C-0037).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W900KK18C0037"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25302816.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1439473.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Army) funds in the amount of $1,439,473 were obligated at the time of the award",
+        "completion_date": "2023-06-29",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-18-C-0037"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Orlando, Florida",
+            "contract_number": "W900KK-18-C-0037",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-incentive-fee contract",
+        "description": "Mission support services at Fort Irwin, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25302816,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1439473,
+        "fms_countries": [],
+        "competition": "solicited via Internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "K2 Solutions Inc.,* Southern Pines, North Carolina, was awarded a $9,883,189 firm-fixed-price contract for liaison support. One bid was solicited with one bid received. Work locations and funding will be determined with each order, with an estimated completion date of May 30, 2023. U.S. Army Contracting Command, New Jersey, is the contracting activity (W15QKN-18-D-0050).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN18D0050"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9883189.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-05-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, New Jersey",
+          "code": "W15QKN-18-D-0050"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "K2 Solutions Inc.",
+            "location": "Southern Pines, North Carolina",
+            "contract_number": "W15QKN-18-D-0050",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Liaison support services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9883189,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "National Industries for the Blind, Alexandria, Virginia, was awarded a $9,415,720 firm-fixed-price contract for manufacturing the Army combat shirt. One bid was solicited with one bid received. Work will be performed in Brooklyn, New York; Winston Salem, North Carolina; and San Antonio, Texas, with an estimated completion date of June 28, 2019. Fiscal 2018 operations and maintenance (Army) funds in the amount of $9,415,720 were obligated at the time of the award. U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QY-18-C-0128).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W911QY18C0128"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9415720.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9415720.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Army) funds in the amount of $9,415,720 were obligated at the time of the award",
+        "completion_date": "2019-06-28",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": "W911QY-18-C-0128"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "National Industries for the Blind",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W911QY-18-C-0128",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Manufacturing the Army combat shirt",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9415720,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9415720,
+        "fms_countries": [],
+        "competition": "One bid solicited, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "GE Aviation, doing business as Dowty Propellers Inc., Sterling, Virginia, has been awarded an estimated $29,509,790 firm-fixed-price requirements contract for the R391 propellers and spares currently used on the C-130J aircraft, in conjunction with the commercial Rolls Royce AE 2100D3 engine managed by the Warner Robins, Air Logistics Center, Tactical Airlift Division. Work will be performed in Sterling, Virginia, and is expected to be completed by May 29, 2023. This award is the result of a sole-source, commercial acquisition. No funds are being obligated at the time of award. Procurement funds will be obligated on individual delivery orders. The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity (FA8504-18-D-0006).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "FA850418D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29509790.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award Procurement funds will be obligated on individual delivery orders",
+        "completion_date": "2023-05-29",
+        "contracting_activity": {
+          "name": "The Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": "FA8504-18-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "GE Aviation, doing business as Dowty Propellers Inc.",
+            "location": "Sterling, Virginia",
+            "contract_number": "FA8504-18-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "R391 propellers and spares for the C-130J aircraft (with Rolls Royce AE 2100D3 engine)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29509790,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source, commercial acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $17,217,443 fixed-price, definitive contract for the Conventional Air-Launched Cruise Missile/Air-Launched Cruise Missile Test Instrument Kit. This contract provides for the production of test instrument kit, batteries, encryption and decryption units for the air-launched missiles. Work will be performed in Oklahoma City, Oklahoma, and is expected to be complete by May 2024. This award is the result of a sole-source acquisition. Fiscal 2016 and 2017 missiles procurement funds in the full amount are being obligated at the time of award. Air Force Nuclear Weapons Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8128-18-C001). (Awarded May 29, 2018)",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "FA812818C001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17217443.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2016 and 2017 missiles procurement funds in the full amount are being obligated at the time of award",
+        "completion_date": "2024-05",
+        "contracting_activity": {
+          "name": "Air Force Nuclear Weapons Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8128-18-C001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8128-18-C001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price, definitive contract",
+        "description": "Conventional Air-Launched Cruise Missile/Air-Launched Cruise Missile Test Instrument Kit production",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17217443,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17217443,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2018-05-29"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:37Z",
-  "source": "file:2018-05-30.html"
+  "source": "file:2018-05-30.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:55:41Z"
+  }
 }

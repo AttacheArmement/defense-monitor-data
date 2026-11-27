@@ -11,45 +11,381 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics – OTS Inc., Williston, Vermont, was awarded a $169,694,436 modification (P00025) to Foreign Military Sales contract W31P4Q-14-C-0154 (Colombia, Afghanistan, Iraq, Qatar, United Arab Emirates, India, Belgium) for Hydra rockets (M151 quantity 80,448; M255a1q: 40,000; M274: 101,952; M278: 3,715; M156: 7,200; Motors Mk66 Mod4: 20,721; Warheads M257: 5,837; M278: 13,741; M156: 4,914). Work will be performed in Williston, Vermont, with an estimated completion date of Jan. 31, 2019. Fiscal 2010, 2011, 2014 and 2016 other procurement funds in the amount of $169,694,436 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q14C0154"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 169694436.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169694436.0,
+        "funding_text": "Fiscal 2010, 2011, 2014 and 2016 other procurement funds in the amount of $169,694,436 were obligated at the time of the award",
+        "completion_date": "2019-01-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Dynamics – OTS Inc.",
+            "location": "Williston, Vermont",
+            "contract_number": "W31P4Q-14-C-0154",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Hydra rockets (M151, M255a1q, M274, M278, M156 rockets; Motors Mk66 Mod4; Warheads M257, M278, M156) under Foreign Military Sales contract",
+        "base_contract_number": "W31P4Q-14-C-0154",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 169694436,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169694436,
+        "fms_countries": [
+          "Colombia",
+          "Afghanistan",
+          "Iraq",
+          "Qatar",
+          "United Arab Emirates",
+          "India",
+          "Belgium"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Advanced Sciences and Technologies LLC,* Berlin, New Jersey, is being awarded a potential $35,127,518 indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, multiple award contract to provide the Space and Naval Warfare Systems Center Pacific, with systems, hardware, software, network, and security engineering, along with testing and evaluation. Support also includes logistics planning, post development assembly and testing, world-wide system maintenance, development of user documentation and training, installation and fielding of systems at user sites. This is one of four multiple award contracts: all awardees will have the opportunity to compete for task orders during the ordering period. This three-year contract includes one two-year option period, which, if exercised, would bring the overall potential value of this contract to $59,923,869. Work will be performed at government facilities in Philadelphia, Pennsylvania (70 percent); and the contractor’s facilities in Berlin, New Jersey (30 percent), and is expected to be completed July 10, 2019. No funding will be obligated at the time of award. Funding will be obligated via task orders as they are issued. The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy). This contract was competitively procured with request for proposal N66001-15-R-0060 for total small business set-aside via publication on the Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website. Six proposals were received and four were selected for award. Space and Naval Warfare Systems Center Pacific, San Diego, California, is the contracting activity (N66001-16-D-0304).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "N6600115R0060",
+          "N6600116D0304"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35127518.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at the time of award Funding will be obligated via task orders as they are issued The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy)",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Pacific, San Diego, California",
+          "code": "N66001-16-D-0304"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Advanced Sciences and Technologies LLC",
+            "location": "Berlin, New Jersey",
+            "contract_number": "N66001-16-D-0304",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee IDIQ, multiple award",
+        "description": "Systems, hardware, software, network and security engineering, testing and evaluation for Space and Naval Warfare Systems Center Pacific",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35127518,
+        "cumulative_value_usd": 59923869,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, RFP N66001-15-R-0060, total small business set-aside; six proposals received, four selected",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Data Intelligence LLC,* Marlton, New Jersey, is being awarded a potential $33,136,935 indefinite-delivery/ indefinite-quantity, cost-plus-fixed-fee, multiple award contract to provide the Space and Naval Warfare Systems Center Pacific, with systems, hardware, software, network, and security engineering, along with testing and evaluation. Support also includes logistics planning, post development assembly and testing, world-wide system maintenance, development of user documentation and training, installation and fielding of systems at user sites. This is one of four multiple-award contracts: all awardees will have the opportunity to compete for task orders during the ordering period. This three-year contract includes one two-year option period, which, if exercised, would bring the overall potential value of this contract to $56,147,381. Work will be performed at government facilities in Philadelphia, Pennsylvania (70 percent); and the contractor’s facilities in Marlton, New Jersey (30 percent), and is expected to be completed July 10, 2019. No funds will be obligated at the time of award. Funding will be obligated via task orders as they are issued. The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy). This contract was competitively procured with request for proposal N66001-15-R-0060 for total small business set-aside via publication on the Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website. Six proposals were received and four were selected for award. Space and Naval Warfare Systems Center Pacific, San Diego, California, is the contracting activity (N66001-16-D-0305).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6600115R0060",
+          "N6600116D0305"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 33136935.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funding will be obligated via task orders as they are issued The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy)",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Pacific, San Diego, California",
+          "code": "N66001-16-D-0305"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Data Intelligence LLC",
+            "location": "Marlton, New Jersey",
+            "contract_number": "N66001-16-D-0305",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee IDIQ, multiple award",
+        "description": "Systems, hardware, software, network and security engineering, testing and evaluation for Space and Naval Warfare Systems Center Pacific",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 33136935,
+        "cumulative_value_usd": 56147381,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, RFP N66001-15-R-0060, total small business set-aside; six proposals received, four selected",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "22nd Century Technologies,* McLean, Virginia, is being awarded a potential $29,782,908 indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, multiple award contract to provide the Space and Naval Warfare Systems Center Pacific, with systems, hardware, software, network, and security engineering, along with testing and evaluation. Support also includes logistics planning, post development assembly and testing, world-wide system maintenance, development of user documentation and training, installation and fielding of systems at user sites. This is one of four multiple-award contracts: all awardees will have the opportunity to compete for task orders during the ordering period. This three-year contract includes one two-year option period, which, if exercised, would bring the overall potential value of this contract to $50,320,345. Work will be performed at government facilities in Philadelphia, Pennsylvania (70 percent); and the contractor’s facilities in McLean, Virginia (30 percent), and is expected to be completed July 10, 2019. No funds will be obligated at the time of award. Funding will be obligated via task orders as they are issued. The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy). This contract was competitively procured with request for proposal N66001-15-R-0060 for total small business set-aside via publication on the Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website. Six proposals were received and four were selected for award. Space and Naval Warfare Systems Center Pacific, San Diego, California, is the contracting activity (N66001-16-D-0303).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6600115R0060",
+          "N6600116D0303"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29782908.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funding will be obligated via task orders as they are issued The types of funding to be obligated include operations and maintenance (Navy); research, development, test and evaluation; and other procurement (Navy)",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Pacific, San Diego, California",
+          "code": "N66001-16-D-0303"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "22nd Century Technologies",
+            "location": "McLean, Virginia",
+            "contract_number": "N66001-16-D-0303",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee IDIQ, multiple award",
+        "description": "Systems, hardware, software, network and security engineering, testing and evaluation for Space and Naval Warfare Systems Center Pacific",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 29782908,
+        "cumulative_value_usd": 50320345,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, RFP N66001-15-R-0060, total small business set-aside; six proposals received, four selected",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sound & Sea Technology Inc.,* Lynwood, Washington, is being awarded $15,335,981 for cost-plus-fixed-fee task order 0013 under a previously awarded multiple award indefinite-delivery/indefinite-quantity contract (N39430-14-D-1498) for the installation of a seismo-hydroacoustic data acquisition system for the Naval Facilities Engineering and Expeditionary Warfare Center. The work to be performed provides for engineering services to develop final installation plans, integrate, and install all offshore seismo-hydroacoustic data acquisition system subsystems. Work will be performed off the Mediterranean island of Cyprus, and is expected to be completed in 2017. Fiscal 2016 research, development, test and evaluation (Navy) contract funds in the amount of $15,335,981 are obligated on this award and will not expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3943014D1498"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15335981.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15335981.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation (Navy) contract funds in the amount of $15,335,981 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering and Expeditionary Warfare Center, Port Hueneme, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sound & Sea Technology Inc.",
+            "location": "Lynwood, Washington",
+            "contract_number": "N39430-14-D-1498",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee task order",
+        "description": "Task order 0013 for installation of seismo-hydroacoustic data acquisition system for Naval Facilities Engineering and Expeditionary Warfare Center, off Cyprus",
+        "base_contract_number": "N39430-14-D-1498",
+        "order_number": "0013",
+        "modification_number": null,
+        "value_usd": 15335981,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15335981,
+        "fms_countries": [],
+        "competition": "Three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Vectrus Systems Corp., Maxwell Air Force Base (AFB), Alabama, has been awarded a $10,279,525 modification (P00038) to exercise an option on previously awarded contract FA3002-15-C-0008 for continued base operations support. Work will be performed at Maxwell AFB-Gunter Annex, Alabama, and is expected to be complete by Nov. 14, 2016. Fiscal 2016 operations and maintenance funds in the amount of $10,279,525 are being obligated at the time of award. The 42nd Contracting Squadron, Maxwell AFB, Alabama, is the contracting activity (FA3002-15-C-0008).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA300215C0008"
+        ],
+        "modification_numbers": [
+          "P00038"
+        ],
+        "is_modification": true,
+        "value_usd": 10279525.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10279525.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $10,279,525 are being obligated at the time of award",
+        "completion_date": "2016-11-14",
+        "contracting_activity": {
+          "name": "The 42nd Contracting Squadron, Maxwell AFB, Alabama",
+          "code": "FA3002-15-C-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Maxwell Air Force Base (AFB), Alabama",
+            "contract_number": "FA3002-15-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Option exercise for continued base operations support at Maxwell AFB-Gunter Annex, Alabama",
+        "base_contract_number": "FA3002-15-C-0008",
+        "order_number": null,
+        "modification_number": "P00038",
+        "value_usd": 10279525,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10279525,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Doyon Utilities LLC, Fairbanks, Alaska, has been awarded a maximum $7,965,997 modification (P00147) to a 50-year contract (SP0600-07-C-8263) for utility upgrades to a privatized utility system. This is a regulated tariff contract. Location of performance is Alaska, and the work was completed May 28, 2014. Using military service is Army. Type of appropriation is fiscal 2012 and fiscal 2014 military construction funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia. (Awarded on June 30, 2016)",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SP060007C8263"
+        ],
+        "modification_numbers": [
+          "P00147"
+        ],
+        "is_modification": true,
+        "value_usd": 7965997.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Doyon Utilities LLC",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "SP0600-07-C-8263",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "regulated tariff contract (50-year)",
+        "description": "Utility upgrades to a privatized utility system; military service Army; fiscal 2012 and 2014 military construction funds",
+        "base_contract_number": "SP0600-07-C-8263",
+        "order_number": null,
+        "modification_number": "P00147",
+        "value_usd": 7965997,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2016-06-30"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:32Z",
-  "source": "file:2016-07-11.html"
+  "source": "file:2016-07-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:19:47Z"
+  }
 }

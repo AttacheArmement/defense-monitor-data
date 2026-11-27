@@ -11,33 +11,299 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon/Lockheed Martin Javelin Joint Venture, Tucson, Arizona, was awarded a $162,445,463 modification (P00007) to a firm-fixed-price, foreign military sales contract (W31P4Q-13-C-0129), to acquire 361 Block 1 tactical missiles and 137 command launch unit retrofits for the U.S. Army; 189 Block 1 tactical missiles and 147 Block 1 tactical missiles for the U.S. Marine Corps; and 20 Block 1 tactical missiles for New Zealand and Jordon. Appropriations from other funds obligated at the time of the award are: fiscal 2014 funds in the amount of $69,022,514; fiscal 2012 funds in the amount of $82,557,016; and fiscal 2010 funds in the amount of $3,674,160. Work will be performed at Tucson, Arizona, with an estimated completion date of Sept. 30, 2014. Army Contracting Command Redstone Arsenal - Missile, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q13C0129"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 162445463.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 155253690.0,
+        "funding_text": "Appropriations from other funds obligated at the time of the award are: fiscal 2014 funds in the amount of $69,022,514; fiscal 2012 funds in the amount of $82,557,016; and fiscal 2010 funds in the amount of $3,674,160",
+        "completion_date": "2014-09-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command Redstone Arsenal - Missile, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Raytheon/Lockheed Martin Javelin Joint Venture",
+            "location": "Tucson, Arizona",
+            "contract_number": "W31P4Q-13-C-0129",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, foreign military sales contract",
+        "description": "Javelin Block 1 tactical missiles and command launch unit retrofits for U.S. Army, U.S. Marine Corps, New Zealand and Jordan",
+        "base_contract_number": "W31P4Q-13-C-0129",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 162445463,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "New Zealand",
+          "Jordan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Birmingham Industrial Construction and Robins & Morton Joint Venture,* Birmingham, Alabama (W91278-14-D-0058); CTA I, LLC doing business as CTA Builders,* Fort Mill, South Carolina (W91278-14-D-0059); McGoldrick Construction Services Corp.,* San Antonio, Texas (W91278-14-D-0060); Royce Construction Services, LLC,* Reston, Virginia (W91278-14-D-0061); Total Team Construction Services, Inc.,* Tampa, Florida (W91278-14-D-0062); and Valiant Construction, LLC,* Louisville, Kentucky (W91278-14-D-0063), were awarded a $49,000,000 firm-fixed-price multi-year indefinite-delivery/indefinite-quantity multiple award task order contract for medical facilities repair and construction to support the Army Medical Command, Southern Region, with an estimated completion date of July 3, 2017. Bids were solicited via the Internet with 27 received. Funding and work location will be determined with each order. U.S. Army Corps of Engineers, Mobile, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9127814D0058",
+          "W9127814D0059",
+          "W9127814D0060",
+          "W9127814D0061",
+          "W9127814D0062",
+          "W9127814D0063"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2017-07-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Mobile, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Birmingham Industrial Construction and Robins & Morton Joint Venture",
+            "location": "Birmingham, Alabama",
+            "contract_number": "W91278-14-D-0058",
+            "markers": "*"
+          },
+          {
+            "name": "CTA I, LLC doing business as CTA Builders",
+            "location": "Fort Mill, South Carolina",
+            "contract_number": "W91278-14-D-0059",
+            "markers": "*"
+          },
+          {
+            "name": "McGoldrick Construction Services Corp.",
+            "location": "San Antonio, Texas",
+            "contract_number": "W91278-14-D-0060",
+            "markers": "*"
+          },
+          {
+            "name": "Royce Construction Services, LLC",
+            "location": "Reston, Virginia",
+            "contract_number": "W91278-14-D-0061",
+            "markers": "*"
+          },
+          {
+            "name": "Total Team Construction Services, Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "W91278-14-D-0062",
+            "markers": "*"
+          },
+          {
+            "name": "Valiant Construction, LLC",
+            "location": "Louisville, Kentucky",
+            "contract_number": "W91278-14-D-0063",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multi-year indefinite-delivery/indefinite-quantity multiple award task order contract",
+        "description": "Medical facilities repair and construction for Army Medical Command, Southern Region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 27 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded $20,753,552 for delivery order 0201 against a previously issued Basic Ordering Agreement (N00019-11-G-0001) for non-recurring engineering and associated program management, logistics and spares for the AEA-18G aircraft in support of the government of Australia under the Foreign Military Sales Program. Work will be performed in St. Louis, Missouri (79 percent); El Segundo, California (11 percent); Palm Bay, Florida (3 percent); and other locations within the continental United States (7 percent), and work is expected to be completed in September 2017. FMS funds in the amount of $20,753,552 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001911G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20753552.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20753552.0,
+        "funding_text": "FMS funds in the amount of $20,753,552 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2017-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": null,
+        "description": "Delivery order 0201 for non-recurring engineering, program management, logistics and spares for AEA-18G aircraft for Australia",
+        "base_contract_number": "N00019-11-G-0001",
+        "order_number": "0201",
+        "modification_number": null,
+        "value_usd": 20753552,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20753552,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Mission Systems & Training, Manassas, Virginia, has been awarded a not-to-exceed $11,645,964 undefinitized, firm-fixed-price, cost-plus-fixed-fee, and cost-reimbursement contract. This contract provides contractor logistic support for the Iraqi Integrated Air Defense System. The scope of this effort includes engineering support services, on-site support, logistic management, technical support, preventative/corrective maintenance, and engineering analysis and recommendations for logistical and lifecycle support for the IADS and equipment. Work will be performed at various locations throughout Iraq, and is expected to be completed by June 30, 2015. This award is the result of a directed sole-source, 100 percent foreign military sale for Iraq, and $2,911,491 will be obligated at time of award. Air Force Life Cycle Management Center/HBNK, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA8730-14-C-0030).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA873014C0030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11645964.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2911491.0,
+        "funding_text": "This award is the result of a directed sole-source, 100 percent foreign military sale for Iraq, and $2,911,491 will be obligated at time of award",
+        "completion_date": "2015-06-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center/HBNK, Hanscom Air Force Base, Massachusetts",
+          "code": "FA8730-14-C-0030"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Mission Systems & Training",
+            "location": "Manassas, Virginia",
+            "contract_number": "FA8730-14-C-0030",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized, firm-fixed-price, cost-plus-fixed-fee, and cost-reimbursement contract",
+        "description": "Contractor logistics support for the Iraqi Integrated Air Defense System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11645964,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2911491,
+        "fms_countries": [
+          "Iraq"
+        ],
+        "competition": "Directed sole-source, 100 percent foreign military sale",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Thales Defense & Security, Inc., Clarksburg, Maryland, has been awarded a maximum $13,437,584 firm-fixed-price contract for purchase of sonar transducers. This contract was a competitive acquisition, and two offers were received. Location of performance is Maryland. This is a three-year base contract with no option periods. Using military service is Navy. Type of appropriation is fiscal 2017 Navy working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania (SPRPA1-14-C-Y048).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA114CY048"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13437584.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": "SPRPA1-14-C-Y048"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Thales Defense & Security, Inc.",
+            "location": "Clarksburg, Maryland",
+            "contract_number": "SPRPA1-14-C-Y048",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Purchase of sonar transducers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13437584,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive acquisition, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:27Z",
-  "source": "file:2014-07-03.html"
+  "source": "file:2014-07-03.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:44:02Z"
+  }
 }

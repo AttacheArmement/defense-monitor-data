@@ -11,57 +11,445 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded a $91,291,064 hybrid (cost-plus-fixed-fee and firm-fixed-price) contract to provide engineering and other support services for all versions of the H-60 Blackhawk. One bid was solicited with one bid received. Work locations and funding will be determined with each order, with an estimated completion date of June 27, 2024. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-19-D-0079).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ19D0079"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 91291064.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-06-27",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-19-D-0079"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-19-D-0079",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Engineering and other support services for all versions of the H-60 Blackhawk",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 91291064,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "One bid solicited with one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DynCorp International LLC, Fort Worth, Texas, was awarded a $12,337,211 modification (P00034) to contract W58RGZ-17-C-0011 for modification of five C-12R aircraft to a C-12V. Work will be performed in Fort Worth, Texas, with an estimated completion date of May 31, 2023. Fiscal 2019 aircraft procurement, Army funds in the amount of $12,337,211 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17C0011"
+        ],
+        "modification_numbers": [
+          "P00034"
+        ],
+        "is_modification": true,
+        "value_usd": 12337211.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12337211.0,
+        "funding_text": "Fiscal 2019 aircraft procurement, Army funds in the amount of $12,337,211 were obligated at the time of the award",
+        "completion_date": "2023-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "DynCorp International LLC",
+            "location": "Fort Worth, Texas",
+            "contract_number": "W58RGZ-17-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Modification of five C-12R aircraft to a C-12V",
+        "base_contract_number": "W58RGZ-17-C-0011",
+        "order_number": null,
+        "modification_number": "P00034",
+        "value_usd": 12337211,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12337211,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "MCR Federal LLC,* McLean, Virginia, was awarded an $8,135,050 modification (0001 20) to contract W31P4Q-16-A-0016 for technical engineering support services. Work will be performed in Redstone Arsenal, Alabama, with an estimated completion date of June 29, 2020. Fiscal 2019 foreign military sales admin and other procurement, Army funds in the amount of $8,135,050 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q16A0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8135050.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8135050.0,
+        "funding_text": "Fiscal 2019 foreign military sales admin and other procurement, Army funds in the amount of $8,135,050 were obligated at the time of the award",
+        "completion_date": "2020-06-29",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "MCR Federal LLC",
+            "location": "McLean, Virginia",
+            "contract_number": "W31P4Q-16-A-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Technical engineering support services",
+        "base_contract_number": "W31P4Q-16-A-0016",
+        "order_number": null,
+        "modification_number": "0001 20",
+        "value_usd": 8135050,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8135050,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, is awarded a $62,975,474 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for engineering and technical services to meet fleet requirements for Synthetic Signature Generation based training systems. This contract will provide scientific, engineering, and technical services required for the design, development, fabrication, integration, test, fleet implementation and maintenance. Work will be performed in Bethesda, Maryland, and is expected to be complete by December 2022. Fiscal 2019 other procurement (Navy), fiscal 2017 shipbuilding and conversion (Navy), and fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $10,762,779 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with one offer received. The Naval Surface Warfare Center, Carderock Division, West Bethesda, Maryland, is the contracting activity (N00167-19-D-0004).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0016719D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 62975474.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10762779.0,
+        "funding_text": "Fiscal 2019 other procurement (Navy), fiscal 2017 shipbuilding and conversion (Navy), and fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $10,762,779 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Carderock Division, West Bethesda, Maryland",
+          "code": "N00167-19-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N00167-19-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Engineering and technical services for fleet Synthetic Signature Generation based training systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 62975474,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10762779,
+        "fms_countries": [],
+        "competition": "Competitive, Federal Business Opportunities website, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L3 Systems Co., Camden, New Jersey, is awarded an estimated $41,518,454 indefinite-delivery/indefinite-quantity, firm-fixed-price, cost-plus fixed-fee contract. The Battle Force Tactical Network program requires the procurement and integration of commercial, off-the-shelf (COTS) high frequency internet protocol and subnet relay hardware, COTS software and government off-the-shelf software into a specified configuration for the Program Executive Office Command, Control, Communications, Computers and Intelligence. This contract has a five-year ordering period up to the contract award amount. There are no options. Work will be performed in Camden, New Jersey, and work is expected to be completed by June 2024. No funding is being placed on contract and obligated at the time of award. Contract actions will be issued and funds obligated as individual delivery orders. This contract was competitively procured as a full and open competition with proposals solicited via the Federal Business Opportunities website, with three offers received. The Naval Information Warfare Systems Command, San Diego, California, is the contracting activity (N00039-19-D-0035).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0003919D0035"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41518454.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding is being placed on contract and obligated at the time of award Contract actions will be issued and funds obligated as individual delivery orders",
+        "completion_date": "2024-06",
+        "contracting_activity": {
+          "name": "The Naval Information Warfare Systems Command, San Diego, California",
+          "code": "N00039-19-D-0035"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "L3 Systems Co.",
+            "location": "Camden, New Jersey",
+            "contract_number": "N00039-19-D-0035",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, firm-fixed-price, cost-plus fixed-fee",
+        "description": "Battle Force Tactical Network COTS high frequency internet protocol and subnet relay hardware, software and integration",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41518454,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Full and open competition, Federal Business Opportunities website, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Wyle Laboratories Inc. (aka, KBRwyle), Huntsville, Alabama, is awarded a $41,081,160 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract to provide engineering, technical, operational, test and logistics services in support of the Naval Air Warfare Center Aircraft Division's (NAWCAD's) Surface/Aviation Interoperability Laboratory. In addition, this contract provides for facilities testing and laboratory equipment, installed avionics and ship-combat systems maintenance. Work will be performed at NAWCAD, Patuxent River, Maryland, and is expected to be completed in July 2024. No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposals; four offers were received. The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-19-D-0070).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0042119D0070"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41081160.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-07",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland",
+          "code": "N00421-19-D-0070"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Wyle Laboratories Inc. (aka, KBRwyle)",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N00421-19-D-0070",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Engineering, technical, operational, test and logistics services for NAWCAD Surface/Aviation Interoperability Laboratory",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41081160,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Competitive, electronic request for proposals, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Gilbane Federal, Concord, California, is awarded a $31,683,336 firm-fixed-price contract for unaccompanied enlisted housing at the Naval Base Guam. Buildings 5, 6, 18 and 20, will undergo conversion and alteration of each structure to house double-occupancy, permanent-party housing units and building common areas including multipurpose spaces, shared kitchens, vending areas, shared laundries and other miscellaneous support spaces. This project will also include the full renovation of the second floor existing double-occupancy permanent-party housing units in Building 18. The contract also contains one unexercised option, which if exercised, would increase cumulative contract value to $32,966,436. Work will be performed in Joint Region Marianas, Guam, and is expected to be completed by October 2022. Fiscal 2019 military construction (Navy) contract funds in the amount of $31,683,336 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website, with four proposals received. The Naval Facilities Engineering Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62742-19-C-1310).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6274219C1310"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31683336.0,
+        "cumulative_value_usd": 32966436.0,
+        "obligated_usd": 31683336.0,
+        "funding_text": "Fiscal 2019 military construction (Navy) contract funds in the amount of $31,683,336 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-10",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Pacific, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62742-19-C-1310"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Gilbane Federal",
+            "location": "Concord, California",
+            "contract_number": "N62742-19-C-1310",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Unaccompanied enlisted housing conversion and alteration at Naval Base Guam (Buildings 5, 6, 18 and 20)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31683336,
+        "cumulative_value_usd": 32966436,
+        "obligated_usd": 31683336,
+        "fms_countries": [],
+        "competition": "Competitive, Navy Electronic Commerce Online website, four proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Land & Armaments L.P., Louisville, Kentucky, is awarded $14,134,492 for a firm-fixed-price, cost-plus-fixed-fee modification to previously awarded contract N00174-19-C-0004 for one overhauled/upgraded MK45 Mod 4 gun mount, and their associated components. The 5-inch MK 45 light weight gun mount system provides an effective weapon for anti-surface, naval surface fire support, and anti-air warfare missions, and is installed aboard DDG- 51 and CG-47 class ships. This contract is to provide all necessary material and services required to overhaul and upgrade MK 45 gun mounts to support AEGIS Modernization and Arleigh Burke new construction requirements. Work will be performed in Louisville, Kentucky, and is expected to be complete by October 2023. Fiscal 2019 shipbuilding and conversion (Navy) funding in the amount of $14,134,492 will be obligated at time of award and not expire at the end of the current fiscal year. The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0017419C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14134492.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14134492.0,
+        "funding_text": "Fiscal 2019 shipbuilding and conversion (Navy) funding in the amount of $14,134,492 will be obligated at time of award and not expire at the end of the current fiscal year",
+        "completion_date": "2023-10",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "BAE Systems Land & Armaments L.P.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "N00174-19-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Overhauled/upgraded MK45 Mod 4 gun mounts and associated components",
+        "base_contract_number": "N00174-19-C-0004",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14134492,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14134492,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Innovative Technologies International Inc., Lynchburg, Virginia, has been awarded a $7,000,000 indefinite-delivery/indefinite-quantity contract for Katana Hardware Fabrication effort. The contract provides for concept design analysis and advanced fabrication capabilities to rapidly manufacture products meeting specific characteristics through a partnering arrangement by fulfilling research, development, test and evaluation requirements for Eglin Air Force Base, Florida, with organization-specific tasks. Work will be performed at Lynchburg, Virginia, and is expected to be completed by June 25, 2024. This contract is the result of a sole source award. Fiscal 2018 research and development funds in the amount of $24,897.00 are being obligated at the time of award. The Air Force Research Laboratory, Eglin Air Force Base, Florida, is the contracting activity, Eglin AFB, Florida (FA8651-19).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24897.0,
+        "funding_text": "Fiscal 2018 research and development funds in the amount of $24,897.00 are being obligated at the time of award",
+        "completion_date": "2024-06-25",
+        "contracting_activity": {
+          "name": "The Air Force Research Laboratory, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Innovative Technologies International Inc.",
+            "location": "Lynchburg, Virginia",
+            "contract_number": "FA8651-19",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Katana Hardware Fabrication effort for Eglin AFB research, development, test and evaluation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24897,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-06-25.html"
+  "source": "file:2019-06-25.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:00:36Z"
+  }
 }

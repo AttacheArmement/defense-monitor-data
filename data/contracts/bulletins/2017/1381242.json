@@ -11,99 +11,834 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "JLG Industries Inc., McConnellsburg, Pennsylvania, has been awarded a maximum $400,000,000 fixed-price with economic-price-adjustment contract for commercial material handling equipment. This is a five-year contract with no option periods. This was a competitive acquisition with seven responses received. Locations of performance are Pennsylvania, Ohio, France and Mexico, with a Nov. 26, 2022, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2018 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE8EC-18-D-0003).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC18D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 400000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE8EC-18-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "JLG Industries Inc.",
+            "location": "McConnellsburg, Pennsylvania",
+            "contract_number": "SPE8EC-18-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Commercial material handling equipment, five-year contract with no option periods",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 400000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, seven responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Excel Garment Manufacturing Ltd.,* El Paso, Texas, has been awarded an estimated $9,490,500 modification (P00062) exercising the third one-year option period of a one-year base contract (SPE1C1-15-D-1012) with four one-year option periods for Navy coveralls. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is Texas, with a March 31, 2019, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2018 through 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C115D1012"
+        ],
+        "modification_numbers": [
+          "P00062"
+        ],
+        "is_modification": true,
+        "value_usd": 9490500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Excel Garment Manufacturing Ltd.",
+            "location": "El Paso, Texas",
+            "contract_number": "SPE1C1-15-D-1012",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Navy coveralls; exercise of third one-year option period",
+        "base_contract_number": "SPE1C1-15-D-1012",
+        "order_number": null,
+        "modification_number": "P00062",
+        "value_usd": 9490500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Nov. 24, 2017, for Old North Utility Services Inc., San Dimas, California (SP0600-08-C-8258/P00210) for $16,648,296 was announced with an incorrect dollar amount. The correct dollar amount is $17,101,428. All other information is correct.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SP060008C8258"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16648296.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Old North Utility Services Inc.",
+            "location": "San Dimas, California",
+            "contract_number": "SP0600-08-C-8258/P00210",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction to Nov. 24, 2017 announcement: dollar amount corrected from $16,648,296 to $17,101,428",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17101428,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Saalex Solutions Inc.,* Camarillo, California, is being awarded a $87,250,737 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract for up to 1,198,330 direct labor hours of engineering services in support of the Naval Air Warfare Center Weapons Division Research and Engineering Department (AIR-4.0). This contract provides for engineering support associated with the research, development, test, evaluation, production and operational support of various weapons systems across the Naval Air Systems Command portfolio. Work will be performed in China Lake, California (70 percent); Point Mugu, California (26 percent); and Patuxent River, Maryland (4 percent), and is expected to be completed in February 2023. No funds will be obligated at time of award. Funds will be obligated on individual task orders as they are issued. This contract was competitively procured via an electronic request for proposal; six offers were received. The Naval Air Warfare Center Weapons Division, China Lake, California, is the contracting activity (N68936-18-D-0012).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6893618D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 87250737.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Funds will be obligated on individual task orders as they are issued",
+        "completion_date": "2023-02",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Weapons Division, China Lake, California",
+          "code": "N68936-18-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Saalex Solutions Inc.",
+            "location": "Camarillo, California",
+            "contract_number": "N68936-18-D-0012",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Engineering services up to 1,198,330 direct labor hours for Naval Air Warfare Center Weapons Division Research and Engineering Department (AIR-4.0)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 87250737,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, electronic request for proposal; six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "IAP Worldwide Services Inc., Cape Canaveral, Florida, is being awarded $58,929,261 for modification P00028 to a previously awarded firm-fixed price, cost-plus-fixed-fee contract (N00019-15-C-0120) to exercise the second option year for logistics support services on the E-6B aircraft. This contract provides for maintaining and supporting the E-6B Take Change and Move Out and Airborne Command Post aircraft, support equipment, aircraft weapon system, associated support sites, and supporting organizations. Work will be performed in Oklahoma City, Oklahoma (70 percent); Patuxent River, Maryland (10 percent); Bellevue, Nebraska (10 percent); and Fairfield, California (10 percent), and is expected to be completed in November 2018. Fiscal 2018 operations and maintenance (Navy) funds in the amount of $15,794,231 will be obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001915C0120"
+        ],
+        "modification_numbers": [
+          "P00028"
+        ],
+        "is_modification": true,
+        "value_usd": 58929261.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15794231.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy) funds in the amount of $15,794,231 will be obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-11",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "IAP Worldwide Services Inc.",
+            "location": "Cape Canaveral, Florida",
+            "contract_number": "N00019-15-C-0120",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed price, cost-plus-fixed-fee",
+        "description": "Logistics support services on E-6B aircraft; exercise of second option year",
+        "base_contract_number": "N00019-15-C-0120",
+        "order_number": null,
+        "modification_number": "P00028",
+        "value_usd": 58929261,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15794231,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded a $37,716,883 modification to a previously awarded cost-plus-fixed-fee contract (N00019-15-C-0003) to exercise an option for software conversions for structure and systems datasets in support of Lot 10 production for the F-35 joint strike fighter. Work will be performed in Fort Worth, Texas (58 percent); and Samlesbury, United Kingdom (42 percent), and is expected to be completed in June 2020. Fiscal 2016 aircraft procurement (Navy and Marine Corps); fiscal 2017 (Air Force and Navy); and non-DoD participants funds in the amount of $37,716,883 are being obligated at time of award, $7,540,359 of which expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001915C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37716883.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37716883.0,
+        "funding_text": "Fiscal 2016 aircraft procurement (Navy and Marine Corps); fiscal 2017 (Air Force and Navy); and non-DoD participants funds in the amount of $37,716,883 are being obligated at time of award, $7,540,359 of which expire at the end of the current fiscal year",
+        "completion_date": "2020-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-15-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Software conversions for structure and systems datasets in support of Lot 10 production for F-35 joint strike fighter; exercise of option",
+        "base_contract_number": "N00019-15-C-0003",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 37716883,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37716883,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Orbital ATK Inc., Defense Electronic Systems, Northridge, California, is being awarded $32,908,496 for cost-plus-fixed-fee task order N0001917F0507 against a previously issued basic ordering agreement (N00019-17-G-0011) for the procurement of engineering studies and logistics and test planning activities to support the development of design adaptations to Advanced Anti-Radiation Guided Missile’s (AARGM) existing subsystems and components. These efforts are in support of Small Business Innovation Research (SBIR) Phase III work which continues efforts performed under SBIR Topic N90-074, “Secondary Sensor for Anti-Radiation Missiles.” Work will be performed in Northridge, California, and is expected to be completed in February 2019. Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $3,300,000 will be obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001917F0507",
+          "N0001917G0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32908496.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3300000.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $3,300,000 will be obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Orbital ATK Inc., Defense Electronic Systems",
+            "location": "Northridge, California",
+            "contract_number": "N0001917F0507",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee task order",
+        "description": "Engineering studies and logistics/test planning for AARGM design adaptations; SBIR Phase III work",
+        "base_contract_number": "N00019-17-G-0011",
+        "order_number": "N0001917F0507",
+        "modification_number": null,
+        "value_usd": 32908496,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3300000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Orbital ATK Inc., Defense Electronic Systems, Northridge, California, is being awarded $17,156,019 for cost-plus-fixed-fee task order N0001917F0582 against a previously issued basic ordering agreement (N00019-17-G-0011) for the procurement of engineering studies and logistics and test planning activities to support the development of design adaptations to the Advanced Anti-Radiation Guided Missile (AARGM) existing subsystems and components. The contractor will evaluate system requirements and design trade space for a future AARGM-extended range development and explore concepts for adapting AARGM's existing subsystems and components. Work will be performed in Northridge, California, and is expected to be completed in February 2019. Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $2,207,256 will be obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001917F0582",
+          "N0001917G0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17156019.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2207256.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation (Navy) funds in the amount of $2,207,256 will be obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Orbital ATK Inc., Defense Electronic Systems",
+            "location": "Northridge, California",
+            "contract_number": "N0001917F0582",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee task order",
+        "description": "Engineering studies and logistics/test planning for AARGM extended range design adaptations",
+        "base_contract_number": "N00019-17-G-0011",
+        "order_number": "N0001917F0582",
+        "modification_number": null,
+        "value_usd": 17156019,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2207256,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Owego, New York, is being awarded $7,426,983 for modification P00005 to a previously issued firm-fixed-price delivery order 4012, placed under basic ordering agreement (N00019-14-G-0019). This procurement provides for additional software modifications required to establish a software baseline for the MH-60R aircraft in support of the government of Saudi Arabia. Work will be performed in Owego, New York (83 percent); Salt Lake City, Utah (9 percent); and Hampton, Virginia (8 percent), and is expected to be completed in June 2019. Foreign military sales funds in the amount of $7,426,983 are being obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0001914G0019"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 7426983.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7426983.0,
+        "funding_text": "Foreign military sales funds in the amount of $7,426,983 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Owego, New York",
+            "contract_number": "N00019-14-G-0019",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Software modifications to establish software baseline for MH-60R aircraft for Government of Saudi Arabia",
+        "base_contract_number": "N00019-14-G-0019",
+        "order_number": "4012",
+        "modification_number": "P00005",
+        "value_usd": 7426983,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7426983,
+        "fms_countries": [
+          "Saudi Arabia"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Kaman Precision Products, Orlando, Florida; Middletown, Connecticut, has been awarded a $85,169,000 firm-fixed-price, cost-plus-fixed fee contract for delivery of lot 13 of the joint programmable fuze, FMU-52 and corresponding production, test and engineering support. Work will be performed in Orlando, Florida; and Middletown, Connecticut, with an expected completion date of Feb. 28, 2019. This contract involves 26 percent foreign military sales to Bahrain, Belgium, Chile, Egypt, Indonesia, Iraq, Japan, Jordan, Korea, Lebanon, Morocco, Netherlands, Oman, Qatar, Romania, Saudi Arabia, Singapore, and the United Arab Emirates. Fiscal 2017 procurement funds in the amount of $85,169,000 are being obligated at time of award. This contract was a sole-source acquisition. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity (FA868118C0009).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA868118C0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 85169000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 85169000.0,
+        "funding_text": "Fiscal 2017 procurement funds in the amount of $85,169,000 are being obligated at time of award",
+        "completion_date": "2019-02-28",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": "FA868118C0009"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Bahrain",
+          "Belgium",
+          "Chile",
+          "Egypt",
+          "Indonesia",
+          "Iraq",
+          "Japan",
+          "Jordan",
+          "Korea",
+          "Lebanon",
+          "Morocco",
+          "Netherlands",
+          "Oman",
+          "Qatar",
+          "Romania",
+          "Saudi Arabia",
+          "Singapore"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Kaman Precision Products",
+            "location": "Orlando, Florida; Middletown, Connecticut",
+            "contract_number": "FA868118C0009",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, cost-plus-fixed fee",
+        "description": "Lot 13 of joint programmable fuze FMU-52 and production, test and engineering support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 85169000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 85169000,
+        "fms_countries": [
+          "Bahrain",
+          "Belgium",
+          "Chile",
+          "Egypt",
+          "Indonesia",
+          "Iraq",
+          "Japan",
+          "Jordan",
+          "Korea",
+          "Lebanon",
+          "Morocco",
+          "Netherlands",
+          "Oman",
+          "Qatar",
+          "Romania",
+          "Saudi Arabia",
+          "Singapore",
+          "United Arab Emirates"
+        ],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CACI NSS Inc., Colorado Springs, Colorado, has been awarded a $38,600,073 fixed-price-incentive-firm modification (P00037) to a previously awarded (FA8823-16-C-0004) for consolidated Air Force satellite control network modifications, maintenance and operations. This modification brings the total cumulative face value of the contract to $101,262,896. Work will be performed at Diego Garcia Tracking Station, Diego Garcia, British Indian Ocean Territory; Guam Tracking Station, U.S. Territory of Guam; Hawaii Tracking Station, Ka’ena Point, Hawaii; New Hampshire Tracking Station, New Boston Air Force Station; Thule Tracking Station, Thule Air Force Base, Greenland; Vandenberg Tracking Station, Vandenberg Air Force Base, California; Telemetry and Commanding Station, Bordon, Hants, United Kingdom; and Eastern Vehicle Checkout Facility, Cape Canaveral Air Force Station, Florida, with an expected completion date of May 21, 2024. Fiscal 2018 operations, maintenance, and sustainment funds in the amount of $17,740,189 are being obligated at time of award. Space and Missile Center, Peterson Air Force Base, Colorado, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA882316C0004"
+        ],
+        "modification_numbers": [
+          "P00037"
+        ],
+        "is_modification": true,
+        "value_usd": 38600073.0,
+        "cumulative_value_usd": 101262896.0,
+        "obligated_usd": 17740189.0,
+        "funding_text": "Fiscal 2018 operations, maintenance, and sustainment funds in the amount of $17,740,189 are being obligated at time of award",
+        "completion_date": "2024-05-21",
+        "contracting_activity": {
+          "name": "Space and Missile Center, Peterson Air Force Base, Colorado",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "CACI NSS Inc.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA8823-16-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm",
+        "description": "Consolidated Air Force satellite control network modifications, maintenance and operations",
+        "base_contract_number": "FA8823-16-C-0004",
+        "order_number": null,
+        "modification_number": "P00037",
+        "value_usd": 38600073,
+        "cumulative_value_usd": 101262896,
+        "obligated_usd": 17740189,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics, Marietta, Georgia, has been awarded a $21,303,535 firm-fixed-price modification (P00010) to a previously awarded (FA8504-14-C-0003) for the C-130J center wing box replacement program and will provide for the purchase of an additional quantity of five each C-130J center wing boxes, five each component kits, and a project management review. This modification brings the total cumulative face value of the contract to $72,735,243. Work will be performed in Marietta, Georgia; and Atlanta, Georgia, with an expected completion date of Sept. 4, 2021. Fiscal 2018 aircraft procurement funds are being obligated at time of award. Air Force Life Cycle Management Center, Robins Air Force Base, Georgia, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "FA850414C0003"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 21303535.0,
+        "cumulative_value_usd": 72735243.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2018 aircraft procurement funds are being obligated at time of award",
+        "completion_date": "2021-09-04",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8504-14-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "C-130J center wing box replacement program; additional five center wing boxes, five component kits, project management review",
+        "base_contract_number": "FA8504-14-C-0003",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 21303535,
+        "cumulative_value_usd": 72735243,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Bowhead Business and Technology Solutions LLC, Alexandria, Virginia, has been awarded a firm-fixed-price, single award, indefinite-delivery/definite-quantity contract for $19,942,300 for business enterprise systems, the ability to procure Department of Defense architecture framework compliant architectures and air staff and joint staff compliant information support plans. Work will be performed at Maxwell Air Force Base, Alabama, with an expected completion date of Nov. 20, 2022. This contract was a sole-source acquisition. Fiscal 2018 operations and maintenance funds in the amount of $4,500 are being obligated at time of award. Air Force Life Cycle Management Center, Maxwell Air Force Base, Alabama, is the contracting activity (FA8771-18-D-0001).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA877118D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 19942300.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4500.0,
+        "funding_text": "Fiscal 2018 operations and maintenance funds in the amount of $4,500 are being obligated at time of award",
+        "completion_date": "2022-11-20",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Maxwell Air Force Base, Alabama",
+          "code": "FA8771-18-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Bowhead Business and Technology Solutions LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "FA8771-18-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, single award, indefinite-delivery/definite-quantity contract",
+        "description": "Business enterprise systems, ability to procure DoD architecture framework compliant architectures and air staff and joint staff compliant information support plans",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 19942300,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4500,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a $17,461,954 contract for integration of the Guided Bomb Unit-39B/B, also known as laser small diameter bomb onto the MQ-9 Reaper via universal armament interface on a dual carriage system. Work will be performed in Poway, California, with an expected completion date of Nov. 27, 2021. This award was a sole-source acquisition. Fiscal 2017 and 2018 research, development, test, and evaluation funds in the amount of $4,343,000 are being obligated at time of award. Medium Altitude Unmanned Aerial System Division, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8620-18-F-2366).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "FA862018F2366"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17461954.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4343000.0,
+        "funding_text": "Fiscal 2017 and 2018 research, development, test, and evaluation funds in the amount of $4,343,000 are being obligated at time of award",
+        "completion_date": "2021-11-27",
+        "contracting_activity": {
+          "name": "Medium Altitude Unmanned Aerial System Division, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8620-18-F-2366"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": "FA8620-18-F-2366",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Integration of GBU-39B/B (laser small diameter bomb) onto MQ-9 Reaper via universal armament interface on a dual carriage system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17461954,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4343000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Centurum Information Technology Inc., Marlton, New Jersey, has been awarded a $10,000,000 contract. Work will be performed at Shaw Air Force Base, South Carolina; Al Dhafra Air Base, United Arab Emirates; Ali Al Salem Air Base, Kuwait; Muwaffaq Salti Air Base, Jordan; and Al Udeid Air Base, Qatar, with an expected completion date of May 31, 2018. Fiscal 2018 operations and maintenance funds in the amount of $9,411,854 are being obligated at time of award. Air Combat Command, Joint Base Langley-Eustis, Virginia, is the contracting activity (FA4890-18-C-0006).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "FA489018C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9411854.0,
+        "funding_text": "Fiscal 2018 operations and maintenance funds in the amount of $9,411,854 are being obligated at time of award",
+        "completion_date": "2018-05-31",
+        "contracting_activity": {
+          "name": "Air Combat Command, Joint Base Langley-Eustis, Virginia",
+          "code": "FA4890-18-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Centurum Information Technology Inc.",
+            "location": "Marlton, New Jersey",
+            "contract_number": "FA4890-18-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Contract work performed at Shaw AFB, Al Dhafra AB, Ali Al Salem AB, Muwaffaq Salti AB, and Al Udeid AB",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9411854,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics - Ordnance Tactical Systems, Marion, Illinois, has been awarded a $59,900,000 firm-fixed-price contract for 30mm x 173mm armor piercing, fin stabilized, discarding sabot with tracer cartridges. Bids were solicited via the Internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2021. Army Contracting Command, New Jersey, is the contracting activity (W15QKN-18-D-0023).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN18D0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 59900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-05-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, New Jersey",
+          "code": "W15QKN-18-D-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "General Dynamics - Ordnance Tactical Systems",
+            "location": "Marion, Illinois",
+            "contract_number": "W15QKN-18-D-0023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "30mm x 173mm armor piercing, fin stabilized, discarding sabot with tracer cartridges",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 59900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2017-11-27.html"
+  "source": "file:2017-11-27.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:17:11Z"
+  }
 }

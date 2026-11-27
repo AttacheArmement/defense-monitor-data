@@ -12,69 +12,580 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded a $116,512,253 firm-fixed-price contract for maintenance and overhaul of the Black Hawk main rotor blade. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 15, 2026. Army Contract Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-21-D-0078).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ21D0078"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 116512253.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-08-15",
+        "contracting_activity": {
+          "name": "Army Contract Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-21-D-0078"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-21-D-0078",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Maintenance and overhaul of the Black Hawk main rotor blade",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 116512253,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Johnson Machine Works Inc.,* Chariton, Iowa (W91237-21-D-0017); G&G Steel Inc.,* Russelville, Alabama (W91237-21-D-0018); and Steward Machine Co. Inc.,* Birmingham, Alabama (W91237-21-D-0019), will compete for each order of the $49,000,000 firm-fixed-price contract for fabrication and rehabilitation of lock and dam structural operation equipment for the Huntington District of the U.S. Army Corps of Engineers and other districts within the Great Lakes and Ohio River Division. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of May 31, 2026. U.S. Army Corps of Engineers, Huntington, West Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9123721D0017",
+          "W9123721D0018",
+          "W9123721D0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Huntington, West Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Johnson Machine Works Inc.",
+            "location": "Chariton, Iowa",
+            "contract_number": "W91237-21-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "G&G Steel Inc.",
+            "location": "Russelville, Alabama",
+            "contract_number": "W91237-21-D-0018",
+            "markers": "*"
+          },
+          {
+            "name": "Steward Machine Co. Inc.",
+            "location": "Birmingham, Alabama",
+            "contract_number": "W91237-21-D-0019",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Fabrication and rehabilitation of lock and dam structural operation equipment for the Huntington District and other Great Lakes and Ohio River Division districts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $97,725,718 cost-plus-award-fee modification (P00049) to a previously awarded contract (N0001919C0010). This modification adds scope for the development of the F-35 pilot training device production run-time server for the Navy, Air Force and non-U.S. Department of Defense participants. Work will be performed in Orlando, Florida (78%) and Fort Worth, Texas (22%), and is expected to be completed in August 2025. Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $5,254,062; fiscal 2021 research, development, test and evaluation (Air Force) funds $5,254,062; and non-U.S. Department of Defense participant funds in the amount of $2,314,696 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0001919C0010"
+        ],
+        "modification_numbers": [
+          "P00049"
+        ],
+        "is_modification": true,
+        "value_usd": 97725718.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7568758.0,
+        "funding_text": "Fiscal 2021 research, development, test and evaluation (Navy) funds in the amount of $5,254,062; fiscal 2021 research, development, test and evaluation (Air Force) funds $5,254,062; and non-U.S. Department of Defense participant funds in the amount of $2,314,696 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2025-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001919C0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-award-fee",
+        "description": "F-35 pilot training device production run-time server development",
+        "base_contract_number": "N0001919C0010",
+        "order_number": null,
+        "modification_number": "P00049",
+        "value_usd": 97725718,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10823843,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Environet Inc.,* Kamuela, Hawaii, is awarded a $14,932,488 firm-fixed-price task order N6247821F4234 under a multiple award construction contract for replacement of fuel pumps at Joint Base Pearl Harbor-Hickam. Work will be performed in Honolulu, Hawaii, and is expected to be completed by December 2023. The work to be performed provides for replacement of existing fuel pumps and installation of new fuel pumps in the Red Hill Underground Pump House. Ancillary work includes demolition and reconstruction of the concrete slabs that the pumps are mounted on, reconfiguration of existing fuel pipelines, replacement of control sensors, and other minor modifications as required to fit the new pumps in the existing space. Fiscal 2021 working capital funds (Navy) in the amount of $14,932,488 are obligated on this award and will not expire at the end of the current fiscal year. Five proposals were received for this task order. The Naval Facilities Engineering Systems Command, Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii, is the contracting activity (N62478-18-D-4025).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6247821F4234",
+          "N6247818D4025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14932488.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14932488.0,
+        "funding_text": "Fiscal 2021 working capital funds (Navy) in the amount of $14,932,488 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Systems Command, Hawaii, Joint Base Pearl Harbor-Hickam, Hawaii",
+          "code": "N62478-18-D-4025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Environet Inc.",
+            "location": "Kamuela, Hawaii",
+            "contract_number": "N62478-18-D-4025",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order under multiple award construction contract",
+        "description": "Replacement of fuel pumps in Red Hill Underground Pump House at Joint Base Pearl Harbor-Hickam",
+        "base_contract_number": "N62478-18-D-4025",
+        "order_number": "N6247821F4234",
+        "modification_number": null,
+        "value_usd": 14932488,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14932488,
+        "fms_countries": [],
+        "competition": "Five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "CFM International Inc., West Chester, Ohio, is awarded a $14,643,783 modification (P00028) to a previously awarded firm-fixed-price contract (N0001918C1071). This modification exercises an option to procure one P-8A Poseidon CFM56-7B27AE engine for the government of Korea. Work will be performed in Villaroche, France (53%); Durham, North Carolina (43%); Singapore (3%); and Bromont, Canada (1%), and is expected to be completed in July 2022. Foreign Military Sales customer funds in the amount of $14,643,783 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1071"
+        ],
+        "modification_numbers": [
+          "P00028"
+        ],
+        "is_modification": true,
+        "value_usd": 14643783.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14643783.0,
+        "funding_text": "Foreign Military Sales customer funds in the amount of $14,643,783 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2022-07",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "CFM International Inc.",
+            "location": "West Chester, Ohio",
+            "contract_number": "N0001918C1071",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of option for one P-8A Poseidon CFM56-7B27AE engine for Korea",
+        "base_contract_number": "N0001918C1071",
+        "order_number": null,
+        "modification_number": "P00028",
+        "value_usd": 14643783,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14643783,
+        "fms_countries": [
+          "Korea"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Integral Aerospace, Santa Ana, California, is awarded a $9,995,600 five-year, long-term, firm-fixed-priced requirements contract for the repair of two parts associated with the 650 gallon fuel tanks in support of the CH-53 aircraft. All work will be performed in Santa Ana, California, and the ordering period is expected to be completed by August 2026. No funds will be obligated at time of award. Working capital funds (Navy) will be obligated as individual task orders are issued, and funds will not expire at the end of the current fiscal year. One source was solicited for this non-competitive requirement under authority 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-21-D-ZC01).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0038321DZC01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9995600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award Working capital funds (Navy) will be obligated as individual task orders are issued, and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2026-08",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-21-D-ZC01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Integral Aerospace",
+            "location": "Santa Ana, California",
+            "contract_number": "N00383-21-D-ZC01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price long-term requirements contract",
+        "description": "Repair of two parts for 650 gallon fuel tanks supporting CH-53 aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9995600,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "Sole source under 10 U.S.C. 2304(c)(1), one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "L-3 Electron Devices, Williamsport, Pennsylvania (SPRMM1-21-D-X101, $35,037,577); Communication & Power Industries LLC, Beverly, Massachusetts (SPRMM1-21-D-X001, $35,027,577), have each been awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPRMM1-20-R-WA63 for AEGIS Weapon System radar system electron tubes. These were sole-source acquisitions using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. They are three-year base contracts with two one-year option periods. Locations of performance are Pennsylvania and Massachusetts, with an Aug. 15, 2024, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2021 through 2024 Navy working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Mechanicsburg, Pennsylvania.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "SPRMM121DX101",
+          "SPRMM121DX001",
+          "SPRMM120RWA63"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 35037577.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Mechanicsburg, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "L-3 Electron Devices",
+            "location": "Williamsport, Pennsylvania",
+            "contract_number": "SPRMM1-21-D-X101",
+            "markers": null
+          },
+          {
+            "name": "Communication & Power Industries LLC",
+            "location": "Beverly, Massachusetts",
+            "contract_number": "SPRMM1-21-D-X001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "AEGIS Weapon System radar system electron tubes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 35037577,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source under 10 U.S.C. 2304(c)(1), solicitation SPRMM1-20-R-WA63",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "PTI Technologies, Oxnard, California, has been awarded a $27,385,049 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for anti-ice valves. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a five-year contract with no option periods. Locations of performance are California and New York, with an Aug. 17, 2026, performance completion date. Using military service is Army. Type of appropriation is fiscal 2021 through 2026 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-21-D-0025).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA121D0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 27385049.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-21-D-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "PTI Technologies",
+            "location": "Oxnard, California",
+            "contract_number": "SPRRA1-21-D-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Anti-ice valves",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27385049,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source under 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "R.A. Miller Industries Inc.,** Grand Haven, Michigan, has been awarded an estimated $9,720,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Single Channel Ground and Airborne System repair parts. This was a competitive acquisition with five offers received. This is a five-year contract with no option periods. Location of performance is Michigan, with an Aug. 15, 2026, performance completion date. Using military service is Army. Type of appropriation is fiscal 2021 through 2026 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-21-D-0002).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL121D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9720000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-21-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Women-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "R.A. Miller Industries Inc.",
+            "location": "Grand Haven, Michigan",
+            "contract_number": "SPRBL1-21-D-0002",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Single Channel Ground and Airborne System repair parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9720000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "L3Harris Technologies Inc., Clifton, New Jersey, was awarded a $39,735,061 cost-plus-fixed-fee, cost-reimbursement no-fee, and not separately priced for Contract Data Requirements List requirements contract for the AN/ALQ-172 Countermeasures System (CMS). This contract provides repair services to the AN/ALQ-172 CMS, and the location of performance is Clifton, New Jersey. The work is expected to be completed by Aug. 12, 2026, and this award is the result of a sole-source acquisition. Consolidated Sustainment Activity Group-Engineering funds will be used. The contracting activity is Targeting and Electronic Warfare, Robins Air Force Base, Georgia (FA8522-21-D-0002).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA852221D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39735061.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-08-12",
+        "contracting_activity": {
+          "name": "Targeting and Electronic Warfare, Robins Air Force Base, Georgia",
+          "code": "FA8522-21-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "L3Harris Technologies Inc.",
+            "location": "Clifton, New Jersey",
+            "contract_number": "FA8522-21-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, cost-reimbursement no-fee requirements contract",
+        "description": "Repair services for AN/ALQ-172 Countermeasures System (CMS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39735061,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Systems & Technology Research, Woburn, Massachusetts, was awarded an $8,894,199 cost-plus-fixed-fee contract to develop and demonstrate autonomy technologies for the Science and Technology for Autonomous Teammates program. This research will be part of experimentation campaigns in multi-domain command and control, intelligence, surveillance, reconnaissance (ISR) processing exploitation and dissemination (PED) and manned-unmanned combat teaming. The location of performance is Woburn, Massachusetts, with base support at Wright-Patterson Air Force Base, Ohio. The work is expected to be completed by Aug. 11, 2024. This award is a result of a broad agency announcement, and fiscal 2021 3600 Air Force research, development, test and evaluation funds in the amount of $1,150,000 are being obligated at the time of award. The contracting activity is Air Force Materiel Command, Air Force Research Laboratory, Wright-Patterson AFB, Ohio (FA8650-21-C-1168).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA865021C1168"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8894199.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1150000.0,
+        "funding_text": "This award is a result of a broad agency announcement, and fiscal 2021 3600 Air Force research, development, test and evaluation funds in the amount of $1,150,000 are being obligated at the time of award",
+        "completion_date": "2024-08-11",
+        "contracting_activity": {
+          "name": "Air Force Materiel Command, Air Force Research Laboratory, Wright-Patterson AFB, Ohio",
+          "code": "FA8650-21-C-1168"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Systems & Technology Research",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "FA8650-21-C-1168",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Autonomy technologies development and demonstration for Science and Technology for Autonomous Teammates program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8894199,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1150000,
+        "fms_countries": [],
+        "competition": "Broad agency announcement",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:46Z",
-  "source": "file:2021-08-16.html"
+  "source": "file:2021-08-16.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:54:01Z"
+  }
 }

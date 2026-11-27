@@ -12,81 +12,744 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is awarded a ceiling priced $4,040,458,297 modification to convert a previously awarded advanced acquisition contract (N00019-18-C-1046) to a fixed-price-incentive-firm-target multi-year contract. The target price for this multi-year contract is $4,001,410,000. This modification provides for the full-rate production and delivery of 78 F/A-18 aircraft, specifically 61 F/A-18E and 17 F/A-18F aircraft for fiscal years 2018 through 2021. Work will be performed in El Segundo, California (61 percent); Hazelwood, Missouri (9 percent); Longueuil, Quebec, Canada (2 percent); Torrance, California (2 percent); Bloomington, Minnesota (2 percent); Ajax, Ontario, Canada (2 percent); Vandalia, Ohio (1 percent); Fort Worth, Texas (1 percent); Irvine, California (1 percent); Palm Bay, Florida (1 percent); Santa Clarita, California (1 percent); Grand Rapids, Michigan (1 percent); Greenlawn, New York (1 percent); Endicott, New York (1 percent); Marion, Virginia (1 percent); and various locations within the continental U.S. (13 percent). Work is expected to be completed in April 2024. Fiscal 2018 and 2019 aircraft procurement (Navy) funds in the amount of $1,557,334,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001918C1046"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 4040458297.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1557334000.0,
+        "funding_text": "Fiscal 2018 and 2019 aircraft procurement (Navy) funds in the amount of $1,557,334,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-18-C-1046",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price-incentive-firm-target multi-year contract (converted from advanced acquisition contract)",
+        "description": "Full-rate production of 78 F/A-18 aircraft (61 F/A-18E and 17 F/A-18F), FY2018-2021",
+        "base_contract_number": "N00019-18-C-1046",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 4040458297,
+        "cumulative_value_usd": 4001410000,
+        "obligated_usd": 1557334000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "American Systems Corp., Chantilly, Virginia (M67854-19-D-7870); Calibre Systems Inc., Alexandria, Virginia (M67854-19-D-7871); Corps Solutions, Stafford, Virginia (M67854-19-D-7872); Obsidian Solutions Group,* Fredericksburg, Virginia (M67854-19-D-7873); Science Applications International Corp., Reston, Virginia (M67854-19-D-7874); Solutions Through Innovative Technologies Inc., Fairborn, Ohio (M67854-19-D-7875); and Valiant Global Defense Services Inc., San Diego, California (M67854-19-D-7876), are awarded a multiple award, indefinite-delivery/indefinite-quantity contract with firm-fixed-pricing arrangements for the procurement of Marine Air-Ground Task Force (MAGTF) Training Systems Support (MTSS), with a combined maximum ceiling amount of $245,000,000. MTSS provides pre-deployment training to the Marine Corps Operating Forces within a joint and combined environment to improve warfighting skills. Training includes realistic computer-based simulation training; command, control, computers, communications, intelligence, surveillance, and reconnaissance training; combined arms staff trainer training; MAGTF tactical warfare simulation; and Deployable Virtual Training Environment. Work will be performed at Quantico, Virginia (55 percent); Camp Lejeune, North Carolina (15 percent); Camp Pendleton, California (10 percent); Twentynine Palms, California (10 percent); and Okinawa, Japan (10 percent), and is expected to be completed by March 19, 2029. No funds will be obligated at the time of award. Funds will be obligated as task orders are issued. The companies will compete for task orders under the terms and conditions of the awarded contract. This contract was competitively procured via the Federal Business Opportunities website, with seven offers received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "M6785419D7870",
+          "M6785419D7871",
+          "M6785419D7872",
+          "M6785419D7873",
+          "M6785419D7874",
+          "M6785419D7875",
+          "M6785419D7876"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 245000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award Funds will be obligated as task orders are issued",
+        "completion_date": "2029-03-19",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "American Systems Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "M67854-19-D-7870",
+            "markers": null
+          },
+          {
+            "name": "Calibre Systems Inc.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "M67854-19-D-7871",
+            "markers": null
+          },
+          {
+            "name": "Corps Solutions",
+            "location": "Stafford, Virginia",
+            "contract_number": "M67854-19-D-7872",
+            "markers": null
+          },
+          {
+            "name": "Obsidian Solutions Group",
+            "location": "Fredericksburg, Virginia",
+            "contract_number": "M67854-19-D-7873",
+            "markers": "*"
+          },
+          {
+            "name": "Science Applications International Corp.",
+            "location": "Reston, Virginia",
+            "contract_number": "M67854-19-D-7874",
+            "markers": null
+          },
+          {
+            "name": "Solutions Through Innovative Technologies Inc.",
+            "location": "Fairborn, Ohio",
+            "contract_number": "M67854-19-D-7875",
+            "markers": null
+          },
+          {
+            "name": "Valiant Global Defense Services Inc.",
+            "location": "San Diego, California",
+            "contract_number": "M67854-19-D-7876",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multiple award IDIQ",
+        "description": "Marine Air-Ground Task Force (MAGTF) Training Systems Support (MTSS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 245000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Merrill Technologies Group,* Saginaw, Michigan (N68335-19-D-0038); and Precision Custom Components LLC,* York, Pennsylvania (N68335-19-D-0039), are each being awarded indefinite-delivery/indefinite-quantity contracts. These contracts provide for the delivery of various components in support of the aircraft launch and recovery and support equipment programs, to include critical safety item/critical application item. The estimated aggregate ceiling for all contracts is $42,240,000, with the companies having an opportunity to compete for individual orders. Work will be performed at contractor facilities in Merrill, Michigan; and York, Pennsylvania, and is expected to be completed in March 2024. No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued. These contracts were competitively procured via a 100 percent small business set-aside electronic request for proposals; three offers were received. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N6833519D0038",
+          "N6833519D0039"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42240000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued",
+        "completion_date": "2024-03",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Merrill Technologies Group",
+            "location": "Saginaw, Michigan",
+            "contract_number": "N68335-19-D-0038",
+            "markers": "*"
+          },
+          {
+            "name": "Precision Custom Components LLC",
+            "location": "York, Pennsylvania",
+            "contract_number": "N68335-19-D-0039",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Components for aircraft launch and recovery and support equipment programs, including critical safety item/critical application item",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42240000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "100 percent small business set-aside electronic request for proposals, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Herndon, Virginia, is awarded $37,496,252 for modification P00002 to firm-fixed-price delivery order N0001918F0478 against a previously issued basic ordering agreement (N00019-15-G-0026). This modification provides for the procurement and delivery of seven MR-TCDL B-Kits, one Mission Avionics Systems Trainer B-Kit, and associated A- and B-Kit spares for the MR-TCDL upgrade to the E-6B Mercury aircraft. Work will be performed in Salt Lake City, Utah (73 percent); San Diego, California (25 percent); and Boston, Massachusetts (2 percent), and is expected to be completed in October 2021. Fiscal 2018 and 2019 aircraft procurement (Navy) funds in the amount of $37,496,252 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001918F0478",
+          "N0001915G0026"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 37496252.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37496252.0,
+        "funding_text": "Fiscal 2018 and 2019 aircraft procurement (Navy) funds in the amount of $37,496,252 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-10",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": "N0001918F0478",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "MR-TCDL B-Kits and Mission Avionics Systems Trainer B-Kit for E-6B Mercury aircraft upgrade",
+        "base_contract_number": "N00019-15-G-0026",
+        "order_number": "N0001918F0478",
+        "modification_number": "P00002",
+        "value_usd": 37496252,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37496252,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Rotary and Mission Systems, Syracuse, New York, is awarded a $27,510,334 cost-plus-incentive-fee modification to previously-awarded contract N00024-09-C-6247 for the procurement of fiscal 2019 electronic warfare AN/BLQ-10 kits and spares to support program requirements. Work will be performed in Syracuse, New York (99 percent); and Manassas, Virginia (1 percent), and is expected to be completed by October 2022. Fiscal 2019 other procurement (Navy) funding in the amount of $27,510,334 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002409C6247"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 27510334.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27510334.0,
+        "funding_text": "Fiscal 2019 other procurement (Navy) funding in the amount of $27,510,334 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2022-10",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Rotary and Mission Systems",
+            "location": "Syracuse, New York",
+            "contract_number": "N00024-09-C-6247",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee modification",
+        "description": "Fiscal 2019 electronic warfare AN/BLQ-10 kits and spares",
+        "base_contract_number": "N00024-09-C-6247",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 27510334,
+        "cumulative_value_usd": null,
+        "obligated_usd": 27510334,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "MEB General Contractors Inc., Chesapeake, Virginia, is awarded a $20,334,000 firm-fixed-price contract for consolidated fuel facilities at Shaw Air Force Base, South Carolina. The work to be performed provides for the construction of a new 6400 sq. ft. petroleum, oils, and lubricants operations facility with privately-owned vehicle parking for 60 vehicles; a new 2400 gallons per minute (gpm) Type III pump house facility and control room; four new 600 gpm high speed truck fillstands; a new reinforced concrete parking area for 20 fuel refueler trucks; piping modifications to the three existing aboveground storage tanks; new interconnecting piping; spill containment provision; a cathodic protection system; and supporting site work and utilities for the new facilities. Work will be performed in Sumter, South Carolina, and is expected to be completed by March 2021. Fiscal 2018 military construction (Defense Logistics Agency) contract funds in the amount of $20,334,000 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with three proposals received. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity (N69450-19-C-1304).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6945019C1304"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20334000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20334000.0,
+        "funding_text": "Fiscal 2018 military construction (Defense Logistics Agency) contract funds in the amount of $20,334,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-03",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": "N69450-19-C-1304"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "MEB General Contractors Inc.",
+            "location": "Chesapeake, Virginia",
+            "contract_number": "N69450-19-C-1304",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Consolidated fuel facilities at Shaw Air Force Base, South Carolina",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20334000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20334000,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Air Cruisers Co. LLC, Wall Township, New Jersey, is awarded an $8,026,673 long-term contract for repair of five various life raft inflatables in support of the Multi-Place Life Rafts System for use on various aircraft. The contract will include a three-year contract with two one-year option periods which if exercised, the total value of the contract is estimated to be $13,754,049. Work will be performed in Liberty, Mississippi. Work is expected to be completed by March 2022; if all options are exercised, work will be completed by March 2024. No funds are obligated at the time of award. Annual working capital funds (Navy) will be obligated as individual task orders are issued. Funds will not expire at the end of the current fiscal year. This contract was a sole-source, non-competitive requirement pursuant to the authority set forth in Federal Acquisition Regulation 6.302-1, with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity (N00383-19-D-UC01).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0038319DUC01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8026673.0,
+        "cumulative_value_usd": 13754049.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are obligated at the time of award Annual working capital funds (Navy) will be obligated as individual task orders are issued",
+        "completion_date": "2022-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania",
+          "code": "N00383-19-D-UC01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Air Cruisers Co. LLC",
+            "location": "Wall Township, New Jersey",
+            "contract_number": "N00383-19-D-UC01",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "long-term contract",
+        "description": "Repair of five life raft inflatables for Multi-Place Life Rafts System",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8026673,
+        "cumulative_value_usd": 13754049,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "sole source, FAR 6.302-1, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "American Mechanical Inc.,* Fairbanks, Alaska (W911KB-19-D-0012); Brice Civil Constructors Inc.,* Anchorage, Alaska (W911KB-19-D-0013); Central Environmental Inc.,* Anchorage, Alaska (W911KB-19-D-0014); Derian/OCC JV,* Anchorage, Alaska (W911KB-19-D-0015); and Patrick Mechanical LLC,* Fairbanks, Alaska (W911KB-19-D-0016), will compete for each order of the $200,000,000 firm-fixed-price contract for design, construct and repair of utilidor/utility systems. Bids were solicited via the internet with six received. Work locations and funding will be determined with each order, with an estimated completion date of March 18, 2024. U.S. Army Corps of Engineers, Anchorage, Alaska, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W911KB19D0012",
+          "W911KB19D0013",
+          "W911KB19D0014",
+          "W911KB19D0015",
+          "W911KB19D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-03-18",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Anchorage, Alaska",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "American Mechanical Inc.",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "W911KB-19-D-0012",
+            "markers": "*"
+          },
+          {
+            "name": "Brice Civil Constructors Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-19-D-0013",
+            "markers": "*"
+          },
+          {
+            "name": "Central Environmental Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-19-D-0014",
+            "markers": "*"
+          },
+          {
+            "name": "Derian/OCC JV",
+            "location": "Anchorage, Alaska",
+            "contract_number": "W911KB-19-D-0015",
+            "markers": "*"
+          },
+          {
+            "name": "Patrick Mechanical LLC",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "W911KB-19-D-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Design, construction and repair of utilidor/utility systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, six bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Applied Visual Technology Inc.,* Orlando, Florida, was awarded a $10,153,464 modification (P00005) to contract W900KK-18-D-0019 for systems engineering and software support. Work locations and funding will be determined with each order, with an estimated completion date of March 19, 2020. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W900KK18D0019"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 10153464.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-03-19",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Applied Visual Technology Inc.",
+            "location": "Orlando, Florida",
+            "contract_number": "W900KK-18-D-0019",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Systems engineering and software support",
+        "base_contract_number": "W900KK-18-D-0019",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 10153464,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Company Deloitte Consulting LLP, Arlington, Virginia, has been awarded a $39,933,653 firm-fixed-price contract for technical and programmatic expertise and recommendations. This contract provides for force optimization analysis support to HQ Air Combat Command. Work will take place at Joint Base Langley-Eustis, Virginia, and is expected to be completed by June 15, 2022. This contract is the result of a competitive acquisition and three offers were received. Fiscal 2019 operations and maintenance funds in the amount of $4,949,388 are being obligated at the time of award. Headquarters Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia, is the contracting activity (FA4890-19-F-A024). (Awarded March 19, 2019)",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA489019FA024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 39933653.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4949388.0,
+        "funding_text": "Fiscal 2019 operations and maintenance funds in the amount of $4,949,388 are being obligated at the time of award",
+        "completion_date": "2022-06-15",
+        "contracting_activity": {
+          "name": "Headquarters Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia",
+          "code": "FA4890-19-F-A024"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Deloitte Consulting LLP",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA4890-19-F-A024",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Force optimization analysis support to HQ Air Combat Command",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 39933653,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4949388,
+        "fms_countries": [],
+        "competition": "competitive, three offers received",
+        "award_date": "2019-03-19"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Freeman Holdings of Louisiana LLC, doing business as Million Air Lake Charles,* Lake Charles, Louisiana, has been awarded a minimum $18,832,439 fixed-price with economic-price-adjustment contract for fuel. This was a competitive acquisition with 148 responses received. This is a 47-month contract with a six-month option period. Location of performance is Louisiana, with a March 31, 2023, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2019 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE607-19-D-0008).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPE60719D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18832439.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE607-19-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Freeman Holdings of Louisiana LLC, doing business as Million Air Lake Charles",
+            "location": "Lake Charles, Louisiana",
+            "contract_number": "SPE607-19-D-0008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment contract",
+        "description": "Fuel supply contract",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18832439,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 148 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "M&M Manufacturing LLC,** Lajas, Puerto Rico, has been awarded a maximum $13,781,250 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Navy Working Uniform blouses and Army Combat Uniform coats. This was a competitive acquisition with six responses received. This is an 18-month base contract with three one-year option periods. Location of performance is Puerto Rico, with a March 19, 2021, estimated performance completion date. Using military services are Navy and Army. Type of appropriation is fiscal 2019 through 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-19-D-1145).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D1145"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13781250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-19-D-1145"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Woman-owned small business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "M&M Manufacturing LLC",
+            "location": "Lajas, Puerto Rico",
+            "contract_number": "SPE1C1-19-D-1145",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Navy Working Uniform blouses and Army Combat Uniform coats",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13781250,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, six responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Eaton Aeroquip LLC, Jackson, Michigan, has been awarded a maximum $8,992,216 firm-fixed-price contract for hoses, assemblies and other related parts. This was a competitive acquisition with one offer received. This is a three-year contract with two one-year option periods. Location of performance is Michigan, with a March 20, 2022, performance completion date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2019 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7LX-19-D-0016).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX19D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8992216.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7LX-19-D-0016"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Eaton Aeroquip LLC",
+            "location": "Jackson, Michigan",
+            "contract_number": "SPE7LX-19-D-0016",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Hoses, assemblies and other related parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8992216,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition with one offer received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:39Z",
-  "source": "file:2019-03-20.html"
+  "source": "file:2019-03-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:12:15Z"
+  }
 }

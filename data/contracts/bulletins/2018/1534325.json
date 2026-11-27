@@ -11,57 +11,449 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Mack Defense LLC, Allentown, Pennsylvania, was awarded a $296,403,688 firm-fixed-price contract for Heavy Dump Truck M917A3. Two bids were solicited with two bids received. Work locations and funding will be determined with each order, with an estimated completion date of May 18, 2025. U.S. Army Contracting Command, Warren, Michigan, is the contracting activity (W56HZV-18-D-0042).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV18D0042"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 296403688.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2025-05-18",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Warren, Michigan",
+          "code": "W56HZV-18-D-0042"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Mack Defense LLC",
+            "location": "Allentown, Pennsylvania",
+            "contract_number": "W56HZV-18-D-0042",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Heavy Dump Truck M917A3",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 296403688,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Two bids solicited, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CGI Federal Inc., Fairfax, Virginia, was awarded a $31,625,285 modification (P00035) to contract W911S0-15-C-0004 for U.S. Army Training and Doctrine Command G2 operational and environment core functions support services. Work will be performed in Fort Eustis, Virginia, with an estimated completion date of May 31, 2020. Fiscal 2018 operations and maintenance Army funds in the amount of $23,888,389 were obligated at the time of the award. U.S. Army Mission and Installation Contracting Command, Fort Eustis, Virginia, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W911S015C0004"
+        ],
+        "modification_numbers": [
+          "P00035"
+        ],
+        "is_modification": true,
+        "value_usd": 31625285.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23888389.0,
+        "funding_text": "Fiscal 2018 operations and maintenance Army funds in the amount of $23,888,389 were obligated at the time of the award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Fort Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "CGI Federal Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "W911S0-15-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "U.S. Army Training and Doctrine Command G2 operational and environment core functions support services",
+        "base_contract_number": "W911S0-15-C-0004",
+        "order_number": null,
+        "modification_number": "P00035",
+        "value_usd": 31625285,
+        "cumulative_value_usd": null,
+        "obligated_usd": 23888389,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Raytheon Self Protect Systems, Goleta, California, has been awarded a $90,000,000 indefinite-delivery/indefinite-quantity contract for the AN/ALR‐69A digital radar warning receiver system required to support foreign military sales production requirements. This contract provides for the fabrication, integration, testing and delivery of line replaceable units and shop replaceable units. Work will be performed in Goleta, California; and Forest, Mississippi, and is expected to be complete by May 2023. This award is the result of a sole-source, country-directed acquisition. Japanese Foreign Military Sales funds in an amount not to exceed $51,480,161 will be awarded on the first delivery order at the time of award. Air Force Life Cycle Management Center, Electronic Warfare, Robins Air Force Base, Georgia, is the contracting activity (FA8523‐18‐D‐0003).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 90000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2023-05",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Electronic Warfare, Robins Air Force Base, Georgia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Raytheon Self Protect Systems",
+            "location": "Goleta, California",
+            "contract_number": "FA8523-18-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "AN/ALR-69A digital radar warning receiver system production for foreign military sales",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 90000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 51480161,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": "sole-source, country-directed acquisition",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Triumph Accessory Services - Grand Prairie Inc., doing business as Triumph Group Inc., Grand Prairie, Texas, has been awarded an estimated face value of $1,208,550 modification (P00008) to a previously awarded contract (FA8122-15-D0007), to repair an F108 turbine clearance control valve. The contract modification will provide for the repair of an additional 198ea turbine clearance control valve under the basic contract. Work will be performed in Grand Prairie, Texas, and is expected to be completed by June 3, 2019. No funds are being obligated at the time of award, and the total cumulative face value of the contract is $7,142,250, to include the estimated face value of this option. Air Force Sustainment Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA812215D0007"
+        ],
+        "modification_numbers": [
+          "P00008"
+        ],
+        "is_modification": true,
+        "value_usd": 1208550.0,
+        "cumulative_value_usd": 7142250.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award, and the total cumulative face value of the contract is $7,142,250, to include the estimated face value of this option",
+        "completion_date": "2019-06-03",
+        "contracting_activity": {
+          "name": "Air Force Sustainment Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Triumph Accessory Services - Grand Prairie Inc., doing business as Triumph Group Inc.",
+            "location": "Grand Prairie, Texas",
+            "contract_number": "FA8122-15-D0007",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Repair of F108 turbine clearance control valves (198 additional units)",
+        "base_contract_number": "FA8122-15-D0007",
+        "order_number": null,
+        "modification_number": "P00008",
+        "value_usd": 1208550,
+        "cumulative_value_usd": 7142250,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Philadelphia Gear Corp., King of Prussia, Pennsylvania, is awarded a $70,819,929 firm-fixed-price modification to previously awarded contract N00024-16-C-4202 to exercise options for two shipsets of Main Reduction Gears (MRGs) for future DDG-51 class guided missile destroyers. The MRGs is the set of gears that transmit the power from two main propulsion gas turbines to the propulsion shaft. Each DDG-51 class destroyer has two gear sets, one for each propulsion shaft. The MRGs to be purchased under this procurement are for installation in DDG-128 and DDG-129. Work will be performed in Santa Fe Springs, California (79.2 percent); Kansas City, Missouri (7.2 percent); St. Augustine, Florida (3.6 percent); Latrobe, Pennsylvania (2.1 percent); Erie, Pennsylvania (1.1 percent); and other locations - each less than one percent (6.8 percent), and is expected to be completed by November 2020. Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $70,819,929 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0002416C4202"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 70819929.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70819929.0,
+        "funding_text": "Fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $70,819,929 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2020-11",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Philadelphia Gear Corp.",
+            "location": "King of Prussia, Pennsylvania",
+            "contract_number": "N00024-16-C-4202",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of options for two shipsets of Main Reduction Gears for DDG-51 class destroyers (DDG-128 and DDG-129)",
+        "base_contract_number": "N00024-16-C-4202",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 70819929,
+        "cumulative_value_usd": null,
+        "obligated_usd": 70819929,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, is awarded a maximum $28,511,148 indefinite-delivery/indefinite-quantity contract with cost-plus-fixed-fee task orders for research support services at the Naval Submarine Medical Research Laboratory in Groton, Connecticut. Work will be performed in Groton, Connecticut, and is expected to be completed as of May 31, 2023. Fiscal 2018 research, development, testing and evaluation funds in the amount of $265,000 will be obligated on task orders immediately upon award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with one offer received. The Naval Medical Logistics Command, Fort Detrick, Maryland, is the contracting activity (N62645-18-D-5049).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6264518D5049"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28511148.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 265000.0,
+        "funding_text": "Fiscal 2018 research, development, testing and evaluation funds in the amount of $265,000 will be obligated on task orders immediately upon award and will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Medical Logistics Command, Fort Detrick, Maryland",
+          "code": "N62645-18-D-5049"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "N62645-18-D-5049",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity with cost-plus-fixed-fee task orders",
+        "description": "Research support services at the Naval Submarine Medical Research Laboratory, Groton, Connecticut",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28511148,
+        "cumulative_value_usd": null,
+        "obligated_usd": 265000,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Tucson, Arizona, is awarded $19,262,005 for modification P00019 to a previously awarded firm-fixed-price, cost-plus-fixed-fee contract (N00019-17-C-0034). This modification provides for the procurement of nine mid-body range safety subsystem (MRSS) kits and flight test (FT) kits for the Navy and three MRSS and FT kits for the United Kingdom, including qualification, and a production rotable pool of parts. Work will be performed in Tucson, Arizona (40 percent); San Diego, California (13.70 percent); Boulder, Colorado (13.70 percent); Bristol, Pennsylvania (9.40 percent); Hanahan, South Carolina (6.90 percent); Joplin, Missouri (6 percent); Middletown, Connecticut (3.80 percent); Lancaster, Pennsylvania (3 percent); Tampa, Florida (1.40 percent); Ontario, California (1 percent); Anniston, Alabama (.9 percent); Lowell, Massachusetts (.18 percent); and Valencia, California (.02 percent), and is expected to be completed in August 2020. Fiscal 2017 weapons procurement (Navy) and Foreign Military Sales funds in the amount of $19,262,005 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This effort combines purchases for the Navy ($15,669,397; 81.35 percent); and the government of the United Kingdom ($3,592,608; 18.65 percent) under the Foreign Military Sales program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0034"
+        ],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 19262005.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19262005.0,
+        "funding_text": "Fiscal 2017 weapons procurement (Navy) and Foreign Military Sales funds in the amount of $19,262,005 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Tucson, Arizona",
+            "contract_number": "N00019-17-C-0034",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Nine MRSS kits and flight test kits for the Navy and three for the United Kingdom, plus production rotable pool of parts",
+        "base_contract_number": "N00019-17-C-0034",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 19262005,
+        "cumulative_value_usd": null,
+        "obligated_usd": 19262005,
+        "fms_countries": [
+          "United Kingdom"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Intelligence, Information and Services, Indianapolis, Indiana, is awarded $9,568,511 for cost-plus-fixed-fee delivery order N0001918F2351 against a previously issued basic ordering agreement (N00019-15-G-0003). This delivery order is for the procurement of smart multi-function color display repair support and software development activities to include APR-39D(V)2 integration as well as the ability to develop and deliver fix builds to correct existing and future software deficiencies in support of the H-53 aircraft. Work will be performed in Indianapolis, Indiana, and is expected to be completed in September 2021. Fiscal 2018 research, development, test and evaluation (Navy); and fiscal 2018 aircraft procurement (Navy) funds in the amount of $3,480,976 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001918F2351",
+          "N0001915G0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9568511.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3480976.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation (Navy); and fiscal 2018 aircraft procurement (Navy) funds in the amount of $3,480,976 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Raytheon Co., Intelligence, Information and Services",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N0001918F2351",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Smart multi-function color display repair support and software development incl. APR-39D(V)2 integration for H-53 aircraft",
+        "base_contract_number": "N00019-15-G-0003",
+        "order_number": "N0001918F2351",
+        "modification_number": null,
+        "value_usd": 9568511,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3480976,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Avfuel Corp., Ann Arbor, Michigan, has been awarded a minimum $8,587,356 fixed-price with economic-price-adjustment contract for fuel. This was a competitive acquisition with 50 responses received. This is a 46-month contract with a six-month option period. Locations of performance are Michigan and California, with a March 31, 2022, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2018 through 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE607-18-D-0071).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE60718D0071"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8587356.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE607-18-D-0071"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Avfuel Corp.",
+            "location": "Ann Arbor, Michigan",
+            "contract_number": "SPE607-18-D-0071",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Fuel supply contract (46-month base with six-month option), Michigan and California performance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8587356,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 50 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:37Z",
-  "source": "file:2018-05-29.html"
+  "source": "file:2018-05-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:55:48Z"
+  }
 }

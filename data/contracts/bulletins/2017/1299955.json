@@ -11,57 +11,456 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "MD Helicopters Inc.,* Mesa, Arizona, was awarded a $1,385,497,987 firm-fixed-price foreign military sales (Afghanistan) contract for procurement of an estimated quantity of 150 MD 530F aircraft and required production support services to include program management, delivery support, pilot training and maintenance. One bid was solicited, with one bid received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 31, 2022. U.S. Army Contracting Command, Redstone Arsenal, Alabama is the contracting activity (W58RGZ-17-D-0089).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17D0089"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1385497987.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-08-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-17-D-0089"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "MD Helicopters Inc.",
+            "location": "Mesa, Arizona",
+            "contract_number": "W58RGZ-17-D-0089",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of an estimated 150 MD 530F aircraft and production support services for Afghanistan foreign military sales",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1385497987,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "competition": "One bid solicited, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Thalle Construction Co., Hillsborough, North Carolina, was awarded a $31,863,733 firm-fixed-price contract for in-place abandonment and removal of the existing Herbert Hoover Dike Culverts KI-1 and KI-2, respectively, and the construction of new water control structures S-266 and S-265 at the respective adjacent or existing locations. Bids were solicited via the Internet with four received. Work will be performed in Okeechobee, Florida, with an estimated completion date of July 5, 2020. Fiscal 2017 operations and maintenance (Army) funds in the amount of $11,875,431 were obligated at the time of the award. U.S. Army Corps of Engineers, Jacksonville, Florida, is the contracting activity (W912EP-17-C-0019).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912EP17C0019"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31863733.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11875431.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $11,875,431 were obligated at the time of the award",
+        "completion_date": "2020-07-05",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Jacksonville, Florida",
+          "code": "W912EP-17-C-0019"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Thalle Construction Co.",
+            "location": "Hillsborough, North Carolina",
+            "contract_number": "W912EP-17-C-0019",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "In-place abandonment and removal of Herbert Hoover Dike Culverts KI-1 and KI-2 and construction of water control structures S-266 and S-265, Okeechobee, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31863733,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11875431,
+        "fms_countries": [],
+        "competition": "Internet solicitation, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tech Systems Inc.,* Alexandria, Virginia, was awarded a $17,164,910 modification (00539) to contract W52P1J-12-G-0047 for supply, maintenance and transportation in support of logistics support services at Schofield Barracks, Hawaii. Work will be performed in Honolulu, Hawaii, with an estimated completion date of Sept. 5, 2018. Fiscal 2017 operations and maintenance (Army) funds in the amount of $3,672,014 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J12G0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 17164910.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3672014.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army) funds in the amount of $3,672,014 were obligated at the time of the award",
+        "completion_date": "2018-09-05",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Tech Systems Inc.",
+            "location": "Alexandria, Virginia",
+            "contract_number": "W52P1J-12-G-0047",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Supply, maintenance and transportation in support of logistics support services at Schofield Barracks, Hawaii",
+        "base_contract_number": "W52P1J-12-G-0047",
+        "order_number": null,
+        "modification_number": "00539",
+        "value_usd": 17164910,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3672014,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Huntington Ingalls Inc., Newport News, Virginia, is being awarded a $104,955,829 cost-plus-fixed-fee modification to a previously awarded contract (N00024-15-C-2105) to exercise options for engineering, technical, design, configuration management, integrated logistics support, database management, research and development, modernization, and industrial support for nuclear submarines. Work will be performed in Newport News, Virginia, and is expected to be completed by September 2019. Fiscal 2017 other procurement (Navy); fiscal 2017 research, development, test and evaluation; and fiscal 2015 shipbuilding and conversion (Navy) funding in the amount of $5,702,163 will be obligated at the time of award and funds will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C2105"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 104955829.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5702163.0,
+        "funding_text": "Fiscal 2017 other procurement (Navy); fiscal 2017 research, development, test and evaluation; and fiscal 2015 shipbuilding and conversion (Navy) funding in the amount of $5,702,163 will be obligated at the time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": "2019-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Huntington Ingalls Inc.",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00024-15-C-2105",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Exercise of options for engineering, technical, design, configuration management, logistics, database, R&D, modernization and industrial support for nuclear submarines",
+        "base_contract_number": "N00024-15-C-2105",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 104955829,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5702163,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Electric Co., Lynn, Massachusetts, is being awarded $91,575,576 for modification P00004 to a previously awarded firm-fixed-price contract (N00019-17-C-0047) to exercise an option for the procurement of 24 Lot 21A full-rate production F414-GE-400 install engines for the F/A-18E/F aircraft. Work will be performed in Lynn, Massachusetts (59 percent); Hooksett, New Hampshire (18 percent); Rutland, Vermont (12 percent); and Madisonville, Kentucky (11 percent), and is expected to be completed in August 2018. Fiscal 2017 aircraft procurement (Navy) funds in the amount of $91,575,576 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0047"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 91575576.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 91575576.0,
+        "funding_text": "Fiscal 2017 aircraft procurement (Navy) funds in the amount of $91,575,576 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "N00019-17-C-0047",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for 24 Lot 21A full-rate production F414-GE-400 engines for F/A-18E/F aircraft",
+        "base_contract_number": "N00019-17-C-0047",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 91575576,
+        "cumulative_value_usd": null,
+        "obligated_usd": 91575576,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rocky Research,* Boulder City, Nevada, is being awarded a $49,173,291 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the procurement of original equipment manufacturer navigation and ship control system hardware components. Work will be performed in Huntsville, Alabama, and is expected to be completed by September 2022. Fiscal 2017 other procurement (Navy) in the amounts of $97,667; and fiscal 2017 operations and maintenance (Navy) funding in the amount of $39,892 will be obligated at the time of award with $39,892 expiring at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania, is the contracting activity (N64498-17-D-0009).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6449817D0009"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49173291.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 39892.0,
+        "funding_text": "Fiscal 2017 other procurement (Navy) in the amounts of $97,667; and fiscal 2017 operations and maintenance (Navy) funding in the amount of $39,892 will be obligated at the time of award with $39,892 expiring at the end of the current fiscal year",
+        "completion_date": "2022-09",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center Philadelphia Division, Philadelphia, Pennsylvania",
+          "code": "N64498-17-D-0009"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Rocky Research",
+            "location": "Boulder City, Nevada",
+            "contract_number": "N64498-17-D-0009",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Procurement of OEM navigation and ship control system hardware components",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49173291,
+        "cumulative_value_usd": null,
+        "obligated_usd": 137559,
+        "fms_countries": [],
+        "competition": "Not competitively procured, 10 U.S.C. 2304(c)(1) - only one responsible source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Insitu Inc., Bingen, Washington, is being awarded $20,996,265 for firm-fixed-price delivery order N0001917F0346 against a previously issued basic ordering agreement (N00019-15-G-0014) providing or the procurement of spare and sustainment parts to maintain the RQ-21A Blackjack unmanned aircraft system in support of Naval Special Warfare fleet operations. Work will be performed in Bingen, Washington, and is expected to be completed in June 2018. Fiscal 2015 and 2017 aircraft procurement (Navy) funds in the amount of $20,996,265 are being obligated at the time of award; $1,437,645 of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001917F0346",
+          "N0001915G0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20996265.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20996265.0,
+        "funding_text": "Fiscal 2015 and 2017 aircraft procurement (Navy) funds in the amount of $20,996,265 are being obligated at the time of award; $1,437,645 of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Insitu Inc.",
+            "location": "Bingen, Washington",
+            "contract_number": "N0001917F0346",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Spare and sustainment parts for RQ-21A Blackjack unmanned aircraft system supporting Naval Special Warfare fleet operations",
+        "base_contract_number": "N00019-15-G-0014",
+        "order_number": "N0001917F0346",
+        "modification_number": null,
+        "value_usd": 20996265,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20996265,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "E3 Federal Solutions, McLean, VA, is being awarded an $8,480,600 firm-fixed-price contract to obtain administrative and analytical services to various offices within the Office of the Under Secretary of Defense for Acquisition, Technology, and Logistics. Work performance will take place in Arlington, Virginia. The expected completion date is Sept. 22, 2022. Fiscal 2017 operations and maintenance funds are being obligated at the time of the award. Washington Headquarters Services, Arlington, Virginia, is the contracting office (HQ0034-15-A-0015).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HQ003415A0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8480600.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "E3 Federal Solutions",
+            "location": "McLean, Virginia",
+            "contract_number": "HQ0034-15-A-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Administrative and analytical services for offices within the Office of the Under Secretary of Defense for Acquisition, Technology, and Logistics",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8480600,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on August 31, 2017, for Atlantic Machinery Inc., Silver Spring, Maryland, for $31,000,000 was announced with an incorrect contract number. The correct contract number is SPE8EC-17-D-0011.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE8EC17D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 31000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Atlantic Machinery Inc.",
+            "location": "Silver Spring, Maryland",
+            "contract_number": "SPE8EC-17-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction of contract number for Atlantic Machinery Inc. $31,000,000 contract announced Aug. 31, 2017",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2017-08-31"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:35Z",
-  "source": "file:2017-09-05.html"
+  "source": "file:2017-09-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:31:24Z"
+  }
 }

@@ -11,63 +11,638 @@
       "agency": "DEFENSE INFORMATION SYSTEMS AGENCY",
       "kind": "announcement",
       "text": "22nd Century Technologies Inc.,* McLean, Virginia (HC1028-18-D-0001); AASKl Technology Inc.,* Tinton Falls, New Jersey (HC1028-18-D-0002); Ace Info Solutions Inc.,* Reston, Virginia (HC1028-18-D-0003); ActioNet Inc.,* Vienna, Virginia (HC1028-18-D-0004); AECOM XNet LLC,* Germantown, Maryland (HC1028-18-D-0005); Booz Allen Hamilton Inc.,* Mclean, Virginia (HC1028-18-D-0006); CACI Inc.-Federal,* Chantilly, Virginia (HC1028-18-D-0007); CSRA LLC,* Falls Church, Virginia (HC1028-18-D-0008); ECS Federal LLC,* Fairfax, Virginia (HC1028-18-D-0009); General Dynamics One Source LLC,* Fairfax, Virginia (HC1028-18-D-0010); IAP C4ISR,* Cape Canaveral, Florida (HC1028-18-D-0011); IndraSoft Inc.,* Reston, Virginia (HC1028-18-D-0012); Leidos Innovations Corp.,* Gaithersburg, Maryland (HC1028-18-D-0013); ManTech Advanced Systems Intl Inc.,* Herndon, Virginia (HC1028-18-D-0014); NES Associates LLC,* Alexandria, Virginia (HC1028-18-D-0015); NetCentrics Corp.,* Herndon, Virginia (HC1028-18-D-0016); Next Tier Concepts Inc.,* Vienna, Virginia (HC1028-18-D-0017); Phacil Inc.,* Arlington, Virginia (HC1028-18-D-0018); Qbase LLC,* Beavercreek, Ohio (HC1028-18-D-0019); Solers Inc.,* Arlington, Virginia (HC1028-18-D-0020), were awarded a suite of not-to-exceed multiple award indefinite-delivery/indefinite-quantity (ID/IQ) contracts for providing a full range of information technology (IT) services and solutions required by the Defense Information Systems Agency (DISA), the Department of Defense (DoD), and other agencies of the federal government. The face value of this action is $10,000 (a $500 minimum guarantee to each contractor), funded by no year defense working capital funds. The total cumulative face value of the contracts is $17,500,000,000 (cumulative ceiling amount) for all ID/IQ contracts issued in both the full and open and small business set-aside suites combined. This notification is for the full and open suite only. Performance will be at locations across the globe wherever DoD IT services are required. Proposals were solicited via www.FBO.gov, and 72 proposals were received. The period of performance is a five-year base period and five one-year option periods. The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HC102818D0001",
+          "HC102818D0002",
+          "HC102818D0003",
+          "HC102818D0004",
+          "HC102818D0005",
+          "HC102818D0006",
+          "HC102818D0007",
+          "HC102818D0008",
+          "HC102818D0009",
+          "HC102818D0010",
+          "HC102818D0011",
+          "HC102818D0012",
+          "HC102818D0013",
+          "HC102818D0014",
+          "HC102818D0015",
+          "HC102818D0016",
+          "HC102818D0017",
+          "HC102818D0018",
+          "HC102818D0019",
+          "HC102818D0020"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000.0,
+        "cumulative_value_usd": 17500000000.0,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "22nd Century Technologies Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "HC1028-18-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "AASKl Technology Inc.",
+            "location": "Tinton Falls, New Jersey",
+            "contract_number": "HC1028-18-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Ace Info Solutions Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "HC1028-18-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "ActioNet Inc.",
+            "location": "Vienna, Virginia",
+            "contract_number": "HC1028-18-D-0004",
+            "markers": "*"
+          },
+          {
+            "name": "AECOM XNet LLC",
+            "location": "Germantown, Maryland",
+            "contract_number": "HC1028-18-D-0005",
+            "markers": "*"
+          },
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "Mclean, Virginia",
+            "contract_number": "HC1028-18-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "CACI Inc.-Federal",
+            "location": "Chantilly, Virginia",
+            "contract_number": "HC1028-18-D-0007",
+            "markers": "*"
+          },
+          {
+            "name": "CSRA LLC",
+            "location": "Falls Church, Virginia",
+            "contract_number": "HC1028-18-D-0008",
+            "markers": "*"
+          },
+          {
+            "name": "ECS Federal LLC",
+            "location": "Fairfax, Virginia",
+            "contract_number": "HC1028-18-D-0009",
+            "markers": "*"
+          },
+          {
+            "name": "General Dynamics One Source LLC",
+            "location": "Fairfax, Virginia",
+            "contract_number": "HC1028-18-D-0010",
+            "markers": "*"
+          },
+          {
+            "name": "IAP C4ISR",
+            "location": "Cape Canaveral, Florida",
+            "contract_number": "HC1028-18-D-0011",
+            "markers": "*"
+          },
+          {
+            "name": "IndraSoft Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "HC1028-18-D-0012",
+            "markers": "*"
+          },
+          {
+            "name": "Leidos Innovations Corp.",
+            "location": "Gaithersburg, Maryland",
+            "contract_number": "HC1028-18-D-0013",
+            "markers": "*"
+          },
+          {
+            "name": "ManTech Advanced Systems Intl Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "HC1028-18-D-0014",
+            "markers": "*"
+          },
+          {
+            "name": "NES Associates LLC",
+            "location": "Alexandria, Virginia",
+            "contract_number": "HC1028-18-D-0015",
+            "markers": "*"
+          },
+          {
+            "name": "NetCentrics Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": "HC1028-18-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "Next Tier Concepts Inc.",
+            "location": "Vienna, Virginia",
+            "contract_number": "HC1028-18-D-0017",
+            "markers": "*"
+          },
+          {
+            "name": "Phacil Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "HC1028-18-D-0018",
+            "markers": "*"
+          },
+          {
+            "name": "Qbase LLC",
+            "location": "Beavercreek, Ohio",
+            "contract_number": "HC1028-18-D-0019",
+            "markers": "*"
+          },
+          {
+            "name": "Solers Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "HC1028-18-D-0020",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award indefinite-delivery/indefinite-quantity (ID/IQ)",
+        "description": "Suite of not-to-exceed multiple award ID/IQ contracts for full range of IT services and solutions for DISA, DoD and other federal agencies (full and open suite)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000,
+        "cumulative_value_usd": 17500000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "72 proposals received; solicited via www.FBO.gov",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Raytheon Co., Orlando, Florida, has been awarded a $2,870,000,000 hybrid (cost, fixed-price-award-fee, time-and-materials, cost-plus-fixed-fee and firm-fixed-fee) contract for performance-based services supporting the Army, combatant commanders, and other Department of Defense customers by providing integrated, life cycle contractor support and services for training aids, devices, simulators and simulations, representing a consolidated solution for the live, virtual, and constructive training domains. Bids were solicited via the Internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 31, 2019. U.S. Army Contracting Command, Orlando, Florida, is the contracting activity (W900KK-18-D-0008). (Awarded Oct. 31, 2017)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W900KK18D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 2870000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-10-31",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Orlando, Florida",
+          "code": "W900KK-18-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "Orlando, Florida",
+            "contract_number": "W900KK-18-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "hybrid (cost, fixed-price-award-fee, time-and-materials, cost-plus-fixed-fee and firm-fixed-fee)",
+        "description": "Performance-based integrated life cycle contractor support for training aids, devices, simulators and simulations (live, virtual, constructive training domains)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2870000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Solicited via Internet; one received",
+        "award_date": "2017-10-31"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gardner Zemke Co., Albuquerque, New Mexico, has been awarded a $7,186,667 firm-fixed-price contract for The Dalles generator step-up transformer replacement installation located at The Dalles Lock and Dam. Bids were solicited via the Internet with two received. Work will be performed in The Dalles, Oregon, with an estimated completion date of Sept. 11, 2020. Fiscal 2017 civil works funds in the amount of $900,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W9127N-18-C-0004).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W9127N18C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7186667.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 900000.0,
+        "funding_text": "Fiscal 2017 civil works funds in the amount of $900,000 were obligated at the time of the award",
+        "completion_date": "2020-09-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Portland, Oregon",
+          "code": "W9127N-18-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Gardner Zemke Co.",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "W9127N-18-C-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "The Dalles generator step-up transformer replacement installation at The Dalles Lock and Dam",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7186667,
+        "cumulative_value_usd": null,
+        "obligated_usd": 900000,
+        "fms_countries": [],
+        "competition": "Solicited via Internet; two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on Nov. 1, 2017, for Capco LLC,* Grand Junction, Colorado, for $34,262,050 was announced with an incorrect contract number. The correct contract number is W52P1J-18-D-0016. All other contract information was correct.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J18D0016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 34262050.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Capco LLC",
+            "location": "Grand Junction, Colorado",
+            "contract_number": "W52P1J-18-D-0016",
+            "markers": "*"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: contract announced Nov. 1, 2017 for Capco LLC ($34,262,050) was announced with an incorrect contract number; correct number is W52P1J-18-D-0016",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 34262050,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Advanced Technology Institute, North Charleston, South Carolina, was awarded a $100,000,000 other transactions agreement for the Space Enterprise Consortium. The agreement covers prototypes for broad space-related technologies, to include ground segment, launch segment, space segment, software, processes, or any combination for government customers within the Department of Defense. Work will be performed in North Charleston, South Carolina, with an estimated completion date of Nov. 1, 2022. This contract was a competitive acquisition and nine offers were received. The Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity (FA8814-18-9-0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA88141890001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 100000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-11-01",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": "FA8814-18-9-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Advanced Technology Institute",
+            "location": "North Charleston, South Carolina",
+            "contract_number": "FA8814-18-9-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "other transactions agreement",
+        "description": "Prototypes for broad space-related technologies for the Space Enterprise Consortium",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 100000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive; nine offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Manhattan Construction Co., Arlington, Virginia, is being awarded a $63,308,000 firm-fixed-price contract for construction of an Electronic Science and Technology Laboratory at Naval Research Laboratory. The work to be performed provides for the renovation and restoring of buildings 75 and 65 to provide research, testing and laboratory facilities for the electronic science and technology mission. The contract also contains three unexercised options, which if exercised would increase cumulative contract value to $68,597,328. Work will be performed in Washington, District of Columbia, and is expected to be completed by November 2019. Fiscal 2015 military construction (Navy) contract funds in the amount of $63,308,000 are obligated on this award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website, with three proposals received. The Naval Facilities Engineering Command, Washington, Washington, District of Columbia, is the contracting activity (N40080-18-C-0005).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N4008018C0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 63308000.0,
+        "cumulative_value_usd": 68597328.0,
+        "obligated_usd": 63308000.0,
+        "funding_text": "Fiscal 2015 military construction (Navy) contract funds in the amount of $63,308,000 are obligated on this award and will not expire at the end of the current fiscal year",
+        "completion_date": "2019-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Washington, Washington, District of Columbia",
+          "code": "N40080-18-C-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Manhattan Construction Co.",
+            "location": "Arlington, Virginia",
+            "contract_number": "N40080-18-C-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of Electronic Science and Technology Laboratory at Naval Research Laboratory (renovation of buildings 75 and 65)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 63308000,
+        "cumulative_value_usd": 68597328,
+        "obligated_usd": 63308000,
+        "fms_countries": [],
+        "competition": "Competitive via Navy Electronic Commerce Online; three proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., El Segundo, California, is being awarded $22,190,938 for modification P00020 to a previously awarded cost-plus-incentive-fee contract (N00019-16-C-0002) for the hardware and software requirements needed to deliver the Ground Power and Cooling System (GPCS) in support of the Next Generation Jammer modification. The GPCS consists of software changes to the pod operational flight program along with the following hardware; five ground power carts, five ground power kits, five ground cooling carts, five ground cooling kits, 12 common electronic unit connector kits, and four test access module kits. Work will be performed at El Segundo, California (97.4 percent); Fort Wayne, Indiana (1.1 percent); McKinney, Texas (1 percent); and Dallas, Texas (0.5 percent), and is expected to be completed in December 2019. No funds are being obligated at time of award. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001916C0002"
+        ],
+        "modification_numbers": [
+          "P00020"
+        ],
+        "is_modification": true,
+        "value_usd": 22190938.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2019-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "El Segundo, California",
+            "contract_number": "N00019-16-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Ground Power and Cooling System (GPCS) hardware and software for Next Generation Jammer",
+        "base_contract_number": "N00019-16-C-0002",
+        "order_number": null,
+        "modification_number": "P00020",
+        "value_usd": 22190938,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Atomics, San Diego, California, is being awarded $11,231,472 for modification P00018 to a previously awarded firm-fixed-price- contract (N00019-14-C-0037) to procure Advanced Arresting Gear (AAG) test assets to support test and evaluation activities at the AAG System development and demonstration runway assisted landing site in support of the Aircraft Launch and Recovery Equipment Program Office. Work will be performed in Tupelo, Mississippi (35.9 percent); San Diego, California (31.2 percent); Aston, Pennsylvania (5.9 percent); Seattle, Washington (4.6 percent); Boston, Massachusetts (3.7 percent); Spring Grove, Illinois (2.9 percent); Manson, Ohio (1.9 percent); Manchester, Connecticut (1.8 percent); Cincinnati, Ohio (1.8 percent); Guilford, Connecticut (1.7 percent); York, Pennsylvania (1.5 percent); New Hyde Park, New York (1.1 percent); Westerly, Rhode Island (0.7 percent); Detroit, Michigan (0.6 percent); Cleveland, Ohio (0.6 percent); Lansdale, Pennsylvania (0.6 percent); Poway, California (0.6 percent); Tempe, Arizona (0.4 percent); Indianapolis, Indiana (0.4 percent); Hutchinson, Minnesota (0.4 percent); Vista, California (0.4 percent); Plymouth, Indianapolis (0.4 percent); Strongsville, Ohio (0.3 percent); Akron, Ohio (0.3 percent); Ramona, California (0.2 percent); and Livonia, Michigan (0.2 percent), and is expected to be completed in June 2020. Fiscal 2018 research, development, test and evaluation (Navy) funds in the amount of $7,300,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0037"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": true,
+        "value_usd": 11231472.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7300000.0,
+        "funding_text": "Fiscal 2018 research, development, test and evaluation (Navy) funds in the amount of $7,300,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "General Atomics",
+            "location": "San Diego, California",
+            "contract_number": "N00019-14-C-0037",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Advanced Arresting Gear (AAG) test assets for test and evaluation at AAG System development and demonstration runway assisted landing site",
+        "base_contract_number": "N00019-14-C-0037",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 11231472,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7300000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Asturian Group Inc.,* Virginia Beach, Virginia, is being awarded $9,691,737 for firm-fixed-price task order N4008518F4124 under a previously awarded multiple award construction contract (N40085-17-D-5045) for Building M123 repairs at Portsmouth Naval Shipyard. The work provides for critical repairs and energy efficiency measures to the historically significant Building M123 which was constructed in 1828. The project will renovate spaces and electrical and mechanical system and architectural finishes will be provided in the renovated areas. Structural repairs will occur within the facility at areas included in the renovation, and also at the main entry porch, stairways, and egress pathways in order to comply with fire and life safety codes. Hydronic heating systems will be repaired or replaced in areas that are being renovated, as well as lighting and power repairs. Fire suppression and mass notification systems shall be repaired and provided in areas where the deficiencies exist. Primary facility electrical repairs include the replacement of the main electric service and replacing main distribution systems. Work will be performed in Kittery, Maine, and is expected to be completed by November 2018. Fiscal 2018 operations and maintenance (Navy) contract funds in the amount of $9,691,737 are obligated on this award and will expire at the end of the current fiscal year. Five proposals were received for this task order. The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N4008518F4124",
+          "N4008517D5045"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9691737.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9691737.0,
+        "funding_text": "Fiscal 2018 operations and maintenance (Navy) contract funds in the amount of $9,691,737 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2018-11",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Mid-Atlantic, Norfolk, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small Business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Asturian Group Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N4008518F4124",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Building M123 repairs at Portsmouth Naval Shipyard under multiple award construction contract",
+        "base_contract_number": "N40085-17-D-5045",
+        "order_number": "N4008518F4124",
+        "modification_number": null,
+        "value_usd": 9691737,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9691737,
+        "fms_countries": [],
+        "competition": "Five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., McKinney, Texas, is being awarded a $7,210,000 firm-fixed-price contract for production and delivery of three multi-spectral targeting system (MTS) “B” AN/DAS-3 and one electronic unit. The MTS “B” AN/DAS-3 and electronic unit are in support of the low-rate initial production two efforts of the MQ-4C Triton program. Work will be performed in McKinney, Texas, and is expected to be completed by January 2020. Fiscal 2016 aircraft procurement (Navy) funding in the amount of $2,330,000; and fiscal 2017 aircraft procurement (Navy) funding in the amount of $4,880,000 will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured, in accordance with 10 U.S. Code 2304(c)(1) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N00164-18-C-JQ37).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0016418CJQ37"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7210000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7210000.0,
+        "funding_text": "Fiscal 2016 aircraft procurement (Navy) funding in the amount of $2,330,000; and fiscal 2017 aircraft procurement (Navy) funding in the amount of $4,880,000 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2020-01",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Crane Division, Crane, Indiana",
+          "code": "N00164-18-C-JQ37"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Raytheon Co.",
+            "location": "McKinney, Texas",
+            "contract_number": "N00164-18-C-JQ37",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production and delivery of three MTS \"B\" AN/DAS-3 and one electronic unit for MQ-4C Triton LRIP II",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7210000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6810000,
+        "fms_countries": [],
+        "competition": "Not competitive; only one responsible source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:35Z",
-  "source": "file:2017-11-02.html"
+  "source": "file:2017-11-02.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:19:10Z"
+  }
 }

@@ -11,39 +11,308 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "National Aerospace Solutions LLC, Arnold Air Force Base, Tennessee, has been awarded a $179,038,803 modification (P00077) to previously awarded contract FA9101-15-C-0500 for test operations and sustainment. This modification adds option year three (contract performance year four) for test operations, technology development, equipment and facility sustainment, capital improvements and some support services for Arnold Engineering Development Complex. Work will be performed at Arnold AFB, Tennessee, and is expected to be complete by June 30, 2020. No funds are being obligated at the time of award. This modification brings the total cumulative face value of the contract to $931,503,054. Air Force Test Center, Arnold AFB, Tennessee, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA910115C0500"
+        ],
+        "modification_numbers": [
+          "P00077"
+        ],
+        "is_modification": true,
+        "value_usd": 179038803.0,
+        "cumulative_value_usd": 931503054.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2020-06-30",
+        "contracting_activity": {
+          "name": "Air Force Test Center, Arnold AFB, Tennessee",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "National Aerospace Solutions LLC",
+            "location": "Arnold Air Force Base, Tennessee",
+            "contract_number": "FA9101-15-C-0500",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Test operations and sustainment for Arnold Engineering Development Complex; adds option year three (contract performance year four)",
+        "base_contract_number": "FA9101-15-C-0500",
+        "order_number": null,
+        "modification_number": "P00077",
+        "value_usd": 179038803,
+        "cumulative_value_usd": 931503054,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "S.B. Ballard Construction Co., Virginia Beach, Virginia, was awarded a $40,457,981 firm-fixed-price contract for construction of an aviation maintenance training facility. Bids were solicited via the internet with seven received. Work will be performed in Newport News, Virginia, with an estimated completion date of Nov. 4, 2021. Fiscal 2018 military construction funds in the amount of $40,457,981 were obligated at the time of the award. U.S. Army Corps of Engineers, Norfolk, Virginia, is the contracting activity (W91236-19-C-0014).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W9123619C0014"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40457981.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40457981.0,
+        "funding_text": "Fiscal 2018 military construction funds in the amount of $40,457,981 were obligated at the time of the award",
+        "completion_date": "2021-11-04",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Norfolk, Virginia",
+          "code": "W91236-19-C-0014"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "S.B. Ballard Construction Co.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "W91236-19-C-0014",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of an aviation maintenance training facility in Newport News, Virginia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40457981,
+        "cumulative_value_usd": null,
+        "obligated_usd": 40457981,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Caribe General Constructors Inc.,* Ponce, Puerto Rico, was awarded a $17,398,500 firm-fixed-price contract for the construction of an Army Reserve training building. Bids were solicited via the internet with two received. Work will be performed in Aguadilla, Puerto Rico, with an estimated completion date of Nov. 26, 2020. Fiscal 2015, 2017 and 2018 military construction funds in the amount of $17,398,500 were obligated at the time of the award. U.S. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-19-C-0018).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912QR19C0018"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17398500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17398500.0,
+        "funding_text": "Fiscal 2015, 2017 and 2018 military construction funds in the amount of $17,398,500 were obligated at the time of the award",
+        "completion_date": "2020-11-26",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-19-C-0018"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Caribe General Constructors Inc.",
+            "location": "Ponce, Puerto Rico",
+            "contract_number": "W912QR-19-C-0018",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Construction of an Army Reserve training building in Aguadilla, Puerto Rico",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17398500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17398500,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Colonnas Shipyard Inc.,* Norfolk, Virginia, was awarded a $12,388,297 firm-fixed-price contract for dredge McFarland overhaul. Bids were solicited via the internet with three received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 7, 2019. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W912BU-19-F-0055).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912BU19F0055"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12388297.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-10-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": "W912BU-19-F-0055"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Colonnas Shipyard Inc.",
+            "location": "Norfolk, Virginia",
+            "contract_number": "W912BU-19-F-0055",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Dredge McFarland overhaul",
+        "base_contract_number": null,
+        "order_number": "W912BU-19-F-0055",
+        "modification_number": null,
+        "value_usd": 12388297,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Diversified Construction Of Oklahoma Inc., Edmond, Oklahoma, was awarded an $8,016,288 firm-fixed-price contract to complete a Defense Logistics Agency Energy Aerospace Operation facility. Bids were solicited via the internet with seven received. Work will be performed in San Antonio, Texas, with an estimated completion date of July 23, 2020. Fiscal 2019 military construction funds in the amount of $8,016,288 were obligated at the time of the award. U.S. Army Corps of Engineers, Fort Worth, Texas, is the contracting activity (W9126G-19-C-0026).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9126G19C0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8016288.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8016288.0,
+        "funding_text": "Fiscal 2019 military construction funds in the amount of $8,016,288 were obligated at the time of the award",
+        "completion_date": "2020-07-23",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Fort Worth, Texas",
+          "code": "W9126G-19-C-0026"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Diversified Construction Of Oklahoma Inc.",
+            "location": "Edmond, Oklahoma",
+            "contract_number": "W9126G-19-C-0026",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Completion of a Defense Logistics Agency Energy Aerospace Operation facility in San Antonio, Texas",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8016288,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8016288,
+        "fms_countries": [],
+        "competition": "Competitive, internet solicitation, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Land Systems (GDLS), Sterling Heights, Michigan, is awarded a $25,568,897 firm-fixed-price contract for the production of the MK 46 MOD 2 Gun Weapon System (GWS) for the Littoral Combat Ship (LCS) and Landing Platform Dock (LPD) programs, along with fiscal 2019 spares requirement. The 30mm MK 46 MOD 2 GWS is a remotely operated system that uses a high velocity cannon for shipboard self-defense against small, high-speed surface targets. This contract is for the procurement of two 30mm MK 46 MOD 2 GWSs for the LCS Surface Warfare Mission module, two 30mm MK 46 MOD 2 GWSs for the LPD-29, two 30mm MK 46 MOD 2 GWSs for the LPD-30, and associated spare parts. Work will be performed in Sterling Heights, Michigan (60 percent); Anniston, Alabama (25 percent); Lima, Ohio (7 percent); Tallahassee, Florida (6 percent); and Scranton, Pennsylvania (2 percent), and is expected to be completed by September 2021. Fiscal 2017, 2018 and 2019 shipbuilding and conversion (Navy); fiscal 2018 and 2019 other procurement (Navy), and fiscal 2019 weapons procurement (Navy) in the amount of $24,568,897 will be obligated at time of award and will not expire at the end of the year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-19-C-5388).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002419C5388"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 25568897.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24568897.0,
+        "funding_text": "Fiscal 2017, 2018 and 2019 shipbuilding and conversion (Navy); fiscal 2018 and 2019 other procurement (Navy), and fiscal 2019 weapons procurement (Navy) in the amount of $24,568,897 will be obligated at time of award and will not expire at the end of the year",
+        "completion_date": "2021-09",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-19-C-5388"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "General Dynamics Land Systems (GDLS)",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "N00024-19-C-5388",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Production of MK 46 MOD 2 Gun Weapon System for Littoral Combat Ship and Landing Platform Dock programs, with fiscal 2019 spares",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 25568897,
+        "cumulative_value_usd": null,
+        "obligated_usd": 24568897,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-06-05.html"
+  "source": "file:2019-06-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:02:52Z"
+  }
 }

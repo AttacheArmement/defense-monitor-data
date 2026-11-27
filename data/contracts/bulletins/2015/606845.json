@@ -11,75 +11,744 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Electric Aviation, Lynn, Massachusetts, was awarded a $2,001,101,104 firm-fixed-price indefinite-delivery/indefinite-quantity foreign military sales contract (Taiwan) for the T700 701D/401C engine in support of Army, Navy, Air Force, Foreign Military Sales, and other government agency program requirements. Funding and work location will be determined with each order with an estimated completion date of Dec. 31, 2020. One bid was solicited with one received. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-15-D-0048).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ15D0048"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 2001101104.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-15-D-0048"
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "General Electric Aviation",
+            "location": "Lynn, Massachusetts",
+            "contract_number": "W58RGZ-15-D-0048",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity foreign military sales contract",
+        "description": "T700 701D/401C engine support for Army, Navy, Air Force, FMS and other agencies (Taiwan FMS)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 2001101104,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [
+          "Taiwan"
+        ],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "American Development Institute LLC,* Smithfield, Rhode Island (W912DY-15-D-0039); AECOM, Los Angeles, California (W912DY-15-D-0040); Ameresco Inc., Framingham, Massachusetts (W912DY-15-D-0041); Clark Energy Group LLC, Arlington, Virginia (W912DY-15-D-0042); Constellation NewEnergy Inc., Baltimore, Maryland (W912DY-15-D-0043); Energy Systems Group LLC, Newburgh, Indiana (W912DY-15-D-0044); Honeywell International Inc., Columbia, Minnesota (W912DY-15-D-0045); Johnson Controls Government Systems LLC, Milwaukee, Wisconsin (W912DY-15-D-0046); NORESCO, Westborough, Massachusetts (W912DY-15-D-0047); Pepco Energy Services Inc., Arlington, Virginia (W912DY-15-D-0048); Schneider Electric Buildings Americas Inc., Carrollton, Texas (W912DY-15-D-0049); Siemens Government Technologies Inc., Arlington, Virginia (W912DY-15-D-0050); Southland Energy, Dulles, Virginia (W912DY-15-D-0051); and Trane U.S. Inc., St. Paul, Minnesota (W912DY-15-D-0052), were awarded a $1,500,000,000 firm-fixed-price multiple award task order contract for the design, construction, and operation of energy savings projects to help meet mandated energy savings goals. All awarded contracts will share a total capacity of $1,500,000,000. Funding and work location will be determined with each order with an estimated completion date of May 7, 2024. Bids were solicited via the Internet with 22 received. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912DY15D0039",
+          "W912DY15D0040",
+          "W912DY15D0041",
+          "W912DY15D0042",
+          "W912DY15D0043",
+          "W912DY15D0044",
+          "W912DY15D0045",
+          "W912DY15D0046",
+          "W912DY15D0047",
+          "W912DY15D0048",
+          "W912DY15D0049",
+          "W912DY15D0050",
+          "W912DY15D0051",
+          "W912DY15D0052"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1500000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2024-05-07",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "American Development Institute LLC",
+            "location": "Smithfield, Rhode Island",
+            "contract_number": "W912DY-15-D-0039",
+            "markers": "*"
+          },
+          {
+            "name": "AECOM",
+            "location": "Los Angeles, California",
+            "contract_number": "W912DY-15-D-0040",
+            "markers": null
+          },
+          {
+            "name": "Ameresco Inc.",
+            "location": "Framingham, Massachusetts",
+            "contract_number": "W912DY-15-D-0041",
+            "markers": null
+          },
+          {
+            "name": "Clark Energy Group LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912DY-15-D-0042",
+            "markers": null
+          },
+          {
+            "name": "Constellation NewEnergy Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "W912DY-15-D-0043",
+            "markers": null
+          },
+          {
+            "name": "Energy Systems Group LLC",
+            "location": "Newburgh, Indiana",
+            "contract_number": "W912DY-15-D-0044",
+            "markers": null
+          },
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Columbia, Minnesota",
+            "contract_number": "W912DY-15-D-0045",
+            "markers": null
+          },
+          {
+            "name": "Johnson Controls Government Systems LLC",
+            "location": "Milwaukee, Wisconsin",
+            "contract_number": "W912DY-15-D-0046",
+            "markers": null
+          },
+          {
+            "name": "NORESCO",
+            "location": "Westborough, Massachusetts",
+            "contract_number": "W912DY-15-D-0047",
+            "markers": null
+          },
+          {
+            "name": "Pepco Energy Services Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912DY-15-D-0048",
+            "markers": null
+          },
+          {
+            "name": "Schneider Electric Buildings Americas Inc.",
+            "location": "Carrollton, Texas",
+            "contract_number": "W912DY-15-D-0049",
+            "markers": null
+          },
+          {
+            "name": "Siemens Government Technologies Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "W912DY-15-D-0050",
+            "markers": null
+          },
+          {
+            "name": "Southland Energy",
+            "location": "Dulles, Virginia",
+            "contract_number": "W912DY-15-D-0051",
+            "markers": null
+          },
+          {
+            "name": "Trane U.S. Inc.",
+            "location": "St. Paul, Minnesota",
+            "contract_number": "W912DY-15-D-0052",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multiple award task order contract",
+        "description": "Design, construction and operation of energy savings projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1500000000,
+        "cumulative_value_usd": 1500000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 22 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Adams Communication & Engineering Technology Inc., Waldorf, Maryland (W56KGU-15-D-0002); Battelle Memorial Institute, Columbus, Ohio (W56KGU-15-D-0003); Booz Allen Hamilton Inc., McLean, Virginia (W56KGU-15-D-0004); CACI Technologies Inc., Chantilly, Virginia (W56KGU-15-D-0005); DHPC Technologies Inc., Woodbridge, New Jersey (W56KGU-15-D-0006); EOIR Technologies Inc., Aberdeen Proving Ground, Maryland (W56KGU-15-D-0007); Leidos Inc., Reston, Virginia (W56KGU-15-D-0008); Praxis Engineering Technologies Inc., Annapolis Junction, Maryland (W56KGU-15-D-0009); and Sotera Defense Solutions Inc., Herndon, Virginia (W56KGU-15-D-0010), were awarded a $994,675,676 cost-plus-fixed-fee multiple award task order contract indefinite-delivery/indefinite-quantity contract for technical information engineering services. Funding and work location will be determined with each order with an estimated completion date of May 7, 2018. Bids were solicited via the Internet with 11received. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W56KGU15D0002",
+          "W56KGU15D0003",
+          "W56KGU15D0004",
+          "W56KGU15D0005",
+          "W56KGU15D0006",
+          "W56KGU15D0007",
+          "W56KGU15D0008",
+          "W56KGU15D0009",
+          "W56KGU15D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 994675676.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-05-07",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Adams Communication & Engineering Technology Inc.",
+            "location": "Waldorf, Maryland",
+            "contract_number": "W56KGU-15-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Battelle Memorial Institute",
+            "location": "Columbus, Ohio",
+            "contract_number": "W56KGU-15-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "W56KGU-15-D-0004",
+            "markers": null
+          },
+          {
+            "name": "CACI Technologies Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W56KGU-15-D-0005",
+            "markers": null
+          },
+          {
+            "name": "DHPC Technologies Inc.",
+            "location": "Woodbridge, New Jersey",
+            "contract_number": "W56KGU-15-D-0006",
+            "markers": null
+          },
+          {
+            "name": "EOIR Technologies Inc.",
+            "location": "Aberdeen Proving Ground, Maryland",
+            "contract_number": "W56KGU-15-D-0007",
+            "markers": null
+          },
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "W56KGU-15-D-0008",
+            "markers": null
+          },
+          {
+            "name": "Praxis Engineering Technologies Inc.",
+            "location": "Annapolis Junction, Maryland",
+            "contract_number": "W56KGU-15-D-0009",
+            "markers": null
+          },
+          {
+            "name": "Sotera Defense Solutions Inc.",
+            "location": "Herndon, Virginia",
+            "contract_number": "W56KGU-15-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee multiple award task order contract indefinite-delivery/indefinite-quantity",
+        "description": "Technical information engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 994675676,
+        "cumulative_value_usd": 994675676,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 11 received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "AECOM Technical Services Inc., Los Angeles, California, is being awarded a maximum $45,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity architect-engineering contract for preparation of Navy and Marine Corps facilities planning and environmental documentation in the Naval Facilities Engineering Command (NAVFAC) Europe Africa Southwest Asia (EURAFSWA) area of responsibility (AOR). The work to be performed provides for design projects including, but not limited to: administration buildings, religious facilities, community buildings, dining facilities, recreational facilities, security buildings, child development centers, bachelor quarters, Navy lodges, airfield facilities, waterfront facilities, operational facilities, base housing, water treatment facilities and associated work, central plant utility system upgrades, and other infrastructure. No task orders are being issued at this time. Work will be performed at various locations within the NAVFAC EURAFSWA AOR including, but not limited to, Naples, Italy; Sigonella, Italy; Souda Bay, Greece; Manama, Kingdom of Bahrain; Djibouti, Africa; Rota, Spain; and Vicenza, Italy. The term of the contract is not to exceed 60 months with an expected completion date of May 2020. Fiscal 2015 operation and maintenance (Navy) funds in the amount of $10,000 are being obligated on this award, and will expire at the end of the current fiscal year. This contract was competitively procured via the Navy Electronic Commerce Online website, with eight proposals received. The Naval Facilities Engineering Command, Europe Africa Southwest Asia, Naples, Italy, is the contracting activity (N33191-15-D-0811).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N3319115D0811"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10000.0,
+        "funding_text": "Fiscal 2015 operation and maintenance (Navy) funds in the amount of $10,000 are being obligated on this award, and will expire at the end of the current fiscal year",
+        "completion_date": "2020-05",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Europe Africa Southwest Asia, Naples, Italy",
+          "code": "N33191-15-D-0811"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "AECOM Technical Services Inc.",
+            "location": "Los Angeles, California",
+            "contract_number": "N33191-15-D-0811",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity architect-engineering contract",
+        "description": "Facilities planning and environmental documentation for NAVFAC EURAFSWA AOR; no task orders issued at this time",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45000000,
+        "cumulative_value_usd": 45000000,
+        "obligated_usd": 10000,
+        "fms_countries": [],
+        "competition": "Competitive via Navy Electronic Commerce Online website, eight proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "General Dynamics Ordnance and Tactical Systems, Marion, Illinois, is being awarded a $8,790,026 firm-fixed-price contract for MK 258, MOD 1 armor piercing, fin stabilized, discarding, sabot, tracer (APFSDS-T) cartridges. This contract is to produce, test, inspect, and deliver 30x173mm MK258 MOD1 ammunition for use in the MK46 gun weapon system. Work will be performed in Marion, Illinois, and is expected to be completed by March 2017. Fiscal 2014 procurement of ammunition, (Navy, Marine Corps) contract funds in the amount of $8,790,026 will be obligated at the time of award and funds will expire at the end of the current fiscal year. This contract was not competitively procured in accordance with FAR 6.302-1(a)(2); only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland, is the contracting activity (N00174-15-C-0015).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0017415C0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8790026.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8790026.0,
+        "funding_text": "Fiscal 2014 procurement of ammunition, (Navy, Marine Corps) contract funds in the amount of $8,790,026 will be obligated at the time of award and funds will expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center, Indian Head Explosive Ordnance Disposal Technology Division, Indian Head, Maryland",
+          "code": "N00174-15-C-0015"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Dynamics Ordnance and Tactical Systems",
+            "location": "Marion, Illinois",
+            "contract_number": "N00174-15-C-0015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "MK 258 MOD 1 APFSDS-T 30x173mm ammunition for MK46 gun weapon system",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8790026,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8790026,
+        "fms_countries": [],
+        "competition": "Not competitively procured, FAR 6.302-1(a)(2) only one responsible source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "LinQuest Corp., Los Angeles, California, has been awarded a firm fixed price $42,000,000 task order to previously awarded contract FA8819-15-F-0001 for advisory and assistance support. Contract will provide advisory and assistance services to Los Angeles Air Force Base’s Space Superiority Directorate’s Advanced Systems and Space Situational Awareness divisions. This will include support with modernization planning, acquisition intelligence, systems engineering, technical acquisition, technical baseline management, and test and evaluation. Work will be performed at El Segundo, California, and is expected to be complete by May 31, 2020. This award is the result of a competitive acquisition with three offers received. Fiscal 2015 research, development, test and evaluation and operations and maintenance funds in the amount of $4,444,099 are being obligated at the time of award. Space and Missile Systems Center, Space Superiority Directorate, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA881915F0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4444099.0,
+        "funding_text": "Fiscal 2015 research, development, test and evaluation and operations and maintenance funds in the amount of $4,444,099 are being obligated at the time of award",
+        "completion_date": "2020-05-31",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Space Superiority Directorate, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "LinQuest Corp.",
+            "location": "Los Angeles, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm fixed price task order",
+        "description": "Advisory and assistance support for Space Superiority Directorate Advanced Systems and Space Situational Awareness divisions",
+        "base_contract_number": "FA8819-15-F-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4444099,
+        "fms_countries": [],
+        "competition": "Competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "General Atomics Aeronautical Systems Inc., Poway, California, has been awarded a not-to-exceed $37,962,062 undefinitized contract action modification (0140) to previously awarded contract FA8620-10-G-3038. Contractor will provide 64 MQ-9 Electrical Safety Improvement Program retrofit kits on 64 Air Force Special Operations Command, Air Combat Command, and Air National Guard Block 1 aircraft. Work will be performed at Poway, California, and is expected to be complete by April 30, 2017. This award is the result. Fiscal 2013, 2014 and 2015 procurement funds in the amount of $18,845,887 are being obligated at the time of award. Air Force Lifecycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "FA862010G3038"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37962062.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18845887.0,
+        "funding_text": "Fiscal 2013, 2014 and 2015 procurement funds in the amount of $18,845,887 are being obligated at the time of award",
+        "completion_date": "2017-04-30",
+        "contracting_activity": {
+          "name": "Air Force Lifecycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical Systems Inc.",
+            "location": "Poway, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action (not-to-exceed)",
+        "description": "64 MQ-9 Electrical Safety Improvement Program retrofit kits",
+        "base_contract_number": "FA8620-10-G-3038",
+        "order_number": null,
+        "modification_number": "0140",
+        "value_usd": 37962062,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18845887,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "M1 Support Services LP, Denton, Texas, has been awarded a $9,662,250 firm-fixed-price contract for trainer maintenance services. Contractor will provide trainer maintenance services for approximately 6,300 training assets in support of the 82nd Training Wing technical training mission at Sheppard Air Force Base, Texas. The 82 TRW mission is the largest and most diverse training mission in the Air Force with more than 60,000 graduates a year and nearly 1,000 technical training courses. Work will be performed at Sheppard Air Force Base, Texas, and is expected to be complete by Sept. 30, 2016. This award is the result of a competitive acquisition with three offers received. Fiscal 2015 operations and maintenance funds in the amount of $37,326 are being obligated at the time of award. Air Force Installation Contracting Agency, Joint Base San Antonio - Randolph, Texas, is the contracting activity (FA3002-15-C-0006).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "FA300215C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9662250.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37326.0,
+        "funding_text": "Fiscal 2015 operations and maintenance funds in the amount of $37,326 are being obligated at the time of award",
+        "completion_date": "2016-09-30",
+        "contracting_activity": {
+          "name": "Air Force Installation Contracting Agency, Joint Base San Antonio - Randolph, Texas",
+          "code": "FA3002-15-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "M1 Support Services LP",
+            "location": "Denton, Texas",
+            "contract_number": "FA3002-15-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Trainer maintenance services for approximately 6,300 training assets at Sheppard AFB, 82nd Training Wing",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9662250,
+        "cumulative_value_usd": null,
+        "obligated_usd": 37326,
+        "fms_countries": [],
+        "competition": "Competitive, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Labatt Food Service, San Antonio, Texas, has been awarded a maximum $36,699,346 fixed-price with economic price adjustment contract. This was a sole source contract using justification 10 U.S.C. 2304 (c)(1). This is a bridge contract with no option years for subsistence support for customers in the San Antonio, Texas, region. Location of performance is Texas with a Jan.16, 2016, performance completion date. Using military services are Army, Air Force, and federal civilian agencies. Type of appropriation is fiscal 2015 through fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania, (SPE300-15-D-3149) (Awarded on May 4, 2015).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE30015D3149"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 36699346.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania, (SPE300-15-D-3149) (Awarded on May 4, 2015)",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Labatt Food Service",
+            "location": "San Antonio, Texas",
+            "contract_number": "SPE300-15-D-3149",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic price adjustment, sole source bridge contract",
+        "description": "Subsistence support for customers in San Antonio, Texas region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 36699346,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": "2015-05-04"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Burlington Apparel, Greensboro, North Carolina, has been awarded a maximum $19,788,000 modification (P00107) exercising the second option period on a one-year base contract (SPM1C1-13-D-1052) with four one-year option periods. This is a fixed-price with economic-price-adjustment contract for Army poly/wool cloth. Location of performance is North Carolina with a May 12, 2016, performance completion date. Using military service is Army. Type of appropriation is fiscal 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1052"
+        ],
+        "modification_numbers": [
+          "P00107"
+        ],
+        "is_modification": true,
+        "value_usd": 19788000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Burlington Apparel",
+            "location": "Greensboro, North Carolina",
+            "contract_number": "SPM1C1-13-D-1052",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Second option period exercise for Army poly/wool cloth",
+        "base_contract_number": "SPM1C1-13-D-1052",
+        "order_number": null,
+        "modification_number": "P00107",
+        "value_usd": 19788000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Burlington Apparel, Greensboro, North Carolina, has been awarded a maximum $13,834,800 modification (P00108) exercising the second option period on a one-year base contract (SPM1C1-13-D-1051) with four one-year option periods. This is a fixed-price with economic-price-adjustment contract for Army poly/wool cloth. Location of performance is North Carolina with a May 12, 2016, performance completion date. Using military service is Army. Type of appropriation is fiscal 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C113D1051"
+        ],
+        "modification_numbers": [
+          "P00108"
+        ],
+        "is_modification": true,
+        "value_usd": 13834800.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Burlington Apparel",
+            "location": "Greensboro, North Carolina",
+            "contract_number": "SPM1C1-13-D-1051",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Second option period exercise for Army poly/wool cloth",
+        "base_contract_number": "SPM1C1-13-D-1051",
+        "order_number": null,
+        "modification_number": "P00108",
+        "value_usd": 13834800,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Raytheon Integrated Defense Systems, Woburn, Massachusetts, is being awarded a $11,266,720 contract modification (P00034) to a previously awarded firm-fixed-price, cost-plus-fixed-fee contract (HQ0147-12-C-0006). This contract modification is for the production of two electronics equipment unit modification kits, a cooling equipment unit simulator CCLS training set, reliability improvements and site integration. Work will be performed in Woburn, Massachusetts, with an expected completion date of September 2016. Fiscal 2015 procurement funds in the amount of $11,266,720 will be obligated at time of award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HQ014712C0006"
+        ],
+        "modification_numbers": [
+          "P00034"
+        ],
+        "is_modification": true,
+        "value_usd": 11266720.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11266720.0,
+        "funding_text": "Fiscal 2015 procurement funds in the amount of $11,266,720 will be obligated at time of award",
+        "completion_date": "2016-09",
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Huntsville, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Raytheon Integrated Defense Systems",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "HQ0147-12-C-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost-plus-fixed-fee",
+        "description": "Production of electronics equipment unit modification kits, CCLS training set, reliability improvements and site integration",
+        "base_contract_number": "HQ0147-12-C-0006",
+        "order_number": null,
+        "modification_number": "P00034",
+        "value_usd": 11266720,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11266720,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-05-08.html"
+  "source": "file:2015-05-08.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:07:11Z"
+  }
 }

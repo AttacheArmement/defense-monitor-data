@@ -9,9 +9,58 @@
       "agency": null,
       "kind": "announcement",
       "text": "Old North Utility Services Inc., San Dimas, California, has been awarded a maximum $16,648,296 modification (P00210), incorporating the economic-price-adjustment agreement for Calendar Year 10 to the existing 50-year contract (SP0600-07-C-8258) with no option periods, for the water/wastewater operations and maintenance and renewal and replacement utility service charges. This is a fixed-price with economic-price-adjustment contract. Locations of performance are California and North Carolina, with a Feb. 28, 2058, performance completion date. Using military service is Army. Type of appropriation is fiscal 2018 through fiscal 2058 Army operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SP060007C8258"
+        ],
+        "modification_numbers": [
+          "P00210"
+        ],
+        "is_modification": true,
+        "value_usd": 16648296.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Old North Utility Services Inc.",
+            "location": "San Dimas, California",
+            "contract_number": "SP0600-07-C-8258",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price with economic-price-adjustment",
+        "description": "Economic-price-adjustment agreement for Calendar Year 10 for water/wastewater operations and maintenance and renewal and replacement utility services (50-year contract, no option periods)",
+        "base_contract_number": "SP0600-07-C-8258",
+        "order_number": null,
+        "modification_number": "P00210",
+        "value_usd": 16648296,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:36Z",
-  "source": "file:2017-11-24.html"
+  "source": "file:2017-11-24.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:17:12Z"
+  }
 }

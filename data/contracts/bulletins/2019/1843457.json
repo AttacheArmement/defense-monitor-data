@@ -11,105 +11,969 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "United Launch Services, Centennial, Colorado, has been awarded a $149,376,775 firm-fixed-price modification (P00002) to previously awarded contract FA8811-19-C-0002 for National Security Space Launch Delta IV heavy launch services. This modification provides for launch vehicle production services for National Reconnaissance Office (NRO) Launch Mission Two, the second of three planned NRO launch missions under this contract. Work will be performed in Centennial, Colorado; Decatur, Alabama; and Cape Canaveral Air Force Station, Florida, and is expected to be complete by December 2022. This modification brings the total cumulative face value of the contract to $449,813,010. Fiscal 2019 missile procurement funds in the amount of $139,028,436 are being obligated at the time of award. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA881119C0002"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 149376775.0,
+        "cumulative_value_usd": 449813010.0,
+        "obligated_usd": 139028436.0,
+        "funding_text": "Fiscal 2019 missile procurement funds in the amount of $139,028,436 are being obligated at the time of award",
+        "completion_date": "2022-12",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "United Launch Services",
+            "location": "Centennial, Colorado",
+            "contract_number": "FA8811-19-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Launch vehicle production services for NRO Launch Mission Two under National Security Space Launch Delta IV heavy launch services",
+        "base_contract_number": "FA8811-19-C-0002",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 149376775,
+        "cumulative_value_usd": 449813010,
+        "obligated_usd": 139028436,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Systems & Technology Research,* Woburn, Massachusetts, has been awarded a $28,680,552 cost-plus-fixed-fee contract for research, development, operations and maintenance. This contract provides for the Dynamic Exploitation Modeling for Operational Systems (DEMOS) program, with an objective to implement automated tools for generating indications and warning and transition prototype systems to operational end users for a variety of missions. Work will be performed in Woburn, Massachusetts, and is expected to be complete by July 26, 2023. Fiscal 2018 and 2019 (Office of the Secretary of Defense) research, development, test and evaluation funds in the amount of $4,955,000; and fiscal 2019 (Defense Intelligence Agency) operations and maintenance funds in the amount of $700,000 are being obligated at the time of award. Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio, is the contracting activity (FA8650-19-C-1030).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865019C1030"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28680552.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5655000.0,
+        "funding_text": "Fiscal 2018 and 2019 (Office of the Secretary of Defense) research, development, test and evaluation funds in the amount of $4,955,000; and fiscal 2019 (Defense Intelligence Agency) operations and maintenance funds in the amount of $700,000 are being obligated at the time of award",
+        "completion_date": "2023-07-26",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, Ohio",
+          "code": "FA8650-19-C-1030"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Systems & Technology Research",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "FA8650-19-C-1030",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Dynamic Exploitation Modeling for Operational Systems (DEMOS) program research, development, operations and maintenance",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28680552,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5655000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "UPDATE: An $18,300,000 contract announced on March 28, 2019, to Merex Aircraft Co. Inc., Camarillo, California (FA8212-19-D-0001), for the acquisition of A-10 flap assemblies has been terminated due to a bid protest.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA821219D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Merex Aircraft Co. Inc.",
+            "location": "Camarillo, California",
+            "contract_number": "FA8212-19-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Update: A-10 flap assemblies contract announced March 28, 2019 terminated due to a bid protest",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18300000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "correction",
       "text": "CORRECTION: The contract announced on May 2, 2019, for Engility Corp., Andover, Massachusetts (FA8650-19-C-6024), for research and development, included an incorrect award amount, as did a subsequent correction. The correct award amount is $58,296,527.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA865019C6024"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 58296527.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Engility Corp.",
+            "location": "Andover, Massachusetts",
+            "contract_number": "FA8650-19-C-6024",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction of award amount for research and development contract announced May 2, 2019",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 58296527,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE INTELLIGENCE AGENCY",
       "kind": "announcement",
       "text": "Engility Corp., Chantilly, Virginia was awarded an indefinite-delivery/indefinite-quantity contract (HHM402-19-D-0003) with a maximum ceiling value of $106,000,000 for exploitation management support services to the Defense Intelligence Agency’s (DIA) National Media Exploitation Center (NMEC), Bethesda, Maryland. This contract has a five-year base ordering period and five one-year options, with a June 1, 2019, start date and a potential completion date of May 31, 2029. Through this award, DIA will procure document and media management, program support, and related intelligence support services for NMEC. Work is to be performed in the National Capital Region. Fiscal 2019 operations and maintenance funds in the amount of $5,474,490 are being obligated for a cost-plus fixed-fee task order at the time of award. This was a competitive unrestricted acquisition and four offers were received. The Virginia Contracting Activity, Washington, District of Columbia, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "HHM40219D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 106000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5474490.0,
+        "funding_text": "Fiscal 2019 operations and maintenance funds in the amount of $5,474,490 are being obligated for a cost-plus fixed-fee task order at the time of award",
+        "completion_date": "2029-05-31",
+        "contracting_activity": {
+          "name": "The Virginia Contracting Activity, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Engility Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "HHM402-19-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract; cost-plus fixed-fee task order",
+        "description": "Exploitation management support services for DIA National Media Exploitation Center (NMEC)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 106000000,
+        "cumulative_value_usd": 106000000,
+        "obligated_usd": 5474490,
+        "fms_countries": [],
+        "competition": "competitive unrestricted acquisition, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Airborne Tactical Advantage Co. LLC, Newport News, Virginia, is awarded $55,611,547 for modification P00018 to a previously awarded firm-fixed-price, cost reimbursable contract (N00019-15-D-0026). This modification exercises the fourth option year in support of the Contracted Air Services program. This modification provides contractor-owned and operated Type III high subsonic and Type IV supersonic aircraft to Navy fleet customers for a wide variety of airborne threat simulation capabilities. Work will be performed in Newport News, Virginia (44 percent); Point Mugu, California (37 percent); and various locations outside the continental U.S. (19 percent), and is expected to be completed in May 2020. No funds are being obligated at time of award, funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D0026"
+        ],
+        "modification_numbers": [
+          "P00018"
+        ],
+        "is_modification": true,
+        "value_usd": 55611547.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award, funds will be obligated on individual orders as they are issued",
+        "completion_date": "2020-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Airborne Tactical Advantage Co. LLC",
+            "location": "Newport News, Virginia",
+            "contract_number": "N00019-15-D-0026",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, cost reimbursable contract",
+        "description": "Fourth option year exercise for Contracted Air Services program (Type III and Type IV aircraft for airborne threat simulation)",
+        "base_contract_number": "N00019-15-D-0026",
+        "order_number": null,
+        "modification_number": "P00018",
+        "value_usd": 55611547,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "B3 Enterprises LLC,* Woodbridge, Virginia (N44255-17-D-4011); Iron Mike - Bristol JV, LLC,* Centennial, Colorado (N44255-17-D-4012); Macnak Construction LLC,* Lakewood, Washington (N44255-17-D-4013); Tompco Inc.,* Seabeck, Washington (N44255-17-D-4014); and Veterans Northwest Construction LLC,* Seattle, Washington (N44255-17-D-4015), are awarded a firm-fixed-price modification under previously awarded indefinite-delivery/indefinite-quantity contract to increase the maximum not-to-exceed amount by $50,000,000 for design-build or design-bid-build construction projects located primarily within the Naval Facilities Engineering Command (NAVFAC) Northwest (NW) area of operations (AO). The work to be performed provides for new construction, renovation, alteration, demolition and repair work by design-build or design-bid-build of facilities. Types of projects include, but are not limited to administrative and industrial facilities, housing renovation, child care centers, lodges, recreation/fitness centers, retail complexes, warehouses, housing offices, community centers, commercial and institutional buildings, manufacturing and industrial buildings and other similar facilities. With the award of this modification, the value of this contract is now $149,000,000. All work on this contract will be performed primarily within the NAVFAC NW AO which includes Washington (92 percent); Alaska (2 percent); Oregon (2 percent); Idaho (1 percent); Montana (1 percent); Wyoming (1 percent); and work for this contract may also be performed in the remainder of the U.S. (1 percent). The term of the contract is not to exceed 60 months, with an expected completion date of April 2022. No funds will be obligated at the time of award and no funds will expire at the end of the current fiscal year. Funds will be obligated as task orders are issued. Task orders have been and will be primarily funded by military construction (Navy); operations and maintenance (Navy); and Navy working capital funds. This contract was competitively procured via the Federal Business Opportunities website with 16 proposals received. These five contractors may compete for task orders under the terms and conditions of the awarded contract. NAVFAC NW, Silverdale, Washington, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N4425517D4011",
+          "N4425517D4012",
+          "N4425517D4013",
+          "N4425517D4014",
+          "N4425517D4015"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 50000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award and no funds will expire at the end of the current fiscal year Funds will be obligated as task orders are issued",
+        "completion_date": "2022-04",
+        "contracting_activity": {
+          "name": "NAVFAC NW, Silverdale, Washington",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "B3 Enterprises LLC",
+            "location": "Woodbridge, Virginia",
+            "contract_number": "N44255-17-D-4011",
+            "markers": "*"
+          },
+          {
+            "name": "Iron Mike - Bristol JV, LLC",
+            "location": "Centennial, Colorado",
+            "contract_number": "N44255-17-D-4012",
+            "markers": "*"
+          },
+          {
+            "name": "Macnak Construction LLC",
+            "location": "Lakewood, Washington",
+            "contract_number": "N44255-17-D-4013",
+            "markers": "*"
+          },
+          {
+            "name": "Tompco Inc.",
+            "location": "Seabeck, Washington",
+            "contract_number": "N44255-17-D-4014",
+            "markers": "*"
+          },
+          {
+            "name": "Veterans Northwest Construction LLC",
+            "location": "Seattle, Washington",
+            "contract_number": "N44255-17-D-4015",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price modification under indefinite-delivery/indefinite-quantity contract",
+        "description": "Increase in maximum not-to-exceed amount by $50,000,000 for design-build/design-bid-build construction in NAVFAC Northwest area of operations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 50000000,
+        "cumulative_value_usd": 149000000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitively procured via FBO website, 16 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "DAV-Force Inc.,* Norman, Oklahoma (N0003919D0026); GLOTECH Inc.,* Rockville, Maryland (N0003919D0027); INDUS Technology Inc.,* San Diego, California (N0003919D0028); and North American Consulting Services Inc.,* Point Pleasant, West Virginia (N0003919D0029), are each awarded a $40,433,013 indefinite-delivery/indefinite-quantity, hybrid, firm-fixed-price, cost-reimbursable-type, multiple award contract for communications security accounting and special inventory manager support services in support of U.S. security assistance and security cooperation programs. Work will be performed in various overseas locations based on the requirement for each task order placed. The ordering period is five years with an expected completion date of May 2024. Foreign military sales funds in the amount of a minimum of $5,000 per awardee will be obligated at the time of award via a task order to each awardee. Funds in the amount of $10,000 will expire at the end of the current fiscal year. This contract was competitively procured with small business proposals solicited via the Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website, with seven offers received. The Space and Naval Warfare Systems Command, San Diego, California, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0003919D0026",
+          "N0003919D0027",
+          "N0003919D0028",
+          "N0003919D0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40433013.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Foreign military sales funds in the amount of a minimum of $5,000 per awardee will be obligated at the time of award via a task order to each awardee",
+        "completion_date": "2024-05",
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Command, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "DAV-Force Inc.",
+            "location": "Norman, Oklahoma",
+            "contract_number": "N0003919D0026",
+            "markers": "*"
+          },
+          {
+            "name": "GLOTECH Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "N0003919D0027",
+            "markers": "*"
+          },
+          {
+            "name": "INDUS Technology Inc.",
+            "location": "San Diego, California",
+            "contract_number": "N0003919D0028",
+            "markers": "*"
+          },
+          {
+            "name": "North American Consulting Services Inc.",
+            "location": "Point Pleasant, West Virginia",
+            "contract_number": "N0003919D0029",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, hybrid, firm-fixed-price, cost-reimbursable-type multiple award contract",
+        "description": "Communications security accounting and special inventory manager support services for security assistance and cooperation programs",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40433013,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "competitive, small business proposals solicited via FBO and SPAWAR e-Commerce Central, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Great Eastern Group Inc.,* Fort Lauderdale, Florida, is awarded a $12,220,564 firm-fixed-price contract with reimbursable elements, for logistic support of SBX-1 by the Offshore Support Vessel MV Hercules. This contract includes a one-year base period with three one-year option periods and an 11-month option period, which, if exercised, would bring the cumulative value of this contract to $48,189,426. Work will be performed in Dutch Harbor, Alaska, and is expected to be completed by July 2020. If all options are exercised, work will continue through June 25, 2024. Research development, test and evaluation funds in the amount of $3,734,457 are obligated at the time of award and will not expire at the end of the current fiscal year. This contract was solicited as a small business set-aside with more than 50 companies solicited via the Federal Business Opportunities website and six offers received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220519C3500).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N3220519C3500"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12220564.0,
+        "cumulative_value_usd": 48189426.0,
+        "obligated_usd": 3734457.0,
+        "funding_text": "Research development, test and evaluation funds in the amount of $3,734,457 are obligated at the time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2020-07",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N3220519C3500"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Great Eastern Group Inc.",
+            "location": "Fort Lauderdale, Florida",
+            "contract_number": "N3220519C3500",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with reimbursable elements",
+        "description": "Logistic support of SBX-1 by the Offshore Support Vessel MV Hercules",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12220564,
+        "cumulative_value_usd": 48189426,
+        "obligated_usd": 3734457,
+        "fms_countries": [],
+        "competition": "small business set-aside, more than 50 companies solicited, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, is awarded an $8,622,670 firm-fixed-price modification to previously-awarded contract N00019-17-C-0081. This modification is for the procurement of 10 MT7 marine turbine installation parts kit shipsets for the Landing Craft, Air Cushion (LCAC) 100 Class craft. This procurement is in support of the Ship-to-Shore Connector Program. An MT7 installation parts kit is one “shipset” (craft) consisting of four engine intakes, two right-hand engine exhausts and two left-hand engine exhausts. Work to be performed includes production of the installation parts kit shipsets and delivery to Textron Marine and Land Systems for the assembly of the LCAC 100 Class craft. Work will be performed in Indianapolis, Indiana, and is expected to be completed by January 2021. Fiscal 2017 shipbuilding and conversion (Navy) funding in the amount of $1,724,534; and fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $6,898,136 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity, working in conjunction with the Naval Air Systems Command.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001917C0081"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 8622670.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8622670.0,
+        "funding_text": "Fiscal 2017 shipbuilding and conversion (Navy) funding in the amount of $1,724,534; and fiscal 2018 shipbuilding and conversion (Navy) funding in the amount of $6,898,136 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2021-01",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N00019-17-C-0081",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Procurement of 10 MT7 marine turbine installation parts kit shipsets for LCAC 100 Class craft, Ship-to-Shore Connector Program",
+        "base_contract_number": "N00019-17-C-0081",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8622670,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8622670,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Woodland Hills, California, was awarded $7,203,829 for modification P00001 to a previously awarded firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N0001919D0025). This modification provides for the procurement of up to 42 additional technical refresh mission computers for AH-1Z aircraft, including trainer units and spare units for the government of Bahrain under the Foreign Military Sales program. Work will be performed in Salt Lake City, Utah (55 percent); Baltimore, Maryland (25 percent); and Woodland Hills, California (20 percent), and is expected to be completed in December 2023. No funds will be obligated at the time of award; funds will be obligated on individual delivery orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity. (Awarded April 29, 2019)",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001919D0025"
+        ],
+        "modification_numbers": [
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 7203829.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award; funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2023-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Woodland Hills, California",
+            "contract_number": "N0001919D0025",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Up to 42 additional technical refresh mission computers for AH-1Z aircraft, including Bahrain FMS trainer and spare units",
+        "base_contract_number": "N0001919D0025",
+        "order_number": null,
+        "modification_number": "P00001",
+        "value_usd": 7203829,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Bahrain"
+        ],
+        "competition": null,
+        "award_date": "2019-04-29"
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Ripple Effect Communications Inc.,* Rockville, Maryland, was awarded a $38,513,810 modification (P00005) to contract W81XWH-17-D-0003 for program administration and technical support services. Bids were solicited via the internet with 18 received. Work locations and funding will be determined with each order, with an estimated completion date of May 22, 2022. U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "W81XWH17D0003"
+        ],
+        "modification_numbers": [
+          "P00005"
+        ],
+        "is_modification": true,
+        "value_usd": 38513810.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-05-22",
+        "contracting_activity": {
+          "name": "U.S. Army Medical Research Acquisition Activity, Fort Detrick, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Ripple Effect Communications Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W81XWH-17-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Program administration and technical support services",
+        "base_contract_number": "W81XWH-17-D-0003",
+        "order_number": null,
+        "modification_number": "P00005",
+        "value_usd": 38513810,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via internet, 18 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "IronMountain Solutions Inc.,* Huntsville, Alabama, was awarded a $22,705,832 time-and-materials Foreign Military Sales (Afghanistan, Bahrain, United Arab Emirates, Tunisia, Thailand, Taiwan, Sweden, Egypt, Jordan, Latvia, Mexico, Saudi Arabia and Slovakia) contract for technical support services. Bids were solicited via the internet with three received. Work will be performed in Huntsville, Alabama, with an estimated completion date of May 8, 2020. Fiscal 2019 research, development, test, and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $22,705,832 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-17- R-0001).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22705832.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22705832.0,
+        "funding_text": "Fiscal 2019 research, development, test, and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $22,705,832 were obligated at the time of the award",
+        "completion_date": "2020-05-08",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Afghanistan",
+          "Bahrain",
+          "United Arab Emirates",
+          "Tunisia",
+          "Thailand",
+          "Taiwan",
+          "Sweden",
+          "Egypt",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Saudi Arabia",
+          "Slovakia"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "IronMountain Solutions Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-17- R-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "time-and-materials",
+        "description": "Technical support services (Foreign Military Sales)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22705832,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22705832,
+        "fms_countries": [
+          "Afghanistan",
+          "Bahrain",
+          "United Arab Emirates",
+          "Tunisia",
+          "Thailand",
+          "Taiwan",
+          "Sweden",
+          "Egypt",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Saudi Arabia",
+          "Slovakia"
+        ],
+        "competition": "Bids solicited via the internet with three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tocci Building Corp, Woburn, Massachusetts, was awarded a $20,612,338 firm-fixed-price contract for replacement family housing design and build. Bids were solicited via the internet with six received. Work will be performed in Natick, Massachusetts, with an estimated completion date of May 10, 2021. Fiscal 2015 and 2018 Army family housing construction funds in the amount of $20,612,338 were obligated at the time of the award. U.S. Army Corps of Engineers, Concord, Massachusetts, is the contracting activity (W912WJ-18-R-0006).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912WJ18R0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20612338.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20612338.0,
+        "funding_text": "Fiscal 2015 and 2018 Army family housing construction funds in the amount of $20,612,338 were obligated at the time of the award",
+        "completion_date": "2021-05-10",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Concord, Massachusetts",
+          "code": "W912WJ-18-R-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Tocci Building Corp",
+            "location": "Woburn, Massachusetts",
+            "contract_number": "W912WJ-18-R-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Replacement family housing design and build, Natick, Massachusetts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20612338,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20612338,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with six received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tsay/Ferguson-Williams LLC,* San Juan Pueblo, New Mexico, was awarded a $17,982,082 cost-plus-award-fee contract for operations and maintenance services. Bids were solicited via the internet with 13 received. Work will be performed in Fort Stewart, Georgia, with an estimated completion date of Jan. 31, 2020. Fiscal 2019 operations and maintenance, Army funds in the amount of $4,579,182 were obligated at the time of the award. U.S. Army Mission and Installation Contracting Command, Fort Stewart, Georgia, is the contracting activity (W912WJ-19-C-0011).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "W912WJ19C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 17982082.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4579182.0,
+        "funding_text": "Fiscal 2019 operations and maintenance, Army funds in the amount of $4,579,182 were obligated at the time of the award",
+        "completion_date": "2020-01-31",
+        "contracting_activity": {
+          "name": "U.S. Army Mission and Installation Contracting Command, Fort Stewart, Georgia",
+          "code": "W912WJ-19-C-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "Tsay/Ferguson-Williams LLC",
+            "location": "San Juan Pueblo, New Mexico",
+            "contract_number": "W912WJ-19-C-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-award-fee",
+        "description": "Operations and maintenance services, Fort Stewart, Georgia",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 17982082,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4579182,
+        "fms_countries": [],
+        "competition": "Bids solicited via the internet with 13 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Quantitech Inc.,* Huntsville, Alabama, was awarded a $16,026,683 time-and-materials Foreign Military Sales (Afghanistan, Bahrain, United Arab Emirates, Tunisia, Thailand, Taiwan, Sweden, Egypt, Jordan, Latvia, Mexico, and Slovakia) contract for support services. Bids were solicited via the internet with two received. Work will be performed in Huntsville, Alabama, with an estimated completion date of May 8, 2020. Fiscal 2019 research, development, test, and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $16,026,683 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-16-R-0010).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q16R0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16026683.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16026683.0,
+        "funding_text": "Fiscal 2019 research, development, test, and evaluation; operations and maintenance, Army; and other procurement, Army funds in the amount of $16,026,683 were obligated at the time of the award",
+        "completion_date": "2020-05-08",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-16-R-0010"
+        },
+        "fms": true,
+        "fms_countries": [
+          "Afghanistan",
+          "Bahrain",
+          "United Arab Emirates",
+          "Tunisia",
+          "Thailand",
+          "Taiwan",
+          "Sweden",
+          "Egypt",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Slovakia"
+        ],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 16,
+        "awardees": [
+          {
+            "name": "Quantitech Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-16-R-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "time-and-materials",
+        "description": "Support services (Foreign Military Sales)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16026683,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16026683,
+        "fms_countries": [
+          "Afghanistan",
+          "Bahrain",
+          "United Arab Emirates",
+          "Tunisia",
+          "Thailand",
+          "Taiwan",
+          "Sweden",
+          "Egypt",
+          "Jordan",
+          "Latvia",
+          "Mexico",
+          "Slovakia"
+        ],
+        "competition": "Bids solicited via the internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "Cherokee Nation Environmental Solutions LLC, Tulsa, Oklahoma, has been awarded a $15,100,000 firm-fixed-price contract. The contract expands existing mission critical chilled water distribution to provide mission critical cooling to mission critical rooms and equipment. The contract acquires design-build construction of a redundant chilled water loop in the Pentagon A-ring tunnels, risers for lateral distribution of chilled water, and a new secondary distribution pump. Work performance will take place at the Pentagon, Arlington, Virginia. Fiscal 2015 military construction funds in the amount of $15,100,000 are being awarded. This contract was a sole-source acquisition. The expected completion date is June 10, 2021. Washington Headquarters Services, Arlington, Virginia, is the contracting activity (HQ0034-19-C-0043).",
-      "seq": 17
+      "seq": 17,
+      "fields": {
+        "contract_numbers": [
+          "HQ003419C0043"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15100000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": "HQ0034-19-C-0043"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 17,
+        "awardees": [
+          {
+            "name": "Cherokee Nation Environmental Solutions LLC",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "HQ0034-19-C-0043",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design-build redundant chilled water loop and cooling distribution in Pentagon A-ring tunnels",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15100000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15100000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-05-09.html"
+  "source": "file:2019-05-09.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:05:58Z"
+  }
 }

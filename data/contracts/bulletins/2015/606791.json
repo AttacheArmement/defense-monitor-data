@@ -11,57 +11,577 @@
       "agency": null,
       "kind": "announcement",
       "text": "Equilon Enterprises doing business as Oil US Products, Houston, Texas (SP0600-15-D-0461), $1,011,111,314; ExxonMobile Fuels Marketing Co., Fairfax, Virginia (SP0600-15-D-0469), $1,008,439,412; Phillips 66 Co., Bartlesville, Oklahoma (SP0600-15-D-0466), $348,559,858; Placid Refining Co. LLC,* Fort Allen, Louisiana (Sp0600-15-D-0474), $229,616,231; Equilon Enterprises doing business as Oil Products US - Mobile, Houston, Texas (SP0600-15-D-0467), $215,108,033; BP Products North America Inc., Chicago, Illinois (SP0600-15-D-0476), $214,916,617; Alon USA LP, Dallas, Texas (SP0600-15-D-0462), $143,246,501; Wynnewood Energy Co., Sugar Land, Texas (SP0600-15-D-0472), $138,500,915; Calumet Shreveport Fuels LLC, Indianapolis, Indiana (SP0600-15-D-0465), $115,056,799; BP Products North America Inc., Naperville, Illinois (SP0600-15-D-0471), $112,902,341; Hunt Refining Co., Tuscaloosa, Alabama (SP0600-15-D-0473), $100,140,844; Husky Marketing & Supply Co., Dublin, Ohio (SP0600-15-D-0460), $78,286,581; Tesoro Refining & Marketing Co., San Antonio, Texas (SP0600-15-D-0470), $75,749,409; Delek Refining Ltd., Tyler, Texas (SP0600-15-D-0468), $51,998,659; Irving Oil Terminals Inc., Portsmouth, New Hampshire (SP0600-15-D-0477), $38,653,320; Hermes Consolidated LLC, Rapid City, South Dakota (SP0600-15-D-0465), $38,452,289; Diplomat Petroleum LLC,* Sugar Land, Texas (SP0600-15-D-0464), $14,546,668; World Fuel Services Inc., Miami, Florida (SP0600-15-D-0478), $9,028,665, have each been awarded a fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract under solicitation SP0600-14-R-0061 for aviation turbine fuel. These contracts were competitive acquisitions with 32 offers received. They are one-year contracts with a thirty-day carryover. Locations of performance are Texas, Virginia, Oklahoma, Colorado, Kansas, Louisiana, Indiana, Ohio, New York, South Carolina, Illinois, Alabama, North Dakota, Minnesota, New Hampshire, Maine, South Dakota, Wyoming and Florida with an April 30, 2016 performance completion date. Using service is Defense Logistics Agency Energy. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0461",
+          "SP060015D0469",
+          "SP060015D0466",
+          "SP060015D0467",
+          "SP060015D0476",
+          "SP060015D0462",
+          "SP060015D0472",
+          "SP060015D0465",
+          "SP060015D0471",
+          "SP060015D0473",
+          "SP060015D0460",
+          "SP060015D0470",
+          "SP060015D0468",
+          "SP060015D0477",
+          "SP060015D0464",
+          "SP060015D0478",
+          "SP060014R0061"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 1011111314.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Equilon Enterprises doing business as Oil US Products",
+            "location": "Houston, Texas",
+            "contract_number": "SP0600-15-D-0461",
+            "markers": null
+          },
+          {
+            "name": "ExxonMobile Fuels Marketing Co.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "SP0600-15-D-0469",
+            "markers": null
+          },
+          {
+            "name": "Phillips 66 Co.",
+            "location": "Bartlesville, Oklahoma",
+            "contract_number": "SP0600-15-D-0466",
+            "markers": null
+          },
+          {
+            "name": "Placid Refining Co. LLC",
+            "location": "Fort Allen, Louisiana",
+            "contract_number": "Sp0600-15-D-0474",
+            "markers": "*"
+          },
+          {
+            "name": "Equilon Enterprises doing business as Oil Products US - Mobile",
+            "location": "Houston, Texas",
+            "contract_number": "SP0600-15-D-0467",
+            "markers": null
+          },
+          {
+            "name": "BP Products North America Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "SP0600-15-D-0476",
+            "markers": null
+          },
+          {
+            "name": "Alon USA LP",
+            "location": "Dallas, Texas",
+            "contract_number": "SP0600-15-D-0462",
+            "markers": null
+          },
+          {
+            "name": "Wynnewood Energy Co.",
+            "location": "Sugar Land, Texas",
+            "contract_number": "SP0600-15-D-0472",
+            "markers": null
+          },
+          {
+            "name": "Calumet Shreveport Fuels LLC",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "SP0600-15-D-0465",
+            "markers": null
+          },
+          {
+            "name": "BP Products North America Inc.",
+            "location": "Naperville, Illinois",
+            "contract_number": "SP0600-15-D-0471",
+            "markers": null
+          },
+          {
+            "name": "Hunt Refining Co.",
+            "location": "Tuscaloosa, Alabama",
+            "contract_number": "SP0600-15-D-0473",
+            "markers": null
+          },
+          {
+            "name": "Husky Marketing & Supply Co.",
+            "location": "Dublin, Ohio",
+            "contract_number": "SP0600-15-D-0460",
+            "markers": null
+          },
+          {
+            "name": "Tesoro Refining & Marketing Co.",
+            "location": "San Antonio, Texas",
+            "contract_number": "SP0600-15-D-0470",
+            "markers": null
+          },
+          {
+            "name": "Delek Refining Ltd.",
+            "location": "Tyler, Texas",
+            "contract_number": "SP0600-15-D-0468",
+            "markers": null
+          },
+          {
+            "name": "Irving Oil Terminals Inc.",
+            "location": "Portsmouth, New Hampshire",
+            "contract_number": "SP0600-15-D-0477",
+            "markers": null
+          },
+          {
+            "name": "Hermes Consolidated LLC",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "SP0600-15-D-0465",
+            "markers": null
+          },
+          {
+            "name": "Diplomat Petroleum LLC",
+            "location": "Sugar Land, Texas",
+            "contract_number": "SP0600-15-D-0464",
+            "markers": "*"
+          },
+          {
+            "name": "World Fuel Services Inc.",
+            "location": "Miami, Florida",
+            "contract_number": "SP0600-15-D-0478",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Aviation turbine fuel supply contracts under solicitation SP0600-14-R-0061 (one-year, with thirty-day carryover)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 1011111314,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 32 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Sysco Seattle, Kent, Washington, has been awarded a maximum $15,419,558 fixed-price with economic-price-adjustment, indefinite-quantity contract for the prime vendor food distribution support to customers in the Alaska area. This contract was a sole source contract. This is an eight-month extension of previous contracts SPM300-08-D-3160, SPM300-13-D-3641 and SPM300-14-D-3738. Location of performance is Alaska with an Oct. 24, 2015 performance completion date. Using services are Army, Navy and Air Force. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE300-15-D-3147).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPM30008D3160",
+          "SPM30013D3641",
+          "SPM30014D3738",
+          "SPE30015D3147"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 15419558.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE300-15-D-3147"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Sysco Seattle",
+            "location": "Kent, Washington",
+            "contract_number": "SPE300-15-D-3147",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-quantity",
+        "description": "Prime vendor food distribution support to customers in the Alaska area (eight-month extension of SPM300-08-D-3160, SPM300-13-D-3641 and SPM300-14-D-3738)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15419558,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Avfuel Corp.,* Ann Arbor, Michigan, has been awarded a maximum $8,746,310 fixed-price with economic-price-adjustment, into-plane-requirement contract for jet fuel. This contract was a sole-source contract. This is a four-year base contract with no option periods. Location of performance is Michigan and New Mexico, with a March 31, 2019 performance completion date. Using services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal year 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-15-D-0071).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SP060015D0071"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8746310.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-15-D-0071"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Avfuel Corp.",
+            "location": "Ann Arbor, Michigan",
+            "contract_number": "SP0600-15-D-0071",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, into-plane-requirement",
+        "description": "Jet fuel into-plane-requirement contract (four-year base, no option periods)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8746310,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Boeing Aerospace Operations, Oklahoma City, Oklahoma, has been awarded a $67,338,521 modification (P00211) to previously awarded contract FA8106-07-C-0001 for design and development of an E-4B low frequency transmit system. The total cumulative face value of the contract, including the referenced modification, is $433,292,284. Contractor will provide engineering services to finalize development and deliver a prototype aircraft kit. Work will be performed at Oklahoma City, Oklahoma, and is expected to be complete by Sept. 30, 2016. Fiscal year 2014 research, development, test and evaluation funds in the amount of $819,098 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA810607C0001"
+        ],
+        "modification_numbers": [
+          "P00211"
+        ],
+        "is_modification": true,
+        "value_usd": 67338521.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 819098.0,
+        "funding_text": "Fiscal year 2014 research, development, test and evaluation funds in the amount of $819,098 are being obligated at the time of award",
+        "completion_date": "2016-09-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Boeing Aerospace Operations",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8106-07-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Design and development of E-4B low frequency transmit system",
+        "base_contract_number": "FA8106-07-C-0001",
+        "order_number": null,
+        "modification_number": "P00211",
+        "value_usd": 67338521,
+        "cumulative_value_usd": 433292284,
+        "obligated_usd": 819098,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Rolls-Royce Corp., Indianapolis, Indiana, has been awarded a $40,000,000 indefinite-delivery/ indefinite-quantity contract on Jan. 30, 2015 for the T56 component improvement program. The engine component improvement program establishes a prioritized list of projects each calendar year to include developing engineering changes to the engines, developing organizational, intermediate and depot level repairs as needed and designing modifications. Work will be performed at Indianapolis, Indiana, and is expected to be complete by Jan. 31, 2022. This contract involves foreign military sales. This award is the result of a sole-source acquisition. Fiscal year 2015 research, development, test and evaluation funds in the amount of $1,344,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Propulsion Section, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8124-15-D-0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA812415D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 40000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1344000.0,
+        "funding_text": "Fiscal year 2015 research, development, test and evaluation funds in the amount of $1,344,000 are being obligated at the time of award",
+        "completion_date": "2022-01-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Propulsion Section, Tinker Air Force Base, Oklahoma",
+          "code": "FA8124-15-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Rolls-Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "FA8124-15-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "T56 component improvement program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 40000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1344000,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": "2015-01-30"
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Marietta, Georgia, has been awarded a $28,419,498 undefinitized contract action (P00375) to previously awarded contract FA8625-11-C-6597 for procurement of MC-130J Increment 3 Low Rate Initial Production Kits. Contractor will produce and deliver 11 Increment 3 Retrofit Kits, trial kit installation of one Kit onto a MC-130J aircraft, time compliance technical orders supplements and technical publications, courseware training, spares provisioning data, onsite interim contractor support and reach-back interim contractor support. Work will be performed at Marietta, Georgia, and is expected to be complete by July 23, 2018.. Fiscal year 2014, 2015 and 2016 aircraft procurement funds in the amount of $12,504,579 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6597"
+        ],
+        "modification_numbers": [
+          "P00375"
+        ],
+        "is_modification": false,
+        "value_usd": 28419498.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12504579.0,
+        "funding_text": "Work will be performed at Marietta, Georgia, and is expected to be complete by July 23, 2018.. Fiscal year 2014, 2015 and 2016 aircraft procurement funds in the amount of $12,504,579 are being obligated at the time of award",
+        "completion_date": "2018-07-23",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": "Marietta, Georgia",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized contract action",
+        "description": "Procurement of MC-130J Increment 3 Low Rate Initial Production Kits",
+        "base_contract_number": "FA8625-11-C-6597",
+        "order_number": null,
+        "modification_number": "P00375",
+        "value_usd": 28419498,
+        "cumulative_value_usd": null,
+        "obligated_usd": 12504579,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "The Aerospace Corp., El Segundo, California, has been awarded a $12,600,000 cost-plus-fixed-fee modification (P00019) to previously awarded contract FA8802-l4-C-0001 for additional funding under the fee for need in accordance with special contract requirement H0l7. Contractor will provide Systems Integration and Test effort in accordance with the contract statement of work. Work will be performed at El Segundo, California, and is expected to be complete by Sept. 30, 2015. No additional funds are being obligated at the time of award. The Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [
+          "P00019"
+        ],
+        "is_modification": true,
+        "value_usd": 12600000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No additional funds are being obligated at the time of award",
+        "completion_date": "2015-09-30",
+        "contracting_activity": {
+          "name": "The Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Aerospace Corp.",
+            "location": "El Segundo, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Additional funding under fee for need for Systems Integration and Test effort",
+        "base_contract_number": "FA8802-l4-C-0001",
+        "order_number": null,
+        "modification_number": "P00019",
+        "value_usd": 12600000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Bell Helicopter Textron Inc., Fort Worth, Texas, is being awarded a $50,095,510 three year firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the repair of four weapons replaceable assemblies in support of the H-1 Legacy helicopter, including the right hand and left hand stub wings, gearboxes and main rotor blades. Work will be performed in Hurst, Texas, and work will be completed by February 2019. Fiscal 2015 Navy working capital funds in the amount of $4,330,615 will be obligated at the time of award and will not expire before the end of the current fiscal year. One company was solicited for this sole source contract in accordance with 10 U.S.C. 2304 (c)(1). Naval Supply Systems Command, Weapons Systems Support, Philadelphia, Pennsylvania, is contracting activity (N00383-15-D-004N).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0038315D004N"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 50095510.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4330615.0,
+        "funding_text": "Fiscal 2015 Navy working capital funds in the amount of $4,330,615 will be obligated at the time of award and will not expire before the end of the current fiscal year",
+        "completion_date": "2019-02",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Bell Helicopter Textron Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00383-15-D-004N",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "Repair of four weapons replaceable assemblies for H-1 Legacy helicopter",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 50095510,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4330615,
+        "fms_countries": [],
+        "competition": "sole source, one company solicited under 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Kallidus Technologies Inc.,* Lowell, Massachusetts, was awarded a $7,487,000 firm-fixed-price contract with options for hanger construction at Westover Air Force Reserve Base, Massachusetts, with an estimated completion date of March 20, 2016. Bids were solicited via the Internet with eight received. Fiscal 2015 operations and maintenance (Army) funds in the amount of $7,487,000 are being obligated at the time of the award. Army Corps of Engineers, Louisville, Kentucky, is the contracting activity (W912QR-15-C-0006).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912QR15C0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7487000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7487000.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Army) funds in the amount of $7,487,000 are being obligated at the time of the award",
+        "completion_date": "2016-03-20",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Louisville, Kentucky",
+          "code": "W912QR-15-C-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Kallidus Technologies Inc.",
+            "location": "Lowell, Massachusetts",
+            "contract_number": "W912QR-15-C-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with options",
+        "description": "Hangar construction at Westover Air Force Reserve Base, Massachusetts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7487000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7487000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, eight bids received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-02-20.html"
+  "source": "file:2015-02-20.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:16:36Z"
+  }
 }

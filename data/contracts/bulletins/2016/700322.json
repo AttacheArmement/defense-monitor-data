@@ -11,51 +11,443 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Oshkosh Defense was awarded a $243,767,232 modification (P00004) to contract W56HZV-15-C-0095 for 657 Joint Light Tactical Vehicles; 25 trailers; 2,977 kits; 12 months of system engineering and program management; test support; 175-test hardware; and one technical data package. Work will be performed in Oshkosh, Wisconsin, with an estimated completion date of Dec. 1, 2024. Fiscal 2016 research, development, testing, and evaluation; other procurement (Army); and other procurement funds in the amount of $243,767,232 were obligated at the time of the award. Army Contracting Command, Warren, Michigan, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15C0095"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 243767232.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 243767232.0,
+        "funding_text": "Fiscal 2016 research, development, testing, and evaluation; other procurement (Army); and other procurement funds in the amount of $243,767,232 were obligated at the time of the award",
+        "completion_date": "2024-12-01",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Oshkosh Defense",
+            "location": "Oshkosh, Wisconsin",
+            "contract_number": "W56HZV-15-C-0095",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Joint Light Tactical Vehicles production: 657 vehicles, 25 trailers, 2,977 kits, 12 months of system engineering and program management, test support, 175-test hardware, and one technical data package",
+        "base_contract_number": "W56HZV-15-C-0095",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 243767232,
+        "cumulative_value_usd": null,
+        "obligated_usd": 243767232,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Great Lakes Dredge & Dock Co. LLC, Oak Brook, Illinois, was awarded a $14,115,011 modification (P00007) to contract W912BU-15-C-0003 to refill beach areas, repair dune crossovers and dune grass damaged by Winter Storm Jonas, from Great Egg to Townsends Inlet, Ocean City, and Sea Isle City, New Jersey, with an estimated completion date of May 30, 2016. Fiscal 2014 operations and maintenance (Army) funds in the amount of $14,115,011 were obligated at the time of the award. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912BU15C0003"
+        ],
+        "modification_numbers": [
+          "P00007"
+        ],
+        "is_modification": true,
+        "value_usd": 14115011.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14115011.0,
+        "funding_text": "Fiscal 2014 operations and maintenance (Army) funds in the amount of $14,115,011 were obligated at the time of the award",
+        "completion_date": "2016-05-30",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Great Lakes Dredge & Dock Co. LLC",
+            "location": "Oak Brook, Illinois",
+            "contract_number": "W912BU-15-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Beach refill and repair of dune crossovers and dune grass damaged by Winter Storm Jonas, Great Egg to Townsends Inlet, New Jersey",
+        "base_contract_number": "W912BU-15-C-0003",
+        "order_number": null,
+        "modification_number": "P00007",
+        "value_usd": 14115011,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14115011,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Towill Inc.,* Concord, California, was awarded a $12,500,000 firm-fixed-price, multi-year contract for architectural and engineering services for photogrammetric and LiDAR surveying and mapping. Bids were solicited via the Internet with 25 received, with an estimated completion date of March 21, 2021. Funding and work location will be determined with each order. Army Corps of Engineers, St. Louis, Missouri, is the contracting activity (W912P9-16-D-0004).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912P916D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12500000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2021-03-21",
+        "contracting_activity": {
+          "name": "Louis, Missouri",
+          "code": "W912P9-16-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Towill Inc.",
+            "location": "Concord, California",
+            "contract_number": "W912P9-16-D-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, multi-year contract",
+        "description": "Architectural and engineering services for photogrammetric and LiDAR surveying and mapping",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12500000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 25 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Creek Technologies Co., Beavercreek, Ohio (N00244-16-D-0009); General Dynamics Information Technology, Fairfax, Virginia (N00244-16-D-0005); Digital Consulting Services, Newbury Park, California (N00244-16-D-0006); DeVine Consulting Inc., Fremont, California (N00244-16-D-0008); and MAC Consulting Services Inc., Fairfax, Virginia (N00244-16-D-0007), are being awarded an estimated $87,996,380 multiple award, indefinite-delivery/indefinite-quantity, cost-plus-fixed-fee, task order contracts to provide a variety of teaching, research and subject matter experts to support various educational programs for the Naval Postgraduate School. Each contract includes a one-year base period and four year option periods. If all options are exercised, the contract value will reach a ceiling value of $502,670,476. Work will be performed in Monterey, California (95 percent); San Diego, California (2 percent); Washington, District of Columbia (2 percent); and Norfolk, Virginia (1 percent). Work is expected to be completed by March 2017; if all options are exercised, work will be completed by March 2021. Fiscal 2016 operation and maintenance (Navy) funds in the amount of $1,000 will be obligated on each of the five contracts to fund the contract's minimum amount and will expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Navy Electronic Commerce Online website, with seven offers received. Naval Supply Systems Command Fleet Logistics Center San Diego, California, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0024416D0009",
+          "N0024416D0005",
+          "N0024416D0006",
+          "N0024416D0008",
+          "N0024416D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 87996380.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1000.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Navy) funds in the amount of $1,000 will be obligated on each of the five contracts to fund the contract's minimum amount and will expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Creek Technologies Co.",
+            "location": "Beavercreek, Ohio",
+            "contract_number": "N00244-16-D-0009",
+            "markers": null
+          },
+          {
+            "name": "General Dynamics Information Technology",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00244-16-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Digital Consulting Services",
+            "location": "Newbury Park, California",
+            "contract_number": "N00244-16-D-0006",
+            "markers": null
+          },
+          {
+            "name": "DeVine Consulting Inc.",
+            "location": "Fremont, California",
+            "contract_number": "N00244-16-D-0008",
+            "markers": null
+          },
+          {
+            "name": "MAC Consulting Services Inc.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00244-16-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee multiple award indefinite-delivery/indefinite-quantity task order contracts",
+        "description": "Teaching, research and subject matter expert support for educational programs at the Naval Postgraduate School",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 87996380,
+        "cumulative_value_usd": 502670476,
+        "obligated_usd": 1000,
+        "fms_countries": [],
+        "competition": "competitive, Navy Electronic Commerce Online, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Systems Application & Technologies Inc.,* Oxnard, California, is being awarded a $22,733,501 modification to a previously awarded cost-plus-fixed-fee contract (N68936-13-C-0083) to exercise an option for maintenance and operations of aerial and seaborne target assets and associated equipment. Work will be performed at the Naval Air Warfare Center Weapons Division (NAWCWD), Point Mugu, California (45 percent); Naval Surface Warfare Center, Port Hueneme, California (40 percent); NAWCWD China Lake, Ridgecrest, California (7 percent); White Sands Missile Range, Las Cruces, New Mexico (3 percent); Pacific Missile Range Facility, Kauai, Hawaii (2 percent); Utah Test and Training Range, Salt Lake City, Utah (2 percent); and Vandenberg Air Force Base, Lompoc, California (1 percent). Work is expected to be completed in March 2017. Working capital funds (Navy); and fiscal 2016 management and operations of the major range and test facility base funds in the amount of $11,839,309 will be obligated at time of award; $10,611,559 of which will expire at the end of the current fiscal year. The Naval Air Warfare Center Weapons Division, Point Mugu, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6893613C0083"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 22733501.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11839309.0,
+        "funding_text": "Working capital funds (Navy); and fiscal 2016 management and operations of the major range and test facility base funds in the amount of $11,839,309 will be obligated at time of award; $10,611,559 of which will expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Weapons Division, Point Mugu, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Systems Application & Technologies Inc.",
+            "location": "Oxnard, California",
+            "contract_number": "N68936-13-C-0083",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Maintenance and operations of aerial and seaborne target assets and associated equipment",
+        "base_contract_number": "N68936-13-C-0083",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22733501,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11839309,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Engineering Design Technologies Inc.,* Marietta, Georgia, is being awarded $16,355,240 for firm-fixed-price task order 0002 under a previously awarded multiple award construction contract (N69450-14-D-1764) for design and repair to the airfield storm drainage systems at Barksdale Air Force Base. The repair includes the removal and replacement of storm drain pipe and associated catch basins, manholes, headwalls, grate inlets and junction boxes. Work will be performed in Bossier City, Louisiana, and is expected to be completed by October 2017. Fiscal 2016 operation and maintenance (Air Force) contract funds in the amount of $16,355,240 are being obligated on this award and will expire at the end of the current fiscal year. Three proposals were received for this task order. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6945014D1764"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16355240.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16355240.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Air Force) contract funds in the amount of $16,355,240 are being obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-10",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Engineering Design Technologies Inc.",
+            "location": "Marietta, Georgia",
+            "contract_number": "N69450-14-D-1764",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "Design and repair of airfield storm drainage systems at Barksdale Air Force Base (task order 0002)",
+        "base_contract_number": "N69450-14-D-1764",
+        "order_number": "0002",
+        "modification_number": null,
+        "value_usd": 16355240,
+        "cumulative_value_usd": null,
+        "obligated_usd": 16355240,
+        "fms_countries": [],
+        "competition": "3 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Huntington Beach, California, is being awarded $13,381,495 to exercise a cost-plus-incentive-fee option to a previously awarded contract (N00178-15-C-2016) to continue to provide design agent and technical engineering services in support of the AN/USQ-82(V) Gigabit Ethernet Data Multiplex Systems (GEDMS) program. GEDMS is a shipboard network used for DDG 51 class destroyers. The GEDMS network transfers inputs and/or outputs for the machinery control systems, damage control system, steering control system, AEGIS combat system, navigation displays, and interior communications alarms and indicators. It was designed to replace the mile of point-to-point cabling, signal converters, junction boxes, and switchboards associated with conventional ship’s cabling. GEDMS is being forward-fitted on DDG 51 new construction, back-fitted to Flight I/II DDG 51-78 and Flight IIA DDGs 79-107, LHD Capstone ships and AEGIS Ashore installations. This contract combines purchases for the Navy (91 percent); and the governments of Australia (3 percent); Korea (3 percent); and Japan (3 percent), under the Foreign Military Sales program. The work will be performed in Huntington Beach, California (72 percent); Arlington, Virginia (11 percent); Bath, Maine (9 percent); Pascagoula, Mississippi (3 percent); Georgetown, District of Columbia (3 percent); Richardson, Texas (1 percent); and Fairfax, Virginia (1 percent), and is expected to be completed by March 2017. Fiscal 2016 operations and maintenance (Navy); fiscal 2010 shipbuilding and conversion (Navy); and foreign military sales funding in the amount of $840,589 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Surface Warfare Center - Dahlgren Division, Dahlgren, Virginia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0017815C2016"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13381495.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 840589.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Navy); fiscal 2010 shipbuilding and conversion (Navy); and foreign military sales funding in the amount of $840,589 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Surface Warfare Center - Dahlgren Division, Dahlgren, Virginia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Huntington Beach, California",
+            "contract_number": "N00178-15-C-2016",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Design agent and technical engineering services for AN/USQ-82(V) GEDMS shipboard network program",
+        "base_contract_number": "N00178-15-C-2016",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13381495,
+        "cumulative_value_usd": null,
+        "obligated_usd": 840589,
+        "fms_countries": [
+          "Australia",
+          "Korea",
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Booz Allen Hamilton Inc., McLean, Virginia, was awarded an $8,560,211 firm-fixed-price requirements task order contract to provide technical, analytical, and operational services to support the nine primary objectives of Marine Corps Installations Command, Marine Corps Installations Energy and Water Management Program, and Headquarters Marine Corps Transportation Services. These objectives include: 1) energy strategy implementation; 2) renewable energy analysis; 3) energy project analysis; 4) energy ethos campaign; 5) energy information; 6) data and information management; 7) energy security; 8) non-tactical vehicle energy campaign; and 9) regional energy and water assistance centers across the Marine Corps. This contract includes options which, if exercised, would bring the cumulative dollar value of the contract to $20,409,845. The majority of the work will be performed at the contractor's facilities in McLean, Virginia, and work is expected to be completed March 22, 2017. If all options are exercised, work will continue through Sept. 21, 2018. Fiscal 2016 operations and maintenance funds in the amount of $8,560,211 will be obligated at the time of award, and will expire at the end of the current fiscal year. This contract was competitively procured via a solicitation under GSA eBuy, with two offers received. The Marine Corps Installation Contracting Office, Arlington, Virginia, is the contracting activity (M00264-16-F-0011). (Awarded on March 21, 2016)",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "M0026416F0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8560211.0,
+        "cumulative_value_usd": 20409845.0,
+        "obligated_usd": 8560211.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $8,560,211 will be obligated at the time of award, and will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Marine Corps Installation Contracting Office, Arlington, Virginia",
+          "code": "M00264-16-F-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Booz Allen Hamilton Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "M00264-16-F-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements task order contract",
+        "description": "Technical, analytical, and operational services supporting Marine Corps Installations Energy and Water Management Program and Headquarters Marine Corps Transportation Services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8560211,
+        "cumulative_value_usd": 20409845,
+        "obligated_usd": 8560211,
+        "fms_countries": [],
+        "competition": "competitive, GSA eBuy, two offers received",
+        "award_date": "2016-03-21"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-03-22.html"
+  "source": "file:2016-03-22.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:32:10Z"
+  }
 }

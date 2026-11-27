@@ -11,69 +11,575 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman, San Diego, California, has been awarded a not-to-exceed $140,000,000 modification (P00120) to previously awarded contract FA8726-09-C-0010 for Battle Field Airborne Communication Node payload, operations and support. Work will be performed at San Diego, California; and multiple international locations, and is expected to be complete by Jan. 23, 2018. Fiscal 2017 overseas contingency operation; and operation and maintenance funds in the amount of $59,249,143 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA872609C0010"
+        ],
+        "modification_numbers": [
+          "P00120"
+        ],
+        "is_modification": true,
+        "value_usd": 140000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59249143.0,
+        "funding_text": "Fiscal 2017 overseas contingency operation; and operation and maintenance funds in the amount of $59,249,143 are being obligated at the time of award",
+        "completion_date": "2018-01-23",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Northrop Grumman",
+            "location": "San Diego, California",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Battle Field Airborne Communication Node payload, operations and support",
+        "base_contract_number": "FA8726-09-C-0010",
+        "order_number": null,
+        "modification_number": "P00120",
+        "value_usd": 140000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59249143,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Leidos Inc., Reston, Virginia, has been awarded a $38,000,000 indefinite-delivery/indefinite-quantity contract for high power electromagnetic source research and development. Contractor will provide research and development of Next Generation High Power Electromagnetic (HPEM) sources and components. Work will be performed at Kirtland Air Force Base, New Mexico, and is expected to be complete by Jan. 4, 2022. This award is the result of a competitive acquisition with two offers received. Fiscal 201 research, development, test, and evaluation funds in the amount of $257,156 are being obligated at the time of award for the first task order. Air Force Research Laboratory, Kirtland Air Force Base, New Mexico, is the contracting activity (FA9451-17-D-0005). (Awarded on Jan. 9, 2017)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA945117D0005"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 38000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 257156.0,
+        "funding_text": "Fiscal 201 research, development, test, and evaluation funds in the amount of $257,156 are being obligated at the time of award for the first task order",
+        "completion_date": "2022-01-04",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Kirtland Air Force Base, New Mexico",
+          "code": "FA9451-17-D-0005"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Leidos Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA9451-17-D-0005",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "High power electromagnetic source research and development",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 38000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 257156,
+        "fms_countries": [],
+        "competition": "competitive acquisition with two offers received",
+        "award_date": "2017-01-09"
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Akima Intra-Data LLC,* Herndon, Virginia, has been awarded a $14,243,860 firm-fixed-price contract for civil engineer services. Contractor will provide non-personal services for continued operational support and civil engineer services to include engineering, environmental, operations, maintenance and emergency management. Work will be performed at MacDill Air Force Base, Florida, and is expected to be complete by Feb. 28, 2018. This award is the result of a competitive acquisition with two offers received. Fiscal 2017 operation and maintenance funds in the amount of $7,797,580 are being obligated at the time of award. The 6th Contracting Squadron, MacDill AFB, Florida, is the contracting activity (FA4814-17-C-0002).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA481417C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 14243860.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7797580.0,
+        "funding_text": "Fiscal 2017 operation and maintenance funds in the amount of $7,797,580 are being obligated at the time of award",
+        "completion_date": "2018-02-28",
+        "contracting_activity": {
+          "name": "The 6th Contracting Squadron, MacDill AFB, Florida",
+          "code": "FA4814-17-C-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Akima Intra-Data LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "FA4814-17-C-0002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Civil engineer services at MacDill Air Force Base",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14243860,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7797580,
+        "fms_countries": [],
+        "competition": "competitive acquisition with two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "CDM Smith, Denver, Colorado, has been awarded a not-to-exceed $10,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architectural and engineering services. Contractor will provide perform Title I, Title II, and other services to administer, coordinate, and technically support facility sustainment, restoration, and modernization, military construction and non-appropriated funds projects. Work will be performed at the U.S. Air Force Academy, Colorado; Buckley Air Force Base, Colorado; Cheyenne Mountain Air Force Station, Colorado; Fort Carson, Colorado; F.E. Warren AFB, Wyoming; Peterson AFB, Colorado; and Schriever AFB, Colorado, and is expected to be complete by Jan. 16, 2022. This award is the result of a competitive acquisition with 28 offers received. Fiscal 2017 operation and maintenance funds in the amount of $45,412 are being obligated at the time of award. The 10th Contracting Squadron, Air Force Academy, Colorado, is the contracting activity (FA7000-17-D-0002).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA700017D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45412.0,
+        "funding_text": "Fiscal 2017 operation and maintenance funds in the amount of $45,412 are being obligated at the time of award",
+        "completion_date": "2022-01-16",
+        "contracting_activity": {
+          "name": "The 10th Contracting Squadron, Air Force Academy, Colorado",
+          "code": "FA7000-17-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "CDM Smith",
+            "location": "Denver, Colorado",
+            "contract_number": "FA7000-17-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Architectural and engineering services for facility sustainment, restoration, and modernization, military construction and non-appropriated funds projects",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 45412,
+        "fms_countries": [],
+        "competition": "competitive acquisition with 28 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "General Electric Co., Cincinnati, Ohio, has been awarded a $98,133,439 firm-fixed-price delivery order (SPRTA1-17-F-0144) against an existing contract (SPE4AX-16-D-9408) to remanufacture F110 engines. This was a sole-source acquisition using justification 10 U.S. Code 2304(c)(1). Locations of performance are Ohio and Kansas, with an Oct. 30, 2018, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Tinker Air Force Base, Oklahoma.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPRTA117F0144",
+          "SPE4AX16D9408"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 98133439.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Tinker Air Force Base, Oklahoma",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "General Electric Co.",
+            "location": "Cincinnati, Ohio",
+            "contract_number": "SPRTA1-17-F-0144",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Remanufacture F110 engines",
+        "base_contract_number": "SPE4AX-16-D-9408",
+        "order_number": "SPRTA1-17-F-0144",
+        "modification_number": null,
+        "value_usd": 98133439,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Forest Products,* Rapid City, South Dakota (SPE8E6-17-D-0001); Sylvan Forest Products,* Portland, Oregon (SPE8E6-17-D-0002); S&S Forest Products LLC,* Boerne, Texas (SPE8E6-17-D-0003); and Middle Atlantic Wholesale Lumber Inc.,* Baltimore, Maryland (SPE8E6-17-D-0004), will share a maximum $28,000,000 fixed-price, indefinite-delivery/indefinite-quantity contract under solicitation SPE8E6-16-R-0008 for wood products. These were competitive acquisitions with seven offers received. These are two-year base contracts with three one-year option periods. Locations of performance are Arkansas, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Missouri, Nebraska, North Dakota, Ohio, Oklahoma, Oregon, South Dakota, Texas and Wisconsin, with a Jan. 16, 2019, performance completion date. Type of appropriation is fiscal 2017 through fiscal 2019 defense working capital funds. Contract funds will not expire at the end of the fiscal year. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE8E617D0001",
+          "SPE8E617D0002",
+          "SPE8E617D0003",
+          "SPE8E617D0004",
+          "SPE8E616R0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Forest Products",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "SPE8E6-17-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Sylvan Forest Products",
+            "location": "Portland, Oregon",
+            "contract_number": "SPE8E6-17-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "S&S Forest Products LLC",
+            "location": "Boerne, Texas",
+            "contract_number": "SPE8E6-17-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "Middle Atlantic Wholesale Lumber Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "SPE8E6-17-D-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Wood products, shared maximum $28,000,000 contract under solicitation SPE8E6-16-R-0008",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 28000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, seven offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "L.S. Black Constructors Inc., St. Paul, Minnesota, was awarded an $18,758,000 firm-fixed-price contract to design and build a new dormitory at Offutt Air Force Base, Nebraska. Bids were solicited via the Internet with five received. Work will be performed in Bellevue, Nebraska, with an estimated completion date of Jan. 11, 2019. Fiscal 2016 military construction funds in the amount of $18,758,000 were obligated at the time of the award. Army Corps of Engineers, Omaha, Nebraska, is the contracting activity (W9128F-17-C-0013).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9128F17C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18758000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18758000.0,
+        "funding_text": "Fiscal 2016 military construction funds in the amount of $18,758,000 were obligated at the time of the award",
+        "completion_date": "2019-01-11",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Omaha, Nebraska",
+          "code": "W9128F-17-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "L.S. Black Constructors Inc.",
+            "location": "St. Paul, Minnesota",
+            "contract_number": "W9128F-17-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Design and build a new dormitory at Offutt Air Force Base, Nebraska",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18758000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 18758000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, five bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Reel COH Inc., Boisbriand, California, was awarded a $13,945,000 firm-fixed-fee contract to manufacture and deliver new 585-ton emergency gantry crane for John Day Lock and Dam project. Bids were solicited via the Internet with two received. Work will be performed in Rufus, Oregon, with an estimated completion date of May 2, 2019. Fiscal 2017 other funds in the amount of $300,000 were obligated at the time of the award. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W9127N-17-C-0008).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W9127N17C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13945000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 300000.0,
+        "funding_text": "Fiscal 2017 other funds in the amount of $300,000 were obligated at the time of the award",
+        "completion_date": "2019-05-02",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Portland, Oregon",
+          "code": "W9127N-17-C-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Reel COH Inc.",
+            "location": "Boisbriand, California",
+            "contract_number": "W9127N-17-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-fee contract",
+        "description": "Manufacture and deliver new 585-ton emergency gantry crane for John Day Lock and Dam project",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13945000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 300000,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northrop Grumman Systems Corp., Herndon, Virginia, was awarded a $9,639,023 cost-plus-fixed-fee, foreign military sales contract (Australia) for in-services support for the Counter-Rocket, Artillery, and Mortar sense and warn capability for the government of the Commonwealth of Australia. Bids were solicited via the Internet with one received. Work will be performed in Australia with an estimated completion date of Jan. 16, 2020. Fiscal 2010 other funds in the amount of $9,639,023 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W31P4Q-17-C-0069).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q17C0069"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9639023.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9639023.0,
+        "funding_text": "Fiscal 2010 other funds in the amount of $9,639,023 were obligated at the time of the award",
+        "completion_date": "2020-01-16",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-17-C-0069"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Systems Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": "W31P4Q-17-C-0069",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, foreign military sales contract",
+        "description": "In-services support for the Counter-Rocket, Artillery, and Mortar sense and warn capability",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9639023,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9639023,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": "Internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Honeywell International Inc., Greer, South Carolina, was awarded a $7,287,899 firm-fixed-price contract for the overhaul and repair of diffusers for the CH-47 Chinook. The minimum quantity is 40 and the maximum quantity is 294. Bids were solicited via the Internet with one received. Work will be performed in Greer, South Carolina, with an estimated completion date of Jan. 16, 2022. Fiscal 2017 other funds in the amount of $7,287,899 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-17-D-0011).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ17D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7287899.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7287899.0,
+        "funding_text": "Fiscal 2017 other funds in the amount of $7,287,899 were obligated at the time of the award",
+        "completion_date": "2022-01-16",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": "W58RGZ-17-D-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Honeywell International Inc.",
+            "location": "Greer, South Carolina",
+            "contract_number": "W58RGZ-17-D-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Overhaul and repair of diffusers for the CH-47 Chinook; minimum quantity 40, maximum 294",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7287899,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7287899,
+        "fms_countries": [],
+        "competition": "Internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
       "kind": "announcement",
       "text": "Northrop Grumman Space & Mission Systems, Redondo Beach, California, has been awarded a $9,042,159 cost-plus-fixed-fee modification (P00012) to exercise Option 2 (Contract Line Item Number 0003) of previously awarded HR0011-15-C-0022 for Phase 3 of a Defense Advanced Research Projects Agency (DARPA) research program. The modification brings the total cumulative face value of the contract to $31,455,562 from $22,413,403. Work will be performed in Redondo Beach, California (68 percent); Manassas, Virginia (5 percent); Livermore, California (17 percent); Cincinnati, Ohio (5 percent); and Littleton, Colorado (5 percent), with an expected completion date of January 2018. Fiscal 2017 research, development, test and evaluation funds in the amount of $7,000,000 are being obligated at time of award. DARPA, Arlington, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HR001115C0022"
+        ],
+        "modification_numbers": [
+          "P00012"
+        ],
+        "is_modification": true,
+        "value_usd": 9042159.0,
+        "cumulative_value_usd": 31455562.0,
+        "obligated_usd": 7000000.0,
+        "funding_text": "Fiscal 2017 research, development, test and evaluation funds in the amount of $7,000,000 are being obligated at time of award",
+        "completion_date": "2018-01",
+        "contracting_activity": {
+          "name": "DARPA, Arlington, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Space & Mission Systems",
+            "location": "Redondo Beach, California",
+            "contract_number": "HR0011-15-C-0022",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "cost-plus-fixed-fee modification",
+        "description": "Phase 3 of a DARPA research program; exercise of Option 2 (CLIN 0003)",
+        "base_contract_number": "HR0011-15-C-0022",
+        "order_number": null,
+        "modification_number": "P00012",
+        "value_usd": 9042159,
+        "cumulative_value_usd": 31455562,
+        "obligated_usd": 7000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2017-01-17.html"
+  "source": "file:2017-01-17.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:56:10Z"
+  }
 }

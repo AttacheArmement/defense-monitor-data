@@ -11,75 +11,659 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is being awarded $60,843,705 for cost-plus-fixed-fee modification 01 to a delivery order 2004 issued against basic ordering agreement N00019-16-G-0001. This modification is to mature the Increment 3 Block 2 capabilities through preliminary and critical design review for the P-8A Poseidon Multi-mission Maritime Aircraft. Capabilities include Minotaur, multi-static active coherent enhancements, wide-band satellite communications, new computing and security architecture, automated digital network system, common data link upgrades, anti-surface warfare signal intelligence, combat system architecture improvements, and communication capability upgrades. Work will be performed in Puget Sound, Washington (87.75 percent); Naval Air Station Patuxent River, Maryland (8.25 percent); Huntington Beach, California (2 percent); Dallas, Texas (1.5 percent); and St. Louis Missouri (0.50 percent), and is expected to be completed February 2019. Fiscal 2016 research, development, test and evaluation (Navy) funds in the amount of $3,150,000 are being obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001916G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 60843705.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3150000.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation (Navy) funds in the amount of $3,150,000 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee delivery order",
+        "description": "Increment 3 Block 2 capabilities maturation through preliminary and critical design review for P-8A Poseidon Multi-mission Maritime Aircraft",
+        "base_contract_number": "N00019-16-G-0001",
+        "order_number": "2004",
+        "modification_number": "01",
+        "value_usd": 60843705,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3150000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "J.E. McAmis,* Chico, California, was awarded a $26,130,013 firm-fixed-price contract for demolition and removal of existing water control structure. Bids were solicited via the Internet with five received. Work will be performed in Homestead, Florida, with an estimated completion date of Aug. 5, 2018. Fiscal 2016 other procurement (Army) funds in the amount of $26,130,013 were obligated at the time of the award. Army Corps of Engineers, Jacksonville, Florida, is the contracting activity (W912EP-16-C-0010).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W912EP16C0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26130013.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26130013.0,
+        "funding_text": "Fiscal 2016 other procurement (Army) funds in the amount of $26,130,013 were obligated at the time of the award",
+        "completion_date": "2018-08-05",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Jacksonville, Florida",
+          "code": "W912EP-16-C-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "J.E. McAmis",
+            "location": "Chico, California",
+            "contract_number": "W912EP-16-C-0010",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Demolition and removal of existing water control structure, Homestead, Florida",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26130013,
+        "cumulative_value_usd": null,
+        "obligated_usd": 26130013,
+        "fms_countries": [],
+        "competition": "Internet solicitation, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Suulutaaq Inc.,* Suisun City, California, was awarded an $18,361,020 firm-fixed-price contract with options for a flood control channel improvement project. Bids were solicited via the Internet with three received. Work will be performed in Milpitas, California, with an estimated completion date of Nov. 11, 2017. Fiscal 2016 operations and maintenance (Army) funds in the amount of $14,315,970 were obligated at the time of the award. Army Corps of Engineers, San Francisco, California, is the contracting activity (W912P7-16-C-0008).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W912P716C0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18361020.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14315970.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $14,315,970 were obligated at the time of the award",
+        "completion_date": "2017-11-11",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, San Francisco, California",
+          "code": "W912P7-16-C-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Suulutaaq Inc.",
+            "location": "Suisun City, California",
+            "contract_number": "W912P7-16-C-0008",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with options",
+        "description": "Flood control channel improvement project, Milpitas, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18361020,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14315970,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Gryphon: PHE: ECTS JV, Colorado Springs, Colorado (W912HP-16-D-0005); Mabbett & Associates Inc.,* Bedford, Massachusetts (W912HP-16-D-0006); HazAir Inc.,* Henderson, Nevada (W912HP-16-D-0007); LRS GEO JV, Pasadena, Maryland (W912HP-16-D-0008); Redhorse Corp., San Diego, California (W912HP-16-D-0009); R.J. Rudy LLC,* Ward, Colorado, (W912HP-16-D-0010); S&A Environmental Consultants Inc.,* Williamsburg, Virginia (W912HP-16-D-0011), were awarded a $18,000,000 firm-fixed-price multiple award task order contract with options for environmental consulting services for the Army Corps of Engineers, South Atlantic Division. Bids were solicited via the Internet with 21 received. Funding and work location will be determined with each order. Army Corps of Engineers, South Carolina, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W912HP16D0005",
+          "W912HP16D0006",
+          "W912HP16D0007",
+          "W912HP16D0008",
+          "W912HP16D0009",
+          "W912HP16D0010",
+          "W912HP16D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 18000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, South Carolina",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Gryphon: PHE: ECTS JV",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W912HP-16-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Mabbett & Associates Inc.",
+            "location": "Bedford, Massachusetts",
+            "contract_number": "W912HP-16-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "HazAir Inc.",
+            "location": "Henderson, Nevada",
+            "contract_number": "W912HP-16-D-0007",
+            "markers": "*"
+          },
+          {
+            "name": "LRS GEO JV",
+            "location": "Pasadena, Maryland",
+            "contract_number": "W912HP-16-D-0008",
+            "markers": null
+          },
+          {
+            "name": "Redhorse Corp.",
+            "location": "San Diego, California",
+            "contract_number": "W912HP-16-D-0009",
+            "markers": null
+          },
+          {
+            "name": "R.J. Rudy LLC",
+            "location": "Ward, Colorado",
+            "contract_number": "W912HP-16-D-0010",
+            "markers": "*"
+          },
+          {
+            "name": "S&A Environmental Consultants Inc.",
+            "location": "Williamsburg, Virginia",
+            "contract_number": "W912HP-16-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multiple award task order contract with options",
+        "description": "Environmental consulting services for Army Corps of Engineers, South Atlantic Division",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 18000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 21 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Pride Industries, Roseville, California, was awarded a $14,893,008 modification (P00064) to contract W9124J-09-C-0014 to support the Fort Polk, Louisiana, Directorate of Public Works Base Operations with an estimated completion date of April 30, 2018. Fiscal 2016 operations and maintenance (Army) funds in the amount of $14,893,008 were obligated at the time of the award. Army Contracting Command, Fort Polk, Louisiana, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W9124J09C0014"
+        ],
+        "modification_numbers": [
+          "P00064"
+        ],
+        "is_modification": true,
+        "value_usd": 14893008.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14893008.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $14,893,008 were obligated at the time of the award",
+        "completion_date": "2018-04-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Fort Polk, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Pride Industries",
+            "location": "Roseville, California",
+            "contract_number": "W9124J-09-C-0014",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Base operations support, Fort Polk, Louisiana Directorate of Public Works",
+        "base_contract_number": "W9124J-09-C-0014",
+        "order_number": null,
+        "modification_number": "P00064",
+        "value_usd": 14893008,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14893008,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bukkehave Inc.,* Fort Lauderdale, Florida, was awarded a $13,489,972 modification (P0028) to Foreign Military Sales contract W56HZV-14-D-0134 (Oman) for 300 Toyota Land Cruiser pickup trucks and common spare parts for Iraq. Work will be performed in Oman, with an estimated completion date of Dec. 30, 2016. Fiscal 2016 other procurement (Army) funds in the amount of $13,489,867 were obligated at the time of the award. Army Contracting Command, Warren, Michigan, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV14D0134"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13489972.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13489867.0,
+        "funding_text": "Fiscal 2016 other procurement (Army) funds in the amount of $13,489,867 were obligated at the time of the award",
+        "completion_date": "2016-12-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Bukkehave Inc.",
+            "location": "Fort Lauderdale, Florida",
+            "contract_number": "W56HZV-14-D-0134",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "300 Toyota Land Cruiser pickup trucks and common spare parts for Iraq under Foreign Military Sales contract",
+        "base_contract_number": "W56HZV-14-D-0134",
+        "order_number": null,
+        "modification_number": "P0028",
+        "value_usd": 13489972,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13489867,
+        "fms_countries": [
+          "Oman"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Z Systems Corp.,* Greenbelt, Maryland, was awarded a $13,338,948 modification (P000149) to contract W52P1J-12-G-0036 for enhanced army global logistics enterprise maintenance, supply, and transportation services. Work will be performed in Fort Hood, Texas, with an estimated completion date of Aug. 7, 2017. Fiscal 2016 operations and maintenance (Army) funds in the amount of $243,000 were obligated at the time of the award. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J12G0036"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 13338948.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 243000.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $243,000 were obligated at the time of the award",
+        "completion_date": "2017-08-07",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Z Systems Corp.",
+            "location": "Greenbelt, Maryland",
+            "contract_number": "W52P1J-12-G-0036",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enhanced army global logistics enterprise maintenance, supply, and transportation services, Fort Hood, Texas",
+        "base_contract_number": "W52P1J-12-G-0036",
+        "order_number": null,
+        "modification_number": "P000149",
+        "value_usd": 13338948,
+        "cumulative_value_usd": null,
+        "obligated_usd": 243000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bowers and Kubota Consulting,* Waipahu, Hawaii, was awarded a $9,900,000 firm-fixed-price contract with options for program and project management technical support services for the U.S. Army Pacific Region Medical Command. Bids were solicited via the Internet with two received. Funding and work location will be determined with each order. Army Corps of Engineers, Huntsville, Alabama, is the contracting activity (W912DY-16-D-0029).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912DY16D0029"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9900000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Huntsville, Alabama",
+          "code": "W912DY-16-D-0029"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Bowers and Kubota Consulting",
+            "location": "Waipahu, Hawaii",
+            "contract_number": "W912DY-16-D-0029",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with options",
+        "description": "Program and project management technical support services for U.S. Army Pacific Region Medical Command",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9900000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Schendt Engineering Corp., Colorado Springs, Colorado, has been awarded a not-to-exceed $10,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architectural and engineering services. This contract provides architectural and engineering services to perform Title I, Title II and other services to administer, coordinate and technically support facility sustainment, restoration and modernization, military construction and non-appropriated funds projects. Work will be performed at the U. S. Air Force Academy, Colorado; Buckley Air Force Base, Colorado; Cheyenne Mountain Air Force Station, Colorado; Fort Carson, Colorado; F.E. Warren Air Force Base, Wyoming; Peterson Air Force Base, Colorado; and Schriever Air Force Base, Colorado, and is expected to be completed by Aug. 4, 2021. This award is the result of a competitive acquisition and 28 offers were received. Fiscal 2016 operations and maintenance funds in the amount of $113,602 are being obligated at the time of award. The 10th Contracting Squadron, U. S. Air Force Academy, Colorado, is the contracting activity (FA7000-16-D-0007).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "FA700016D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113602.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $113,602 are being obligated at the time of award",
+        "completion_date": "2021-08-04",
+        "contracting_activity": {
+          "name": "The 10th Contracting Squadron, U. S. Air Force Academy, Colorado",
+          "code": "FA7000-16-D-0007"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Schendt Engineering Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA7000-16-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity, not-to-exceed",
+        "description": "Architectural and engineering services for facility sustainment, restoration and modernization, military construction and non-appropriated funds projects, US Air Force Academy and other Colorado and Wyoming bases",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 113602,
+        "fms_countries": [],
+        "competition": "competitive, 28 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AECOM, Colorado Springs, Colorado, has been awarded a not-to-exceed $10,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for architectural and engineering services. Contractor will provide architectural and engineering services to perform Title I, Title II and other services to administer, coordinate and technically support facility sustainment, restoration and modernization, military construction and non-appropriated funds projects. Work will be performed at the U. S. Air Force Academy, Colorado; Buckley Air Force Base, Colorado; Cheyenne Mountain Air Force Station, Colorado; Fort Carson, Colorado; F.E. Warren Air Force Base, Wyoming; Peterson Air Force Base, Colorado; and Schriever Air Force Base, Colorado, and is expected to be completed by Aug. 4, 2021. This award is the result of a competitive acquisition and 28 offers were received. Fiscal 2016 operations and maintenance funds in the amount of $35,000.00 are being obligated at the time of award. The 10th Contracting Squadron, U. S. Air Force Academy, Colorado, is the contracting activity (FA7000-16-D-0008).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA700016D0008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35000.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $35,000.00 are being obligated at the time of award",
+        "completion_date": "2021-08-04",
+        "contracting_activity": {
+          "name": "The 10th Contracting Squadron, U. S. Air Force Academy, Colorado",
+          "code": "FA7000-16-D-0008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "AECOM",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "FA7000-16-D-0008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity, not-to-exceed",
+        "description": "Architectural and engineering services for facility sustainment, restoration and modernization, military construction and non-appropriated funds projects, US Air Force Academy and other Colorado and Wyoming bases",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 35000,
+        "fms_countries": [],
+        "competition": "competitive, 28 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman, San Diego, California, has been awarded a not-to-exceed $8,038,000 undefinitized modification (P00117) on the previously awarded contract FA8726-09-C-0010. Contractor will provide battlefield airborne communication node payload operations and support. Work will be performed at San Diego, California, and overseas locations, and is expected to be completed by Jan. 23, 2017. Fiscal 2016 overseas contingency operation; and operations and maintenance funds in the amount of $3,938,620.00 are being obligated at the time of award. Air Force Life Cycle Management Center, Hanscom Air Force Base, Massachusetts, is the controlling activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "FA872609C0010"
+        ],
+        "modification_numbers": [
+          "P00117"
+        ],
+        "is_modification": true,
+        "value_usd": 8038000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3938620.0,
+        "funding_text": "Fiscal 2016 overseas contingency operation; and operations and maintenance funds in the amount of $3,938,620.00 are being obligated at the time of award",
+        "completion_date": "2017-01-23",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Northrop Grumman",
+            "location": "San Diego, California",
+            "contract_number": "FA8726-09-C-0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "undefinitized modification",
+        "description": "Battlefield airborne communication node payload operations and support",
+        "base_contract_number": "FA8726-09-C-0010",
+        "order_number": null,
+        "modification_number": "P00117",
+        "value_usd": 8038000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3938620,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "HDT Expeditionary Systems Inc., Solon, Ohio, has been awarded a maximum $9,345,299 firm-fixed-price contract for heaters in Army combat vehicles. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). This is a 21-month base contract with one 10-month option period. Location of performance is Ohio, with a May 15, 2018, performance completion date. Using service is Army. Type of appropriation is fiscal 2016 through fiscal 2018 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-16-C-0236).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPRDL116C0236"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9345299.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Warren, Michigan",
+          "code": "SPRDL1-16-C-0236"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "HDT Expeditionary Systems Inc.",
+            "location": "Solon, Ohio",
+            "contract_number": "SPRDL1-16-C-0236",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Heaters in Army combat vehicles",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9345299,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S. Code 2304(c)(1)",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:32Z",
-  "source": "file:2016-08-05.html"
+  "source": "file:2016-08-05.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:16:31Z"
+  }
 }

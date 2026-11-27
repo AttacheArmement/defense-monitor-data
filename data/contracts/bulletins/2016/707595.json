@@ -13,93 +13,893 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Equilon Enterprises, doing business as Shell Oil Products U.S., Houston, Texas (SPE600-16-D-0470), $679,772,036; Phillips 66 Co., Bartlesville, Oklahoma (SPE600-16-D-0475), $288,532,242; Placid Refining Co. LLC,* Port Allen, Louisiana (SPE600-16-D-0468), $236,540,076; ExxonMobil Fuels Lubricants and Specialties Marketing Co., Fairfax, Virginia (SPE600-16-D-0477), $139,975,090; Petromax Refining Co. LLC,** Houston, Texas (SPE600-16-D-0483), $138,358,287; Wynnewood Energy Co., Sugar Land, Texas (SPE600-16-D-0479), $80,616,340; Lazarus Energy Holdings LLC,** Houston, Texas (SPE600-16-D-0482), $77,103,071; Alon USA LP, Dallas, Texas (SPE600-16-D-0469), $76,244,250; Hunt Refining Co. LLC, Tuscaloosa, Alabama (SPE600-16-D-0480), $70,277,447; Tesoro Refining and Marketing Co., San Antonio, Texas (SPE600-16-D-0474), $44,798,997; BP Product North America Inc., Chicago, Illinois (SPE600-16-D-0481), $43,886,481; Husky Marketing and Supply, Dublin, Ohio (SPE600-16-D-0478), $42,645,250; Hermes Consolidated LLC, doing business as Wyoming Refining Co., Rapid City, South Dakota (SPE600-16-D-0472), $27,844,500; Irving Oil Terminals Inc., Portsmouth, New Hampshire (SPE600-16-D-0467), $22,687,064; Calumet Shreveport Fuels LLC, Indianapolis, Indiana (SPE600-16-D-0476), $27,492,500; Sinclair Oil Corp., Salt Lake City, Utah (SPE600-16-D-0471), $17,620,904; Delek Refining Ltd., Tyler, Texas (SPE600-16-D-0473), $16,358,238; World Fuel Services, Miami, Florida (SPE600-16-D-0484), $15,351,110; and Buckeye Energy Services LLC, Houston, Texas (SPE600-16-D-0466), $12,344,180, have each been awarded a fixed-price with economic price adjustment, indefinite-delivery/indefinite-quantity contract under solicitation SPE600-15-R-0719 for various types of fuel. These contracts were competitive acquisitions with 37 offers received. They are one-year contracts with a 30-day carryover. Locations of performance are Texas, Oklahoma, Mississippi, Kansas, Louisiana, Virginia, Alabama, North Dakota, Minnesota, Ohio, South Dakota, Wyoming, New Hampshire, Indiana, Illinois, Florida and Utah, with an April 30, 2017, performance completion date. Using agency is Defense Logistics Agency Energy. Type of appropriation is fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE60016D0470",
+          "SPE60016D0475",
+          "SPE60016D0468",
+          "SPE60016D0477",
+          "SPE60016D0483",
+          "SPE60016D0479",
+          "SPE60016D0482",
+          "SPE60016D0469",
+          "SPE60016D0480",
+          "SPE60016D0474",
+          "SPE60016D0481",
+          "SPE60016D0478",
+          "SPE60016D0472",
+          "SPE60016D0467",
+          "SPE60016D0476",
+          "SPE60016D0471",
+          "SPE60016D0473",
+          "SPE60016D0484",
+          "SPE60016D0466",
+          "SPE60015R0719"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 679772036.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          },
+          {
+            "marker": "**",
+            "meaning": "Small business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Equilon Enterprises, doing business as Shell Oil Products U.S.",
+            "location": "Houston, Texas",
+            "contract_number": "SPE600-16-D-0470",
+            "markers": null
+          },
+          {
+            "name": "Phillips 66 Co.",
+            "location": "Bartlesville, Oklahoma",
+            "contract_number": "SPE600-16-D-0475",
+            "markers": null
+          },
+          {
+            "name": "Placid Refining Co. LLC",
+            "location": "Port Allen, Louisiana",
+            "contract_number": "SPE600-16-D-0468",
+            "markers": "*"
+          },
+          {
+            "name": "ExxonMobil Fuels Lubricants and Specialties Marketing Co.",
+            "location": "Fairfax, Virginia",
+            "contract_number": "SPE600-16-D-0477",
+            "markers": null
+          },
+          {
+            "name": "Petromax Refining Co. LLC",
+            "location": "Houston, Texas",
+            "contract_number": "SPE600-16-D-0483",
+            "markers": "**"
+          },
+          {
+            "name": "Wynnewood Energy Co.",
+            "location": "Sugar Land, Texas",
+            "contract_number": "SPE600-16-D-0479",
+            "markers": null
+          },
+          {
+            "name": "Lazarus Energy Holdings LLC",
+            "location": "Houston, Texas",
+            "contract_number": "SPE600-16-D-0482",
+            "markers": "**"
+          },
+          {
+            "name": "Alon USA LP",
+            "location": "Dallas, Texas",
+            "contract_number": "SPE600-16-D-0469",
+            "markers": null
+          },
+          {
+            "name": "Hunt Refining Co. LLC",
+            "location": "Tuscaloosa, Alabama",
+            "contract_number": "SPE600-16-D-0480",
+            "markers": null
+          },
+          {
+            "name": "Tesoro Refining and Marketing Co.",
+            "location": "San Antonio, Texas",
+            "contract_number": "SPE600-16-D-0474",
+            "markers": null
+          },
+          {
+            "name": "BP Product North America Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "SPE600-16-D-0481",
+            "markers": null
+          },
+          {
+            "name": "Husky Marketing and Supply",
+            "location": "Dublin, Ohio",
+            "contract_number": "SPE600-16-D-0478",
+            "markers": null
+          },
+          {
+            "name": "Hermes Consolidated LLC, doing business as Wyoming Refining Co.",
+            "location": "Rapid City, South Dakota",
+            "contract_number": "SPE600-16-D-0472",
+            "markers": null
+          },
+          {
+            "name": "Irving Oil Terminals Inc.",
+            "location": "Portsmouth, New Hampshire",
+            "contract_number": "SPE600-16-D-0467",
+            "markers": null
+          },
+          {
+            "name": "Calumet Shreveport Fuels LLC",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "SPE600-16-D-0476",
+            "markers": null
+          },
+          {
+            "name": "Sinclair Oil Corp.",
+            "location": "Salt Lake City, Utah",
+            "contract_number": "SPE600-16-D-0471",
+            "markers": null
+          },
+          {
+            "name": "Delek Refining Ltd.",
+            "location": "Tyler, Texas",
+            "contract_number": "SPE600-16-D-0473",
+            "markers": null
+          },
+          {
+            "name": "World Fuel Services",
+            "location": "Miami, Florida",
+            "contract_number": "SPE600-16-D-0484",
+            "markers": null
+          },
+          {
+            "name": "Buckeye Energy Services LLC",
+            "location": "Houston, Texas",
+            "contract_number": "SPE600-16-D-0466",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "fixed-price with economic price adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Various types of fuel under solicitation SPE600-15-R-0719 (one-year contracts with 30-day carryover)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 37 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Kalmar RT Center, Cibolo, Texas, has been awarded a maximum $8,077,989 firm-fixed-price, indefinite-quantity contract for replacement parts for multiple weapon systems, aircraft and equipment. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). This is a three-year base contract with two one-year option periods. Location of performance is Texas, with a March 28, 2019, performance completion date. Using military services are Army, Navy, Air Force, and Marine Corps. Type of appropriation is fiscal 2016 through fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Columbus, Ohio (SPE7LX-16-D-0073).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE7LX16D0073"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8077989.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Columbus, Ohio",
+          "code": "SPE7LX-16-D-0073"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Kalmar RT Center",
+            "location": "Cibolo, Texas",
+            "contract_number": "SPE7LX-16-D-0073",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-quantity",
+        "description": "Replacement parts for multiple weapon systems, aircraft and equipment (three-year base with two one-year options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8077989,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "UPDATE: Source One Distributors Inc.,*** Wellington, Florida (SPE1C1-16-D-1043), has been added as an awardee to the multiple award contract issued against solicitation SPM1C1-12-R-0031 announced Dec. 8, 2011.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C116D1043",
+          "SPM1C112R0031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "***",
+            "meaning": "Small, disadvantaged veteran-owned business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Source One Distributors Inc.",
+            "location": "Wellington, Florida",
+            "contract_number": "SPE1C1-16-D-1043",
+            "markers": "***"
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Added as an awardee to the multiple award contract under solicitation SPM1C1-12-R-0031 (announced Dec. 8, 2011)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Vingtech LLC, Biddeford, Maine (W15QKN-16-D-0030); and Wilcox Industries,* Portsmouth, New Hampshire (W15QKN-16-D-0031), were awarded a $151,800,000 firm-fixed-price, incrementally funded contract for the Grenadier Sighting System for the M320/M320A1 grenade launcher. Bids were solicited via the Internet with three received, with an estimated completion date of March 28, 2022. Funding and work location will be determined with each order. Army Contracting Command, Picatinny Arsenal, New Jersey, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN16D0030",
+          "W15QKN16D0031"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 151800000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2022-03-28",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Picatinny Arsenal, New Jersey",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Vingtech LLC",
+            "location": "Biddeford, Maine",
+            "contract_number": "W15QKN-16-D-0030",
+            "markers": null
+          },
+          {
+            "name": "Wilcox Industries",
+            "location": "Portsmouth, New Hampshire",
+            "contract_number": "W15QKN-16-D-0031",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, incrementally funded",
+        "description": "Grenadier Sighting System for the M320/M320A1 grenade launcher",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 151800000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Harris Corp., Rochester, New York, was awarded a $20,116,679 firm-fixed-price, foreign military sales (Morocco, Kuwait, Qatar) contract for radios, spares, installation kits, and continental U.S. unit-level test equipment training. One bid was solicited with one received. Work will be performed in Morocco, Kuwait, and Qatar, with an estimated completion date of Feb. 2, 2021. Fiscal 2010 other procurement funds in the amount of $20,116,679 were obligated at the time of the award. Army Contracting Command, Aberdeen, Maryland, is the contracting activity (W91CRB-16-C-5015).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB16C5015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 20116679.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20116679.0,
+        "funding_text": "Fiscal 2010 other procurement funds in the amount of $20,116,679 were obligated at the time of the award",
+        "completion_date": "2021-02-02",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen, Maryland",
+          "code": "W91CRB-16-C-5015"
+        },
+        "fms": false,
+        "fms_countries": [
+          "Morocco",
+          "Kuwait",
+          "Qatar"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Harris Corp.",
+            "location": "Rochester, New York",
+            "contract_number": "W91CRB-16-C-5015",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Radios, spares, installation kits, and continental U.S. unit-level test equipment training",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20116679,
+        "cumulative_value_usd": null,
+        "obligated_usd": 20116679,
+        "fms_countries": [
+          "Morocco",
+          "Kuwait",
+          "Qatar"
+        ],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "WMR-532 LLC, Hartselle, Alabama, was awarded a $10,000,000 firm-fixed-price contract for the operation, maintenance and technical support for the Army Corps of Engineers and Joint Airborne Lidar Bathmetry Technical Center of Expertise. Bids were solicited via the Internet with four received, with an estimated completion date of March 31, 2017. Funding and work location will be determined with each order. Army Corps of Engineers, Mobile, Alabama, is the contracting activity (W91278-16-D-0052).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W9127816D0052"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2017-03-31",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Mobile, Alabama",
+          "code": "W91278-16-D-0052"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "WMR-532 LLC",
+            "location": "Hartselle, Alabama",
+            "contract_number": "W91278-16-D-0052",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Operation, maintenance and technical support for the Army Corps of Engineers and Joint Airborne Lidar Bathymetry Technical Center of Expertise",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, four received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CentralCare Inc., Annandale, Virginia, was awarded a $9,876,830 firm-fixed-price contract with options for dental support services, Army Medical Command, Western Region. One bid was solicited with one received, with an estimated completion date of March 30, 2017. Funding and work location will be determined with each order. Army Medical Command, Ft. Sam Houston, Texas, is the contracting activity (W81K04-16-D-0025).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W81K0416D0025"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9876830.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2017-03-30",
+        "contracting_activity": {
+          "name": "Sam Houston, Texas",
+          "code": "W81K04-16-D-0025"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "CentralCare Inc.",
+            "location": "Annandale, Virginia",
+            "contract_number": "W81K04-16-D-0025",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, with options",
+        "description": "Dental support services, Army Medical Command, Western Region",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9876830,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "one bid solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Georgia Tech Research Institute, Atlanta, Georgia, is being awarded a $134,000,000 ceiling cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. Under this contract, the contractor will perform research; development; engineering; state of-the-art and proof-of-concept sensor systems; and basic and advanced technology research and development. No task orders are being issued at this time. The work will be performed in Atlanta, Georgia. The ordering period is from March 30, 2016 through March 29, 2021. One offer was solicited and one offer was received. Research, development, test and evaluation funds will be used, with no funds being obligated at the time of award. The Missile Defense Agency, Redstone Arsenal, Alabama, is the contracting activity (HQ0147-16-D-0001).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "HQ014716D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 134000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Research, development, test and evaluation funds will be used, with no funds being obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Redstone Arsenal, Alabama",
+          "code": "HQ0147-16-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Georgia Tech Research Institute",
+            "location": "Atlanta, Georgia",
+            "contract_number": "HQ0147-16-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity (ceiling)",
+        "description": "Research, development, engineering, and sensor systems and basic/advanced technology R&D; no task orders issued at this time; ordering period March 30, 2016 through March 29, 2021",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 134000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "one offer solicited, one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Integrated Defense Systems, San Diego, California, is being awarded a $20,618,850 cost-plus-fixed-fee modification to a previously awarded contract (N00039-11-C-0089) for the Global Positioning System (GPS) Based Positioning, Navigation and Timing Service (GPNTS). Under this modification Raytheon will conduct requirements analysis, develop requirements documentation, develop software, and conduct testing to support successful integration of M-Code capable GPS into the GPNTS system. Work will be performed in San Diego, California, and is expected to be completed by Aug. 31, 2017. Research, development, test and evaluation funds in the amount of $9,078,146 will be placed on contract and obligated at the time of award. Contract funds will expire at the end of the current fiscal year. This contract was competitively solicited and procured via the Commerce Business Daily’s Federal Business Opportunities website and the Space and Naval Warfare Systems Command e-Commerce Central website, with four offers received. The Space and Naval Warfare Systems Command, San Diego, California, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0003911C0089"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 20618850.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9078146.0,
+        "funding_text": "Research, development, test and evaluation funds in the amount of $9,078,146 will be placed on contract and obligated at the time of award",
+        "completion_date": "2017-08-31",
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Command, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Raytheon Co., Integrated Defense Systems",
+            "location": "San Diego, California",
+            "contract_number": "N00039-11-C-0089",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Requirements analysis, software development and testing to integrate M-Code capable GPS into the Global Positioning System (GPS) Based Positioning, Navigation and Timing Service (GPNTS)",
+        "base_contract_number": "N00039-11-C-0089",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 20618850,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9078146,
+        "fms_countries": [],
+        "competition": "competitive, four offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Readiness Management Support LC, Panama City, Florida, is being awarded a $16,721,185 modification to a previously awarded cost-plus-fixed-fee contract (N65236-09-C-6872) for a ceiling increase and period of performance extension of 90 days to June 30, 2016; and three one-month options to Sept. 30, 2016, to provide continued aviation command and control operations and maintenance services in support of the Air Force Central Command. This contract included four options which, as a result of this modification, would bring the cumulative ceiling value of this contract to $484,569,843. Work will be performed in Southwest Asia and is expected to continue via award of the follow-on task orders in April 2016. No funds will be obligated at the time of award. Contract funds in the amount of $16,721,185 will expire at the end of the fiscal year. This contract was previously procured on a competitive basis with two offerors received via the Commerce Business Daily’s Federal Business Opportunities website, and the Space and Naval Warfare Systems Center e-Commerce Central website. Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina, is the contracting activity (N65236-09-C-6872).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6523609C6872"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 16721185.0,
+        "cumulative_value_usd": 484569843.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Space and Naval Warfare Systems Center Atlantic, Charleston, South Carolina",
+          "code": "N65236-09-C-6872"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Readiness Management Support LC",
+            "location": "Panama City, Florida",
+            "contract_number": "N65236-09-C-6872",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Ceiling increase and 90-day period of performance extension to June 30, 2016, plus three one-month options, for aviation command and control operations and maintenance in support of Air Force Central Command",
+        "base_contract_number": "N65236-09-C-6872",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16721185,
+        "cumulative_value_usd": 484569843,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive, two offerors received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Creek Technologies Co.,* Beavercreek, Ohio, is being awarded a $12,129,445 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract (N00244-16-D-0011) for a variety of teaching, course development, and subject matter experts for the Center for Homeland Defense and Security programs for the Naval Postgraduate School. This contract includes a one-year base period and a four-year optional period, which if exercised, will bring the contract value to $66,686,836. Work will be performed in Monterey, California. Work is expected to be completed by March 2017; if all options are exercised, work will continue through March 2021. Fiscal 2016 Federal Emergency Management Agency funds under the Stafford Act in the amount of $5,000 will be obligated to fund the contract's minimum amount and funds will expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Navy Electronic Commerce Online website as a 100 percent 8(a) set-aside requirement, with three offers received. Naval Supply Systems Command Fleet Logistics Center San Diego, California, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0024416D0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12129445.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5000.0,
+        "funding_text": "Fiscal 2016 Federal Emergency Management Agency funds under the Stafford Act in the amount of $5,000 will be obligated to fund the contract's minimum amount and funds will expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Creek Technologies Co.",
+            "location": "Beavercreek, Ohio",
+            "contract_number": "N00244-16-D-0011",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity",
+        "description": "Teaching, course development, and subject matter experts for the Center for Homeland Defense and Security programs, Naval Postgraduate School",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12129445,
+        "cumulative_value_usd": 66686836,
+        "obligated_usd": 5000,
+        "fms_countries": [],
+        "competition": "100 percent 8(a) set-aside, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is being awarded a $9,335,027 modification to a previously awarded cost-plus-fixed-fee contract (N00019-04-C-3146) for engineering services and supplies to update the flight simulators in support of the P-8A Poseidon aircraft. This modification includes the second configuration of the P-8A simulators with air-to-air refueling and flight test efforts. Work will be performed in Seattle, Washington (70 percent); and Patuxent River, Maryland (30 percent), and is expected to be completed in January 2018. Fiscal 2016 research, development, testing and evaluation (Navy) funds in the amount of $150,000 are being obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0001904C3146"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9335027.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000.0,
+        "funding_text": "Fiscal 2016 research, development, testing and evaluation (Navy) funds in the amount of $150,000 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-01",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N00019-04-C-3146",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Engineering services and supplies to update P-8A flight simulators, including second configuration with air-to-air refueling and flight test efforts",
+        "base_contract_number": "N00019-04-C-3146",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9335027,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics, Co., Fort Worth, Texas, has been awarded a not-to-exceed $16,700,000 modification (P00696) to previously awarded contract FA8611-08-C-2897 to incorporate an unpriced change order for mitigation of the common integrated processor multi-chip modules diminishing manufacturing sources and material shortages issue. Work will be performed at Fort Worth, Texas, and is expected to be complete by Dec. 31, 2016. Fiscal 2016 operation and maintenance funds in the amount of $5,800,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "FA861108C2897"
+        ],
+        "modification_numbers": [
+          "P00696"
+        ],
+        "is_modification": true,
+        "value_usd": 16700000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5800000.0,
+        "funding_text": "Fiscal 2016 operation and maintenance funds in the amount of $5,800,000 are being obligated at the time of award",
+        "completion_date": "2016-12-31",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics, Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA8611-08-C-2897",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Unpriced change order to mitigate common integrated processor multi-chip modules diminishing manufacturing sources and material shortages issue",
+        "base_contract_number": "FA8611-08-C-2897",
+        "order_number": null,
+        "modification_number": "P00696",
+        "value_usd": 16700000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5800000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Corp. Aeronautics Co., Fort Worth, has been awarded a $10,715,765 modification (P00667) to previously awarded contract FA8611-08-C-2897 to definitize the F-22 avionics split line relocation depot activation. Contractor will relocate the Avionics Integration Laboratory (AIL) Split Line to the Ogden Air Logistics Complex. Work will be performed at Fort Worth, Texas; and Hill Air Force Base, Utah, and is expected to be complete by April 30, 2017. Fiscal 2015 aircraft procurement funds in the amount of $4,715,765 are being obligated at the time of award. Air Force Life Cycle Management Center, Hill Air Force Base, Utah, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "FA861108C2897"
+        ],
+        "modification_numbers": [
+          "P00667"
+        ],
+        "is_modification": true,
+        "value_usd": 10715765.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4715765.0,
+        "funding_text": "Fiscal 2015 aircraft procurement funds in the amount of $4,715,765 are being obligated at the time of award",
+        "completion_date": "2017-04-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Hill Air Force Base, Utah",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp. Aeronautics Co.",
+            "location": "Fort Worth",
+            "contract_number": "FA8611-08-C-2897",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Definitize F-22 avionics split line relocation depot activation (relocate AIL Split Line to Ogden Air Logistics Complex)",
+        "base_contract_number": "FA8611-08-C-2897",
+        "order_number": null,
+        "modification_number": "P00667",
+        "value_usd": 10715765,
+        "cumulative_value_usd": null,
+        "obligated_usd": 4715765,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "NetCentrics Corp., Herndon, Virginia, is being awarded $13,100,000 in a firm-fixed-price contract in order to obtain information technology operations front office support for the Office of the Secretary of Defense, Washington Headquarters Services (WHS), WHS supported organizations, and the Pentagon Force Protection Agency. Additionally, similar support for the Office of General Counsel, the Defense Legal Services Agency, the Central Adjudication Facility, and the Office of Military Commissions, may be obtained under this task order. Work performance will take place in the National Capital Region. The expected completion date is Aug. 31, 2016. Fiscal 2016 operations and maintenance funds in the amount of $13,100,000 are being obligated at time of the award. Washington Headquarters Services, Arlington, Virginia, is the contracting office (HQ0034-11-D-0002).",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "HQ003411D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13100000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13100000.0,
+        "funding_text": "Fiscal 2016 operations and maintenance funds in the amount of $13,100,000 are being obligated at time of the award",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "NetCentrics Corp.",
+            "location": "Herndon, Virginia",
+            "contract_number": "HQ0034-11-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price",
+        "description": "IT operations front office support for OSD, Washington Headquarters Services, supported organizations, and Pentagon Force Protection Agency",
+        "base_contract_number": "HQ0034-11-D-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13100000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 13100000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-03-29.html"
+  "source": "file:2016-03-29.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:31:23Z"
+  }
 }

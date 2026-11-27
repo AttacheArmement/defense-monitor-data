@@ -12,75 +12,615 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., Oklahoma City, Oklahoma, has been awarded a $14,314,300,000 indefinite-delivery/indefinite-quantity contract for the modification, modernization, engineering, sustainment and test of the B-1/B-52 weapons systems. This B-1/B-52 Flexible Acquisition and Sustainment contract provides for the upcoming modernization and sustainment efforts to increase lethality, enhance survivability, improve supportability, and increase responsiveness. Work will be performed in Oklahoma City, Oklahoma, and is expected to be complete by April 11, 2029. Fiscal 2019 research, development, test, and evaluation funds in the amount of $1,215,568 are being obligated on the first task order at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Dayton, Ohio, is the contracting activity (FA8628-19-D-1000).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA862819D1000"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14314300000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1215568.0,
+        "funding_text": "Fiscal 2019 research, development, test, and evaluation funds in the amount of $1,215,568 are being obligated on the first task order at the time of award",
+        "completion_date": "2029-04-11",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Dayton, Ohio",
+          "code": "FA8628-19-D-1000"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Oklahoma City, Oklahoma",
+            "contract_number": "FA8628-19-D-1000",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Modification, modernization, engineering, sustainment and test of the B-1/B-52 weapons systems (B-1/B-52 Flexible Acquisition and Sustainment contract)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14314300000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1215568,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, has been awarded a $21,607,000 indefinite-delivery/indefinite-quantity modification (P00002) to previously awarded contract FA8681-18-D-0007 for GBU-57 Massive Ordnance Penetrator sustainment. This modification extends the ordering period an additional four years and increases the order ceiling price to cover the extension. Work will be performed in St. Louis, Missouri, and is expected to be complete by July 18, 2023. This modification brings the total cumulative face value of the contract to $26,407,000. No funds are being obligated at time of award. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA868118D0007"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 21607000.0,
+        "cumulative_value_usd": 26407000.0,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award",
+        "completion_date": "2023-07-18",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "GBU-57 Massive Ordnance Penetrator sustainment; extends ordering period four years and increases order ceiling",
+        "base_contract_number": "FA8681-18-D-0007",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 21607000,
+        "cumulative_value_usd": 26407000,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. SPECIAL OPERATIONS COMMAND",
       "kind": "announcement",
       "text": "Gentex Corp., Simpson, Pennsylvania, was awarded a $95,000,000 maximum, indefinite-delivery/indefinite-quantity, firm-fixed-price contract (H92403-19-D-0003) for the purchase of Special Operations Forces Personal Equipment Advance Requirements (SPEAR) family tactical headborne systems in support of U.S. Special Operations Command (USSOCOM). Fiscal 2019 operations and maintenance funds in the amount of $150,000 were obligated at the time of award. The work will be performed in Simpson, Pennsylvania. Work is expected to be completed by April 2024. This contract was awarded through full and open competition with two proposals received. USSOCOM, Tampa, Florida, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "H9240319D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 95000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance funds in the amount of $150,000 were obligated at the time of award",
+        "completion_date": "2024-04",
+        "contracting_activity": {
+          "name": "USSOCOM, Tampa, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Gentex Corp.",
+            "location": "Simpson, Pennsylvania",
+            "contract_number": "H92403-19-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price maximum indefinite-delivery/indefinite-quantity contract",
+        "description": "Purchase of SOF Personal Equipment Advance Requirements (SPEAR) family tactical headborne systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 95000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 150000,
+        "fms_countries": [],
+        "competition": "full and open competition, two proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "M.A. Mortenson Co., Minneapolis, Minnesota, is awarded a $45,209,000 modification under a previously awarded firm-fixed-price contract (N69450-18-C-0905) to exercise Option One which provides for the Phase Three repairs of the Explosive Handling Wharf One facility at Naval Submarine Base Kings Bay. The work for the Phase Three repairs encompasses repairs of the wall systems, including wall panels and framing, lighting, power, shore power booms, in-haul rail system, constant-tensioning system, support building finishes, utilities and infrastructure. The total contract amount after exercise of this option will be $95,416,000. Work will be performed in Kings Bay, Georgia, and is expected to be completed by March 2022. Fiscal 2019 operations and maintenance (Navy) contract funds in the amount of $45,209,000 are obligated on this award and will expire at the end of the current fiscal year. Naval Facilities Engineering Command Southeast, Jacksonville, Florida, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N6945018C0905"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 45209000.0,
+        "cumulative_value_usd": 95416000.0,
+        "obligated_usd": 45209000.0,
+        "funding_text": "Fiscal 2019 operations and maintenance (Navy) contract funds in the amount of $45,209,000 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2022-03",
+        "contracting_activity": {
+          "name": "Naval Facilities Engineering Command Southeast, Jacksonville, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "M.A. Mortenson Co.",
+            "location": "Minneapolis, Minnesota",
+            "contract_number": "N69450-18-C-0905",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Phase Three repairs of Explosive Handling Wharf One facility at Naval Submarine Base Kings Bay (Option One exercise)",
+        "base_contract_number": "N69450-18-C-0905",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45209000,
+        "cumulative_value_usd": 95416000,
+        "obligated_usd": 45209000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Navatek Ltd., Honolulu, Hawaii, is awarded a $7,998,670 cost-plus-fixed-fee contract for the “Advanced Planning Hull Research” effort. Work will be performed in Honolulu, Hawaii (61 percent); and Belfast, Maine (39 percent), and is expected to be completed April 12, 2022. Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,895,000 will be obligated at the time of award. No funds will expire at end of current fiscal year. This contract was competitively procured under N00014-18-S-B001 entitled, “Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology.” Proposals will be received throughout the year under the long range BAA, therefore, the number of proposals received in response to the solicitation is unknown at this time. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N00014-19-C-1023).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N0001418SB001",
+          "N0001419C1023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7998670.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1895000.0,
+        "funding_text": "Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $1,895,000 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Office of Naval Research, Arlington, Virginia",
+          "code": "N00014-19-C-1023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Navatek Ltd.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N00014-19-C-1023",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Advanced Planning Hull Research effort, competed under long range BAA N00014-18-S-B001",
+        "base_contract_number": "N00014-18-S-B001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7998670,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1895000,
+        "fms_countries": [],
+        "competition": "competitively procured under long range BAA; number of proposals unknown",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Kellogg Brown & Root Services Inc., Houston, Texas (W52P1J-19-D-0044); Vectrus Systems Corp., Colorado Springs, Colorado (W52P1J-19-D-0045); Fluor Intercontinental Inc., Greenville, South Carolina (W52P1J-19-D-0046); and PAE-Parsons Global Logistics Services LLC, Arlington, Virginia (W52P1J-19-D-0047), competed for orders totaling $43,927,926 on hybrid (cost-plus-fixed-fee and firm-fixed-price) contract for services in support of the geographical combatant commands under the Logistics Civil Augmentation Program (LOGCAP) V. Bids were solicited via the internet with six received. Work location and funding will be determined with each order, with an estimated completion date of April 11, 2029. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J19D0044",
+          "W52P1J19D0045",
+          "W52P1J19D0046",
+          "W52P1J19D0047"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 43927926.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2029-04-11",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Kellogg Brown & Root Services Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "W52P1J-19-D-0044",
+            "markers": null
+          },
+          {
+            "name": "Vectrus Systems Corp.",
+            "location": "Colorado Springs, Colorado",
+            "contract_number": "W52P1J-19-D-0045",
+            "markers": null
+          },
+          {
+            "name": "Fluor Intercontinental Inc.",
+            "location": "Greenville, South Carolina",
+            "contract_number": "W52P1J-19-D-0046",
+            "markers": null
+          },
+          {
+            "name": "PAE-Parsons Global Logistics Services LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "W52P1J-19-D-0047",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "hybrid (cost-plus-fixed-fee and firm-fixed-price)",
+        "description": "Services in support of geographical combatant commands under LOGCAP V",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43927926,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, six offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Ameresco, Washington, District of Columbia, was awarded a $21,601,454 firm-fixed-price contract for design, construction, commissioning, validation, training and transition of a fully usable and complete microgrid system designed to provide contingency electric power to Fort Hunter Liggett, California, when electricity provided by Pacific Gas and Electric is unstable or unavailable. Bids were solicited via the internet with 11 received. Work will be performed in Fort Hunter Liggett, California, with an estimated completion date of May 11, 2021. Fiscal 2015 and 2016 military construction funds in the amount of $21,601,454 were obligated at the time of the award. U.S. Army Corps of Engineers, Sacramento, California, is the contracting activity (W91238-19-C-0012).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W9123819C0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 21601454.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21601454.0,
+        "funding_text": "Fiscal 2015 and 2016 military construction funds in the amount of $21,601,454 were obligated at the time of the award",
+        "completion_date": "2021-05-11",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Sacramento, California",
+          "code": "W91238-19-C-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Ameresco",
+            "location": "Washington, District of Columbia",
+            "contract_number": "W91238-19-C-0012",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Design, construction, commissioning and transition of microgrid system for contingency power at Fort Hunter Liggett, California",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 21601454,
+        "cumulative_value_usd": null,
+        "obligated_usd": 21601454,
+        "fms_countries": [],
+        "competition": "internet solicitation, 11 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Ordnance Systems Inc., Kingsport, Tennessee, was awarded a $7,034,169 modification (P00683) to contract DAAA09-98-E-0006 to upgrade the A2B facility to correct capacity issues. Work will be performed in Kingsport, Tennessee, with an estimated completion date of June 30, 2021. Fiscal 2018 other procurement, Army funds in the amount of $7,034,169 were obligated at the time of the award. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "DAAA0998E0006"
+        ],
+        "modification_numbers": [
+          "P00683"
+        ],
+        "is_modification": true,
+        "value_usd": 7034169.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7034169.0,
+        "funding_text": "Fiscal 2018 other procurement, Army funds in the amount of $7,034,169 were obligated at the time of the award",
+        "completion_date": "2021-06-30",
+        "contracting_activity": {
+          "name": "U.S. Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "BAE Systems Ordnance Systems Inc.",
+            "location": "Kingsport, Tennessee",
+            "contract_number": "DAAA09-98-E-0006",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Upgrade of A2B facility to correct capacity issues",
+        "base_contract_number": "DAAA09-98-E-0006",
+        "order_number": null,
+        "modification_number": "P00683",
+        "value_usd": 7034169,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7034169,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Polar Net LLC,** Cody, Wyoming, has been awarded a maximum $42,990,751 firm-fixed-price contract for small arms rails and mounts. This was a competitive acquisition with one offer received. This is a five-year base contract with no option periods. Locations of performance are Wyoming and Texas, with an April 11, 2024, performance completion date. Using military services are Army, Navy and Marine Corps. Type of appropriation is fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Land & Maritime, Columbus, Ohio (SPE7MX19D0026).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE7MX19D0026"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42990751.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land & Maritime, Columbus, Ohio",
+          "code": "SPE7MX19D0026"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Woman-owned small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Polar Net LLC",
+            "location": "Cody, Wyoming",
+            "contract_number": "SPE7MX19D0026",
+            "markers": "**"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Small arms rails and mounts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42990751,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "PCX Aerostructures LLC, Newington, Connecticut, has been awarded a maximum $8,586,414 firm-fixed-price contract for main rotor mast support parts. This was a sole-source acquisition using justification 10 U.S. Code 2304(c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a 20-month contract with no option periods. Location of performance is Connecticut, with a Dec. 31, 2020, performance completion date. Using military service is Army. Type of appropriation is fiscal 2019 Army working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-19-C-0027).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "SPRRA119C0027"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8586414.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Redstone Arsenal, Alabama",
+          "code": "SPRRA1-19-C-0027"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "PCX Aerostructures LLC",
+            "location": "Newington, Connecticut",
+            "contract_number": "SPRRA1-19-C-0027",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Main rotor mast support parts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8586414,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source (10 U.S.C. 2304(c)(1))",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE HEALTH AGENCY",
       "kind": "announcement",
       "text": "Intellidyne LLC, Falls Church, Virginia, was awarded a $15,695,542 firm-fixed-price modification to previously awarded contract HT0011-19-F-0001. This exercises Option Period I (April 30, 2019, to Oct. 29, 2019) to provide direct support to the Defense Health Agency Global Service Center and the enterprise to fully support the integration of all desk side support, remote, or onsite troubleshooting, onsite information technology touch labor, Network Support Services activity program management, network security and infrastructure assurance activities to include risk management framework support, in-room video teleconferencing support, Defense Health Headquarters site asset management, and network/systems engineering where required into the Military Health System Joint Active Directory Management and the Military Health System Medical Community of Interest network environment systems and infrastructure. This award utilizes fiscal 2019 operations and maintenance funds in the amount of $15,695,542. The Defense Health Agency, Contracting Office – Falls Church, Virginia, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "HT001119F0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15695542.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Defense Health Agency, Contracting Office – Falls Church, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Intellidyne LLC",
+            "location": "Falls Church, Virginia",
+            "contract_number": "HT0011-19-F-0001",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Option Period I (April 30, 2019 to Oct. 29, 2019) for direct support to the Defense Health Agency Global Service Center and enterprise IT/network support",
+        "base_contract_number": "HT0011-19-F-0001",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 15695542,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15695542,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "AAROW Electrical Solutions LLC, Charlotte Hall, Maryland, has been awarded an $8,855,725 firm-fixed-price contract. The contract is to repair the Pentagon Memorial lighting and electrical distribution systems located to the west of the Pentagon and east of Route 27. This is a design-build construction contract to replace the light fixtures and the electrical conduits and circuits with a watertight solution. Work performance will take place at the Pentagon, Arlington, Virginia. Fiscal 2018 Pentagon Reservation Maintenance Revolving funds in the amount of $8,855,725 are being awarded. The expected completion date is May 16, 2021. Washington Headquarters Services, Arlington, Virginia, is the contracting activity (HQ0034-19-C-0013).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "HQ003419C0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8855725.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Washington Headquarters Services, Arlington, Virginia",
+          "code": "HQ0034-19-C-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "AAROW Electrical Solutions LLC",
+            "location": "Charlotte Hall, Maryland",
+            "contract_number": "HQ0034-19-C-0013",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price design-build",
+        "description": "Repair of Pentagon Memorial lighting and electrical distribution systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8855725,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8855725,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:40Z",
-  "source": "file:2019-04-12.html"
+  "source": "file:2019-04-12.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T02:09:21Z"
+  }
 }

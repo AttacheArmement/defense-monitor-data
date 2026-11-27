@@ -9,15 +9,104 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Huntsville Rehabilitation Foundation (Phoenix) AbilityOne Contractor, Huntsville, Alabama, was awarded a $9,651,735 firm-fixed-price, multi-year contract for parachutist harnesses. Work will be performed in Huntsville, Alabama, with an estimated completion date of Jan. 5, 2020. One bid was solicited with one received. Fiscal 2014 other procurement funds in the amount of $1,133,640 are being obligated at the time of the award. Army Contracting Command, Tank and Automotive (Warren), Warren, Michigan, is the contracting activity (W56HZV-15-D-0010).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15D0010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9651735.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1133640.0,
+        "funding_text": "Fiscal 2014 other procurement funds in the amount of $1,133,640 are being obligated at the time of the award",
+        "completion_date": "2020-01-05",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Tank and Automotive (Warren), Warren, Michigan",
+          "code": "W56HZV-15-D-0010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Huntsville Rehabilitation Foundation (Phoenix) AbilityOne Contractor",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W56HZV-15-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, multi-year contract",
+        "description": "Parachutist harnesses",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9651735,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1133640,
+        "fms_countries": [],
+        "competition": "One bid solicited with one received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Northrop Grumman Information and Technology, Inc., McLean, Virginia, is being awarded a $7,123,971 modification to a previously awarded firm-fixed-price contract for cyber network and defense services in support of the Marine Corps Enterprise Network. Work will be performed in Quantico, Virginia (60 percent); Camp Pendleton, California (30 percent); and Okinawa, Japan (10 percent), and is expected to be completed by July 2015. Fiscal 2015 operations and maintenance (Marine Corps) funds in the amount of $7,123,971 will be obligated at the time of award and will expire at the end of the current fiscal year. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-11-F-4915).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "M6785411F4915"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 7123971.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7123971.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Marine Corps) funds in the amount of $7,123,971 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2015-07",
+        "contracting_activity": {
+          "name": "The Marine Corps Systems Command, Quantico, Virginia",
+          "code": "M67854-11-F-4915"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Information and Technology, Inc.",
+            "location": "McLean, Virginia",
+            "contract_number": "M67854-11-F-4915",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Cyber network and defense services in support of the Marine Corps Enterprise Network",
+        "base_contract_number": "M67854-11-F-4915",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7123971,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7123971,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2015-01-07.html"
+  "source": "file:2015-01-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:20:02Z"
+  }
 }

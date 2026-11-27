@@ -11,93 +11,860 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Atlantic Diving Supply Inc., doing business as ADS Inc., Virginia Beach, Virginia (FA4890-16-D-0001); CACI Inc., Chantilly, Virginia (FA4890-16-D-0002); DynCorp International, Fort Worth, Texas (FA4890-16-D-0003); Global Threat Reduction LLC, Reston, Virginia (FA4890-16-D-0004); Global Threat Response Group LLC, Cape Canaveral, Florida (FA4890-16-D-0005); Honeywell Technology Solutions Inc., Columbia, Maryland (FA4890-16-D-0006); PAE Applied Technologies LLC, Arlington, Virginia (FA4890-16-D-0007); Raytheon Intelligence, Information, & Services, Dulles, Virginia (FA4890-16-D-0008); Triple Canopy Inc., Reston, Virginia (FA4890-16-D-0009); Blackhawk-PRI Critical Services LLC,* Las Vegas, Nevada (FA4890-16-D-0010); Cambridge International Systems Inc.,* Arlington, Virginia (FA4890-16-D-0011); International Tactical Solutions LLC,* Huntsville, Alabama (FA4890-16-D-0012); Obera LLC,* Herndon, Virginia (FA4890-16-D-0013); Patriot Group International Inc.,* Warrenton, Virginia (FA4890-16-D-0014); and Technology Management Co. Inc.,* Albuquerque, New Mexico (FA4890-16-D-0015), have been awarded a combined not-to-exceed $975,000,000 multiple award, indefinite-delivery/indefinite-quantity contract for counter narcotics and global threats operations and logistics support. Contractor will provide services, equipment, material, and minor construction services to improve the capability of U.S. and partner nation agency organizations; and endeavors to detect, deter, disrupt, degrade, and defeat national security threats posed by illegal drugs, trafficking, piracy, transnational organized crime, threat finance networks, and any potential nexus among these activities. Work will be performed within the continental U.S., to include Alaska and Hawaii, and outside the U.S., and is expected to be complete by Jan. 28, 2025. This award is the result of a competitive acquisition with 16 offers received. Fiscal 2016 operation and maintenance funds in the amount of $50,000 for each offeror are being obligated at the time of award to satisfy the minimum guarantee. Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA489016D0001",
+          "FA489016D0002",
+          "FA489016D0003",
+          "FA489016D0004",
+          "FA489016D0005",
+          "FA489016D0006",
+          "FA489016D0007",
+          "FA489016D0008",
+          "FA489016D0009",
+          "FA489016D0010",
+          "FA489016D0011",
+          "FA489016D0012",
+          "FA489016D0013",
+          "FA489016D0014",
+          "FA489016D0015"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 975000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 50000.0,
+        "funding_text": "Fiscal 2016 operation and maintenance funds in the amount of $50,000 for each offeror are being obligated at the time of award to satisfy the minimum guarantee",
+        "completion_date": "2025-01-28",
+        "contracting_activity": {
+          "name": "Air Combat Command Acquisition Management and Integration Center, Joint Base Langley-Eustis, Virginia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Atlantic Diving Supply Inc., doing business as ADS Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "FA4890-16-D-0001",
+            "markers": null
+          },
+          {
+            "name": "CACI Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "FA4890-16-D-0002",
+            "markers": null
+          },
+          {
+            "name": "DynCorp International",
+            "location": "Fort Worth, Texas",
+            "contract_number": "FA4890-16-D-0003",
+            "markers": null
+          },
+          {
+            "name": "Global Threat Reduction LLC",
+            "location": "Reston, Virginia",
+            "contract_number": "FA4890-16-D-0004",
+            "markers": null
+          },
+          {
+            "name": "Global Threat Response Group LLC",
+            "location": "Cape Canaveral, Florida",
+            "contract_number": "FA4890-16-D-0005",
+            "markers": null
+          },
+          {
+            "name": "Honeywell Technology Solutions Inc.",
+            "location": "Columbia, Maryland",
+            "contract_number": "FA4890-16-D-0006",
+            "markers": null
+          },
+          {
+            "name": "PAE Applied Technologies LLC",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA4890-16-D-0007",
+            "markers": null
+          },
+          {
+            "name": "Raytheon Intelligence, Information, & Services",
+            "location": "Dulles, Virginia",
+            "contract_number": "FA4890-16-D-0008",
+            "markers": null
+          },
+          {
+            "name": "Triple Canopy Inc.",
+            "location": "Reston, Virginia",
+            "contract_number": "FA4890-16-D-0009",
+            "markers": null
+          },
+          {
+            "name": "Blackhawk-PRI Critical Services LLC",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "FA4890-16-D-0010",
+            "markers": "*"
+          },
+          {
+            "name": "Cambridge International Systems Inc.",
+            "location": "Arlington, Virginia",
+            "contract_number": "FA4890-16-D-0011",
+            "markers": "*"
+          },
+          {
+            "name": "International Tactical Solutions LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "FA4890-16-D-0012",
+            "markers": "*"
+          },
+          {
+            "name": "Obera LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "FA4890-16-D-0013",
+            "markers": "*"
+          },
+          {
+            "name": "Patriot Group International Inc.",
+            "location": "Warrenton, Virginia",
+            "contract_number": "FA4890-16-D-0014",
+            "markers": "*"
+          },
+          {
+            "name": "Technology Management Co. Inc.",
+            "location": "Albuquerque, New Mexico",
+            "contract_number": "FA4890-16-D-0015",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "multiple award, indefinite-delivery/indefinite-quantity contract",
+        "description": "Counter narcotics and global threats operations and logistics support",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 975000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 750000,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 16 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Technology Service Corp., Silver Spring, Maryland, has been awarded a $23,812,562 modification (P00025) to previously awarded contract FA8650-14-C-7400 for the Rapid Reaction Multi-Mission/Support Jammer Cueing (RRMMS/SJC) acquisition effort. Contractor will further develop technologies they have established under previous and current Small Business Innovation Research Phase I and II contracts. The contractor will use rapid prototyping processes and modular architectures to deliver mission critical and urgent technological capabilities. Work will be performed at Kirtland Air Force Base, New Mexico; and in deployed locations. Work is expected to be complete by Dec. 23, 2018. Fiscal 2016 research, development, test and evaluation funds in the amount of $775,916 are being obligated at the time of award. Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA865014C7400"
+        ],
+        "modification_numbers": [
+          "P00025"
+        ],
+        "is_modification": true,
+        "value_usd": 23812562.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 775916.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $775,916 are being obligated at the time of award",
+        "completion_date": "2018-12-23",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Technology Service Corp.",
+            "location": "Silver Spring, Maryland",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Rapid Reaction Multi-Mission/Support Jammer Cueing (RRMMS/SJC) development effort",
+        "base_contract_number": "FA8650-14-C-7400",
+        "order_number": null,
+        "modification_number": "P00025",
+        "value_usd": 23812562,
+        "cumulative_value_usd": null,
+        "obligated_usd": 775916,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Harris Corp. - Government Communications Systems, Palm Bay, Florida, has been awarded a $15,816,091 modification (P00230) to exercise the option on previously awarded contract FA8819-08-C-0001 for Space Control Depot support. Contractor will provide depot and sustainment engineering; repairable and disposable item management; stock, storage and issuance of spares; hardware and software maintenance and repairs; and security support along with other requirements in the statement of work. Work will be performed at Palm Bay, Florida, and is expected to be complete by Jan. 31, 2017. Fiscal 2016 operation and maintenance; and research, development, test and evaluation funds in the amount of $7,892,653 are being obligated at the time of award. Air Force Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA881908C0001"
+        ],
+        "modification_numbers": [
+          "P00230"
+        ],
+        "is_modification": true,
+        "value_usd": 15816091.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7892653.0,
+        "funding_text": "Fiscal 2016 operation and maintenance; and research, development, test and evaluation funds in the amount of $7,892,653 are being obligated at the time of award",
+        "completion_date": "2017-01-31",
+        "contracting_activity": {
+          "name": "Air Force Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Harris Corp. - Government Communications Systems",
+            "location": "Palm Bay, Florida",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Space Control Depot support",
+        "base_contract_number": "FA8819-08-C-0001",
+        "order_number": null,
+        "modification_number": "P00230",
+        "value_usd": 15816091,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7892653,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Missile and Fire Control, Orlando, Florida, has been awarded a $15,699,586 modification (P00014) to previously awarded contract FA8682-14-C-0084 for Lot 12 of NAMMO value engineering change proposal for Joint Air-to-Surface Standoff Missile (JASSM) production. Work will be performed at Orlando, Florida; Troy, Alabama; and Salt Lake City, Utah, and is expected to be complete by Jan. 27, 2018. Fiscal 2014 missile procurement funds in the amount of $15,699,586 are being obligated at the time of award. Air Force Life Cycle Management Center, Eglin Air Force Base, Florida, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA868214C0084"
+        ],
+        "modification_numbers": [
+          "P00014"
+        ],
+        "is_modification": true,
+        "value_usd": 15699586.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15699586.0,
+        "funding_text": "Fiscal 2014 missile procurement funds in the amount of $15,699,586 are being obligated at the time of award",
+        "completion_date": "2018-01-27",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Eglin Air Force Base, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Missile and Fire Control",
+            "location": "Orlando, Florida",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Lot 12 of NAMMO value engineering change proposal for Joint Air-to-Surface Standoff Missile (JASSM) production",
+        "base_contract_number": "FA8682-14-C-0084",
+        "order_number": null,
+        "modification_number": "P00014",
+        "value_usd": 15699586,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15699586,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "MRSL Real-Time Systems Laboratory Inc.,* Sarasota, Florida, has been awarded a $11,704,311 cost-plus-fixed-fee completion contract for new capabilities for advanced signal intelligence (SIGINT). Contractor will provide for development of advanced SIGINT processing and exploitation capabilities. Work will be performed at Sarasota, Florida, and is expected to be complete by Feb. 1, 2021. This award is the result of a competitive acquisition with two offers received. Fiscal 2016 research, development, test and evaluation funds in the amount of $1,109,000 are being obligated at the time of award. Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-16-C-0023).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "FA875016C0023"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11704311.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1109000.0,
+        "funding_text": "Fiscal 2016 research, development, test and evaluation funds in the amount of $1,109,000 are being obligated at the time of award",
+        "completion_date": "2021-02-01",
+        "contracting_activity": {
+          "name": "Air Force Research Laboratory, Rome, New York",
+          "code": "FA8750-16-C-0023"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "MRSL Real-Time Systems Laboratory Inc.",
+            "location": "Sarasota, Florida",
+            "contract_number": "FA8750-16-C-0023",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee completion contract",
+        "description": "New capabilities for advanced signal intelligence (SIGINT) processing and exploitation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11704311,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1109000,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rolls Royce Corp., Indianapolis, Indiana, is being awarded $64,515,889 for modification P00004 to a previously awarded indefinite-delivery/indefinite-quantity contract (N00019-15-D-0009) for performance based logistics supplies, services, and related support for KC-130J aircraft propulsion systems, including the AE2100D3 turboprop engine and the R391 propeller system, quick engine change kit, and associated propulsion components. Work will be performed in Indianapolis, Indiana (41 percent); Winnipeg, Canada (21 percent); Oakland, California (16 percent); Sterling, Virginia (14 percent); Al Mubarak, Kuwait (2.1 percent); Iwakuni, Japan (2 percent); Cherry Point, North Carolina (1.3 percent); Miramar, California (1.3 percent); and Fort Worth, Texas (1.3 percent), and is expected to be completed in February 2017. No funds are being obligated at the time of this award. Funds will be obligated against individual delivery orders as they are issued. This contract combines purchases for the Navy ($59,599,778; 92.38 percent), and the government of Kuwait ($4,916,111; 7.62 percent) under the Foreign Military Sales program. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D0009"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 64515889.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of this award Funds will be obligated against individual delivery orders as they are issued",
+        "completion_date": "2017-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Rolls Royce Corp.",
+            "location": "Indianapolis, Indiana",
+            "contract_number": "N00019-15-D-0009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity contract",
+        "description": "Performance based logistics supplies, services, and related support for KC-130J aircraft propulsion systems",
+        "base_contract_number": "N00019-15-D-0009",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 64515889,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Titan Maritime LLC, Pompano Beach, Florida, is being awarded a $43,000,000 modification to previously awarded contract N00024-12-D-4119 to exercise an option for salvage, salvage-related towing, harbor clearance, ocean engineering, and point-to-point towing services to support the Director of Ocean Engineering, Supervisor of Salvage and Diving. Work will be performed in the vicinity of the U.S. West Coast (80 percent); Hawaii (10 percent); and Eastern Pacific (10 percent), and is expected to be completed by February 2017. No funding is being obligated at time of award and contract funds will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002412D4119"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 43000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding is being obligated at time of award and contract funds will not expire at the end of the current fiscal year",
+        "completion_date": "2017-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Titan Maritime LLC",
+            "location": "Pompano Beach, Florida",
+            "contract_number": "N00024-12-D-4119",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Salvage, salvage-related towing, harbor clearance, ocean engineering, and point-to-point towing services",
+        "base_contract_number": "N00024-12-D-4119",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 43000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell-Boeing Joint Project Office, Amarillo, Texas, is being awarded a $15,194,706 modification to previously issued delivery order 0096 placed against basic ordering agreement N00019-12-G-0006 to exercise an option for integrated aircraft survivability equipment 24 A-kits for MV-22 aircraft to meet the joint urgent operational need in support of the Marine Corps. Work will be performed at Ridley Park, Pennsylvania (63 percent); Menlo Park, California (5 percent); Anaheim, California (5 percent); Corona, California (4 percent); Huntington Beach, California (2 percent); Fort Worth, Texas (1 percent); and various locations throughout the U.S. (20 percent), and is expected to be completed in February 2018. Fiscal 2016 aircraft procurement (Navy) funds in the amount of $15,194,706 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0001912G0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 15194706.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15194706.0,
+        "funding_text": "Fiscal 2016 aircraft procurement (Navy) funds in the amount of $15,194,706 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2018-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Bell-Boeing Joint Project Office",
+            "location": "Amarillo, Texas",
+            "contract_number": "N00019-12-G-0006",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Integrated aircraft survivability equipment 24 A-kits for MV-22 aircraft (joint urgent operational need)",
+        "base_contract_number": "N00019-12-G-0006",
+        "order_number": "0096",
+        "modification_number": null,
+        "value_usd": 15194706,
+        "cumulative_value_usd": null,
+        "obligated_usd": 15194706,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Q.E.D. Systems Inc., Virginia Beach, Virginia, is being awarded an $11,643,306 modification to previously awarded contract N00024-15-C-4400 for third party advanced planning services in support of Chief of Naval Operations availabilities, continuous maintenance availabilities (CMAVs), inactivation CMAVs, sustainment availabilities, phased modernization availabilities, re-commissioning availabilities, continuous maintenance and emergent maintenance window of opportunity for Navy surface combatant ship classes (CG 47/DDG 51). Work will be performed in Norfolk, Virginia (66 percent); and San Diego, California (34 percent), and is expected to be completed by February 2017. Fiscal 2016 operations and maintenance (Navy) funding in the amount of $226,210 will be obligated at time of award and will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N0002415C4400"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11643306.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 226210.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Navy) funding in the amount of $226,210 will be obligated at time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-02",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Q.E.D. Systems Inc.",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N00024-15-C-4400",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Third party advanced planning services for Navy surface combatant ship (CG 47/DDG 51) availabilities",
+        "base_contract_number": "N00024-15-C-4400",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11643306,
+        "cumulative_value_usd": null,
+        "obligated_usd": 226210,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Baldi Bros. Inc.,* Beaumont, California, is being awarded $10,308,021 for firm-fixed-price task order 0003 under a previously awarded multiple award construction contract (N62473-15-D-2443) to replace asphalt runway 24L at Marine Corps Air Station Miramar. The work to be performed provides for the construction of the asphalt portion of Runway 24L with portland cement concrete pavement. This project will also reconstruct the existing shoulders with airfield rated asphalt concrete. New airfield striping will be installed in accordance with applicable criteria. Work will be performed in San Diego, California, and is expected to be completed by October 2016. Fiscal 2016 operation and maintenance (Marine Corps) contract funds in the amount of $10,308,021 are obligated on this award and will expire at the end of the current fiscal year. Five proposals were received for this task order. The Naval Facilities Engineering Command, Southwest, San Diego, California, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N6247315D2443"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10308021.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10308021.0,
+        "funding_text": "Fiscal 2016 operation and maintenance (Marine Corps) contract funds in the amount of $10,308,021 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2016-10",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southwest, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Baldi Bros. Inc.",
+            "location": "Beaumont, California",
+            "contract_number": "N62473-15-D-2443",
+            "markers": "*"
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Replace asphalt runway 24L at Marine Corps Air Station Miramar",
+        "base_contract_number": "N62473-15-D-2443",
+        "order_number": "0003",
+        "modification_number": null,
+        "value_usd": 10308021,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10308021,
+        "fms_countries": [],
+        "competition": "five proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bell Boeing Joint Project Office, Amarillo, Texas, is being awarded a $9,496,401 modification to a previously awarded firm-fixed-price contract (N00019-13-C-0021) to exercise an option for two V-22 Block A to B (50/60 series) upgrade retrofit kits. Work will be performed in Cherry Point, North Carolina, and is expected to be completed in October 2016. Fiscal 2016 aircraft procurement (Navy) funds in the amount of $9,496,401 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air System Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001913C0021"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9496401.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9496401.0,
+        "funding_text": "Fiscal 2016 aircraft procurement (Navy) funds in the amount of $9,496,401 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-10",
+        "contracting_activity": {
+          "name": "The Naval Air System Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Bell Boeing Joint Project Office",
+            "location": "Amarillo, Texas",
+            "contract_number": "N00019-13-C-0021",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price contract",
+        "description": "Two V-22 Block A to B (50/60 series) upgrade retrofit kits",
+        "base_contract_number": "N00019-13-C-0021",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9496401,
+        "cumulative_value_usd": null,
+        "obligated_usd": 9496401,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "TurboCombustor Technology Inc., Stuart, Florida, has been awarded a maximum $57,607,803 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for aircraft afterburner flame holders. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1). This is a one-year base contract with four one-year option periods. Location of performance is Florida, with a Sept. 17, 2017, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4A7-16-D-0130).",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "SPE4A716D0130"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 57607803.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Richmond, Virginia",
+          "code": "SPE4A7-16-D-0130"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "TurboCombustor Technology Inc.",
+            "location": "Stuart, Florida",
+            "contract_number": "SPE4A7-16-D-0130",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Aircraft afterburner flame holders (sole source, one-year base with four one-year options)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57607803,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Strategic Defense Solutions LLC, Huntsville, Alabama, was awarded a $13,170,497 firm-fixed-price, incrementally funded, multi-year contract with options for gunnery range support, Ft. Rucker, Alabama, with an estimated completion date of Feb. 28, 2017. Bids were solicited via the Internet with 12 received. Fiscal 2016 operations and maintenance (Army) funds in the amount of $1,290,709 were obligated at the time of the award. Army Contracting Command, Ft. Benning, Georgia, is the contracting activity (W9124G-16-C-0003).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "W9124G16C0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13170497.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1290709.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $1,290,709 were obligated at the time of the award",
+        "completion_date": "2017-02-28",
+        "contracting_activity": {
+          "name": "Benning, Georgia",
+          "code": "W9124G-16-C-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Strategic Defense Solutions LLC",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W9124G-16-C-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, incrementally funded, multi-year contract with options",
+        "description": "Gunnery range support, Ft. Rucker, Alabama",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13170497,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1290709,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with 12 received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Northbank Civil & Marine Inc.,* Vancouver, Washington, was awarded a $10,528,300 firm-fixed-price contract with options for the Dalles Lock and Dam project. Bids were solicited via the Internet with two received. Work will be performed in The Dalles, Oregon, with an estimated completion date of April 15, 2017. Fiscal 2015 other procurement funds in the amount of $10,528,300 were obligated at the time of the award. Army Corps of Engineers, Portland, Oregon, is the contracting activity (W912N-16-C-0004).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "W912N16C0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10528300.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10528300.0,
+        "funding_text": "Fiscal 2015 other procurement funds in the amount of $10,528,300 were obligated at the time of the award",
+        "completion_date": "2017-04-15",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Portland, Oregon",
+          "code": "W912N-16-C-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Northbank Civil & Marine Inc.",
+            "location": "Vancouver, Washington",
+            "contract_number": "W912N-16-C-0004",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price contract with options",
+        "description": "Dalles Lock and Dam project, The Dalles, Oregon",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10528300,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10528300,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with two received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "DynCorp International LLC, Ft. Worth, Texas, was awarded a $7,685,196 modification (P00116) to foreign military sales contract W58RGZ-13-C-0040 (Afghanistan) for aviation field maintenance services for the Army Aviation and Missile Command operations in Afghanistan. Work will be performed in Afghanistan with an estimated completion date of Dec. 31, 2016. Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,685,196 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ13C0040"
+        ],
+        "modification_numbers": [
+          "P00116"
+        ],
+        "is_modification": true,
+        "value_usd": 7685196.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7685196.0,
+        "funding_text": "Fiscal 2016 operations and maintenance (Army) funds in the amount of $7,685,196 were obligated at the time of the award",
+        "completion_date": "2016-12-31",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "awardees": [
+          {
+            "name": "DynCorp International LLC",
+            "location": "Ft. Worth, Texas",
+            "contract_number": null,
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Aviation field maintenance services for Army Aviation and Missile Command operations in Afghanistan",
+        "base_contract_number": "W58RGZ-13-C-0040",
+        "order_number": null,
+        "modification_number": "P00116",
+        "value_usd": 7685196,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7685196,
+        "fms_countries": [
+          "Afghanistan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-02-01.html"
+  "source": "file:2016-02-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:37:20Z"
+  }
 }

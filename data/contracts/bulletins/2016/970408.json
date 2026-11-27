@@ -11,15 +11,123 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., Seattle, Washington, is being awarded a $31,070,335 modification to a previously awarded cost-plus-fixed-fee contract (N00019-14-C-0067) for non-recurring engineering efforts on the Liquid Air Palletized System (LAPS), including delivery of instrument unit for testing of the LAPS, in support of the P-8A Multi-mission Maritime Aircraft. Work will be performed in Seattle, Washington (59 percent); Irvine, California (31 percent); Dallas, Texas (5 percent); Gunnison, Utah (2 percent); Niagara Falls, New York (2 percent); and St. Louis, Missouri (1 percent), and is expected to be completed in March 2019. Fiscal 2015 aircraft procurement (Navy) funds in the amount of $31,070,335 will be obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0067"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 31070335.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31070335.0,
+        "funding_text": "Fiscal 2015 aircraft procurement (Navy) funds in the amount of $31,070,335 will be obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2019-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "Seattle, Washington",
+            "contract_number": "N00019-14-C-0067",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Non-recurring engineering for the Liquid Air Palletized System (LAPS), including delivery of instrument unit for testing, in support of the P-8A Multi-mission Maritime Aircraft",
+        "base_contract_number": "N00019-14-C-0067",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 31070335,
+        "cumulative_value_usd": null,
+        "obligated_usd": 31070335,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Fred L. Hawkins Company Inc.,* Havre de Grace, Maryland (W91CRB-17-D-0001); M2 Electric LLC,* Mine Hill, New Jersey (W91CRB-17-D-0002); and Relyant Global LLC,* Maryville, Tennessee (W91CRB-17-D-0003), will share a $9,999,999 firm-fixed-price contract for range maintenance support services for the U.S. Army Aberdeen Test Center. Bids were solicited via the Internet with five received. Work locations and funding will be determined with each order, with an estimated completion date of Oct. 10, 2018. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W91CRB17D0001",
+          "W91CRB17D0002",
+          "W91CRB17D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9999999.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-10-10",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Aberdeen Proving Ground, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Fred L. Hawkins Company Inc.",
+            "location": "Havre de Grace, Maryland",
+            "contract_number": "W91CRB-17-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "M2 Electric LLC",
+            "location": "Mine Hill, New Jersey",
+            "contract_number": "W91CRB-17-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Relyant Global LLC",
+            "location": "Maryville, Tennessee",
+            "contract_number": "W91CRB-17-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price",
+        "description": "Range maintenance support services for the U.S. Army Aberdeen Test Center",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9999999,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Bids solicited via the Internet with five received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2016-10-11.html"
+  "source": "file:2016-10-11.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:04:34Z"
+  }
 }

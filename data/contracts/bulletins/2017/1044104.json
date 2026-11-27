@@ -9,45 +9,363 @@
       "agency": null,
       "kind": "announcement",
       "text": "Harris Corp., Rochester, New York, has been awarded a maximum $403,264,139 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for spare parts supporting various tactical radio systems. This was a sole-source acquisition using justification 10 U.S. Code 2304(c)(2). This is a five-year contract with no option periods. Location of performance is New York, with a Jan. 5, 2022, performance completion date. Using customers are Army and Defense Logistics Agency. Types of appropriation are fiscal 2017 through fiscal 2022 Army working capital; and defense working capital funds, funded in the year of delivery order issuance. The contracting activity is the Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland (SPRBL1-17-D-0002).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPRBL117D0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 403264139.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Land and Maritime, Aberdeen Proving Ground, Maryland",
+          "code": "SPRBL1-17-D-0002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Harris Corp.",
+            "location": "Rochester, New York",
+            "contract_number": "SPRBL1-17-D-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Spare parts supporting various tactical radio systems",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 403264139,
+        "cumulative_value_usd": 403264139,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(2)",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "Brasseler USA, Savannah, Georgia, has been awarded a maximum $12,000,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for consumable dental items. This is a one-year base contract with four one-year option periods. The maximum dollar amount is for the life of the contract. This was a competitive acquisition with 19 offers received. Location of performance is Georgia, with a Jan. 8, 2022, performance completion date. Using customers are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2017 through fiscal 2022 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-17-D-0004).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE17D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 12000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-17-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Brasseler USA",
+            "location": "Savannah, Georgia",
+            "contract_number": "SPE2DE-17-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment indefinite-delivery/indefinite-quantity",
+        "description": "Consumable dental items",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 12000000,
+        "cumulative_value_usd": 12000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, 19 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": null,
       "kind": "announcement",
       "text": "McRae Industries Inc.,** Mount Gilead, North Carolina, has been awarded a maximum $9,502,500 modification (P0010) exercising the second one-year option period of a one-year base contract (SPE1C1-15-D-1023) with four one-year option periods for hot weather, flame resistant boots. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This was a competitive acquisition with two responses received. Location of performance is North Carolina, with a Jan. 8, 2018, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C115D1023"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 9502500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "McRae Industries Inc.",
+            "location": "Mount Gilead, North Carolina",
+            "contract_number": "SPE1C1-15-D-1023",
+            "markers": "**"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Second one-year option period exercise for hot weather, flame resistant boots",
+        "base_contract_number": "SPE1C1-15-D-1023",
+        "order_number": null,
+        "modification_number": "P0010",
+        "value_usd": 9502500,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "BAE Systems Norfolk Ship Repair, Norfolk, Virginia, is being awarded a $75,154,288 firm-fixed-price contract for the execution of USS San Antonio (LPD 17) fiscal 2017 docking phased maintenance availability (DMPA). This availability will include a combination of maintenance, modernization, and repair of USS San Antonio. This is a long-term availability and was completed on coast-wide (East and Gulf) basis without limiting the place of performance to the vessel’s homeport. BAE will provide the facilities and human resources capable of completing, coordinating, and integrating multiple areas of ship maintenance, repair, and modernization. This contract includes options which, if exercised, would bring the cumulative value of this contract to $79,407,461. Work will be performed in Norfolk, Virginia, and is expected to be completed by April 2018. Fiscal 2017 operations and maintenance (Navy); and other procurement (Navy) funding in the amount of $75,154,288 will be obligated at time of award. Contract funds in the amount of $73,627,370 will expire at the end of the current fiscal year. This contract was competitively procured using full and open competition via the Federal Business Opportunities website, with two offers received. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-17-C-4409).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0002417C4409"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 75154288.0,
+        "cumulative_value_usd": 79407461.0,
+        "obligated_usd": 75154288.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy); and other procurement (Navy) funding in the amount of $75,154,288 will be obligated at time of award",
+        "completion_date": "2018-04",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": "N00024-17-C-4409"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "BAE Systems Norfolk Ship Repair",
+            "location": "Norfolk, Virginia",
+            "contract_number": "N00024-17-C-4409",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "USS San Antonio (LPD 17) fiscal 2017 docking phased maintenance availability (DMPA)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 75154288,
+        "cumulative_value_usd": 79407461,
+        "obligated_usd": 75154288,
+        "fms_countries": [],
+        "competition": "full and open competition via Federal Business Opportunities website, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Gilbane Federal, Concord, California, is being awarded $7,204,728 for firm-fixed-price task order FZ03 under a previously awarded multiple award construction contract (N39430-15-D-1634) for a motor gas fuel project at San Clemente Island, California. The work to be performed provides for installation of a 10,000 gallon temporary motor gas tank, installation of a fuel pipeline, replacement of permanent motor gas storage tanks, demolition of a bulk storage tank and installation of a new hot pit system, above ground fuel supply and return piping network, and fuel separator system. Work will be performed in San Diego, California, and is expected to be completed by July 2018. Fiscal 2016 and 2017 defense working capital contract funds in the amount of $7,204,728 are obligated on this award; of which $205,000 will expire at the end of the current fiscal year. One proposal was received for this task order. The Naval Facilities Engineering Command, Southwest, San Diego, California, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N3943015D1634"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7204728.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7204728.0,
+        "funding_text": "Fiscal 2016 and 2017 defense working capital contract funds in the amount of $7,204,728 are obligated on this award; of which $205,000 will expire at the end of the current fiscal year",
+        "completion_date": "2018-07",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southwest, San Diego, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Gilbane Federal",
+            "location": "Concord, California",
+            "contract_number": "N39430-15-D-1634",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price task order",
+        "description": "Motor gas fuel project at San Clemente Island, California (task order FZ03)",
+        "base_contract_number": "N39430-15-D-1634",
+        "order_number": "FZ03",
+        "modification_number": null,
+        "value_usd": 7204728,
+        "cumulative_value_usd": null,
+        "obligated_usd": 7204728,
+        "fms_countries": [],
+        "competition": "one proposal received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Wyle Laboratories, Huntsville, Alabama (W91C9G-17-D-0001); American Systems Corp., Chantilly, Virginia (W91C9G-17-D-0002); Bevilacqua Research Corp.,* Huntsville, Alabama (W91C9G-17-D-0003); and Scientific Research Corp., Atlanta, Georgia (W91C9G-17-D-0004), will share a $51,711,700 cost-plus-fixed-fee contract for joint test and evaluation engineering services. Bids were solicited via the Internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of July 7, 2018. Army Corps of Engineers, Vicksburg, Mississippi, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W91C9G17D0001",
+          "W91C9G17D0002",
+          "W91C9G17D0003",
+          "W91C9G17D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 51711700.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2018-07-07",
+        "contracting_activity": {
+          "name": "Army Corps of Engineers, Vicksburg, Mississippi",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Wyle Laboratories",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W91C9G-17-D-0001",
+            "markers": null
+          },
+          {
+            "name": "American Systems Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "W91C9G-17-D-0002",
+            "markers": null
+          },
+          {
+            "name": "Bevilacqua Research Corp.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W91C9G-17-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "Scientific Research Corp.",
+            "location": "Atlanta, Georgia",
+            "contract_number": "W91C9G-17-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Joint test and evaluation engineering services",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 51711700,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "solicited via the Internet, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "**Small business in historically underutilized business zones",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [],
+        "action": "other",
+        "contract_type": null,
+        "description": "Footnote text: small business in historically underutilized business zones (legend entry, not a contract announcement)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2017-01-06.html"
+  "source": "file:2017-01-06.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T03:56:35Z"
+  }
 }

@@ -11,87 +11,717 @@
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Bis Services LLC, * Kenner, Louisiana (W912P8-15-D-0001); Circle LLC,* Bell Chase Louisiana (W912P8-15-D-0002); and Shavers-Whittle Construction LLC,* Mandeville, Louisiana (W912P8-15-D-0003), were awarded a $200,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award task order contract for armoring levees in the greater New Orleans, Louisiana, area with an estimated completion date of Dec. 15, 2020. Bids were solicited via the Internet, with 10 received. Funding will be determined with each order. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "W912P815D0001",
+          "W912P815D0002",
+          "W912P815D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2020-12-15",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Bis Services LLC",
+            "location": "Kenner, Louisiana",
+            "contract_number": "W912P8-15-D-0001",
+            "markers": "*"
+          },
+          {
+            "name": "Circle LLC",
+            "location": "Bell Chase Louisiana",
+            "contract_number": "W912P8-15-D-0002",
+            "markers": "*"
+          },
+          {
+            "name": "Shavers-Whittle Construction LLC",
+            "location": "Mandeville, Louisiana",
+            "contract_number": "W912P8-15-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity multiple award task order contract",
+        "description": "Armoring levees in the greater New Orleans, Louisiana, area",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, 10 bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Atomics Aeronautical, Poway, California, was awarded an $114,598,215 modification (P00006) to contract W58RGZ-14-C-0008 to continue contractor logistics for the Warrior unmanned aircraft system. Fiscal 2015 operations and maintenance (Army) funds in the amount of $17,000,000 were obligated at the time of the award. Estimated completion date is Dec. 16, 2015. Work will be performed in Poway, California, and in Afghanistan. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ14C0008"
+        ],
+        "modification_numbers": [
+          "P00006"
+        ],
+        "is_modification": true,
+        "value_usd": 114598215.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17000000.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Army) funds in the amount of $17,000,000 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "General Atomics Aeronautical",
+            "location": "Poway, California",
+            "contract_number": "W58RGZ-14-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Contractor logistics for the Warrior unmanned aircraft system",
+        "base_contract_number": "W58RGZ-14-C-0008",
+        "order_number": null,
+        "modification_number": "P00006",
+        "value_usd": 114598215,
+        "cumulative_value_usd": null,
+        "obligated_usd": 17000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "General Dynamics Ordinance and Tactical Systems, Williston, Vermont, was awarded a $72,061,662 modification (P00002) to Foreign Military Sales contract W31P4Q-14-C-0154 to exercise a fiscal 2015 option for the fiscal 2014 through fiscal 2018 Hydra-70 Rocket System which includes M151 high explosive rockets, M274 smoke signal practice rockets, M229 high explosive rockets, MK66 MOD 4 motors (Air Force and Navy) and WTU-1/B practice warheads. Fiscal 2013 and 2014 other procurement funds in the amount of $59,097,584 were obligated at the time of the award. Estimated completion date is Sept. 30, 2016. Work will be performed in Williston, Vermont, and Camden, Arizona. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q14C0154"
+        ],
+        "modification_numbers": [
+          "P00002"
+        ],
+        "is_modification": true,
+        "value_usd": 72061662.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59097584.0,
+        "funding_text": "Fiscal 2013 and 2014 other procurement funds in the amount of $59,097,584 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "General Dynamics Ordinance and Tactical Systems",
+            "location": "Williston, Vermont",
+            "contract_number": "W31P4Q-14-C-0154",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Exercise of fiscal 2015 option for the fiscal 2014 through fiscal 2018 Hydra-70 Rocket System",
+        "base_contract_number": "W31P4Q-14-C-0154",
+        "order_number": null,
+        "modification_number": "P00002",
+        "value_usd": 72061662,
+        "cumulative_value_usd": null,
+        "obligated_usd": 59097584,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sigmatech, Inc.,* Huntsville, Alabama was awarded a $57,440,905 cost plus fixed-fee contract for development, operations, maintenance and support for aviation element simulation. Funding and work location will be determined with each order with an estimated completion date of Dec. 14, 2019. Bids were solicited via the internet with three received. Army Contracting",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 57440905.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2019-12-14",
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Sigmatech, Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "W31P4Q-15-D-0006",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "cost-plus-fixed-fee contract",
+        "description": "Development, operations, maintenance and support for aviation element simulation",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 57440905,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "Internet solicitation, three received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Command, Redstone Arsenal, Alabama is the contracting activity (W31P4Q-15-D-0006).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W31P4Q15D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Command, Redstone Arsenal, Alabama",
+          "code": "W31P4Q-15-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [],
+        "action": "other",
+        "contract_type": null,
+        "description": "Continuation of seq 4: Army Contracting Command, Redstone Arsenal, Alabama, contracting activity for W31P4Q-15-D-0006",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": null,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded a $56,394,775 modification (P00217) to contract W58RGZ-12-C-0008 to exercise an option for five UH-60M aircraft for foreign military sales case MX-B-UEU, Mexican Navy. Estimated completion date is May 30, 2016. Work will be performed in Stratford, Connecticut. Fiscal 2010 funds in the amount of $2,221,115 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ12C0008"
+        ],
+        "modification_numbers": [
+          "P00217"
+        ],
+        "is_modification": true,
+        "value_usd": 56394775.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2221115.0,
+        "funding_text": "Fiscal 2010 funds in the amount of $2,221,115 were obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-12-C-0008",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Exercise of option for five UH-60M aircraft for foreign military sales case MX-B-UEU, Mexican Navy",
+        "base_contract_number": "W58RGZ-12-C-0008",
+        "order_number": null,
+        "modification_number": "P00217",
+        "value_usd": 56394775,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2221115,
+        "fms_countries": [
+          "Mexico"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Cutter Enterprises,* Vernon Rockville, Connecticut, was awarded a $10,488,500 contract to repair the aircraft maintenance hangar and construct an F-15 shop addition at Barnes Air National Guard Base, Westfield, Massachusetts, with an estimated completion date of June 17, 2016. Bids were solicited via the Internet, with nine received. Fiscal 2012 and 2015 operations and maintenance (Army) and military construction funds in the amount of $10,488,500 are being obligated at the time of the award. National Guard Bureau, Milford, Massachusetts, is the contracting activity (W912SV-15-C-0001).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W912SV15C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10488500.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10488500.0,
+        "funding_text": "Fiscal 2012 and 2015 operations and maintenance (Army) and military construction funds in the amount of $10,488,500 are being obligated at the time of the award",
+        "completion_date": "2016-06-17",
+        "contracting_activity": {
+          "name": "National Guard Bureau, Milford, Massachusetts",
+          "code": "W912SV-15-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Cutter Enterprises",
+            "location": "Vernon Rockville, Connecticut",
+            "contract_number": "W912SV-15-C-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Repair aircraft maintenance hangar and construct F-15 shop addition at Barnes Air National Guard Base, Westfield, Massachusetts",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10488500,
+        "cumulative_value_usd": null,
+        "obligated_usd": 10488500,
+        "fms_countries": [],
+        "competition": "Internet solicitation, nine received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Phillips 66 Company, Bartlesville, Oklahoma, has been awarded a maximum $93,603,982 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for aviation turbine fuel. This contract was a competitive acquisition and two offers were received. Locations of performance are Oklahoma and Texas, with an April 30, 2015, performance completion date. Using service is Defense Logistics Agency Energy. Type of appropriation is fiscal 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SP0600-14-D-0650).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "SP060014D0650"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 93603982.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SP0600-14-D-0650"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Phillips 66 Company",
+            "location": "Bartlesville, Oklahoma",
+            "contract_number": "SP0600-14-D-0650",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract",
+        "description": "Aviation turbine fuel",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93603982,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, two offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The Resource Center,* Jamestown, New York, has been awarded a maximum $10,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for individualized first aid kits. This contract was a sole-source acquisition. This is a one-year contract with no option year periods. Location of performance is New York, with a Dec. 14, 2015, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2015 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DS-15-D-N002).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DS15DN002"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 10000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DS-15-D-N002"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "The Resource Center",
+            "location": "Jamestown, New York",
+            "contract_number": "SPE2DS-15-D-N002",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Individualized first aid kits",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 10000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Combined Systems, Inc.,* Jamestown, Pennsylvania, is being awarded a $42,491,200 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for MK 20 MOD 0, flash and single bang, diversionary grenades in support of U.S. Special Operations Command Ammunition and Weapons Program. MK 20 MOD 0, flash and single bang, diversionary grenades are non-lethal devices that are primarily used to both daze and disorient an enemy for the advancement of the user. Work will be performed in Jamestown, Pennsylvania, and is expected to be completed by September 2019. Fiscal 2014 procurement of ammunition (Air Force) funding in the amount of $1,301,820 will be obligated at the time of award. Contract funds will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website, with five offers received. Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N00164-15-D-JR01).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0016415DJR01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42491200.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1301820.0,
+        "funding_text": "Fiscal 2014 procurement of ammunition (Air Force) funding in the amount of $1,301,820 will be obligated at the time of award",
+        "completion_date": "2019-09",
+        "contracting_activity": {
+          "name": "Naval Surface Warfare Center, Crane Division, Crane, Indiana",
+          "code": "N00164-15-D-JR01"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Combined Systems, Inc.",
+            "location": "Jamestown, Pennsylvania",
+            "contract_number": "N00164-15-D-JR01",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "MK 20 MOD 0 flash and single bang diversionary grenades for U.S. Special Operations Command Ammunition and Weapons Program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42491200,
+        "cumulative_value_usd": null,
+        "obligated_usd": 1301820,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, five offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Data Link Solutions LLC, Cedar Rapids, Iowa, is being awarded a $32,606,821 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for Multi-Functional Information Distribution System (MIDS) on Ship (MOS) Lot Four follow-on production (N00039-15-D-0022). The contract covers the fabrication, integration, testing and delivery of up to 12 MOS Lot Four production units for shipboard application. The contract also includes spares related to the aforementioned production. This contract includes options which, if exercised, would bring the cumulative value of this contract to an estimated $38,624,221. Work will be performed in Wayne, New Jersey (70 percent), and Cedar Rapids, Iowa (30 percent), and is expected to be completed by December 2017. Fiscal 2013 and 2014 shipbuilding and conversion (Navy) funds in the amount of $10,580,902 will be obligated at the time of award. Contract funds will not expire at the end of the current fiscal year. This contract was competitively procured via the Commerce Business Daily’s Federal Business Opportunities website and the SPAWAR e-Commerce Central website, with one offer received. The Space and Naval Warfare Systems Command, San Diego, California, is the contracting activity (N00039-15-D-0022).",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0003915D0022"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 32606821.0,
+        "cumulative_value_usd": 38624221.0,
+        "obligated_usd": 10580902.0,
+        "funding_text": "Fiscal 2013 and 2014 shipbuilding and conversion (Navy) funds in the amount of $10,580,902 will be obligated at the time of award",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "The Space and Naval Warfare Systems Command, San Diego, California",
+          "code": "N00039-15-D-0022"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "Data Link Solutions LLC",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N00039-15-D-0022",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity contract",
+        "description": "Multi-Functional Information Distribution System (MIDS) on Ship (MOS) Lot Four follow-on production",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 32606821,
+        "cumulative_value_usd": 38624221,
+        "obligated_usd": 10580902,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities and SPAWAR e-Commerce Central, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Robertson Fuel Systems LLC, Tempe, Arizona, is being awarded a $14,779,950 modification to a previously awarded firm-fixed-price contract (N00019-12-C-0097) to exercise an option for the procurement of two Mission Auxiliary Fuel Tank Systems for the MV-22 Osprey aircraft to extend range of flight requirements. Work will be performed in Tempe, Arizona, and is expected to be completed in February 2016. Fiscal 2014 aircraft procurement (Navy) funds in the amount of $14,779,950 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0001912C0097"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 14779950.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14779950.0,
+        "funding_text": "Fiscal 2014 aircraft procurement (Navy) funds in the amount of $14,779,950 will be obligated at the time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-02",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Robertson Fuel Systems LLC",
+            "location": "Tempe, Arizona",
+            "contract_number": "N00019-12-C-0097",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price",
+        "description": "Exercise of option for two Mission Auxiliary Fuel Tank Systems for MV-22 Osprey aircraft",
+        "base_contract_number": "N00019-12-C-0097",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 14779950,
+        "cumulative_value_usd": null,
+        "obligated_usd": 14779950,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., is being awarded an $11,661,566 firm-fixed-price contract for the procurement of sustaining engineering and logistics support services for the C/KC-130J aircraft for the U.S. Marine Corps and Marine Corps Reserve, the U.S. Coast Guard, and the government of Kuwait. Work will be performed at Marietta, Georgia (63 percent); Afghanistan (11 percent); Palmdale, California (7 percent); Kuwait (6 percent); Greenville, South Carolina (3 percent); Iwakuni, Japan (3 percent); Miramar, California (2 percent); Cherry Point, North Carolina (2 percent); Elizabeth City, North Carolina (2 percent); and Fort Worth, Texas ( 1 percent). Work is expected to be completed in December 2015. No funds will be obligated at time of award; funds will be obligated on individual delivery orders as they are issued. This contract was not competitively procured pursuant to 10 U.S.C. 2304(c)(1). The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N00019-14-D-0006).",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0001914D0006"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11661566.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds will be obligated at time of award; funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2015-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": "N00019-14-D-0006"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp.",
+            "location": null,
+            "contract_number": "N00019-14-D-0006",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Sustaining engineering and logistics support services for the C/KC-130J aircraft",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11661566,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Kuwait"
+        ],
+        "competition": "not competitively procured pursuant to 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Sikorsky Support Services Inc., Stratford, Connecticut, is being awarded an $11,708,901 modification to a previously awarded firm-fixed-price contract (N00019-09-C-0024) to exercise an option for organizational, intermediate, and limited depot-level maintenance in support of the F-5 aircraft. Work will be performed at the Naval Air Station Key West, Florida (37 percent); Naval Air Station Fallon, Nevada (35 percent); and Marine Corps Air Station, Yuma, Arizona (28 percent), and is expected to be completed in June 2015. Fiscal 2015 operations and maintenance (Navy Reserve) funds in the amount of $8,343,644 are being obligated at time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N0001909C0024"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11708901.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8343644.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Navy Reserve) funds in the amount of $8,343,644 are being obligated at time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2015-06",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "awardees": [
+          {
+            "name": "Sikorsky Support Services Inc.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "N00019-09-C-0024",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price",
+        "description": "Option exercise for organizational, intermediate, and limited depot-level maintenance in support of the F-5 aircraft",
+        "base_contract_number": "N00019-09-C-0024",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11708901,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8343644,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:28Z",
-  "source": "file:2014-12-15.html"
+  "source": "file:2014-12-15.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:23:03Z"
+  }
 }

@@ -9,99 +9,937 @@
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics, Marietta, Georgia, has been awarded a $133,434,778 modification (P00658) to previously awarded contract FA8625-11-C-6597 for aircraft. Contractor will provide two U.S. government-configured C-130J-30 aircraft. Work will be performed at Marietta, Georgia, and is expected to be completed by Aug. 30, 2020. This modification involves unclassified foreign military sales (FMS) to France. FMS France funds in the amount of $133,434,778 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6597"
+        ],
+        "modification_numbers": [
+          "P00658"
+        ],
+        "is_modification": true,
+        "value_usd": 133434778.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 133434778.0,
+        "funding_text": "FMS France funds in the amount of $133,434,778 are being obligated at the time of award",
+        "completion_date": "2020-08-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "France"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8625-11-C-6597",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Two U.S. government-configured C-130J-30 aircraft for France under FMS",
+        "base_contract_number": "FA8625-11-C-6597",
+        "order_number": null,
+        "modification_number": "P00658",
+        "value_usd": 133434778,
+        "cumulative_value_usd": null,
+        "obligated_usd": 133434778,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "StandardAero Inc., San Antonio, Texas, has been awarded a $45,800,309 firm-fixed-price, undefinitized contract action for T56 engine repair. Contractor will provide depot-level repair of the T56 engine component parts. Work will be performed at San Antonio, Texas, and is expected to be complete by Nov. 30, 2017. This award is the result of a sole-source acquisition. Fiscal 2017 operations and maintenance funds in the amount of $29,600,918 are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8124-17-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA812417D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 45800309.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29600918.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $29,600,918 are being obligated at the time of award",
+        "completion_date": "2017-11-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8124-17-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "StandardAero Inc.",
+            "location": "San Antonio, Texas",
+            "contract_number": "FA8124-17-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, undefinitized contract action",
+        "description": "T56 engine depot-level repair",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 45800309,
+        "cumulative_value_usd": null,
+        "obligated_usd": 29600918,
+        "fms_countries": [],
+        "competition": "sole source",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Microsoft Corp., Redmond, Washington, has been awarded a $44,742,615 contract for Microsoft Premier Support services. Contractor will provide proactive and reactive services to increase operational efficiency, optimize performance, maximize uptime, and reduce support cost for the Air Force Network (AFNet) enterprise. Work will be performed at Joint Base Langley-Eustis, Virginia; Ramstein Air Base, Germany; Peterson Air Force Base, Colorado; Joint Base Pearl Harbor-Hickam, Hawaii; and McConnell Air Force Base, Kansas. Work is expected to be complete by Nov. 30, 2020. Fiscal 2017 operations and maintenance funds in the amount of $3,000,000 are being obligated at the time of award. Air Force Life Cycle Management Center, Maxwell Air Force Base, Alabama, is the contracting activity (FA8771-17-C-0001).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "FA877117C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 44742615.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000000.0,
+        "funding_text": "Fiscal 2017 operations and maintenance funds in the amount of $3,000,000 are being obligated at the time of award",
+        "completion_date": "2020-11-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Maxwell Air Force Base, Alabama",
+          "code": "FA8771-17-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Microsoft Corp.",
+            "location": "Redmond, Washington",
+            "contract_number": "FA8771-17-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": null,
+        "description": "Microsoft Premier Support services for the Air Force Network (AFNet)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 44742615,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Lockheed Martin Aeronautics, Marietta, Georgia, has been awarded a $36,598,273 not-to-exceed modification (P00580) to previously awarded contract FA8625-11-C-6597 for configuration changes to four aircraft (2 C-130J-30, and 2 KC-130J). Work is to be performed at Marietta, Georgia, and is expected to be complete by April 30, 2020. This modification involves unclassified foreign military sales (FMS) to France. FMS France funds in the amount of $3,478,898 are being obligated at the time of award. Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "FA862511C6597"
+        ],
+        "modification_numbers": [
+          "P00580"
+        ],
+        "is_modification": true,
+        "value_usd": 36598273.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3478898.0,
+        "funding_text": "FMS France funds in the amount of $3,478,898 are being obligated at the time of award",
+        "completion_date": "2020-04-30",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "France"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Aeronautics",
+            "location": "Marietta, Georgia",
+            "contract_number": "FA8625-11-C-6597",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "not-to-exceed modification",
+        "description": "Configuration changes to four aircraft (2 C-130J-30, 2 KC-130J) for France under FMS",
+        "base_contract_number": "FA8625-11-C-6597",
+        "order_number": null,
+        "modification_number": "P00580",
+        "value_usd": 36598273,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3478898,
+        "fms_countries": [
+          "France"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Sikorsky Aircraft Corp., Stratford, Connecticut, was awarded a $93,894,241 modification (P00058) to contract W58RGZ-13-D-0001 for technical, engineering, logistics services and supplies; and parts support for the H-60 weapon system. Work will be performed in Corpus Christi, Texas, with an estimated completion date of Nov. 30, 2017. Fiscal 2017 other funds in the amount of $ 93,894,241 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "W58RGZ13D0001"
+        ],
+        "modification_numbers": [
+          "P00058"
+        ],
+        "is_modification": true,
+        "value_usd": 93894241.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 93894241.0,
+        "funding_text": "Fiscal 2017 other funds in the amount of $ 93,894,241 were obligated at the time of the award",
+        "completion_date": "2017-11-30",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Redstone Arsenal, Alabama",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Sikorsky Aircraft Corp.",
+            "location": "Stratford, Connecticut",
+            "contract_number": "W58RGZ-13-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Technical, engineering, logistics services, supplies and parts support for the H-60 weapon system",
+        "base_contract_number": "W58RGZ-13-D-0001",
+        "order_number": null,
+        "modification_number": "P00058",
+        "value_usd": 93894241,
+        "cumulative_value_usd": null,
+        "obligated_usd": 93894241,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "S&E Services Inc.,* Edison, New Jersey, was awarded an $8,545,000 firm-fixed-price contract to repair and add to aircraft hangar Building 370 located at the Francis S. Gabreski Air National Guard Base, New York. Bids were solicited via the Internet with seven received. Work will be performed in Westhampton Beach, New York, with an estimated completion date of Jan. 8, 2018. Fiscal 2017 operations and maintenance (Army); and fiscal 2016 military construction funds in the amount of $ 8,545,000 were obligated at the time of award. National Guard Bureau, Latham, New York, is the contracting activity (W912PQ-17-C-0001).",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "W912PQ17C0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8545000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8545000.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Army); and fiscal 2016 military construction funds in the amount of $ 8,545,000 were obligated at the time of award",
+        "completion_date": "2018-01-08",
+        "contracting_activity": {
+          "name": "National Guard Bureau, Latham, New York",
+          "code": "W912PQ-17-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "S&E Services Inc.",
+            "location": "Edison, New Jersey",
+            "contract_number": "W912PQ-17-C-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Repair and addition to aircraft hangar Building 370, Francis S. Gabreski Air National Guard Base, New York",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8545000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 8545000,
+        "fms_countries": [],
+        "competition": "competitive, internet solicitation, 7 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Raytheon Co., Integrated Defense Systems, San Diego, California, is being awarded a $49,107,491 cost-plus-incentive-fee, cost only modification to a previously awarded contract (N00024-14-C-5128) to exercise options in support of Ship Self-Defense System for continuing platform system. Work will be performed in San Diego, California, and is expected to be completed by December 2017. Fiscal 2017 operations and maintenance (Navy) funds in the amount of $99,994 will be obligated at the time of award and will expire at the end of the current fiscal year. This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) - only one responsible source and no other supplies or services will satisfy agency requirements. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0002414C5128"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 49107491.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 99994.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funds in the amount of $99,994 will be obligated at the time of award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Raytheon Co., Integrated Defense Systems",
+            "location": "San Diego, California",
+            "contract_number": "N00024-14-C-5128",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee, cost only modification",
+        "description": "Exercise of options for Ship Self-Defense System continuing platform system support",
+        "base_contract_number": "N00024-14-C-5128",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49107491,
+        "cumulative_value_usd": null,
+        "obligated_usd": 99994,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "22nd Century Technologies Inc.,* Somerset, New Jersey (N00244-17-D-0003); Accent Controls Inc.,* Riverside, Missouri (N00244-17-D-0004), (N00244-17-D-0018), and (N00244-17-D-0027); Alutiiq Pacific LLC,* Anchorage, Alaska (N00244-16-D-0005), (N00244-17-D-0019), and (N00244-17-D-0028); America's Staffing Partner Inc.,* Bethlehem, Pennsylvania (N00244-17-D-0006); Blackwatch International,* Rockville, Maryland (N00244-17-D-0020); Coastal Management Solutions,* Virginia Beach, Virginia (N00244-17-D-0007); Dynamic Systems Technology,* Fairfax, Virginia (N00244-17-D-0008), (N00244-17-D-0021), and (N00244-17-D-0029); Glocoms Inc.,* Chicago, Illinois (N00244-17-D-0022) and (N00244-17-D-0030); Infused Solutions,* Sterling, Virginia (N00244-17-D-0009), (N00244-17-D-0023), and (N00244-17-D-0031); JSL Technology,* Oxnard, California (N00244-17-D-0010), (N00244-17-D-0024), and (N00244-17-D-0032); Logistics and Technology Services Inc.,* Huntsville, Alabama (N00244-17-D-0011); Loyal Source Government Services,* Orlando, Florida (N00244-17-D-0012), (N00244-17-D-0025), and (N00244-17-D-0033); MBA Consulting Services Inc.,* Chantilly, Virginia (N00244-17-D-0013), (N00244-17-D-0026), and (N00244-17-D-0034); SDSE LLC,* Silver Spring, Maryland (N00244-17-D-0014) and (N00244-17-D-0035); SFS Global/Tiburon JV,* Susanville, California (N00244-17-D-0015); Symtech,* Sarasota, Florida (N00244-17-D-0016); and Wakelight,* Honolulu, Hawaii (N00244-17-D-0017), are being awarded an estimated $42,970,586 multiple award, indefinite-delivery/indefinite-quantity, firm-fixed-price task orders contract for a wide range of support services to include administrative support and clerical services; quarters management services; healthcare services (except doctors, nurses or physician assistants); information and arts; information technology; maritime material handling; mechanics and maintenance and repair; plant and system operation; engineering/technical support; mobile equipment operation; financial management; specialized technology; and industrial services and general services and support. Each contract includes a one-year base period and four one-year option periods. If all options are exercised, the total contract will reached a value of $750,000,000. Work will be performed throughout the 50 United States including Alaska; Hawaii; Guam; Washington, District of Columbia; and the U.S. Territory of Puerto Rico. The percentage of work varies by state, and with the majority of the effort in California (31 percent); Texas (15 percent); Virginia (10 percent); Florida (9 percent); Hawaii (7 percent); and 28 percent in the remaining locations. Work is expected to be completed by December 2017; if all options are exercised, work will be completed by November 2021. Fiscal 2017 operations and maintenance (Navy) funds in the amount of $33,000 will be obligated at the time of award, with $1000 placed on each of the 33 contracts to fund the contract's minimum amount. Funds will expire at the end of the current fiscal year. This contract was competitively procured with the solicitation posted to the Federal Business Opportunities website, with 112 offers received. Naval Supply Systems Command Fleet Logistics Center San Diego, Regional Contracting Department, Seal Beach Division, Seal Beach, California, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "N0024417D0003",
+          "N0024417D0004",
+          "N0024417D0018",
+          "N0024417D0027",
+          "N0024416D0005",
+          "N0024417D0019",
+          "N0024417D0028",
+          "N0024417D0006",
+          "N0024417D0020",
+          "N0024417D0007",
+          "N0024417D0008",
+          "N0024417D0021",
+          "N0024417D0029",
+          "N0024417D0022",
+          "N0024417D0030",
+          "N0024417D0009",
+          "N0024417D0023",
+          "N0024417D0031",
+          "N0024417D0010",
+          "N0024417D0024",
+          "N0024417D0032",
+          "N0024417D0011",
+          "N0024417D0012",
+          "N0024417D0025",
+          "N0024417D0033",
+          "N0024417D0013",
+          "N0024417D0026",
+          "N0024417D0034",
+          "N0024417D0014",
+          "N0024417D0035",
+          "N0024417D0015",
+          "N0024417D0016",
+          "N0024417D0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 42970586.0,
+        "cumulative_value_usd": 750000000.0,
+        "obligated_usd": 33000.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funds in the amount of $33,000 will be obligated at the time of award, with $1000 placed on each of the 33 contracts to fund the contract's minimum amount",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "Naval Supply Systems Command Fleet Logistics Center San Diego, Regional Contracting Department, Seal Beach Division, Seal Beach, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": null
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "22nd Century Technologies Inc.",
+            "location": "Somerset, New Jersey",
+            "contract_number": "N00244-17-D-0003",
+            "markers": "*"
+          },
+          {
+            "name": "Accent Controls Inc.",
+            "location": "Riverside, Missouri",
+            "contract_number": "N00244-17-D-0004, N00244-17-D-0018, N00244-17-D-0027",
+            "markers": "*"
+          },
+          {
+            "name": "Alutiiq Pacific LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "N00244-16-D-0005, N00244-17-D-0019, N00244-17-D-0028",
+            "markers": "*"
+          },
+          {
+            "name": "America's Staffing Partner Inc.",
+            "location": "Bethlehem, Pennsylvania",
+            "contract_number": "N00244-17-D-0006",
+            "markers": "*"
+          },
+          {
+            "name": "Blackwatch International",
+            "location": "Rockville, Maryland",
+            "contract_number": "N00244-17-D-0020",
+            "markers": "*"
+          },
+          {
+            "name": "Coastal Management Solutions",
+            "location": "Virginia Beach, Virginia",
+            "contract_number": "N00244-17-D-0007",
+            "markers": "*"
+          },
+          {
+            "name": "Dynamic Systems Technology",
+            "location": "Fairfax, Virginia",
+            "contract_number": "N00244-17-D-0008, N00244-17-D-0021, N00244-17-D-0029",
+            "markers": "*"
+          },
+          {
+            "name": "Glocoms Inc.",
+            "location": "Chicago, Illinois",
+            "contract_number": "N00244-17-D-0022, N00244-17-D-0030",
+            "markers": "*"
+          },
+          {
+            "name": "Infused Solutions",
+            "location": "Sterling, Virginia",
+            "contract_number": "N00244-17-D-0009, N00244-17-D-0023, N00244-17-D-0031",
+            "markers": "*"
+          },
+          {
+            "name": "JSL Technology",
+            "location": "Oxnard, California",
+            "contract_number": "N00244-17-D-0010, N00244-17-D-0024, N00244-17-D-0032",
+            "markers": "*"
+          },
+          {
+            "name": "Logistics and Technology Services Inc.",
+            "location": "Huntsville, Alabama",
+            "contract_number": "N00244-17-D-0011",
+            "markers": "*"
+          },
+          {
+            "name": "Loyal Source Government Services",
+            "location": "Orlando, Florida",
+            "contract_number": "N00244-17-D-0012, N00244-17-D-0025, N00244-17-D-0033",
+            "markers": "*"
+          },
+          {
+            "name": "MBA Consulting Services Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "N00244-17-D-0013, N00244-17-D-0026, N00244-17-D-0034",
+            "markers": "*"
+          },
+          {
+            "name": "SDSE LLC",
+            "location": "Silver Spring, Maryland",
+            "contract_number": "N00244-17-D-0014, N00244-17-D-0035",
+            "markers": "*"
+          },
+          {
+            "name": "SFS Global/Tiburon JV",
+            "location": "Susanville, California",
+            "contract_number": "N00244-17-D-0015",
+            "markers": "*"
+          },
+          {
+            "name": "Symtech",
+            "location": "Sarasota, Florida",
+            "contract_number": "N00244-17-D-0016",
+            "markers": "*"
+          },
+          {
+            "name": "Wakelight",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "N00244-17-D-0017",
+            "markers": "*"
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "firm-fixed-price multiple award indefinite-delivery/indefinite-quantity task orders contract",
+        "description": "Wide range of support services (administrative, clerical, quarters management, healthcare, IT, maintenance, engineering, etc.)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 42970586,
+        "cumulative_value_usd": 750000000,
+        "obligated_usd": 33000,
+        "fms_countries": [],
+        "competition": "competitive, FBO website, 112 offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "URS Group Inc., Tampa, Florida, is being awarded a maximum amount $30,000,000 indefinite-delivery/indefinite-quantity, architect-engineering contract for professional architectural and engineering services in the Naval Facilities Engineering Command (NAVFAC) Southeast area of responsibility (AOR). The work to be performed provides for preparation of design/build request for proposals and other design services. Task order 0001 is being awarded at $1,102,639 to prepare full plans and specifications to renovate building 873 Engine Test Cell Facility, at Naval Air Station Jacksonville, Jacksonville, Florida. The task order also contains six unexercised options, which if exercised, would increase the cumulative value to $1,391,105. Work for this task order is expected to be completed by September 2017. All work on this contract will be performed at various Navy and Marine Corps installations in the NAVFAC Southeast AOR. The term of the contract is not to exceed 60 months with an expected completion date of November 2021. Fiscal 2017 working capital (Navy) contract funds in the amount of $1,102,639 are obligated on this award and will expire at the end of the current fiscal year. Future task orders will be primarily funded by operations and maintenance (Navy). This contract was competitively procured via the Navy Electronic Commerce Online website, with 29 proposals received. The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida, is the contracting activity (N69450-17-D-0100).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "N6945017D0100"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": 1391105.0,
+        "obligated_usd": 1102639.0,
+        "funding_text": "Fiscal 2017 working capital (Navy) contract funds in the amount of $1,102,639 are obligated on this award and will expire at the end of the current fiscal year",
+        "completion_date": "2017-09",
+        "contracting_activity": {
+          "name": "The Naval Facilities Engineering Command, Southeast, Jacksonville, Florida",
+          "code": "N69450-17-D-0100"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "URS Group Inc.",
+            "location": "Tampa, Florida",
+            "contract_number": "N69450-17-D-0100",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity, architect-engineering contract with task order 0001",
+        "description": "Architectural and engineering services in NAVFAC Southeast AOR; task order 0001 to renovate building 873 Engine Test Cell Facility, NAS Jacksonville",
+        "base_contract_number": null,
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": 1391105,
+        "obligated_usd": 1102639,
+        "fms_countries": [],
+        "competition": "competitive, Navy Electronic Commerce Online, 29 proposals received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded a $37,962,743 modification (P0007) to a previously awarded cost-plus-fixed-fee indefinite-delivery, indefinite-quantity contract (N00019-15-D-1000). This modification provides for post-production sustainment engineering and integrated logistics services in support of the T/AV-8B for the Marine Corps and the governments of Spain and Italy. Engineering support services to be provided include engineering analyses, suitability evaluations, effectiveness evaluations and on-site support of failure, incident, and development of repair concepts, engineering and accident investigations, and investigation and generation of technical alerts. Integrated logistics support services include a Harrier data library, rapid action minor engineering changes, source maintenance and recoverability code changes, rapid manufacturing capability support, technical directives and interim change notices. Work will be performed in St. Louis, Missouri (77 percent); Preston, Lancashire, England (18 percent); Cherry Point, North Carolina (3 percent); Yuma, Arizona (1 percent); and Philadelphia, Pennsylvania (1 percent), and is expected to be completed in November 2018. No funding will be obligated at time of award. Funds will be obligated against individual delivery orders as they are issued. This contract combines purchases for the Marine Corps ($35,861,441; 94.4 percent); and the governments of Spain ($1,050,651; 2.8 percent); and Italy ($1,050,651; 2.8 percent) under a memorandum of understanding. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "N0001915D1000"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 37962743.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funding will be obligated at time of award Funds will be obligated against individual delivery orders as they are issued",
+        "completion_date": "2018-11",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-15-D-1000",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee indefinite-delivery, indefinite-quantity contract",
+        "description": "Post-production sustainment engineering and integrated logistics services for T/AV-8B for Marine Corps and governments of Spain and Italy",
+        "base_contract_number": "N00019-15-D-1000",
+        "order_number": null,
+        "modification_number": "P0007",
+        "value_usd": 37962743,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [
+          "Spain",
+          "Italy"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded $29,867,702 for firm-fixed-price delivery order 1001 against a previously issued basic ordering agreement (N00019-16-G-0001) to integrate a Link-16 Tactical Datalink capability into 73 Radar variant AV-8B Harrier aircraft in support of the Marine Corps, including terminal kits and accompanying aircraft wiring and installation hardware kits. Work will be performed in Carlsbad, California (70 percent); St. Louis, Missouri (20 percent); Philadelphia, Pennsylvania (5 percent); and Huntington Beach, California (5 percent), and is expected to be completed in August 2019. Fiscal 2016 and 2017 aircraft procurement (Navy) funds in the amount of $11,047,267 will be obligated at time of award, none of which will expire at the end of the fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 11
+      "seq": 11,
+      "fields": {
+        "contract_numbers": [
+          "N0001916G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 29867702.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11047267.0,
+        "funding_text": "Fiscal 2016 and 2017 aircraft procurement (Navy) funds in the amount of $11,047,267 will be obligated at time of award, none of which will expire at the end of the fiscal year",
+        "completion_date": "2019-08",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 11,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-16-G-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "Link-16 Tactical Datalink integration into 73 radar variant AV-8B Harrier aircraft for Marine Corps",
+        "base_contract_number": "N00019-16-G-0001",
+        "order_number": "1001",
+        "modification_number": null,
+        "value_usd": 29867702,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11047267,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Assurance Technology Corp., Carlisle, Massachusetts, is being awarded a maximum value $28,183,002 cost-plus-fixed-fee term task order N00173-17-F-6701 under previously awarded GSA OASIS-SB contract GS00Q14OADS402 for research and development into detecting anomalies in space. The total value of the base task order is $28,183,002 with an initial funding of $100,000. This contract contains options, which if exercised, will bring the contract value to $86,034,757. Work will be performed at the Naval Research Laboratory in Stafford, Virginia (99 percent); and at the contractor’s facility in Carlisle, Virginia (1 percent), and work is expected to be completed Dec. 4, 2017. If options are exercised, work will continue through December 2019. Fiscal 2017 working capital funds in the amount of $100,000 will be obligated at the time of award. No funds will expire at the end of the current fiscal year. This contract was competitively procured under a request for proposal (N00173-16-R-RS01) with one offer received. The Naval Research Laboratory, Washington, District of Columbia, is the contracting activity.",
-      "seq": 12
+      "seq": 12,
+      "fields": {
+        "contract_numbers": [
+          "N0017317F6701",
+          "N0017316RRS01"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 28183002.0,
+        "cumulative_value_usd": 28183002.0,
+        "obligated_usd": 100000.0,
+        "funding_text": "Fiscal 2017 working capital funds in the amount of $100,000 will be obligated at the time of award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Research Laboratory, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 12,
+        "awardees": [
+          {
+            "name": "Assurance Technology Corp.",
+            "location": "Carlisle, Massachusetts",
+            "contract_number": "N00173-17-F-6701",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "cost-plus-fixed-fee term task order under GSA OASIS-SB",
+        "description": "Research and development into detecting anomalies in space at Naval Research Laboratory",
+        "base_contract_number": "GS00Q14OADS402",
+        "order_number": "N00173-17-F-6701",
+        "modification_number": null,
+        "value_usd": 28183002,
+        "cumulative_value_usd": 86034757,
+        "obligated_usd": 100000,
+        "fms_countries": [],
+        "competition": "competitive, RFP N00173-16-R-RS01, one offer received",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Communications Vertex Aerospace, Madison, Mississippi, is being awarded $13,674,743 for firm-fixed-price modification P00058 to a previously awarded indefinite-delivery requirements contract (N00019-11-D-0010) for aircraft maintenance and logistics life cycle support for 49 C-12 aircraft. Work will be performed in Corpus Christi, Texas (42 percent); Patuxent River, Maryland (6 percent); Guantanamo Bay, Cuba (6 percent); Manama, Bahrain (6 percent); Atsugi, Japan (6 percent); Beaufort, South Carolina (4 percent); San Angelo, Texas (4 percent); Yuma, Arizona (4 percent); New Orleans, Louisiana (4 percent); Iwakuni, Japan (4 percent); New River, North Carolina (3 percent); Kadena, Japan (3 percent); Manassas, Virginia (2 percent); Miramar, California (2 percent); Futenma, Japan (2 percent); and Misawa, Japan (2 percent), and is expected to be completed in March 2017. Funds will not be obligated at time of award; funds will be obligated on individual delivery orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 13
+      "seq": 13,
+      "fields": {
+        "contract_numbers": [
+          "N0001911D0010"
+        ],
+        "modification_numbers": [
+          "P00058"
+        ],
+        "is_modification": true,
+        "value_usd": 13674743.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Funds will not be obligated at time of award; funds will be obligated on individual delivery orders as they are issued",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 13,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "L-3 Communications Vertex Aerospace",
+            "location": "Madison, Mississippi",
+            "contract_number": "N00019-11-D-0010",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery requirements contract",
+        "description": "Aircraft maintenance and logistics life cycle support for 49 C-12 aircraft",
+        "base_contract_number": "N00019-11-D-0010",
+        "order_number": null,
+        "modification_number": "P00058",
+        "value_usd": 13674743,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Boston Ship Repair, Boston, Massachusetts, is being awarded a $9,967,262 firm-fixed-price contract for 56-calendar day shipyard availability for the regular overhaul and dry docking of USNS Big Horn (T-AO 198). Work will include general services, main and emergency switchboard cleaning, group control centers and motor control cleaning, lifeboats davit repair and maintenance, tank deck overhead painting, cargo tank preservation, chill water and potable water piping renewal on tank deck overhead, fire and ballast pump motor overhaul, oil mist detector groom repair, special hull survey number five, oil mist detector groom, propeller hub replacement, shaft line replacement, main engine turbo charger replacement, power take off clutch coupling overhaul, and replace hot water tank. The contract includes options which, if exercised, would bring the total contract value to $10,527,552. Work will be performed in Boston, Massachusetts, and is expected to be completed by March 9, 2017. Fiscal 2017 operations and maintenance (Navy) funds in the amount of $9,967,262 are being obligated at the time of award. Funds will expire at the end of the current fiscal year. This contract was competitively procured, with proposals solicited via the Federal Business Opportunities website, with three offers received. The Navy’s Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-17-C-4010).",
-      "seq": 14
+      "seq": 14,
+      "fields": {
+        "contract_numbers": [
+          "N3220517C4010"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9967262.0,
+        "cumulative_value_usd": 10527552.0,
+        "obligated_usd": 9967262.0,
+        "funding_text": "Fiscal 2017 operations and maintenance (Navy) funds in the amount of $9,967,262 are being obligated at the time of award",
+        "completion_date": "2017-03-09",
+        "contracting_activity": {
+          "name": "The Navy’s Military Sealift Command, Norfolk, Virginia",
+          "code": "N32205-17-C-4010"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 14,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Boston Ship Repair",
+            "location": "Boston, Massachusetts",
+            "contract_number": "N32205-17-C-4010",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "56-calendar day shipyard availability for regular overhaul and dry docking of USNS Big Horn (T-AO 198)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9967262,
+        "cumulative_value_usd": 10527552,
+        "obligated_usd": 9967262,
+        "fms_countries": [],
+        "competition": "competitive, Federal Business Opportunities website, three offers received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Wolverine World Wide Inc., Rockford, Michigan, has been awarded a maximum $8,873,726 modification (P00003) exercising the first one-year option period of a one-year base contract (SPE1C1-16-D-1026) with four one-year option periods for men’s poromeric shoes. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is Michigan, with a Dec. 1, 2017, performance completion date. Using customer is Defense Logistics Agency. Type of appropriation is fiscal 2017 through fiscal 2018 defense working capital funds. The contracting activity is the Defense Logistics Agency, Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 15
+      "seq": 15,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C116D1026"
+        ],
+        "modification_numbers": [
+          "P00003"
+        ],
+        "is_modification": true,
+        "value_usd": 8873726.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency, Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 15,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Wolverine World Wide Inc.",
+            "location": "Rockford, Michigan",
+            "contract_number": "SPE1C1-16-D-1026",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Men's poromeric shoes; exercise of first one-year option period",
+        "base_contract_number": "SPE1C1-16-D-1026",
+        "order_number": null,
+        "modification_number": "P00003",
+        "value_usd": 8873726,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "WASHINGTON HEADQUARTERS SERVICES",
       "kind": "announcement",
       "text": "American Systems Corp., Chantilly, Virginia, is being awarded a firm-fixed-price contract for $5,712,045, bringing the cumulative total to $9,999,027, to provide warfare area staff specialists to the deputy assistant secretary of defense for developmental test and evaluation (DASD(DT&E)). The contractor shall provide professional engineering services to support the DASD(DT&E) mission to ensure Major Defense Acquisition Program (MDAP)/Major Automated Information System (MAIS) acquisition programs deliver the data needed to support critical acquisition and engineering decisions. Work performance will take place in Arlington and Alexandria, Virginia. The expected completion date is Aug. 31, 2021. Fiscal 2017 research, development, test, and evaluation funds are being obligated at the time of the award. Washington Headquarters Services, Arlington, Virginia, is the contracting office (GS00Q14OADU343).",
-      "seq": 16
+      "seq": 16,
+      "fields": {
+        "contract_numbers": [
+          "GS00Q14OADU343"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 5712045.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2017 research, development, test, and evaluation funds are being obligated at the time of the award",
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 16,
+        "agency": "WASHINGTON HEADQUARTERS SERVICES",
+        "awardees": [
+          {
+            "name": "American Systems Corp.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "GS00Q14OADU343",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Warfare area staff specialists to the DASD(DT&E) for professional engineering services supporting MDAP/MAIS acquisition programs",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 5712045,
+        "cumulative_value_usd": 9999027,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:33Z",
-  "source": "file:2016-12-01.html"
+  "source": "file:2016-12-01.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:01:01Z"
+  }
 }

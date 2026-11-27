@@ -11,63 +11,676 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Alaska Structure Inc.,* Anchorage, Alaska, has been awarded a maximum $200,000,000 firm-fixed-price, indefinite-delivery contract for commercial shelters. This was a competitive acquisition with 20 responses received. This is a one-year base contract with three option years. Locations of performance are Alaska and New Mexico with a May 31, 2016, performance completion date. Using services are Army, Navy, Air Force, Marine Corps. Type of appropriation is fiscal 2015 through fiscal 2016 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-15-D-1060).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C115D1060"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 200000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-15-D-1060"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Alaska Structure Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "SPE1C1-15-D-1060",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery contract",
+        "description": "Commercial shelters (maximum $200,000,000 IDIQ), one-year base with three option years",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 200000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 20 responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Ten contracts will be modified to extend services under indefinite-delivery/indefinite-quantity contracts. The contracts provide for international airlift services. They are: Federal Express Charter Programs Team Arrangement, Memphis, Tennessee, which includes American Airlines Inc., Fort Worth, Texas; Atlas Air Inc., Purchase, New York; Delta Air Lines Inc., Atlanta, Georgia; FedEx Charters, Memphis, Tennessee; Polar Air Cargo Worldwide Inc., Purchase, New York; and US Airways Inc., Phoenix, Arizona (modification P000005 to previously awarded contract HTC711-15-D-CC01); Miami Air International Inc., doing business as Miami Air Team, Miami, Florida, which includes Miami Air International Inc., Miami, Florida; and MN Airlines LLC, doing business as Sun Country Airlines, Mendota Heights, Minnesota (modification P00002 to previously awarded contract HTC711-15-D-CC02); Patriot Team, Tulsa, Oklahoma, which includes ABX Air, Wilmington, Ohio; Air Transportation International Inc., Wilmington, Ohio; JetBlue Airways Corp., Long Island City, New York; Kalitta Air LLC, Ypsilanti, Michigan; Northern Air Cargo Inc., Anchorage, Alaska; Omni Air International Inc., Tulsa, Okla.; Sky Lease I Inc., Greensboro, North Carolina; Southern Air Inc., Norwalk, Connecticut; United Airlines Inc., Elk Grove Village, Illinois; and United Parcel Service Co., Louisville, Kentucky (modification P00004 to previously awarded contract HTC711-15-D-CC03); Allegiant Air LLC, Las Vegas, Nevada (modification P00002 to previously awarded contract HTC711-15-D-CC04); Hawaiian Airlines Inc., Honolulu, Hawaii (modification P00002 to previously awarded contract HTC711-15-D-CC05); Lynden Air Cargo LLC, Anchorage, Alaska (modification P00002 to previously awarded contract HTC711-15-D-CC06); National Air Cargo Group Inc., doing business as National Airlines, Orlando, Florida (modification P00003 to previously awarded contract HTC711-15-D-CC07); Southwest Airlines Co., Dallas, Texas (modification P00002 to previously awarded contract HTC711-15-D-CC08); Alaska Airlines Inc., Seattle, Washington (modification P00002 to previously awarded contract HTC711-15-D-CC09); and Tatonduk Outfitters Ltd., doing business as Everts Air Cargo, Fairbanks, Alaska (modification P00001 to previously awarded contract HTC711-15-D-CC19). The total cumulative face value of the program is $114,851,105. Work will be performed at worldwide locations as specified on each individual task order, with an expected completion date of Dec. 31, 2015. Type of appropriation is fiscal 2016 transportation working capital funds to be obligated on individual task orders. The U. S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "HTC71115DCC01",
+          "HTC71115DCC02",
+          "HTC71115DCC03",
+          "HTC71115DCC04",
+          "HTC71115DCC05",
+          "HTC71115DCC06",
+          "HTC71115DCC07",
+          "HTC71115DCC08",
+          "HTC71115DCC09",
+          "HTC71115DCC19"
+        ],
+        "modification_numbers": [
+          "P00002",
+          "P00004",
+          "P00003",
+          "P00001"
+        ],
+        "is_modification": true,
+        "value_usd": 114851105.0,
+        "cumulative_value_usd": 114851105.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Type of appropriation is fiscal 2016 transportation working capital funds to be obligated on individual task orders",
+        "completion_date": "2015-12-31",
+        "contracting_activity": {
+          "name": "The U. S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Federal Express Charter Programs Team Arrangement",
+            "location": "Memphis, Tennessee",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "American Airlines Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "Atlas Air Inc.",
+            "location": "Purchase, New York",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "Delta Air Lines Inc.",
+            "location": "Atlanta, Georgia",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "FedEx Charters",
+            "location": "Memphis, Tennessee",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "Polar Air Cargo Worldwide Inc.",
+            "location": "Purchase, New York",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "US Airways Inc.",
+            "location": "Phoenix, Arizona",
+            "contract_number": "HTC711-15-D-CC01",
+            "markers": null
+          },
+          {
+            "name": "Miami Air International Inc., doing business as Miami Air Team",
+            "location": "Miami, Florida",
+            "contract_number": "HTC711-15-D-CC02",
+            "markers": null
+          },
+          {
+            "name": "MN Airlines LLC, doing business as Sun Country Airlines",
+            "location": "Mendota Heights, Minnesota",
+            "contract_number": "HTC711-15-D-CC02",
+            "markers": null
+          },
+          {
+            "name": "Patriot Team",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "ABX Air",
+            "location": "Wilmington, Ohio",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Air Transportation International Inc.",
+            "location": "Wilmington, Ohio",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "JetBlue Airways Corp.",
+            "location": "Long Island City, New York",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Kalitta Air LLC",
+            "location": "Ypsilanti, Michigan",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Northern Air Cargo Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Omni Air International Inc.",
+            "location": "Tulsa, Okla.",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Sky Lease I Inc.",
+            "location": "Greensboro, North Carolina",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Southern Air Inc.",
+            "location": "Norwalk, Connecticut",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "United Airlines Inc.",
+            "location": "Elk Grove Village, Illinois",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "United Parcel Service Co.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "HTC711-15-D-CC03",
+            "markers": null
+          },
+          {
+            "name": "Allegiant Air LLC",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "HTC711-15-D-CC04",
+            "markers": null
+          },
+          {
+            "name": "Hawaiian Airlines Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "HTC711-15-D-CC05",
+            "markers": null
+          },
+          {
+            "name": "Lynden Air Cargo LLC",
+            "location": "Anchorage, Alaska",
+            "contract_number": "HTC711-15-D-CC06",
+            "markers": null
+          },
+          {
+            "name": "National Air Cargo Group Inc., doing business as National Airlines",
+            "location": "Orlando, Florida",
+            "contract_number": "HTC711-15-D-CC07",
+            "markers": null
+          },
+          {
+            "name": "Southwest Airlines Co.",
+            "location": "Dallas, Texas",
+            "contract_number": "HTC711-15-D-CC08",
+            "markers": null
+          },
+          {
+            "name": "Alaska Airlines Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "HTC711-15-D-CC09",
+            "markers": null
+          },
+          {
+            "name": "Tatonduk Outfitters Ltd., doing business as Everts Air Cargo",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "HTC711-15-D-CC19",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "indefinite-delivery/indefinite-quantity (international airlift services)",
+        "description": "Extend services under international airlift IDIQ contracts (ten contracts modified)",
+        "base_contract_number": "HTC711-15-D-CC01, HTC711-15-D-CC02, HTC711-15-D-CC03, HTC711-15-D-CC04, HTC711-15-D-CC05, HTC711-15-D-CC06, HTC711-15-D-CC07, HTC711-15-D-CC08, HTC711-15-D-CC09, HTC711-15-D-CC19",
+        "order_number": null,
+        "modification_number": "P000005, P00002, P00004, P00002, P00002, P00002, P00003, P00002, P00002, P00001",
+        "value_usd": null,
+        "cumulative_value_usd": 114851105,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Mission Systems and Training, Moorestown, New Jersey, is being awarded a $69,690,095 modification to previously awarded contract (N00024-13-C-5111) for development and test of the Japan Aegis Modernization baseline computer programs and equipment. This modification covers efforts to support the upgrade of Japanese Maritime Self-Defense Force Atago Class Ships (DDGs 177 and 178) from Baseline 7 Phase 1R to Advanced Capability Build 12 with Technology Insertion 12 technology and capability. This contract will support foreign military sales (FMS) to Japan (100 percent). Work will be performed in Moorestown, New Jersey (98 percent); Washington, District of Columbia (1 percent); and Tokyo, Japan (1 percent), and is expected to be completed by March 2017. FMS funding in the amount of $69,690,095 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "N0002413C5111"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 69690095.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 69690095.0,
+        "funding_text": "FMS funding in the amount of $69,690,095 will be obligated at time of award and will not expire at the end of the current fiscal year",
+        "completion_date": "2017-03",
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": true,
+        "fms_countries": [
+          "Japan"
+        ],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Mission Systems and Training",
+            "location": "Moorestown, New Jersey",
+            "contract_number": "N00024-13-C-5111",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Development and test of Japan Aegis Modernization baseline computer programs and equipment (Atago Class DDGs 177 and 178 upgrade)",
+        "base_contract_number": "N00024-13-C-5111",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 69690095,
+        "cumulative_value_usd": null,
+        "obligated_usd": 69690095,
+        "fms_countries": [
+          "Japan"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Communications Vertex Aerospace LLC, Madison, Mississippi, is being awarded a $56,182,753 modification to a previously awarded indefinite-delivery requirements contract (N00019-13-D-0007) to exercise an option for logistics and depot level services for 119 TH-57 aircraft in support of the Naval Air Training Command’s Undergraduate Helicopter Pilot Training Program. Work will be performed at the Naval Air Station Whiting Field, Milton, Florida, and is expected to be completed in May 2016. No funds are being obligated at time of award. Funds will be obligated against individual delivery orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "N0001913D0007"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 56182753.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at time of award Funds will be obligated against individual delivery orders as they are issued",
+        "completion_date": "2016-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "L-3 Communications Vertex Aerospace LLC",
+            "location": "Madison, Mississippi",
+            "contract_number": "N00019-13-D-0007",
+            "markers": null
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": "indefinite-delivery requirements contract",
+        "description": "Logistics and depot level services for 119 TH-57 aircraft, Undergraduate Helicopter Pilot Training Program",
+        "base_contract_number": "N00019-13-D-0007",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 56182753,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Rockwell Collins Inc., Cedar Rapids, Iowa, is being awarded a $24,788,109 indefinite-delivery/indefinite-quantity contract for a maximum of 63 aircraft direction finders, radio tuner panels, and high frequency radio shipsets for the Navy (47) and the government of Australia (16), in support of the P-8A program. Work will be performed in Cedar Rapids, Iowa, and is expected to be completed in May 2020. This contract combines purchases for the Navy and the government of Australia under a memorandum of agreement. Fiscal 2015 aircraft procurement funds (Navy) and Cooperative Partner funds (Australia) in the amount of $5,639,208 are being obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S.C 2304(c)(1). The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N68335-15-D-0003).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "N6833515D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 24788109.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5639208.0,
+        "funding_text": "Fiscal 2015 aircraft procurement funds (Navy) and Cooperative Partner funds (Australia) in the amount of $5,639,208 are being obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-05",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey",
+          "code": "N68335-15-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Rockwell Collins Inc.",
+            "location": "Cedar Rapids, Iowa",
+            "contract_number": "N68335-15-D-0003",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Maximum 63 aircraft direction finders, radio tuner panels, and HF radio shipsets for Navy and Australia, P-8A program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 24788109,
+        "cumulative_value_usd": null,
+        "obligated_usd": 5639208,
+        "fms_countries": [
+          "Australia"
+        ],
+        "competition": "not competitively procured pursuant to 10 U.S.C 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "L-3 Communications Corp., Arlington, Texas, is being awarded $11,802,260 for modification to previously issued firm-fixed-price delivery order 0001 placed against a basic ordering agreement (N61340-12-G-0001) for updates to the F/A-18C/D Footprint Reduction/Storage Area Network. This update will reduce Tactical Operational Flight Trainer (TOFT) Host/Instructor Operator Station hardware, centralize software storage, provide expandable software storage for future TOFT enhancements, allow for multiple software configurations, and update all analog Mission Management System video output to digital. Work will be performed at the Marine Corps Air Station (MCAS), Beaufort, South Carolina (45 percent); MCAS Miramar, California (28 percent); MCAS Iwakuni, Japan (18 percent); Naval Air Station Oceana, Virginia (6 percent); and the Naval Air Facility, Atsugi, Japan (3 percent), and is expected to be completed in December 2016. Fiscal 2013, 2014, and 2015 aircraft procurement (Navy) funding in the amount of $11,802,260 will be obligated at the time of award, $1,057,581 of which will expire at the end of the fiscal year. The Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N6134012G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 11802260.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11802260.0,
+        "funding_text": "Fiscal 2013, 2014, and 2015 aircraft procurement (Navy) funding in the amount of $11,802,260 will be obligated at the time of award, $1,057,581 of which will expire at the end of the fiscal year",
+        "completion_date": "2016-12",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Training Systems Division, Orlando, Florida",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "L-3 Communications Corp.",
+            "location": "Arlington, Texas",
+            "contract_number": "N61340-12-G-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "firm-fixed-price delivery order",
+        "description": "F/A-18C/D Footprint Reduction/Storage Area Network updates for TOFT",
+        "base_contract_number": "N61340-12-G-0001",
+        "order_number": "0001",
+        "modification_number": null,
+        "value_usd": 11802260,
+        "cumulative_value_usd": null,
+        "obligated_usd": 11802260,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, is being awarded $8,007,259 for delivery order 0211 against a previously issued basic ordering agreement (N00019-11-G-0001) for engineering and logistics support services to improve readiness, expand interactive electronic technical manual and structural repair manual work packages, and maintenance planning for the F/A-18A-F and E/A-18G aircraft. Work will be performed in St. Louis, Missouri, and is expected to be completed in May 2016. Fiscal 2015 operations and maintenance (Navy) funds in the amount of $2,000,000 will be obligated at the time of award, all of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N0001911G0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8007259.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000000.0,
+        "funding_text": "Fiscal 2015 operations and maintenance (Navy) funds in the amount of $2,000,000 will be obligated at the time of award, all of which will expire at the end of the current fiscal year",
+        "completion_date": "2016-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "N00019-11-G-0001",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "delivery order",
+        "description": "Engineering and logistics support for F/A-18A-F and E/A-18G aircraft",
+        "base_contract_number": "N00019-11-G-0001",
+        "order_number": "0211",
+        "modification_number": null,
+        "value_usd": 8007259,
+        "cumulative_value_usd": null,
+        "obligated_usd": 2000000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "BAE Systems Platforms & Services, Sterling Heights, Michigan, was awarded a $18,866,000 modification (P00004) to contract for W56HZV-15-C-A001 to revise and update the current contract statement of work and associated attachments in order to clearly articulate the requirements for a variant baseline design and additional detailed provisions for the hosted and stowed variant mission equipment. Work will be performed in Sterling Heights, Michigan; Santa Clara, California; York, Pennsylvania; and Aiken, South Carolina, with an estimated completion date of May 20, 2019. Fiscal 2015 research, development, testing, and evaluation funds in the amount of $3,930,000 were obligated at the time of the award. Army Contracting Command, Warren, Michigan, is the contracting activity.",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W56HZV15CA001"
+        ],
+        "modification_numbers": [
+          "P00004"
+        ],
+        "is_modification": true,
+        "value_usd": 18866000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3930000.0,
+        "funding_text": "Fiscal 2015 research, development, testing, and evaluation funds in the amount of $3,930,000 were obligated at the time of the award",
+        "completion_date": "2019-05-20",
+        "contracting_activity": {
+          "name": "Army Contracting Command, Warren, Michigan",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "BAE Systems Platforms & Services",
+            "location": "Sterling Heights, Michigan",
+            "contract_number": "W56HZV-15-C-A001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Revise and update statement of work for variant baseline design and hosted/stowed variant mission equipment",
+        "base_contract_number": "W56HZV-15-C-A001",
+        "order_number": null,
+        "modification_number": "P00004",
+        "value_usd": 18866000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 3930000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "CONCO Inc.,* Louisville, Kentucky, was awarded a $16,000,000 fixed-price economic price adjustment indefinite-delivery/indefinite-quantity contract for M548 metal ammunition storage/shipping containers for small and medium caliber ammunition. Funding and work location will be determined with each order. Bids were solicited via the Internet with two received. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-15-D-0032).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W52P1J15D0032"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 16000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Army Contracting Command, Rock Island Arsenal, Illinois",
+          "code": "W52P1J-15-D-0032"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "CONCO Inc.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "W52P1J-15-D-0032",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "fixed-price economic price adjustment indefinite-delivery/indefinite-quantity",
+        "description": "M548 metal ammunition storage/shipping containers",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 16000000,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "bids solicited via the Internet, two received",
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Chromalloy Southwest, Calexico, California, has been awarded an estimated $8,629,810 indefinite-delivery/indefinite-quantity contract for remanufacture of the TF33 first-stage turbine nozzle vanes. Contractor will provide all required labor, facilities, equipment, and material to accomplish the remanufacture or condemnation, test packing, preservation, packing, and return to the government in a completely serviceable condition, of the TF33 first-stage turbine nozzle vanes. Work will be performed at Calexico, California, and Mexicali, Mexico, and is expected to be complete by May 25, 2016. This award is the result of a competitive acquisition with two offers received. No funds are being obligated at the time of award. Oklahoma City Air Logistics Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8121-15-D-0004).",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "FA812115D0004"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8629810.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "No funds are being obligated at the time of award",
+        "completion_date": "2016-05-25",
+        "contracting_activity": {
+          "name": "Oklahoma City Air Logistics Center, Tinker Air Force Base, Oklahoma",
+          "code": "FA8121-15-D-0004"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Chromalloy Southwest",
+            "location": "Calexico, California",
+            "contract_number": "FA8121-15-D-0004",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "indefinite-delivery/indefinite-quantity",
+        "description": "Remanufacture of TF33 first-stage turbine nozzle vanes",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8629810,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two offers received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:29Z",
-  "source": "file:2015-05-26.html"
+  "source": "file:2015-05-26.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T05:05:37Z"
+  }
 }

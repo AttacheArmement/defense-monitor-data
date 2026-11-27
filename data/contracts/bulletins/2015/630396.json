@@ -11,45 +11,527 @@
       "agency": "U.S. TRANSPORTATION COMMAND",
       "kind": "announcement",
       "text": "Three teams and eight individual airlines, all members of the Civil Reserve Air Fleet program, have been awarded indefinite-delivery / indefinite-quantity, fixed-price with economic price adjustment contracts to provide international airlift services. The total cumulative face value of the contracts is $357,053,176. The teams are: Patriot Team, Tulsa, Oklahoma, which includes ABX Air,* Wilmington, Ohio, Air Transportation International, Inc.,* Wilmington, Ohio, JetBlue Airways Corporation, Long Island City, New York; Kalitta Air, LLC,* Ypsilanti, Michigan; Northern Air Cargo, Inc., Anchorage, Alaska; Omni Air International, Inc.,* Tulsa, Oklahoma; United Airlines, Inc., Houston, Texas; and United Parcel Service Co., Louisville, Kentucky, $99,891,750 (HTC711-16-D-CC12) Federal Express Charter Programs Team, Memphis, Tennessee, which includes American Airlines, Inc., Fort Worth, Texas; Atlas Air, Inc., Purchase, New York; FedEx Charters, Memphis, Tennessee; and Polar Air Cargo Worldwide, Inc., Purchase, New York, $67,214,751 (HTC711-16-D-CC10) Miami Air International, Inc. dba Miami Air Team, Miami, Florida, which includes Miami Air International, Inc.,* Miami, Florida, and MN Airlines, LLC, dba Sun Country Airlines,* Mendota Heights, Minnesota, $4,446,065 (HTC711-16-D-CC11) Individual airlines include: National Air Cargo Group, Inc. dba National Airlines,* Orlando, Florida, $4,328,185 (HTC711-16-D-CC15) Delta Airlines, Atlanta, Georgia, $901,613, (HTC711-16-D-CC19) Hawaiian Airlines, Inc., Honolulu, Hawaii, $5,433 (HTC711-16-D-CC14) Alaska Airlines, Inc., Seattle, Washington, $4,551 (HTC711-16-D-CC17) Tatonduk Outfitters dba Everts Air Cargo,* Fairbanks, Alaska, $4,550 (HTC711-16-D-CC18) Lynden Air Cargo, Anchorage, Alaska, $4,229 (HTC711-16-D-CC20) Southwest Airlines Co., Dallas, Texas, $1,975 (HTC711-16-D-CC16) Allegiant Air, LLC, Las Vegas, Nevada, $1,971 (HTC711-16-D-CC13) Work will be performed at worldwide locations as specified on each individual task order, with an expected completion date of Sept. 30, 2016. Type of appropriation is fiscal 2016 Transportation Working Capital Funds to be obligated on individual task orders. The contracting activity is the U.S. Transportation Command Directorate of Acquisition, Scott Air Force Base, Illinois.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "HTC71116DCC12",
+          "HTC71116DCC10",
+          "HTC71116DCC11",
+          "HTC71116DCC15",
+          "HTC71116DCC19",
+          "HTC71116DCC14",
+          "HTC71116DCC17",
+          "HTC71116DCC18",
+          "HTC71116DCC20",
+          "HTC71116DCC16",
+          "HTC71116DCC13"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 357053176.0,
+        "cumulative_value_usd": 357053176.0,
+        "obligated_usd": 0.0,
+        "funding_text": "Type of appropriation is fiscal 2016 Transportation Working Capital Funds to be obligated on individual task orders",
+        "completion_date": "2016-09-30",
+        "contracting_activity": {
+          "name": "U.S",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Patriot Team",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": null
+          },
+          {
+            "name": "ABX Air",
+            "location": null,
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": "*"
+          },
+          {
+            "name": "Air Transportation International, Inc.",
+            "location": "Wilmington, Ohio",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": "*"
+          },
+          {
+            "name": "JetBlue Airways Corporation",
+            "location": "Long Island City, New York",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": null
+          },
+          {
+            "name": "Kalitta Air, LLC",
+            "location": "Ypsilanti, Michigan",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": "*"
+          },
+          {
+            "name": "Northern Air Cargo, Inc.",
+            "location": "Anchorage, Alaska",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": null
+          },
+          {
+            "name": "Omni Air International, Inc.",
+            "location": "Tulsa, Oklahoma",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": "*"
+          },
+          {
+            "name": "United Airlines, Inc.",
+            "location": "Houston, Texas",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": null
+          },
+          {
+            "name": "United Parcel Service Co.",
+            "location": "Louisville, Kentucky",
+            "contract_number": "HTC711-16-D-CC12",
+            "markers": null
+          },
+          {
+            "name": "Federal Express Charter Programs Team",
+            "location": "Memphis, Tennessee",
+            "contract_number": "HTC711-16-D-CC10",
+            "markers": null
+          },
+          {
+            "name": "American Airlines, Inc.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "HTC711-16-D-CC10",
+            "markers": null
+          },
+          {
+            "name": "Atlas Air, Inc.",
+            "location": "Purchase, New York",
+            "contract_number": "HTC711-16-D-CC10",
+            "markers": null
+          },
+          {
+            "name": "FedEx Charters",
+            "location": "Memphis, Tennessee",
+            "contract_number": "HTC711-16-D-CC10",
+            "markers": null
+          },
+          {
+            "name": "Polar Air Cargo Worldwide, Inc.",
+            "location": "Purchase, New York",
+            "contract_number": "HTC711-16-D-CC10",
+            "markers": null
+          },
+          {
+            "name": "Miami Air International, Inc. dba Miami Air Team",
+            "location": "Miami, Florida",
+            "contract_number": "HTC711-16-D-CC11",
+            "markers": null
+          },
+          {
+            "name": "Miami Air International, Inc.",
+            "location": "Miami, Florida",
+            "contract_number": "HTC711-16-D-CC11",
+            "markers": "*"
+          },
+          {
+            "name": "MN Airlines, LLC, dba Sun Country Airlines",
+            "location": "Mendota Heights, Minnesota",
+            "contract_number": "HTC711-16-D-CC11",
+            "markers": "*"
+          },
+          {
+            "name": "National Air Cargo Group, Inc. dba National Airlines",
+            "location": "Orlando, Florida",
+            "contract_number": "HTC711-16-D-CC15",
+            "markers": "*"
+          },
+          {
+            "name": "Delta Airlines",
+            "location": "Atlanta, Georgia",
+            "contract_number": "HTC711-16-D-CC19",
+            "markers": null
+          },
+          {
+            "name": "Hawaiian Airlines, Inc.",
+            "location": "Honolulu, Hawaii",
+            "contract_number": "HTC711-16-D-CC14",
+            "markers": null
+          },
+          {
+            "name": "Alaska Airlines, Inc.",
+            "location": "Seattle, Washington",
+            "contract_number": "HTC711-16-D-CC17",
+            "markers": null
+          },
+          {
+            "name": "Tatonduk Outfitters dba Everts Air Cargo",
+            "location": "Fairbanks, Alaska",
+            "contract_number": "HTC711-16-D-CC18",
+            "markers": "*"
+          },
+          {
+            "name": "Lynden Air Cargo",
+            "location": "Anchorage, Alaska",
+            "contract_number": "HTC711-16-D-CC20",
+            "markers": null
+          },
+          {
+            "name": "Southwest Airlines Co.",
+            "location": "Dallas, Texas",
+            "contract_number": "HTC711-16-D-CC16",
+            "markers": null
+          },
+          {
+            "name": "Allegiant Air, LLC",
+            "location": "Las Vegas, Nevada",
+            "contract_number": "HTC711-16-D-CC13",
+            "markers": null
+          }
+        ],
+        "action": "multiple_award_pool",
+        "contract_type": "indefinite-delivery/indefinite-quantity, fixed-price with economic price adjustment",
+        "description": "International airlift services (Civil Reserve Air Fleet teams and individual airlines)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 357053176,
+        "cumulative_value_usd": 357053176,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Allan Baker, Inc., doing business as Korect Optical,* Louisville, Kentucky, has been awarded a maximum $30,000,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for various optical lenses for military services using the electronic catalog program. This was a competitive acquisition, with two responses received. This is a three-year base contract with two one-year option periods. The maximum dollar amount is for the life of the contract. Location of performance is Kentucky, with a Nov. 17, 2020, performance completion date. Using military services are Army, Navy, Air Force, Marine Corps and federal civilian agencies. Type of appropriation is fiscal 2016 through fiscal 2021 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DE-16-D-0001).",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "SPE2DE16D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 30000000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2DE-16-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Allan Baker, Inc., doing business as Korect Optical",
+            "location": "Louisville, Kentucky",
+            "contract_number": "SPE2DE-16-D-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity",
+        "description": "Various optical lenses for military services via electronic catalog program",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 30000000,
+        "cumulative_value_usd": 30000000,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, two responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "KPMG LLP, McLean, Virginia, has been awarded a maximum $26,183,088 firm-fixed-price contract to provide necessary management services for assisting in asserting and sustaining audit readiness. This was a competitive acquisition with six responses received. This is a one year contract. Location of performance is Virginia, with a Nov. 17, 2016 performance completion date. Using service is federal civilian agencies. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Contracting Services Office, Richmond, Virginia (SP4703-11-A-0017-0059).",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SP470311A0017"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 26183088.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Contracting Services Office, Richmond, Virginia",
+          "code": "SP4703-11-A-0017-0059"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "awardees": [
+          {
+            "name": "KPMG LLP",
+            "location": "McLean, Virginia",
+            "contract_number": "SP4703-11-A-0017-0059",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Management services for assisting in asserting and sustaining audit readiness",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 26183088,
+        "cumulative_value_usd": 26183088,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, six responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Excel Garment Manufacturing, LTD.,* El Paso, Texas, has been awarded a maximum $8,426,077 modification (P00111) exercising the second one-year option period of a one-year base contract (SPM1C1-14-D-1006) with four one-year option periods for coats and trousers for various types of uniforms. Location of performance is Texas, with a Nov. 19, 2016, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2016 through fiscal 2017 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPM1C114D1006"
+        ],
+        "modification_numbers": [
+          "P00111"
+        ],
+        "is_modification": true,
+        "value_usd": 8426077.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Excel Garment Manufacturing, LTD.",
+            "location": "El Paso, Texas",
+            "contract_number": "SPM1C1-14-D-1006",
+            "markers": "*"
+          }
+        ],
+        "action": "option_exercise",
+        "contract_type": null,
+        "description": "Coats and trousers for various types of uniforms; exercise of second one-year option period",
+        "base_contract_number": "SPM1C1-14-D-1006",
+        "order_number": null,
+        "modification_number": "P00111",
+        "value_usd": 8426077,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "MISSILE DEFENSE AGENCY",
       "kind": "announcement",
       "text": "Network Management Resources, Inc.*, Chantilly, Virginia is being awarded a $15,945,835 modification (P00060) to a previously awarded cost-plus-incentive-fee contract to exercise an option, increasing the total contract value from $54,981,299 to $70,927,134. Under this modification, the contractor will provide global classified and unclassified video conferencing services, collaboration services, customer facing business application services, and end user training. The work will be performed in Fort Belvoir, Va.; Huntsville, Ala.; Colorado Springs, Colo.; and Dahlgren, Va. The performance period is from Dec. 1, 2015 through Nov. 30, 2016. Fiscal Year 2016 Research and Development funds in the amount of $2,016,450 are being obligated on this award. The Missile Defense Agency, Schriever AFB, Colo., is the contracting activity (H95001-12-C-0001).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "H9500112C0001"
+        ],
+        "modification_numbers": [
+          "P00060"
+        ],
+        "is_modification": true,
+        "value_usd": 15945835.0,
+        "cumulative_value_usd": 54981299.0,
+        "obligated_usd": 2016450.0,
+        "funding_text": "Fiscal Year 2016 Research and Development funds in the amount of $2,016,450 are being obligated on this award",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Missile Defense Agency, Schriever AFB, Colo.",
+          "code": "H95001-12-C-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Network Management Resources, Inc.",
+            "location": "Chantilly, Virginia",
+            "contract_number": "H95001-12-C-0001",
+            "markers": "*"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-incentive-fee",
+        "description": "Global classified and unclassified video conferencing, collaboration, business application and end-user training services (option exercise)",
+        "base_contract_number": "H95001-12-C-0001",
+        "order_number": null,
+        "modification_number": "P00060",
+        "value_usd": 15945835,
+        "cumulative_value_usd": 70927134,
+        "obligated_usd": 2016450,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Bechtel Plant Machinery Inc., Monroeville, Pennsylvania, is being awarded a $93,135,194 cost-plus-fixed-fee modification to previously awarded contract (N00024-12-C-2106) for Naval Nuclear Propulsion Components. Work will be performed in Monroeville, Pennsylvania. Fiscal 2016 other procurement (Navy) and fiscal 2016 shipbuilding and conversion (Navy) funding in the amount of $81,994,530 will be obligated at time of award and funds will not expire at the end of the current fiscal year. No completion date or additional information is provided on Naval Nuclear Propulsion Program contracts. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "N0002412C2106"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 93135194.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81994530.0,
+        "funding_text": "Fiscal 2016 other procurement (Navy) and fiscal 2016 shipbuilding and conversion (Navy) funding in the amount of $81,994,530 will be obligated at time of award and funds will not expire at the end of the current fiscal year",
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "The Naval Sea Systems Command, Washington, District of Columbia",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 6,
+        "awardees": [
+          {
+            "name": "Bechtel Plant Machinery Inc.",
+            "location": "Monroeville, Pennsylvania",
+            "contract_number": "N00024-12-C-2106",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "cost-plus-fixed-fee",
+        "description": "Naval Nuclear Propulsion Components",
+        "base_contract_number": "N00024-12-C-2106",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 93135194,
+        "cumulative_value_usd": null,
+        "obligated_usd": 81994530,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Mercury Defense Systems, Inc.,* Cypress, California, is being awarded a $41,802,436 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for 200 Miniaturized I/J Band Digital Radio Frequency Memory Modulators (Mini DRFMs) and their associated repairs and evaluations. The Mini DRFM is a state-of-the-art electronic and radio frequency device that produces high fidelity threat simulator systems for test and evaluation and training missions. Work will be performed in Cypress, California, and is expected to be completed in November 2020. Fiscal 2015 working capital funds (Navy) in the amount of $169,681 will be obligated at time of award, none of which will expire at the end of the current fiscal year. This contract was not competitively procured pursuant to FAR 6.302-1. The Naval Air Warfare Center Weapons Division, China Lake, California, is the contracting activity (N68936-16-D-0003).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "N6893616D0003"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 41802436.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169681.0,
+        "funding_text": "Fiscal 2015 working capital funds (Navy) in the amount of $169,681 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2020-11",
+        "contracting_activity": {
+          "name": "The Naval Air Warfare Center Weapons Division, China Lake, California",
+          "code": "N68936-16-D-0003"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "Mercury Defense Systems, Inc.",
+            "location": "Cypress, California",
+            "contract_number": "N68936-16-D-0003",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price, indefinite-delivery/indefinite-quantity",
+        "description": "200 Miniaturized I/J Band Digital Radio Frequency Memory Modulators (Mini DRFMs) and associated repairs and evaluations",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 41802436,
+        "cumulative_value_usd": null,
+        "obligated_usd": 169681,
+        "fms_countries": [],
+        "competition": "not competitively procured pursuant to FAR 6.302-1",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-11-18.html"
+  "source": "file:2015-11-18.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:43:50Z"
+  }
 }

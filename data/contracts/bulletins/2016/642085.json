@@ -9,9 +9,56 @@
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Constellation NewEnergy Inc., Baltimore, Maryland, has been awarded a maximum $7,046,395 firm-fixed-price contract for electricity and ancillary services. This was a competitive acquisition with seven responses received. This is a one-year contract with no option periods. Locations of performance are Maryland and Texas, with a Jan. 31, 2017, performance completion date. Using military service is Navy. Type of appropriation is fiscal 2016 through fiscal 2017 Navy working capital funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia (SPE600-16-D-8008).",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "SPE60016D8008"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 7046395.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Energy, Fort Belvoir, Virginia",
+          "code": "SPE600-16-D-8008"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Constellation NewEnergy Inc.",
+            "location": "Baltimore, Maryland",
+            "contract_number": "SPE600-16-D-8008",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Electricity and ancillary services supply contract for Maryland and Texas locations (Navy; DLA Energy)",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 7046395,
+        "cumulative_value_usd": 7046395,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition, 7 responses received",
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:31Z",
-  "source": "file:2016-01-08.html"
+  "source": "file:2016-01-08.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:39:00Z"
+  }
 }

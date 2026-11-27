@@ -12,63 +12,513 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a not-to-exceed $261,425,000 fixed-price incentive (firm target) modification (P00010) to a previously awarded contract (N0001920C0009). This modification increases scope for the procurement of long lead-time materials, parts, components, and efforts for the production of nine Lot 17 F-35C aircraft for the Navy, 13 Lot 17 F-35A aircraft and two Lot 17 F-35B aircraft for non-U.S. Department of Defense (DOD) participants. Work will be performed in Fort Worth, Texas (57%); El Segundo, California (14%); Warton, United Kingdom (9%); Cameri, Italy (4%); Orlando, Florida (4%); Nashua, New Hampshire (3%); Baltimore, Maryland (3%); San Diego, California (2%); Nagoya, Japan (2%); and various locations outside the continental U.S. (2%), and is expected to be completed in May 2026. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $75,425,000; and non-U.S. DOD participant funds in the amount of $186,000,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001920C0009"
+        ],
+        "modification_numbers": [
+          "P00010"
+        ],
+        "is_modification": true,
+        "value_usd": 261425000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 261425000.0,
+        "funding_text": "Fiscal 2022 aircraft procurement (Navy) funds in the amount of $75,425,000; and non-U.S. DOD participant funds in the amount of $186,000,000 will be obligated at time of award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2026-05",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "agency": "NAVY",
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N0001920C0009",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": "fixed-price incentive (firm target)",
+        "description": "Long lead-time materials and efforts for production of Lot 17 F-35 aircraft (F-35C for Navy, F-35A and F-35B for non-U.S. DOD participants)",
+        "base_contract_number": "N0001920C0009",
+        "order_number": null,
+        "modification_number": "P00010",
+        "value_usd": 261425000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 261425000,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "AKIMA Logistics Services LLC, Herndon, Virginia, has been awarded a $109,723.382 firm-fixed-price contract to procure contractor logistics support for 58 total U.S. Air Force Academy aircraft located at Peterson Air Force Base, the U.S. Air Force Academy, and an Academy auxiliary airfield, all located in Colorado. This contract includes contractor provided tow aircraft and tow pilots. The location of performance is U.S. Air Force Academy and Peterson AFB. The work is expected to begin April 7, 2022, and is expected to be completed by April 6, 2032. This award is the result of a competitive acquisition. Fiscal 2022 operations and maintenance funds are being obligated at the time of award. Air Force Life Cycle Management Center, Tinker AFB, Oklahoma, is the contracting activity (FA8106-22-D-0001). (Awarded April 1, 2022)",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA810622D0001"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 109723.382,
+        "cumulative_value_usd": null,
+        "obligated_usd": 0.0,
+        "funding_text": "Fiscal 2022 operations and maintenance funds are being obligated at the time of award",
+        "completion_date": "2032-04-06",
+        "contracting_activity": {
+          "name": "Air Force Life Cycle Management Center, Tinker AFB, Oklahoma",
+          "code": "FA8106-22-D-0001"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "AKIMA Logistics Services LLC",
+            "location": "Herndon, Virginia",
+            "contract_number": "FA8106-22-D-0001",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Contractor logistics support for 58 U.S. Air Force Academy aircraft, including tow aircraft and tow pilots",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 109723382,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive acquisition",
+        "award_date": "2022-04-01"
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "The Boeing Co., St. Louis, Missouri, has been awarded a maximum $55,479,425 long-term contract (SPRPA1-22-F-0LB5) against a 10-year basic ordering agreement (SPRPA1-14-D-002U) in support of the KC-46 program. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a three-year base contract with two one-year option periods. Location of performance is Missouri, with an April 6, 2025, performance completion date. Using military service is Air Force. Type of appropriation is fiscal 2022 through 2025 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Philadelphia, Pennsylvania.",
-      "seq": 3
+      "seq": 3,
+      "fields": {
+        "contract_numbers": [
+          "SPRPA122F0LB5",
+          "SPRPA114D002U"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 55479425.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Aviation, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 3,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "The Boeing Co.",
+            "location": "St. Louis, Missouri",
+            "contract_number": "SPRPA1-22-F-0LB5",
+            "markers": null
+          }
+        ],
+        "action": "task_or_delivery_order",
+        "contract_type": "long-term contract (maximum value) against basic ordering agreement",
+        "description": "KC-46 program support, three-year base with two one-year options",
+        "base_contract_number": "SPRPA1-14-D-002U",
+        "order_number": "SPRPA1-22-F-0LB5",
+        "modification_number": null,
+        "value_usd": 55479425,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "sole source, 10 U.S.C. 2304(c)(1)",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Golden State Medical Supply, Camarillo, California, has been awarded an estimated $13,633,037 firm-fixed-price, requirements contract for febuxostat tablets. This was a competitive acquisition with three responses received. This is a one-year base contract with four one-year option periods. Locations of performance are Ohio and California, with an April 6, 2023, performance completion date. Using customers are Defense Department, Department of Veterans Affairs, Indian Health Services and Federal Bureau of Prisons. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2D2-22-D-0142).",
-      "seq": 4
+      "seq": 4,
+      "fields": {
+        "contract_numbers": [
+          "SPE2D222D0142"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 13633037.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE2D2-22-D-0142"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 4,
+        "awardees": [
+          {
+            "name": "Golden State Medical Supply",
+            "location": "Camarillo, California",
+            "contract_number": "SPE2D2-22-D-0142",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price requirements contract",
+        "description": "Febuxostat tablets; one-year base with four one-year options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 13633037,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Belleville Shoe Manufacturing Co.,* Belleville, Illinois, has been awarded a maximum $11,188,445 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for safety boots. This was a competitive acquisition with three responses received. This is a one-year base contract with two one-year option periods. Locations of performance are Illinois and Arkansas, with an April 7, 2023, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-22-D-1541).",
-      "seq": 5
+      "seq": 5,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C122D1541"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 11188445.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": "SPE1C1-22-D-1541"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 5,
+        "awardees": [
+          {
+            "name": "Belleville Shoe Manufacturing Co.",
+            "location": "Belleville, Illinois",
+            "contract_number": "SPE1C1-22-D-1541",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Safety boots; one-year base with two one-year options",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 11188445,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "competitive, three responses received",
+        "award_date": null
+      }
     },
     {
       "agency": "DEFENSE LOGISTICS AGENCY",
       "kind": "announcement",
       "text": "Kandor Manufacturing,** Arecibo, Puerto Rico, has been awarded a maximum $9,814,703 modification (P00026) exercising the third one-year option period of an 18-month base contract (SPE1C1-19-D-1163) with three one-year option periods for Navy working uniform blouses and trousers, maternity blouses and Army combat uniform trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is Puerto Rico, with an April 6, 2023, ordering period end date. Using military services are Navy and Army. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
-      "seq": 6
+      "seq": 6,
+      "fields": {
+        "contract_numbers": [
+          "SPE1C119D1163"
+        ],
+        "modification_numbers": [
+          "P00026"
+        ],
+        "is_modification": true,
+        "value_usd": 9814703.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": {
+          "name": "Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "**",
+            "meaning": "Small-disadvantaged business in historically underutilized business zones"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 6,
+        "agency": "DEFENSE LOGISTICS AGENCY",
+        "awardees": [
+          {
+            "name": "Kandor Manufacturing",
+            "location": "Arecibo, Puerto Rico",
+            "contract_number": "SPE1C1-19-D-1163",
+            "markers": "**"
+          }
+        ],
+        "action": "modification",
+        "contract_type": "firm-fixed-price indefinite-delivery/indefinite-quantity",
+        "description": "Exercise of third one-year option period for Navy working uniform blouses and trousers, maternity blouses and Army combat uniform trousers",
+        "base_contract_number": "SPE1C1-19-D-1163",
+        "order_number": null,
+        "modification_number": "P00026",
+        "value_usd": 9814703,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "U.S. Ordnance,* McCarran, Nevada, was awarded a $49,925,895 firm-fixed-price contract for the MK19 MOD 3 Grenade Machine Gun, spare parts kits and spare barrel assemblies. Bids were solicited via the internet with four received. Work locations and funding will be determined with each order, with an estimated completion date of April 7, 2026. U.S. Army Corps of Engineers, Newark, New Jersey, is the contracting activity (W15QKN-22-D-0013).",
-      "seq": 7
+      "seq": 7,
+      "fields": {
+        "contract_numbers": [
+          "W15QKN22D0013"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 49925895.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2026-04-07",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Newark, New Jersey",
+          "code": "W15QKN-22-D-0013"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 7,
+        "awardees": [
+          {
+            "name": "U.S. Ordnance",
+            "location": "McCarran, Nevada",
+            "contract_number": "W15QKN-22-D-0013",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "MK19 MOD 3 Grenade Machine Gun, spare parts kits and spare barrel assemblies",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 49925895,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, four bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Grunley Construction Company Inc., Rockville, Maryland, was awarded a $22,193,000 firm-fixed-price contract to modernize buildings and create facilities. Bids were solicited via the internet with three received. Work will be performed in Beltsville, Maryland, with an estimated completion date of Oct. 25, 2024. Fiscal 2010 civil operation and maintenance funds in the amount of $22,193,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity (W912DR-22-C-0011).",
-      "seq": 8
+      "seq": 8,
+      "fields": {
+        "contract_numbers": [
+          "W912DR22C0011"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 22193000.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22193000.0,
+        "funding_text": "Fiscal 2010 civil operation and maintenance funds in the amount of $22,193,000 were obligated at the time of the award",
+        "completion_date": "2024-10-25",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, Baltimore, Maryland",
+          "code": "W912DR-22-C-0011"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 8,
+        "awardees": [
+          {
+            "name": "Grunley Construction Company Inc.",
+            "location": "Rockville, Maryland",
+            "contract_number": "W912DR-22-C-0011",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Modernize buildings and create facilities in Beltsville, Maryland",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 22193000,
+        "cumulative_value_usd": null,
+        "obligated_usd": 22193000,
+        "fms_countries": [],
+        "competition": "internet solicitation, three bids received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "announcement",
       "text": "Tar LLC,* Houma, Louisiana, was awarded an $8,584,182 firm-fixed-price contract for inspection, maintenance, and repairs to electrical and electronic dredging equipment, propulsion system and auxiliary systems aboard the Wheeler dredge. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of April 3, 2027. U.S. Army Corps of Engineers, New Orleans, Louisiana, is the contracting activity (W912P8-22-D-0012).",
-      "seq": 9
+      "seq": 9,
+      "fields": {
+        "contract_numbers": [
+          "W912P822D0012"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 8584182.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": "2027-04-03",
+        "contracting_activity": {
+          "name": "U.S. Army Corps of Engineers, New Orleans, Louisiana",
+          "code": "W912P8-22-D-0012"
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": [
+          {
+            "marker": "*",
+            "meaning": "Small business"
+          }
+        ]
+      },
+      "extracted": {
+        "seq": 9,
+        "awardees": [
+          {
+            "name": "Tar LLC",
+            "location": "Houma, Louisiana",
+            "contract_number": "W912P8-22-D-0012",
+            "markers": "*"
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "firm-fixed-price",
+        "description": "Inspection, maintenance, and repairs to electrical and electronic dredging equipment and systems aboard the Wheeler dredge",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 8584182,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": "internet solicitation, one bid received",
+        "award_date": null
+      }
     },
     {
       "agency": "ARMY",
       "kind": "correction",
       "text": "CORRECTION: The $9,630,900 contract (W912P8-22-F-0066) announced April 6, 2022, to Pine Bluff Sand and Gravel Co., White Hall, Arkansas, for stone paving and stone repairs along the banks of the Mississippi River was actually awarded on April 7, 2022.",
-      "seq": 10
+      "seq": 10,
+      "fields": {
+        "contract_numbers": [
+          "W912P822F0066"
+        ],
+        "modification_numbers": [],
+        "is_modification": false,
+        "value_usd": 9630900.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "funding_text": null,
+        "completion_date": null,
+        "contracting_activity": null,
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 10,
+        "awardees": [
+          {
+            "name": "Pine Bluff Sand and Gravel Co.",
+            "location": "White Hall, Arkansas",
+            "contract_number": "W912P8-22-F-0066",
+            "markers": null
+          }
+        ],
+        "action": "correction",
+        "contract_type": null,
+        "description": "Correction: stone paving and stone repairs along the banks of the Mississippi River; award date corrected from April 6, 2022 to April 7, 2022",
+        "base_contract_number": null,
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 9630900,
+        "cumulative_value_usd": null,
+        "obligated_usd": null,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": "2022-04-07"
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:47Z",
-  "source": "file:2022-04-07.html"
+  "source": "file:2022-04-07.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T01:53:21Z"
+  }
 }

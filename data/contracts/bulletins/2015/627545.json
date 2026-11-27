@@ -9,15 +9,111 @@
       "agency": "NAVY",
       "kind": "announcement",
       "text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is being awarded an undefinitized contractual action not-to-exceed $5,370,955,495 to the previously awarded low-rate initial production Lot IX F-35 Lightning II Joint Strike Fighter advance acquisition contract (N00019-14-C-0002). This modification provides for the procurement of 41 F-35A aircraft, including 26 F-35As for the Air Force; six F-35As for Norway; seven F-35As for Israel; two F-35As for Japan; 12 F-35Bs, including six for the Marine Corps and six for the British Royal Navy; and two F-35Cs for the Navy. Work will be performed in Fort Worth, Texas (30 percent); El Segundo, California (25 percent); Warton, United Kingdom (20 percent); Orlando, Florida (10 percent); Nashua, New Hampshire (5 percent); Nagoya, Japan (5 percent); and Baltimore, Maryland (5 percent), and is expected to be completed in December 2017. Fiscal 2016 aircraft procurement (Air Force, Marine Corps, and Navy); and non-U.S. Department of Defense participants and foreign military sales funds in the amount of $625,099,999, are being obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
-      "seq": 1
+      "seq": 1,
+      "fields": {
+        "contract_numbers": [
+          "N0001914C0002"
+        ],
+        "modification_numbers": [],
+        "is_modification": true,
+        "value_usd": 5370955495.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 625099999.0,
+        "funding_text": "Fiscal 2016 aircraft procurement (Air Force, Marine Corps, and Navy); and non-U.S. Department of Defense participants and foreign military sales funds in the amount of $625,099,999, are being obligated on this award, none of which will expire at the end of the current fiscal year",
+        "completion_date": "2017-12",
+        "contracting_activity": {
+          "name": "The Naval Air Systems Command, Patuxent River, Maryland",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 1,
+        "awardees": [
+          {
+            "name": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co.",
+            "location": "Fort Worth, Texas",
+            "contract_number": "N00019-14-C-0002",
+            "markers": null
+          }
+        ],
+        "action": "new_contract",
+        "contract_type": "undefinitized contract action",
+        "description": "Lot IX F-35 Lightning II Joint Strike Fighter procurement of 41 F-35 aircraft (low-rate initial production)",
+        "base_contract_number": "N00019-14-C-0002",
+        "order_number": null,
+        "modification_number": null,
+        "value_usd": 5370955495,
+        "cumulative_value_usd": null,
+        "obligated_usd": 625099999,
+        "fms_countries": [
+          "Norway",
+          "Israel",
+          "Japan",
+          "United Kingdom"
+        ],
+        "competition": null,
+        "award_date": null
+      }
     },
     {
       "agency": "AIR FORCE",
       "kind": "announcement",
       "text": "Northrop Grumman Information Systems, El Segundo, California, has been awarded a $9,179,598 modification (P00032) to previously awarded contract FA8808-13-C-0001 for Enhanced Polar System Control and Planning Segment protected key management architecture (KMA). Contractor will assist in transitioning from the current KMA to the protected satellite communication KMA by providing factory testing and support for operational transitional planning. Work will be performed at El Segundo, California, and is expected to be completed by Sept. 30, 2017. Fiscal 2015 research, development, test, and evaluation funds in the amount of $6,959,465 are being obligated at the time of award. Space and Missile Systems Center, Los Angeles Air Force Base, California, is the contracting activity.",
-      "seq": 2
+      "seq": 2,
+      "fields": {
+        "contract_numbers": [
+          "FA880813C0001"
+        ],
+        "modification_numbers": [
+          "P00032"
+        ],
+        "is_modification": true,
+        "value_usd": 9179598.0,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6959465.0,
+        "funding_text": "Fiscal 2015 research, development, test, and evaluation funds in the amount of $6,959,465 are being obligated at the time of award",
+        "completion_date": "2017-09-30",
+        "contracting_activity": {
+          "name": "Space and Missile Systems Center, Los Angeles Air Force Base, California",
+          "code": null
+        },
+        "fms": false,
+        "fms_countries": [],
+        "markers": []
+      },
+      "extracted": {
+        "seq": 2,
+        "awardees": [
+          {
+            "name": "Northrop Grumman Information Systems",
+            "location": "El Segundo, California",
+            "contract_number": "FA8808-13-C-0001",
+            "markers": null
+          }
+        ],
+        "action": "modification",
+        "contract_type": null,
+        "description": "Enhanced Polar System Control and Planning Segment protected key management architecture (KMA) transition support",
+        "base_contract_number": "FA8808-13-C-0001",
+        "order_number": null,
+        "modification_number": "P00032",
+        "value_usd": 9179598,
+        "cumulative_value_usd": null,
+        "obligated_usd": 6959465,
+        "fms_countries": [],
+        "competition": null,
+        "award_date": null
+      }
     }
   ],
   "fetched_at": "2026-11-26T17:49:30Z",
-  "source": "file:2015-11-03.html"
+  "source": "file:2015-11-03.html",
+  "processed": {
+    "version": 1,
+    "model": "claude-haiku-5-5",
+    "at": "2026-11-27T04:44:50Z"
+  }
 }
