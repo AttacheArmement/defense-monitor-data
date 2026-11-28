@@ -102,24 +102,53 @@ def _norm(n):
     return parse.normalize_contract(n) if n else None
 
 
+def _text(v):
+    """Claude occasionally gives a list (['*']) where text is expected."""
+    if v is None or isinstance(v, str):
+        return v
+    if isinstance(v, list):
+        return "".join(str(x) for x in v if x is not None) or None
+    return str(v)
+
+
+def _number(v):
+    """Amounts occasionally come back as text ('64,059,000') or an object; keep only real numbers."""
+    if isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float)):
+        return v
+    if isinstance(v, str):
+        try:
+            return float(v.replace(",", "").replace("$", "").strip())
+        except ValueError:
+            return None
+    return None
+
+
 def flatten(b: dict, a: dict) -> dict:
     """One announcement as a flat record, merging pattern fields and Claude's extraction."""
     f = a.get("fields") or parse.fields(a["text"], b.get("legend"))
-    e = a.get("extracted") or {}
+    e = dict(a.get("extracted") or {})
+    for k in ("value_usd", "cumulative_value_usd", "obligated_usd"):
+        e[k] = _number(e.get(k))
+    for k in ("action", "contract_type", "description", "base_contract_number", "order_number",
+              "modification_number", "competition", "award_date"):
+        e[k] = _text(e.get(k))
     legend = b.get("legend") or {}
 
     def pick(*vals):
         return next((v for v in vals if v not in (None, "", [])), None)
 
     awardees = []
-    for i, w in enumerate(e.get("awardees") or [], 1):
-        marks = (w.get("markers") or "").strip() or None
+    for i, w in enumerate((w for w in e.get("awardees") or [] if isinstance(w, dict)), 1):
+        marks = (_text(w.get("markers")) or "").strip() or None
         meanings = legend.get(marks) if marks else None
-        awardees.append({"position": i, "name": (w.get("name") or "").rstrip(" ,*"), "location": w.get("location"),
-                         "contract_number": _norm(w.get("contract_number")), "markers": marks,
+        awardees.append({"position": i, "name": (_text(w.get("name")) or "").rstrip(" ,*"), "location": _text(w.get("location")),
+                         "contract_number": _norm(_text(w.get("contract_number"))), "markers": marks,
                          "marker_meanings": meanings or None,
                          "small_business": int("small business" in (meanings or "").lower())})
-    countries = list(dict.fromkeys((f.get("fms_countries") or []) + (e.get("fms_countries") or [])))
+    countries = list(dict.fromkeys(c for c in (f.get("fms_countries") or []) + list(e.get("fms_countries") or [])
+                                   if isinstance(c, str)))
     activity = f.get("contracting_activity") or {}
     action = e.get("action") or ("correction" if a["kind"] == "correction"
                                  else "modification" if f.get("is_modification") else None)
