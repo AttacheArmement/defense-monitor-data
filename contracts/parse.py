@@ -217,3 +217,82 @@ def parse(html: str, url: str | None = None) -> dict:
     for a in b["announcements"]:
         a.update(fields(a["text"], b["legend"]))
     return b
+
+
+# --- long contractor lists ---------------------------------------------------------------------
+# Multiple-award announcements can list hundreds of contractors ("Name,* City, State (contract);
+# ..."). Writing them all back out exceeds Claude's answer length, so they are read here instead.
+_PLACE_WORD = r"[A-Z][A-Za-z.'’\-]*"
+_PLACE_RE = re.compile(rf"^{_PLACE_WORD}(?:\s+(?:{_PLACE_WORD}|of|de|la|du|d’|d'))*$")
+_SEGMENT_SEP_RE = re.compile(r";\s*(?:and\s+)?|(?<=\))\s+(?=[A-Z])")
+MIN_LIST = 60   # shorter lists fit in Claude's answer and are left to it
+
+
+US_STATES = ("Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|District of Columbia|"
+             "Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|"
+             "Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|"
+             "New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|"
+             "Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|"
+             "West Virginia|Wisconsin|Wyoming|Puerto Rico|Guam|DC|D\\.C\\.")
+
+
+def _awardee(segment: str):
+    """'Acme Corp.,* Herndon, Virginia (W15P7T-19-D-0001)' -> dict, or None if it doesn't fit."""
+    s = segment.strip()
+    contract = None
+    m = re.search(r"\(([A-Z][A-Z0-9-]{11,17})\)", s)
+    if m:
+        contract, s = normalize_contract(m.group(1)), s[:m.start()]
+    else:
+        s = re.split(r",?\s+(?:will|are|is|have|has)\s+(?:compete|been|awarded|being)", s)[0]
+    s = s.strip().rstrip(".,").strip()
+    # Typos in the source: "Reston. Virginia", "Chesapeake Virginia", "Corp.* Oakton, Virginia".
+    s = re.sub(rf"(?<=[a-z])\.?\s+({US_STATES})$", r", \1", s)
+    s = re.sub(r"(\*+)\s+(?=[A-Z])", r"\1, ", s)
+    parts = [p.strip() for p in s.split(",")]
+    if len(parts) < 3:
+        return None
+    city, state = parts[-2].strip("* "), parts[-1].strip("* ")
+    head = ", ".join(parts[:-2]) + "".join(re.findall(r"^\*+", parts[-2]))   # "Inc.,* Herndon"
+    if len(head) > 120:                                   # preamble before the first contractor
+        head = re.split(r":\s+|\.\s+(?=[A-Z])", head)[-1]
+    markers = "".join(re.findall(r"\*+", head)) or None
+    name = re.sub(r"\s*\*+\s*", "", head).strip(" ,")
+    if not (name and name[0].isalnum() and _PLACE_RE.match(city) and _PLACE_RE.match(state)
+            and len(state) < 30 and len(city) < 40 and name.count("(") == name.count(")")
+            and len(name) < 150):
+        return None
+    return {"name": name, "location": f"{city}, {state}", "contract_number": contract,
+            "markers": markers, "start": None}
+
+
+def awardee_list(text: str):
+    """For an announcement with a long contractor list: (awardees, text with the list replaced by a
+    short placeholder). None when the announcement has no such list."""
+    pos, found = 0, []
+    for m in list(_SEGMENT_SEP_RE.finditer(text)) + [None]:
+        end = m.start() if m else len(text)
+        seg = text[pos:end]
+        w = _awardee(seg)
+        if w:
+            lead = len(seg) - len(seg.lstrip())
+            start = pos + lead
+            if len(seg.split(",")) > 3 and len(", ".join(seg.split(",")[:-2])) > 120:
+                start = pos + seg.find(w["name"][:20])       # skip the preamble
+            found.append((start, end, w))
+        pos = m.end() if m else end
+    if len(found) < MIN_LIST:
+        return None
+    awardees = [w for _, _, w in found]
+    for w in awardees:
+        w.pop("start")
+    first, last = found[0][0], found[-1][1]
+    tail = text[last:]
+    # The last entry often runs into the rest of the sentence ("..., Alabama (W15P7T-19-D-0198), will compete").
+    m = re.search(r"\([A-Z][A-Z0-9-]{11,17}\)", text[found[-1][0]:last])
+    if m:
+        tail = text[found[-1][0] + m.end():]
+    elif not tail.strip():
+        tail = "."
+    placeholder = f"[list of {len(awardees)} contractors omitted; they are recorded separately]"
+    return awardees, text[:first] + placeholder + tail
